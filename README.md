@@ -1,5 +1,7 @@
 # Hello! Stay a while and listen.
 
+![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Ground%20Loot.jpg)
+
 If you would like to contact me, find me in the offical PD2 Discord with the name eqN.
 
 I've created what is essentially a remastered version of Kryszard's Project Diablo 2 loot filter.
@@ -8,8 +10,11 @@ https://github.com/Kryszard-POD/Kryszard-s-PD2-Loot-Filter
 
 I have kept all of the core features intact and added several QoL features with much less strict but still very focused filtration as you level, especially end game.
 
-All elite tier items are showing, even after level 80, with only small exceptions for either some class items that are of low +Skill values or weapons with a maximum of 2 sockets or less. Exceptional rares still show past level 80, as well as any rare class items (wands, orbs, helms, scepters, staves, claws) and bows of all tiers will always show as well. Select ethereal and/or magic weapons from all tiers, those that are best for crafting, will continue to show.
-Ethereal merc weapons of all tiers, for Insight, show.
+All elite tier items are showing, even after level 80, with only small exceptions for either some class items that are of low +Skill values or weapons with a maximum of 2 sockets or less. Exceptional tier rares will still show at all levels. Any rare class items (wands, orbs, helms, scepters, staves, claws) and any rare bows or crossbows of all tiers will always show as well. 
+
+Select ethereal and/or magic items from all tiers, those that are best for crafting, will continue to show, and they will be indicated by two gray asterisks on either side.
+
+Ethereal white (gray) mercenary weapons of all tiers, for use with Insight, show.
 
 Any class items with +3 to at least one of any useful skill will now always show, regardless of item tier, as well as any elite class items that can be used for Rune Words.
 
@@ -17,7 +22,7 @@ The same high value items that were set to alert you on drop with Kryszard's fil
 
 This filter is for those of us used to life without one. For anyone who likes to see all the usable items that possibly drop, but without the clutter of vanilla Diablo 2 loot.
 
-Grindy solo players or those seeking out less commonly used items for specialty builds may find this filter most useful. It will show you if anything remotely useful into the late game would drop for any class. Period.
+Grindy solo players, hardcore players, or simply those seeking out less commonly used items for specialty builds may find this filter most useful compared to others. This filter will show you if anything remotely useful, even into the late game, would drop for any class. Period.
 
 I will also release a stricter alternative version of the filter, reminiscent of Kryszard's somewhat, for those interested.
 
@@ -25,31 +30,31 @@ I will also release a stricter alternative version of the filter, reminiscent of
 
 1.0.0 -
 
-Re-optimized the filter's structure to make editing easier and cut back on some redundancies.
-
-Replaced the word 'Superior' on superior items with an orange + sign. 
+Replaced the word 'Superior' on superior items with an orange + sign at the front of item names.
 
 All presently showing superior items with Enhanced Defense or Enhanced Damage will show their percentage at all stages of the game.
 
-All possible Rune Words, and the socketing recipe, will show in the description on applicable items, from all difficulties, at all times if seen by your character.
+Stack sizes now only show on item names for stacks > 1.
+
+All possible Rune Words or the method of socketing will show in the description on applicable items at all times, if that item is seen by your character.
 
 Added a description to unsocketed superior items advising they can be socketed only through Larzuk or Corruption.
 
-Ethereal items will now be tagged with [e] at the front of their names.
+Ethereal items will be tagged with [e] at the front of their names.
+
+More magic items worth crafting now show up with a gray asterisk crafting base indication, and select few with added alerts.
 
 Reduced the threshold for Enhanced Damage and Increased Resistance paladin shields to be shown.
 
-Paladin shields with All Resistance will now show such [#r] behind their names instead of in front.
+Paladin shields with any All Resistance or high Enhanced Damage will now show such ([#r] or [ed]) behind their names instead of in front.
 
 Potion names have been greatly shrunk across the board, and greater mana potions now still show in Hell.
 
-Reduced spacing on some item name formatting to help reduce visual clutter.
-
-Removed price tags from all items but identified rare items to help reduce visual clutter.
+Restructured item name formatting to help reduce visual clutter.
 
 Shortened skill names shown on dropped white class items to help reduce visual clutter.
 
-More magic items worth crafting now show up with the gray asterisk crafting base indication, and select few with added alerts.
+Removed exact item prices, and instead replaced a green $ indicator on identified rares if they sell for maximum value for each respective difficulty.
 
 Item level 88+ amulets will be marked [C] to indicate they're desired for crafting, and they will tell you what level to craft them at for +2 class skills.
 
@@ -57,8 +62,10 @@ All circlets of all tiers will always show, except if they are lower tier, white
 
 All circlets will show the ideal level to imbue them for +2 to class skills in their description.
 
-All Runes of all tiers, all uniques, and any decent set items will continue to alert you on drop after level 80.
+All Runes of all tiers, all uniques, and any decent set items will continue to alert you on drop at all levels.
+
+Added the new Diablo Clone ultra rare uniques to the filter with alerts and enlarged names identical to other high value uniques.
 
 Corrected and reduced any incorrect or unnecessary vocabulary in item descriptions and improved the overall visual experience.
 
-Added the new Diablo Clone ultra rare uniques to the filter with the familiar alerts and enlarged names like other high value uniques.
+Re-optimized the filter's structure to make editing easier and cut back on some redundancies.
