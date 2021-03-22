@@ -14,7 +14,7 @@ All elite tier items are showing, even after level 80, with only small exception
 
 Select ethereal and/or magic items from all tiers, those that are best for crafting, will continue to show, and they will be indicated by two gray asterisks on either side.
 
-Ethereal white (gray) mercenary weapons of all tiers, for use with Insight, show.
+Ethereal white (gray) mercenary weapons of all tiers, for use with the Insight Rune Word, show at all levels.
 
 Any class items with +3 to at least one of any useful skill will now always show, regardless of item tier, as well as any elite class items that can be used for Rune Words.
 
