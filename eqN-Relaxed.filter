@@ -826,7 +826,7 @@ ItemDisplay[cm3 TABSK49>0]: %PURPLE%Shadow Disciplines %TAN%Skiller
 ItemDisplay[cm3 TABSK50>0]: %PURPLE%Martial Arts %TAN%Skiller
 
 //Note about High-LVL Grand Charms
-ItemDisplay[cm3 MAG ID ILVL>90]: %NAME%{%TAN%Cube %WHITE%with 3xPerf Gem%NL%%WHITE%ILVL%ORANGE%91+ %BLUE%Grand Charm%WHITE%, to Reroll:}
+ItemDisplay[cm3 MAG ID ILVL>90]: %NAME%{%TAN%Cube %WHITE%with 3x Perf Gem%NL%ILVL %GREEN%91+ %BLUE%Grand Charm%WHITE% Reroll:}
 
 //----------------------------------------- Unique, Set, Rare, and Magic Alerts and Formatting --------------------------------------------
 
@@ -916,30 +916,30 @@ ItemDisplay[((SCEPTER !(7sc)) OR (DRU !ETH) OR (BAR !ETH) OR (SIN (!7xf OR 7cs))
 ItemDisplay[(SOR OR (WAND !(ywn OR wnd OR 9wn))) MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
 
 //Notes For High ILVL Crafting Amulets
-ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Ral%NL%Craft at 92+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Ral%NL%Craft at 92+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Ral%NL%Craft at 90+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Ral%NL%Craft at 90+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Ral%NL%Craft at 88+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Ral%NL%Craft at 88+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Ral%NL%Craft at 86+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=95]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Ral%NL%Craft at 86+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Ral%NL%Craft at 84+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Ral%NL%Craft at 84+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Ral%NL%Craft at 82+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Ral%NL%Craft at 82+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 92+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 92+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 90+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 90+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 88+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 88+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 86+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=95]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 86+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 84+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 84+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 82+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 82+: %BLUE%Jewel +}
 
 //Craft Descriptions
-ItemDisplay[GLOVES MAG ID]: %NAME%{HP: Perf O %ORANGE%+ Ort %WHITE%| %GREEN%S: Perf O %ORANGE%+ Ral%NL%%RED%B: Perf O %ORANGE%+ Nef%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Ort%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[BOOTS MAG ID]: %NAME%{HP: Perf O %ORANGE%+ Ral %WHITE%| %GREEN%S: Perf O %ORANGE%+ Ort%NL%%RED%B: Perf O %ORANGE%+ Eth%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Thul%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[BELT MAG ID]: %NAME%{HP: Perf O %ORANGE%+ Tal %WHITE%| %GREEN%S: Perf O %ORANGE%+ Tal%NL%%RED%B: Perf O %ORANGE%+ Tal%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Ith%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[SHIELD MAG ID]: %NAME%{HP: Perf O %ORANGE%+ Eth %WHITE%| %GREEN%S: Perf O %ORANGE%+ Nef%NL%%RED%B: Perf O %ORANGE%+ Ith%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Eth%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[HELM MAG ID]: %NAME%{HP: Perf O %ORANGE%+ Ith %WHITE%| %GREEN%S: Perf O %ORANGE%+ Ith%NL%%RED%B: Perf O %ORANGE%+ Ral%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Nef%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[CHEST MAG ID]: %NAME%{HP: Perf O %ORANGE%+ Nef %WHITE%| %GREEN%S: Perf O %ORANGE%+ Eth%NL%%RED%B: Perf O %ORANGE%+ Thul%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Tal%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[WEAPON !(BOW OR XBOW) MAG ID]: %NAME%{HP: Perf O %ORANGE%+ Tir %WHITE%| %GREEN%S: %GRAY%Bows Only%NL%%RED%B: Perf O %ORANGE%+ Ort%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Tir%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[(BOW OR XBOW) MAG ID]: %NAME%{HP: Perf O %ORANGE%+ Tir %WHITE%| %GREEN%S: Perf O %ORANGE%+ Sol%NL%%RED%B: Perf O %ORANGE%+ Ort%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Tir%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[amu MAG]: %NAME%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf %PURPLE%O %ORANGE%+ Ral%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[rin MAG]: %NAME%{HP: Perf O %ORANGE%+ Amn %WHITE%| %GREEN%S: Perf O %ORANGE%+ Amn%NL%%RED%B: Perf O %ORANGE%+ Sol%WHITE% | %PURPLE%C: Perf %PURPLE%O%WHITE% %ORANGE%+ Amn%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[GLOVES MAG ID]: %NAME%{HP: Perf O %ORANGE%+ Ort %WHITE%| %GREEN%S: Perf O %ORANGE%+ Ral%NL%%RED%B: Perf O %ORANGE%+ Nef%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ort%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[BOOTS MAG ID]: %NAME%{HP: Perf O %ORANGE%+ Ral %WHITE%| %GREEN%S: Perf O %ORANGE%+ Ort%NL%%RED%B: Perf O %ORANGE%+ Eth%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Thul%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[BELT MAG ID]: %NAME%{HP: Perf O %ORANGE%+ Tal %WHITE%| %GREEN%S: Perf O %ORANGE%+ Tal%NL%%RED%B: Perf O %ORANGE%+ Tal%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ith%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[SHIELD MAG ID]: %NAME%{HP: Perf O %ORANGE%+ Eth %WHITE%| %GREEN%S: Perf O %ORANGE%+ Nef%NL%%RED%B: Perf O %ORANGE%+ Ith%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Eth%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[HELM MAG ID]: %NAME%{HP: Perf O %ORANGE%+ Ith %WHITE%| %GREEN%S: Perf O %ORANGE%+ Ith%NL%%RED%B: Perf O %ORANGE%+ Ral%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Nef%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[CHEST MAG ID]: %NAME%{HP: Perf O %ORANGE%+ Nef %WHITE%| %GREEN%S: Perf O %ORANGE%+ Eth%NL%%RED%B: Perf O %ORANGE%+ Thul%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Tal%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[WEAPON !(BOW OR XBOW) MAG ID]: %NAME%{HP: Perf O %ORANGE%+ Tir %WHITE%| %GREEN%S: %GRAY%Bows Only%NL%%RED%B: Perf O %ORANGE%+ Ort%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Tir%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[(BOW OR XBOW) MAG ID]: %NAME%{HP: Perf O %ORANGE%+ Tir %WHITE%| %GREEN%S: Perf O %ORANGE%+ Sol%NL%%RED%B: Perf O %ORANGE%+ Ort%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Tir%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[amu MAG]: %NAME%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[rin MAG]: %NAME%{HP: Perf O %ORANGE%+ Amn %WHITE%| %GREEN%S: Perf O %ORANGE%+ Amn%NL%%RED%B: Perf O %ORANGE%+ Sol%WHITE% | %PURPLE%C: Perf O%WHITE% %ORANGE%+ Amn%NL%Crafting: %BLUE%Jewel +}
 
 //----------------------------------------- Show Exact +SKILLS Values On NMAG Items --------------------------------------------
 
@@ -1566,7 +1566,7 @@ ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)
 ItemDisplay[(t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %GRAY%[%ORANGE%T3%GRAY%] %NAME% %ORANGE%*%CONTINUE%
 ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %GRAY%[%RED%Dungeon%GRAY%] %NAME% %RED%*%CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (!ID OR NMAG)]: %MAP-7F%%NAME%%CONTINUE%
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %NAME%{%WHITE%To modify Maps visit Anya%NL%%WHITE%To Reroll: %TAN%Cube %WHITE%with 3xPerf %GRAY%O}
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %NAME%{%WHITE%To modify Maps visit Anya%NL%%WHITE%To Reroll: %TAN%Cube %WHITE%with 3x Perf %GRAY%O}
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%WHITE%To modify Maps visit Anya}
 ItemDisplay[dcma]: %MAP-0A%%GRAY%*%RED%* %NAME% %RED%*%GRAY%*{%RED%PROCEED AT YOUR OWN RISK!%NL%%WHITE%%GRAY%You better not go in there...}
 ItemDisplay[dcbl OR dcho OR dcso]: %MAP-0A%%NAME% %RED%*{%RED%Diablo %GRAY%walks the earth...}
