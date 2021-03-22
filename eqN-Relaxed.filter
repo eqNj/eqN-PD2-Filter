@@ -6,7 +6,7 @@
 ItemDisplay[ETH UNI]: %GRAY%[%WHITE%e%GRAY%] %GOLD%%NAME%%CONTINUE%
 ItemDisplay[ETH RARE]: %GRAY%[%WHITE%e%GRAY%] %YELLOW%%NAME%%CONTINUE%
 ItemDisplay[ETH MAG]: %GRAY%[%WHITE%e%GRAY%] %BLUE%%NAME%%CONTINUE%
-ItemDisplay[ETH !SUP NMAG]: %GRAY%[%WHITE%e%GRAY%] %GRAY%%NAME%%CONTINUE%
+ItemDisplay[ETH !SUP NMAG]: %GRAY%[%WHITE%e%GRAY%] %NAME%%CONTINUE%
 ItemDisplay[ETH CRAFT]: %GRAY%[%WHITE%e%GRAY%] %ORANGE%%NAME%%CONTINUE%
 
 //Coloring NMAG Items
@@ -16,7 +16,7 @@ ItemDisplay[(ARMOR OR WEAPON) NMAG SOCK>0]: %GRAY%%NAME%%CONTINUE%
 //----------------------------------------- Superior Base Renaming and Formatting -----------------------------------------
 ItemDisplay[(ARMOR OR WEAPON) SUP NMAG RW (ED>0 OR MAXDUR>0 OR ARPER>0 OR MAXDMG>0) SOCK=0]: %ORANGE%+%WHITE%%NAME%%CONTINUE%
 ItemDisplay[(ARMOR OR WEAPON) SUP NMAG RW (ED>0 OR MAXDUR>0 OR ARPER>0 OR MAXDMG>0) SOCK>0]: %ORANGE%+%GRAY%%NAME%%CONTINUE%
-ItemDisplay[ETH SUP RW NMAG]: %GRAY%[%WHITE%e%GRAY%] %GRAY%%NAME%%CONTINUE%
+ItemDisplay[ETH SUP RW NMAG]: %GRAY%[%WHITE%e%GRAY%] %NAME%%CONTINUE%
 ItemDisplay[SUP RW]: %NAME%
 ItemDisplay[SUP cap]: Cap%CONTINUE%
 ItemDisplay[SUP xap]: War Hat%CONTINUE%
@@ -516,7 +516,7 @@ ItemDisplay[((ARMOR (!CL3)) OR WEAPON) SUP NMAG !RW (ED>0 OR MAXDUR>0 OR ARPER>0
 ItemDisplay[((ARMOR (!CL3)) OR WEAPON) SUP NMAG !RW (ED>0 OR MAXDUR>0 OR ARPER>0 OR MAXDMG>0 OR AR>0) (SOCK>0 OR ETH)]: %ORANGE%+%GRAY%%NAME%%CONTINUE%
 ItemDisplay[CL3 SUP NMAG !RW (ED>0 OR MAXDUR>0 OR ARPER>0 OR MAXDMG>0) SOCK=0 !ETH]: %ORANGE%+%WHITE%%NAME%%CONTINUE%
 ItemDisplay[CL3 SUP NMAG !RW (ED>0 OR MAXDUR>0 OR ARPER>0 OR MAXDMG>0) (SOCK>0 OR ETH)]: %ORANGE%+%GRAY%%NAME%%CONTINUE%
-ItemDisplay[ETH SUP NMAG]: %GRAY%[%WHITE%e%GRAY%] %GRAY%%NAME%%CONTINUE%
+ItemDisplay[ETH SUP NMAG]: %GRAY%[%WHITE%e%GRAY%] %NAME%%CONTINUE%
 
 //----------------------------------------- Formatting --------------------------------------------
 
@@ -886,6 +886,7 @@ ItemDisplay[SET !ID CLVL<80]: %PX-84%%NAME%
 ItemDisplay[WEAPON !UNI TABSK34>2]: %NAME%%NL%%RED%***   %GREEN%Warcries Weapon%RED%   ***{%RED%***   %GREEN%Warcries Weapon%RED%   ***%NL%%WHITE%Hey, looking for me?}
 ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK278>1)]: %NAME%%NL%%RED%***   %GREEN%Venom Claws%RED%   ***{%RED%***   %GREEN%Venom Claws%RED%   ***%NL%%WHITE%Hey, looking for me?}
 ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK273>1)]: %NAME%%NL%%RED%***   %GREEN%Mind Blast Claws%RED%   ***{%RED%***   %GREEN%Mind Blast Claws%RED%   ***%NL%%WHITE%Hey, looking for me?}
+ItemDisplay[SIN !UNI (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) AND (SK280>1 OR SK265>1)))]: %NAME%%NL%%RED%***   %GREEN%Martial Arts Claws%RED%   ***{%RED%***   %GREEN%Martial Arts Claws%RED%   ***%NL%%WHITE%Hey, looking for me?}
 ItemDisplay[SIN !UNI (TABSK48>2 OR ((TABSK48>1 OR CLSK6>1) AND (SK366>1 OR SK276>1 OR SK272>1 OR SK271>1 OR SK262>1)))]: %NAME%%NL%%RED%***   %GREEN%Traps Claws%RED%   ***{%RED%***   %GREEN%Traps Claws%RED%   ***%NL%%WHITE%Hey, looking for me?}
 ItemDisplay[GLOVES !UNI ((TABSK0>2) OR (TABSK1>2) OR (TABSK2>2) OR (TABSK50>2))]: %NAME%%NL%%RED%***   %GREEN%+3 Skill Gloves%RED%   ***{%RED%***   %GREEN%+3 Skill Gloves%RED%   ***%NL%%WHITE%Hey, looking for me?}
 ItemDisplay[SCEPTER !UNI ((TABSK24>2 AND SK101>1) OR (TABSK24>1 AND SK101>2) OR (CLSK3>1 AND SK101>2))]: %NAME%%NL%%RED%***   %GREEN%Holy Bolt Scepter%RED%   ***{%RED%***   %GREEN%Holy Bolt Scepter%RED%   ***%NL%%WHITE%Hey, looking for me?}
@@ -964,12 +965,12 @@ ItemDisplay[NMAG !RW SK263=3]: %NAME%%NL%+3 Wpn Block%CONTINUE%
 ItemDisplay[NMAG !RW SK264=1]: %NAME%%NL%+1 Cloak.Shad%CONTINUE%
 ItemDisplay[NMAG !RW SK264=2]: %NAME%%NL%+2 Cloak.Shad%CONTINUE%
 ItemDisplay[NMAG !RW SK264=3]: %NAME%%NL%+3 Cloak.Shad%CONTINUE%
-ItemDisplay[NMAG !RW SK265=1]: %NAME%%NL%+1 C Strike%CONTINUE%
-ItemDisplay[NMAG !RW SK265=2]: %NAME%%NL%+2 C Strike%CONTINUE%
-ItemDisplay[NMAG !RW SK265=3]: %NAME%%NL%+3 C Strike%CONTINUE%
-ItemDisplay[NMAG !RW SK266=1]: %NAME%%NL%+1 B Fury%CONTINUE%
-ItemDisplay[NMAG !RW SK266=2]: %NAME%%NL%+2 B Fury%CONTINUE%
-ItemDisplay[NMAG !RW SK266=3]: %NAME%%NL%+3 B Fury%CONTINUE%
+ItemDisplay[NMAG !RW SK265=1]: %NAME%%NL%+1 Cbr Strike%CONTINUE%
+ItemDisplay[NMAG !RW SK265=2]: %NAME%%NL%+2 Cbr Strike%CONTINUE%
+ItemDisplay[NMAG !RW SK265=3]: %NAME%%NL%+3 Cbr Strike%CONTINUE%
+ItemDisplay[NMAG !RW SK266=1]: %NAME%%NL%+1 Bld Fury%CONTINUE%
+ItemDisplay[NMAG !RW SK266=2]: %NAME%%NL%+2 Bld Fury%CONTINUE%
+ItemDisplay[NMAG !RW SK266=3]: %NAME%%NL%+3 Bld Fury%CONTINUE%
 ItemDisplay[NMAG !RW SK267=1]: %NAME%%NL%+1 Fade%CONTINUE%
 ItemDisplay[NMAG !RW SK267=2]: %NAME%%NL%+2 Fade%CONTINUE%
 ItemDisplay[NMAG !RW SK267=3]: %NAME%%NL%+3 Fade%CONTINUE%
@@ -1032,9 +1033,9 @@ ItemDisplay[NMAG !RW SK131=3]: %NAME%%NL%+3 Find Pot%CONTINUE%
 ItemDisplay[NMAG !RW SK132=1]: %NAME%%NL%+1 Leap%CONTINUE%
 ItemDisplay[NMAG !RW SK132=2]: %NAME%%NL%+2 Leap%CONTINUE%
 ItemDisplay[NMAG !RW SK132=3]: %NAME%%NL%+3 Leap%CONTINUE%
-ItemDisplay[NMAG !RW SK133=1]: %NAME%%NL%+1 D Swing%CONTINUE%
-ItemDisplay[NMAG !RW SK133=2]: %NAME%%NL%+2 D Swing%CONTINUE%
-ItemDisplay[NMAG !RW SK133=3]: %NAME%%NL%+3 D Swing%CONTINUE%
+ItemDisplay[NMAG !RW SK133=1]: %NAME%%NL%+1 Dbl Swing%CONTINUE%
+ItemDisplay[NMAG !RW SK133=2]: %NAME%%NL%+2 Dbl Swing%CONTINUE%
+ItemDisplay[NMAG !RW SK133=3]: %NAME%%NL%+3 Dbl Swing%CONTINUE%
 ItemDisplay[NMAG !RW SK135=1]: %NAME%%NL%+1 Thw Mastery%CONTINUE%
 ItemDisplay[NMAG !RW SK135=2]: %NAME%%NL%+2 Thw Mastery%CONTINUE%
 ItemDisplay[NMAG !RW SK135=3]: %NAME%%NL%+3 Thw Mastery%CONTINUE%
@@ -1050,9 +1051,9 @@ ItemDisplay[NMAG !RW SK138=3]: %NAME%%NL%+3 Shout%CONTINUE%
 ItemDisplay[NMAG !RW SK139=1]: %NAME%%NL%+1 Stun%CONTINUE%
 ItemDisplay[NMAG !RW SK139=2]: %NAME%%NL%+2 Stun%CONTINUE%
 ItemDisplay[NMAG !RW SK139=3]: %NAME%%NL%+3 Stun%CONTINUE%
-ItemDisplay[NMAG !RW SK140=1]: %NAME%%NL%+1 D Throw%CONTINUE%
-ItemDisplay[NMAG !RW SK140=2]: %NAME%%NL%+2 D Throw%CONTINUE%
-ItemDisplay[NMAG !RW SK140=3]: %NAME%%NL%+3 D Throw%CONTINUE%
+ItemDisplay[NMAG !RW SK140=1]: %NAME%%NL%+1 Dbl Throw%CONTINUE%
+ItemDisplay[NMAG !RW SK140=2]: %NAME%%NL%+2 Dbl Throw%CONTINUE%
+ItemDisplay[NMAG !RW SK140=3]: %NAME%%NL%+3 Dbl Throw%CONTINUE%
 ItemDisplay[NMAG !RW SK141=1]: %NAME%%NL%+1 Reflexes%CONTINUE%
 ItemDisplay[NMAG !RW SK141=2]: %NAME%%NL%+2 Reflexes%CONTINUE%
 ItemDisplay[NMAG !RW SK141=3]: %NAME%%NL%+3 Reflexes%CONTINUE%
@@ -1062,12 +1063,12 @@ ItemDisplay[NMAG !RW SK142=3]: %NAME%%NL%+3 Find Item%CONTINUE%
 ItemDisplay[NMAG !RW SK143=1]: %NAME%%NL%+1 Leap Atk%CONTINUE%
 ItemDisplay[NMAG !RW SK143=2]: %NAME%%NL%+2 Leap Atk%CONTINUE%
 ItemDisplay[NMAG !RW SK143=3]: %NAME%%NL%+3 Leap Atk%CONTINUE%
-ItemDisplay[NMAG !RW SK144=1]: %NAME%%NL%+1 Conc%CONTINUE%
-ItemDisplay[NMAG !RW SK144=2]: %NAME%%NL%+2 Conc%CONTINUE%
-ItemDisplay[NMAG !RW SK144=3]: %NAME%%NL%+3 Conc%CONTINUE%
-ItemDisplay[NMAG !RW SK145=1]: %NAME%%NL%+1 Irn Skn%CONTINUE%
-ItemDisplay[NMAG !RW SK145=2]: %NAME%%NL%+2 Irn Skn%CONTINUE%
-ItemDisplay[NMAG !RW SK145=3]: %NAME%%NL%+3 Irn Skn%CONTINUE%
+ItemDisplay[NMAG !RW SK144=1]: %NAME%%NL%+1 Concent%CONTINUE%
+ItemDisplay[NMAG !RW SK144=2]: %NAME%%NL%+2 Concent%CONTINUE%
+ItemDisplay[NMAG !RW SK144=3]: %NAME%%NL%+3 Concent%CONTINUE%
+ItemDisplay[NMAG !RW SK145=1]: %NAME%%NL%+1 Iron Skin%CONTINUE%
+ItemDisplay[NMAG !RW SK145=2]: %NAME%%NL%+2 Iron Skin%CONTINUE%
+ItemDisplay[NMAG !RW SK145=3]: %NAME%%NL%+3 Iron Skin%CONTINUE%
 ItemDisplay[NMAG !RW SK146=1]: %NAME%%NL%+1 Btl Cry%CONTINUE%
 ItemDisplay[NMAG !RW SK146=2]: %NAME%%NL%+2 Btl Cry%CONTINUE%
 ItemDisplay[NMAG !RW SK146=3]: %NAME%%NL%+3 Btl Cry%CONTINUE%
@@ -1784,7 +1785,7 @@ ItemDisplay[(72h OR 7gs) ETH !INF !SUP SOCK=0 NMAG]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(7ar OR 7tw OR 7qr OR 9tw) (SK275>0 OR SK276>0 OR SK278>0) ETH !INF !SUP SOCK=0 NMAG]: %DOT-D6%%NAME%{%NAME%}
 
 //Plague
-ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>0) !INF !SUP SOCK=0 NMAG]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>2 OR SK280>2) !INF !SUP SOCK=0 NMAG]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(SCEPTER !(scp OR 9sc OR 7sc)) (SK101>2 OR SK112>2 OR SK118>2 OR SK121>2) !INF !SUP SOCK=0 NMAG]: %NAME%{%NAME%}
 
 //Amazon Spears
@@ -1849,7 +1850,7 @@ ItemDisplay[(7ar OR 7tw OR 7qr OR 9tw) (SK275>0 OR SK276>0 OR SK278>0) ETH SOCK=
 
 //Plague
 ItemDisplay[(SCEPTER !(scp OR 9sc OR 7sc OR wsp OR 9ws OR 7ws)) (SK101>2 OR SK112>2 OR SK118>2 OR SK121>2) SOCK=0 (INF OR SUP) NMAG]: %NAME%{%NAME%}
-ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>0) SOCK=0 (INF OR SUP) NMAG]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>2 OR SK280>2) SOCK=0 (INF OR SUP) NMAG]: %DOT-D6%%NAME%{%NAME%}
 
 //Armors
 ItemDisplay[(xtp OR utp OR uui OR uea OR ula OR utu OR urs OR uar) SOCK=0 SUP NMAG]: %NAME%{%NAME%}
@@ -1966,7 +1967,7 @@ ItemDisplay[(amd OR ame) TABSK2>2 !ETH !INF NMAG !RW SOCK=4]: %DOT-D6%%NAME%{%NA
 
 //Claws
 ItemDisplay[(7ar OR 7tw OR 7qr OR 9tw) (SK275>0 OR SK276>0 OR SK278>0) !INF ETH NMAG !RW SOCK=3]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>0) !INF NMAG !RW SOCK=3]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>2 OR SK280>2) !INF NMAG !RW SOCK=3]: %DOT-D6%%NAME%{%NAME%}
 
 //----------------------------------------- Class Specific Failsafes - Courtesy of Wolfie! -----------------------------------------
 
