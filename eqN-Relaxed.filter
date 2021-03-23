@@ -903,17 +903,17 @@ ItemDisplay[SET !ID CLVL<80]: %PX-84%%NAME%
 
 //Shop Hunting Flags
 ItemDisplay[WEAPON !UNI TABSK34>2]: %NAME%%NL%%RED%***   %GREEN%Warcries Weapon%RED%   ***{%RED%***   %GREEN%Warcries Weapon%RED%   ***%NL%%WHITE%Hey, looking for me?}
-ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK278>1)]: %NAME%%NL%%RED%***   %GREEN%Venom Claws%RED%   ***{%RED%***   %GREEN%Venom Claws%RED%   ***%NL%%WHITE%Hey, looking for me?}
-ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK273>1)]: %NAME%%NL%%RED%***   %GREEN%Mind Blast Claws%RED%   ***{%RED%***   %GREEN%Mind Blast Claws%RED%   ***%NL%%WHITE%Hey, looking for me?}
-ItemDisplay[SIN !UNI (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) AND (SK280>1 OR SK265>1)))]: %NAME%%NL%%RED%***   %GREEN%Martial Arts Claws%RED%   ***{%RED%***   %GREEN%Martial Arts Claws%RED%   ***%NL%%WHITE%Hey, looking for me?}
-ItemDisplay[SIN !UNI (TABSK48>2 OR ((TABSK48>1 OR CLSK6>1) AND (SK366>1 OR SK276>1 OR SK272>1 OR SK271>1 OR SK262>1)))]: %NAME%%NL%%RED%***   %GREEN%Traps Claws%RED%   ***{%RED%***   %GREEN%Traps Claws%RED%   ***%NL%%WHITE%Hey, looking for me?}
-ItemDisplay[GLOVES !UNI ((TABSK0>2) OR (TABSK1>2) OR (TABSK2>2) OR (TABSK50>2))]: %NAME%%NL%%RED%***   %GREEN%+3 Skill Gloves%RED%   ***{%RED%***   %GREEN%+3 Skill Gloves%RED%   ***%NL%%WHITE%Hey, looking for me?}
-ItemDisplay[SCEPTER !UNI ((TABSK24>2 AND SK101>1) OR (TABSK24>1 AND SK101>2) OR (CLSK3>1 AND SK101>2))]: %NAME%%NL%%RED%***   %GREEN%Holy Bolt Scepter%RED%   ***{%RED%***   %GREEN%Holy Bolt Scepter%RED%   ***%NL%%WHITE%Hey, looking for me?}
-ItemDisplay[SCEPTER !UNI ((TABSK24>2 AND SK121>1) OR (TABSK24>1 AND SK121>2) OR (CLSK3>1 AND SK121>2))]: %NAME%%NL%%RED%***   %GREEN%FoH Scepter%RED%   ***{%RED%***   %GREEN%FoH Scepter%RED%   ***%NL%%WHITE%Hey, looking for me?}
-ItemDisplay[SCEPTER !UNI ((TABSK25>2 AND SK118>1) OR (TABSK25>1 AND SK118>2) OR (CLSK3>1 AND SK118>2))]: %NAME%%NL%%RED%***   %GREEN%Holy Shock Scepter%RED%   ***{%RED%***   %GREEN%Holy Shock Scepter%RED%   ***%NL%%WHITE%Hey, looking for me?}
-ItemDisplay[STAFF !UNI CHSK54>0]: %NAME%%NL%%RED%***   %GREEN%Teleport Charges%RED%   ***{%RED%***   %GREEN%Teleport Charges%RED%   ***%NL%%WHITE%Hey, looking for me?}
-ItemDisplay[WAND !UNI CHSK91>0]: %NAME%%NL%%RED%***   %GREEN%Lower Resist Charges%RED%   ***{%RED%***   %GREEN%Lower Resist Charges%RED%   ***%NL%%WHITE%Hey, looking for me?}
-ItemDisplay[WAND !UNI CHSK82>0]: %NAME%%NL%%RED%***   %GREEN%Life Tap Charges%RED%   ***{%RED%***   %GREEN%Life Tap Charges%RED%   ***%NL%%WHITE%Hey, looking for me?}
+ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK278>1)]: %NAME%   %RED%***   %GREEN%Venom Claws%RED%   ***{%RED%***   %GREEN%Venom Claws%RED%   ***%NL%%WHITE%Hey, looking for me?}
+ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK273>1)]: %NAME%   %RED%***   %GREEN%Mind Blast Claws%RED%   ***{%RED%***   %GREEN%Mind Blast Claws%RED%   ***%NL%%WHITE%Hey, looking for me?}
+ItemDisplay[SIN !UNI (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) AND (SK280>1 OR SK265>1)))]: %NAME%   %RED%***   %GREEN%Martial Arts Claws%RED%   ***{%RED%***   %GREEN%Martial Arts Claws%RED%   ***%NL%%WHITE%Hey, looking for me?}
+ItemDisplay[SIN !UNI (TABSK48>2 OR ((TABSK48>1 OR CLSK6>1) AND (SK366>1 OR SK276>1 OR SK272>1 OR SK271>1 OR SK262>1)))]: %NAME%   %RED%***   %GREEN%Traps Claws%RED%   ***{%RED%***   %GREEN%Traps Claws%RED%   ***%NL%%WHITE%Hey, looking for me?}
+ItemDisplay[GLOVES !UNI ((TABSK0>2) OR (TABSK1>2) OR (TABSK2>2) OR (TABSK50>2))]: %NAME%   %RED%***   %GREEN%+3 Skill Gloves%RED%   ***{%RED%***   %GREEN%+3 Skill Gloves%RED%   ***%NL%%WHITE%Hey, looking for me?}
+ItemDisplay[SCEPTER !UNI ((TABSK24>2 AND SK101>1) OR (TABSK24>1 AND SK101>2) OR (CLSK3>1 AND SK101>2))]: %NAME%   %RED%***   %GREEN%Holy Bolt Scepter%RED%   ***{%RED%***   %GREEN%Holy Bolt Scepter%RED%   ***%NL%%WHITE%Hey, looking for me?}
+ItemDisplay[SCEPTER !UNI ((TABSK24>2 AND SK121>1) OR (TABSK24>1 AND SK121>2) OR (CLSK3>1 AND SK121>2))]: %NAME%   %RED%***   %GREEN%FoH Scepter%RED%   ***{%RED%***   %GREEN%FoH Scepter%RED%   ***%NL%%WHITE%Hey, looking for me?}
+ItemDisplay[SCEPTER !UNI ((TABSK25>2 AND SK118>1) OR (TABSK25>1 AND SK118>2) OR (CLSK3>1 AND SK118>2))]: %NAME%   %RED%***   %GREEN%Holy Shock Scepter%RED%   ***{%RED%***   %GREEN%Holy Shock Scepter%RED%   ***%NL%%WHITE%Hey, looking for me?}
+ItemDisplay[STAFF !UNI CHSK54>0]: %NAME%   %RED%***   %GREEN%Teleport Charges%RED%   ***{%RED%***   %GREEN%Teleport Charges%RED%   ***%NL%%WHITE%Hey, looking for me?}
+ItemDisplay[WAND !UNI CHSK91>0]: %NAME%   %RED%***   %GREEN%Lower Resist Charges%RED%   ***{%RED%***   %GREEN%Lower Resist Charges%RED%   ***%NL%%WHITE%Hey, looking for me?}
+ItemDisplay[WAND !UNI CHSK82>0]: %NAME%   %RED%***   %GREEN%Life Tap Charges%RED%   ***{%RED%***   %GREEN%Life Tap Charges%RED%   ***%NL%%WHITE%Hey, looking for me?}
 
 //Craftables
 ItemDisplay[GLOVES ELT MAG !ETH !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
