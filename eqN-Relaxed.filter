@@ -591,10 +591,13 @@ ItemDisplay[GOLD<5000 CLVL>79]:
 ItemDisplay[RARE !CHEST !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Hell
 ItemDisplay[RARE !CHEST !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Nightmare
 ItemDisplay[RARE !CHEST !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Normal
+ItemDisplay[RARE CHEST ID !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Hell
+ItemDisplay[RARE CHEST ID !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Nightmare
+ItemDisplay[RARE CHEST ID !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Normal
 
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%JV
-ItemDisplay[rvs]: %PURPLE%jv
+ItemDisplay[rvs]: %PURPLE%rj
 ItemDisplay[hp5]: %RED%!%WHITE%H
 ItemDisplay[mp5]: %BLUE%!%WHITE%M
 ItemDisplay[hp1 DIFF=0]: %RED%!%WHITE%min
