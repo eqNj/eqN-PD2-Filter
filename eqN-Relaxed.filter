@@ -902,7 +902,7 @@ ItemDisplay[SET !ID CLVL<80]: %PX-84%%NAME%
 //----------------------------------------- Crafting and Magic Items --------------------------------------------
 
 //Shop Hunting Flags
-ItemDisplay[WEAPON !UNI TABSK34>2]: %NAME%%NL%%RED%***   %GREEN%Warcries Weapon%RED%   ***{%RED%***   %GREEN%Warcries Weapon%RED%   ***%NL%%WHITE%Hey, looking for me?}
+ItemDisplay[WEAPON !UNI TABSK34>2]: %NAME%   %RED%***   %GREEN%Warcries Weapon%RED%   ***{%RED%***   %GREEN%Warcries Weapon%RED%   ***%NL%%WHITE%Hey, looking for me?}
 ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK278>1)]: %NAME%   %RED%***   %GREEN%Venom Claws%RED%   ***{%RED%***   %GREEN%Venom Claws%RED%   ***%NL%%WHITE%Hey, looking for me?}
 ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK273>1)]: %NAME%   %RED%***   %GREEN%Mind Blast Claws%RED%   ***{%RED%***   %GREEN%Mind Blast Claws%RED%   ***%NL%%WHITE%Hey, looking for me?}
 ItemDisplay[SIN !UNI (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) AND (SK280>1 OR SK265>1)))]: %NAME%   %RED%***   %GREEN%Martial Arts Claws%RED%   ***{%RED%***   %GREEN%Martial Arts Claws%RED%   ***%NL%%WHITE%Hey, looking for me?}
