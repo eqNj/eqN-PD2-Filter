@@ -6,511 +6,521 @@
 ItemDisplay[ETH UNI]: %GRAY%[%WHITE%e%GRAY%] %GOLD%%NAME%%CONTINUE%
 ItemDisplay[ETH RARE]: %GRAY%[%WHITE%e%GRAY%] %YELLOW%%NAME%%CONTINUE%
 ItemDisplay[ETH MAG]: %GRAY%[%WHITE%e%GRAY%] %BLUE%%NAME%%CONTINUE%
-ItemDisplay[ETH !SUP NMAG]: %GRAY%[%WHITE%e%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[ETH !(SUP OR INF) NMAG]: %GRAY%[%WHITE%e%GRAY%] %NAME%%CONTINUE%
 ItemDisplay[ETH CRAFT]: %GRAY%[%WHITE%e%GRAY%] %ORANGE%%NAME%%CONTINUE%
 
 //Coloring NMAG Items
 ItemDisplay[(ARMOR OR WEAPON) !ETH NMAG SOCK=0]: %WHITE%%NAME%%CONTINUE%
 ItemDisplay[(ARMOR OR WEAPON) NMAG SOCK>0]: %GRAY%%NAME%%CONTINUE%
 
-//----------------------------------------- Superior Base Renaming and Formatting -----------------------------------------
-ItemDisplay[(ARMOR OR WEAPON) SUP NMAG RW (ED>0 OR MAXDUR>0 OR ARPER>0 OR MAXDMG>0) SOCK=0]: %ORANGE%+%WHITE%%NAME%%CONTINUE%
-ItemDisplay[(ARMOR OR WEAPON) SUP NMAG RW (ED>0 OR MAXDUR>0 OR ARPER>0 OR MAXDMG>0) SOCK>0]: %ORANGE%+%GRAY%%NAME%%CONTINUE%
-ItemDisplay[ETH SUP RW NMAG]: %GRAY%[%WHITE%e%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[SUP RW]: %NAME%
-ItemDisplay[SUP cap]: Cap%CONTINUE%
-ItemDisplay[SUP xap]: War Hat%CONTINUE%
-ItemDisplay[SUP uap]: Shako%CONTINUE%
-ItemDisplay[SUP skp]: Skull Cap%CONTINUE%
-ItemDisplay[SUP xkp]: Sallet%CONTINUE%
-ItemDisplay[SUP ukp]: Hydraskull%CONTINUE%
-ItemDisplay[SUP hlm]: Helm%CONTINUE%
-ItemDisplay[SUP xlm]: Casque%CONTINUE%
-ItemDisplay[SUP ulm]: Armet%CONTINUE%
-ItemDisplay[SUP fhl]: Full Helm%CONTINUE%
-ItemDisplay[SUP xhl]: Basinet%CONTINUE%
-ItemDisplay[SUP uhl]: Giant Conch%CONTINUE%
-ItemDisplay[SUP msk]: Mask%CONTINUE%
-ItemDisplay[SUP xsk]: Death Mask%CONTINUE%
-ItemDisplay[SUP usk]: Demonhead%CONTINUE%
-ItemDisplay[SUP bhm]: Bone Helm%CONTINUE%
-ItemDisplay[SUP xh9]: Grim Helm%CONTINUE%
-ItemDisplay[SUP uh9]: Bone Visage%CONTINUE%
-ItemDisplay[SUP ghm]: Great Helm%CONTINUE%
-ItemDisplay[SUP xhm]: Winged Helm%CONTINUE%
-ItemDisplay[SUP uhm]: Spired Helm%CONTINUE%
-ItemDisplay[SUP crn]: Crown%CONTINUE%
-ItemDisplay[SUP xrn]: Grand Crown%CONTINUE%
-ItemDisplay[SUP urn]: Corona%CONTINUE%
-ItemDisplay[SUP qui]: Quilted Armor%CONTINUE%
-ItemDisplay[SUP xui]: Ghost Armor%CONTINUE%
-ItemDisplay[SUP uui]: Dusk Shroud%CONTINUE%
-ItemDisplay[SUP lea]: Leather Armor%CONTINUE%
-ItemDisplay[SUP xea]: Serpentskin%CONTINUE%
-ItemDisplay[SUP uea]: Wyrmhide%CONTINUE%
-ItemDisplay[SUP hla]: Hard Leather Armor%CONTINUE%
-ItemDisplay[SUP xla]: Demonhide Armor%CONTINUE%
-ItemDisplay[SUP ula]: Scarab Husk%CONTINUE%
-ItemDisplay[SUP stu]: Studded Leather%CONTINUE%
-ItemDisplay[SUP xtu]: Trellised Armor%CONTINUE%
-ItemDisplay[SUP utu]: Wire Fleece%CONTINUE%
-ItemDisplay[SUP rng]: Ring Mail%CONTINUE%
-ItemDisplay[SUP xng]: Linked Mail%CONTINUE%
-ItemDisplay[SUP ung]: Diamond Mail%CONTINUE%
-ItemDisplay[SUP scl]: Scale Mail%CONTINUE%
-ItemDisplay[SUP xcl]: Tigulated Mail%CONTINUE%
-ItemDisplay[SUP ucl]: Loricated Mail%CONTINUE%
-ItemDisplay[SUP brs]: Breast Plate%CONTINUE%
-ItemDisplay[SUP xrs]: Cuirass%CONTINUE%
-ItemDisplay[SUP urs]: Great Hauberk%CONTINUE%
-ItemDisplay[SUP chn]: Chain Mail%CONTINUE%
-ItemDisplay[SUP xhn]: Mesh Armor%CONTINUE%
-ItemDisplay[SUP uhn]: Boneweave%CONTINUE%
-ItemDisplay[SUP spl]: Splint Mail%CONTINUE%
-ItemDisplay[SUP xpl]: Russet Armor%CONTINUE%
-ItemDisplay[SUP upl]: Balrog Skin%CONTINUE%
-ItemDisplay[SUP ltp]: Light Plate%CONTINUE%
-ItemDisplay[SUP xtp]: Mage Plate%CONTINUE%
-ItemDisplay[SUP utp]: Archon Plate%CONTINUE%
-ItemDisplay[SUP fld]: Field Plate%CONTINUE%
-ItemDisplay[SUP xld]: Sharktooth%CONTINUE%
-ItemDisplay[SUP uld]: Kraken Shell%CONTINUE%
-ItemDisplay[SUP plt]: Plate Mail%CONTINUE%
-ItemDisplay[SUP xlt]: Templar Coat%CONTINUE%
-ItemDisplay[SUP ult]: Hellforge Plate%CONTINUE%
-ItemDisplay[SUP gth]: Gothic Plate%CONTINUE%
-ItemDisplay[SUP xth]: Embossed Plate%CONTINUE%
-ItemDisplay[SUP uth]: Lacquered Plate%CONTINUE%
-ItemDisplay[SUP ful]: Full Plate Mail%CONTINUE%
-ItemDisplay[SUP xul]: Chaos Armor%CONTINUE%
-ItemDisplay[SUP uul]: Shadow Plate%CONTINUE%
-ItemDisplay[SUP aar]: Ancient Armor%CONTINUE%
-ItemDisplay[SUP xar]: Ornate Plate%CONTINUE%
-ItemDisplay[SUP uar]: Sacred Armor%CONTINUE%
-ItemDisplay[SUP buc]: Buckler%CONTINUE%
-ItemDisplay[SUP xuc]: Defender%CONTINUE%
-ItemDisplay[SUP uuc]: Heater%CONTINUE%
-ItemDisplay[SUP sml]: Small Shield%CONTINUE%
-ItemDisplay[SUP xml]: Round Shield%CONTINUE%
-ItemDisplay[SUP uml]: Luna%CONTINUE%
-ItemDisplay[SUP lrg]: Large Shield%CONTINUE%
-ItemDisplay[SUP xrg]: Scutum%CONTINUE%
-ItemDisplay[SUP urg]: Hyperion%CONTINUE%
-ItemDisplay[SUP spk]: Spiked Shield%CONTINUE%
-ItemDisplay[SUP xpk]: Barbed Shield%CONTINUE%
-ItemDisplay[SUP upk]: Blade Barrier%CONTINUE%
-ItemDisplay[SUP kit]: Kite Shield%CONTINUE%
-ItemDisplay[SUP xit]: Dragon Shield%CONTINUE%
-ItemDisplay[SUP uit]: Monarch%CONTINUE%
-ItemDisplay[SUP bsh]: Bone Shield%CONTINUE%
-ItemDisplay[SUP xsh]: Grim Shield%CONTINUE%
-ItemDisplay[SUP ush]: Troll Nest%CONTINUE%
-ItemDisplay[SUP tow]: Tower Shield%CONTINUE%
-ItemDisplay[SUP xow]: Pavise%CONTINUE%
-ItemDisplay[SUP uow]: Aegis%CONTINUE%
-ItemDisplay[SUP gts]: Gothic Shield%CONTINUE%
-ItemDisplay[SUP xts]: Ancient Shield%CONTINUE%
-ItemDisplay[SUP uts]: Ward%CONTINUE%
-ItemDisplay[SUP lgl]: Leather Gloves%CONTINUE%
-ItemDisplay[SUP xlg]: Demonhide Gloves%CONTINUE%
-ItemDisplay[SUP ulg]: Bramble Mitts%CONTINUE%
-ItemDisplay[SUP vgl]: Heavy Gloves%CONTINUE%
-ItemDisplay[SUP xvg]: Sharkskin Gloves%CONTINUE%
-ItemDisplay[SUP uvg]: Vampirebone Gloves%CONTINUE%
-ItemDisplay[SUP mgl]: Chain Gloves%CONTINUE%
-ItemDisplay[SUP xmg]: Heavy Bracers%CONTINUE%
-ItemDisplay[SUP umg]: Vambraces%CONTINUE%
-ItemDisplay[SUP tgl]: Light Gauntlets%CONTINUE%
-ItemDisplay[SUP xtg]: Battle Gauntlets%CONTINUE%
-ItemDisplay[SUP utg]: Crusader Gauntlets%CONTINUE%
-ItemDisplay[SUP hgl]: Gauntlets%CONTINUE%
-ItemDisplay[SUP xhg]: War Gauntlets%CONTINUE%
-ItemDisplay[SUP uhg]: Ogre Gauntlets%CONTINUE%
-ItemDisplay[SUP lbt]: Boots%CONTINUE%
-ItemDisplay[SUP xlb]: Demonhide Boots%CONTINUE%
-ItemDisplay[SUP ulb]: Wyrmhide Boots%CONTINUE%
-ItemDisplay[SUP vbt]: Heavy Boots%CONTINUE%
-ItemDisplay[SUP xvb]: Sharkskin Boots%CONTINUE%
-ItemDisplay[SUP uvb]: Scarabshell Boots%CONTINUE%
-ItemDisplay[SUP mbt]: Chain Boots%CONTINUE%
-ItemDisplay[SUP xmb]: Mesh Boots%CONTINUE%
-ItemDisplay[SUP umb]: Boneweave Boots%CONTINUE%
-ItemDisplay[SUP tbt]: Light Plated Boots%CONTINUE%
-ItemDisplay[SUP xtb]: Battle Boots%CONTINUE%
-ItemDisplay[SUP utb]: Mirrored Boots%CONTINUE%
-ItemDisplay[SUP hbt]: Greaves%CONTINUE%
-ItemDisplay[SUP xhb]: War Boots%CONTINUE%
-ItemDisplay[SUP uhb]: Myrmidon Greaves%CONTINUE%
-ItemDisplay[SUP lbl]: Sash%CONTINUE%
-ItemDisplay[SUP zlb]: Demonhide Sash%CONTINUE%
-ItemDisplay[SUP ulc]: Spiderweb Sash%CONTINUE%
-ItemDisplay[SUP vbl]: Light Belt%CONTINUE%
-ItemDisplay[SUP zvb]: Sharkskin Belt%CONTINUE%
-ItemDisplay[SUP uvc]: Vampirefang Belt%CONTINUE%
-ItemDisplay[SUP mbl]: Belt%CONTINUE%
-ItemDisplay[SUP zmb]: Mesh Belt%CONTINUE%
-ItemDisplay[SUP umc]: Mithril Coil%CONTINUE%
-ItemDisplay[SUP tbl]: Heavy Belt%CONTINUE%
-ItemDisplay[SUP ztb]: Battle Belt%CONTINUE%
-ItemDisplay[SUP utc]: Troll Belt%CONTINUE%
-ItemDisplay[SUP hbl]: Plated Belt%CONTINUE%
-ItemDisplay[SUP zhb]: War Belt%CONTINUE%
-ItemDisplay[SUP uhc]: Colossus Girdle%CONTINUE%
-ItemDisplay[SUP dr1]: Wolf Head%CONTINUE%
-ItemDisplay[SUP dr6]: Alpha Helm%CONTINUE%
-ItemDisplay[SUP drb]: Blood Spirit%CONTINUE%
-ItemDisplay[SUP dr2]: Hawk Helm%CONTINUE%
-ItemDisplay[SUP dr7]: Griffon Headress%CONTINUE%
-ItemDisplay[SUP drc]: Sun Spirit%CONTINUE%
-ItemDisplay[SUP dr3]: Antlers%CONTINUE%
-ItemDisplay[SUP dr8]: Hunter's Guise%CONTINUE%
-ItemDisplay[SUP drd]: Earth Spirit%CONTINUE%
-ItemDisplay[SUP dr4]: Falcon Mask%CONTINUE%
-ItemDisplay[SUP dr9]: Sacred Feathers%CONTINUE%
-ItemDisplay[SUP dre]: Sky Spirit%CONTINUE%
-ItemDisplay[SUP dr5]: Spirit Mask%CONTINUE%
-ItemDisplay[SUP dra]: Totemic Mask%CONTINUE%
-ItemDisplay[SUP drf]: Dream Spirit%CONTINUE%
-ItemDisplay[SUP ba1]: Jawbone Cap%CONTINUE%
-ItemDisplay[SUP ba6]: Jawbone Visor%CONTINUE%
-ItemDisplay[SUP bab]: Carnage Helm%CONTINUE%
-ItemDisplay[SUP ba2]: Fanged Helm%CONTINUE%
-ItemDisplay[SUP ba7]: Lion Helm%CONTINUE%
-ItemDisplay[SUP bac]: Fury Visor%CONTINUE%
-ItemDisplay[SUP ba3]: Horned Helm%CONTINUE%
-ItemDisplay[SUP ba8]: Rage Mask%CONTINUE%
-ItemDisplay[SUP bad]: Destroyer Helm%CONTINUE%
-ItemDisplay[SUP ba4]: Assault Helmet%CONTINUE%
-ItemDisplay[SUP ba9]: Savage Helmet%CONTINUE%
-ItemDisplay[SUP bae]: Conqueror Crown%CONTINUE%
-ItemDisplay[SUP ba5]: Avenger Guard%CONTINUE%
-ItemDisplay[SUP baa]: Slayer Guard%CONTINUE%
-ItemDisplay[SUP baf]: Guardian Crown%CONTINUE%
-ItemDisplay[SUP pa1]: Targe%CONTINUE%
-ItemDisplay[SUP pa6]: Akaran Targe%CONTINUE%
-ItemDisplay[SUP pab]: Sacred Targe%CONTINUE%
-ItemDisplay[SUP pa2]: Rondache%CONTINUE%
-ItemDisplay[SUP pa7]: Akaran Rondache%CONTINUE%
-ItemDisplay[SUP pac]: Sacred Rondache%CONTINUE%
-ItemDisplay[SUP pa3]: Heraldic Shield%CONTINUE%
-ItemDisplay[SUP pa8]: Protector Shield%CONTINUE%
-ItemDisplay[SUP pad]: Kurast Shield%CONTINUE%
-ItemDisplay[SUP pa4]: Aerin Shield%CONTINUE%
-ItemDisplay[SUP pa9]: Gilded Shield%CONTINUE%
-ItemDisplay[SUP pae]: Zakarum Shield%CONTINUE%
-ItemDisplay[SUP pa5]: Crown Shield%CONTINUE%
-ItemDisplay[SUP paa]: Royal Shield%CONTINUE%
-ItemDisplay[SUP paf]: Vortex Shield%CONTINUE%
-ItemDisplay[SUP ne1]: Preserved Head%CONTINUE%
-ItemDisplay[SUP ne6]: Mummified Trophy%CONTINUE%
-ItemDisplay[SUP neb]: Minion Skull%CONTINUE%
-ItemDisplay[SUP ne2]: Zombie Head%CONTINUE%
-ItemDisplay[SUP ne7]: Fetish Trophy%CONTINUE%
-ItemDisplay[SUP neg]: Hellspawn Skull%CONTINUE%
-ItemDisplay[SUP ne3]: Unraveller Head%CONTINUE%
-ItemDisplay[SUP ne8]: Sexton Trophy%CONTINUE%
-ItemDisplay[SUP ned]: Overseer Skull%CONTINUE%
-ItemDisplay[SUP ne4]: Gargoyle Head%CONTINUE%
-ItemDisplay[SUP ne9]: Cantor Trophy%CONTINUE%
-ItemDisplay[SUP nee]: Succubae Skull%CONTINUE%
-ItemDisplay[SUP ne5]: Demon Head%CONTINUE%
-ItemDisplay[SUP nea]: Heirophant Trophy%CONTINUE%
-ItemDisplay[SUP nef]: Bloodlord Skull%CONTINUE%
-ItemDisplay[SUP hax]: Hand Axe%CONTINUE%
-ItemDisplay[SUP 9ha]: Hatchet%CONTINUE%
-ItemDisplay[SUP 7ha]: Tomahawk%CONTINUE%
-ItemDisplay[SUP axe]: Axe%CONTINUE%
-ItemDisplay[SUP 9ax]: Cleaver%CONTINUE%
-ItemDisplay[SUP 7ax]: Small Crescent%CONTINUE%
-ItemDisplay[SUP 2ax]: Double Axe%CONTINUE%
-ItemDisplay[SUP 92a]: Twin Axe%CONTINUE%
-ItemDisplay[SUP 72a]: Ettin Axe%CONTINUE%
-ItemDisplay[SUP mpi]: Military Pick%CONTINUE%
-ItemDisplay[SUP 9mp]: Crowbill%CONTINUE%
-ItemDisplay[SUP 7mp]: War Spike%CONTINUE%
-ItemDisplay[SUP wax]: War Axe%CONTINUE%
-ItemDisplay[SUP 9wa]: Naga%CONTINUE%
-ItemDisplay[SUP 7wa]: Berserker Axe%CONTINUE%
-ItemDisplay[SUP lax]: Large Axe%CONTINUE%
-ItemDisplay[SUP 9la]: Military Axe%CONTINUE%
-ItemDisplay[SUP 7la]: Feral Axe%CONTINUE%
-ItemDisplay[SUP bax]: Broad Axe%CONTINUE%
-ItemDisplay[SUP 9ba]: Bearded Axe%CONTINUE%
-ItemDisplay[SUP 7ba]: Silver-edged Axe%CONTINUE%
-ItemDisplay[SUP btx]: Battle Axe%CONTINUE%
-ItemDisplay[SUP 9bt]: Tabar%CONTINUE%
-ItemDisplay[SUP 7bt]: Decapitator%CONTINUE%
-ItemDisplay[SUP gax]: Great Axe%CONTINUE%
-ItemDisplay[SUP 9ga]: Gothic Axe%CONTINUE%
-ItemDisplay[SUP 7ga]: Champion Axe%CONTINUE%
-ItemDisplay[SUP gix]: Giant Axe%CONTINUE%
-ItemDisplay[SUP 9gi]: Ancient Axe%CONTINUE%
-ItemDisplay[SUP 7gi]: Glorious Axe%CONTINUE%
-ItemDisplay[SUP clb]: Club%CONTINUE%
-ItemDisplay[SUP 9cl]: Cudgel%CONTINUE%
-ItemDisplay[SUP 7cl]: Truncheon%CONTINUE%
-ItemDisplay[SUP spc]: Spiked Club%CONTINUE%
-ItemDisplay[SUP 9sp]: Barbed Club%CONTINUE%
-ItemDisplay[SUP 7sp]: Tyrant Club%CONTINUE%
-ItemDisplay[SUP mac]: Mace%CONTINUE%
-ItemDisplay[SUP 9ma]: Flanged Mace%CONTINUE%
-ItemDisplay[SUP 7ma]: Reinforced Mace%CONTINUE%
-ItemDisplay[SUP mst]: Morning Star%CONTINUE%
-ItemDisplay[SUP 9mt]: Jagged Star%CONTINUE%
-ItemDisplay[SUP 7mt]: Devil Star%CONTINUE%
-ItemDisplay[SUP fla]: Flail%CONTINUE%
-ItemDisplay[SUP 9fl]: Knout%CONTINUE%
-ItemDisplay[SUP 7fl]: Scourge%CONTINUE%
-ItemDisplay[SUP whm]: War Hammer%CONTINUE%
-ItemDisplay[SUP 9wh]: Battle Hammer%CONTINUE%
-ItemDisplay[SUP 7wh]: Legendary Mallet%CONTINUE%
-ItemDisplay[SUP mau]: Maul%CONTINUE%
-ItemDisplay[SUP 9m9]: War Club%CONTINUE%
-ItemDisplay[SUP 7m7]: Ogre Maul%CONTINUE%
-ItemDisplay[SUP gma]: Great Maul%CONTINUE%
-ItemDisplay[SUP 9gm]: Martel de Fer%CONTINUE%
-ItemDisplay[SUP 7gm]: Thunder Maul%CONTINUE%
-ItemDisplay[SUP ssd]: Short Sword%CONTINUE%
-ItemDisplay[SUP 9ss]: Gladius%CONTINUE%
-ItemDisplay[SUP 7ss]: Falcata%CONTINUE%
-ItemDisplay[SUP scm]: Scimitar%CONTINUE%
-ItemDisplay[SUP 9sm]: Cutlass%CONTINUE%
-ItemDisplay[SUP 7sm]: Ataghan%CONTINUE%
-ItemDisplay[SUP sbr]: Saber%CONTINUE%
-ItemDisplay[SUP 9sb]: Shamshir%CONTINUE%
-ItemDisplay[SUP 7sb]: Elegant Blade%CONTINUE%
-ItemDisplay[SUP flc]: Falchion%CONTINUE%
-ItemDisplay[SUP 9fc]: Tulwar%CONTINUE%
-ItemDisplay[SUP 7fc]: Hydra Edge%CONTINUE%
-ItemDisplay[SUP crs]: Crystal Sword%CONTINUE%
-ItemDisplay[SUP 9cr]: Dimensional Blade%CONTINUE%
-ItemDisplay[SUP 7cr]: Phase Blade%CONTINUE%
-ItemDisplay[SUP bsd]: Broad Sword%CONTINUE%
-ItemDisplay[SUP 9bs]: Battle Sword%CONTINUE%
-ItemDisplay[SUP 7bs]: Conquest Sword%CONTINUE%
-ItemDisplay[SUP lsd]: Long Sword%CONTINUE%
-ItemDisplay[SUP 9ls]: Rune Sword%CONTINUE%
-ItemDisplay[SUP 7ls]: Cryptic Sword%CONTINUE%
-ItemDisplay[SUP wsd]: War Sword%CONTINUE%
-ItemDisplay[SUP 9wd]: Ancient Sword%CONTINUE%
-ItemDisplay[SUP 7wd]: Mythical Sword%CONTINUE%
-ItemDisplay[SUP 2hs]: Two-handed Sword%CONTINUE%
-ItemDisplay[SUP 92h]: Espandon%CONTINUE%
-ItemDisplay[SUP 72h]: Legend Sword%CONTINUE%
-ItemDisplay[SUP clm]: Claymore%CONTINUE%
-ItemDisplay[SUP 9cm]: Dacian Falx%CONTINUE%
-ItemDisplay[SUP 7cm]: Highland Blade%CONTINUE%
-ItemDisplay[SUP gis]: Giant Sword%CONTINUE%
-ItemDisplay[SUP 9gs]: Tusk Sword%CONTINUE%
-ItemDisplay[SUP 7gs]: Balrog Blade%CONTINUE%
-ItemDisplay[SUP bsw]: Bastard Sword%CONTINUE%
-ItemDisplay[SUP 9b9]: Gothic Sword%CONTINUE%
-ItemDisplay[SUP 7b7]: Champion Sword%CONTINUE%
-ItemDisplay[SUP flb]: Flamberge%CONTINUE%
-ItemDisplay[SUP 9fb]: Zweihander%CONTINUE%
-ItemDisplay[SUP 7fb]: Colossus Sword%CONTINUE%
-ItemDisplay[SUP gsd]: Great Sword%CONTINUE%
-ItemDisplay[SUP 9gd]: Executioner Sword%CONTINUE%
-ItemDisplay[SUP 7gd]: Colossus Blade%CONTINUE%
-ItemDisplay[SUP dgr]: Dagger%CONTINUE%
-ItemDisplay[SUP 9dg]: Poignard%CONTINUE%
-ItemDisplay[SUP 7dg]: Bone Knife%CONTINUE%
-ItemDisplay[SUP dir]: Dirk%CONTINUE%
-ItemDisplay[SUP 9di]: Rondel%CONTINUE%
-ItemDisplay[SUP 7di]: Mithril Point%CONTINUE%
-ItemDisplay[SUP kri]: Kris%CONTINUE%
-ItemDisplay[SUP 9kr]: Cinquedeas%CONTINUE%
-ItemDisplay[SUP 7kr]: Fanged Knife%CONTINUE%
-ItemDisplay[SUP bld]: Blade%CONTINUE%
-ItemDisplay[SUP 9bl]: Stiletto%CONTINUE%
-ItemDisplay[SUP 7bl]: Legend Spike%CONTINUE%
-ItemDisplay[SUP tkf]: Throwing Knife%CONTINUE%
-ItemDisplay[SUP 9tk]: Battle Dart%CONTINUE%
-ItemDisplay[SUP 7tk]: Flying Knife%CONTINUE%
-ItemDisplay[SUP tax]: Throwing Axe%CONTINUE%
-ItemDisplay[SUP 9ta]: Francisca%CONTINUE%
-ItemDisplay[SUP 7ta]: Flying Axe%CONTINUE%
-ItemDisplay[SUP bkf]: Balanced Knife%CONTINUE%
-ItemDisplay[SUP 9bk]: War Dart%CONTINUE%
-ItemDisplay[SUP 7bk]: Winged Knife%CONTINUE%
-ItemDisplay[SUP bal]: Balanced Axe%CONTINUE%
-ItemDisplay[SUP 9b8]: Hurlbat%CONTINUE%
-ItemDisplay[SUP 7b8]: Winged Axe%CONTINUE%
-ItemDisplay[SUP jav]: Javelin%CONTINUE%
-ItemDisplay[SUP 9ja]: War Javelin%CONTINUE%
-ItemDisplay[SUP 7ja]: Hyperion Javelin%CONTINUE%
-ItemDisplay[SUP pil]: Pilum%CONTINUE%
-ItemDisplay[SUP 9pi]: Great Pilum%CONTINUE%
-ItemDisplay[SUP 7pi]: Stygian Pilum%CONTINUE%
-ItemDisplay[SUP ssp]: Short Spear%CONTINUE%
-ItemDisplay[SUP 9s9]: Simbilan%CONTINUE%
-ItemDisplay[SUP 7s7]: Balrog Spear%CONTINUE%
-ItemDisplay[SUP glv]: Glaive%CONTINUE%
-ItemDisplay[SUP 9gl]: Spiculum%CONTINUE%
-ItemDisplay[SUP 7gl]: Ghost Glaive%CONTINUE%
-ItemDisplay[SUP tsp]: Throwing Spear%CONTINUE%
-ItemDisplay[SUP 9ts]: Harpoon%CONTINUE%
-ItemDisplay[SUP 7ts]: Winged Harpoon%CONTINUE%
-ItemDisplay[SUP spr]: Spear%CONTINUE%
-ItemDisplay[SUP 9sr]: War Spear%CONTINUE%
-ItemDisplay[SUP 7sr]: Hyperion Spear%CONTINUE%
-ItemDisplay[SUP tri]: Trident%CONTINUE%
-ItemDisplay[SUP 9tr]: Fuscina%CONTINUE%
-ItemDisplay[SUP 7tr]: Stygian Pike%CONTINUE%
-ItemDisplay[SUP brn]: Brandistock%CONTINUE%
-ItemDisplay[SUP 9br]: War Fork%CONTINUE%
-ItemDisplay[SUP 7br]: Mancatcher%CONTINUE%
-ItemDisplay[SUP spt]: Spetum%CONTINUE%
-ItemDisplay[SUP 9st]: Yari%CONTINUE%
-ItemDisplay[SUP 7st]: Ghost Spear%CONTINUE%
-ItemDisplay[SUP pik]: Pike%CONTINUE%
-ItemDisplay[SUP 9p9]: Lance%CONTINUE%
-ItemDisplay[SUP 7p7]: War Pike%CONTINUE%
-ItemDisplay[SUP bar]: Bardiche%CONTINUE%
-ItemDisplay[SUP 9b7]: Lochaber Axe%CONTINUE%
-ItemDisplay[SUP 7o7]: Ogre Axe%CONTINUE%
-ItemDisplay[SUP vou]: Voulge%CONTINUE%
-ItemDisplay[SUP 9vo]: Bill%CONTINUE%
-ItemDisplay[SUP 7vo]: Colossus Voulge%CONTINUE%
-ItemDisplay[SUP scy]: Scythe%CONTINUE%
-ItemDisplay[SUP 9s8]: Battle Scythe%CONTINUE%
-ItemDisplay[SUP 7s8]: Thresher%CONTINUE%
-ItemDisplay[SUP pax]: Poleaxe%CONTINUE%
-ItemDisplay[SUP 9pa]: Partizan%CONTINUE%
-ItemDisplay[SUP 7pa]: Cryptic Axe%CONTINUE%
-ItemDisplay[SUP hal]: Halberd%CONTINUE%
-ItemDisplay[SUP 9h9]: Bec-de-Corbin%CONTINUE%
-ItemDisplay[SUP 7h7]: Great Poleaxe%CONTINUE%
-ItemDisplay[SUP wsc]: War Scythe%CONTINUE%
-ItemDisplay[SUP 9wc]: Grim Scythe%CONTINUE%
-ItemDisplay[SUP 7wc]: Giant Thresher%CONTINUE%
-ItemDisplay[SUP sbw]: Short Bow%CONTINUE%
-ItemDisplay[SUP 8sb]: Edge Bow%CONTINUE%
-ItemDisplay[SUP 6sb]: Spider Bow%CONTINUE%
-ItemDisplay[SUP hbw]: Hunter’s Bow%CONTINUE%
-ItemDisplay[SUP 8hb]: Razor Bow%CONTINUE%
-ItemDisplay[SUP 6hb]: Blade Bow%CONTINUE%
-ItemDisplay[SUP lbw]: Long Bow%CONTINUE%
-ItemDisplay[SUP 8lb]: Cedar Bow%CONTINUE%
-ItemDisplay[SUP 6lb]: Shadow Bow%CONTINUE%
-ItemDisplay[SUP cbw]: Composite Bow%CONTINUE%
-ItemDisplay[SUP 8cb]: Double Bow%CONTINUE%
-ItemDisplay[SUP 6cb]: Great Bow%CONTINUE%
-ItemDisplay[SUP sbb]: Short Battle Bow%CONTINUE%
-ItemDisplay[SUP 8s8]: Short Siege Bow%CONTINUE%
-ItemDisplay[SUP 6s7]: Diamond Bow%CONTINUE%
-ItemDisplay[SUP lbb]: Long Battle Bow%CONTINUE%
-ItemDisplay[SUP 8l8]: Large Siege Bow%CONTINUE%
-ItemDisplay[SUP 6l7]: Crusader Bow%CONTINUE%
-ItemDisplay[SUP swb]: Short War Bow%CONTINUE%
-ItemDisplay[SUP 8sw]: Rune Bow%CONTINUE%
-ItemDisplay[SUP 6sw]: Ward Bow%CONTINUE%
-ItemDisplay[SUP lwb]: Long War Bow%CONTINUE%
-ItemDisplay[SUP 8lw]: Gothic Bow%CONTINUE%
-ItemDisplay[SUP 6lw]: Hydra Bow%CONTINUE%
-ItemDisplay[SUP lxb]: Light Crossbow%CONTINUE%
-ItemDisplay[SUP 8lx]: Arbalest%CONTINUE%
-ItemDisplay[SUP 6lx]: Pellet Bow%CONTINUE%
-ItemDisplay[SUP mxb]: Crossbow%CONTINUE%
-ItemDisplay[SUP 8mx]: Siege Crossbow%CONTINUE%
-ItemDisplay[SUP 6mx]: Gorgon Crossbow%CONTINUE%
-ItemDisplay[SUP hxb]: Heavy Crossbow%CONTINUE%
-ItemDisplay[SUP 8hx]: Ballista%CONTINUE%
-ItemDisplay[SUP 6hx]: Colossus Crossbow%CONTINUE%
-ItemDisplay[SUP rxb]: Repeating Crossbow%CONTINUE%
-ItemDisplay[SUP 8rx]: Chu-Ko-Nu%CONTINUE%
-ItemDisplay[SUP 6rx]: Demon Crossbow%CONTINUE%
-ItemDisplay[SUP sst]: Short Staff%CONTINUE%
-ItemDisplay[SUP 8ss]: Jo Staff%CONTINUE%
-ItemDisplay[SUP 6ss]: Walking Stick%CONTINUE%
-ItemDisplay[SUP lst]: Long Staff%CONTINUE%
-ItemDisplay[SUP 8ls]: Quarterstaff%CONTINUE%
-ItemDisplay[SUP 6ls]: Stalagmite%CONTINUE%
-ItemDisplay[SUP cst]: Gnarled Staff%CONTINUE%
-ItemDisplay[SUP 8cs]: Cedar Staff%CONTINUE%
-ItemDisplay[SUP 6cs]: Elder Staff%CONTINUE%
-ItemDisplay[SUP bst]: Battle Staff%CONTINUE%
-ItemDisplay[SUP 8bs]: Gothic Staff%CONTINUE%
-ItemDisplay[SUP 6bs]: Shillelagh%CONTINUE%
-ItemDisplay[SUP wst]: War Staff%CONTINUE%
-ItemDisplay[SUP 8ws]: Rune Staff%CONTINUE%
-ItemDisplay[SUP 6ws]: Archon Staff%CONTINUE%
-ItemDisplay[SUP wnd]: Wand%CONTINUE%
-ItemDisplay[SUP 9wn]: Burnt Wand%CONTINUE%
-ItemDisplay[SUP 7wn]: Polished Wand%CONTINUE%
-ItemDisplay[SUP ywn]: Yew Wand%CONTINUE%
-ItemDisplay[SUP 9yw]: Petrified Wand%CONTINUE%
-ItemDisplay[SUP 7yw]: Ghost Wand%CONTINUE%
-ItemDisplay[SUP bwn]: Bone Wand%CONTINUE%
-ItemDisplay[SUP 9bw]: Tomb Wand%CONTINUE%
-ItemDisplay[SUP 7bw]: Lich Wand%CONTINUE%
-ItemDisplay[SUP gwn]: Grim Wand%CONTINUE%
-ItemDisplay[SUP 9gw]: Grave Wand%CONTINUE%
-ItemDisplay[SUP 7gw]: Unearthed Wand%CONTINUE%
-ItemDisplay[SUP scp]: Scepter%CONTINUE%
-ItemDisplay[SUP 9sc]: Rune Scepter%CONTINUE%
-ItemDisplay[SUP 7sc]: Mighty Scepter%CONTINUE%
-ItemDisplay[SUP gsc]: Grand Scepter%CONTINUE%
-ItemDisplay[SUP 9qs]: Holy Water Sprinkler%CONTINUE%
-ItemDisplay[SUP 7qs]: Seraph Rod%CONTINUE%
-ItemDisplay[SUP wsp]: War Scepter%CONTINUE%
-ItemDisplay[SUP 9ws]: Divine Scepter%CONTINUE%
-ItemDisplay[SUP 7ws]: Caduceus%CONTINUE%
-ItemDisplay[SUP ktr]: Katar%CONTINUE%
-ItemDisplay[SUP 9ar]: Quhab%CONTINUE%
-ItemDisplay[SUP 7ar]: Suwayyah%CONTINUE%
-ItemDisplay[SUP wrb]: Wrist Blade%CONTINUE%
-ItemDisplay[SUP 9wb]: Wrist Spike%CONTINUE%
-ItemDisplay[SUP 7wb]: Wrist Sword%CONTINUE%
-ItemDisplay[SUP axf]: Hatchet Hands%CONTINUE%
-ItemDisplay[SUP 9xf]: Fascia%CONTINUE%
-ItemDisplay[SUP 7xf]: War Fist%CONTINUE%
-ItemDisplay[SUP ces]: Cestus%CONTINUE%
-ItemDisplay[SUP 9cs]: Hand Scythe%CONTINUE%
-ItemDisplay[SUP 7cs]: Battle Cestus%CONTINUE%
-ItemDisplay[SUP clw]: Claws%CONTINUE%
-ItemDisplay[SUP 9lw]: Greater Claws%CONTINUE%
-ItemDisplay[SUP 7lw]: Feral Claws%CONTINUE%
-ItemDisplay[SUP btl]: Blade Talons%CONTINUE%
-ItemDisplay[SUP 9tw]: Greater Talons%CONTINUE%
-ItemDisplay[SUP 7tw]: Runic Talons%CONTINUE%
-ItemDisplay[SUP skr]: Scissors Katar%CONTINUE%
-ItemDisplay[SUP 9qr]: Scissors Quhab%CONTINUE%
-ItemDisplay[SUP 7qr]: Scissors Suwayyah%CONTINUE%
-ItemDisplay[SUP ob1]: Eagle Orb%CONTINUE%
-ItemDisplay[SUP ob6]: Glowing Orb%CONTINUE%
-ItemDisplay[SUP obb]: Heavenly Stone%CONTINUE%
-ItemDisplay[SUP ob2]: Sacred Globe%CONTINUE%
-ItemDisplay[SUP ob7]: Crystalline Globe%CONTINUE%
-ItemDisplay[SUP obc]: Eldritch Orb%CONTINUE%
-ItemDisplay[SUP ob3]: Smoked Sphere%CONTINUE%
-ItemDisplay[SUP ob8]: Cloudy Sphere%CONTINUE%
-ItemDisplay[SUP obd]: Demon Heart%CONTINUE%
-ItemDisplay[SUP ob4]: Clasped Orb%CONTINUE%
-ItemDisplay[SUP ob9]: Sparkling Ball%CONTINUE%
-ItemDisplay[SUP obe]: Vortex Orb%CONTINUE%
-ItemDisplay[SUP ob5]: Jared's Stone%CONTINUE%
-ItemDisplay[SUP oba]: Swirling Crystal%CONTINUE%
-ItemDisplay[SUP obf]: Dimensional Shard%CONTINUE%
-ItemDisplay[SUP am1]: Stag Bow%CONTINUE%
-ItemDisplay[SUP am6]: Ashwood Bow%CONTINUE%
-ItemDisplay[SUP amb]: Matriarchal Bow%CONTINUE%
-ItemDisplay[SUP am2]: Reflex Bow%CONTINUE%
-ItemDisplay[SUP am7]: Ceremonial Bow%CONTINUE%
-ItemDisplay[SUP amc]: Grand Matron Bow%CONTINUE%
-ItemDisplay[SUP am3]: Maiden Spear%CONTINUE%
-ItemDisplay[SUP am8]: Ceremonial Spear%CONTINUE%
-ItemDisplay[SUP amd]: Matriarchal Spear%CONTINUE%
-ItemDisplay[SUP am4]: Maiden Pike%CONTINUE%
-ItemDisplay[SUP am9]: Ceremonial Pike%CONTINUE%
-ItemDisplay[SUP ame]: Matriarchal Pike%CONTINUE%
-ItemDisplay[SUP am5]: Maiden Javelin%CONTINUE%
-ItemDisplay[SUP ama]: Ceremonial Javelin%CONTINUE%
-ItemDisplay[SUP amf]: Matriarchal Javelin%CONTINUE%
-ItemDisplay[SUP ci0]: Circlet%CONTINUE%
-ItemDisplay[SUP ci2]: Tiara%CONTINUE%
-ItemDisplay[SUP ci3]: Diadem%CONTINUE%
-ItemDisplay[SUP ci1]: Coronet%CONTINUE%
+//----------------------------------------- Base Renaming and Formatting -----------------------------------------
+
+//Superior and Inferior Runewords
+ItemDisplay[((ARMOR (!CL3)) OR WEAPON) SUP NMAG RW (ED>0 OR MAXDUR>0 OR ARPER>0 OR MAXDMG>0 OR AR>0) SOCK=0 !ETH]: %ORANGE%+%WHITE%%NAME%%CONTINUE%
+ItemDisplay[((ARMOR (!CL3)) OR WEAPON) SUP NMAG RW (ED>0 OR MAXDUR>0 OR ARPER>0 OR MAXDMG>0 OR AR>0) (SOCK>0 OR ETH)]: %ORANGE%+%GRAY%%NAME%%CONTINUE%
+ItemDisplay[CL3 SUP NMAG RW (ED>0 OR MAXDUR>0 OR ARPER>0 OR MAXDMG>0) SOCK=0 !ETH]: %ORANGE%+%WHITE%%NAME%%CONTINUE%
+ItemDisplay[CL3 SUP NMAG RW (ED>0 OR MAXDUR>0 OR ARPER>0 OR MAXDMG>0) (SOCK>0 OR ETH)]: %ORANGE%+%GRAY%%NAME%%CONTINUE%
+ItemDisplay[((ARMOR (!CL3)) OR WEAPON) INF NMAG RW SOCK=0 !ETH]: %BLUE%-%WHITE%%NAME%%CONTINUE%
+ItemDisplay[((ARMOR (!CL3)) OR WEAPON) INF NMAG RW (SOCK>0 OR ETH)]: %BLUE%-%GRAY%%NAME%%CONTINUE%
+ItemDisplay[CL3 INF NMAG RW SOCK=0 !ETH]: %BLUE%-%WHITE%%NAME%%CONTINUE%
+ItemDisplay[CL3 INF NMAG RW (SOCK>0 OR ETH)]: %BLUE%-%GRAY%%NAME%%CONTINUE%
+ItemDisplay[ETH (SUP OR INF) RW NMAG]: %GRAY%[%WHITE%e%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[(SUP OR INF) RW]: %NAME%
+
+//Base Names
+ItemDisplay[(INF OR SUP) cap]: Cap%CONTINUE%
+ItemDisplay[(INF OR SUP) xap]: War Hat%CONTINUE%
+ItemDisplay[(INF OR SUP) uap]: Shako%CONTINUE%
+ItemDisplay[(INF OR SUP) skp]: Skull Cap%CONTINUE%
+ItemDisplay[(INF OR SUP) xkp]: Sallet%CONTINUE%
+ItemDisplay[(INF OR SUP) ukp]: Hydraskull%CONTINUE%
+ItemDisplay[(INF OR SUP) hlm]: Helm%CONTINUE%
+ItemDisplay[(INF OR SUP) xlm]: Casque%CONTINUE%
+ItemDisplay[(INF OR SUP) ulm]: Armet%CONTINUE%
+ItemDisplay[(INF OR SUP) fhl]: Full Helm%CONTINUE%
+ItemDisplay[(INF OR SUP) xhl]: Basinet%CONTINUE%
+ItemDisplay[(INF OR SUP) uhl]: Giant Conch%CONTINUE%
+ItemDisplay[(INF OR SUP) msk]: Mask%CONTINUE%
+ItemDisplay[(INF OR SUP) xsk]: Death Mask%CONTINUE%
+ItemDisplay[(INF OR SUP) usk]: Demonhead%CONTINUE%
+ItemDisplay[(INF OR SUP) bhm]: Bone Helm%CONTINUE%
+ItemDisplay[(INF OR SUP) xh9]: Grim Helm%CONTINUE%
+ItemDisplay[(INF OR SUP) uh9]: Bone Visage%CONTINUE%
+ItemDisplay[(INF OR SUP) ghm]: Great Helm%CONTINUE%
+ItemDisplay[(INF OR SUP) xhm]: Winged Helm%CONTINUE%
+ItemDisplay[(INF OR SUP) uhm]: Spired Helm%CONTINUE%
+ItemDisplay[(INF OR SUP) crn]: Crown%CONTINUE%
+ItemDisplay[(INF OR SUP) xrn]: Grand Crown%CONTINUE%
+ItemDisplay[(INF OR SUP) urn]: Corona%CONTINUE%
+ItemDisplay[(INF OR SUP) qui]: Quilted Armor%CONTINUE%
+ItemDisplay[(INF OR SUP) xui]: Ghost Armor%CONTINUE%
+ItemDisplay[(INF OR SUP) uui]: Dusk Shroud%CONTINUE%
+ItemDisplay[(INF OR SUP) lea]: Leather Armor%CONTINUE%
+ItemDisplay[(INF OR SUP) xea]: Serpentskin%CONTINUE%
+ItemDisplay[(INF OR SUP) uea]: Wyrmhide%CONTINUE%
+ItemDisplay[(INF OR SUP) hla]: Hard Leather Armor%CONTINUE%
+ItemDisplay[(INF OR SUP) xla]: Demonhide Armor%CONTINUE%
+ItemDisplay[(INF OR SUP) ula]: Scarab Husk%CONTINUE%
+ItemDisplay[(INF OR SUP) stu]: Studded Leather%CONTINUE%
+ItemDisplay[(INF OR SUP) xtu]: Trellised Armor%CONTINUE%
+ItemDisplay[(INF OR SUP) utu]: Wire Fleece%CONTINUE%
+ItemDisplay[(INF OR SUP) rng]: Ring Mail%CONTINUE%
+ItemDisplay[(INF OR SUP) xng]: Linked Mail%CONTINUE%
+ItemDisplay[(INF OR SUP) ung]: Diamond Mail%CONTINUE%
+ItemDisplay[(INF OR SUP) scl]: Scale Mail%CONTINUE%
+ItemDisplay[(INF OR SUP) xcl]: Tigulated Mail%CONTINUE%
+ItemDisplay[(INF OR SUP) ucl]: Loricated Mail%CONTINUE%
+ItemDisplay[(INF OR SUP) brs]: Breast Plate%CONTINUE%
+ItemDisplay[(INF OR SUP) xrs]: Cuirass%CONTINUE%
+ItemDisplay[(INF OR SUP) urs]: Great Hauberk%CONTINUE%
+ItemDisplay[(INF OR SUP) chn]: Chain Mail%CONTINUE%
+ItemDisplay[(INF OR SUP) xhn]: Mesh Armor%CONTINUE%
+ItemDisplay[(INF OR SUP) uhn]: Boneweave%CONTINUE%
+ItemDisplay[(INF OR SUP) spl]: Splint Mail%CONTINUE%
+ItemDisplay[(INF OR SUP) xpl]: Russet Armor%CONTINUE%
+ItemDisplay[(INF OR SUP) upl]: Balrog Skin%CONTINUE%
+ItemDisplay[(INF OR SUP) ltp]: Light Plate%CONTINUE%
+ItemDisplay[(INF OR SUP) xtp]: Mage Plate%CONTINUE%
+ItemDisplay[(INF OR SUP) utp]: Archon Plate%CONTINUE%
+ItemDisplay[(INF OR SUP) fld]: Field Plate%CONTINUE%
+ItemDisplay[(INF OR SUP) xld]: Sharktooth%CONTINUE%
+ItemDisplay[(INF OR SUP) uld]: Kraken Shell%CONTINUE%
+ItemDisplay[(INF OR SUP) plt]: Plate Mail%CONTINUE%
+ItemDisplay[(INF OR SUP) xlt]: Templar Coat%CONTINUE%
+ItemDisplay[(INF OR SUP) ult]: Hellforge Plate%CONTINUE%
+ItemDisplay[(INF OR SUP) gth]: Gothic Plate%CONTINUE%
+ItemDisplay[(INF OR SUP) xth]: Embossed Plate%CONTINUE%
+ItemDisplay[(INF OR SUP) uth]: Lacquered Plate%CONTINUE%
+ItemDisplay[(INF OR SUP) ful]: Full Plate Mail%CONTINUE%
+ItemDisplay[(INF OR SUP) xul]: Chaos Armor%CONTINUE%
+ItemDisplay[(INF OR SUP) uul]: Shadow Plate%CONTINUE%
+ItemDisplay[(INF OR SUP) aar]: Ancient Armor%CONTINUE%
+ItemDisplay[(INF OR SUP) xar]: Ornate Plate%CONTINUE%
+ItemDisplay[(INF OR SUP) uar]: Sacred Armor%CONTINUE%
+ItemDisplay[(INF OR SUP) buc]: Buckler%CONTINUE%
+ItemDisplay[(INF OR SUP) xuc]: Defender%CONTINUE%
+ItemDisplay[(INF OR SUP) uuc]: Heater%CONTINUE%
+ItemDisplay[(INF OR SUP) sml]: Small Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) xml]: Round Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) uml]: Luna%CONTINUE%
+ItemDisplay[(INF OR SUP) lrg]: Large Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) xrg]: Scutum%CONTINUE%
+ItemDisplay[(INF OR SUP) urg]: Hyperion%CONTINUE%
+ItemDisplay[(INF OR SUP) spk]: Spiked Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) xpk]: Barbed Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) upk]: Blade Barrier%CONTINUE%
+ItemDisplay[(INF OR SUP) kit]: Kite Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) xit]: Dragon Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) uit]: Monarch%CONTINUE%
+ItemDisplay[(INF OR SUP) bsh]: Bone Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) xsh]: Grim Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) ush]: Troll Nest%CONTINUE%
+ItemDisplay[(INF OR SUP) tow]: Tower Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) xow]: Pavise%CONTINUE%
+ItemDisplay[(INF OR SUP) uow]: Aegis%CONTINUE%
+ItemDisplay[(INF OR SUP) gts]: Gothic Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) xts]: Ancient Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) uts]: Ward%CONTINUE%
+ItemDisplay[(INF OR SUP) lgl]: Leather Gloves%CONTINUE%
+ItemDisplay[(INF OR SUP) xlg]: Demonhide Gloves%CONTINUE%
+ItemDisplay[(INF OR SUP) ulg]: Bramble Mitts%CONTINUE%
+ItemDisplay[(INF OR SUP) vgl]: Heavy Gloves%CONTINUE%
+ItemDisplay[(INF OR SUP) xvg]: Sharkskin Gloves%CONTINUE%
+ItemDisplay[(INF OR SUP) uvg]: Vampirebone Gloves%CONTINUE%
+ItemDisplay[(INF OR SUP) mgl]: Chain Gloves%CONTINUE%
+ItemDisplay[(INF OR SUP) xmg]: Heavy Bracers%CONTINUE%
+ItemDisplay[(INF OR SUP) umg]: Vambraces%CONTINUE%
+ItemDisplay[(INF OR SUP) tgl]: Light Gauntlets%CONTINUE%
+ItemDisplay[(INF OR SUP) xtg]: Battle Gauntlets%CONTINUE%
+ItemDisplay[(INF OR SUP) utg]: Crusader Gauntlets%CONTINUE%
+ItemDisplay[(INF OR SUP) hgl]: Gauntlets%CONTINUE%
+ItemDisplay[(INF OR SUP) xhg]: War Gauntlets%CONTINUE%
+ItemDisplay[(INF OR SUP) uhg]: Ogre Gauntlets%CONTINUE%
+ItemDisplay[(INF OR SUP) lbt]: Boots%CONTINUE%
+ItemDisplay[(INF OR SUP) xlb]: Demonhide Boots%CONTINUE%
+ItemDisplay[(INF OR SUP) ulb]: Wyrmhide Boots%CONTINUE%
+ItemDisplay[(INF OR SUP) vbt]: Heavy Boots%CONTINUE%
+ItemDisplay[(INF OR SUP) xvb]: Sharkskin Boots%CONTINUE%
+ItemDisplay[(INF OR SUP) uvb]: Scarabshell Boots%CONTINUE%
+ItemDisplay[(INF OR SUP) mbt]: Chain Boots%CONTINUE%
+ItemDisplay[(INF OR SUP) xmb]: Mesh Boots%CONTINUE%
+ItemDisplay[(INF OR SUP) umb]: Boneweave Boots%CONTINUE%
+ItemDisplay[(INF OR SUP) tbt]: Light Plated Boots%CONTINUE%
+ItemDisplay[(INF OR SUP) xtb]: Battle Boots%CONTINUE%
+ItemDisplay[(INF OR SUP) utb]: Mirrored Boots%CONTINUE%
+ItemDisplay[(INF OR SUP) hbt]: Greaves%CONTINUE%
+ItemDisplay[(INF OR SUP) xhb]: War Boots%CONTINUE%
+ItemDisplay[(INF OR SUP) uhb]: Myrmidon Greaves%CONTINUE%
+ItemDisplay[(INF OR SUP) lbl]: Sash%CONTINUE%
+ItemDisplay[(INF OR SUP) zlb]: Demonhide Sash%CONTINUE%
+ItemDisplay[(INF OR SUP) ulc]: Spiderweb Sash%CONTINUE%
+ItemDisplay[(INF OR SUP) vbl]: Light Belt%CONTINUE%
+ItemDisplay[(INF OR SUP) zvb]: Sharkskin Belt%CONTINUE%
+ItemDisplay[(INF OR SUP) uvc]: Vampirefang Belt%CONTINUE%
+ItemDisplay[(INF OR SUP) mbl]: Belt%CONTINUE%
+ItemDisplay[(INF OR SUP) zmb]: Mesh Belt%CONTINUE%
+ItemDisplay[(INF OR SUP) umc]: Mithril Coil%CONTINUE%
+ItemDisplay[(INF OR SUP) tbl]: Heavy Belt%CONTINUE%
+ItemDisplay[(INF OR SUP) ztb]: Battle Belt%CONTINUE%
+ItemDisplay[(INF OR SUP) utc]: Troll Belt%CONTINUE%
+ItemDisplay[(INF OR SUP) hbl]: Plated Belt%CONTINUE%
+ItemDisplay[(INF OR SUP) zhb]: War Belt%CONTINUE%
+ItemDisplay[(INF OR SUP) uhc]: Colossus Girdle%CONTINUE%
+ItemDisplay[(INF OR SUP) dr1]: Wolf Head%CONTINUE%
+ItemDisplay[(INF OR SUP) dr6]: Alpha Helm%CONTINUE%
+ItemDisplay[(INF OR SUP) drb]: Blood Spirit%CONTINUE%
+ItemDisplay[(INF OR SUP) dr2]: Hawk Helm%CONTINUE%
+ItemDisplay[(INF OR SUP) dr7]: Griffon Headress%CONTINUE%
+ItemDisplay[(INF OR SUP) drc]: Sun Spirit%CONTINUE%
+ItemDisplay[(INF OR SUP) dr3]: Antlers%CONTINUE%
+ItemDisplay[(INF OR SUP) dr8]: Hunter's Guise%CONTINUE%
+ItemDisplay[(INF OR SUP) drd]: Earth Spirit%CONTINUE%
+ItemDisplay[(INF OR SUP) dr4]: Falcon Mask%CONTINUE%
+ItemDisplay[(INF OR SUP) dr9]: Sacred Feathers%CONTINUE%
+ItemDisplay[(INF OR SUP) dre]: Sky Spirit%CONTINUE%
+ItemDisplay[(INF OR SUP) dr5]: Spirit Mask%CONTINUE%
+ItemDisplay[(INF OR SUP) dra]: Totemic Mask%CONTINUE%
+ItemDisplay[(INF OR SUP) drf]: Dream Spirit%CONTINUE%
+ItemDisplay[(INF OR SUP) ba1]: Jawbone Cap%CONTINUE%
+ItemDisplay[(INF OR SUP) ba6]: Jawbone Visor%CONTINUE%
+ItemDisplay[(INF OR SUP) bab]: Carnage Helm%CONTINUE%
+ItemDisplay[(INF OR SUP) ba2]: Fanged Helm%CONTINUE%
+ItemDisplay[(INF OR SUP) ba7]: Lion Helm%CONTINUE%
+ItemDisplay[(INF OR SUP) bac]: Fury Visor%CONTINUE%
+ItemDisplay[(INF OR SUP) ba3]: Horned Helm%CONTINUE%
+ItemDisplay[(INF OR SUP) ba8]: Rage Mask%CONTINUE%
+ItemDisplay[(INF OR SUP) bad]: Destroyer Helm%CONTINUE%
+ItemDisplay[(INF OR SUP) ba4]: Assault Helmet%CONTINUE%
+ItemDisplay[(INF OR SUP) ba9]: Savage Helmet%CONTINUE%
+ItemDisplay[(INF OR SUP) bae]: Conqueror Crown%CONTINUE%
+ItemDisplay[(INF OR SUP) ba5]: Avenger Guard%CONTINUE%
+ItemDisplay[(INF OR SUP) baa]: Slayer Guard%CONTINUE%
+ItemDisplay[(INF OR SUP) baf]: Guardian Crown%CONTINUE%
+ItemDisplay[(INF OR SUP) pa1]: Targe%CONTINUE%
+ItemDisplay[(INF OR SUP) pa6]: Akaran Targe%CONTINUE%
+ItemDisplay[(INF OR SUP) pab]: Sacred Targe%CONTINUE%
+ItemDisplay[(INF OR SUP) pa2]: Rondache%CONTINUE%
+ItemDisplay[(INF OR SUP) pa7]: Akaran Rondache%CONTINUE%
+ItemDisplay[(INF OR SUP) pac]: Sacred Rondache%CONTINUE%
+ItemDisplay[(INF OR SUP) pa3]: Heraldic Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) pa8]: Protector Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) pad]: Kurast Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) pa4]: Aerin Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) pa9]: Gilded Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) pae]: Zakarum Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) pa5]: Crown Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) paa]: Royal Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) paf]: Vortex Shield%CONTINUE%
+ItemDisplay[(INF OR SUP) ne1]: Preserved Head%CONTINUE%
+ItemDisplay[(INF OR SUP) ne6]: Mummified Trophy%CONTINUE%
+ItemDisplay[(INF OR SUP) neb]: Minion Skull%CONTINUE%
+ItemDisplay[(INF OR SUP) ne2]: Zombie Head%CONTINUE%
+ItemDisplay[(INF OR SUP) ne7]: Fetish Trophy%CONTINUE%
+ItemDisplay[(INF OR SUP) neg]: Hellspawn Skull%CONTINUE%
+ItemDisplay[(INF OR SUP) ne3]: Unraveller Head%CONTINUE%
+ItemDisplay[(INF OR SUP) ne8]: Sexton Trophy%CONTINUE%
+ItemDisplay[(INF OR SUP) ned]: Overseer Skull%CONTINUE%
+ItemDisplay[(INF OR SUP) ne4]: Gargoyle Head%CONTINUE%
+ItemDisplay[(INF OR SUP) ne9]: Cantor Trophy%CONTINUE%
+ItemDisplay[(INF OR SUP) nee]: Succubae Skull%CONTINUE%
+ItemDisplay[(INF OR SUP) ne5]: Demon Head%CONTINUE%
+ItemDisplay[(INF OR SUP) nea]: Heirophant Trophy%CONTINUE%
+ItemDisplay[(INF OR SUP) nef]: Bloodlord Skull%CONTINUE%
+ItemDisplay[(INF OR SUP) hax]: Hand Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 9ha]: Hatchet%CONTINUE%
+ItemDisplay[(INF OR SUP) 7ha]: Tomahawk%CONTINUE%
+ItemDisplay[(INF OR SUP) axe]: Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 9ax]: Cleaver%CONTINUE%
+ItemDisplay[(INF OR SUP) 7ax]: Small Crescent%CONTINUE%
+ItemDisplay[(INF OR SUP) 2ax]: Double Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 92a]: Twin Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 72a]: Ettin Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) mpi]: Military Pick%CONTINUE%
+ItemDisplay[(INF OR SUP) 9mp]: Crowbill%CONTINUE%
+ItemDisplay[(INF OR SUP) 7mp]: War Spike%CONTINUE%
+ItemDisplay[(INF OR SUP) wax]: War Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 9wa]: Naga%CONTINUE%
+ItemDisplay[(INF OR SUP) 7wa]: Berserker Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) lax]: Large Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 9la]: Military Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 7la]: Feral Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) bax]: Broad Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 9ba]: Bearded Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 7ba]: Silver-edged Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) btx]: Battle Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 9bt]: Tabar%CONTINUE%
+ItemDisplay[(INF OR SUP) 7bt]: Decapitator%CONTINUE%
+ItemDisplay[(INF OR SUP) gax]: Great Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 9ga]: Gothic Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 7ga]: Champion Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) gix]: Giant Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 9gi]: Ancient Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 7gi]: Glorious Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) clb]: Club%CONTINUE%
+ItemDisplay[(INF OR SUP) 9cl]: Cudgel%CONTINUE%
+ItemDisplay[(INF OR SUP) 7cl]: Truncheon%CONTINUE%
+ItemDisplay[(INF OR SUP) spc]: Spiked Club%CONTINUE%
+ItemDisplay[(INF OR SUP) 9sp]: Barbed Club%CONTINUE%
+ItemDisplay[(INF OR SUP) 7sp]: Tyrant Club%CONTINUE%
+ItemDisplay[(INF OR SUP) mac]: Mace%CONTINUE%
+ItemDisplay[(INF OR SUP) 9ma]: Flanged Mace%CONTINUE%
+ItemDisplay[(INF OR SUP) 7ma]: Reinforced Mace%CONTINUE%
+ItemDisplay[(INF OR SUP) mst]: Morning Star%CONTINUE%
+ItemDisplay[(INF OR SUP) 9mt]: Jagged Star%CONTINUE%
+ItemDisplay[(INF OR SUP) 7mt]: Devil Star%CONTINUE%
+ItemDisplay[(INF OR SUP) fla]: Flail%CONTINUE%
+ItemDisplay[(INF OR SUP) 9fl]: Knout%CONTINUE%
+ItemDisplay[(INF OR SUP) 7fl]: Scourge%CONTINUE%
+ItemDisplay[(INF OR SUP) whm]: War Hammer%CONTINUE%
+ItemDisplay[(INF OR SUP) 9wh]: Battle Hammer%CONTINUE%
+ItemDisplay[(INF OR SUP) 7wh]: Legendary Mallet%CONTINUE%
+ItemDisplay[(INF OR SUP) mau]: Maul%CONTINUE%
+ItemDisplay[(INF OR SUP) 9m9]: War Club%CONTINUE%
+ItemDisplay[(INF OR SUP) 7m7]: Ogre Maul%CONTINUE%
+ItemDisplay[(INF OR SUP) gma]: Great Maul%CONTINUE%
+ItemDisplay[(INF OR SUP) 9gm]: Martel de Fer%CONTINUE%
+ItemDisplay[(INF OR SUP) 7gm]: Thunder Maul%CONTINUE%
+ItemDisplay[(INF OR SUP) ssd]: Short Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) 9ss]: Gladius%CONTINUE%
+ItemDisplay[(INF OR SUP) 7ss]: Falcata%CONTINUE%
+ItemDisplay[(INF OR SUP) scm]: Scimitar%CONTINUE%
+ItemDisplay[(INF OR SUP) 9sm]: Cutlass%CONTINUE%
+ItemDisplay[(INF OR SUP) 7sm]: Ataghan%CONTINUE%
+ItemDisplay[(INF OR SUP) sbr]: Saber%CONTINUE%
+ItemDisplay[(INF OR SUP) 9sb]: Shamshir%CONTINUE%
+ItemDisplay[(INF OR SUP) 7sb]: Elegant Blade%CONTINUE%
+ItemDisplay[(INF OR SUP) flc]: Falchion%CONTINUE%
+ItemDisplay[(INF OR SUP) 9fc]: Tulwar%CONTINUE%
+ItemDisplay[(INF OR SUP) 7fc]: Hydra Edge%CONTINUE%
+ItemDisplay[(INF OR SUP) crs]: Crystal Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) 9cr]: Dimensional Blade%CONTINUE%
+ItemDisplay[(INF OR SUP) 7cr]: Phase Blade%CONTINUE%
+ItemDisplay[(INF OR SUP) bsd]: Broad Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) 9bs]: Battle Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) 7bs]: Conquest Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) lsd]: Long Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) 9ls]: Rune Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) 7ls]: Cryptic Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) wsd]: War Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) 9wd]: Ancient Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) 7wd]: Mythical Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) 2hs]: Two-handed Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) 92h]: Espandon%CONTINUE%
+ItemDisplay[(INF OR SUP) 72h]: Legend Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) clm]: Claymore%CONTINUE%
+ItemDisplay[(INF OR SUP) 9cm]: Dacian Falx%CONTINUE%
+ItemDisplay[(INF OR SUP) 7cm]: Highland Blade%CONTINUE%
+ItemDisplay[(INF OR SUP) gis]: Giant Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) 9gs]: Tusk Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) 7gs]: Balrog Blade%CONTINUE%
+ItemDisplay[(INF OR SUP) bsw]: Bastard Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) 9b9]: Gothic Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) 7b7]: Champion Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) flb]: Flamberge%CONTINUE%
+ItemDisplay[(INF OR SUP) 9fb]: Zweihander%CONTINUE%
+ItemDisplay[(INF OR SUP) 7fb]: Colossus Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) gsd]: Great Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) 9gd]: Executioner Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) 7gd]: Colossus Blade%CONTINUE%
+ItemDisplay[(INF OR SUP) dgr]: Dagger%CONTINUE%
+ItemDisplay[(INF OR SUP) 9dg]: Poignard%CONTINUE%
+ItemDisplay[(INF OR SUP) 7dg]: Bone Knife%CONTINUE%
+ItemDisplay[(INF OR SUP) dir]: Dirk%CONTINUE%
+ItemDisplay[(INF OR SUP) 9di]: Rondel%CONTINUE%
+ItemDisplay[(INF OR SUP) 7di]: Mithril Point%CONTINUE%
+ItemDisplay[(INF OR SUP) kri]: Kris%CONTINUE%
+ItemDisplay[(INF OR SUP) 9kr]: Cinquedeas%CONTINUE%
+ItemDisplay[(INF OR SUP) 7kr]: Fanged Knife%CONTINUE%
+ItemDisplay[(INF OR SUP) bld]: Blade%CONTINUE%
+ItemDisplay[(INF OR SUP) 9bl]: Stiletto%CONTINUE%
+ItemDisplay[(INF OR SUP) 7bl]: Legend Spike%CONTINUE%
+ItemDisplay[(INF OR SUP) tkf]: Throwing Knife%CONTINUE%
+ItemDisplay[(INF OR SUP) 9tk]: Battle Dart%CONTINUE%
+ItemDisplay[(INF OR SUP) 7tk]: Flying Knife%CONTINUE%
+ItemDisplay[(INF OR SUP) tax]: Throwing Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 9ta]: Francisca%CONTINUE%
+ItemDisplay[(INF OR SUP) 7ta]: Flying Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) bkf]: Balanced Knife%CONTINUE%
+ItemDisplay[(INF OR SUP) 9bk]: War Dart%CONTINUE%
+ItemDisplay[(INF OR SUP) 7bk]: Winged Knife%CONTINUE%
+ItemDisplay[(INF OR SUP) bal]: Balanced Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 9b8]: Hurlbat%CONTINUE%
+ItemDisplay[(INF OR SUP) 7b8]: Winged Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) jav]: Javelin%CONTINUE%
+ItemDisplay[(INF OR SUP) 9ja]: War Javelin%CONTINUE%
+ItemDisplay[(INF OR SUP) 7ja]: Hyperion Javelin%CONTINUE%
+ItemDisplay[(INF OR SUP) pil]: Pilum%CONTINUE%
+ItemDisplay[(INF OR SUP) 9pi]: Great Pilum%CONTINUE%
+ItemDisplay[(INF OR SUP) 7pi]: Stygian Pilum%CONTINUE%
+ItemDisplay[(INF OR SUP) ssp]: Short Spear%CONTINUE%
+ItemDisplay[(INF OR SUP) 9s9]: Simbilan%CONTINUE%
+ItemDisplay[(INF OR SUP) 7s7]: Balrog Spear%CONTINUE%
+ItemDisplay[(INF OR SUP) glv]: Glaive%CONTINUE%
+ItemDisplay[(INF OR SUP) 9gl]: Spiculum%CONTINUE%
+ItemDisplay[(INF OR SUP) 7gl]: Ghost Glaive%CONTINUE%
+ItemDisplay[(INF OR SUP) tsp]: Throwing Spear%CONTINUE%
+ItemDisplay[(INF OR SUP) 9ts]: Harpoon%CONTINUE%
+ItemDisplay[(INF OR SUP) 7ts]: Winged Harpoon%CONTINUE%
+ItemDisplay[(INF OR SUP) spr]: Spear%CONTINUE%
+ItemDisplay[(INF OR SUP) 9sr]: War Spear%CONTINUE%
+ItemDisplay[(INF OR SUP) 7sr]: Hyperion Spear%CONTINUE%
+ItemDisplay[(INF OR SUP) tri]: Trident%CONTINUE%
+ItemDisplay[(INF OR SUP) 9tr]: Fuscina%CONTINUE%
+ItemDisplay[(INF OR SUP) 7tr]: Stygian Pike%CONTINUE%
+ItemDisplay[(INF OR SUP) brn]: Brandistock%CONTINUE%
+ItemDisplay[(INF OR SUP) 9br]: War Fork%CONTINUE%
+ItemDisplay[(INF OR SUP) 7br]: Mancatcher%CONTINUE%
+ItemDisplay[(INF OR SUP) spt]: Spetum%CONTINUE%
+ItemDisplay[(INF OR SUP) 9st]: Yari%CONTINUE%
+ItemDisplay[(INF OR SUP) 7st]: Ghost Spear%CONTINUE%
+ItemDisplay[(INF OR SUP) pik]: Pike%CONTINUE%
+ItemDisplay[(INF OR SUP) 9p9]: Lance%CONTINUE%
+ItemDisplay[(INF OR SUP) 7p7]: War Pike%CONTINUE%
+ItemDisplay[(INF OR SUP) bar]: Bardiche%CONTINUE%
+ItemDisplay[(INF OR SUP) 9b7]: Lochaber Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) 7o7]: Ogre Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) vou]: Voulge%CONTINUE%
+ItemDisplay[(INF OR SUP) 9vo]: Bill%CONTINUE%
+ItemDisplay[(INF OR SUP) 7vo]: Colossus Voulge%CONTINUE%
+ItemDisplay[(INF OR SUP) scy]: Scythe%CONTINUE%
+ItemDisplay[(INF OR SUP) 9s8]: Battle Scythe%CONTINUE%
+ItemDisplay[(INF OR SUP) 7s8]: Thresher%CONTINUE%
+ItemDisplay[(INF OR SUP) pax]: Poleaxe%CONTINUE%
+ItemDisplay[(INF OR SUP) 9pa]: Partizan%CONTINUE%
+ItemDisplay[(INF OR SUP) 7pa]: Cryptic Axe%CONTINUE%
+ItemDisplay[(INF OR SUP) hal]: Halberd%CONTINUE%
+ItemDisplay[(INF OR SUP) 9h9]: Bec-de-Corbin%CONTINUE%
+ItemDisplay[(INF OR SUP) 7h7]: Great Poleaxe%CONTINUE%
+ItemDisplay[(INF OR SUP) wsc]: War Scythe%CONTINUE%
+ItemDisplay[(INF OR SUP) 9wc]: Grim Scythe%CONTINUE%
+ItemDisplay[(INF OR SUP) 7wc]: Giant Thresher%CONTINUE%
+ItemDisplay[(INF OR SUP) sbw]: Short Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) 8sb]: Edge Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) 6sb]: Spider Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) hbw]: Hunter’s Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) 8hb]: Razor Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) 6hb]: Blade Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) lbw]: Long Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) 8lb]: Cedar Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) 6lb]: Shadow Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) cbw]: Composite Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) 8cb]: Double Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) 6cb]: Great Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) sbb]: Short Battle Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) 8s8]: Short Siege Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) 6s7]: Diamond Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) lbb]: Long Battle Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) 8l8]: Large Siege Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) 6l7]: Crusader Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) swb]: Short War Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) 8sw]: Rune Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) 6sw]: Ward Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) lwb]: Long War Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) 8lw]: Gothic Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) 6lw]: Hydra Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) lxb]: Light Crossbow%CONTINUE%
+ItemDisplay[(INF OR SUP) 8lx]: Arbalest%CONTINUE%
+ItemDisplay[(INF OR SUP) 6lx]: Pellet Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) mxb]: Crossbow%CONTINUE%
+ItemDisplay[(INF OR SUP) 8mx]: Siege Crossbow%CONTINUE%
+ItemDisplay[(INF OR SUP) 6mx]: Gorgon Crossbow%CONTINUE%
+ItemDisplay[(INF OR SUP) hxb]: Heavy Crossbow%CONTINUE%
+ItemDisplay[(INF OR SUP) 8hx]: Ballista%CONTINUE%
+ItemDisplay[(INF OR SUP) 6hx]: Colossus Crossbow%CONTINUE%
+ItemDisplay[(INF OR SUP) rxb]: Repeating Crossbow%CONTINUE%
+ItemDisplay[(INF OR SUP) 8rx]: Chu-Ko-Nu%CONTINUE%
+ItemDisplay[(INF OR SUP) 6rx]: Demon Crossbow%CONTINUE%
+ItemDisplay[(INF OR SUP) sst]: Short Staff%CONTINUE%
+ItemDisplay[(INF OR SUP) 8ss]: Jo Staff%CONTINUE%
+ItemDisplay[(INF OR SUP) 6ss]: Walking Stick%CONTINUE%
+ItemDisplay[(INF OR SUP) lst]: Long Staff%CONTINUE%
+ItemDisplay[(INF OR SUP) 8ls]: Quarterstaff%CONTINUE%
+ItemDisplay[(INF OR SUP) 6ls]: Stalagmite%CONTINUE%
+ItemDisplay[(INF OR SUP) cst]: Gnarled Staff%CONTINUE%
+ItemDisplay[(INF OR SUP) 8cs]: Cedar Staff%CONTINUE%
+ItemDisplay[(INF OR SUP) 6cs]: Elder Staff%CONTINUE%
+ItemDisplay[(INF OR SUP) bst]: Battle Staff%CONTINUE%
+ItemDisplay[(INF OR SUP) 8bs]: Gothic Staff%CONTINUE%
+ItemDisplay[(INF OR SUP) 6bs]: Shillelagh%CONTINUE%
+ItemDisplay[(INF OR SUP) wst]: War Staff%CONTINUE%
+ItemDisplay[(INF OR SUP) 8ws]: Rune Staff%CONTINUE%
+ItemDisplay[(INF OR SUP) 6ws]: Archon Staff%CONTINUE%
+ItemDisplay[(INF OR SUP) wnd]: Wand%CONTINUE%
+ItemDisplay[(INF OR SUP) 9wn]: Burnt Wand%CONTINUE%
+ItemDisplay[(INF OR SUP) 7wn]: Polished Wand%CONTINUE%
+ItemDisplay[(INF OR SUP) ywn]: Yew Wand%CONTINUE%
+ItemDisplay[(INF OR SUP) 9yw]: Petrified Wand%CONTINUE%
+ItemDisplay[(INF OR SUP) 7yw]: Ghost Wand%CONTINUE%
+ItemDisplay[(INF OR SUP) bwn]: Bone Wand%CONTINUE%
+ItemDisplay[(INF OR SUP) 9bw]: Tomb Wand%CONTINUE%
+ItemDisplay[(INF OR SUP) 7bw]: Lich Wand%CONTINUE%
+ItemDisplay[(INF OR SUP) gwn]: Grim Wand%CONTINUE%
+ItemDisplay[(INF OR SUP) 9gw]: Grave Wand%CONTINUE%
+ItemDisplay[(INF OR SUP) 7gw]: Unearthed Wand%CONTINUE%
+ItemDisplay[(INF OR SUP) scp]: Scepter%CONTINUE%
+ItemDisplay[(INF OR SUP) 9sc]: Rune Scepter%CONTINUE%
+ItemDisplay[(INF OR SUP) 7sc]: Mighty Scepter%CONTINUE%
+ItemDisplay[(INF OR SUP) gsc]: Grand Scepter%CONTINUE%
+ItemDisplay[(INF OR SUP) 9qs]: Holy Water Sprinkler%CONTINUE%
+ItemDisplay[(INF OR SUP) 7qs]: Seraph Rod%CONTINUE%
+ItemDisplay[(INF OR SUP) wsp]: War Scepter%CONTINUE%
+ItemDisplay[(INF OR SUP) 9ws]: Divine Scepter%CONTINUE%
+ItemDisplay[(INF OR SUP) 7ws]: Caduceus%CONTINUE%
+ItemDisplay[(INF OR SUP) ktr]: Katar%CONTINUE%
+ItemDisplay[(INF OR SUP) 9ar]: Quhab%CONTINUE%
+ItemDisplay[(INF OR SUP) 7ar]: Suwayyah%CONTINUE%
+ItemDisplay[(INF OR SUP) wrb]: Wrist Blade%CONTINUE%
+ItemDisplay[(INF OR SUP) 9wb]: Wrist Spike%CONTINUE%
+ItemDisplay[(INF OR SUP) 7wb]: Wrist Sword%CONTINUE%
+ItemDisplay[(INF OR SUP) axf]: Hatchet Hands%CONTINUE%
+ItemDisplay[(INF OR SUP) 9xf]: Fascia%CONTINUE%
+ItemDisplay[(INF OR SUP) 7xf]: War Fist%CONTINUE%
+ItemDisplay[(INF OR SUP) ces]: Cestus%CONTINUE%
+ItemDisplay[(INF OR SUP) 9cs]: Hand Scythe%CONTINUE%
+ItemDisplay[(INF OR SUP) 7cs]: Battle Cestus%CONTINUE%
+ItemDisplay[(INF OR SUP) clw]: Claws%CONTINUE%
+ItemDisplay[(INF OR SUP) 9lw]: Greater Claws%CONTINUE%
+ItemDisplay[(INF OR SUP) 7lw]: Feral Claws%CONTINUE%
+ItemDisplay[(INF OR SUP) btl]: Blade Talons%CONTINUE%
+ItemDisplay[(INF OR SUP) 9tw]: Greater Talons%CONTINUE%
+ItemDisplay[(INF OR SUP) 7tw]: Runic Talons%CONTINUE%
+ItemDisplay[(INF OR SUP) skr]: Scissors Katar%CONTINUE%
+ItemDisplay[(INF OR SUP) 9qr]: Scissors Quhab%CONTINUE%
+ItemDisplay[(INF OR SUP) 7qr]: Scissors Suwayyah%CONTINUE%
+ItemDisplay[(INF OR SUP) ob1]: Eagle Orb%CONTINUE%
+ItemDisplay[(INF OR SUP) ob6]: Glowing Orb%CONTINUE%
+ItemDisplay[(INF OR SUP) obb]: Heavenly Stone%CONTINUE%
+ItemDisplay[(INF OR SUP) ob2]: Sacred Globe%CONTINUE%
+ItemDisplay[(INF OR SUP) ob7]: Crystalline Globe%CONTINUE%
+ItemDisplay[(INF OR SUP) obc]: Eldritch Orb%CONTINUE%
+ItemDisplay[(INF OR SUP) ob3]: Smoked Sphere%CONTINUE%
+ItemDisplay[(INF OR SUP) ob8]: Cloudy Sphere%CONTINUE%
+ItemDisplay[(INF OR SUP) obd]: Demon Heart%CONTINUE%
+ItemDisplay[(INF OR SUP) ob4]: Clasped Orb%CONTINUE%
+ItemDisplay[(INF OR SUP) ob9]: Sparkling Ball%CONTINUE%
+ItemDisplay[(INF OR SUP) obe]: Vortex Orb%CONTINUE%
+ItemDisplay[(INF OR SUP) ob5]: Jared's Stone%CONTINUE%
+ItemDisplay[(INF OR SUP) oba]: Swirling Crystal%CONTINUE%
+ItemDisplay[(INF OR SUP) obf]: Dimensional Shard%CONTINUE%
+ItemDisplay[(INF OR SUP) am1]: Stag Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) am6]: Ashwood Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) amb]: Matriarchal Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) am2]: Reflex Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) am7]: Ceremonial Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) amc]: Grand Matron Bow%CONTINUE%
+ItemDisplay[(INF OR SUP) am3]: Maiden Spear%CONTINUE%
+ItemDisplay[(INF OR SUP) am8]: Ceremonial Spear%CONTINUE%
+ItemDisplay[(INF OR SUP) amd]: Matriarchal Spear%CONTINUE%
+ItemDisplay[(INF OR SUP) am4]: Maiden Pike%CONTINUE%
+ItemDisplay[(INF OR SUP) am9]: Ceremonial Pike%CONTINUE%
+ItemDisplay[(INF OR SUP) ame]: Matriarchal Pike%CONTINUE%
+ItemDisplay[(INF OR SUP) am5]: Maiden Javelin%CONTINUE%
+ItemDisplay[(INF OR SUP) ama]: Ceremonial Javelin%CONTINUE%
+ItemDisplay[(INF OR SUP) amf]: Matriarchal Javelin%CONTINUE%
+ItemDisplay[(INF OR SUP) ci0]: Circlet%CONTINUE%
+ItemDisplay[(INF OR SUP) ci2]: Tiara%CONTINUE%
+ItemDisplay[(INF OR SUP) ci3]: Diadem%CONTINUE%
+ItemDisplay[(INF OR SUP) ci1]: Coronet%CONTINUE%
 
 ItemDisplay[((ARMOR (!CL3)) OR WEAPON) SUP NMAG !RW (ED>0 OR MAXDUR>0 OR ARPER>0 OR MAXDMG>0 OR AR>0) SOCK=0 !ETH]: %ORANGE%+%WHITE%%NAME%%CONTINUE%
 ItemDisplay[((ARMOR (!CL3)) OR WEAPON) SUP NMAG !RW (ED>0 OR MAXDUR>0 OR ARPER>0 OR MAXDMG>0 OR AR>0) (SOCK>0 OR ETH)]: %ORANGE%+%GRAY%%NAME%%CONTINUE%
@@ -519,6 +529,12 @@ ItemDisplay[CL3 SUP NMAG !RW (ED>0 OR MAXDUR>0 OR ARPER>0 OR MAXDMG>0) (SOCK>0 O
 ItemDisplay[ETH SUP NMAG]: %GRAY%[%WHITE%e%GRAY%] %NAME%%CONTINUE%
 
 //----------------------------------------- Formatting --------------------------------------------
+
+//Inferior Items
+ItemDisplay[((ARMOR (!CL3)) OR WEAPON) INF NMAG !RW SOCK=0 !ETH]: %BLUE%-%WHITE%%NAME%%CONTINUE%
+ItemDisplay[((ARMOR (!CL3)) OR WEAPON) INF NMAG !RW (SOCK>0 OR ETH)]: %BLUE%-%GRAY%%NAME%%CONTINUE%
+ItemDisplay[CL3 INF NMAG !RW SOCK=0 !ETH]: %BLUE%-%WHITE%%NAME%%CONTINUE%
+ItemDisplay[CL3 INF NMAG !RW (SOCK>0 OR ETH)]: %BLUE%-%GRAY%%NAME%%CONTINUE%
 
 //Paladin Shield AUTOMOD Formatting
 //DAMAGE
@@ -676,7 +692,7 @@ ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17) CLVL>1]: %PX-62%%ORANGE%%RUNENAME% %
 ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17) CLVL=1]: %ORANGE%%RUNENAME% %GRAY%[%TAN%%RUNENUM%%GRAY%]%CONTINUE%
 ItemDisplay[RUNE=15 OR RUNE=18 OR RUNE=19]: %PX-62%%TAN%*  %ORANGE%%RUNENAME% Rune %GRAY%[%WHITE%%RUNENUM%%GRAY%]%TAN%  *%CONTINUE%
 ItemDisplay[RUNE>19 AND RUNE<26]: %DOT-62%%RED%*     %ORANGE%%RUNENAME% Rune %GRAY%[%RED%%RUNENUM%%GRAY%]%RED%     *%CONTINUE%
-ItemDisplay[RUNE>25]: %BORDER-62%%NL%%GREEN%*%PURPLE%*%RED%*          %ORANGE%%RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]%RED%          *%PURPLE%*%GREEN%*%CONTINUE%
+ItemDisplay[RUNE>25]: %BORDER-62%%GREEN%*%PURPLE%*%RED%*          %ORANGE%%RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]%RED%          *%PURPLE%*%GREEN%*%CONTINUE%
 
 //----------------------------------------- Charms -----------------------------------------
 
@@ -840,14 +856,14 @@ ItemDisplay[jew MAG !ID]: %DOT-9A%%TAN%*%BLUE%*   %NAME%   *%TAN%*
 ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%WHITE%*%YELLOW%*   %NAME%   *%WHITE%*
 
 //Diablo Clone Uniques
-ItemDisplay[UNI !ID utb]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%NL%%GREEN%GODLY // Mirrored Boots
-ItemDisplay[UNI !ID uth]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%NL%%GREEN%GODLY // Kraken Shell
-ItemDisplay[UNI !ID 7bs]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%NL%%GREEN%GODLY // Conquest Sword
-ItemDisplay[UNI !ID 7qr]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%NL%%GREEN%GODLY // Scissors Suwayyah
-ItemDisplay[UNI !ID uhl]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%NL%%GREEN%GODLY // Bone Visage
+ItemDisplay[UNI !ID utb]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Mirrored Boots
+ItemDisplay[UNI !ID uth]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Kraken Shell
+ItemDisplay[UNI !ID 7bs]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Conquest Sword
+ItemDisplay[UNI !ID 7qr]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Scissors Suwayyah
+ItemDisplay[UNI !ID uhl]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Bone Visage
 
 //High-Tier Uniques
-ItemDisplay[(rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%NL%%GREEN%GODLY
+ItemDisplay[(rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*
 
 //Mid-Tier Uniques
 //Belts
@@ -866,7 +882,7 @@ ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !I
 ItemDisplay[(7cs OR 7ws OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR obc OR 7lw OR amf OR 7wh) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%%GRAY%     *%TAN%*%YELLOW%*
 
 //Rainbow Facet
-ItemDisplay[jew UNI !ID]: %BORDER-68%%RED%r%ORANGE%a%YELLOW%in%GREEN%b%BLUE%o%PURPLE%w     %GOLD%%NAME%%PURPLE%     r%BLUE%a%GREEN%in%YELLOW%b%ORANGE%o%RED%w%NL%%GREEN%GODLY
+ItemDisplay[jew UNI !ID]: %BORDER-68%%RED%r%ORANGE%a%YELLOW%in%GREEN%b%BLUE%o%PURPLE%w     %GOLD%%NAME%%PURPLE%     r%BLUE%a%GREEN%in%YELLOW%b%ORANGE%o%RED%w
 
 //Good Set Pieces
 ItemDisplay[(amu OR rin OR uar OR ci3 OR 7qr OR uth OR paf) SET !ID]: %MAP-84%%PURPLE%*%RED%*%DARK_GREEN%*%GREEN%*     %NAME%     *%DARK_GREEN%*%RED%*%PURPLE%*
@@ -1117,7 +1133,7 @@ ItemDisplay[NMAG !RW SK223=2]: %NAME%%NL%+2 Werewolf%CONTINUE%
 ItemDisplay[NMAG !RW SK223=3]: %NAME%%NL%+3 Werewolf%CONTINUE%
 ItemDisplay[NMAG !RW SK224=1]: %NAME%%NL%+1 Lycan%CONTINUE%
 ItemDisplay[NMAG !RW SK224=2]: %NAME%%NL%+2 Lycan%CONTINUE%
-ItemDisplay[NMAG !RW SK224=3]: %NAME%%NL%+3 Lycant%CONTINUE%
+ItemDisplay[NMAG !RW SK224=3]: %NAME%%NL%+3 Lycan%CONTINUE%
 ItemDisplay[NMAG !RW SK225=1]: %NAME%%NL%+1 Firestorm%CONTINUE%
 ItemDisplay[NMAG !RW SK225=2]: %NAME%%NL%+2 Firestorm%CONTINUE%
 ItemDisplay[NMAG !RW SK225=3]: %NAME%%NL%+3 Firestorm%CONTINUE%
@@ -1501,47 +1517,47 @@ ItemDisplay[NMAG !RW SK376=2]: %NAME%%NL%+2 Combust%CONTINUE%
 ItemDisplay[NMAG !RW SK376=3]: %NAME%%NL%+3 Combust%CONTINUE%
 
 //Superior Bases with ED
-ItemDisplay[ARMOR ED=15 NMAG]: %GRAY%[%BLUE%15%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[ARMOR ED=14 NMAG]: %GRAY%[%BLUE%14%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[ARMOR ED=13 NMAG]: %GRAY%[%BLUE%13%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[ARMOR ED=12 NMAG]: %GRAY%[%BLUE%12%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[ARMOR ED=11 NMAG]: %GRAY%[%BLUE%11%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[ARMOR ED=10 NMAG]: %GRAY%[%BLUE%10%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[ARMOR ED=9 NMAG]: %GRAY%[%BLUE%9%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[ARMOR ED=8 NMAG]: %GRAY%[%BLUE%8%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[ARMOR ED=7 NMAG]: %GRAY%[%BLUE%7%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[ARMOR ED=6 NMAG]: %GRAY%[%BLUE%6%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[ARMOR ED=5 NMAG]: %GRAY%[%BLUE%5%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[ARMOR ED=15 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%BLUE%15%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[ARMOR ED=14 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%BLUE%14%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[ARMOR ED=13 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%BLUE%13%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[ARMOR ED=12 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%BLUE%12%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[ARMOR ED=11 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%BLUE%11%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[ARMOR ED=10 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%BLUE%10%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[ARMOR ED=9 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%BLUE%9%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[ARMOR ED=8 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%BLUE%8%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[ARMOR ED=7 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%BLUE%7%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[ARMOR ED=6 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%BLUE%6%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[ARMOR ED=5 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%BLUE%5%%GRAY%] %NAME%%CONTINUE%
 
-ItemDisplay[WEAPON ED=15 NMAG]: %GRAY%[%RED%15%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[WEAPON ED=14 NMAG]: %GRAY%[%RED%14%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[WEAPON ED=13 NMAG]: %GRAY%[%RED%13%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[WEAPON ED=12 NMAG]: %GRAY%[%RED%12%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[WEAPON ED=11 NMAG]: %GRAY%[%RED%11%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[WEAPON ED=10 NMAG]: %GRAY%[%RED%10%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[WEAPON ED=9 NMAG]: %GRAY%[%RED%9%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[WEAPON ED=8 NMAG]: %GRAY%[%RED%8%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[WEAPON ED=7 NMAG]: %GRAY%[%RED%7%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[WEAPON ED=6 NMAG]: %GRAY%[%RED%6%%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[WEAPON ED=5 NMAG]: %GRAY%[%RED%5%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[WEAPON ED=15 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%RED%15%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[WEAPON ED=14 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%RED%14%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[WEAPON ED=13 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%RED%13%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[WEAPON ED=12 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%RED%12%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[WEAPON ED=11 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%RED%11%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[WEAPON ED=10 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%RED%10%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[WEAPON ED=9 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%RED%9%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[WEAPON ED=8 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%RED%8%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[WEAPON ED=7 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%RED%7%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[WEAPON ED=6 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%RED%6%%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[WEAPON ED=5 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GRAY%[%RED%5%%GRAY%] %NAME%%CONTINUE%
 
 //Notes For Upgrading
 ItemDisplay[ARMOR NORM RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Upgrading Recipe:}
 ItemDisplay[ARMOR EXC RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Upgrading Recipe:}
-ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ Perf O%NL%%WHITE%Upgrading Recipe:}
-ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ Perf O%NL%%WHITE%Upgrading Recipe:}
+ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:}
+ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:}
 ItemDisplay[ARMOR NORM CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Upgrading Recipe:}
 ItemDisplay[ARMOR EXC CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Upgrading Recipe:}
-ItemDisplay[WEAPON NORM CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ Perf O%NL%%WHITE%Upgrading Recipe:}
-ItemDisplay[WEAPON EXC CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ Perf O%NL%%WHITE%Upgrading Recipe:}
+ItemDisplay[WEAPON NORM CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:}
+ItemDisplay[WEAPON EXC CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:}
 ItemDisplay[ARMOR NORM UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ Perf O%NL%%WHITE%Upgrading Recipe:}
 ItemDisplay[ARMOR EXC UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ Perf O%NL%%WHITE%Upgrading Recipe:}
-ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf O%NL%%WHITE%Upgrading Recipe:}
-ItemDisplay[WEAPON EXC UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf O%NL%%WHITE%Upgrading Recipe:}
+ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:}
+ItemDisplay[WEAPON EXC UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:}
 ItemDisplay[ARMOR NORM SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ Perf O%NL%%WHITE%Upgrading Recipe:}
 ItemDisplay[ARMOR EXC SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ Perf O%NL%%WHITE%Upgrading Recipe:}
-ItemDisplay[WEAPON NORM SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf O%NL%%WHITE%Upgrading Recipe:}
-ItemDisplay[WEAPON EXC SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf O%NL%%WHITE%Upgrading Recipe:}
+ItemDisplay[WEAPON NORM SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:}
+ItemDisplay[WEAPON EXC SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:}
 
 //Show All Stack Quantities >1
 ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk) QTY>1]: %NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
@@ -1560,7 +1576,7 @@ ItemDisplay[upma]: %NAME% %ORANGE%*{%BLUE%Map %WHITE%+ %GOLD%Orb %WHITE%+ Perf %
 ItemDisplay[imma]: %NAME% %ORANGE%*{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel %NL%%WHITE%Imbue a White Map to %BLUE%Magic%WHITE%:}
 ItemDisplay[scou]: %NAME% %ORANGE%*{%BLUE%M%WHITE%a%YELLOW%p %WHITE%+ %GOLD%Orb %WHITE%+ %ORANGE%Hel Rune%NL%%WHITE%Imbue a %BLUE%Magic%WHITE%/%YELLOW%Rare %WHITE%Map to White:}
 ItemDisplay[upmp]: %NAME% %ORANGE%*{%WHITE%3x %BLUE%M%WHITE%a%YELLOW%p %TAN%(%WHITE%Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Orb %WHITE%= Map %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%WHITE%Upgrade Maps to a higher Tier:}
-ItemDisplay[lbox]: %BORDER-0A%%NAME% %ORANGE%*%NL%%GREEN%GODLY{%WHITE%Two-Handed Weapon = 4 max%NL%One-Handed Weapon = 2 max%NL%Helmet, Chest, Shield = 2 max%NL%%WHITE%Use this to %TAN%Socket %WHITE%an Item}
+ItemDisplay[lbox]: %BORDER-0A%%NAME% %ORANGE%*{%WHITE%Two-Handed Weapon = 4 max%NL%One-Handed Weapon = 2 max%NL%Helmet, Chest, Shield = 2 max%NL%%WHITE%Use this to %TAN%Socket %WHITE%an Item}
 
 //Project Diablo 2 Maps
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) NMAG]: %WHITE%%NAME%%CONTINUE%
@@ -2235,12 +2251,12 @@ ItemDisplay[ci3 NMAG !INF !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%Imbue%YELLOW%]{%DA
 //----------------------------------------- Hiding Items -----------------------------------------
 
 //Hiding NORM 
-ItemDisplay[(ARMOR OR WEAPON) NORM NMAG !leg CLVL>39]: 
+ItemDisplay[(ARMOR OR WEAPON) NORM NMAG !RW !leg CLVL>39]: 
 ItemDisplay[(ARMOR OR WEAPON) NORM MAG !leg CLVL>39]: 
 ItemDisplay[(ARMOR OR WEAPON) NORM RARE !leg CLVL>79]: 
 
 //Hiding EXC
-ItemDisplay[(ARMOR OR WEAPON) EXC NMAG !leg CLVL>79]: 
+ItemDisplay[(ARMOR OR WEAPON) EXC NMAG !RW !leg CLVL>79]: 
 ItemDisplay[(ARMOR OR WEAPON) EXC MAG !leg CLVL>79]: 
 ItemDisplay[(ARMOR OR WEAPON) EXC RARE !leg CLVL>97]: 
 
