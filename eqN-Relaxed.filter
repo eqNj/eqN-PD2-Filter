@@ -1966,7 +1966,7 @@ ItemDisplay[7cr NMAG !INF !RW SOCK=6]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(72h OR 7fb OR 7gd OR 7gs) ETH NMAG !INF !RW SOCK=3]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(7fb OR 7gd OR 7gs) ETH NMAG !INF !RW SOCK=4]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(7fb OR 7gd) ETH NMAG !INF !RW SOCK=5]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[7gd ETH NMAG !RW SOCK=6]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[7gd ETH NMAG !INF !RW SOCK=6]: %DOT-D6%%NAME%{%NAME%}
 
 //Maces
 ItemDisplay[fla NMAG !RW !INF SOCK=3]: %NAME%{%NAME%}
