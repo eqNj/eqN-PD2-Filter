@@ -920,6 +920,7 @@ ItemDisplay[WAND !UNI CHSK82>0]: %RED%***   %GREEN%Life Tap Charge Wand%RED%   *
 // --- // --- Craftables --- \\ --- \\
 
 //Notified
+ItemDisplay[((SCEPTER !(scp OR 9sc OR 7sc)) OR (SIN !(NORM OR 9ar OR 9wb OR 9xf OR 7xf OR 7cs)) OR (am3 OR am8 OR amd OR am4 OR am9 OR ame)) MAG ETH !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(8rx OR 6rx OR 8lw OR 6lw OR amc OR am7 OR am2 OR amb OR am6 OR am1) MAG !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(crs OR 9cr) MAG ETH !ID ILVL>60]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(ob5 OR oba OR obf) MAG !ID ILVL>52]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
@@ -932,7 +933,6 @@ ItemDisplay[BELT (EXC OR ELT) MAG !ETH !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(BOW !(sbw OR 8sb OR 6sb OR hbw OR 8hb OR 6hb OR lbw OR 8lb OR 6lb OR cbw OR 8cb OR 6cb OR sbb OR 8s8 OR lbb OR 8l8 OR swb OR 8sw)) MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(XBOW !(lxb OR 8lx OR 6lx OR mxb OR 8mx OR hxb OR 8hx)) MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(wst OR 8ws OR 6ws) MAG ETH !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
-ItemDisplay[((SCEPTER !(scp OR 9sc OR 7sc)) OR (SIN !(NORM OR 9ar OR 9wb OR 9xf OR 7xf OR 7cs)) OR (am3 OR am8 OR amd OR am4 OR am9 OR ame)) MAG ETH !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[WEAPON !(SOR OR WAND OR ktr OR wrb OR axf OR ces OR clw OR btl OR skr OR 9ar OR 9wb OR 9xf OR hax OR 9ha OR 7ha OR axe OR 9ax OR 7ax OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR ssd OR 9ss OR 7ss OR scm OR 9sm OR 7sm OR sbr OR 9sb OR 7sb OR flc OR 9fc OR 7fc OR dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl OR STAFF) MAG ETH !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(xh9 OR uh9) MAG !ID ILVL>68]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(xsh OR ush) MAG !ID ILVL>64]: %GRAY%*%BLUE%%NAME%%GRAY%*
@@ -3118,15 +3118,15 @@ ItemDisplay[EQ7 NMAG !INF !ETH SOCK=0]: %NAME%{%NAME%}
 ItemDisplay[(ARMOR OR WEAPON) NORM NMAG SUP !RW !leg SOCK=0 ED<10 CLVL>24]: 
 ItemDisplay[(ARMOR OR WEAPON) NORM NMAG !RW !leg SOCK<2 CLVL>39]:
 ItemDisplay[(ARMOR OR WEAPON) NORM NMAG !RW !leg CLVL>49]:
-ItemDisplay[(CHEST OR SHIELD OR WEAPON) NORM MAG !ID !leg CLVL>39]: 
+ItemDisplay[(CHEST OR HELM OR SHIELD OR WEAPON) NORM MAG !ID !leg CLVL>39]: 
 ItemDisplay[(GLOVES OR BOOTS OR BELT) NORM MAG !ID !leg CLVL>49]:
 ItemDisplay[(ARMOR OR WEAPON) NORM RARE !ID !leg CLVL>79]: 
 
 //Hiding EXC
-ItemDisplay[(ARMOR OR WEAPON) EXC NMAG SUP !RW !leg (SOCK=0) ED<10 CLVL>64]: 
+ItemDisplay[(ARMOR OR WEAPON) EXC NMAG SUP !RW !leg SOCK=0 ED<10 CLVL>64]: 
 ItemDisplay[WEAPON EXC NMAG !RW !leg SOCK<2 CLVL>69]: 
 ItemDisplay[(ARMOR OR WEAPON) EXC NMAG !RW !leg CLVL>79]: 
-ItemDisplay[(CHEST OR SHIELD OR WEAPON) EXC MAG !ID !leg CLVL>79]:
+ItemDisplay[(CHEST OR HELM OR SHIELD OR WEAPON) EXC MAG !ID !leg CLVL>79]:
 ItemDisplay[(GLOVES OR BOOTS OR BELT) EXC MAG !ID !leg CLVL>84]:
 ItemDisplay[(ARMOR OR WEAPON) EXC RARE !ID !leg CLVL>97]: 
 
@@ -3136,7 +3136,7 @@ ItemDisplay[(BAR OR DRU OR NEC) ETH ELT NMAG CLVL>79]:
 ItemDisplay[ZON (TABSK2<3 OR TABSK0<3) ELT NMAG SOCK=0 CLVL>79]: 
 
 //Hiding NMAG Weapons With 2 or Less (Max) Sockets and Low or No +Skills
-ItemDisplay[(7cl OR 7ha OR 7bl OR 7sc OR 7ss OR 7sm OR 7sb OR 7fc OR 7dg OR 7di) (NMAG OR MAG) !ID CLVL>79]: 
+ItemDisplay[(7cl OR 7ha OR 7bl OR 7sc OR 7ss OR 7sm OR 7sb OR 7fc OR 7dg OR 7di) (NMAG OR MAG) !ID SOCK=0 CLVL>74]: 
 ItemDisplay[(WEAPON !(SOR OR WAND OR STAFF)) NMAG SOCK=2 !leg CLVL>79]: 
 ItemDisplay[(7xf OR 7cs) NMAG CLVL>79]: 
 
