@@ -1,4 +1,4 @@
-# Hello! Stay a while and listen.
+# Hello! Stay awhile and listen.
 
 ![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Ground%20Loot.jpg)
 
