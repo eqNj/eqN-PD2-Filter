@@ -3180,7 +3180,7 @@ ItemDisplay[(ame OR amd) TABSK2<3 NMAG CLVL>79]:
 
 //Hiding NMAG Weapons With 2 or Less (Max) Sockets and Low or No +Skills
 ItemDisplay[(dgr OR 9dg OR dir OR 9di OR buc OR xuc) NMAG CLVL>14]: 
-ItemDisplay[clb OR 9cl OR hax OR 9ha OR bld OR 9bl OR ssd OR 9sm OR sbr OR 9sb OR flc OR 9fc) NMAG SOCK<2 CLVL>14]:
+ItemDisplay[(clb OR 9cl OR hax OR 9ha OR bld OR 9bl OR ssd OR 9sm OR sbr OR 9sb OR flc OR 9fc) NMAG SOCK<2 CLVL>14]:
 ItemDisplay[(7cl OR 7ha OR 7bl OR 7sc OR 7ss OR 7sm OR 7sb OR 7fc OR 7dg OR 7di) (NMAG OR MAG) !ID SOCK=0 CLVL>74]: 
 ItemDisplay[(WEAPON !(SOR OR WAND OR STAFF)) NMAG SOCK=2 !leg CLVL>79]: 
 ItemDisplay[WAND !(SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0)]: 
