@@ -3098,7 +3098,7 @@ ItemDisplay[(amb OR amc) TABSK0=2 ED>9 NMAG]: %NAME%{%NAME%} //High ED +2 ELT Bo
 ItemDisplay[SOR SOCK=3 NMAG]: %NAME%{%NAME%} // 3 Socket Sorceress Orbs
 
 //Specific Item Failsafe
-ItemDisplay[CHEST !ETH !INF NMAG SOCK=4 CLVL<75]: %NAME%{%NAME%} // 4 Socket Chests for early progression MF
+ItemDisplay[CHEST !ETH !INF NMAG SOCK=4 CLVL<80]: %NAME%{%NAME%} // 4 Socket Chests for early progression MF
 ItemDisplay[((POLEARM OR SPEAR) AND !(ZON OR THROWING)) NMAG ETH !INF (SOCK=0 OR SOCK=4)]: %NAME%{%NAME%} // Act 2 Merc RuneWord Bases
 ItemDisplay[xsh !ETH !INF NMAG (SOCK=0 OR SOCK>1)]: %NAME%{%NAME%} // Grim Shield
 ItemDisplay[xtp !INF NMAG (SOCK=0 OR SOCK>1)]: %NAME%{%NAME%} // Mage Plate
