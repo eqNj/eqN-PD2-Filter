@@ -1734,14 +1734,14 @@ ItemDisplay[glbs]: %NAME%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WH
 ItemDisplay[glgs]: %NAME%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: 28% Psn Res%NL%Armor/Helm: +8 Dexterity%NL%Weapon: +60 Psn Dmg over 6 Sec%NL%}
 ItemDisplay[glrs]: %NAME%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: 28% Fire Res%NL%Armor/Helm: +31 to Life%NL%Weapon: 10-16 Fire Dmg%NL%}
 ItemDisplay[glws]: %NAME%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: All Res +14%%NL%Armor/Helm: +80 to AR%NL%Weapon: +54% Dmg vs Undead%NL%}
-ItemDisplay[skls]: %NAME%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: Atcker+16Dmg%NL%Armor/Helm: Rep Life 4, Reg Mana 12%%NL%Weapon: 3%Life 3%Mana %NL%}
+ItemDisplay[skls]: %NAME%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: Attacker +16 Dmg%NL%Armor/Helm: Rep Life 4, Reg Mana 12%%NL%Weapon: 3%Life 3%Mana %NL%}
 ItemDisplay[gpvs]: %PX-70%%NAME%{%GOLD%Cube %WHITE%Gems to %GRAY%(un)%WHITE%stack them%NL%%NL%%WHITE%Shield: +30 Def%NL%Armor/Helm: +10 to Strength%NL%Weapon: +150 to Attack Rating%NL%}
 ItemDisplay[gpys]: %PX-70%%NAME%{%GOLD%Cube %WHITE%Gems to %GRAY%(un)%WHITE%stack them%NL%%NL%%WHITE%Shield: 40% Light Res%NL%Armor/Helm: 24% Magic Find%NL%Weapon: 1-40 Light Damage%NL%}
 ItemDisplay[gpbs]: %PX-70%%NAME%{%GOLD%Cube %WHITE%Gems to %GRAY%(un)%WHITE%stack them%NL%%NL%%WHITE%Shield: 40% Cold Res%NL%Armor/Helm: +38 to Mana%NL%Weapon: 10-14 Cold Damage%NL%}
 ItemDisplay[gpgs]: %PX-70%%NAME%{%GOLD%Cube %WHITE%Gems to %GRAY%(un)%WHITE%stack them%NL%%NL%%WHITE%Shield: 40% Psn Res%NL%Armor/Helm: +10 Dexterity%NL%Weapon: +100 Psn Dmg over 7 Sec%NL%}
 ItemDisplay[gprs]: %PX-70%%NAME%{%GOLD%Cube %WHITE%Gems to %GRAY%(un)%WHITE%stack them%NL%%NL%%WHITE%Shield: 40% Fire Res%NL%Armor/Helm: +38 to Life%NL%Weapon: 15-20 Fire Dmg%NL%}
 ItemDisplay[gpws]: %PX-70%%NAME%{%GOLD%Cube %WHITE%Gems to %GRAY%(un)%WHITE%stack them%NL%%NL%%WHITE%Shield: All Res +19%%NL%Armor/Helm: +100 to AR%NL%Weapon: +68% Dmg vs Undead%NL%}
-ItemDisplay[skzs]: %PX-70%%NAME%{%GOLD%Cube %WHITE%Gems to %GRAY%(un)%WHITE%stack them%NL%%NL%%WHITE%Shield: Atcker+20Dmg%NL%Armor/Helm: Rep Life 5, Reg Mana 19%%NL%Weapon: 4%Life 3%Mana %NL%}
+ItemDisplay[skzs]: %PX-70%%NAME%{%GOLD%Cube %WHITE%Gems to %GRAY%(un)%WHITE%stack them%NL%%NL%%WHITE%Shield: Attacker +20 Dmg%NL%Armor/Helm: Rep Life 5, Reg Mana 19%%NL%Weapon: 4%Life 3%Mana %NL%}
 
 //----------------------------------------- Notes about Rune Words and Socketing -----------------------------------------
 
