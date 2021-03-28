@@ -599,11 +599,11 @@ ItemDisplay[SOCK>0 !RW]: %NAME% %TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE%
 //----------------------------------------- Utilities --------------------------------------------
 
 //Quest Items
-ItemDisplay[bks]: %NAME%{%TAN%Now rests Treehead Woodfist%NL%Ageless, protected by the wilds%NL%Bark of the sacred Tree of Inifuss}
+ItemDisplay[bks]: %NAME%{%TAN%Now rests Treehead Woodfist%NL%Ageless, protected by the Wilds%NL%Bark of the sacred Tree of Inifuss}
 ItemDisplay[bkd]: %NAME%{%TAN%Find the sage Deckard Cain%NL%Behest a Demigod imp, Rakanishu%NL%A portal to Tristram awaits}
 ItemDisplay[hdm]: %NAME%{%TAN%Bestowed to the Sisters of the Sightless Eye%NL%Enchanted by ancient Horadric Mages%NL%Forged by necessity during the Sin War} 
 ItemDisplay[tr1]: %NAME%{%TAN%Forward is the path to Tal Rasha's Tomb%NL%Found is the details of the binding of Baal%NL%Slain is Radament The Fallen, mummified Horadrim}
-ItemDisplay[ass]: %GOLD%Book of Skill{%GOLD%Right click to Read%NL%%TAN%Learned are those who stay awhile and listen}
+ItemDisplay[ass]: %GOLD%Book of Skill{%GOLD%Right click to Read%NL%%TAN%Learned are those who stay awhile and listen.}
 ItemDisplay[box]: %NAME%{%TAN%As above, so below} 
 ItemDisplay[msf]: %NAME%{%TAN%A relic of royalty withered of dust%NL%Beneath the tunnels woven by arthropods}
 ItemDisplay[vip]: %NAME%{%TAN%If Fangskin the Salamander abides%NL%An endless eclipse, buried in scales%NL%Amidst the darkness, an amulet unworn}
@@ -631,7 +631,7 @@ ItemDisplay[GOLD<1000 (CLVL>24 AND CLVL<70)]:
 ItemDisplay[GOLD<2000 (CLVL>69 AND CLVL<80)]:
 ItemDisplay[GOLD<5000 CLVL>79]:
 
-// These lines adds a "$" to the start of rare item names if they're worth selling
+// These lines add a "$" to the start of rare item names if they're worth selling
 ItemDisplay[RARE !CHEST !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Hell
 ItemDisplay[RARE !CHEST !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Nightmare
 ItemDisplay[RARE !CHEST !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Normal
@@ -660,7 +660,6 @@ ItemDisplay[mp1 CLVL>29]:
 ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%min
 ItemDisplay[hp1 CLVL>14]: 
 
-
 //Utilites
 ItemDisplay[tsc CLVL<15]: %BLUE%*%GRAY%tp
 ItemDisplay[isc CLVL<15]: %RED%*%GRAY%id
@@ -670,11 +669,12 @@ ItemDisplay[(tsc OR isc OR vps OR wms) CLVL>14]:
 ItemDisplay[yps]: %GREEN%!%WHITE%a
 ItemDisplay[key CLVL<15]: %GRAY%key
 ItemDisplay[key CLVL>14]: 
+
 //Arrows & Bolts
 ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
 
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling
-ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>15]:
+ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>14]:
 
 //----------------------------------------- Socketables --------------------------------------------
 
