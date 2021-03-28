@@ -6,7 +6,7 @@ You can find my loot filter either here or on the official Project Diablo 2 game
 
 If you would like to contact me, find me in the offical PD2 Discord with the name eqN.
 
-I've created what is essentially a remastered version of Kryszard's Project Diablo 2 loot filter. Big thanks to him for his awesome work on his filter! 
+Originally, this was a remastered version of Kryszard's Project Diablo 2 loot filter. Now, due to many formatting changes and differences in aesthetics it is mostly all its own. I do want to give a big thanks to him for his awesome work on his filter tbough! 
 
 I have kept many of the core features of Kryszard's filter intact and added several Quality of Life features.
 
