@@ -758,7 +758,7 @@ ItemDisplay[RUNE>25]: %BORDER-62%%GREEN%*%PURPLE%*%RED%*          %ORANGE%%RUNEN
 //All Charms
 ItemDisplay[cm2 MAG !ID]: %TAN%*%BLUE% %NAME% %TAN%*
 ItemDisplay[(cm1 OR cm3) MAG !ID]: %DOT-9B%%PURPLE%*%BLUE%   %NAME%   %PURPLE%*
-ItemDisplay[(cm1 OR cm2 OR cm3) UNI !ID]: %PX-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%%GRAY%     *%TAN%*%YELLOW%*
+ItemDisplay[(cm1 OR cm2 OR cm3) UNI !ID]: %PX-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
 
 //Good Charms
 ItemDisplay[cm3 (MAXDMG>6 AND LIFE>0)]: %TAN%Max Dmg %RED%Life %BLUE%Grand Charm 
@@ -928,21 +928,21 @@ ItemDisplay[(9gm OR 7gm OR 7s8) UNI ETH !ID]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%
 
 //Mid-Tier Uniques
 //Belts
-ItemDisplay[(ztb OR zlb OR zvb OR zhb OR umc) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%%GRAY%     *%TAN%*%YELLOW%*
+ItemDisplay[(ztb OR zlb OR zvb OR zhb OR umc) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
 //Armors
-ItemDisplay[(xea OR uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%%GRAY%     *%TAN%*%YELLOW%*
+ItemDisplay[(xea OR uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
 //Gloves
-ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%%GRAY%     *%TAN%*%YELLOW%*
+ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
 //Helmets
-ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%%GRAY%     *%TAN%*%YELLOW%*
+ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
 //Boots
-ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%%GRAY%     *%TAN%*%YELLOW%*
+ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
 //Shields
-ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%%GRAY%     *%TAN%*%YELLOW%*
+ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
 //Weapons
-ItemDisplay[(7cs OR 7ws OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR obc OR 7lw OR amf OR 7wh) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%%GRAY%     *%TAN%*%YELLOW%*
+ItemDisplay[(7cs OR 7ws OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR obc OR 7lw OR amf OR 7wh) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
 //Only Eth
-ItemDisplay[(7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ETH !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%%GRAY%     *%TAN%*%YELLOW%*
+ItemDisplay[(7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ETH !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
 
 //Rainbow Facet
 ItemDisplay[jew UNI !ID]: %BORDER-68%%RED%r%ORANGE%a%YELLOW%in%GREEN%b%BLUE%o%PURPLE%w     %GOLD%%NAME%%PURPLE%     r%BLUE%a%GREEN%in%YELLOW%b%ORANGE%o%RED%w
@@ -1650,18 +1650,18 @@ ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk) QTY>1]: %NAME% %TAN%x %WHITE%%QTY%%
 //----------------------------------------- Project Diablo 2 & End Game Items -----------------------------------------
 
 //Standard of Heroes
-ItemDisplay[std]: %PX-9D%%NAME%{%WHITE%+10% Experience%NL%+20% Magic&Gold Find%NL%+20% Monster Density%NL%%GOLD%Cube %WHITE%this with a Map to gain:}
+ItemDisplay[std]: %PX-9D%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*{%WHITE%+10% Experience%NL%+20% Magic & Gold Find%NL%+20% Monster Density%NL%%GOLD%Cube %WHITE%this with a Map to gain:}
 
 //Project Diablo 2 Items
 ItemDisplay[wss]: %MAP-0A%%NAME%{%RED%Warning%WHITE%: It can brick your item!%NL%%WHITE%Use this to %RED%Corrupt %WHITE%items.}
-ItemDisplay[scrb]: %BORDER-A9%%NAME%{%RED%Group Dungeon%NL%%GOLD%Cube %WHITE%this with a %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Map to make:}
+ItemDisplay[scrb]: %BORDER-A9%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*{%WHITE%Create a %RED%Group Dungeon%NL%%GOLD%Cube %WHITE%this with a %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Map:}
 ItemDisplay[imra]: %NAME%{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%WHITE%Imbue a White Map to %YELLOW%Rare%WHITE%:}
 ItemDisplay[rera]: %NAME%{%YELLOW%Map %WHITE%+ %GOLD%Orb %WHITE%+ Perf Gem + %ORANGE%Rune>9%NL%%WHITE%Reroll a %YELLOW%Rare %WHITE%Map:}
 ItemDisplay[upma]: %NAME%{%BLUE%Map %WHITE%+ %GOLD%Orb %WHITE%+ Perf %GRAY%O %WHITE%+ %ORANGE%Rune>9%NL%%WHITE%Imbue a %BLUE%Magic %WHITE%Map to %YELLOW%Rare%WHITE%:}
 ItemDisplay[imma]: %NAME%{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel %NL%%WHITE%Imbue a White Map to %BLUE%Magic%WHITE%:}
 ItemDisplay[scou]: %NAME%{%BLUE%M%WHITE%a%YELLOW%p %WHITE%+ %GOLD%Orb %WHITE%+ %ORANGE%Hel Rune%NL%%WHITE%Imbue a %BLUE%Magic%WHITE%/%YELLOW%Rare %WHITE%Map to White:}
-ItemDisplay[upmp]: %NAME%{%WHITE%3x %BLUE%M%WHITE%a%YELLOW%p %TAN%(%WHITE%Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Orb %WHITE%= Map %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%WHITE%Upgrade Maps to a higher Tier:}
-ItemDisplay[lbox]: %BORDER-0A%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%%GRAY%     *%TAN%*%YELLOW%*{%WHITE%Two-Handed Weapon = 4 max%NL%One-Handed Weapon = 2 max%NL%Helmet, Chest, Shield = 2 max%NL%%WHITE%Use this to %TAN%Socket %WHITE%an Item}
+ItemDisplay[upmp]: %NAME%{%WHITE%3x %WHITE%M%BLUE%A%YELLOW%P %TAN%(%WHITE%Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Orb %WHITE%= Map %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%WHITE%Upgrade Maps to a higher Tier:}
+ItemDisplay[lbox]: %BORDER-0A%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*{%WHITE%Two-Handed Weapon = 4 max%NL%One-Handed Weapon = 2 max%NL%Helmet, Chest, Shield = 2 max%NL%%WHITE%Use this to %TAN%Socket %WHITE%an Item}
 
 //Project Diablo 2 Maps
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) NMAG]: %WHITE%%NAME%%CONTINUE%
@@ -1674,24 +1674,28 @@ ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (!ID OR NMAG)]: %MAP-7F%%NAME%%CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %NAME%{%WHITE%To modify Maps visit Anya%NL%%WHITE%To Reroll: %GOLD%Cube %WHITE%with 3x Perf Gem}
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%WHITE%To modify Maps visit Anya}
-ItemDisplay[dcma]: %MAP-0A%%GRAY%*%RED%* %NAME% %RED%*%GRAY%*{%RED%PROCEED AT YOUR OWN RISK!%NL%%WHITE%%GRAY%You better not go in there...}
-ItemDisplay[dcbl OR dcho OR dcso]: %MAP-0A%%RED%* %ORANGE%%NAME% %RED%*{%RED%Diablo %GRAY%walks the earth...}
 
 //Essences
-ItemDisplay[tes]: %PX-9D%%NAME%{%BLUE%Duriel, Lord of Pain%NL%Andariel, Maiden of Anguish}
-ItemDisplay[ceh]: %PX-9D%%NAME%{%TAN%Mephisto, Lord of Hatred}
-ItemDisplay[bet]: %PX-9D%%NAME%{%RED%Diablo, Lord of Terror}
-ItemDisplay[fed]: %PX-9D%%NAME%{%DARK_GREEN%Baal, Lord of Destruction}
+ItemDisplay[tes]: %PX-60%%NAME%{%BLUE%Duriel, Lord of Pain%NL%Andariel, Maiden of Anguish%NL%%GRAY%Dropped by:}
+ItemDisplay[ceh]: %PX-60%%NAME%{%TAN%Mephisto, Lord of Hatred%NL%%GRAY%Dropped by:}
+ItemDisplay[bet]: %PX-60%%NAME%{%RED%Diablo, Lord of Terror%NL%%GRAY%Dropped by:}
+ItemDisplay[fed]: %PX-60%%NAME%{%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Dropped by:}
 
 //Uber Keys
-ItemDisplay[pk1]: %PX-9D%%NAME%{%RED%The Countess %WHITE%or %RED%Blood Raven}
-ItemDisplay[pk2]: %PX-9D%%NAME%{%BLUE%The Summoner %WHITE%or %BLUE%Bloodwitch the Wild}
-ItemDisplay[pk3]: %PX-9D%%NAME%{%PURPLE%Nihlathak %WHITE%or %PURPLE%Izual}
+ItemDisplay[pk1]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*{%RED%The Countess%NL%Blood Raven%NL%%GRAY%Dropped by:}
+ItemDisplay[pk2]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*{%BLUE%The Summoner%NL%Bloodwitch the Wild%NL%%GRAY%Dropped by:}
+ItemDisplay[pk3]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*{%PURPLE%Nihlathak the Necromancer%NL%Izual the Fallen Angel%NL%%GRAY%Dropped by:}
 
 //Organs
-ItemDisplay[mbr]: %PX-9D%%NAME%{%WHITE%to open %GRAY%Uber %RED%Tristram%NL%%GOLD%Cube %RED%ANY %WHITE%3 Organs}
-ItemDisplay[bey]: %PX-9D%%NAME%{%WHITE%to open %GRAY%Uber %RED%Tristram%NL%%GOLD%Cube %RED%ANY %WHITE%3 Organs}
-ItemDisplay[dhn]: %PX-9D%%NAME%{%WHITE%to open %GRAY%Uber %RED%Tristram%NL%%GOLD%Cube %RED%ANY %WHITE%3 Organs}
+ItemDisplay[mbr]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*{%WHITE%to access %ORANGE%Uber Tristram%NL%%GOLD%Cube %WHITE%any three %RED%Organs}
+ItemDisplay[bey]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*{%WHITE%to access %ORANGE%Uber Tristram%NL%%GOLD%Cube %WHITE%any three %RED%Organs}
+ItemDisplay[dhn]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*{%WHITE%to access %ORANGE%Uber Tristram%NL%%GOLD%Cube %WHITE%any three %RED%Organs}
+
+//Diablo Clone
+ItemDisplay[dcbl]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*{%WHITE%Found throughout %BLUE%Maps of Sanctuary%NL%%WHITE%Those wrought in %RED%Supreme Maleficence%NL%%GRAY%Dropped by:}
+ItemDisplay[dcho]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*{%RED%The Pandemonium Event%NL%%GRAY%Dropped by:}
+ItemDisplay[dcso]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*{%DARK_GREEN%Baal, Lord of Destruction%NL%%RED%Diablo, Lord of Terror%NL%%GRAY%Dropped by:}
+ItemDisplay[dcma]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*{%RED%Uber Diablo %GRAY%walks the earth...}
 
 //----------------------------------------- Notes on Socketable Items -----------------------------------------
 
@@ -1816,7 +1820,6 @@ ItemDisplay[ci0 NMAG !INF !ETH SOCK=0]: %NAME%{%DARK_GREEN%Charsi %WHITE%at leve
 ItemDisplay[ci1 NMAG !INF !ETH SOCK=0]: %NAME%{%DARK_GREEN%Charsi %WHITE%at level %GREEN%78+%NL%%YELLOW%Imbue %WHITE%this with%NL%}%CONTINUE%
 ItemDisplay[ci2 NMAG !INF !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%Imbue%YELLOW%]{%DARK_GREEN%Charsi %WHITE%at level %GREEN%73+%NL%%YELLOW%Imbue %WHITE%this with%NL%}%CONTINUE%
 ItemDisplay[ci3 NMAG !INF !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%Imbue%YELLOW%]{%DARK_GREEN%Charsi %WHITE%at %GREEN%any %WHITE%level%NL%%YELLOW%Imbue %WHITE%this with%NL%}%CONTINUE%
-
 
 //----------------------------------------- TheIrateSeaGoer's Arreat Summit Details -----------------------------------------
 
