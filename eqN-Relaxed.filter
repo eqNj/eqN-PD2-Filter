@@ -3565,33 +3565,33 @@ ItemDisplay[nef ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0)
 
 //----------------------------------------- Notes For Upgrading Items -----------------------------------------
 
-//All but Throwing
+//All but Throwing or Sock >0 Weapons
 ItemDisplay[ARMOR NORM RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
 ItemDisplay[ARMOR EXC RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(WEAPON AND !THROWING) NORM RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(WEAPON AND !THROWING) EXC RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
 ItemDisplay[ARMOR NORM CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
 ItemDisplay[ARMOR EXC CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(WEAPON AND !THROWING) NORM CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(WEAPON AND !THROWING) EXC CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
 ItemDisplay[ARMOR NORM UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ Perf O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
 ItemDisplay[ARMOR EXC UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ Perf O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(WEAPON AND !THROWING) NORM UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(WEAPON AND !THROWING) EXC UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
 ItemDisplay[ARMOR NORM SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ Perf O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
 ItemDisplay[ARMOR EXC SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ Perf O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(WEAPON AND !THROWING) NORM SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(WEAPON AND !THROWING) EXC SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:%NL%%NAME%}%CONTINUE%
 
 //Throwing
-ItemDisplay[THROWING NORM RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:}%CONTINUE%
-ItemDisplay[THROWING EXC RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:}%CONTINUE%
-ItemDisplay[THROWING NORM CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:}%CONTINUE%
-ItemDisplay[THROWING EXC CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:}%CONTINUE%
-ItemDisplay[THROWING NORM UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:}%CONTINUE%
-ItemDisplay[THROWING EXC UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:}%CONTINUE%
-ItemDisplay[THROWING NORM SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:}%CONTINUE%
-ItemDisplay[THROWING EXC SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:}%CONTINUE%
+ItemDisplay[((WEAPON SOCK>0) OR THROWING) NORM RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:}%CONTINUE%
+ItemDisplay[((WEAPON SOCK>0) OR THROWING) EXC RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:}%CONTINUE%
+ItemDisplay[((WEAPON SOCK>0) OR THROWING) NORM CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:}%CONTINUE%
+ItemDisplay[((WEAPON SOCK>0) OR THROWING) EXC CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrading Recipe:}%CONTINUE%
+ItemDisplay[((WEAPON SOCK>0) OR THROWING) NORM UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:}%CONTINUE%
+ItemDisplay[((WEAPON SOCK>0) OR THROWING) EXC UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:}%CONTINUE%
+ItemDisplay[((WEAPON SOCK>0) OR THROWING) NORM SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:}%CONTINUE%
+ItemDisplay[((WEAPON SOCK>0) OR THROWING) EXC SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrading Recipe:}%CONTINUE%
 
 //----------------------------------------- Notes about Rune Words and Socketing -----------------------------------------
 
