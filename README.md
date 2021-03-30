@@ -47,7 +47,7 @@ All elite items will continue to show past level 80 as normal.
 
 ![Arreat Summit](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Arreat.jpg)
 
-Details from 'The Arreat Summit' about Base Defense ranges and maximum potential sockets (dynamic with item level) have been added to all item descriptions where possible/applicable.
+Details from 'The Arreat Summit' about Base Defense ranges and maximum potential sockets (dynamic with item level) have been added to all item descriptions where possible/applicable. The max sockets shown on Unique, Crafted, Set, and Rare items will be the maximum amount possible through a corruption. As soon as an item has any sockets it will stop showing the max sockets that were possible.
 
 (Big thanks to TheIrateSeaGoer for his work on the Arreat Summit details!)
 
@@ -62,6 +62,8 @@ Replaced the word 'Inferior' (Crude, Cracked, etc.) on inferior items with a blu
 (Inferior items are only viewable before level 30 and only if they have + to skills.)
 
 Further refined the leveling experience to continually show useful items while de-cluttering across a gradient of character progression at all stages.
+
+Added quest item lore and quotes.
 
 ## 1.0.0 -
 
