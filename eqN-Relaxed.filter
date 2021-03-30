@@ -4215,5 +4215,6 @@ ItemDisplay[(7xf OR 7cs) NMAG CLVL>79]:
 //Hiding MISC
 ItemDisplay[(ARMOR OR WEAPON) NMAG SOCK=1 !leg CLVL>14]: 
 ItemDisplay[(BOOTS OR GLOVES OR THROWING) NMAG CLVL>14]: 
+ItemDisplay[(ARMOR OR WEAPON) MAG !ETH CLVL>79]:
 ItemDisplay[BELT NMAG CLVL>29]: 
 ItemDisplay[(ARMOR OR WEAPON) !leg INF]: 
