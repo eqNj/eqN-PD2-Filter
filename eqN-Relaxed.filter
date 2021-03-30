@@ -624,27 +624,27 @@ ItemDisplay[WEAPON ED=5 NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR
 //----------------------------------------- Utilities --------------------------------------------
 
 //Quest Items
-ItemDisplay[bks]: %NAME%{%TAN%Now rests Treehead Woodfist%NL%Ageless, protected by the Wilds%NL%Bark of the sacred Tree of Inifuss}
+ItemDisplay[bks]: %NAME%{%TAN%Now rests Treehead Woodfist%NL%Ageless, protected by Wilds%NL%Torn bark of the Sacred Tree}
 ItemDisplay[bkd]: %NAME%{%TAN%Find the sage Deckard Cain%NL%Behest a Demigod imp, Rakanishu%NL%A portal to Tristram awaits}
 ItemDisplay[hdm]: %NAME%{%TAN%Bestowed to the Sisters of the Sightless Eye%NL%Enchanted by ancient Horadric Mages%NL%Forged by necessity during the Sin War} 
 ItemDisplay[tr1]: %NAME%{%TAN%Forward is the path to Tal Rasha's Tomb%NL%Found is the details of the binding of Baal%NL%Slain is Radament The Fallen, mummified Horadrim}
 ItemDisplay[ass]: %GOLD%Book of Skill{%GOLD%Right click to Read%NL%%TAN%Learned are those who stay awhile and listen.}
 ItemDisplay[box]: %NAME%{%TAN%As above, so below} 
-ItemDisplay[msf]: %NAME%{%TAN%A relic of royalty withered of dust%NL%Beneath the tunnels woven by arthropods}
-ItemDisplay[vip]: %NAME%{%TAN%If Fangskin the Salamander abides%NL%An endless eclipse, buried in scales%NL%Amidst the darkness, an amulet unworn}
+ItemDisplay[msf]: %NAME%{%TAN%A relic of royalty, withered of dust%NL%Beneath the tunnels woven of Arthropods}
+ItemDisplay[vip]: %NAME%{%TAN%Fangskin the Salamander abides%NL%An endless eclipse, buried in scales%NL%Amidst the darkness, an amulet unworn}
 ItemDisplay[hst]: %NAME%{%TAN%The Mage Clans united%NL%In Archangel Tyrael confided%NL%The Dark Exile provided}
 ItemDisplay[j34]: %NAME%{%TAN%As shaped of Man%NL%Smelted by Lightning%NL%A stone of Music}
 ItemDisplay[g34]: %NAME%{%TAN%Death is the life After%NL%The ashes of Ku Y'leh%NL%An urn of Immortality}
 ItemDisplay[xyz]: %NAME%{%TAN%Forever is composed of nows.}
 ItemDisplay[g33]: %NAME%{%TAN%Lost in fervor of Zakarum%NL%Furnished by Skatsimi%NL%Point edged of Sorcery}
-ItemDisplay[bbb]: %NAME%{%TAN%Prime Evil Influences%NL%Ancient Kehjani Mysticism%NL%Within can be known:}
+ItemDisplay[bbb]: %NAME%{%TAN%Prime Evil Influences%NL%Ancient Kehjani Mysticism%NL%Within can be Known:}
 ItemDisplay[qbr]: %NAME%{%TAN%The brain is a commodity used to fertilize ideas.}
 ItemDisplay[qey]: %NAME%{%TAN%Conception is evoked through the medium of the eye.}
 ItemDisplay[qhr]: %NAME%{%TAN%The heart has its reasons of which reason knows nothing.}
 ItemDisplay[qf1]: %NAME%{%TAN%Que-Hegan of Zakarum%NL%Khalim the Uncorruptable}
 ItemDisplay[qf2]: %NAME%{%TAN%Will is to grace as the horse is to the rider.}
 ItemDisplay[mss]: %NAME%{%TAN%Doomed to Black Abyss%NL%Hatred Unbound Eminates}
-ItemDisplay[hfh]: %NAME%{%TAN%Forger of Shadowfang%NL%Tool of the Burning Hells}
+ItemDisplay[hfh]: %NAME%{%TAN%Forger of Shadowfang%NL%Legend of the Burning Hells}
 ItemDisplay[ice]: %NAME%{%TAN%What is man but a mass of thawing clay?}
 ItemDisplay[tr2]: %NAME%{%TAN%Where there is power, there is resistance.}
 ItemDisplay[leg]: %NAME%{%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
@@ -3838,7 +3838,7 @@ ItemDisplay[(ci3 OR uh9) !INF !ETH NMAG !RW SOCK=3]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[BAR (SK149>2 OR SK154>2) !INF !ETH NMAG !RW SOCK=2]: %NAME%{%NAME%}
 ItemDisplay[DRU (SK221>2 OR SK225>2 OR SK227>2 OR SK237>2 OR SK238>2 OR SK239>2 OR SK240>2 OR SK243>2 OR SK244>2 OR SK245>2 OR SK247>2 OR SK249>2 OR SK250>2) !INF !ETH NMAG !RW SOCK=2]: %NAME%{%NAME%}
 ItemDisplay[DRU (((SK227>1 OR SK221>1) AND SK237>1 AND SK247>1) OR (SK240>1 AND SK245>1 AND SK250>1) OR ((SK240>2 OR SK250>2) AND SK245>2) OR (SK240>2 AND (SK245>2 OR SK250>2))) !INF !ETH NMAG !RW SOCK=2]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[BAR (SK149>2 OR SK154>2) !INF !ETH NMAG !RW SOCK=3]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[BAR (SK149>2 OR SK154>2) !INF !ETH NMAG !RW (SOCK=0 OR SOCK=3)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[DRU (SK221>2 OR SK225>2 OR SK227>2 OR SK237>2 OR SK238>2 OR SK239>2 OR SK240>2 OR SK243>2 OR SK244>2 OR SK245>2 OR SK247>2 OR SK249>2 OR SK250>2) !INF !ETH NMAG !RW SOCK=3]: %NAME%{%NAME%}
 ItemDisplay[DRU (((SK227>1 OR SK221>1) AND SK237>1 AND SK247>1) OR (SK240>1 AND SK245>1 AND SK250>1) OR ((SK240>2 OR SK250>2) AND SK245>2) OR (SK240>2 AND (SK245>2 OR SK250>2))) !INF !ETH NMAG !RW SOCK=3]: %DOT-D6%%NAME%{%NAME%}
 
@@ -3856,71 +3856,60 @@ ItemDisplay[(ush OR xsh) !INF !ETH NMAG !RW SOCK=3]: %NAME%{%NAME%}
 ItemDisplay[uit !INF NMAG !RW SOCK=4]: %NAME%{%NAME%}
 
 //Splendor Shields
-ItemDisplay[NEC (SK67>2 OR SK74>2 OR SK94>2 OR SK75>2 OR SK70>2 OR SK84>2 OR SK83>2 OR SK92>2 OR SK93>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK95>2) !INF !ETH SOCK=2 NMAG !RW]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[NEC (SK67>2 OR SK74>2 OR SK94>2 OR SK75>2 OR SK70>2 OR SK84>2 OR SK83>2 OR SK92>2 OR SK93>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK95>2) !INF !ETH !SOCK=1 NMAG !RW]: %DOT-D6%%NAME%{%NAME%}
 
 // --- // --- WEAPONS --- \\ --- \\
 
 //Bows/Crossbows
-ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 SOCK=4]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 SOCK=3]: %NAME%{%NAME%}
 ItemDisplay[(6cb OR 8rx OR 6rx) NMAG !INF !RW SOCK=3]: %NAME%{%NAME%}
-ItemDisplay[(6cb OR 8rx OR 6rx) NMAG !INF !RW SOCK=4]: %NAME%{%NAME%}
+ItemDisplay[(6cb OR 8rx OR 6rx) NMAG !INF !RW (SOCK=0 OR SOCK=4)]: %NAME%{%NAME%}
 
 //Daggers
 ItemDisplay[7kr !INF NMAG !RW SOCK=3]: %NAME%{%NAME%}
 
 //Axes
-ItemDisplay[7wa !INF NMAG !RW SOCK=4]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[7wa !INF NMAG !RW SOCK=5]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[7wa !INF NMAG !RW SOCK=6]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(7bt OR 7ba OR 7ga OR 7gi) !INF ETH NMAG !RW SOCK=5]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(7wa OR 72a) !ETH !INF NMAG !RW (SOCK=0 OR SOCK>3)]: %NAME%{%NAME%}
+ItemDisplay[(7wa OR 72a) ETH !INF NMAG !RW (SOCK=0 OR SOCK>3)]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(7bt OR 7ba OR 7ga OR 7gi) !INF ETH NMAG !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
 
 //Hammers
-ItemDisplay[(7m7 OR 7gm) !INF ETH NMAG !RW SOCK=5]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(7m7 OR 7gm) !INF ETH NMAG !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[7gm !INF ETH NMAG !RW SOCK=6]: %DOT-D6%%NAME%{%NAME%}
 
 //Scepters
-ItemDisplay[(wsp OR 9ws OR 7ws) (SK100>2 OR SK125>2 OR SK108>2) !INF !ETH NMAG !RW SOCK=4]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(wsp OR 9ws OR 7ws) SK117>2 NMAG !INF !RW SOCK=5]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(wsp OR 9ws OR 7ws) (SK100>2 OR SK125>2 OR SK108>2) !INF !ETH NMAG !RW (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(wsp OR 9ws OR 7ws) SK117>2 NMAG !INF !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) !INF !ETH NMAG !RW SOCK=4]: %NAME%{%NAME%}
-ItemDisplay[(SCEPTER !(scp OR 9sc OR 7sc)) !INF !ETH NMAG !RW (SK101>2 OR SK112>2 OR SK118>2 OR SK121>2) SOCK=3]: %NAME%{%NAME%}
+ItemDisplay[(SCEPTER !(scp OR 9sc OR 7sc)) !INF !ETH NMAG !RW (SK101>2 OR SK112>2 OR SK118>2 OR SK121>2) (SOCK=0 OR SOCK=3)]: %NAME%{%NAME%}
 
 //Swords
 ItemDisplay[crs NMAG !INF SOCK=0 (ILVL>25 AND ILVL<41) CLVL<70]: %NAME% %TAN%[%DARK_GREEN%Larzuk 4soc%TAN%]{%NAME%}
 ItemDisplay[(bsd OR lsd) NMAG !INF SOCK=0 ILVL>25 CLVL<70]: %NAME% %TAN%[%DARK_GREEN%Larzuk 4soc%TAN%]{%NAME%}
 ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !RW SOCK=4]: %NAME%{%NAME%}
 ItemDisplay[crs NMAG !INF !RW SOCK=5]: %NAME%{%NAME%}
-ItemDisplay[7cr NMAG !INF !RW SOCK=3]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[7cr NMAG !INF !RW SOCK=4]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[7cr NMAG !INF !RW SOCK=5]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[7cr NMAG !INF !RW SOCK=6]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(72h OR 7fb OR 7gd OR 7gs) ETH NMAG !INF !RW SOCK=3]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(7fb OR 7gd OR 7gs) ETH NMAG !INF !RW SOCK=4]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(7fb OR 7gd) ETH NMAG !INF !RW SOCK=5]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[7gd ETH NMAG !INF !RW SOCK=6]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[7cr NMAG !INF !RW SOCK>2]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(72h OR 7fb OR 7gd OR 7gs OR 7ls) ETH NMAG !RW !INF (SOCK=0 OR SOCK>2)]: %DOT-D6%%NAME%{%NAME%}
 
 //Maces
-ItemDisplay[fla NMAG !RW !INF SOCK=3]: %NAME%{%NAME%}
-ItemDisplay[fla NMAG !RW !INF SOCK=4]: %NAME%{%NAME%}
-ItemDisplay[fla NMAG !RW !INF SOCK=5]: %NAME%{%NAME%}
+ItemDisplay[fla NMAG !RW !INF (SOCK=0 OR SOCK>2)]: %NAME%{%NAME%}
 
 //Wands
-ItemDisplay[WAND (SK67>2 OR SK74>2 OR SK94>2 OR SK75>2 OR SK70>2 OR SK84>2 OR SK83>2 OR SK92>2 OR SK93>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK95>2) SOCK=2 NMAG !INF !RW]: %NAME%{%NAME%}
+ItemDisplay[WP12 !(wnd OR ywn OR 9wn) (SK67>2 OR SK74>2 OR SK94>2 OR SK75>2 OR SK70>2 OR SK84>2 OR SK83>2 OR SK92>2 OR SK93>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK95>2) !SOCK=1 NMAG !RW]: %NAME%{%NAME%}
 
 //Staves
-ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs OR wst OR 8ws OR 6ws) SK58>2 NMAG !INF !RW SOCK=4]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(wst OR 8ws OR 6ws) SK58>2 NMAG !INF !RW SOCK=5]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs OR wst OR 8ws OR 6ws) SK58>2 NMAG !RW (SOCK=0 OR SOCK=4 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
 
 //Polearms/Spears/Amazon Spears
-ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7 OR 7tr OR 7br OR 7st OR 7p7) ETH NMAG !INF !RW SOCK=3]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7 OR 7tr OR 7br OR 7st OR 7p7) ETH NMAG !INF !RW SOCK=4]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7 OR 7tr OR 7br OR 7st OR 7p7) ETH NMAG !INF !RW SOCK=5]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7 OR 7tr OR 7br OR 7st OR 7p7) ETH NMAG !INF !RW SOCK>2]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(7p7 OR 7h7) ETH NMAG !INF !RW SOCK=6]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(amd OR ame) TABSK2>2 !ETH !INF NMAG !RW SOCK=4]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(amd OR ame) TABSK2>2 !ETH !INF NMAG !RW (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%}
 
 //Claws
-ItemDisplay[(7ar OR 7tw OR 7qr OR 9tw) (SK275>0 OR SK276>0 OR SK278>0) !INF ETH NMAG !RW SOCK=3]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>2 OR SK280>2) !INF NMAG !RW SOCK=3]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9tw OR 9lw) !INF ETH NMAG !RW (SOCK=0 OR SOCK=3)]: %NAME%{%NAME%}
+ItemDisplay[(7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9tw OR 9lw) (SK275>0 OR SK276>0 OR SK278>0) !INF ETH NMAG !RW (SOCK=0 OR SOCK=3)]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>2 OR SK280>2) !INF NMAG !RW (SOCK=0 OR SOCK=3)]: %DOT-D6%%NAME%{%NAME%}
 
 //----------------------------------------- Class Specific Failsafes - Courtesy of Wolfie! -----------------------------------------
 
