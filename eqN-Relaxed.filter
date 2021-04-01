@@ -661,11 +661,11 @@ ItemDisplay[GOLD<5000 CLVL>79]:
 
 // These lines add a "$" to the start of rare item names if they're worth selling
 ItemDisplay[RARE !CHEST !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Hell
-ItemDisplay[RARE !CHEST !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Nightmare
-ItemDisplay[RARE !CHEST !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Normal
+ItemDisplay[RARE !CHEST !RW PRICE>19999 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Nightmare
+ItemDisplay[RARE !CHEST !RW PRICE>9999 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Normal
 ItemDisplay[RARE CHEST ID !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Hell
-ItemDisplay[RARE CHEST ID !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Nightmare
-ItemDisplay[RARE CHEST ID !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Normal
+ItemDisplay[RARE CHEST ID !RW PRICE>19999 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Nightmare
+ItemDisplay[RARE CHEST ID !RW PRICE>9999 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Normal
 
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%JV
@@ -3569,32 +3569,32 @@ ItemDisplay[nef ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0)
 //----------------------------------------- Notes For Upgrading Items -----------------------------------------
 
 //All but Throwing or Sock >0 Weapons
-ItemDisplay[ARMOR NORM RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ral + Thul %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[ARMOR EXC RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ko + Pul %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ort + Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Fal + Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[ARMOR NORM CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ral + Thul %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[ARMOR EXC CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ko + Pul %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ort + Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Fal + Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[ARMOR NORM UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Tal + Shael %WHITE%+ Perf O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[ARMOR EXC UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ko + Lem %WHITE%+ Perf O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ral + Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Lum + Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[ARMOR NORM SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Tal + Shael %WHITE%+ Perf O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[ARMOR EXC SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ko + Lem %WHITE%+ Perf O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ral + Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Lum + Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[ARMOR NORM RARE ID ILVL>12]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ral + Thul %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[ARMOR EXC RARE ID ILVL>12]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ko + Pul %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM RARE ID ILVL>12]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ort + Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC RARE ID ILVL>12]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Fal + Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[ARMOR NORM CRAFT ID ILVL>12]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ral + Thul %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[ARMOR EXC CRAFT ID ILVL>12]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ko + Pul %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM CRAFT ID ILVL>12]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ort + Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC CRAFT ID ILVL>12]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Fal + Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[ARMOR NORM UNI ID ILVL>12]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Tal + Shael %WHITE%+ Perf O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[ARMOR EXC UNI ID ILVL>12]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ko + Lem %WHITE%+ Perf O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM UNI ID ILVL>12]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ral + Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC UNI ID ILVL>12]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Lum + Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[ARMOR NORM SET ID ILVL>12]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Tal + Shael %WHITE%+ Perf O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[ARMOR EXC SET ID ILVL>12]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ko + Lem %WHITE%+ Perf O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM SET ID ILVL>12]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ral + Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC SET ID ILVL>12]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Lum + Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
 
 //Throwing
-ItemDisplay[((WEAPON SOCK>0) OR THROWING) NORM RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ort + Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
-ItemDisplay[((WEAPON SOCK>0) OR THROWING) EXC RARE ID]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Fal + Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
-ItemDisplay[((WEAPON SOCK>0) OR THROWING) NORM CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ort + Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
-ItemDisplay[((WEAPON SOCK>0) OR THROWING) EXC CRAFT ID]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Fal + Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
-ItemDisplay[((WEAPON SOCK>0) OR THROWING) NORM UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ral + Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
-ItemDisplay[((WEAPON SOCK>0) OR THROWING) EXC UNI ID]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Lum + Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
-ItemDisplay[((WEAPON SOCK>0) OR THROWING) NORM SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ral + Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
-ItemDisplay[((WEAPON SOCK>0) OR THROWING) EXC SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Lum + Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
+ItemDisplay[((WEAPON SOCK>0) OR THROWING) NORM RARE ID ILVL>12]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ort + Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
+ItemDisplay[((WEAPON SOCK>0) OR THROWING) EXC RARE ID ILVL>12]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Fal + Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
+ItemDisplay[((WEAPON SOCK>0) OR THROWING) NORM CRAFT ID ILVL>12]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ort + Amn %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
+ItemDisplay[((WEAPON SOCK>0) OR THROWING) EXC CRAFT ID ILVL>12]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Fal + Um %WHITE%+ Perf %BLUE%O%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
+ItemDisplay[((WEAPON SOCK>0) OR THROWING) NORM UNI ID ILVL>12]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ral + Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
+ItemDisplay[((WEAPON SOCK>0) OR THROWING) EXC UNI ID ILVL>12]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Lum + Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
+ItemDisplay[((WEAPON SOCK>0) OR THROWING) NORM SET ID ILVL>12]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ral + Sol %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
+ItemDisplay[((WEAPON SOCK>0) OR THROWING) EXC SET ID ILVL>12]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Lum + Pul %WHITE%+ Perf %GREEN%O%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
 
 //----------------------------------------- Notes about Rune Words and Socketing -----------------------------------------
 
@@ -3607,7 +3607,7 @@ ItemDisplay[(HELM OR CIRC) !INF SOCK=3 NMAG !RW]: %NAME%{%GRAY%Dream, Delirium, 
 ItemDisplay[SHIELD !INF SOCK=2 NMAG !RW]: %NAME%{%GRAY%Rhyme, Splendor%NL%%GOLD%Rune Words:%NL%%NAME%}%CONTINUE%
 ItemDisplay[SHIELD !INF SOCK=3 NMAG !RW]: %NAME%{%GRAY%Ancient's Pledge, Dragon, Dream%NL%%GOLD%Rune Words: %GRAY%Sanctuary%NL%%NAME%}%CONTINUE%
 ItemDisplay[DIN !INF SOCK=4 NMAG !RW]: %NAME%{%GRAY%Exile, Phoenix, Spirit%NL%%GOLD%Rune Words:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(SHIELD AND !DIN) !INF SOCK=4 NMAG !RW CLVL<31]: %NAME%{%GRAY%Phoenix, Spirit%NL%%GOLD%Rune Words:%NL%%NAME%}%CONTINUE%
+ItemDisplay[(SHIELD AND !DIN) !INF SOCK=4 NMAG !RW]: %NAME%{%GRAY%Phoenix, Spirit%NL%%GOLD%Rune Words:%NL%%NAME%}%CONTINUE%
 
 //Weapons: 2 Sockets
 ItemDisplay[(BOW OR XBOW) !INF SOCK=2 NMAG !RW]: %NAME%{%GRAY%Zephyr%NL%%GOLD%Rune Words:}%CONTINUE%
@@ -3652,13 +3652,13 @@ ItemDisplay[(AXE OR SWORD OR (whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7
 ItemDisplay[WEAPON !(AXE OR SWORD OR whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm) !INF SOCK=6 NMAG !RW]: %NAME%{%GRAY%Breath of the Dying, Silence%NL%%GOLD%Rune Words:}%CONTINUE%
 
 //Note for CUBE Socketing
-ItemDisplay[CHEST !INF !SUP SOCK=0 NMAG]: %NAME%{%WHITE%This Item + %ORANGE%Tal + Thul %WHITE%+ Perf %YELLOW%O%NL%%WHITE%Socket Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(WEAPON AND !THROWING) !INF !SUP SOCK=0 NMAG]: %NAME%{%WHITE%This Item + %ORANGE%Ral + Amn %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Socket Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[(HELM AND !CIRC) !INF !SUP SOCK=0 NMAG]: %NAME%{%WHITE%This Item + %ORANGE%Ral + Thul %WHITE%+ Perf %BLUE%O%NL%%WHITE%Socket Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[SHIELD !INF !SUP SOCK=0 NMAG]: %NAME%{%WHITE%This Item + %ORANGE%Tal + Amn %WHITE%+ Perf %RED%O%NL%%WHITE%Socket Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[CHEST !INF !SUP SOCK=0 NMAG ILVL>20]: %NAME%{%WHITE%This Item + %ORANGE%Tal + Thul %WHITE%+ Perf %YELLOW%O%NL%%WHITE%Socket Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[(WEAPON AND !THROWING) !INF !SUP SOCK=0 NMAG ILVL>20]: %NAME%{%WHITE%This Item + %ORANGE%Ral + Amn %WHITE%+ Perf %PURPLE%O%NL%%WHITE%Socket Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[(HELM AND !CIRC) !INF !SUP SOCK=0 NMAG ILVL>20]: %NAME%{%WHITE%This Item + %ORANGE%Ral + Thul %WHITE%+ Perf %BLUE%O%NL%%WHITE%Socket Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SHIELD !INF !SUP SOCK=0 NMAG ILVL>20]: %NAME%{%WHITE%This Item + %ORANGE%Tal + Amn %WHITE%+ Perf %RED%O%NL%%WHITE%Socket Recipe:%NL%%NAME%}%CONTINUE%
 
 //Note for Superior Socketing
-ItemDisplay[((CHEST OR (HELM AND !CIRC) OR SHIELD) OR (WEAPON AND !THROWING)) NMAG SUP SOCK=0]: %NAME%{%DARK_GREEN%Larzuk %WHITE%or %RED%Corrupt%NL%%WHITE%Socketing %ORANGE%Superior %WHITE%Items:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((CHEST OR (HELM AND !CIRC) OR SHIELD) OR (WEAPON AND !THROWING)) NMAG SUP SOCK=0 ILVL>20]: %NAME%{%DARK_GREEN%Larzuk %WHITE%or %RED%Corrupt%NL%%WHITE%Socketing %ORANGE%Superior %WHITE%Items:%NL%%NAME%}%CONTINUE%
 
 //Note for Circlet Imbuing
 ItemDisplay[ci0 NMAG !INF !ETH SOCK=0]: %NAME%{%DARK_GREEN%Charsi %WHITE%at level %GREEN%83+%NL%%YELLOW%Imbue %WHITE%this with%NL%%NAME%}%CONTINUE%
@@ -4174,7 +4174,13 @@ ItemDisplay[EQ7 NMAG !INF !ETH SOCK=0]: %NAME%{%NAME%}
 
 //----------------------------------------- Hiding Items -----------------------------------------
 
-//Hiding NORM 
+//Hiding NORM Tier Items
+//Hell and Nightmare
+ItemDisplay[((ARMOR OR WEAPON) AND !ZON) NORM NMAG !RW !leg SOCK<2 CLVL>29 DIFF>0]:
+ItemDisplay[((ARMOR OR WEAPON) AND !ZON) NORM NMAG !RW !leg CLVL>44 DIFF>0]:
+ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) AND !ZON) NORM MAG !ID !leg CLVL>34 DIFF>0]: 
+ItemDisplay[(GLOVES OR BOOTS OR BELT) NORM MAG !ID !leg CLVL>44 DIFF>0]:
+//Normal
 ItemDisplay[((ARMOR OR WEAPON) AND !ZON) NORM NMAG SUP !RW !leg SOCK=0 ED<10 CLVL>24]: 
 ItemDisplay[((ARMOR OR WEAPON) AND !ZON) NORM NMAG !RW !leg SOCK<2 CLVL>39]:
 ItemDisplay[((ARMOR OR WEAPON) AND !ZON) NORM NMAG !RW !leg CLVL>49]:
@@ -4182,7 +4188,14 @@ ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) AND !ZON) NORM MAG !ID !leg CLV
 ItemDisplay[(GLOVES OR BOOTS OR BELT) NORM MAG !ID !leg CLVL>49]:
 ItemDisplay[(ARMOR OR WEAPON) NORM RARE !ID !leg CLVL>79]: 
 
-//Hiding EXC
+//Hiding EXC Tier Items
+//Hell
+ItemDisplay[((ARMOR OR WEAPON) AND !ZON) EXC NMAG SUP !RW !leg SOCK=0 ED<10 CLVL>54 DIFF=2]: 
+ItemDisplay[(WEAPON AND !ZON) EXC NMAG !RW !leg SOCK<2 CLVL>59 DIFF=2]: 
+ItemDisplay[((ARMOR OR WEAPON) AND !ZON) EXC NMAG !RW !leg CLVL>69 DIFF=2]: 
+ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) AND !ZON) EXC MAG !ID !leg CLVL>69 DIFF=2]:
+ItemDisplay[(GLOVES OR BOOTS OR BELT) EXC MAG !ID !leg CLVL>74 DIFF=2]:
+//Nightmare and Normal
 ItemDisplay[((ARMOR OR WEAPON) AND !ZON) EXC NMAG SUP !RW !leg SOCK=0 ED<10 CLVL>64]: 
 ItemDisplay[(WEAPON AND !ZON) EXC NMAG !RW !leg SOCK<2 CLVL>69]: 
 ItemDisplay[((ARMOR OR WEAPON) AND !ZON) EXC NMAG !RW !leg CLVL>79]: 
