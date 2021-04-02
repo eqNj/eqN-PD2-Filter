@@ -715,43 +715,43 @@ ItemDisplay[glr OR gpr]: %NAME% %ORANGE%[%RED%O%ORANGE%]%CONTINUE%
 ItemDisplay[glb OR gpb]: %NAME% %ORANGE%[%BLUE%O%ORANGE%]%CONTINUE%
 ItemDisplay[gly OR gpy]: %NAME% %ORANGE%[%YELLOW%O%ORANGE%]%CONTINUE%
 ItemDisplay[skl OR skz]: %NAME% %ORANGE%[%GRAY%O%ORANGE%]%CONTINUE%
-ItemDisplay[gzv OR glw OR glg OR glr OR glb OR gly OR skl OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz]: %NAME%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%}
+ItemDisplay[gzv OR glw OR glg OR glr OR glb OR gly OR skl OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz]: %NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%}
 
 //Hiding Low Gems
 ItemDisplay[GEM<3 DIFF>0]:
 ItemDisplay[GEM<4 DIFF>1]:
 
 //Amethyst
-ItemDisplay[GEMTYPE=1 GEM<4]: %NAME% %ORANGE%[%PURPLE%*%ORANGE%]
+ItemDisplay[GEMTYPE=1 GEM<4]: %NAME% %ORANGE%[%PURPLE%*%ORANGE%]%WHITE%
 ItemDisplay[GEMTYPE=1 GEM>3]: %NAME% %ORANGE%[%PURPLE%O%ORANGE%]%CONTINUE%
 
 //Diamond
-ItemDisplay[GEMTYPE=2 GEM<4]: %NAME% %ORANGE%[%WHITE%*%ORANGE%]
+ItemDisplay[GEMTYPE=2 GEM<4]: %NAME% %ORANGE%[%WHITE%*%ORANGE%]%WHITE%
 ItemDisplay[GEMTYPE=2 GEM>3]: %NAME% %ORANGE%[%WHITE%O%ORANGE%]%CONTINUE%
 
 //Emerald
-ItemDisplay[GEMTYPE=3 GEM<4]: %NAME% %ORANGE%[%GREEN%*%ORANGE%]
+ItemDisplay[GEMTYPE=3 GEM<4]: %NAME% %ORANGE%[%GREEN%*%ORANGE%]%WHITE%
 ItemDisplay[GEMTYPE=3 GEM>3]: %NAME% %ORANGE%[%GREEN%O%ORANGE%]%CONTINUE%
 
 //Ruby
-ItemDisplay[GEMTYPE=4 GEM<4]: %NAME% %ORANGE%[%RED%*%ORANGE%]
+ItemDisplay[GEMTYPE=4 GEM<4]: %NAME% %ORANGE%[%RED%*%ORANGE%]%WHITE%
 ItemDisplay[GEMTYPE=4 GEM>3]: %NAME% %ORANGE%[%RED%O%ORANGE%]%CONTINUE%
 
 //Sapphires
-ItemDisplay[GEMTYPE=5 GEM<4]: %NAME% %ORANGE%[%BLUE%*%ORANGE%]
+ItemDisplay[GEMTYPE=5 GEM<4]: %NAME% %ORANGE%[%BLUE%*%ORANGE%]%WHITE%
 ItemDisplay[GEMTYPE=5 GEM>3]: %NAME% %ORANGE%[%BLUE%O%ORANGE%]%CONTINUE%
 
 //Topazes
-ItemDisplay[GEMTYPE=6 GEM<4]: %NAME% %ORANGE%[%YELLOW%*%ORANGE%]
+ItemDisplay[GEMTYPE=6 GEM<4]: %NAME% %ORANGE%[%YELLOW%*%ORANGE%]%WHITE%
 ItemDisplay[GEMTYPE=6 GEM>3]: %NAME% %ORANGE%[%YELLOW%O%ORANGE%]%CONTINUE%
 
 //Skulls
-ItemDisplay[GEMTYPE=7 GEM<4]: %NAME% %ORANGE%[%GRAY%*%ORANGE%]
+ItemDisplay[GEMTYPE=7 GEM<4]: %NAME% %ORANGE%[%GRAY%*%ORANGE%]%WHITE%
 ItemDisplay[GEMTYPE=7 GEM>3]: %NAME% %ORANGE%[%GRAY%O%ORANGE%]%CONTINUE%
 
 //Runes
-ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17) CLVL>1]: %PX-62%%ORANGE%%RUNENAME% %GRAY%[%TAN%%RUNENUM%%GRAY%]%CONTINUE%
-ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17) CLVL=1]: %ORANGE%%RUNENAME% %GRAY%[%TAN%%RUNENUM%%GRAY%]%CONTINUE%
+ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17) CLVL>1]: %PX-62%%ORANGE%%RUNENAME% Rune %GRAY%[%TAN%%RUNENUM%%GRAY%]%CONTINUE%
+ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17) CLVL=1]: %ORANGE%%RUNENAME% Rune %GRAY%[%TAN%%RUNENUM%%GRAY%]%CONTINUE%
 ItemDisplay[RUNE=15 OR RUNE=18 OR RUNE=19]: %PX-62%%TAN%*  %ORANGE%%RUNENAME% Rune %GRAY%[%WHITE%%RUNENUM%%GRAY%]%TAN%  *%CONTINUE%
 ItemDisplay[RUNE>19 AND RUNE<26]: %DOT-62%%RED%*     %ORANGE%%RUNENAME% Rune %GRAY%[%RED%%RUNENUM%%GRAY%]%RED%     *%CONTINUE%
 ItemDisplay[RUNE>25]: %BORDER-62%%GREEN%*%PURPLE%*%RED%*          %ORANGE%%RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]%RED%          *%PURPLE%*%GREEN%*%CONTINUE%
@@ -821,93 +821,93 @@ ItemDisplay[cm1 MFIND>5]: %GREEN%MF %BLUE%Small Charm
 ItemDisplay[cm1 LIFE>16]: %RED%Life %BLUE%Small Charm 
 
 //Skillers
-ItemDisplay[cm3 (TABSK0>0 AND FHR>0)]: %PURPLE%Bow and Crossbow %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK2>0 AND FHR>0)]: %PURPLE%Javelin and Spear %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK1>0 AND FHR>0)]: %PURPLE%Passive and Magic %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK8>0 AND FHR>0)]: %PURPLE%Fire Spells %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK9>0 AND FHR>0)]: %PURPLE%Lightning Spells %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK10>0 AND FHR>0)]: %PURPLE%Cold Spells %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK16>0 AND FHR>0)]: %PURPLE%Curses %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK17>0 AND FHR>0)]: %PURPLE%Poison & Bone Spells %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK18>0 AND FHR>0)]: %GRAY%Nec %PURPLE%Summoning Spells %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK24>0 AND FHR>0)]: %GRAY%Pal %PURPLE%Combat %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK25>0 AND FHR>0)]: %PURPLE%Offensive Auras %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK26>0 AND FHR>0)]: %PURPLE%Defensive Auras %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK32>0 AND FHR>0)]: %GRAY%Barb %PURPLE%Combat %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK33>0 AND FHR>0)]: %GRAY%Barb %PURPLE%Masteries %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK34>0 AND FHR>0)]: %PURPLE%Warcries %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK40>0 AND FHR>0)]: %GRAY%Dru %PURPLE%Summoning %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK41>0 AND FHR>0)]: %PURPLE%Shape Shifting %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK42>0 AND FHR>0)]: %PURPLE%Elemental %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK48>0 AND FHR>0)]: %PURPLE%Traps %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK49>0 AND FHR>0)]: %PURPLE%Shadow Disciplines %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK50>0 AND FHR>0)]: %PURPLE%Martial Arts %TAN%Skiller %WHITE%+ %ORANGE%FHR
-ItemDisplay[cm3 (TABSK0>0 AND FRW>0)]: %PURPLE%Bow and Crossbow %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK2>0 AND FRW>0)]: %PURPLE%Javelin and Spear %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK1>0 AND FRW>0)]: %PURPLE%Passive and Magic %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK8>0 AND FRW>0)]: %PURPLE%Fire Spells %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK9>0 AND FRW>0)]: %PURPLE%Lightning Spells %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK10>0 AND FRW>0)]: %PURPLE%Cold Spells %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK16>0 AND FRW>0)]: %PURPLE%Curses %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK17>0 AND FRW>0)]: %PURPLE%Poison & Bone Spells %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK18>0 AND FRW>0)]: %GRAY%Nec %PURPLE%Summoning Spells %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK24>0 AND FRW>0)]: %GRAY%Pal %PURPLE%Combat %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK25>0 AND FRW>0)]: %PURPLE%Offensive Auras %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK26>0 AND FRW>0)]: %PURPLE%Defensive Auras %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK32>0 AND FRW>0)]: %GRAY%Barb %PURPLE%Combat %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK33>0 AND FRW>0)]: %GRAY%Barb %PURPLE%Masteries %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK34>0 AND FRW>0)]: %PURPLE%Warcries %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK40>0 AND FRW>0)]: %GRAY%Dru %PURPLE%Summoning %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK41>0 AND FRW>0)]: %PURPLE%Shape Shifting %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK42>0 AND FRW>0)]: %PURPLE%Elemental %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK48>0 AND FRW>0)]: %PURPLE%Traps %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK49>0 AND FRW>0)]: %PURPLE%Shadow Disciplines %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK50>0 AND FRW>0)]: %PURPLE%Martial Arts %TAN%Skiller %WHITE%+ %ORANGE%frw
-ItemDisplay[cm3 (TABSK0>0 AND LIFE>0)]: %PURPLE%Bow and Crossbow %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK2>0 AND LIFE>0)]: %PURPLE%Javelin and Spear %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK1>0 AND LIFE>0)]: %PURPLE%Passive and Magic %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK8>0 AND LIFE>0)]: %PURPLE%Fire Spells %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK9>0 AND LIFE>0)]: %PURPLE%Lightning Spells %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK10>0 AND LIFE>0)]: %PURPLE%Cold Spells %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK16>0 AND LIFE>0)]: %PURPLE%Curses %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK17>0 AND LIFE>0)]: %PURPLE%Poison & Bone Spells %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK18>0 AND LIFE>0)]: %GRAY%Nec %PURPLE%Summoning Spells %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK24>0 AND LIFE>0)]: %GRAY%Pal %PURPLE%Combat %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK25>0 AND LIFE>0)]: %PURPLE%Offensive Auras %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK26>0 AND LIFE>0)]: %PURPLE%Defensive Auras %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK32>0 AND LIFE>0)]: %GRAY%Barb %PURPLE%Combat %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK33>0 AND LIFE>0)]: %GRAY%Barb %PURPLE%Masteries %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK34>0 AND LIFE>0)]: %PURPLE%Warcries %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK40>0 AND LIFE>0)]: %GRAY%Dru %PURPLE%Summoning %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK41>0 AND LIFE>0)]: %PURPLE%Shape Shifting %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK42>0 AND LIFE>0)]: %PURPLE%Elemental %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK48>0 AND LIFE>0)]: %PURPLE%Traps %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK49>0 AND LIFE>0)]: %PURPLE%Shadow Disciplines %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 (TABSK50>0 AND LIFE>0)]: %PURPLE%Martial Arts %TAN%Skiller %WHITE%+ %RED%Life
-ItemDisplay[cm3 TABSK0>0]: %PURPLE%Bow and Crossbow %TAN%Skiller
-ItemDisplay[cm3 TABSK2>0]: %PURPLE%Javelin and Spear %TAN%Skiller
-ItemDisplay[cm3 TABSK1>0]: %PURPLE%Passive and Magic %TAN%Skiller
-ItemDisplay[cm3 TABSK8>0]: %PURPLE%Fire Spells %TAN%Skiller
-ItemDisplay[cm3 TABSK9>0]: %PURPLE%Lightning Spells %TAN%Skiller
-ItemDisplay[cm3 TABSK10>0]: %PURPLE%Cold Spells %TAN%Skiller
-ItemDisplay[cm3 TABSK16>0]: %PURPLE%Curses %TAN%Skiller
-ItemDisplay[cm3 TABSK17>0]: %PURPLE%Poison & Bone Spells %TAN%Skiller
-ItemDisplay[cm3 TABSK18>0]: %GRAY%Nec %PURPLE%Summoning Spells %TAN%Skiller
-ItemDisplay[cm3 TABSK24>0]: %GRAY%Pal %PURPLE%Combat %TAN%Skiller
-ItemDisplay[cm3 TABSK25>0]: %PURPLE%Offensive Auras %TAN%Skiller
-ItemDisplay[cm3 TABSK26>0]: %PURPLE%Defensive Auras %TAN%Skiller
-ItemDisplay[cm3 TABSK32>0]: %GRAY%Barb %PURPLE%Combat %TAN%Skiller
-ItemDisplay[cm3 TABSK33>0]: %GRAY%Barb %PURPLE%Masteries %TAN%Skiller
-ItemDisplay[cm3 TABSK34>0]: %PURPLE%Warcries %TAN%Skiller
-ItemDisplay[cm3 TABSK40>0]: %GRAY%Dru %PURPLE%Summoning %TAN%Skiller
-ItemDisplay[cm3 TABSK41>0]: %PURPLE%Shape Shifting %TAN%Skiller
-ItemDisplay[cm3 TABSK42>0]: %PURPLE%Elemental %TAN%Skiller
-ItemDisplay[cm3 TABSK48>0]: %PURPLE%Traps %TAN%Skiller
-ItemDisplay[cm3 TABSK49>0]: %PURPLE%Shadow Disciplines %TAN%Skiller
-ItemDisplay[cm3 TABSK50>0]: %PURPLE%Martial Arts %TAN%Skiller
+ItemDisplay[cm3 (TABSK0>0 AND FHR>0)]: %PURPLE%Bow and Crossbow %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK2>0 AND FHR>0)]: %PURPLE%Javelin and Spear %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK1>0 AND FHR>0)]: %PURPLE%Passive and Magic %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK8>0 AND FHR>0)]: %PURPLE%Fire Spells %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK9>0 AND FHR>0)]: %PURPLE%Lightning Spells %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK10>0 AND FHR>0)]: %PURPLE%Cold Spells %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK16>0 AND FHR>0)]: %PURPLE%Curses %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK17>0 AND FHR>0)]: %PURPLE%Poison & Bone Spells %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK18>0 AND FHR>0)]: %GRAY%Nec %PURPLE%Summoning Spells %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK24>0 AND FHR>0)]: %GRAY%Pal %PURPLE%Combat %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK25>0 AND FHR>0)]: %PURPLE%Offensive Auras %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK26>0 AND FHR>0)]: %PURPLE%Defensive Auras %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK32>0 AND FHR>0)]: %GRAY%Barb %PURPLE%Combat %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK33>0 AND FHR>0)]: %GRAY%Barb %PURPLE%Masteries %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK34>0 AND FHR>0)]: %PURPLE%Warcries %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK40>0 AND FHR>0)]: %GRAY%Dru %PURPLE%Summoning %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK41>0 AND FHR>0)]: %PURPLE%Shape Shifting %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK42>0 AND FHR>0)]: %PURPLE%Elemental %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK48>0 AND FHR>0)]: %PURPLE%Traps %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK49>0 AND FHR>0)]: %PURPLE%Shadow Disciplines %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK50>0 AND FHR>0)]: %PURPLE%Martial Arts %TAN%Skiller %WHITE%+ %ORANGE%FHR%BLUE%
+ItemDisplay[cm3 (TABSK0>0 AND FRW>0)]: %PURPLE%Bow and Crossbow %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK2>0 AND FRW>0)]: %PURPLE%Javelin and Spear %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK1>0 AND FRW>0)]: %PURPLE%Passive and Magic %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK8>0 AND FRW>0)]: %PURPLE%Fire Spells %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK9>0 AND FRW>0)]: %PURPLE%Lightning Spells %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK10>0 AND FRW>0)]: %PURPLE%Cold Spells %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK16>0 AND FRW>0)]: %PURPLE%Curses %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK17>0 AND FRW>0)]: %PURPLE%Poison & Bone Spells %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK18>0 AND FRW>0)]: %GRAY%Nec %PURPLE%Summoning Spells %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK24>0 AND FRW>0)]: %GRAY%Pal %PURPLE%Combat %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK25>0 AND FRW>0)]: %PURPLE%Offensive Auras %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK26>0 AND FRW>0)]: %PURPLE%Defensive Auras %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK32>0 AND FRW>0)]: %GRAY%Barb %PURPLE%Combat %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK33>0 AND FRW>0)]: %GRAY%Barb %PURPLE%Masteries %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK34>0 AND FRW>0)]: %PURPLE%Warcries %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK40>0 AND FRW>0)]: %GRAY%Dru %PURPLE%Summoning %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK41>0 AND FRW>0)]: %PURPLE%Shape Shifting %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK42>0 AND FRW>0)]: %PURPLE%Elemental %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK48>0 AND FRW>0)]: %PURPLE%Traps %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK49>0 AND FRW>0)]: %PURPLE%Shadow Disciplines %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK50>0 AND FRW>0)]: %PURPLE%Martial Arts %TAN%Skiller %WHITE%+ %ORANGE%frw%BLUE%
+ItemDisplay[cm3 (TABSK0>0 AND LIFE>0)]: %PURPLE%Bow and Crossbow %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK2>0 AND LIFE>0)]: %PURPLE%Javelin and Spear %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK1>0 AND LIFE>0)]: %PURPLE%Passive and Magic %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK8>0 AND LIFE>0)]: %PURPLE%Fire Spells %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK9>0 AND LIFE>0)]: %PURPLE%Lightning Spells %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK10>0 AND LIFE>0)]: %PURPLE%Cold Spells %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK16>0 AND LIFE>0)]: %PURPLE%Curses %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK17>0 AND LIFE>0)]: %PURPLE%Poison & Bone Spells %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK18>0 AND LIFE>0)]: %GRAY%Nec %PURPLE%Summoning Spells %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK24>0 AND LIFE>0)]: %GRAY%Pal %PURPLE%Combat %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK25>0 AND LIFE>0)]: %PURPLE%Offensive Auras %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK26>0 AND LIFE>0)]: %PURPLE%Defensive Auras %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK32>0 AND LIFE>0)]: %GRAY%Barb %PURPLE%Combat %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK33>0 AND LIFE>0)]: %GRAY%Barb %PURPLE%Masteries %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK34>0 AND LIFE>0)]: %PURPLE%Warcries %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK40>0 AND LIFE>0)]: %GRAY%Dru %PURPLE%Summoning %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK41>0 AND LIFE>0)]: %PURPLE%Shape Shifting %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK42>0 AND LIFE>0)]: %PURPLE%Elemental %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK48>0 AND LIFE>0)]: %PURPLE%Traps %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK49>0 AND LIFE>0)]: %PURPLE%Shadow Disciplines %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 (TABSK50>0 AND LIFE>0)]: %PURPLE%Martial Arts %TAN%Skiller %WHITE%+ %RED%Life%BLUE%
+ItemDisplay[cm3 TABSK0>0]: %PURPLE%Bow and Crossbow %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK2>0]: %PURPLE%Javelin and Spear %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK1>0]: %PURPLE%Passive and Magic %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK8>0]: %PURPLE%Fire Spells %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK9>0]: %PURPLE%Lightning Spells %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK10>0]: %PURPLE%Cold Spells %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK16>0]: %PURPLE%Curses %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK17>0]: %PURPLE%Poison & Bone Spells %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK18>0]: %GRAY%Nec %PURPLE%Summoning Spells %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK24>0]: %GRAY%Pal %PURPLE%Combat %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK25>0]: %PURPLE%Offensive Auras %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK26>0]: %PURPLE%Defensive Auras %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK32>0]: %GRAY%Barb %PURPLE%Combat %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK33>0]: %GRAY%Barb %PURPLE%Masteries %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK34>0]: %PURPLE%Warcries %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK40>0]: %GRAY%Dru %PURPLE%Summoning %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK41>0]: %PURPLE%Shape Shifting %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK42>0]: %PURPLE%Elemental %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK48>0]: %PURPLE%Traps %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK49>0]: %PURPLE%Shadow Disciplines %TAN%Skiller%BLUE%
+ItemDisplay[cm3 TABSK50>0]: %PURPLE%Martial Arts %TAN%Skiller%BLUE%
 
 //Note on High ILVL Grand Charms
-ItemDisplay[cm3 MAG ID ILVL>90]: %NAME%{%GOLD%Cube %WHITE%with 3x Perf Gem%NL%ILVL %GREEN%91+ %BLUE%Grand Charm%WHITE% Reroll:}
+ItemDisplay[cm3 MAG ID ILVL>90]: %NAME%%TAN%[%GREEN%ilvl %ILVL%%TAN%]%BLUE%{%GOLD%Cube %WHITE%with 3x Perf Gem%NL%ILVL %GREEN%91+ %BLUE%Grand Charm%WHITE% Reroll:}
 
 //----------------------------------------- Unique, Set, Rare, and Magic Alerts and Formatting --------------------------------------------
 
@@ -962,8 +962,8 @@ ItemDisplay[((7m7 OR 9cl OR mau OR 7ls OR 9ls OR 7br OR 7sr OR 7p7 OR 9ba OR 7ga
 ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0 OR ba5) !(9vo OR xcl OR xrn)) SET !ID]: %PX-84%%NAME%
 
 //Forces All Unique and Set Alerts
-ItemDisplay[UNI !ID]: %PX-68%%NAME%
-ItemDisplay[SET !ID CLVL<80]: %PX-84%%NAME%
+ItemDisplay[UNI !ID]: %PX-68%%NAME%%GOLD%
+ItemDisplay[SET !ID CLVL<80]: %PX-84%%NAME%%GREEN%
 
 //----------------------------------------- Crafting and Magic Items --------------------------------------------
 
@@ -1007,30 +1007,30 @@ ItemDisplay[(SOR OR (WAND !(ywn OR wnd OR 9wn))) MAG !ID ILVL>70]: %GRAY%*%BLUE%
 ItemDisplay[rin MAG !ID ILVL>71]: %GRAY%*%BLUE%%NAME%%GRAY%*
 
 //Notes For High ILVL Crafting Amulets
-ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 92+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 92+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 90+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 90+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 88+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 88+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 86+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=95]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 86+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 84+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 84+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 82+: %BLUE%Jewel +}
-ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 82+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 92+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 92+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 90+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 90+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 88+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 88+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 86+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=95]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 86+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 84+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 84+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 82+: %BLUE%Jewel +}
+ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Craft at 82+: %BLUE%Jewel +}
 
 //Craft Descriptions
-ItemDisplay[GLOVES MAG ID ILVL>50]: %NAME%{HP: Perf O %ORANGE%+ Ort %WHITE%| %GREEN%S: Perf O %ORANGE%+ Ral%NL%%RED%B: Perf O %ORANGE%+ Nef%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ort%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[BOOTS MAG ID ILVL>50]: %NAME%{HP: Perf O %ORANGE%+ Ral %WHITE%| %GREEN%S: Perf O %ORANGE%+ Ort%NL%%RED%B: Perf O %ORANGE%+ Eth%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Thul%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[BELT MAG ID ILVL>50]: %NAME%{HP: Perf O %ORANGE%+ Tal %WHITE%| %GREEN%S: Perf O %ORANGE%+ Tal%NL%%RED%B: Perf O %ORANGE%+ Tal%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ith%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[SHIELD MAG ID ILVL>50]: %NAME%{HP: Perf O %ORANGE%+ Eth %WHITE%| %GREEN%S: Perf O %ORANGE%+ Nef%NL%%RED%B: Perf O %ORANGE%+ Ith%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Eth%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[HELM MAG ID ILVL>50]: %NAME%{HP: Perf O %ORANGE%+ Ith %WHITE%| %GREEN%S: Perf O %ORANGE%+ Ith%NL%%RED%B: Perf O %ORANGE%+ Ral%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Nef%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[CHEST MAG ID ILVL>50]: %NAME%{HP: Perf O %ORANGE%+ Nef %WHITE%| %GREEN%S: Perf O %ORANGE%+ Eth%NL%%RED%B: Perf O %ORANGE%+ Thul%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Tal%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[WEAPON !(BOW OR XBOW) MAG ID ILVL>50]: %NAME%{HP: Perf O %ORANGE%+ Tir %WHITE%| %GREEN%S: %GRAY%Bows Only%NL%%RED%B: Perf O %ORANGE%+ Ort%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Tir%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[(BOW OR XBOW) MAG ID ILVL>50]: %NAME%{HP: Perf O %ORANGE%+ Tir %WHITE%| %GREEN%S: Perf O %ORANGE%+ Sol%NL%%RED%B: Perf O %ORANGE%+ Ort%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Tir%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[amu MAG ID ILVL>50]: %NAME%{HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Crafting: %BLUE%Jewel +}
-ItemDisplay[rin MAG ID ILVL>50]: %NAME%{HP: Perf O %ORANGE%+ Amn %WHITE%| %GREEN%S: Perf O %ORANGE%+ Amn%NL%%RED%B: Perf O %ORANGE%+ Sol%WHITE% | %PURPLE%C: Perf O%WHITE% %ORANGE%+ Amn%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[GLOVES MAG ID ILVL>50]:%NAME%%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Ort %WHITE%| %GREEN%S: Perf O %ORANGE%+ Ral%NL%%RED%B: Perf O %ORANGE%+ Nef%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ort%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[BOOTS MAG ID ILVL>50]:%NAME%%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Ral %WHITE%| %GREEN%S: Perf O %ORANGE%+ Ort%NL%%RED%B: Perf O %ORANGE%+ Eth%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Thul%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[BELT MAG ID ILVL>50]:%NAME%%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Tal %WHITE%| %GREEN%S: Perf O %ORANGE%+ Tal%NL%%RED%B: Perf O %ORANGE%+ Tal%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ith%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[SHIELD MAG ID ILVL>50]:%NAME%%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Eth %WHITE%| %GREEN%S: Perf O %ORANGE%+ Nef%NL%%RED%B: Perf O %ORANGE%+ Ith%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Eth%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[HELM MAG ID ILVL>50]:%NAME%%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Ith %WHITE%| %GREEN%S: Perf O %ORANGE%+ Ith%NL%%RED%B: Perf O %ORANGE%+ Ral%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Nef%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[CHEST MAG ID ILVL>50]:%NAME%%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Nef %WHITE%| %GREEN%S: Perf O %ORANGE%+ Eth%NL%%RED%B: Perf O %ORANGE%+ Thul%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Tal%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[WEAPON !(BOW OR XBOW) MAG ID ILVL>50]:%NAME%%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Tir %WHITE%| %GREEN%S: %GRAY%Bows Only%NL%%RED%B: Perf O %ORANGE%+ Ort%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Tir%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[(BOW OR XBOW) MAG ID ILVL>50]:%NAME%%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Tir %WHITE%| %GREEN%S: Perf O %ORANGE%+ Sol%NL%%RED%B: Perf O %ORANGE%+ Ort%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Tir%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[amu MAG ID ILVL>50]:%NAME%%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Thul %WHITE%| %GREEN%S: Perf O %ORANGE%+ Thul%NL%%RED%B: Perf O %ORANGE%+ Amn%WHITE% | %PURPLE%C: Perf O %ORANGE%+ Ral%NL%Crafting: %BLUE%Jewel +}
+ItemDisplay[rin MAG ID ILVL>50]:%NAME%%BLUE%{%BLUE%HP: Perf O %ORANGE%+ Amn %WHITE%| %GREEN%S: Perf O %ORANGE%+ Amn%NL%%RED%B: Perf O %ORANGE%+ Sol%WHITE% | %PURPLE%C: Perf O%WHITE% %ORANGE%+ Amn%NL%Crafting: %BLUE%Jewel +}
 
 //----------------------------------------- Show Exact +SKILLS Values On NMAG Items --------------------------------------------
 
@@ -1685,56 +1685,56 @@ ItemDisplay[dcma]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%
 //----------------------------------------- Notes on Socketable Items -----------------------------------------
 
 //Runes Notes
-ItemDisplay[r01s]: %NAME%{%WHITE%3xEl + %GRAY%Key %WHITE%= Eld%NL%%NL%Shield: +15 Defense%NL%Armor/Helm: +15 Defense%NL%Weapon: +50 Attack Rating%NL%}
-ItemDisplay[r02s]: %NAME%{%WHITE%3xEld + %GRAY%Key %WHITE%= Tir%NL%%NL%Shield: 7% Block Chance%NL%Armor/Helm: -15% Stamina Drain%NL%Weapon: +75% Dmg, +50 AR vs Undead%NL%}
-ItemDisplay[r03s]: %NAME%{%WHITE%3xTir + %GRAY%Key %WHITE%= Nef%NL%%NL%Shield: +2 to Mana per Kill%NL%Armor/Helm: +2 to Mana per Kill%NL%Weapon: +2 to Mana per Kill%NL%}
-ItemDisplay[r04s]: %NAME%{%WHITE%3xNef + %GRAY%Key %WHITE%= Eth%NL%%NL%Shield: +30 Defense Vs. Missile%NL%Armor/Helm: +30 Defense Vs. Missile%NL%Weapon: Knockback%NL%}
-ItemDisplay[r05s]: %NAME%{%WHITE%3xEth + %GRAY%Key %WHITE%= Ith%NL%%NL%Shield: Regenerate Mana 15%%NL%Armor/Helm: Regenerate Mana 15%%NL%Weapon: -25% Target Defense%NL%}
-ItemDisplay[r06s]: %NAME%{%WHITE%3xIth + %GRAY%Key %WHITE%= Tal%NL%%NL%Shield: 15% Damage to Mana%NL%Armor/Helm: 15% Damage to Mana%NL%Weapon: +9 to Max Damage%NL%}
-ItemDisplay[r07s]: %NAME%{%WHITE%3xTal + %GRAY%Key %WHITE%= Ral%NL%%NL%Shield: Psn Res +35%%NL%Armor/Helm: Psn Res +30%%NL%Weapon: +75 Psn Dmg Over 5 Sec%NL%}
-ItemDisplay[r08s]: %NAME%{%WHITE%3xRal + %GRAY%Key %WHITE%= Ort%NL%%NL%Shield: Fire Resist +35%%NL%Armor/Helm: Fire Resist +30%%NL%Weapon: +5-30 Fire Dmg%NL%}
-ItemDisplay[r09s]: %NAME%{%WHITE%3xOrt + %GRAY%Key %WHITE%= Thul%NL%%NL%Shield: Light Resist +35%%NL%Armor/Helm: Light Resist +30%%NL%Weapon: +1-50 Light Dmg%NL%}
-ItemDisplay[r10s]: %NAME%{%WHITE%3xThul + %GRAY%Key %WHITE%= Amn%NL%%NL%Shield: Cold Resist +35%%NL%Armor/Helm: Cold Resist +30%%NL%Weapon: +3-14 Cold Dmg%NL%}
-ItemDisplay[r11s]: %NAME%{%WHITE%3xAmn + %GRAY%Key %WHITE%= Sol%NL%%NL%Shield: Attacker Takes Dmg 14%NL%Armor/Helm: Attacker Takes Dmg 14%NL%Weapon: 7% Life Leech%NL%}
-ItemDisplay[r12s]: %NAME%{%WHITE%3xSol + %GRAY%Key %WHITE%= Shael%NL%%NL%Shield: Damage Reduced by 7%NL%Armor/Helm: Damage Reduced by 7%NL%Weapon: +9 to Min Damage%NL%}
-ItemDisplay[r13s]: %NAME%{%WHITE%3xShael + %GRAY%Key %WHITE%= Dol%NL%%NL%Shield: 20% Fast Block%NL%Armor/Helm: 20% Fast Hit Recovery%NL%Weapon: 20% Inc Attack Speed%NL%}
-ItemDisplay[r14s]: %NAME%{%WHITE%3xDol + %GRAY%Key %WHITE%= Hel%NL%%NL%Shield: Replenish Life +10%NL%Armor/Helm: Replenish Life +10%NL%Weapon: 25% Enhanced Damage%NL%}
-ItemDisplay[r15s]: %NAME%{%WHITE%3xHel + %GRAY%Key %WHITE%= Io%NL%%NL%Shield: Requirements -15%%NL%Armor/Helm: Requirements -15%%NL%Weapon: Requirements -20%%NL%}
-ItemDisplay[r16s]: %NAME%{%WHITE%3xIo + %GRAY%Key %WHITE%= Lum%NL%%NL%Shield: +10 to Vitality%NL%Armor/Helm: +10 to Vitality%NL%Weapon: +10 to Vitality%NL%}
-ItemDisplay[r17s]: %NAME%{%WHITE%3xLum + %GRAY%Key %WHITE%= Ko%NL%%NL%Shield: +10 to Energy%NL%Armor/Helm: +10 to Energy%NL%Weapon: +10 to Energy%NL%}
-ItemDisplay[r18s]: %NAME%{%WHITE%3xKo + %GRAY%Key %WHITE%= Fal%NL%%NL%Shield: +10 to Dexterity%NL%Armor/Helm: +10 to Dexterity%NL%Weapon: +10 to Dexterity%NL%}
-ItemDisplay[r19s]: %NAME%{%WHITE%3xFal + %GRAY%Key %WHITE%= Lem%NL%%NL%Shield: +10 to Strength%NL%Armor/Helm: +10 to Strength%NL%Weapon: +10 to Strength%NL%}
-ItemDisplay[r20s]: %NAME%{%WHITE%3xLem + %GRAY%Key %WHITE%= Pul%NL%%NL%Shield: 50% Extra Gold%NL%Armor/Helm: 50% Extra Gold%NL%Weapon: 75% Extra Gold%NL%}
-ItemDisplay[r21s]: %NAME%{%WHITE%2xPul + %GRAY%Key %WHITE%= Um%NL%%NL%Shield: 30% Enhanced Def%NL%Armor/Helm: 30% Enhanced Def%NL%Weapon: +75% Dmg, +100 AR vs Demon%NL%}
-ItemDisplay[r22s]: %NAME%{%WHITE%2xUm + %GRAY%Key %WHITE%= Mal%NL%%NL%Shield: All Res +22%NL%Armor/Helm: All Res +15%NL%Weapon: 25% Chance of Open Wounds%NL%}
-ItemDisplay[r23s]: %NAME%{%WHITE%2xMal + %GRAY%Key %WHITE%= Ist%NL%%NL%Shield: Magic Dmg Red by 7%NL%Armor/Helm: Magic Dmg Red by 7%NL%Weapon: Prevent Monster Heal%NL%}
-ItemDisplay[r24s]: %NAME%{%WHITE%2xIst + %GRAY%Key %WHITE%= Gul%NL%%NL%Shield: 25% Magic Find%NL%Armor/Helm: 25% Magic Find%NL%Weapon: 30% Magic Find%NL%}
-ItemDisplay[r25s]: %NAME%{%WHITE%2xGul + %GRAY%Key %WHITE%= Vex%NL%%NL%Shield: +4% to Max Psn Res%NL%Armor/Helm: +4% to Max Psn Res%NL%Weapon: +20% to Attack Rating%NL%}
-ItemDisplay[r26s]: %NAME%{%WHITE%2xVex + %GRAY%Key %WHITE%= Ohm%NL%%NL%Shield: +4% to Max Fire Res%NL%Armor/Helm: +4% to Max Fire Res%NL%Weapon: 7% Mana Leech%NL%}
-ItemDisplay[r27s]: %NAME%{%WHITE%2xOhm + %GRAY%Key %WHITE%= Lo%NL%%NL%Shield: +4% to Max Cold Res%NL%Armor/Helm: +4% to Max Cold Res%NL%Weapon: 50% Enhanced Damage%NL%}
-ItemDisplay[r28s]: %NAME%{%WHITE%2xLo + %GRAY%Key %WHITE%= Sur%NL%%NL%Shield: +4% to Max Light Res%NL%Armor/Helm: +4% to Max Light Res%NL%Weapon: 20% Deadly Strike%NL%}
-ItemDisplay[r29s]: %NAME%{%WHITE%2xSur + %GRAY%Key %WHITE%= Ber%NL%%NL%Shield: +50 to Mana%NL%Armor/Helm: Inc Max Mana 5%%NL%Weapon: +4 Life After Each Kill%NL%}
-ItemDisplay[r30s]: %NAME%{%WHITE%2xBer + %GRAY%Key %WHITE%= Jah%NL%%NL%Shield: Dmg Red by 4%%NL%Armor/Helm: Dmg Red by 4%%NL%Weapon: 20% Chance of Crushing Blow%NL%}
-ItemDisplay[r31s]: %NAME%{%WHITE%2xJah + %GRAY%Key %WHITE%= Cham%NL%%NL%Shield: +50 to Life%NL%Armor/Helm: Inc Max Life 5%%NL%Weapon: Ignore Target's Defense%NL%}
-ItemDisplay[r32s]: %NAME%{%WHITE%2xCham + %GRAY%Key %WHITE%= Zod%NL%%NL%Shield: Cannot be Frozen%NL%Armor/Helm: Cannot be Frozen%NL%Weapon: Freezes Target +3%NL%}
-ItemDisplay[r33s]: %NAME%{%WHITE%Zod + Perf %GRAY%O %WHITE%= Repair any Item%NL%%NL%%WHITE%Shield: Indestructible%NL%Armor/Helm: Indestructible%NL%Weapon: Indestructible%NL%}
-ItemDisplay[RUNE>0]: %NAME%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%}
+ItemDisplay[r01s]: %NAME%%ORANGE%{%WHITE%3xEl + %GRAY%Key %WHITE%= Eld%NL%%NL%Shield: +15 Defense%NL%Armor/Helm: +15 Defense%NL%Weapon: +50 Attack Rating%NL%}
+ItemDisplay[r02s]: %NAME%%ORANGE%{%WHITE%3xEld + %GRAY%Key %WHITE%= Tir%NL%%NL%Shield: 7% Block Chance%NL%Armor/Helm: -15% Stamina Drain%NL%Weapon: +75% Dmg, +50 AR vs Undead%NL%}
+ItemDisplay[r03s]: %NAME%%ORANGE%{%WHITE%3xTir + %GRAY%Key %WHITE%= Nef%NL%%NL%Shield: +2 to Mana per Kill%NL%Armor/Helm: +2 to Mana per Kill%NL%Weapon: +2 to Mana per Kill%NL%}
+ItemDisplay[r04s]: %NAME%%ORANGE%{%WHITE%3xNef + %GRAY%Key %WHITE%= Eth%NL%%NL%Shield: +30 Defense Vs. Missile%NL%Armor/Helm: +30 Defense Vs. Missile%NL%Weapon: Knockback%NL%}
+ItemDisplay[r05s]: %NAME%%ORANGE%{%WHITE%3xEth + %GRAY%Key %WHITE%= Ith%NL%%NL%Shield: Regenerate Mana 15%%NL%Armor/Helm: Regenerate Mana 15%%NL%Weapon: -25% Target Defense%NL%}
+ItemDisplay[r06s]: %NAME%%ORANGE%{%WHITE%3xIth + %GRAY%Key %WHITE%= Tal%NL%%NL%Shield: 15% Damage to Mana%NL%Armor/Helm: 15% Damage to Mana%NL%Weapon: +9 to Max Damage%NL%}
+ItemDisplay[r07s]: %NAME%%ORANGE%{%WHITE%3xTal + %GRAY%Key %WHITE%= Ral%NL%%NL%Shield: Psn Res +35%%NL%Armor/Helm: Psn Res +30%%NL%Weapon: +75 Psn Dmg Over 5 Sec%NL%}
+ItemDisplay[r08s]: %NAME%%ORANGE%{%WHITE%3xRal + %GRAY%Key %WHITE%= Ort%NL%%NL%Shield: Fire Resist +35%%NL%Armor/Helm: Fire Resist +30%%NL%Weapon: +5-30 Fire Dmg%NL%}
+ItemDisplay[r09s]: %NAME%%ORANGE%{%WHITE%3xOrt + %GRAY%Key %WHITE%= Thul%NL%%NL%Shield: Light Resist +35%%NL%Armor/Helm: Light Resist +30%%NL%Weapon: +1-50 Light Dmg%NL%}
+ItemDisplay[r10s]: %NAME%%ORANGE%{%WHITE%3xThul + %GRAY%Key %WHITE%= Amn%NL%%NL%Shield: Cold Resist +35%%NL%Armor/Helm: Cold Resist +30%%NL%Weapon: +3-14 Cold Dmg%NL%}
+ItemDisplay[r11s]: %NAME%%ORANGE%{%WHITE%3xAmn + %GRAY%Key %WHITE%= Sol%NL%%NL%Shield: Attacker Takes Dmg 14%NL%Armor/Helm: Attacker Takes Dmg 14%NL%Weapon: 7% Life Leech%NL%}
+ItemDisplay[r12s]: %NAME%%ORANGE%{%WHITE%3xSol + %GRAY%Key %WHITE%= Shael%NL%%NL%Shield: Damage Reduced by 7%NL%Armor/Helm: Damage Reduced by 7%NL%Weapon: +9 to Min Damage%NL%}
+ItemDisplay[r13s]: %NAME%%ORANGE%{%WHITE%3xShael + %GRAY%Key %WHITE%= Dol%NL%%NL%Shield: 20% Fast Block%NL%Armor/Helm: 20% Fast Hit Recovery%NL%Weapon: 20% Inc Attack Speed%NL%}
+ItemDisplay[r14s]: %NAME%%ORANGE%{%WHITE%3xDol + %GRAY%Key %WHITE%= Hel%NL%%NL%Shield: Replenish Life +10%NL%Armor/Helm: Replenish Life +10%NL%Weapon: 25% Enhanced Damage%NL%}
+ItemDisplay[r15s]: %NAME%%ORANGE%{%WHITE%3xHel + %GRAY%Key %WHITE%= Io%NL%%NL%Shield: Requirements -15%%NL%Armor/Helm: Requirements -15%%NL%Weapon: Requirements -20%%NL%}
+ItemDisplay[r16s]: %NAME%%ORANGE%{%WHITE%3xIo + %GRAY%Key %WHITE%= Lum%NL%%NL%Shield: +10 to Vitality%NL%Armor/Helm: +10 to Vitality%NL%Weapon: +10 to Vitality%NL%}
+ItemDisplay[r17s]: %NAME%%ORANGE%{%WHITE%3xLum + %GRAY%Key %WHITE%= Ko%NL%%NL%Shield: +10 to Energy%NL%Armor/Helm: +10 to Energy%NL%Weapon: +10 to Energy%NL%}
+ItemDisplay[r18s]: %NAME%%ORANGE%{%WHITE%3xKo + %GRAY%Key %WHITE%= Fal%NL%%NL%Shield: +10 to Dexterity%NL%Armor/Helm: +10 to Dexterity%NL%Weapon: +10 to Dexterity%NL%}
+ItemDisplay[r19s]: %NAME%%ORANGE%{%WHITE%3xFal + %GRAY%Key %WHITE%= Lem%NL%%NL%Shield: +10 to Strength%NL%Armor/Helm: +10 to Strength%NL%Weapon: +10 to Strength%NL%}
+ItemDisplay[r20s]: %NAME%%ORANGE%{%WHITE%3xLem + %GRAY%Key %WHITE%= Pul%NL%%NL%Shield: 50% Extra Gold%NL%Armor/Helm: 50% Extra Gold%NL%Weapon: 75% Extra Gold%NL%}
+ItemDisplay[r21s]: %NAME%%ORANGE%{%WHITE%2xPul + %GRAY%Key %WHITE%= Um%NL%%NL%Shield: 30% Enhanced Def%NL%Armor/Helm: 30% Enhanced Def%NL%Weapon: +75% Dmg, +100 AR vs Demon%NL%}
+ItemDisplay[r22s]: %NAME%%ORANGE%{%WHITE%2xUm + %GRAY%Key %WHITE%= Mal%NL%%NL%Shield: All Res +22%NL%Armor/Helm: All Res +15%NL%Weapon: 25% Chance of Open Wounds%NL%}
+ItemDisplay[r23s]: %NAME%%ORANGE%{%WHITE%2xMal + %GRAY%Key %WHITE%= Ist%NL%%NL%Shield: Magic Dmg Red by 7%NL%Armor/Helm: Magic Dmg Red by 7%NL%Weapon: Prevent Monster Heal%NL%}
+ItemDisplay[r24s]: %NAME%%ORANGE%{%WHITE%2xIst + %GRAY%Key %WHITE%= Gul%NL%%NL%Shield: 25% Magic Find%NL%Armor/Helm: 25% Magic Find%NL%Weapon: 30% Magic Find%NL%}
+ItemDisplay[r25s]: %NAME%%ORANGE%{%WHITE%2xGul + %GRAY%Key %WHITE%= Vex%NL%%NL%Shield: +4% to Max Psn Res%NL%Armor/Helm: +4% to Max Psn Res%NL%Weapon: +20% to Attack Rating%NL%}
+ItemDisplay[r26s]: %NAME%%ORANGE%{%WHITE%2xVex + %GRAY%Key %WHITE%= Ohm%NL%%NL%Shield: +4% to Max Fire Res%NL%Armor/Helm: +4% to Max Fire Res%NL%Weapon: 7% Mana Leech%NL%}
+ItemDisplay[r27s]: %NAME%%ORANGE%{%WHITE%2xOhm + %GRAY%Key %WHITE%= Lo%NL%%NL%Shield: +4% to Max Cold Res%NL%Armor/Helm: +4% to Max Cold Res%NL%Weapon: 50% Enhanced Damage%NL%}
+ItemDisplay[r28s]: %NAME%%ORANGE%{%WHITE%2xLo + %GRAY%Key %WHITE%= Sur%NL%%NL%Shield: +4% to Max Light Res%NL%Armor/Helm: +4% to Max Light Res%NL%Weapon: 20% Deadly Strike%NL%}
+ItemDisplay[r29s]: %NAME%%ORANGE%{%WHITE%2xSur + %GRAY%Key %WHITE%= Ber%NL%%NL%Shield: +50 to Mana%NL%Armor/Helm: Inc Max Mana 5%%NL%Weapon: +4 Life After Each Kill%NL%}
+ItemDisplay[r30s]: %NAME%%ORANGE%{%WHITE%2xBer + %GRAY%Key %WHITE%= Jah%NL%%NL%Shield: Dmg Red by 4%%NL%Armor/Helm: Dmg Red by 4%%NL%Weapon: 20% Chance of Crushing Blow%NL%}
+ItemDisplay[r31s]: %NAME%%ORANGE%{%WHITE%2xJah + %GRAY%Key %WHITE%= Cham%NL%%NL%Shield: +50 to Life%NL%Armor/Helm: Inc Max Life 5%%NL%Weapon: Ignore Target's Defense%NL%}
+ItemDisplay[r32s]: %NAME%%ORANGE%{%WHITE%2xCham + %GRAY%Key %WHITE%= Zod%NL%%NL%Shield: Cannot be Frozen%NL%Armor/Helm: Cannot be Frozen%NL%Weapon: Freezes Target +3%NL%}
+ItemDisplay[r33s]: %NAME%%ORANGE%{%WHITE%Zod + Perf %GRAY%O %WHITE%= Repair any Item%NL%%NL%%WHITE%Shield: Indestructible%NL%Armor/Helm: Indestructible%NL%Weapon: Indestructible%NL%}
+ItemDisplay[RUNE>0]: %NAME%%ORANGE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%}
 
 //Gems Notes
-ItemDisplay[gzvs]: %NAME%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: +24 Def%NL%Armor/Helm: +8 to Strength%NL%Weapon: +100 to Attack Rating%NL%}
-ItemDisplay[glys]: %NAME%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: 28% Light Res%NL%Armor/Helm: 20% Magic Find%NL%Weapon: 1-30 Light Damage%NL%}
-ItemDisplay[glbs]: %NAME%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: 28% Cold Res%NL%Armor/Helm: +31 to Mana%NL%Weapon: 6-10 Cold Damage%NL%}
-ItemDisplay[glgs]: %NAME%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: 28% Psn Res%NL%Armor/Helm: +8 Dexterity%NL%Weapon: +60 Psn Dmg over 6 Sec%NL%}
-ItemDisplay[glrs]: %NAME%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: 28% Fire Res%NL%Armor/Helm: +31 to Life%NL%Weapon: 10-16 Fire Dmg%NL%}
-ItemDisplay[glws]: %NAME%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: All Res +14%%NL%Armor/Helm: +80 to AR%NL%Weapon: +54% Dmg vs Undead%NL%}
-ItemDisplay[skls]: %NAME%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: Attacker +16 Dmg%NL%Armor/Helm: Rep Life 4, Reg Mana 12%%NL%Weapon: 3%Life 3%Mana %NL%}
-ItemDisplay[gpvs]: %PX-70%%NAME%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: +30 Def%NL%Armor/Helm: +10 to Strength%NL%Weapon: +150 to Attack Rating%NL%}
-ItemDisplay[gpys]: %PX-70%%NAME%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: 40% Light Res%NL%Armor/Helm: 24% Magic Find%NL%Weapon: 1-40 Light Damage%NL%}
-ItemDisplay[gpbs]: %PX-70%%NAME%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: 40% Cold Res%NL%Armor/Helm: +38 to Mana%NL%Weapon: 10-14 Cold Damage%NL%}
-ItemDisplay[gpgs]: %PX-70%%NAME%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: 40% Psn Res%NL%Armor/Helm: +10 Dexterity%NL%Weapon: +100 Psn Dmg over 7 Sec%NL%}
-ItemDisplay[gprs]: %PX-70%%NAME%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: 40% Fire Res%NL%Armor/Helm: +38 to Life%NL%Weapon: 15-20 Fire Dmg%NL%}
-ItemDisplay[gpws]: %PX-70%%NAME%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: All Res +19%%NL%Armor/Helm: +100 to AR%NL%Weapon: +68% Dmg vs Undead%NL%}
-ItemDisplay[skzs]: %PX-70%%NAME%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: Attacker +20 Dmg%NL%Armor/Helm: Rep Life 5, Reg Mana 19%%NL%Weapon: 4%Life 3%Mana %NL%}
+ItemDisplay[gzvs]: %NAME%%WHITE%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: +24 Def%NL%Armor/Helm: +8 to Strength%NL%Weapon: +100 to Attack Rating%NL%}
+ItemDisplay[glys]: %NAME%%WHITE%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: 28% Light Res%NL%Armor/Helm: 20% Magic Find%NL%Weapon: 1-30 Light Damage%NL%}
+ItemDisplay[glbs]: %NAME%%WHITE%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: 28% Cold Res%NL%Armor/Helm: +31 to Mana%NL%Weapon: 6-10 Cold Damage%NL%}
+ItemDisplay[glgs]: %NAME%%WHITE%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: 28% Psn Res%NL%Armor/Helm: +8 Dexterity%NL%Weapon: +60 Psn Dmg over 6 Sec%NL%}
+ItemDisplay[glrs]: %NAME%%WHITE%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: 28% Fire Res%NL%Armor/Helm: +31 to Life%NL%Weapon: 10-16 Fire Dmg%NL%}
+ItemDisplay[glws]: %NAME%%WHITE%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: All Res +14%%NL%Armor/Helm: +80 to AR%NL%Weapon: +54% Dmg vs Undead%NL%}
+ItemDisplay[skls]: %NAME%%WHITE%{%WHITE%3xFlawless + %GRAY%Key %WHITE%= Perf%NL%%NL%%WHITE%Shield: Attacker +16 Dmg%NL%Armor/Helm: Rep Life 4, Reg Mana 12%%NL%Weapon: 3%Life 3%Mana %NL%}
+ItemDisplay[gpvs]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: +30 Def%NL%Armor/Helm: +10 to Strength%NL%Weapon: +150 to Attack Rating%NL%}
+ItemDisplay[gpys]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: 40% Light Res%NL%Armor/Helm: 24% Magic Find%NL%Weapon: 1-40 Light Damage%NL%}
+ItemDisplay[gpbs]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: 40% Cold Res%NL%Armor/Helm: +38 to Mana%NL%Weapon: 10-14 Cold Damage%NL%}
+ItemDisplay[gpgs]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: 40% Psn Res%NL%Armor/Helm: +10 Dexterity%NL%Weapon: +100 Psn Dmg over 7 Sec%NL%}
+ItemDisplay[gprs]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: 40% Fire Res%NL%Armor/Helm: +38 to Life%NL%Weapon: 15-20 Fire Dmg%NL%}
+ItemDisplay[gpws]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: All Res +19%%NL%Armor/Helm: +100 to AR%NL%Weapon: +68% Dmg vs Undead%NL%}
+ItemDisplay[skzs]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: Attacker +20 Dmg%NL%Armor/Helm: Rep Life 5, Reg Mana 19%%NL%Weapon: 4%Life 3%Mana %NL%}
 
 //----------------------------------------- TheIrateSeaGoer's Arreat Summit Details -----------------------------------------
 
@@ -3673,14 +3673,6 @@ ItemDisplay[ci1 NMAG !INF !ETH SOCK=0]: %NAME%{%DARK_GREEN%Charsi %WHITE%at leve
 ItemDisplay[ci2 NMAG !INF !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%Imbue%YELLOW%]{%DARK_GREEN%Charsi %WHITE%at level %GREEN%73+%NL%%YELLOW%Imbue %WHITE%this with%NL%%NAME%}%CONTINUE%
 ItemDisplay[ci3 NMAG !INF !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%Imbue%YELLOW%]{%DARK_GREEN%Charsi %WHITE%at %GREEN%any %WHITE%level%NL%%YELLOW%Imbue %WHITE%this with%NL%%NAME%}%CONTINUE%
 
-//----------------------------------------- Always Show These Items -----------------------------------------
-
-//Always Show These
-ItemDisplay[UNI OR SET OR RW OR CRAFT]: %NAME%{%NAME%}
-ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%{%NAME%}
-
-//----------------------------------------- Kryszard's Failsafes & Alerts -----------------------------------------
-
 //Highlight RW Bases with High DEF
 ItemDisplay[xtp !SOCK=1 !ETH !INF NMAG DEF>249]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[(uui OR uea OR ula) (SOCK=0 OR SOCK>2) !ETH !INF NMAG DEF>449]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
@@ -3692,6 +3684,23 @@ ItemDisplay[EQ2 ELT !SOCK=1 ETH !INF NMAG DEF>699]: %DOT-D6%%NAME%{%NAME%}%CONTI
 ItemDisplay[uit (SOCK=0 OR SOCK=4) !ETH !INF NMAG DEF>139]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[uit (SOCK=0 OR SOCK=4) ETH !INF NMAG DEF>209]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
 
+//----------------------------------------- Vendor Colors / Always Show These Items -----------------------------------------
+
+//Vendor Price Coloring
+ItemDisplay[UNI OR RW]: %NAME%%GOLD%%CONTINUE%
+ItemDisplay[SET]: %NAME%%GREEN%%CONTINUE%
+ItemDisplay[RARE]: %NAME%%YELLOW%%CONTINUE%
+ItemDisplay[MAG]: %NAME%%BLUE%%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) NMAG !ETH SOCK=0]: %NAME%%WHITE%%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) NMAG !RW (SOCK>0 OR ETH)]: %NAME%%GRAY%%CONTINUE%
+ItemDisplay[CRAFT]: %NAME%%ORANGE%%CONTINUE%
+
+//Always Show These
+ItemDisplay[UNI OR SET OR RW OR CRAFT]: %NAME%{%NAME%}
+ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%{%NAME%}
+
+//----------------------------------------- Kryszard's Failsafes & Alerts -----------------------------------------
+
 //Inferior Class Items (Leveling)
 ItemDisplay[(SOR OR WAND OR SCEPTER OR STAFF OR DRU OR BAR OR NEC OR (SIN !(NORM OR 9ar OR 9wb OR 9xf))) (SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0) INF SOCK=0 NMAG !RW CLVL<31]: %NAME%{%NAME%%NL%%RED%INFERIOR ITEM}
 
@@ -3699,11 +3708,12 @@ ItemDisplay[(SOR OR WAND OR SCEPTER OR STAFF OR DRU OR BAR OR NEC OR (SIN !(NORM
 ItemDisplay[(wsp OR 9ws OR 7ws) (SK100>2 OR SK125>2 OR SK108>2) NMAG !INF !SUP SOCK=0]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) SK117>2 NMAG !INF !SUP SOCK=0]: %DOT-D6%%NAME%{%NAME%}
 
-//Spirit Swords
-ItemDisplay[crs NMAG !INF !SUP SOCK=0 (ILVL>25 AND ILVL<41) CLVL<70]: %NAME% %TAN%[%DARK_GREEN%Larzuk 4soc%TAN%]{%NAME%}
-ItemDisplay[crs NMAG !INF !SUP SOCK=0 ILVL>40 CLVL<70]: %NAME% %TAN%[%DARK_GREEN%Cube 4soc%TAN%]{%NAME%}
-ItemDisplay[crs NMAG !INF !SUP SOCK=0 ILVL>40]: %NAME%{%NAME%}
-ItemDisplay[(bsd OR lsd) NMAG !INF !SUP SOCK=0 ILVL>25 CLVL<70]: %NAME% %TAN%[%DARK_GREEN%Larzuk 4soc%TAN%]{%NAME%}
+//Spirit/CTA Swords
+ItemDisplay[crs NMAG !INF !SUP SOCK=0 (ILVL>25 AND ILVL<41) CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[crs NMAG !INF !SUP SOCK=0  ILVL>40 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[crs NMAG !INF !SUP (SOCK=4 OR SOCK=5)]: %NAME%{%NAME%}
+ItemDisplay[(bsd OR lsd) NMAG !INF !SUP SOCK=0 ILVL>25 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[(bsd OR lsd) NMAG !INF !SUP SOCK=4]: %NAME%{%NAME%}
 
 //Flails
 ItemDisplay[fla NMAG !INF !SUP SOCK=0]: %NAME%{%NAME%}
@@ -4170,13 +4180,13 @@ ItemDisplay[xtp !INF NMAG (SOCK=0 OR SOCK>1)]: %NAME%{%NAME%} // Mage Plate
 ItemDisplay[9gm !INF NMAG (SOCK=0 OR SOCK>2)]: %NAME%{%NAME%} // Martel de Fer
 
 //Rare Item Failsafe
-ItemDisplay[RARE (9gm OR xsh OR xtp)]: %NAME%
-ItemDisplay[(BOW OR XBOW) RARE !ID]: %NAME%
-ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%
-ItemDisplay[RARE ETH WEAPON !(ktr OR wrb OR axf OR ces OR clw OR btl OR skr OR 9ar OR 9wb OR 9xf OR hax OR 9ha OR 7ha OR axe OR 9ax OR 7ax OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR ssd OR 9ss OR 7ss OR scm OR 9sm OR 7sm OR sbr OR 9sb OR 7sb OR flc OR 9fc OR 7fc OR dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl OR STAFF) !ID]: %NAME%
+ItemDisplay[RARE (9gm OR xsh OR xtp)]: %NAME%{%NAME%}
+ItemDisplay[(BOW OR XBOW) RARE !ID]: %NAME%{%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%{%NAME%}
+ItemDisplay[RARE ETH WEAPON !(ktr OR wrb OR axf OR ces OR clw OR btl OR skr OR 9ar OR 9wb OR 9xf OR hax OR 9ha OR 7ha OR axe OR 9ax OR 7ax OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR ssd OR 9ss OR 7ss OR scm OR 9sm OR 7sm OR sbr OR 9sb OR 7sb OR flc OR 9fc OR 7fc OR dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl OR STAFF) !ID]: %NAME%{%NAME%}
 
 //Circlets
-ItemDisplay[EQ7 (MAG OR RARE) !ID]: %NAME%
+ItemDisplay[EQ7 (MAG OR RARE) !ID]: %NAME%{%NAME%}
 ItemDisplay[EQ7 NMAG !INF !ETH SOCK=0]: %NAME%{%NAME%}
 
 //----------------------------------------- Hiding Items -----------------------------------------
