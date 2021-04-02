@@ -907,7 +907,7 @@ ItemDisplay[cm3 TABSK49>0]: %PURPLE%Shadow Disciplines %TAN%Skiller%BLUE%
 ItemDisplay[cm3 TABSK50>0]: %PURPLE%Martial Arts %TAN%Skiller%BLUE%
 
 //Note on High ILVL Grand Charms
-ItemDisplay[cm3 MAG ID ILVL>90]: %NAME%%TAN%[%GREEN%ilvl %ILVL%%TAN%]%BLUE%{%GOLD%Cube %WHITE%with 3x Perf Gem%NL%ILVL %GREEN%91+ %BLUE%Grand Charm%WHITE% Reroll:}
+ItemDisplay[cm3 MAG ID ILVL>90]: %NAME% %GRAY%[%GREEN%ilvl %ILVL%%GRAY%]%BLUE%{%GOLD%Cube %WHITE%with 3x Perf Gem%NL%ILVL %GREEN%91+ %BLUE%Grand Charm%WHITE% Reroll:}
 
 //----------------------------------------- Unique, Set, Rare, and Magic Alerts and Formatting --------------------------------------------
 
@@ -919,10 +919,10 @@ ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%WHITE%*%YELLOW%*   %N
 
 //Diablo Clone Uniques (Presumed, only partially confirmed)
 ItemDisplay[UNI !ID utb]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Mirrored Boots
-ItemDisplay[UNI !ID uth]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Kraken Shell
+ItemDisplay[UNI !ID uth]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Lacqueured Plae
 ItemDisplay[UNI !ID 7bs]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Conquest Sword
 ItemDisplay[UNI !ID 7qr]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Scissors Suwayyah
-ItemDisplay[UNI !ID uhl]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Bone Visage
+ItemDisplay[UNI !ID uhl]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Giant Conch
 
 //High-Tier Uniques
 ItemDisplay[(rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*
