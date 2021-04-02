@@ -3687,13 +3687,13 @@ ItemDisplay[uit (SOCK=0 OR SOCK=4) ETH !INF NMAG DEF>209]: %DOT-D6%%NAME%{%NAME%
 //----------------------------------------- Vendor Colors / Always Show These Items -----------------------------------------
 
 //Vendor Price Coloring
-ItemDisplay[UNI OR RW]: %NAME%%GOLD%%CONTINUE%
-ItemDisplay[SET]: %NAME%%GREEN%%CONTINUE%
-ItemDisplay[RARE]: %NAME%%YELLOW%%CONTINUE%
-ItemDisplay[MAG]: %NAME%%BLUE%%CONTINUE%
-ItemDisplay[(ARMOR OR WEAPON) NMAG !ETH SOCK=0]: %NAME%%WHITE%%CONTINUE%
-ItemDisplay[(ARMOR OR WEAPON) NMAG !RW (SOCK>0 OR ETH)]: %NAME%%GRAY%%CONTINUE%
-ItemDisplay[CRAFT]: %NAME%%ORANGE%%CONTINUE%
+ItemDisplay[UNI OR RW]: %NAME%{%NAME%}%GOLD%%CONTINUE%
+ItemDisplay[SET]: %NAME%{%NAME%}%GREEN%%CONTINUE%
+ItemDisplay[RARE]: %NAME%{%NAME%}%YELLOW%%CONTINUE%
+ItemDisplay[MAG]: %NAME%{%NAME%}%BLUE%%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) NMAG !ETH SOCK=0]: %NAME%{%NAME%}%WHITE%%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) NMAG !RW (SOCK>0 OR ETH)]: %NAME%{%NAME%}%GRAY%%CONTINUE%
+ItemDisplay[CRAFT]: %NAME%{%NAME%}%ORANGE%%CONTINUE%
 
 //Always Show These
 ItemDisplay[UNI OR SET OR RW OR CRAFT]: %NAME%{%NAME%}
