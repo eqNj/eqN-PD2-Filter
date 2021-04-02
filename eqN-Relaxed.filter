@@ -631,14 +631,14 @@ ItemDisplay[bks]: %NAME%{%TAN%Now rests Treehead Woodfist%NL%Ageless, protected 
 ItemDisplay[bkd]: %NAME%{%TAN%Find the sage Deckard Cain%NL%Behest a Demigod imp, Rakanishu%NL%A portal to Tristram awaits}
 ItemDisplay[hdm]: %NAME%{%TAN%Bestowed to the Sisters of the Sightless Eye%NL%Enchanted by ancient Horadric Mages%NL%Crafted in necessity of the Sin War} 
 ItemDisplay[tr1]: %NAME%{%TAN%Onward, the Tomb of Tal Rasha%NL%Found, the details of the binding of Baal%NL%Slain, Radament The Fallen, mummified Horadrim}
-ItemDisplay[ass]: %GOLD%Book of Skill{%GOLD%Right click to Read%NL%%TAN%Learned are those who stay awhile and listen.}
+ItemDisplay[ass]: %GOLD%Book of Skill{%GOLD%Right-click to Read%NL%%TAN%Learned are those who stay awhile and listen.}
 ItemDisplay[box]: %NAME%{%TAN%As above, so below} 
 ItemDisplay[msf]: %NAME%{%TAN%A relic of royalty, withered of dust%NL%Beneath the tunnels woven of Arthropods}
 ItemDisplay[vip]: %NAME%{%TAN%Fangskin the Salamander abides%NL%An endless eclipse, buried in scales%NL%Amidst the darkness, an amulet unworn}
 ItemDisplay[hst]: %NAME%{%TAN%The Mage Clans united%NL%In Archangel Tyrael confided%NL%The Dark Exile provided}
 ItemDisplay[j34]: %NAME%{%TAN%As shaped of Man%NL%Smelted by Lightning%NL%A stone of Music}
 ItemDisplay[g34]: %NAME%{%TAN%Death is the life After%NL%The ashes of Ku Y'leh%NL%An urn of Immortality}
-ItemDisplay[xyz]: %NAME%{%TAN%Forever is composed of nows.}
+ItemDisplay[xyz]: %GOLD%Potion of Life{%GOLD%Right-click to Drink%NL%%TAN%Forever is composed of nows.}
 ItemDisplay[g33]: %NAME%{%TAN%Lost in fervor of Zakarum%NL%Furnished by Skatsimi%NL%Point edged of Sorcery}
 ItemDisplay[bbb]: %NAME%{%TAN%Prime Evil Influences%NL%Ancient Kehjani Mysticism%NL%Within can be Known:}
 ItemDisplay[qbr]: %NAME%{%TAN%The brain is a commodity used to fertilize ideas.}
@@ -648,9 +648,10 @@ ItemDisplay[qf1]: %NAME%{%TAN%Que-Hegan of Zakarum%NL%Khalim the Uncorruptable}
 ItemDisplay[qf2]: %NAME%{%TAN%Will is to grace as the horse is to the rider.}
 ItemDisplay[mss]: %NAME%{%TAN%Doomed to Black Abyss%NL%Hatred Unbound Eminates}
 ItemDisplay[hfh]: %NAME%{%TAN%Forger of Shadowfang%NL%Legend of the Burning Hells}
-ItemDisplay[ice]: %NAME%{%TAN%What is man but a mass of thawing clay?}
-ItemDisplay[tr2]: %NAME%{%TAN%Where there is power, there is resistance.}
+ItemDisplay[ice]: %GOLD%Malah's Potion{%TAN%What is man but a mass of thawing clay?}
+ItemDisplay[tr2]: %GOLD%Scroll of Resistance{%GOLD%Right-click to Read%NL%%TAN%Where there is power, there is resistance.}
 ItemDisplay[leg]: %NAME%{%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
+ItemDisplay[toa]: %ORANGE%Token of Absolution{%GOLD%Right-click to Respec%NL%%TAN%Wherever you are is the entry point.}
 
 //Gold
 ItemDisplay[GOLD<100 CLVL<12]:
@@ -3687,13 +3688,13 @@ ItemDisplay[uit (SOCK=0 OR SOCK=4) ETH !INF NMAG DEF>209]: %DOT-D6%%NAME%{%NAME%
 //----------------------------------------- Vendor Colors / Always Show These Items -----------------------------------------
 
 //Vendor Price Coloring
-ItemDisplay[UNI OR RW]: %NAME%{%NAME%}%GOLD%%CONTINUE%
-ItemDisplay[SET]: %NAME%{%NAME%}%GREEN%%CONTINUE%
-ItemDisplay[RARE]: %NAME%{%NAME%}%YELLOW%%CONTINUE%
-ItemDisplay[MAG]: %NAME%{%NAME%}%BLUE%%CONTINUE%
-ItemDisplay[(ARMOR OR WEAPON) NMAG !ETH SOCK=0]: %NAME%{%NAME%}%WHITE%%CONTINUE%
-ItemDisplay[(ARMOR OR WEAPON) NMAG !RW (SOCK>0 OR ETH)]: %NAME%{%NAME%}%GRAY%%CONTINUE%
-ItemDisplay[CRAFT]: %NAME%{%NAME%}%ORANGE%%CONTINUE%
+ItemDisplay[UNI OR RW]: %NAME%%GOLD%{%NAME%}%CONTINUE%
+ItemDisplay[SET]: %NAME%%GREEN%{%NAME%}%CONTINUE%
+ItemDisplay[RARE]: %NAME%%YELLOW%{%NAME%}%CONTINUE%
+ItemDisplay[MAG]: %NAME%%BLUE%{%NAME%}%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) NMAG !ETH SOCK=0]: %NAME%%WHITE%{%NAME%}%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) NMAG !RW (SOCK>0 OR ETH)]: %NAME%%GRAY%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT]: %NAME%%ORANGE%{%NAME%}%CONTINUE%
 
 //Always Show These
 ItemDisplay[UNI OR SET OR RW OR CRAFT]: %NAME%{%NAME%}
@@ -4238,11 +4239,11 @@ ItemDisplay[(ame OR amd) TABSK2<3 NMAG CLVL>79]:
 ItemDisplay[(dgr OR 9dg OR dir OR 9di OR buc OR xuc) NMAG CLVL>14]: 
 ItemDisplay[(clb OR 9cl OR hax OR 9ha OR bld OR 9bl OR ssd OR 9sm OR sbr OR 9sb OR flc OR 9fc) NMAG SOCK<2 CLVL>14]:
 ItemDisplay[(7cl OR 7ha OR 7bl OR 7sc OR 7ss OR 7sm OR 7sb OR 7fc OR 7dg OR 7di) (NMAG OR (MAG !ID !ETH)) SOCK<2 CLVL>69]: 
-ItemDisplay[(WEAPON !(SOR OR WAND OR STAFF)) NMAG SOCK=2 !leg CLVL>79]: 
-ItemDisplay[WAND !(SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0) NMAG]: 
-ItemDisplay[SOR !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0) NMAG]: 
-ItemDisplay[BAR !(SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0) (NORM OR EXC) NMAG]: 
-ItemDisplay[DRU !(SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0) (NORM OR EXC) NMAG]:
+ItemDisplay[(WEAPON NMAG !(SOR OR WAND OR STAFF)) SOCK=2 !leg CLVL>79]: 
+ItemDisplay[WAND NMAG !(SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0)]: 
+ItemDisplay[SOR NMAG !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0)]: 
+ItemDisplay[BAR NMAG (NORM OR EXC) !(SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK136>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0)]: 
+ItemDisplay[DRU NMAG (NORM OR EXC) !(SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0)]:
 ItemDisplay[(7xf OR 7cs) NMAG CLVL>79]: 
 
 //Hiding MISC
