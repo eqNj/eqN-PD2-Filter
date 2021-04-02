@@ -629,8 +629,8 @@ ItemDisplay[(WEAPON OR ARMOR) NMAG !ID]: %NAME%
 //Quest Items
 ItemDisplay[bks]: %NAME%{%TAN%Now rests Treehead Woodfist%NL%Ageless, protected by Wilds%NL%Torn bark of the Sacred Tree}
 ItemDisplay[bkd]: %NAME%{%TAN%Find the sage Deckard Cain%NL%Behest a Demigod imp, Rakanishu%NL%A portal to Tristram awaits}
-ItemDisplay[hdm]: %NAME%{%TAN%Bestowed to the Sisters of the Sightless Eye%NL%Enchanted by ancient Horadric Mages%NL%Forged by necessity during the Sin War} 
-ItemDisplay[tr1]: %NAME%{%TAN%Forward is the path to Tal Rasha's Tomb%NL%Found is the details of the binding of Baal%NL%Slain is Radament The Fallen, mummified Horadrim}
+ItemDisplay[hdm]: %NAME%{%TAN%Bestowed to the Sisters of the Sightless Eye%NL%Enchanted by ancient Horadric Mages%NL%Crafted in necessity during the Sin War} 
+ItemDisplay[tr1]: %NAME%{%TAN%Forward is Tal Rasha's Tomb%NL%Found are details of the binding of Baal%NL%Slain is Radament The Fallen, mummified Horadrim}
 ItemDisplay[ass]: %GOLD%Book of Skill{%GOLD%Right click to Read%NL%%TAN%Learned are those who stay awhile and listen.}
 ItemDisplay[box]: %NAME%{%TAN%As above, so below} 
 ItemDisplay[msf]: %NAME%{%TAN%A relic of royalty, withered of dust%NL%Beneath the tunnels woven of Arthropods}
