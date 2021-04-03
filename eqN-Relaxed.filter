@@ -690,13 +690,13 @@ ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%min
 ItemDisplay[hp1 CLVL>14]: 
 
 //Utilites
-ItemDisplay[tsc CLVL<15]: %BLUE%*%GRAY%tp{%TAN%Items/Recipes shown will adjust to your needs.%NL%As you level dynamic filtering will occur.%NL%%DARK_GREEN%eqN's Note:}%CONTINUE%
-ItemDisplay[isc CLVL<15]: %RED%*%GRAY%id{%TAN%Craft Recipes, ILVL 51+%NL%Upgrade Recipes, ILVL 21+%NL%Socket Recipes, ILVL 13+%NL%%DARK_GREEN%Recipes Shown:}%CONTINUE%
+ItemDisplay[tsc CLVL<15]: %BLUE%*%GRAY%tp%WHITE%{%TAN%Items/Recipes shown will adjust to your needs.%NL%As you level dynamic filtering will occur.%NL%%DARK_GREEN%eqN's Note:}%CONTINUE%
+ItemDisplay[isc CLVL<15]: %RED%*%GRAY%id%WHITE%{%TAN%Craft Recipes, ILVL 51+%NL%Upgrade Recipes, ILVL 21+%NL%Socket Recipes, ILVL 13+%NL%%DARK_GREEN%Recipes Shown:}%CONTINUE%
 ItemDisplay[vps]: %BLACK%!%WHITE%s{%TAN%We are what we repeatedly do.}%CONTINUE%
 ItemDisplay[wms]: %YELLOW%!%WHITE%t{%TAN%whom it touches.%NL%a soft white damn%NL%The snow doesn't give}%CONTINUE%
 ItemDisplay[(tsc OR isc OR vps OR wms) CLVL>14]: {%NAME%}
-ItemDisplay[yps]: %GREEN%!%WHITE%a{%TAN%Thy drugs art quick.%NL%O true apothecary!}
-ItemDisplay[key CLVL<15]: %GRAY%key{%TAN%The key is in the craft.}
+ItemDisplay[yps]: %GREEN%!%WHITE%a{%TAN%Thy drugs art quick.%NL%O true apothecary,}
+ItemDisplay[key CLVL<15]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
 ItemDisplay[key CLVL>14]: {%TAN%The key is in the craft.}
 
 //Arrows & Bolts
