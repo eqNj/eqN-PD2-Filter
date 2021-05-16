@@ -677,11 +677,11 @@ ItemDisplay[mp4]: %BLUE%!%WHITE%m
 ItemDisplay[hp4 CLVL<70]: %RED%!%WHITE%h
 ItemDisplay[hp4 CLVL>69]: 
 ItemDisplay[mp3 CLVL<50]: %BLUE%!%WHITE%mana
-ItemDisplay[mp3 CLVL>49 DIFF>0]: 
+ItemDisplay[mp3 CLVL>49]: 
 ItemDisplay[hp3 CLVL<40]: %RED%!%WHITE%heal
 ItemDisplay[hp3 CLVL>39]: 
 ItemDisplay[mp2 CLVL<40]: %BLUE%!%WHITE%lite
-ItemDisplay[mp2 CLVL>39 DIFF>0]: 
+ItemDisplay[mp2 CLVL>39]: 
 ItemDisplay[hp2 CLVL<30]: %RED%!%WHITE%lite
 ItemDisplay[hp2 CLVL>29]: 
 ItemDisplay[mp1 CLVL<30]: %BLUE%!%WHITE%min
