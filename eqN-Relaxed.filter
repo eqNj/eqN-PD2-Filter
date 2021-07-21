@@ -1007,13 +1007,13 @@ ItemDisplay[(xea OR uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !I
 //Gloves
 ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
 //Helmets
-ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae OR dr2 OR ba6) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
+ItemDisplay[(xlm OR xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae OR dr2 OR ba6) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
 //Boots
 ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
 //Shields
 ItemDisplay[(ne6 OR nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef OR pa3) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
 //Weapons
-ItemDisplay[(7cs OR 7ws OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR obc OR 7lw OR amf OR 7wh OR 8rx OR 9bw OR am5 OR ob6 OR 9ar) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
+ItemDisplay[(9gw OR 7cs OR 7ws OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR obc OR 7lw OR amf OR 7wh OR 8rx OR 9bw OR am5 OR ob6 OR 9ar) UNI !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
 //Only Eth
 ItemDisplay[(7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ETH !ID]: %DOT-68%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*
 
@@ -1055,7 +1055,7 @@ ItemDisplay[WAND !UNI CHSK82>0]: %RED%***   %GREEN%Life Tap Charge Wand%RED%   *
 // --- // --- Craftables --- \\ --- \\
 
 //Notified
-ItemDisplay[((SCEPTER !(scp OR 9sc OR 7sc)) OR (SIN !(ces OR 9cs OR 7cs OR axf OR 9xf)) OR (am3 OR am8 OR amd OR am4 OR am9 OR ame) OR (spc OR 9sp OR 7sp)) MAG ETH !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
+ItemDisplay[(SCEPTER OR (SIN !(ces OR 9cs OR 7cs OR axf OR 9xf)) OR (am3 OR am8 OR amd OR am4 OR am9 OR ame) OR (spc OR 9sp OR 7sp)) MAG ETH !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[(8rx OR 6rx OR 8lw OR 6lw OR amc OR am7 OR am2 OR amb OR am6 OR am1) MAG !ID ILVL>74]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[(crs OR 9cr) MAG ETH !ID ILVL>50]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[(ob5 OR oba OR obf) MAG !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
@@ -3875,7 +3875,7 @@ ItemDisplay[(7wc OR 7pa OR 7s8 OR 7h7 OR 7br OR 7st) ETH !INF !SUP SOCK=0 NMAG]:
 
 //Grief/Beast/Passion
 ItemDisplay[7wa !ETH !INF !SUP SOCK=0 NMAG]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(7m7 OR 7gm OR 7ga OR 7gi OR 7bt OR 7ba) ETH !INF !SUP SOCK=0 NMAG]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(7m7 OR 7gm OR 7ga OR 7gi OR 7bt OR 7ba OR 7la) ETH !INF !SUP SOCK=0 NMAG]: %DOT-D6%%NAME%{%NAME%}
 
 //Death/Oath
 ItemDisplay[7fb ETH !INF !SUP SOCK=0 NMAG]: %DOT-D6%%NAME%{%NAME%}
@@ -3893,7 +3893,7 @@ ItemDisplay[(7ar OR 7tw OR 7qr OR 9tw) (SK275>0 OR SK276>0 OR SK278>0) ETH !INF 
 
 //Plague
 ItemDisplay[SIN !(ktr OR 9ar OR wrb OR 9wb OR ces OR 9cs OR 7cs OR axf OR 9xf OR 7xf) (SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>2 OR SK280>2) !INF !SUP SOCK=0 NMAG]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(SCEPTER !(scp OR 9sc OR 7sc)) (SK101>2 OR SK112>2 OR SK118>2 OR SK121>2) !INF !SUP SOCK=0 NMAG]: %NAME%{%NAME%}
+ItemDisplay[(SCEPTER !(scp)) (SK101>2 OR SK112>2 OR SK118>2 OR SK121>2) !INF !SUP SOCK=0 NMAG]: %NAME%{%NAME%}
 
 //Amazon Spears
 ItemDisplay[(amd OR ame) TABSK2>2 !ETH !INF !SUP SOCK=0 NMAG]: %DOT-D6%%NAME%{%NAME%}
@@ -4025,7 +4025,7 @@ ItemDisplay[7bl !INF NMAG !RW SOCK=2]: %NAME%{%NAME%}
 //Axes
 ItemDisplay[(7wa OR 72a) !ETH !INF NMAG !RW (SOCK=0 OR SOCK>3)]: %NAME%{%NAME%}
 ItemDisplay[(7wa OR 72a) ETH !INF NMAG !RW (SOCK=0 OR SOCK>3)]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(7bt OR 7ba OR 7ga OR 7gi) !INF ETH NMAG !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(7bt OR 7ba OR 7ga OR 7gi OR 7la) !INF ETH NMAG !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
 
 //Hammers
 ItemDisplay[(7m7 OR 7gm) !INF ETH NMAG !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
@@ -4035,7 +4035,7 @@ ItemDisplay[7gm !INF ETH NMAG !RW SOCK=6]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) (SK100>2 OR SK125>2 OR SK108>2) !INF !ETH NMAG !RW (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) SK117>2 NMAG !INF !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) !INF !ETH NMAG !RW SOCK=4]: %NAME%{%NAME%}
-ItemDisplay[(SCEPTER !(scp OR 9sc OR 7sc)) !INF !ETH NMAG !RW (SK101>2 OR SK112>2 OR SK118>2 OR SK121>2) !(SOCK=1)]: %NAME%{%NAME%}
+ItemDisplay[(SCEPTER !(scp)) !INF !ETH NMAG !RW (SK101>2 OR SK112>2 OR SK118>2 OR SK121>2) !(SOCK=1)]: %NAME%{%NAME%}
 
 //Swords
 ItemDisplay[crs NMAG !INF SOCK=0 (ILVL>25 AND ILVL<41) CLVL<70]: %NAME%{%NAME%}
@@ -4053,16 +4053,18 @@ ItemDisplay[WP12 !(wnd OR ywn OR 9wn) (SK67>2 OR SK74>2 OR SK94>2 OR SK75>2 OR S
 
 //Staves
 ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs OR wst OR 8ws OR 6ws) SK58>2 NMAG !RW (SOCK=0 OR SOCK=4 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(6cs OR 6bs OR 6ws) (SK48>2 OR SK49>2 OR SK38>2 OR SK53>2 OR SK57>2 OR SK63>2) NMAG !RW (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(6cs OR 6bs OR 6ws) (SK44>2 OR SK64>2 OR SK65>2) NMAG !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
 
 //Polearms/Spears/Amazon Spears
-ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7 OR 7tr OR 7br OR 7st OR 7p7) ETH NMAG !INF !RW SOCK>2]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7 OR 7tr OR 7br OR 7st OR 7p7 OR 7o7) ETH NMAG !INF !RW SOCK>2]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(7p7 OR 7h7) ETH NMAG !INF !RW SOCK=6]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(amd OR ame) TABSK2>2 !INF NMAG !RW (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%}
 
 //Claws
-ItemDisplay[(7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF ETH NMAG !RW (SOCK=0 OR SOCK=3)]: %NAME%{%NAME%}
-ItemDisplay[(7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9tw OR 9lw) (SK275>0 OR SK276>0 OR SK278>0) !INF ETH NMAG !RW (SOCK=0 OR SOCK=3)]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[SIN !(ktr OR 9ar OR wrb OR 9wb OR ces OR 9cs OR 7cs OR axf OR 9xf OR 7xf) (SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>2 OR SK280>2) !INF NMAG !RW (SOCK=0 OR SOCK=3)]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[((SIN ELT) OR 9tw OR 9lw) !INF ETH NMAG !RW (SOCK=0 OR SOCK=3)]: %NAME%{%NAME%}
+ItemDisplay[((SIN ELT) OR 9tw OR 9lw) (SK275>0 OR SK276>0 OR SK278>0) !INF ETH NMAG !RW (SOCK=0 OR SOCK=3)]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[SIN !(ktr OR wrb OR axf OR ces) (SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>2 OR SK280>2) !INF NMAG !RW (SOCK=0 OR SOCK=3)]: %DOT-D6%%NAME%{%NAME%}
 
 //----------------------------------------- Class Specific Failsafes -----------------------------------------
 
@@ -4296,7 +4298,7 @@ ItemDisplay[NMAG !INF !RW SK96>2 SCEPTER]: %NAME%{%NAME%} // Sacrifice
 
 //General Class Item Failsafe
 ItemDisplay[(SOR OR WAND OR SCEPTER OR STAFF OR DRU OR BAR OR NEC OR SIN) NMAG]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[(SOR OR WAND OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR (DRU !ETH) OR (spc OR 9sp OR 7sp) OR (BAR !ETH) OR (NEC !ETH) OR (SIN !(ces OR 9cs OR 7cs OR axf OR 9xf OR 7xf)) OR (SCEPTER !(scp OR 9sc OR 7sc))) MAG !ID]: %NAME%{%NAME%}
+ItemDisplay[(SOR OR WAND OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR (DRU !ETH) OR (spc OR 9sp OR 7sp) OR (BAR !ETH) OR (NEC !ETH) OR (SIN !(ces OR 9cs OR 7cs OR axf OR 9xf OR 7xf)) OR (SCEPTER !(scp))) MAG !ID]: %NAME%{%NAME%}
 ItemDisplay[(SOR OR WAND OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR DRU OR (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) OR BAR OR NEC OR SIN OR STAFF OR SCEPTER) RARE !ID]: %NAME%{%NAME%}
 
 //Specific Class Item Failsafe
