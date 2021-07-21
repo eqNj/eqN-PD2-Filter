@@ -28,7 +28,6 @@ This filter doesn't try to make all the decisions for you. You will see things t
 
 All non-magic (white) items with a relevant amount of plus skills that drop will show those skills in their name, making them easily identifiable at a glance.
 
-<<<<<<< HEAD
 ![Arreat Summit](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Arreat.jpg)
 
 All armor pieces of any kind will always show their base defense ranges to allow you to know if the item has a "good roll" in this way.
@@ -81,7 +80,6 @@ Only certain unique and set items will notify on drop (at my discretion, using K
 
 # Changelog:
 
-=======
 All armor pieces of any kind will always show their base defense ranges to allow you to know if the item has a "good roll" in this way.
 
 All unsocketed, but socketable, items of any kind will show their potential maximum sockets, accounting for item level. 
@@ -132,7 +130,6 @@ Only certain unique and set items will notify on drop (at my discretion, using K
 
 # Changelog:
 
->>>>>>> e28ec543a0f0203cb17955282cdacbbed3b14531
 ## 1.0.0 - (Season 1)
 
 Replaced the word 'Superior' on superior items with an orange + sign at the front of item names.
@@ -235,8 +232,4 @@ Made it so "Base Defense: X-X" and "Max Sockets: X" are now on seperate lines in
 
 Tidied up and added all new/changed runewords to applicable socketed item types.
 
-<<<<<<< HEAD
 Narrowed down some parameters to show non-magic staves at higher levels now due to staves now having a scaling implicit cast speed bonus based upon tier.
-=======
-Narrowed down some parameters to show non-magic staves at higher levels now due to staves now having a scaling implicit cast speed bonus based upon tier.
->>>>>>> e28ec543a0f0203cb17955282cdacbbed3b14531
