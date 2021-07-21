@@ -1,6 +1,6 @@
 # Hello! Stay awhile and listen.
 
-![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Ground%20Loot.jpg)
+![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Loot.jpg)
 
 You can find my loot filter either here or on the official Project Diablo 2 game launcher.
 
