@@ -28,8 +28,6 @@ This filter doesn't try to make all the decisions for you. You will see things t
 
 All non-magic (white) items with a relevant amount of plus skills that drop will show those skills in their name, making them easily identifiable at a glance.
 
-![Arreat Summit](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Arreat.jpg)
-
 All armor pieces of any kind will always show their base defense ranges to allow you to know if the item has a "good roll" in this way.
 
 All unsocketed, but socketable, items of any kind will show their potential maximum sockets, accounting for item level. 
