@@ -78,56 +78,6 @@ Only certain unique and set items will notify on drop (at my discretion, using K
 
 # Changelog:
 
-All armor pieces of any kind will always show their base defense ranges to allow you to know if the item has a "good roll" in this way.
-
-All unsocketed, but socketable, items of any kind will show their potential maximum sockets, accounting for item level. 
-
-If an item is non-magic it will show its maximum potential sockets possible through both Larzuk quest or Cube socket recipe. 
-
-If an item is rare, crafted, set, or unique it will show its maximum potential sockets through corruption specifically. 
-
-Once an item is either corrupted or socketed in any fashion the maximum potential socket information will be removed from the item's description.
-
-![Crafting Ring](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Crafting.jpg)
-
-All items will show any recipes possible, as applicable. They will use a color-coded sysbol (@) matching their respective perfect gem color within the recipe, as seen above.
-
-These recipes will show up once relevant as your character progresses, to help ease new players into this information. I.E.: Non-magic items will show their socketing recipe, if not of superior quality. Magic items will show all possible crafting recipes. Rare, crafted, set, and unique items will show possible upgrade recipes if any are available.
-
-Specifically, socketing recipes will show at item level 21+ (or earlier on any +3 skills items). Upgrading recipes will show at item level 13+. Crafting recipes will show at item level 51+ (as a resulting craft item level of 51 is when you can guarantee at least 3 mods).
-
-![Upgrade Boots](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Upgrade.jpg)
-
-All elite tier items are set to show, even after level 80, with only small exceptions for either some class items that are of low plus skill values or unideal weapons with a maximum of 2 sockets or less. 
-
-Rares of all tiers will still show at all levels. This includes all class items (wands, orbs, helms, scepters/maces, staves, claws) and any rare bows or crossbows of all tiers aswell.
-
-Select ethereal and/or magic items from all tiers, those that are best for crafting, will continue to show, and they will be indicated by two gray asterisks, one on each side. High item level magic amulets will show an orange [C] next to them, and once identified will show the exact level best for crafting them to ensure +2 skills rolls are possible.
-
-Four socket, ethereal polearm/spear weapons of all tiers, for use with the Insight Rune Word on lower level characters, will show at all levels.
-
-Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed), as well as any elite class items that could be used for Rune Words.
-
-Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items.
-
-Read the "Changelog" further below for more details on the filter's features.
-
-### Relaxed / Strict Differences
-
-The Strict filter has the following changes:
-
-Normal and exceptional rare items are hidden, with exceptions for: Gloves, boots, and belts. Sought after ethereal weapons. Bows. Grim shields. Mage plates. Circlets. Class items.
-
-Normal and exceptional etheral 4 socket polearms and spears for low level mercs are hidden.
-
-Non-magic class items with 1 socket are always hidden, even with +3 skills.
-
-Non-magic elite items are hidden, unless specifically valuable for use with certain runewords (at my discretion, using Kryszard's filter as a baseline) or +3 to a sought after skill.
-
-Only certain unique and set items will notify on drop (at my discretion, using Kryszard's filter as a baseline).
-
-# Changelog:
-
 ## 1.0.0 - (Season 1)
 
 Replaced the word 'Superior' on superior items with an orange + sign at the front of item names.
