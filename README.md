@@ -68,13 +68,13 @@ The Strict filter has the following changes:
 
 Normal and exceptional rare items are hidden, with exceptions for: Gloves, boots, and belts. Sought after ethereal weapons. Bows. Grim shields. Mage plates. Circlets. Class items.
 
-Normal and exceptional etheral 4 socket polearms and spears for low level mercs are hidden.
+Nour socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden.
 
 Non-magic class items with 1 socket are always hidden, even with +3 skills.
 
 Non-magic elite items are hidden, unless specifically valuable for use with certain runewords (at my discretion, using Kryszard's filter as a baseline) or +3 to a sought after skill.
 
-Only certain unique and set items will notify on drop (at my discretion, using Kryszard's filter as a baseline).
+Only high/mid-tier unique and set items will notify on drop (at my discretion, using Kryszard's filter as a baseline).
 
 # Changelog:
 
