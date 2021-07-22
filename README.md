@@ -28,11 +28,11 @@ This filter doesn't try to make all the decisions for you. You will see things t
 
 All non-magic (white) items with a relevant amount of plus skills that drop will show those skills in their name, making them easily identifiable at a glance.
 
-All armor pieces of any kind will always show their base defense ranges to allow you to know if the item has a "good roll" in this way.
+All armor pieces of any kind will always show their base defense ranges (in their description) to allow you to know if the item has a "good roll" in this way.
 
-All unsocketed, but socketable, items of any kind will show their potential maximum sockets, accounting for item level. 
+All unsocketed, but socketable, items of any kind will show their potential maximum sockets (in their description), accounting for item level. 
 
-If an item is non-magic it will show its maximum potential sockets possible through both Larzuk quest or Cube socket recipe. 
+If an item is non-magic it will show its maximum potential sockets possible through the Larzuk quest or Cube socket recipe. 
 
 If an item is rare, crafted, set, or unique it will show its maximum potential sockets through corruption specifically. 
 
