@@ -2333,7 +2333,7 @@ ItemDisplay[9kr ILVL<26 NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 2}%CONTINUE%//
 ItemDisplay[9kr ILVL>25 NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[9bl NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 2}%CONTINUE%//
 ItemDisplay[9cl NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
-ItemDisplay[9sp NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 2}%CONTINUE%//
+ItemDisplay[9sp NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[9ma NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[9mt NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[9fl ILVL<26 NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
@@ -2498,7 +2498,7 @@ ItemDisplay[7kr ILVL<26 NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 2}%CONTINUE%//
 ItemDisplay[7kr ILVL>25 NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[7bl NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 2}%CONTINUE%//
 ItemDisplay[7cl NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
-ItemDisplay[7sp NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 2}%CONTINUE%//
+ItemDisplay[7sp NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[7ma NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[7mt NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[7fl ILVL<26 NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
@@ -3125,7 +3125,7 @@ ItemDisplay[9kr ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%
 ItemDisplay[9kr ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[9bl (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 2}%CONTINUE%//
 ItemDisplay[9cl (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
-ItemDisplay[9sp (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 2}%CONTINUE%//
+ItemDisplay[9sp (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[9ma (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[9mt (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[9fl ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
@@ -3290,7 +3290,7 @@ ItemDisplay[7kr ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%
 ItemDisplay[7kr ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[7bl (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 2}%CONTINUE%//
 ItemDisplay[7cl (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
-ItemDisplay[7sp (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 2}%CONTINUE%//
+ItemDisplay[7sp (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[7ma (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[7mt (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[7fl ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
