@@ -2,7 +2,7 @@
 
 ![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Loot.jpg)
 
-You can find my loot filters either here or on the official Project Diablo 2 game launcher.
+You can find my loot filter(s) either here or on the Project Diablo 2 game launcher.
 
 If you would like to contact me, find me in the offical PD2 Discord with the name eqN.
 
@@ -20,7 +20,9 @@ This filter is for those of us used to life without one. Those of us who like qu
 
 Solo players, hardcore players, or simply those seeking out less commonly used items for specialty builds may find this filter most useful compared to others. This filter will show you if anything usable, even into the late game, would drop for any class. Period. 
 
-This filter doesn't try to make all the decisions for you. You will see things that you may or may not be inclined to pick up, but it is always reasonable why you're seeing these items. My philosophy, and play style, has always been that you should be allowed to decide what items are worth picking up for yourself. Knowledge is power.
+This filter doesn't try to make all the decisions for you. You will see things that you may or may not be inclined to pick up, but it is always reasonable why you're seeing these items. 
+
+My philosophy, and playstyle, have always been that you should be allowed to decide what items are worth picking up for yourself. Knowledge is power.
 
 ## Features -
 
@@ -40,7 +42,7 @@ Once an item is either corrupted or socketed in any fashion the maximum potentia
 
 ![Crafting Ring](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Crafting.jpg)
 
-All items will show any recipes possible, as applicable. They will use a color-coded sysbol (@) matching their respective perfect gem color within the recipe, as seen above.
+All items will show any recipes possible, as applicable. They will use a color-coded symbol (@) matching their respective perfect gem color within the recipe, as seen above.
 
 These recipes will show up once relevant as your character progresses, to help ease new players into this information. I.E.: Non-magic items will show their socketing recipe, if not of superior quality. Magic items will show all possible crafting recipes. Rare, crafted, set, and unique items will show possible upgrade recipes if any are available.
 
@@ -156,11 +158,11 @@ Made it so ALL rares will now show, regardless of tier, at ALL levels.
 
 If this is deemed excessive I will cut it down to how it was previously (showing select ethereal rare weapons and/or ideal rare armors).
 
-Changed the Perfect Gem icon from "O" to "@" to help further distinquish it.
+Changed the Perfect Gem icon from "O" to "@" to help further distinguish it.
 
-Changed the Flawless Gem icon from "O" to "*" to help further distinquish it.
+Changed the Flawless Gem icon from "O" to "*" to help further distinguish it.
 
-Change the Gem icon for all gems of lower tiers from "*" to ":" to further distinquish them.
+Change the Gem icon for all gems of lower tiers from "*" to ":" to further distinguish them.
 
 Made it so Large Charms (just as Small and Grand did priorly) will now notify on drop.
 
@@ -176,7 +178,7 @@ Added the new Pandemonium Tailsman.
 
 Some jewels that are good for LLD (Low Level Dueling) will indicate such once identified.
 
-Made it so "Base Defense: X-X" and "Max Sockets: X" are now on seperate lines in item descriptions.
+Made it so "Base Defense: X-X" and "Max Sockets: X" are now on separate lines in item descriptions.
 
 Tidied up and added all new/changed runewords to applicable socketed item types.
 
