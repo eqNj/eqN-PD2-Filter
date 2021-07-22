@@ -32,6 +32,8 @@ All non-magic (white) items with a relevant amount of plus skills that drop will
 
 All armor pieces of any kind will always show their base defense ranges (in their description) to allow you to know if the item has a "good roll" in this way.
 
+![Socketable](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Sockets.jpg)
+
 All unsocketed, but socketable, items of any kind will show their potential maximum sockets (in their description), accounting for item level. 
 
 If an item is non-magic it will show its maximum potential sockets possible through the Larzuk quest or Cube socket recipe. 
