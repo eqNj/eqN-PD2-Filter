@@ -8,11 +8,9 @@ If you would like to contact me, find me in the offical PD2 Discord with the nam
 
 There is both a Relaxed (Default) and Strict version of my filter. The differences are subtle and described below at the end of the features section. 
 
-Originally, this was a remastered version of Kryszard's Project Diablo 2 loot filter. Now, due to many formatting changes and differences in aesthetics it is mostly all its own. I do want to give a big thanks to him for his awesome work on his filter though! 
+Originally, this was a remastered version of Kryszard's Project Diablo 2 loot filter from Season 1. Now, due to many differences this filter is all its own. I do want to give a big thanks to him for his awesome work on his filter though! 
 
-For those familiar, I have kept many of the core features of Kryszard's filter intact and added several Quality of Life features.
-
-The same high value items that were set to alert you on drop with Kryszard's filter will do so still with similar alerts, as well as some refinements of my own.
+For those familiar, I have kept many of the original core features of Kryszard's filter intact and added several Quality of Life features of my own.
 
 This filter is generally less strict than other filters available but still focused. It is especially focused on optimizations as you level and slightly more lenient in the end game by comparison.
 
