@@ -68,7 +68,7 @@ Read the "Changelog" further below for more details on the filter's features.
 
 ### Relaxed / Strict Differences
 
-The Strict filter has the following changes:
+The Strict filter has the following changes (After character level 75):
 
 Normal and exceptional rare items are hidden, with exceptions for: Gloves, boots, and belts. Sought after ethereal weapons. Bows. Grim shields. Mage plates. Circlets. Class items.
 
