@@ -2,6 +2,8 @@
 
 ![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Loot.jpg)
 
+This filter is up-to-date for Season 3 of Project Diablo 2!
+
 You can find my loot filter(s) either here or on the Project Diablo 2 game launcher.
 
 If you would like to contact me, find me in the offical PD2 Discord with the name eqN.
