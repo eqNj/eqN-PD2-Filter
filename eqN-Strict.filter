@@ -4071,43 +4071,43 @@ ItemDisplay[SIN !(ktr OR wrb OR axf OR ces) (SK254>2 OR SK255>2 OR SK259>2 OR SK
 // --- // --- Sorceress --- \\ --- \\
 
 // --- Cold
-//ItemDisplay[NMAG !INF !RW SK39>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Ice Bolt
-ItemDisplay[NMAG !INF !RW SK40>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Enchant Cold
-ItemDisplay[NMAG !INF !RW SK44>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Frost Nova
-//ItemDisplay[NMAG !INF !RW SK45>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Ice Blast
-//ItemDisplay[NMAG !INF !RW SK50>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Shiver Armor
-//ItemDisplay[NMAG !INF !RW SK55>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Glacial Spike
-ItemDisplay[NMAG !INF !RW SK59>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Blizzard
-//ItemDisplay[NMAG !INF !RW SK60>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Chilling Armor
-ItemDisplay[NMAG !INF !RW SK369>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Ice Barrage
-ItemDisplay[NMAG !INF !RW SK64>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Frozen Orb
-ItemDisplay[NMAG !INF !RW SK65>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Cold Mastery
+//ItemDisplay[NMAG !INF !RW SK39>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Ice Bolt
+ItemDisplay[NMAG !INF !RW SK40>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Enchant Cold
+ItemDisplay[NMAG !INF !RW SK44>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Frost Nova
+//ItemDisplay[NMAG !INF !RW SK45>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Ice Blast
+//ItemDisplay[NMAG !INF !RW SK50>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Shiver Armor
+//ItemDisplay[NMAG !INF !RW SK55>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Glacial Spike
+ItemDisplay[NMAG !INF !RW SK59>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Blizzard
+//ItemDisplay[NMAG !INF !RW SK60>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Chilling Armor
+ItemDisplay[NMAG !INF !RW SK369>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Ice Barrage
+ItemDisplay[NMAG !INF !RW SK64>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Frozen Orb
+ItemDisplay[NMAG !INF !RW SK65>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Cold Mastery
 
 // --- Lightning
-ItemDisplay[NMAG !INF !RW SK38>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Charged Bolt
-ItemDisplay[NMAG !INF !RW SK43>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Telekinesis
-//ItemDisplay[NMAG !INF !RW SK42>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Static Field
-ItemDisplay[NMAG !INF !RW SK49>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Lightning
-ItemDisplay[NMAG !INF !RW SK48>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Nova
-ItemDisplay[NMAG !INF !RW SK53>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Chain Lightning
-//ItemDisplay[NMAG !INF !RW SK54>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Teleport
-ItemDisplay[NMAG !INF !RW SK57>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Thunder Storm
-//ItemDisplay[NMAG !INF !RW SK58>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Energy Shield
-ItemDisplay[NMAG !INF !RW SK63>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Lightning Mastery
+ItemDisplay[NMAG !INF !RW SK38>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Charged Bolt
+ItemDisplay[NMAG !INF !RW SK43>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Telekinesis
+//ItemDisplay[NMAG !INF !RW SK42>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Static Field
+ItemDisplay[NMAG !INF !RW SK49>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Lightning
+ItemDisplay[NMAG !INF !RW SK48>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Nova
+ItemDisplay[NMAG !INF !RW SK53>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Chain Lightning
+//ItemDisplay[NMAG !INF !RW SK54>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Teleport
+ItemDisplay[NMAG !INF !RW SK57>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Thunder Storm
+//ItemDisplay[NMAG !INF !RW SK58>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Energy Shield
+ItemDisplay[NMAG !INF !RW SK63>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Lightning Mastery
 
 // --- Fire
-//ItemDisplay[NMAG !INF !RW SK36>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Fire Bolt
-//ItemDisplay[NMAG !INF !RW SK37>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Warmth
-//ItemDisplay[NMAG !INF !RW SK41>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Inferno
-//ItemDisplay[NMAG !INF !RW SK46>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Blaze
-ItemDisplay[NMAG !INF !RW SK47>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Fireball
-ItemDisplay[NMAG !INF !RW SK383>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Lesser Hydra
-ItemDisplay[NMAG !INF !RW SK51>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Fire Wall
-ItemDisplay[NMAG !INF !RW SK52>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Enchant Fire
-ItemDisplay[NMAG !INF !RW SK56>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Meteor
-ItemDisplay[NMAG !INF !RW SK61>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Fire Mastery
-ItemDisplay[NMAG !INF !RW SK62>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Hydra
-ItemDisplay[NMAG !INF !RW SK376>2 (SOR OR (STAFF ELT)) !(SOCK=1)]: %NAME%{%NAME%} // Combustion
+//ItemDisplay[NMAG !INF !RW SK36>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Fire Bolt
+//ItemDisplay[NMAG !INF !RW SK37>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Warmth
+//ItemDisplay[NMAG !INF !RW SK41>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Inferno
+//ItemDisplay[NMAG !INF !RW SK46>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Blaze
+ItemDisplay[NMAG !INF !RW SK47>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Fireball
+ItemDisplay[NMAG !INF !RW SK383>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Lesser Hydra
+ItemDisplay[NMAG !INF !RW SK51>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Fire Wall
+ItemDisplay[NMAG !INF !RW SK52>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Enchant Fire
+ItemDisplay[NMAG !INF !RW SK56>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Meteor
+ItemDisplay[NMAG !INF !RW SK61>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Fire Mastery
+ItemDisplay[NMAG !INF !RW SK62>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Hydra
+ItemDisplay[NMAG !INF !RW SK376>2 (SOR OR (STAFF (ELT OR EXC))) !(SOCK=1)]: %NAME%{%NAME%} // Combustion
 
 // --- // --- Necromancer --- \\ --- \\
 
