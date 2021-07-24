@@ -692,10 +692,11 @@ ItemDisplay[hp1 CLVL>14]:
 
 //Utilites
 ItemDisplay[tsc CLVL<15]: %BLUE%*%GRAY%tp%WHITE%{%TAN%Items/Recipes shown will adjust to your needs.%NL%As you level dynamic filtering will occur.%NL%%DARK_GREEN%eqN's Note:}%CONTINUE%
+ItemDisplay[tsc CLVL>14]: {%RED%Warning%WHITE%: Destroys removed items.%NL%%NL%Socketed Item + %BLUE%*%GRAY%tp %WHITE%scroll + %ORANGE%Hel%NL%%Un-socketing Recipe:}
 ItemDisplay[isc CLVL<15]: %RED%*%GRAY%id%WHITE%{%TAN%Craft Recipes, ILVL 51+%NL%Socket Recipes, ILVL 21+%NL%Upgrade Recipes, ILVL 13+%NL%%DARK_GREEN%Recipes Shown:}%CONTINUE%
 ItemDisplay[vps]: %BLACK%!%WHITE%s{%TAN%We are what we repeatedly do.}%CONTINUE%
 ItemDisplay[wms]: %YELLOW%!%WHITE%t{%TAN%whom it touches.%NL%a soft white damn%NL%The snow doesn't give}%CONTINUE%
-ItemDisplay[(tsc OR isc OR vps OR wms) CLVL>14]: {%NAME%}
+ItemDisplay[isc OR vps OR wms) CLVL>14]: {%NAME%}
 ItemDisplay[yps]: %GREEN%!%WHITE%a{%TAN%Thy drugs art quick.%NL%O true apothecary,}
 ItemDisplay[key CLVL<15]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
 ItemDisplay[key CLVL>14]: {%TAN%The key is in the craft.}
@@ -4054,7 +4055,6 @@ ItemDisplay[(8cs OR 8bs OR 8ws) (SK48>2 OR SK49>2 OR SK38>2 OR SK53>2 OR SK57>2 
 ItemDisplay[(8ws OR 6ws) ((SK44>2 OR SK64>2 OR SK65>2 OR SK59>2 OR SK369>2) OR ((SK44>1 OR SK64>1 OR SK59>1 OR SK369>1) AND SK65>0)) NMAG !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[wst ((SK44>2 OR SK64>2 OR SK65>2 OR SK59>2 OR SK369>2) OR ((SK44>1 OR SK64>1 OR SK59>1 OR SK369>1) AND SK65>0)) NMAG !RW (SOCK=0 OR SOCK=5)]: %NAME%{%NAME%}
 ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs OR wst OR 8ws OR 6ws) (SK58>2 OR (SK58>0 AND SK50>0)) NMAG !RW (SOCK=0 OR SOCK=4 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs OR wst OR 8ws OR 6ws) SK58>1 NMAG !RW (SOCK=0 OR SOCK=4 OR SOCK=5)]: %NAME%{%NAME%}
 
 //Polearms/Spears/Amazon Spears
 ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7 OR 7tr OR 7br OR 7st OR 7p7 OR 7o7) ETH NMAG !INF !RW SOCK>2]: %DOT-D6%%NAME%{%NAME%}
