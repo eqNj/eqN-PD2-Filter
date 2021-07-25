@@ -692,7 +692,7 @@ ItemDisplay[hp1 CLVL>14]:
 
 //Utilites
 ItemDisplay[tsc CLVL<15]: %BLUE%*%GRAY%tp%WHITE%{%TAN%Items/Recipes shown will adjust to your needs.%NL%As you level dynamic filtering will occur.%NL%%DARK_GREEN%eqN's Note:}%CONTINUE%
-ItemDisplay[tsc CLVL>14]: {%RED%Warning%WHITE%: Destroys removed items.%NL%%NL%Socketed Item + %BLUE%*%GRAY%TP %WHITE%Scroll + %ORANGE%Hel%NL%%WHITE%Un-socketing Recipe:}
+ItemDisplay[tsc CLVL>14]: {%RED%Warning%WHITE%: Destroys removed gems/runes.%NL%%NL%Socketed Item + %BLUE%*TP %WHITE%Scroll + %ORANGE%Hel%NL%%WHITE%Un-socketing Recipe:}
 ItemDisplay[isc CLVL<15]: %RED%*%GRAY%id%WHITE%{%TAN%Craft Recipes, ILVL 51+%NL%Socket Recipes, ILVL 21+%NL%Upgrade Recipes, ILVL 13+%NL%%DARK_GREEN%Recipes Shown:}%CONTINUE%
 ItemDisplay[vps]: %BLACK%!%WHITE%s{%TAN%We are what we repeatedly do.}%CONTINUE%
 ItemDisplay[wms]: %YELLOW%!%WHITE%t{%TAN%whom it touches.%NL%a soft white damn%NL%The snow doesn't give}%CONTINUE%
@@ -3701,25 +3701,25 @@ ItemDisplay[uar NMAG SOCK=3]:%NAME%{%TAN%Def: 487-600}%CONTINUE%//
 
 //----------------------------------------- Notes For Upgrading Items -----------------------------------------
 
-//All but Throwing or Sock >0 Weapons
+//All but Throwing, Sockets >0, or Non-Corrupt Weapons
 ItemDisplay[ARMOR NORM RARE ID ILVL>12]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ral + Thul %WHITE%+ %PURPLE%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
 ItemDisplay[ARMOR EXC RARE ID ILVL>12]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ko + Pul %WHITE%+ %PURPLE%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM RARE ID ILVL>12]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ort + Amn %WHITE%+ %BLUE%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC RARE ID ILVL>12]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Fal + Um %WHITE%+ %BLUE%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM RARE ID ILVL>12 STAT360=0]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ort + Amn %WHITE%+ %BLUE%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC RARE ID ILVL>12 STAT360=0]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Fal + Um %WHITE%+ %BLUE%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
 ItemDisplay[ARMOR NORM CRAFT ID ILVL>12]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ral + Thul %WHITE%+ %PURPLE%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
 ItemDisplay[ARMOR EXC CRAFT ID ILVL>12]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ko + Pul %WHITE%+ %PURPLE%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM CRAFT ID ILVL>12]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ort + Amn %WHITE%+ %BLUE%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC CRAFT ID ILVL>12]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Fal + Um %WHITE%+ %BLUE%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM CRAFT ID ILVL>12 STAT360=0]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ort + Amn %WHITE%+ %BLUE%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC CRAFT ID ILVL>12 STAT360=0]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Fal + Um %WHITE%+ %BLUE%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
 ItemDisplay[ARMOR NORM UNI ID ILVL>12]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Tal + Shael %WHITE%+ @%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
 ItemDisplay[ARMOR EXC UNI ID ILVL>12]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ko + Lem %WHITE%+ @%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM UNI ID ILVL>12]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ral + Sol %WHITE%+ %GREEN%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC UNI ID ILVL>12]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Lum + Pul %WHITE%+ %GREEN%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM UNI ID ILVL>12 STAT360=0]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ral + Sol %WHITE%+ %GREEN%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC UNI ID ILVL>12 STAT360=0]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Lum + Pul %WHITE%+ %GREEN%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
 ItemDisplay[ARMOR NORM SET ID ILVL>12]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Tal + Shael %WHITE%+ @%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
 ItemDisplay[ARMOR EXC SET ID ILVL>12]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ko + Lem %WHITE%+ @%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM SET ID ILVL>12]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ral + Sol %WHITE%+ %GREEN%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
-ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC SET ID ILVL>12]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Lum + Pul %WHITE%+ %GREEN%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) NORM SET ID ILVL>12 STAT360=0]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ral + Sol %WHITE%+ %GREEN%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
+ItemDisplay[((WEAPON SOCK=0) AND !THROWING) EXC SET ID ILVL>12 STAT360=0]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Lum + Pul %WHITE%+ %GREEN%@%NL%%WHITE%Upgrade Recipe:%NL%%NAME%}%CONTINUE%
 
-//Throwing
+//Throwing and Sockets >0 Weapons
 ItemDisplay[((WEAPON SOCK>0) OR THROWING) NORM RARE ID ILVL>12]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ort + Amn %WHITE%+ %BLUE%@%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
 ItemDisplay[((WEAPON SOCK>0) OR THROWING) EXC RARE ID ILVL>12]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Fal + Um %WHITE%+ %BLUE%@%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
 ItemDisplay[((WEAPON SOCK>0) OR THROWING) NORM CRAFT ID ILVL>12]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ort + Amn %WHITE%+ %BLUE%@%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
@@ -3728,6 +3728,16 @@ ItemDisplay[((WEAPON SOCK>0) OR THROWING) NORM UNI ID ILVL>12]: %NAME%{%GOLD%Thi
 ItemDisplay[((WEAPON SOCK>0) OR THROWING) EXC UNI ID ILVL>12]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Lum + Pul %WHITE%+ %GREEN%@%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
 ItemDisplay[((WEAPON SOCK>0) OR THROWING) NORM SET ID ILVL>12]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ral + Sol %WHITE%+ %GREEN%@%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
 ItemDisplay[((WEAPON SOCK>0) OR THROWING) EXC SET ID ILVL>12]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Lum + Pul %WHITE%+ %GREEN%@%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
+
+//Corrupted Weapons
+ItemDisplay[(WEAPON SOCK=0) NORM RARE ID ILVL>12 STAT360>0]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Ort + Amn %WHITE%+ %BLUE%@%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
+ItemDisplay[(WEAPON SOCK=0) EXC RARE ID ILVL>12 STAT360>0]: %NAME%{%YELLOW%This Item %WHITE%+ %ORANGE%Fal + Um %WHITE%+ %BLUE%@%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
+ItemDisplay[(WEAPON SOCK=0) NORM CRAFT ID ILVL>12 STAT360>0]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Ort + Amn %WHITE%+ %BLUE%@%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
+ItemDisplay[(WEAPON SOCK=0) EXC CRAFT ID ILVL>12 STAT360>0]: %NAME%{%ORANGE%This Item %WHITE%+ %ORANGE%Fal + Um %WHITE%+ %BLUE%@%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
+ItemDisplay[(WEAPON SOCK=0) NORM UNI ID ILVL>12 STAT360>0]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Ral + Sol %WHITE%+ %GREEN%@%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
+ItemDisplay[(WEAPON SOCK=0) EXC UNI ID ILVL>12 STAT360>0]: %NAME%{%GOLD%This Item %WHITE%+ %ORANGE%Lum + Pul %WHITE%+ %GREEN%@%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
+ItemDisplay[(WEAPON SOCK=0) NORM SET ID ILVL>12 STAT360>0]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ral + Sol %WHITE%+ %GREEN%@%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
+ItemDisplay[(WEAPON SOCK=0) EXC SET ID ILVL>12 STAT360>0]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Lum + Pul %WHITE%+ %GREEN%@%NL%%WHITE%Upgrade Recipe:}%CONTINUE%
 
 //----------------------------------------- Notes about Rune Words and Socketing -----------------------------------------
 
