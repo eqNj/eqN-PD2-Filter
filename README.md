@@ -80,7 +80,7 @@ Normal and exceptional magic class items will are hidden unless specifically gre
 
 Normal and exceptional rare items are hidden, with exceptions for: Gloves, boots, belts, helms, ethereal weapons, bows, grim shields, mage plates, circlets, and all class items.
 
-Only high/mid-tier unique and set items will notify on drop (at my discretion, using Kryszard's filter as a baseline).
+Only high/mid-tier unique and set items will notify on drop (at my discretion, using Kryszard's filter as a baseline), but will still always show.
 
 # Changelog:
 
