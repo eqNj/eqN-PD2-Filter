@@ -68,19 +68,19 @@ Read the "Changelog" further below for more details on the filter's features.
 
 ## Relaxed / Strict Filter Differences
 
-The Strict filter has the following changes (After character level 75):
+The Strict filter has the following changes (after character level 75):
 
 Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden.
 
 Non-magic class items with one socket are always hidden, even with +3 skills.
 
-Non-magic elite items are hidden, unless specifically valuable for use with certain runewords (at my discretion, using Kryszard's filter as a baseline) or +3 to a sought after skill.
+Non-magic elite items are hidden, unless specifically valuable for use with certain runewords or +3 to a useful skill.
 
 Normal and exceptional magic class items are hidden unless specifically great for crafting.
 
-Normal and exceptional rare items are hidden, with exceptions for: Gloves, boots, belts, helms, ethereal weapons, bows, grim shields, mage plates, circlets, and all class items.
+Normal and exceptional rare items are hidden, with exceptions for: Gloves, boots, belts, ethereal weapons, bows, grim shields, mage plates, circlets, and all class items.
 
-Only high/mid-tier unique and set items will notify on drop (at my discretion, using Kryszard's filter as a baseline), but will still always show.
+Only high/mid-tier unique and set items will notify on drop, but will still always show.
 
 # Changelog:
 
