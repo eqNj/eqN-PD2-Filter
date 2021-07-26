@@ -186,4 +186,4 @@ Made it so "Base Defense: X-X" and "Max Sockets: X" are now on separate lines in
 
 Tidied up and added all new/changed runewords to applicable socketed item types.
 
-Narrowed down some parameters to show non-magic staves at higher levels now due to staves now having a scaling implicit cast speed bonus based upon tier.
+Narrowed down some parameters to show non-magic staves at higher levels now due to staves having a scaling implicit cast speed bonus based upon tier.
