@@ -3778,7 +3778,7 @@ ItemDisplay[SWORD !INF SOCK=4 NMAG !RW]: %NAME%{%GRAY%Phoenix, Spirit, Voice of 
 ItemDisplay[(POLEARM OR SPEAR OR JAV) !INF SOCK=4 NMAG !RW]: %NAME%{%GRAY%Passion, Phoenix, Pride, Rift%NL%Hand of Justice, Infinity, Insight%NL%%GOLD%Rune Words: %GRAY%Fortitude}%CONTINUE%
 ItemDisplay[SCEPTER !INF SOCK=4 NMAG !RW]: %NAME%{%GRAY%Insight, Passion, Phoenix, Rift%NL%Holy Thunder, Hand of Justice%NL%%GOLD%Rune Words: %GRAY%Fortitude}%CONTINUE%
 ItemDisplay[AXE !INF SOCK=4 NMAG !RW]: %NAME%{%GRAY%Kingslayer, Oath, Passion, Phoenix%NL%Fortitude, Hand of Justice%NL%%GOLD%Rune Words: %GRAY%Famine}%CONTINUE%
-ItemDisplay[STAFF !INF SOCK=4 NMAG !RW]: %NAME%{%GRAY%Memory, Passion, Phoenix, Spirit%NL%Hand of Justice, Heart of the Oak, Infinity%NL%%GOLD%Rune Words: %GRAY%Fortitude}%CONTINUE%
+ItemDisplay[STAFF !INF SOCK=4 NMAG !RW]: %NAME%{%GRAY%Insight, Memory, Passion, Phoenix, Spirit%NL%Hand of Justice, Heart of the Oak, Infinity%NL%%GOLD%Rune Words: %GRAY%Fortitude}%CONTINUE%
 ItemDisplay[(whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm) !INF SOCK=4 NMAG !RW]: %NAME%{%GRAY%Hand of Justice, Passion, Phoenix%NL%Famine, Fortitude%NL%%GOLD%Rune Words:}%CONTINUE%
 ItemDisplay[WEAPON !(BOW OR XBOW OR fla OR 9fl OR 7fl OR SWORD OR POLEARM OR SPEAR OR JAV OR SCEPTER OR AXE OR STAFF OR whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm) !INF SOCK=4 NMAG !RW]: %NAME%{%GRAY%Hand of Justice, Passion, Phoenix%NL%%GOLD%Rune Words: %GRAY%Fortitude}%CONTINUE%
 
@@ -4405,6 +4405,6 @@ ItemDisplay[BELT NMAG CLVL>29]:
 ItemDisplay[(ARMOR OR WEAPON) !leg INF]: 
 
 //Strict FINAL
-ItemDisplay[(ARMOR OR WEAPON) NMAG !leg]: 
+ItemDisplay[(ARMOR OR WEAPON) NMAG !leg CLVL>74]: 
 
 //Shout outs to both Wolfie and TheIrateSeaGoer for their help and useful feature additions!
