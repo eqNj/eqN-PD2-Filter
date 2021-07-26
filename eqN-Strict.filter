@@ -1040,24 +1040,25 @@ ItemDisplay[SET !ID CLVL<70]: %PX-84%%NAME%%GREEN%
 //----------------------------------------- Crafting and Magic Items --------------------------------------------
 
 //Shop Hunting Flags
-ItemDisplay[WEAPON !UNI TABSK34>2]: %RED%***   %GREEN%Warcries Weapon%RED%   ***{%RED%***   %GREEN%Warcries Weapon%RED%   ***}
-ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK278>1)]: %RED%***   %GREEN%Venom Claw%RED%   ***{%RED%***   %GREEN%Venom Claws%RED%   ***}
-ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK273>1)]: %RED%***   %GREEN%Mind Blast Claw%RED%   ***{%RED%***   %GREEN%Mind Blast Claws%RED%   ***}
-ItemDisplay[SIN !UNI (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) AND (SK280>1 OR SK265>1)))]: %RED%***   %GREEN%Martial Arts Claw%RED%   ***{%RED%***   %GREEN%Martial Arts Claws%RED%   ***}
-ItemDisplay[SIN !UNI (TABSK48>2 OR ((TABSK48>1 OR CLSK6>1) AND (SK366>1 OR SK276>1 OR SK272>1 OR SK271>1 OR SK262>1)))]: %RED%***   %GREEN%Traps Claw%RED%   ***{%RED%***   %GREEN%Traps Claws%RED%   ***}
-ItemDisplay[GLOVES !UNI ((TABSK0>2) OR (TABSK1>2) OR (TABSK2>2) OR (TABSK50>2))]: %RED%***   %GREEN%+3 Skill Gloves%RED%   ***{%RED%***   %GREEN%+3 Skill Gloves%RED%   ***}
-ItemDisplay[SCEPTER !UNI ((TABSK24>2 AND SK101>1) OR (TABSK24>1 AND SK101>2) OR (CLSK3>1 AND SK101>2))]: %RED%***   %GREEN%Holy Bolt Scepter%RED%   ***{%RED%***   %GREEN%Holy Bolt Scepter%RED%   ***}
-ItemDisplay[SCEPTER !UNI ((TABSK24>2 AND SK121>1) OR (TABSK24>1 AND SK121>2) OR (CLSK3>1 AND SK121>2))]: %RED%***   %GREEN%FotH Scepter%RED%   ***{%RED%***   %GREEN%FoH Scepter%RED%   ***}
-ItemDisplay[SCEPTER !UNI ((TABSK25>2 AND SK118>1) OR (TABSK25>1 AND SK118>2) OR (CLSK3>1 AND SK118>2))]: %RED%***   %GREEN%Holy Shock Scepter%RED%   ***{%RED%***   %GREEN%Holy Shock Scepter%RED%   ***}
-ItemDisplay[STAFF !UNI CHSK54>0]: %RED%***   %GREEN%Teleport Charge Staff%RED%   ***{%RED%***   %GREEN%Teleport Charges%RED%   ***}
-ItemDisplay[WAND !UNI CHSK91>0]: %RED%***   %GREEN%Lower Resist Charge Wand%RED%   ***{%RED%***   %GREEN%Lower Resist Charges%RED%   ***}
-ItemDisplay[WAND !UNI CHSK82>0]: %RED%***   %GREEN%Life Tap Charge Wand%RED%   ***{%RED%***   %GREEN%Life Tap Charges%RED%   ***}
+ItemDisplay[WEAPON !UNI TABSK34>2]: %RED%***   %GREEN%Warcries Weapon%RED%   ***%BLUE%{%RED%***   %GREEN%Warcries Weapon%RED%   ***}
+ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK278>1)]: %RED%***   %GREEN%Venom Claw%RED%   ***%BLUE%{%RED%***   %GREEN%Venom Claws%RED%   ***}
+ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK273>1)]: %RED%***   %GREEN%Mind Blast Claw%RED%   ***%BLUE%{%RED%***   %GREEN%Mind Blast Claws%RED%   ***}
+ItemDisplay[SIN !UNI (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) AND (SK280>1 OR SK265>1)))]: %RED%***   %GREEN%Martial Arts Claw%RED%   ***%BLUE%{%RED%***   %GREEN%Martial Arts Claws%RED%   ***}
+ItemDisplay[SIN !UNI (TABSK48>2 OR ((TABSK48>1 OR CLSK6>1) AND (SK366>1 OR SK276>1 OR SK272>1 OR SK271>1 OR SK262>1)))]: %RED%***   %GREEN%Traps Claw%RED%   ***%BLUE%{%RED%***   %GREEN%Traps Claws%RED%   ***}
+ItemDisplay[GLOVES !UNI ((TABSK0>2) OR (TABSK1>2) OR (TABSK2>2) OR (TABSK50>2))]: %RED%***   %GREEN%+3 Skill Gloves%RED%   ***%BLUE%{%RED%***   %GREEN%+3 Skill Gloves%RED%   ***}
+ItemDisplay[SCEPTER !UNI ((TABSK24>2 AND SK101>1) OR (TABSK24>1 AND SK101>2) OR (CLSK3>1 AND SK101>2))]: %RED%***   %GREEN%Holy Bolt Scepter%RED%   ***%BLUE%{%RED%***   %GREEN%Holy Bolt Scepter%RED%   ***}
+ItemDisplay[SCEPTER !UNI ((TABSK24>2 AND SK121>1) OR (TABSK24>1 AND SK121>2) OR (CLSK3>1 AND SK121>2))]: %RED%***   %GREEN%FotH Scepter%RED%   ***%BLUE%{%RED%***   %GREEN%FoH Scepter%RED%   ***}
+ItemDisplay[SCEPTER !UNI ((TABSK25>2 AND SK118>1) OR (TABSK25>1 AND SK118>2) OR (CLSK3>1 AND SK118>2))]: %RED%***   %GREEN%Holy Shock Scepter%RED%   ***%BLUE%{%RED%***   %GREEN%Holy Shock Scepter%RED%   ***}
+ItemDisplay[STAFF !UNI CHSK54>0]: %RED%***   %GREEN%Teleport Charge Staff%RED%   ***%BLUE%{%RED%***   %GREEN%Teleport Charges%RED%   ***}
+ItemDisplay[WAND !UNI CHSK91>0]: %RED%***   %GREEN%Lower Resist Charge Wand%RED%   ***%BLUE%{%RED%***   %GREEN%Lower Resist Charges%RED%   ***}
+ItemDisplay[WAND !UNI CHSK82>0]: %RED%***   %GREEN%Life Tap Charge Wand%RED%   ***%BLUE%{%RED%***   %GREEN%Life Tap Charges%RED%   ***}
 
 // --- // --- Craftables --- \\ --- \\
 
 //Notified
-ItemDisplay[(SCEPTER OR (SIN !(ces OR 9cs OR 7cs OR axf OR 9xf)) OR (am3 OR am8 OR amd OR am4 OR am9 OR ame) OR (spc OR 9sp OR 7sp)) MAG ETH !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
-ItemDisplay[(8rx OR 6rx OR 8lw OR 6lw OR amc OR am7 OR am2 OR amb OR am6 OR am1) MAG !ID ILVL>74]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
+ItemDisplay[(SCEPTER OR (SIN !(ktr OR wrb OR ces OR axf)) OR (am3 OR am8 OR amd OR am4 OR am9 OR ame) OR (spc OR 9sp OR 7sp OR 9cl OR 7cl)) MAG ETH !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
+ItemDisplay[(6rx OR 6lw OR amc OR am7 OR am2 OR amb OR am6 OR am1) MAG !ID ILVL>74]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
+ItemDisplay[(am5 OR ama OR amf) MAG ETH !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[(crs OR 9cr) MAG ETH !ID ILVL>50]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[(ob5 OR oba OR obf) MAG !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[(utp OR uar) MAG !ID ILVL>84]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
@@ -1074,8 +1075,8 @@ ItemDisplay[(xh9 OR uh9 OR usk) MAG !ID ILVL>68]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLU
 ItemDisplay[(xsh OR ush OR uow OR uts) MAG !ID ILVL>80]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[(DIN OR NEC) ELT MAG !ID ILVL>80]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[xtp MAG !ETH !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
-ItemDisplay[((SCEPTER !(7sc)) OR (DRU !ETH) OR (BAR !ETH) OR (SIN !(7xf OR 7cs))) ELT MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
-ItemDisplay[(SOR OR (WAND !(ywn OR wnd OR 9wn)) OR (spc OR 9sp OR 7sp)) MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
+ItemDisplay[(SCEPTER OR (DRU !ETH) OR (BAR !ETH) OR SIN) ELT MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
+ItemDisplay[(SOR OR (WAND !(ywn OR wnd OR 9wn)) OR (spc OR 9sp OR 7sp OR 9cl OR 7cl)) MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[rin MAG !ID ILVL>74]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 
 //Notes For High ILVL Crafting Amulets
@@ -2426,7 +2427,7 @@ ItemDisplay[am8 ILVL>40 NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 6}%CONTINUE%//
 ItemDisplay[am9 ILVL<25 NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[am9 ILVL>26 ILVL<41 NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 4}%CONTINUE%//
 ItemDisplay[am9 ILVL>40 NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 6}%CONTINUE%//
-ItemDisplay[9ar ILVL<26 NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
+ItemDisplay[9ar ILVL<26 NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 2}%CONTINUE%//
 ItemDisplay[9ar ILVL>25 NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[9wb NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 ItemDisplay[9xf NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
@@ -3900,7 +3901,7 @@ ItemDisplay[(72h OR 7gs) ETH !INF !SUP SOCK=0 NMAG]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(7ar OR 7tw OR 7qr OR 9tw) (SK275>0 OR SK276>0 OR SK278>0) ETH !INF !SUP SOCK=0 NMAG]: %DOT-D6%%NAME%{%NAME%}
 
 //Plague
-ItemDisplay[SIN !(ktr OR 9ar OR wrb OR 9wb OR ces OR 9cs OR 7cs OR axf OR 9xf OR 7xf) (SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>2 OR SK280>2) !INF !SUP SOCK=0 NMAG]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[SIN !(ktr OR wrb OR ces OR axf) (SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>2 OR SK280>2) !INF !SUP SOCK=0 NMAG]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(SCEPTER !(scp)) (SK101>2 OR SK112>2 OR SK118>2 OR SK121>2) !INF !SUP SOCK=0 NMAG]: %NAME%{%NAME%}
 
 //Amazon Spears
@@ -3962,8 +3963,8 @@ ItemDisplay[(72h OR 7gs) ETH SOCK=0 SUP NMAG]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(7ar OR 7tw OR 7qr OR 9tw) (SK275>0 OR SK276>0 OR SK278>0) ETH SOCK=0 SUP NMAG]: %DOT-D6%%NAME%{%NAME%}
 
 //Plague
-ItemDisplay[SIN !(ktr OR 9ar OR wrb OR 9wb OR ces OR 9cs OR 7cs OR axf OR 9xf OR 7xf) (SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>2 OR SK280>2) SOCK=0 SUP NMAG]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(SCEPTER !(scp OR 9sc OR 7sc OR wsp OR 9ws OR 7ws)) (SK101>2 OR SK112>2 OR SK118>2 OR SK121>2) SOCK=0 SUP NMAG]: %NAME%{%NAME%}
+ItemDisplay[SIN !(ktr OR wrb OR ces OR axf) (SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>2 OR SK280>2) SOCK=0 SUP NMAG]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(SCEPTER !(scp OR wsp OR 9ws OR 7ws)) (SK101>2 OR SK112>2 OR SK118>2 OR SK121>2) SOCK=0 SUP NMAG]: %NAME%{%NAME%}
 
 //Armors
 ItemDisplay[(xtp OR utp OR uui OR uea OR ula OR utu OR urs OR uar) SOCK=0 SUP NMAG]: %NAME%{%NAME%}
@@ -4043,7 +4044,7 @@ ItemDisplay[7gm !INF ETH NMAG !RW SOCK=6]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) (SK100>2 OR SK125>2 OR SK108>2) !INF !ETH NMAG !RW (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) SK117>1 NMAG !INF !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) !INF NMAG !RW SOCK=4]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(SCEPTER !(scp)) !INF !ETH NMAG !RW (SK101>2 OR SK112>2 OR SK118>2 OR SK121>2) !(SOCK=1)]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(SCEPTER !(scp)) !INF !ETH NMAG !RW (SK101>2 OR SK112>2 OR SK118>2 OR SK121>2) !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
 
 //Swords
 ItemDisplay[crs NMAG !INF SOCK=0 (ILVL>25 AND ILVL<41) CLVL<70]: %NAME%{%NAME%}
@@ -4069,12 +4070,12 @@ ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs OR wst OR 8ws OR 6ws) (SK58>
 //Polearms/Spears/Amazon Spears
 ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7 OR 7tr OR 7br OR 7st OR 7p7 OR 7o7) ETH NMAG !INF !RW SOCK>2]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(7p7 OR 7h7) ETH NMAG !INF !RW SOCK=6]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(amd OR ame) TABSK2>2 !INF NMAG !RW (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(amd OR ame) TABSK2>2 !INF NMAG !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
 
 //Claws
 ItemDisplay[((SIN ELT) OR 9tw OR 9lw) (SK275>0 OR SK276>0 OR SK278>0) !INF ETH NMAG !RW (SOCK=0 OR SOCK=3)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[((SIN ELT) OR 9tw OR 9lw) ((SK254>2 OR SK255>2 OR SK260>2 OR SK275>2) OR ((SK254>0 OR SK255>0 OR SK260>0) AND (SK275>0 AND SK276>0)) OR ((SK254>1 OR SK255>1 OR SK260>1) AND (SK275>0 OR SK276>0 OR SK278>0))) !INF !ETH NMAG !RW (SOCK=0 OR SOCK=2)]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[SIN !(ktr OR wrb OR axf OR ces) (SK254>2 OR SK255>2 OR SK259>2 OR SK260>2 OR SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>2 OR SK280>2) !INF NMAG !RW (SOCK=0 OR SOCK=3)]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[SIN !(ktr OR wrb OR ces OR axf) (SK254>2 OR SK255>2 OR SK259>2 OR SK260>2 OR SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>2 OR SK280>2) !INF NMAG !RW (SOCK=0 OR SOCK=3)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[((SIN ELT) OR 9tw OR 9lw) !INF ETH NMAG !RW (SOCK=0 OR SOCK=3)]: %NAME%{%NAME%}
 
 //----------------------------------------- Class Specific Failsafes -----------------------------------------
@@ -4309,7 +4310,7 @@ ItemDisplay[NMAG !INF !RW SK96>2 SCEPTER !(SOCK=1)]: %NAME%{%NAME%} // Sacrifice
 
 //General Class Item Failsafe
 ItemDisplay[(SOR OR WAND OR SCEPTER OR STAFF OR DRU OR BAR OR NEC OR SIN) NMAG]: %NAME%{%NAME%}%CONTINUE%
-//ItemDisplay[(SOR OR WAND OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR (DRU !ETH) OR (spc OR 9sp OR 7sp) OR (BAR !ETH) OR (NEC !ETH) OR (SIN !(ces OR 9cs OR 7cs OR axf OR 9xf OR 7xf)) OR (SCEPTER !(scp))) MAG !ID]: %NAME%{%NAME%}
+//ItemDisplay[(SOR OR WAND OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR (DRU !ETH) OR (spc OR 9sp OR 7sp OR 9cl OR 7cl) OR (BAR !ETH) OR (NEC !ETH) OR (SIN !(ktr OR wrb OR ces OR axf)) OR (SCEPTER !(scp))) MAG !ID]: %NAME%{%NAME%}
 ItemDisplay[(SOR OR WAND OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR DRU OR (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) OR BAR OR NEC OR SIN OR STAFF OR SCEPTER) RARE !ID]: %NAME%{%NAME%}
 
 //Specific Class Item Failsafe
@@ -4322,8 +4323,8 @@ ItemDisplay[SOR SOCK=3 NMAG]: %NAME%{%NAME%} // 3 Socket Sorceress Orbs
 //ItemDisplay[CHEST !ETH !INF NMAG SOCK=4 CLVL<80]: %NAME%{%NAME%} // 4 Socket Chests for early progression MF
 //ItemDisplay[HELM !ETH !INF NMAG SOCK=3 CLVL<75]: %NAME%{%NAME%} // 3 Socket Helms for early progression MF
 //ItemDisplay[((POLEARM OR SPEAR) AND !(ZON OR THROWING)) NMAG ETH !INF (SOCK=0 OR SOCK=4)]: %NAME%{%NAME%} // Act 2 Merc RuneWord Bases
-ItemDisplay[xsh !ETH !INF NMAG !(SOCK=1)]: %NAME%{%NAME%} // Grim Shield
-ItemDisplay[xtp !INF NMAG !(SOCK=1)]: %NAME%{%NAME%} // Mage Plate
+ItemDisplay[xsh !ETH !INF NMAG !SOCK=1]: %NAME%{%NAME%} // Grim Shield
+ItemDisplay[xtp !INF NMAG !SOCK=1]: %NAME%{%NAME%} // Mage Plate
 
 //Rare Item Failsafe
 ItemDisplay[RARE (xsh OR xtp)]: %NAME%{%NAME%}
@@ -4387,7 +4388,7 @@ ItemDisplay[(ame OR amd) TABSK2<3 NMAG CLVL>79]:
 //Hiding NMAG Weapons With 2 or Less (Max) Sockets and Low or No +Skills
 ItemDisplay[(dgr OR 9dg OR dir OR 9di OR buc OR xuc) NMAG CLVL>14]: 
 ItemDisplay[(hax OR 9ha OR bld OR 9bl OR ssd OR 9sm OR sbr OR 9sb OR flc OR 9fc) NMAG SOCK<2 CLVL>14]:
-ItemDisplay[(7ha OR 7sc OR 7ss OR 7sm OR 7sb OR 7fc OR 7dg OR 7di) (NMAG OR (MAG !ID !ETH)) SOCK<2 CLVL>69]: 
+ItemDisplay[(7ha OR 7ss OR 7sm OR 7sb OR 7fc OR 7dg OR 7di) (NMAG OR (MAG !ID !ETH)) SOCK<2 CLVL>69]: 
 ItemDisplay[(WEAPON NMAG !(SIN OR SOR OR WAND OR STAFF OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR 7bl OR 7kr OR 7cr)) SOCK=2 !leg CLVL>79]:
 
 ItemDisplay[WAND NMAG !(SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0)]: 
