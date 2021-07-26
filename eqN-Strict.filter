@@ -1070,7 +1070,7 @@ ItemDisplay[BELT (EXC OR ELT) MAG !ETH !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*%
 ItemDisplay[(BOW !(sbw OR 8sb OR 6sb OR hbw OR 8hb OR 6hb OR lbw OR 8lb OR 6lb OR cbw OR 8cb OR 6cb OR sbb OR 8s8 OR lbb OR 8l8 OR swb OR 8sw)) MAG !ID ILVL>74]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[(XBOW !(lxb OR 8lx OR 6lx OR mxb OR 8mx OR hxb OR 8hx)) MAG !ID ILVL>74]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[(6cs OR 6bs OR 6ws) MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
-ItemDisplay[WEAPON !(SOR OR WAND OR hax OR 9ha OR 7ha OR axe OR 9ax OR 7ax OR mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR ssd OR 9ss OR 7ss OR scm OR 9sm OR 7sm OR sbr OR 9sb OR 7sb OR flc OR 9fc OR 7fc OR dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl OR STAFF) MAG ETH !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
+ItemDisplay[WEAPON !(SOR OR WAND OR hax OR 9ha OR axe OR 9ax OR mac OR 9ma OR mst OR 9mt OR ssd OR 9ss OR scm OR 9sm OR sbr OR 9sb OR flc OR 9fc OR dgr OR 9dg OR dir OR 9di OR bld OR 9bl OR STAFF) MAG ETH !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[(xh9 OR uh9 OR usk) MAG !ID ILVL>68]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[(xsh OR ush OR uow OR uts) MAG !ID ILVL>80]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[(DIN OR NEC) ELT MAG !ID ILVL>80]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
@@ -4334,7 +4334,7 @@ ItemDisplay[RARE (xsh OR xtp)]: %NAME%{%NAME%}
 //ItemDisplay[RARE (aar OR xar OR uar) !ID]: %NAME%{%NAME%}
 ItemDisplay[(BOW OR XBOW) RARE !ID]: %NAME%{%NAME%}
 ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%{%NAME%}
-ItemDisplay[RARE ETH WEAPON !(hax OR 9ha OR 7ha OR axe OR 9ax OR 7ax OR mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR ssd OR 9ss OR 7ss OR scm OR 9sm OR 7sm OR sbr OR 9sb OR 7sb OR flc OR 9fc OR 7fc OR dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl) !ID]: %NAME%{%NAME%}
+ItemDisplay[RARE ETH WEAPON !ID]: %NAME%{%NAME%}
 
 //Circlets
 ItemDisplay[EQ7 MAG !ID]: %NAME%{%NAME%}
