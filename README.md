@@ -104,7 +104,7 @@ Reduced the threshold for Enhanced Damage and Increased Resistance paladin shiel
 
 Paladin shields with any All Resistance or high Enhanced Damage will now show such ([#r] or [ed]) behind their names instead of in front.  
 
-Potion names have been greatly shrunk across the board, and greater mana potions now still show in Hell.
+Potion names have been greatly shrunk across the board, and greater mana potions will still show in Hell.
 
 Restructured item name formatting to help reduce visual clutter.  
 
