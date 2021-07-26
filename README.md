@@ -86,7 +86,7 @@ Only high/mid-tier unique and set items will notify on drop, but will still alwa
 
 ## 1.0.0 - (Season 1)
 
-Replaced the word 'Superior' on superior items with an orange + sign at the front of item names.
+Replaced the word 'Superior' on superior items with an orange + at the front of item names.
 
 All presently showing superior items with Enhanced Defense or Enhanced Damage will show their percentage at all stages of the game.
 
