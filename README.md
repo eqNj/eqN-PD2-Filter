@@ -24,7 +24,7 @@ This filter doesn't try to make all the decisions for you. You will see things t
 
 My philosophy, and playstyle, have always been that you should be allowed to decide what items are worth picking up for yourself. Knowledge is power.
 
-## Features -
+## Features
 
 ![Staff Mods](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Staffmods.jpg)
 
