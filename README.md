@@ -12,7 +12,7 @@ There is both a Relaxed (Default) and Strict version of my filter. The differenc
 
 Originally, this was a remastered version of Kryszard's Project Diablo 2 loot filter from Season 1. Now, due to many differences this filter is all its own. I do want to give a big thanks to him for his awesome work on his filter though! 
 
-For those familiar, I have kept many of the original features of Kryszard's filter intact and added several Quality of Life features of my own.
+For those familiar, I have kept many of the features of Kryszard's filter intact but added several Quality of Life features, cleaned up a lot of the syntax, and thorough refined the drops shown throughout leveling and endgame.
 
 This filter is generally less strict than other filters available but still focused. It is especially focused on optimizations as you level and slightly more lenient in the end game by comparison.
 
