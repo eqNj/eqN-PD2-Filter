@@ -1057,7 +1057,8 @@ ItemDisplay[WAND !UNI CHSK82>0]: %RED%***   %GREEN%Life Tap Charge Wand%RED%   *
 
 //Notified
 ItemDisplay[(SCEPTER OR (SIN !(ktr OR wrb OR ces OR axf)) OR (am3 OR am8 OR amd OR am4 OR am9 OR ame) OR (spc OR 9sp OR 7sp OR 9cl OR 7cl)) MAG ETH !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
-ItemDisplay[(6rx OR 6lw OR amc OR am7 OR am2 OR amb OR am6 OR am1) MAG !ID ILVL>74]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
+ItemDisplay[(tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8 OR jav OR 9ja OR 7ja OR pil OR 9pi OR 7pi OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts) MAG ETH !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
+ItemDisplay[(6rx OR 6lw OR amc OR am7 OR am2 OR amb OR am6 OR am1) MAG !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[(am5 OR ama OR amf) MAG ETH !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[(crs OR 9cr) MAG ETH !ID ILVL>50]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
 ItemDisplay[(ob5 OR oba OR obf) MAG !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%
