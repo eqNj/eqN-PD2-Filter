@@ -42,7 +42,7 @@ If an item is rare, crafted, set, or unique it will show its maximum potential s
 
 Once an item is either corrupted or socketed in any fashion the maximum potential socket information will be removed from the item's description.
 
-![Crafting Ring](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Crafted.jpg)
+![Crafting Ring](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Craft.jpg)
 
 All items will show any recipes possible, as applicable. They will use a color-coded symbol (@) matching their respective perfect gem color within the recipe, as seen above.
 
