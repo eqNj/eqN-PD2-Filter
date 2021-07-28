@@ -1040,18 +1040,18 @@ ItemDisplay[SET !ID CLVL<70]: %PX-84%%NAME%%GREEN%
 //----------------------------------------- Crafting and Magic Items --------------------------------------------
 
 //Shop Hunting Flags
-ItemDisplay[WEAPON !UNI TABSK34>2]: %RED%***   %GREEN%Warcries Weapon%RED%   ***%BLUE%{%RED%***   %GREEN%Warcries Weapon%RED%   ***}
-ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK278>1)]: %RED%***   %GREEN%Venom Claw%RED%   ***%BLUE%{%RED%***   %GREEN%Venom Claws%RED%   ***}
-ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK273>1)]: %RED%***   %GREEN%Mind Blast Claw%RED%   ***%BLUE%{%RED%***   %GREEN%Mind Blast Claws%RED%   ***}
-ItemDisplay[SIN !UNI (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) AND (SK280>1 OR SK265>1)))]: %RED%***   %GREEN%Martial Arts Claw%RED%   ***%BLUE%{%RED%***   %GREEN%Martial Arts Claws%RED%   ***}
-ItemDisplay[SIN !UNI (TABSK48>2 OR ((TABSK48>1 OR CLSK6>1) AND (SK366>1 OR SK276>1 OR SK272>1 OR SK271>1 OR SK262>1)))]: %RED%***   %GREEN%Traps Claw%RED%   ***%BLUE%{%RED%***   %GREEN%Traps Claws%RED%   ***}
-ItemDisplay[GLOVES !UNI ((TABSK0>2) OR (TABSK1>2) OR (TABSK2>2) OR (TABSK50>2))]: %RED%***   %GREEN%+3 Skill Gloves%RED%   ***%BLUE%{%RED%***   %GREEN%+3 Skill Gloves%RED%   ***}
-ItemDisplay[SCEPTER !UNI ((TABSK24>2 AND SK101>1) OR (TABSK24>1 AND SK101>2) OR (CLSK3>1 AND SK101>2))]: %RED%***   %GREEN%Holy Bolt Scepter%RED%   ***%BLUE%{%RED%***   %GREEN%Holy Bolt Scepter%RED%   ***}
-ItemDisplay[SCEPTER !UNI ((TABSK24>2 AND SK121>1) OR (TABSK24>1 AND SK121>2) OR (CLSK3>1 AND SK121>2))]: %RED%***   %GREEN%FotH Scepter%RED%   ***%BLUE%{%RED%***   %GREEN%FoH Scepter%RED%   ***}
-ItemDisplay[SCEPTER !UNI ((TABSK25>2 AND SK118>1) OR (TABSK25>1 AND SK118>2) OR (CLSK3>1 AND SK118>2))]: %RED%***   %GREEN%Holy Shock Scepter%RED%   ***%BLUE%{%RED%***   %GREEN%Holy Shock Scepter%RED%   ***}
-ItemDisplay[STAFF !UNI CHSK54>0]: %RED%***   %GREEN%Teleport Charge Staff%RED%   ***%BLUE%{%RED%***   %GREEN%Teleport Charges%RED%   ***}
-ItemDisplay[WAND !UNI CHSK91>0]: %RED%***   %GREEN%Lower Resist Charge Wand%RED%   ***%BLUE%{%RED%***   %GREEN%Lower Resist Charges%RED%   ***}
-ItemDisplay[WAND !UNI CHSK82>0]: %RED%***   %GREEN%Life Tap Charge Wand%RED%   ***%BLUE%{%RED%***   %GREEN%Life Tap Charges%RED%   ***}
+temDisplay[WEAPON MAG TABSK34>2]: %RED%***   %GREEN%Warcries Weapon%RED%   ***%BLUE%{%RED%***   %GREEN%Warcries Weapon%RED%   ***}
+ItemDisplay[SIN MAG ((TABSK49>1 OR CLSK6>1) AND SK278>1)]: %RED%***   %GREEN%Venom Claw%RED%   ***%BLUE%{%RED%***   %GREEN%Venom Claws%RED%   ***}
+ItemDisplay[SIN MAG ((TABSK49>1 OR CLSK6>1) AND SK273>1)]: %RED%***   %GREEN%Mind Blast Claw%RED%   ***%BLUE%{%RED%***   %GREEN%Mind Blast Claws%RED%   ***}
+ItemDisplay[SIN MAG (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) AND (SK280>1 OR SK265>1)))]: %RED%***   %GREEN%Martial Arts Claw%RED%   ***%BLUE%{%RED%***   %GREEN%Martial Arts Claws%RED%   ***}
+ItemDisplay[SIN MAG (TABSK48>2 OR ((TABSK48>1 OR CLSK6>1) AND (SK366>1 OR SK276>1 OR SK272>1 OR SK271>1 OR SK262>1)))]: %RED%***   %GREEN%Traps Claw%RED%   ***%BLUE%{%RED%***   %GREEN%Traps Claws%RED%   ***}
+ItemDisplay[GLOVES MAG ((TABSK0>2) OR (TABSK1>2) OR (TABSK2>2) OR (TABSK50>2))]: %RED%***   %GREEN%+3 Skill Gloves%RED%   ***%BLUE%{%RED%***   %GREEN%+3 Skill Gloves%RED%   ***}
+ItemDisplay[SCEPTER MAG ((TABSK24>2 AND SK101>1) OR (TABSK24>1 AND SK101>2) OR (CLSK3>1 AND SK101>2))]: %RED%***   %GREEN%Holy Bolt Scepter%RED%   ***%BLUE%{%RED%***   %GREEN%Holy Bolt Scepter%RED%   ***}
+ItemDisplay[SCEPTER MAG ((TABSK24>2 AND SK121>1) OR (TABSK24>1 AND SK121>2) OR (CLSK3>1 AND SK121>2))]: %RED%***   %GREEN%FotH Scepter%RED%   ***%BLUE%{%RED%***   %GREEN%FoH Scepter%RED%   ***}
+ItemDisplay[SCEPTER MAG ((TABSK25>2 AND SK118>1) OR (TABSK25>1 AND SK118>2) OR (CLSK3>1 AND SK118>2))]: %RED%***   %GREEN%Holy Shock Scepter%RED%   ***%BLUE%{%RED%***   %GREEN%Holy Shock Scepter%RED%   ***}
+ItemDisplay[STAFF MAG CHSK54>0]: %RED%***   %GREEN%Teleport Charge Staff%RED%   ***%BLUE%{%RED%***   %GREEN%Teleport Charges%RED%   ***}
+ItemDisplay[WAND MAG CHSK91>0]: %RED%***   %GREEN%Lower Resist Charge Wand%RED%   ***%BLUE%{%RED%***   %GREEN%Lower Resist Charges%RED%   ***}
+ItemDisplay[WAND MAG CHSK82>0]: %RED%***   %GREEN%Life Tap Charge Wand%RED%   ***%BLUE%{%RED%***   %GREEN%Life Tap Charges%RED%   ***}
 
 // --- // --- Craftables --- \\ --- \\
 
