@@ -42,7 +42,7 @@ If an item is rare, crafted, set, or unique it will show its maximum potential s
 
 Once an item is either corrupted or socketed in any fashion the maximum potential socket information will be removed from the item's description.
 
-![Crafting Ring](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Crafts.jpg)
+![Crafting Ring](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Crafted.jpg)
 
 All items will show any recipes possible, as applicable. They will use a color-coded symbol (@) matching their respective perfect gem color within the recipe, as seen above.
 
@@ -50,7 +50,7 @@ These recipes will show up once relevant as your character progresses, to help e
 
 Specifically, socketing recipes will show at item level 21+ (or earlier on any +3 skills items). Upgrading recipes will show at item level 13+. Crafting recipes will show at item level 51+ (as a resulting craft item level of 51 is when you can guarantee at least 3 mods).
 
-![Upgrade Boots](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Upgrades.jpg)
+![Upgrade Boots](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Upgraded.jpg)
 
 All elite tier items are set to show, even after level 80, with only small exceptions for either some class items that are of low plus skill values or unideal weapons with a maximum of 2 sockets or less. 
 
