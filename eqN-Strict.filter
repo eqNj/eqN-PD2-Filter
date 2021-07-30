@@ -1746,9 +1746,9 @@ ItemDisplay[pk2]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*{%BLUE%The Summoner%NL
 ItemDisplay[pk3]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*{%PURPLE%Nihlathak the Necromancer%NL%Izual the Fallen Angel%NL%%GRAY%Dropped by:}
 
 //Organs
-ItemDisplay[mbr]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*{%WHITE%to access %ORANGE%Uber Tristram%NL%%GOLD%Cube %WHITE%any three %RED%Organs}
-ItemDisplay[bey]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*{%WHITE%to access %ORANGE%Uber Tristram%NL%%GOLD%Cube %WHITE%any three %RED%Organs}
-ItemDisplay[dhn]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*{%WHITE%to access %ORANGE%Uber Tristram%NL%%GOLD%Cube %WHITE%any three %RED%Organs}
+ItemDisplay[mbr]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*{%WHITE%to access %ORANGE%Uber Tristram%NL%%WHITE%+ %GRAY%Key%NL%%GOLD%Cube %WHITE%any three %RED%Organs}
+ItemDisplay[bey]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*{%WHITE%to access %ORANGE%Uber Tristram%NL%%WHITE%+ %GRAY%Key%NL%%GOLD%Cube %WHITE%any three %RED%Organs}
+ItemDisplay[dhn]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*{%WHITE%to access %ORANGE%Uber Tristram%NL%%WHITE%+ %GRAY%Key%NL%%GOLD%Cube %WHITE%any three %RED%Organs}
 
 //Pandemonium Talisman
 ItemDisplay[ubtm]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*{%ORANGE%Uber Tristram %GRAY%awaits...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath%NL%A singular attempt:}
