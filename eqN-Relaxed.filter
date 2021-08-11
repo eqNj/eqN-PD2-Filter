@@ -841,10 +841,10 @@ ItemDisplay[cm2 !UNI (MAXDMG>3 AND FRW>0)]: %TAN%Max %WHITE%Dmg %ORANGE%FRW %BLU
 ItemDisplay[cm2 !UNI (MAXDMG>3 AND FHR>0)]: %TAN%Max %WHITE%Dmg %ORANGE%FHR %BLUE%Large Charm 
 ItemDisplay[cm2 !UNI MAXDMG>4]: %TAN%Max %WHITE%Dmg %BLUE%Large Charm 
 
-ItemDisplay[cm2 !UNI !UNI (RES>4 AND FRW>0)]: %PURPLE%ALL %WHITE%Res %ORANGE%FRW %BLUE%Large Charm 
-ItemDisplay[cm2 !UNI !UNI (RES>4 AND FHR>0)]: %PURPLE%ALL %WHITE%Res %ORANGE%FHR %BLUE%Large Charm 
-ItemDisplay[cm2 !UNI !UNI ((RES>4 AND LIFE>0) OR (RES>0 AND LIFE>29))]: %PURPLE%ALL %WHITE%Res %RED%Life %BLUE%Large Charm 
-ItemDisplay[cm2 !UNI !UNI RES>6]: %PURPLE%ALL %WHITE%Res %BLUE%Large Charm 
+ItemDisplay[cm2 !UNI (RES>4 AND FRW>0)]: %PURPLE%ALL %WHITE%Res %ORANGE%FRW %BLUE%Large Charm 
+ItemDisplay[cm2 !UNI (RES>4 AND FHR>0)]: %PURPLE%ALL %WHITE%Res %ORANGE%FHR %BLUE%Large Charm 
+ItemDisplay[cm2 !UNI ((RES>4 AND LIFE>0) OR (RES>0 AND LIFE>29))]: %PURPLE%ALL %WHITE%Res %RED%Life %BLUE%Large Charm 
+ItemDisplay[cm2 !UNI RES>6]: %PURPLE%ALL %WHITE%Res %BLUE%Large Charm 
 ItemDisplay[cm2 !UNI LIFE>33]: %RED%Life %BLUE%Large Charm 
 
 //Small Charms
