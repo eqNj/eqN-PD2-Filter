@@ -649,7 +649,6 @@ ItemDisplay[mss]: %NAME%{%TAN%Doomed to Black Abyss%NL%Hatred Unbound Eminates}
 ItemDisplay[hfh]: %NAME%{%TAN%Forger of Shadowfang%NL%Legend of the Burning Hells}
 ItemDisplay[ice]: %GOLD%Malah's Potion{%TAN%What is man but a mass of thawing clay?}
 ItemDisplay[tr2]: %GOLD%Scroll of Resistance{%GOLD%Right click to Read%NL%%NL%%TAN%Where there is power, there is resistance.}
-ItemDisplay[leg]: %NAME%{%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
 ItemDisplay[toa]: %ORANGE%Token of Absolution{%GOLD%Right click to Respec%NL%%NL%%TAN%Wherever you are is the entry point.}
 
 //Gold
@@ -1758,6 +1757,13 @@ ItemDisplay[dcbl]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%
 ItemDisplay[dcho]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*{%RED%The Pandemonium Event%NL%%GRAY%Dropped by:}
 ItemDisplay[dcso]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*{%DARK_GREEN%Baal, Lord of Destruction%NL%%RED%Diablo, Lord of Terror%NL%%GRAY%Dropped by:}
 ItemDisplay[dcma]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*{%ORANGE%Uber Diablo %GRAY%awaits...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath%NL%A singular attempt:}
+
+//Wirt's Leg
+ItemDisplay[leg ILVL>60]: %NAME% {%WHITE%From: Hell%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
+ItemDisplay[leg (ILVL<60 AND ILVL>30) DIFF=2]: %NAME%{%RED%From: Nightmare%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
+ItemDisplay[leg ((ILVL<60 AND ILVL>30) (DIFF=1 OR DIFF=0))]: %NAME%{%WHITE%From: Nightmare%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
+ItemDisplay[leg ILVL<30 DIFF>0]: %NAME%{%RED%From: Normal%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
+ItemDisplay[leg ILVL<30 DIFF=0]: %NAME%{%WHITE%From: Normal%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
 
 //----------------------------------------- Notes on Socketable Items -----------------------------------------
 
