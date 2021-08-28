@@ -14,13 +14,13 @@ Originally, this was a remastered version of Kryszard's Project Diablo 2 loot fi
 
 For those familiar, I have kept many of the features of Kryszard's filter intact. I have added several quality of life features, cleaned up a lot of the syntax and formatting, thoroughly refined the drops shown throughout leveling and endgame, and much more.
 
-This filter is generally less strict than other filters available but still focused. It is especially focused on optimizations as you level and slightly more lenient in the end game by comparison.
+This filter is generally less strict than other filters available but still focused. It is especially focused on optimizations as you level and slightly more lenient in the endgame by comparison.
 
 This filter is for those of us used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them.
 
 Solo players, hardcore players, or simply those seeking out less commonly used items for specialty builds may find this filter most useful compared to others. This filter will show you if anything usable, even into the late game, would drop for any class. Period. 
 
-This filter doesn't try to make all the decisions for you. You will see things that you may or may not be inclined to pick up, but it is always reasonable why you're seeing these items. 
+This filter doesn't try to make all the decisions for you. You will see things that you may or may not be inclined to pick up, but it is always reasonable why you're seeing these items.
 
 My philosophy, and playstyle, have always been that you should be allowed to decide what items are worth picking up for yourself. Knowledge is power.
 
