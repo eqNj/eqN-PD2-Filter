@@ -6,7 +6,7 @@ This filter is up-to-date for Season 3 of Project Diablo 2!
 
 You can find my loot filter(s) either here or on the Project Diablo 2 game launcher.
 
-If you would like to contact me, find me in the offical PD2 Discord with the name eqN.
+If you would like to contact me, find me in the official PD2 Discord with the name eqN.
 
 There is both a Relaxed (Default) and Strict version of my filter. The differences are subtle and described below at the end of the features section. 
 
