@@ -158,7 +158,9 @@ Added quest item lore and quotes.
 
 ## 1.2.0 - (Season 3)
 
-Made it so ALL rares will now show, regardless of tier, at ALL levels. 
+Created and now maintain a more strict, seperate version of my filter. You can see the differences listed above.
+
+Made it so ALL rares will now show, regardless of tier, at ALL levels. (Relaxed Filter Only)
 
 If this is deemed excessive I will cut it down to how it was previously (showing select ethereal rare weapons and/or ideal rare armors).
 
