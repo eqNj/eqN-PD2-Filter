@@ -168,7 +168,7 @@ Changed the Perfect Gem icon from "O" to "@" to help further distinguish it.
 
 Changed the Flawless Gem icon from "O" to "*" to help further distinguish it.
 
-Change the Gem icon for all gems of lower tiers from "*" to ":" to further distinguish them.
+Changed the Gem icon for all gems of lower tiers from "*" to ":" to further distinguish them.
 
 Made it so Large Charms (just as Small and Grand did priorly) will now notify on drop.
 
