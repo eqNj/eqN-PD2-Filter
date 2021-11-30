@@ -2,7 +2,7 @@
 
 ![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Loot.jpg)
 
-This filter is up-to-date for Seasonb 4 of Project Diablo 2!
+This filter is up-to-date for Season 4 of Project Diablo 2!
 
 You can find my loot filter(s) either here or on the Project Diablo 2 game launcher.
 
