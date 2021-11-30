@@ -998,8 +998,10 @@ ItemDisplay[UNI !ID uhl]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD
 //The Void Uniques
 ItemDisplay[UNI !ID uhn]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Boneweave
 ItemDisplay[UNI !ID utc]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Troll Belt
-ItemDisplay[UNI tbk]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Tome of Town Portal
-ItemDisplay[UNI ibk]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Tome of Identify
+ItemDisplay[UNI tbk]: %BORDER-68%%WHITE%*%BLUE%*%PURPLE%*%BLACK%*     %GOLD%%NAME%     %BLACK%*%PURPLE%*%BLUE%*%WHITE%* // Tome of Town Portal
+ItemDisplay[UNI ibk]: %BORDER-68%%WHITE%*%BLUE%*%PURPLE%*%BLACK%*     %GOLD%%NAME%     %BLACK%*%PURPLE%*%BLUE%*%WHITE%* // Tome of Identify
+ItemDisplay[rid]: %BORDER-68%%WHITE%*%BLUE%*%PURPLE%*%BLACK%*     %GOLD%%NAME%     %BLACK%*%PURPLE%*%BLUE%*%WHITE%* // Tome of Town Portal
+ItemDisplay[rtp]: %BORDER-68%%WHITE%*%BLUE%*%PURPLE%*%BLACK%*     %GOLD%%NAME%     %BLACK%*%PURPLE%*%BLUE%*%WHITE%* //Tome of Identify
 
 //High-Tier Uniques
 ItemDisplay[(rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*
@@ -1773,8 +1775,6 @@ ItemDisplay[dcso]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%
 ItemDisplay[dcma]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*{%ORANGE%Uber Diablo %GRAY%awaits...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath%NL%A singular attempt:}
 
 //The Void
-ItemDisplay[rid]: %BORDER-0A%%WHITE%*%BLUE%*%PURPLE%*     %GOLD%%NAME%     %PURPLE%*%BLUE%*%WHITE%*{%NAME%}
-ItemDisplay[rtp]: %BORDER-0A%%WHITE%*%BLUE%*%PURPLE%*     %GOLD%%NAME%     %PURPLE%*%BLUE%*%WHITE%*{%NAME%}
 ItemDisplay[rtmo]: %BORDER-0A%%WHITE%*%BLUE%*%PURPLE%*     %ORANGE%%NAME%     %PURPLE%*%BLUE%*%WHITE%*{%WHITE%Used in a recipe that creates a %ORANGE%Voidstone}
 ItemDisplay[rtma]: %BORDER-0A%%WHITE%*%BLUE%*%PURPLE%*     %ORANGE%%NAME%     %PURPLE%*%BLUE%*%WHITE%*{%ORANGE%Uber Rathma %GRAY%awaits...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath%NL%A singular attempt:}
 ItemDisplay[cwss]: %BORDER-68%%YELLOW%*%TAN%*%GRAY%*     %PURPLE%%NAME%     %GRAY%*%TAN%*%YELLOW%*{%RED%Warning%WHITE%: It can brick your charm!%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%Eye of Anu, Heart of Creation%NL%A fragment of that which goes by:}
