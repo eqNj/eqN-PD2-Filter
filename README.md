@@ -2,7 +2,7 @@
 
 ![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Loot.jpg)
 
-This filter is up-to-date for Season 3 of Project Diablo 2!
+This filter is up-to-date for Seasonb 4 of Project Diablo 2!
 
 You can find my loot filter(s) either here or on the Project Diablo 2 game launcher.
 
@@ -189,3 +189,23 @@ Made it so "Base Defense: X-X" and "Max Sockets: X" are now on separate lines in
 Tidied up and added all new/changed runewords to applicable socketed item types.
 
 Narrowed down some parameters to show non-magic staves at higher levels now due to staves having a scaling implicit cast speed bonus based upon tier.
+
+## 1.3.0 - (Season 4)
+
+Added alerts for the new rare quivers. Magic quivers will always show, but not notify.
+
+Added special alerts for all of the new Uber Rathma (The Void) uniques.
+
+Continued maintenance of new/improved unique item notifications and tiering therein. (Most relevant for the strict filter.)
+
+Ensured any non-magic wands or necro shields with the new Summon Skeleton Archer skill on them will show such in their name (SkArc).
+
+Updated the "Max Sockets" info on countless items, as 2 handed weapons can once again get up to 4 sockets from Puzzlebox, or up to 6 sockets from Corruption. 
+
+Ensured all 'potential Rune Words' listed in non-magic, socketed item descriptions are accurate with Season 4 update.
+
+Ensured any and all newly useful Rune Word bases are always showing and sometimes notifying. (4 socket, etheral elite shields, 3 socket ethereal class or elite helms, 5 socket elite amazon bows, etc.)
+
+Updated the list of +skills needed on a non-magic class item for it to show, overall making them generally much more inclusive in the end game.
+
+Added kick damage values to set boots for Assassins. Previously hidden (vanilla LoD bug). (Thank you Dauracul!)
