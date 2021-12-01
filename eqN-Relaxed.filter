@@ -987,7 +987,7 @@ ItemDisplay[jew MAG !ID]: %DOT-9A%%TAN%*%BLUE%*   %NAME%   *%TAN%*
 
 //Highlight Good Rare Items
 ItemDisplay[(jew OR rin OR amu OR EQ7 OR cqv OR aqv) RARE !ID]: %DOT-A8%%WHITE%*%YELLOW%*   %NAME%   *%WHITE%*
- 
+
 //Diablo Clone Uniques
 ItemDisplay[UNI !ID utb]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Mirrored Boots
 ItemDisplay[UNI !ID uth]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Lacqueured Plate
