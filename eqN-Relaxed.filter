@@ -709,9 +709,6 @@ ItemDisplay[(aqv) NMAG CLVL>6]: {%TAN%you must aim a little above it.%NL%If you 
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>14]:
 
-//Jewel Fragments
-ItemDisplay[jewf]: %BLUE%%NAME%{%WHITE%Functions identical to Jewels for %ORANGE%Crafting%NL%%NL%%TAN%Shatter to soot, component of creation.}
-
 //----------------------------------------- Socketables --------------------------------------------
 
 //Gems
@@ -1721,6 +1718,9 @@ ItemDisplay[NMAG !RW SK376=1 CLVL<31]: %NAME% +1 Cmbst%CONTINUE%
 ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk) QTY>1]: %NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
 
 //----------------------------------------- Project Diablo 2 & End Game Items -----------------------------------------
+
+//Jewel Fragments
+ItemDisplay[jewf]: %BLUE%%NAME%{%WHITE%Functions identical to Jewels for %ORANGE%Crafting%NL%%NL%%TAN%Shatter to soot, component of creation.}
 
 //Standard of Heroes
 ItemDisplay[std]: %PX-9D%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*{%WHITE%+10% Experience%NL%+20% Magic & Gold Find%NL%+20% Monster Density%NL%%GOLD%Cube %WHITE%this with a Map to gain:}
