@@ -1000,8 +1000,8 @@ ItemDisplay[UNI !ID uhn]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD
 ItemDisplay[UNI !ID utc]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Troll Belt
 ItemDisplay[UNI tbk]: %BORDER-68%%WHITE%*%BLUE%*%PURPLE%*%BLACK%*     %GOLD%%NAME%     %BLACK%*%PURPLE%*%BLUE%*%WHITE%* // Tome of Town Portal
 ItemDisplay[UNI ibk]: %BORDER-68%%WHITE%*%BLUE%*%PURPLE%*%BLACK%*     %GOLD%%NAME%     %BLACK%*%PURPLE%*%BLUE%*%WHITE%* // Tome of Identify
-ItemDisplay[rid]: %BORDER-68%%WHITE%*%BLUE%*%PURPLE%*%BLACK%*     %GOLD%%NAME%     %BLACK%*%PURPLE%*%BLUE%*%WHITE%* // Tome of Town Portal
-ItemDisplay[rtp]: %BORDER-68%%WHITE%*%BLUE%*%PURPLE%*%BLACK%*     %GOLD%%NAME%     %BLACK%*%PURPLE%*%BLUE%*%WHITE%* //Tome of Identify
+ItemDisplay[rtp]: %BORDER-68%%WHITE%*%BLUE%*%PURPLE%*%BLACK%*     %GOLD%%NAME%     %BLACK%*%PURPLE%*%BLUE%*%WHITE%* //Tome of Town Portal
+ItemDisplay[rid]: %BORDER-68%%WHITE%*%BLUE%*%PURPLE%*%BLACK%*     %GOLD%%NAME%     %BLACK%*%PURPLE%*%BLUE%*%WHITE%* // Tome of Identify
 
 //High-Tier Uniques
 ItemDisplay[(rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*
