@@ -2645,23 +2645,6 @@ ItemDisplay[obf ILVL>25 NMAG SOCK=0]:%NAME%{%TAN%Max Sockets: 3}%CONTINUE%//
 
 // --- // Unique, Set, Rare, or Crafted Items \\ --- \\
 
-//Kick Damage on Assassin Set Boots
-ItemDisplay[lbt ASSASSIN SET]: %NAME%{%WHITE%Kick Damage: 3 to 8}%CONTINUE%
-ItemDisplay[vbt ASSASSIN SET]: %NAME%{%WHITE%Kick Damage: 4 to 10}%CONTINUE%
-ItemDisplay[mbt ASSASSIN SET]: %NAME%{%WHITE%Kick Damage: 6 to 12}%CONTINUE%
-ItemDisplay[tbt ASSASSIN SET]: %NAME%{%WHITE%Kick Damage: 8 to 16}%CONTINUE%
-ItemDisplay[hbt ASSASSIN SET]: %NAME%{%WHITE%Kick Damage: 10 to 20}%CONTINUE%
-ItemDisplay[xlb ASSASSIN SET]: %NAME%{%WHITE%Kick Damage: 26 to 46}%CONTINUE%
-ItemDisplay[xvb ASSASSIN SET]: %NAME%{%WHITE%Kick Damage: 28 to 50}%CONTINUE%
-ItemDisplay[xmb ASSASSIN SET]: %NAME%{%WHITE%Kick Damage: 23 to 52}%CONTINUE%
-ItemDisplay[xtb ASSASSIN SET]: %NAME%{%WHITE%Kick Damage: 37 to 64}%CONTINUE%
-ItemDisplay[xhb ASSASSIN SET]: %NAME%{%WHITE%Kick Damage: 39 to 80}%CONTINUE%
-ItemDisplay[ulb ASSASSIN SET]: %NAME%{%WHITE%Kick Damage: 65 to 100}%CONTINUE%
-ItemDisplay[uvb ASSASSIN SET]: %NAME%{%WHITE%Kick Damage: 60 to 110}%CONTINUE%
-ItemDisplay[umb ASSASSIN SET]: %NAME%{%WHITE%Kick Damage: 69 to 118}%CONTINUE%
-ItemDisplay[utb ASSASSIN SET]: %NAME%{%WHITE%Kick Damage: 50 to 145}%CONTINUE%
-ItemDisplay[uhb ASSASSIN SET]: %NAME%{%WHITE%Kick Damage: 83 to 149}%CONTINUE%
-
 //Armor 0 Sockets
 ItemDisplay[ci0 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 1%NL%Base Defense: 20-30}%CONTINUE%//
 ItemDisplay[ci0 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%TAN%Max Sockets: 2%NL%Base Defense: 20-30}%CONTINUE%//

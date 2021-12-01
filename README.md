@@ -207,5 +207,3 @@ Ensured all 'potential Rune Words' listed in non-magic, socketed item descriptio
 Ensured any and all newly useful Rune Word bases are always showing and sometimes notifying. (4 socket, etheral elite shields, 3 socket ethereal class or elite helms, 5 socket elite amazon bows, etc.)
 
 Updated the list of +skills needed on a non-magic class item for it to show, overall making them generally much more inclusive in the end game.
-
-Added kick damage values to set boots for Assassins. Previously hidden (vanilla LoD bug). (Thank you Dauracul!)
