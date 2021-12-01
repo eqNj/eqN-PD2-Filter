@@ -66,9 +66,9 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 Read the "Changelog" further below for more details on the filter's features.
 
-## Relaxed / Strict Filter Differences
+## 'Relaxed' / 'Strict' Filter Differences
 
-The Strict filter has the following changes (after character level 75):
+### The 'Strict' filter has the following changes (after character level 75):
 
 Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden. (Elite tier will still show.)
 
@@ -78,7 +78,7 @@ Non-magic elite items are sometimes hidden, unless specifically useful for runew
 
 Normal and exceptional magic class items are hidden unless specifically great for crafting.
 
-Normal and exceptional rare items are hidden, with exceptions for: Gloves, boots, belts, ethereal weapons, bows, grim shields, mage plates, circlets, and all class items.
+Normal and exceptional rare items are hidden, with exceptions for: Gloves, Boots, Belts, Ethereal Weapons, Bows, Grim Shields, Mage Plates, Circlets, and all class items.
 
 Only high/mid-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
