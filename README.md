@@ -206,4 +206,14 @@ Ensured all 'potential Rune Words' listed in non-magic, socketed item descriptio
 
 Ensured any and all newly useful Rune Word bases are always showing and sometimes notifying. (4 socket, etheral elite shields, 3 socket ethereal class or elite helms, 5 socket elite amazon bows, etc.)
 
-Updated the list of +skills needed on a non-magic class item for it to show, overall making them generally much more inclusive in the end game.
+Updated the list of +skills needed on a non-magic class item for it to show, overall making them generally much more inclusive in the endgame.
+
+Added additional shop hunting tags to items worth buying from vendors.
+
+Added notes to magic and rare jewels that are good for Low Level Dueling to encourage trading.
+
+Added notes to unique and set items that are good for Low Level Dueling to encourage trading.
+
+Planned: Added notes and a [LLD] name tag to specific magic and non-magic items that drop and would serve as ideal Low Level Dueling bases for either Rune Words or Crafting (indicating a crafting character level of 1 for simplicity.)
+
+Big thanks to Hastmannen for their help with all the Low Level Dueling information. You can find their LLD guides for PD2 on Reddit!
