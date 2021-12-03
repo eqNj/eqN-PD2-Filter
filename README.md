@@ -140,7 +140,7 @@ All elite items will continue to show past level 80 as normal.
 
 Details from 'The Arreat Summit' about Base Defense ranges and maximum potential sockets (dynamic with item level) have been added to all item descriptions where possible/applicable. The max sockets shown on Unique, Crafted, Set, and Rare items will be the maximum amount possible through a corruption. As soon as an item has any sockets it will stop showing the max sockets that were possible.
 
-(Big thanks to TheIrateSeaGoer for his work on the Arreat Summit details!)
+(Big thanks to TheIrateSeagoer for his work on the Arreat Summit details!)
 
 Crafting recipes will now only show on identified magic items with item level 51 or higher. 
 
@@ -192,6 +192,8 @@ Narrowed down some parameters to show non-magic staves at higher levels now due 
 
 ## 1.3.0 - (Season 4)
 
+Crafting Recipes, Upgrade Recipes, and Socket Recipes will no longer show in vendors, making shopping for valuable items much easier. Added more shopping highlights for valuable items and made existing shopping highlights only show on items within shops. Huge thanks to TheIrateSeagoer for getting the new SHOP code added to the Mod.
+
 Added alerts for the new rare quivers. Magic quivers will always show, but not notify.
 
 Added special alerts for all of the new Uber Rathma (The Void) uniques.
@@ -208,12 +210,10 @@ Ensured any and all newly useful Rune Word bases are always showing and sometime
 
 Updated the list of +skills needed on a non-magic class item for it to show, overall making them generally much more inclusive in the endgame.
 
-Added additional shop hunting tags to items worth buying from vendors.
-
 Added notes to magic and rare jewels that are good for Low Level Dueling to encourage trading.
 
 Added notes to unique and set items that are good for Low Level Dueling to encourage trading.
 
-Planned: Added notes and a [LLD] name tag to specific magic and non-magic items that drop and would serve as ideal Low Level Dueling bases for either Rune Words or Crafting (indicating a crafting character level of 1 for simplicity.)
+Planned: Added notes and a [LLD] name tag to specific magic and non-magic items that drop and would serve as ideal Low Level Dueling bases for either Rune Words or Crafting.
 
-Big thanks to Hastmannen for their help with all the Low Level Dueling information. You can find their LLD guides for PD2 on Reddit!
+Big thanks to Hastmannen for their help with all the Low Level Dueling information. You can find Hastmannen's LLD guides for PD2 on Reddit!
