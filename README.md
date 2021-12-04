@@ -192,8 +192,6 @@ Narrowed down some parameters to show non-magic staves at higher levels now due 
 
 ## 1.3.0 - (Season 4)
 
-Crafting Recipes, Upgrade Recipes, and Socket Recipes will no longer show in vendors, making shopping for valuable items much easier. Added more shopping highlights for valuable items and made existing shopping highlights only show on items within shops. Huge thanks to TheIrateSeagoer for getting the new SHOP code added to the Mod.
-
 Added alerts for the new rare quivers. Magic quivers will always show, but not notify.
 
 Added special alerts for all of the new Uber Rathma (The Void) uniques.
