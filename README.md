@@ -192,6 +192,10 @@ Narrowed down some parameters to show non-magic staves at higher levels now due 
 
 ## 1.3.0 - (Season 4)
 
+Made it so more valuable magic class items stand out (for shop hunting or just IDing in general).
+
+Continued improvements and refinement of items that show up unidentified with two gray asterisks (denoting useful crafting bases).
+
 Added alerts for the new rare quivers. Magic quivers will always show, but not notify.
 
 Added special alerts for all of the new Uber Rathma (The Void) uniques.
