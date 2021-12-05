@@ -667,26 +667,26 @@ ItemDisplay[RARE CHEST ID !RW PRICE>19999 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%
 ItemDisplay[RARE CHEST ID !RW PRICE>9999 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Normal
 
 //Health & Mana Potions
-ItemDisplay[rvl]: %PURPLE% JV%WHITE%
-ItemDisplay[rvs]: %PURPLE% rj%WHITE%
-ItemDisplay[mp5]: %BLUE%!%WHITE%M%BLUE%!
-ItemDisplay[hp5]: %RED%!%WHITE%H%RED%!
-ItemDisplay[mp4]: %BLUE%!%WHITE%m%BLUE%!
-ItemDisplay[hp4 CLVL<70]: %RED%!%WHITE%h%RED%!
+ItemDisplay[rvl]: %PURPLE%JV
+ItemDisplay[rvs]: %PURPLE%rj
+ItemDisplay[mp5]: %BLUE%!%WHITE%M
+ItemDisplay[hp5]: %RED%!%WHITE%H
+ItemDisplay[mp4]: %BLUE%!%WHITE%m
+ItemDisplay[hp4 CLVL<70]: %RED%!%WHITE%h
 ItemDisplay[hp4 CLVL>69]: 
-ItemDisplay[mp3 CLVL<50]: %BLUE%!%WHITE%mana%BLUE%!
-ItemDisplay[mp3 CLVL>49 (DIFF=0 OR DIFF=1)]: %BLUE%!%WHITE%mana%BLUE%!
+ItemDisplay[mp3 CLVL<50]: %BLUE%!%WHITE%mana
+ItemDisplay[mp3 CLVL>49 (DIFF=0 OR DIFF=1)]: %BLUE%!%WHITE%mana
 ItemDisplay[mp3 CLVL>49]: 
-ItemDisplay[hp3 CLVL<40]: %RED%!%WHITE%heal%RED%!
+ItemDisplay[hp3 CLVL<40]: %RED%!%WHITE%heal
 ItemDisplay[hp3 CLVL>39]: 
-ItemDisplay[mp2 CLVL<40]: %BLUE%!%WHITE%lite%BLUE%!
+ItemDisplay[mp2 CLVL<40]: %BLUE%!%WHITE%lite
 ItemDisplay[mp2 CLVL>39 (DIFF=0 OR DIFF=1)]: %BLUE%!%WHITE%lite
 ItemDisplay[mp2 CLVL>39]: 
-ItemDisplay[hp2 CLVL<30]: %RED%!%WHITE%lite%RED%!
+ItemDisplay[hp2 CLVL<30]: %RED%!%WHITE%lite
 ItemDisplay[hp2 CLVL>29]: 
-ItemDisplay[mp1 CLVL<30]: %BLUE%!%WHITE%min%BLUE%!
+ItemDisplay[mp1 CLVL<30]: %BLUE%!%WHITE%min
 ItemDisplay[mp1 CLVL>29]: 
-ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%min%RED%!
+ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%min
 ItemDisplay[hp1 CLVL>14]: 
 
 //Utilites
