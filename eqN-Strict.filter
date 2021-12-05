@@ -4407,6 +4407,9 @@ ItemDisplay[RARE ETH WEAPON !ID]: %NAME%{%NAME%}
 ItemDisplay[EQ7 MAG !ID]: %NAME%{%NAME%}
 ItemDisplay[EQ7 NMAG !INF !ETH SOCK=0]: %NAME%{%NAME%}
 
+//Non-Equip Failsafe
+ItemDisplay[!(ARMOR OR WEAPON OR gpl OR gpm OR gps OR opl OR opm OR ops OR rin OR amu OR GOLD>0 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR hp5 OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR rvs OR rvl OR vps OR yps OR wms OR isc OR tsc OR ibk OR tbk)]: %NAME% // Showing all non-equipment items
+
 //----------------------------------------- Hiding Items -----------------------------------------
 
 //Hiding NORM Tier Items
