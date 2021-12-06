@@ -1735,21 +1735,21 @@ ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk OR aqv OR cqv) QTY>1]: %NAME% %TAN%x
 //----------------------------------------- Project Diablo 2 & End Game Items -----------------------------------------
 
 //Jewel Fragments
-ItemDisplay[jewf]: %BLUE%%NAME%{%WHITE%Functions identical to Jewels for %ORANGE%Crafting%NL%%NL%%TAN%Shatter to soot, component of creation.}
+ItemDisplay[jewf]: %BLUE%%NAME%{%WHITE%Functions identical to %BLUE%Jewels %WHITE%for %ORANGE%Crafting%NL%%NL%%TAN%Shatter to soot, component of creation.}
 
 //Standard of Heroes
-ItemDisplay[std]: %PX-9D%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*{%WHITE%+10% Experience%NL%+20% Magic & Gold Find%NL%+20% Monster Density%NL%%GOLD%Cube %WHITE%this with a Map to gain:}
+ItemDisplay[std]: %PX-9D%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*%GOLD%{%WHITE%+10% Experience%NL%+20% Magic & Gold Find%NL%+20% Monster Density%NL%%GOLD%Cube %WHITE%this with a Map to gain:}
 
 //Project Diablo 2 Items
-ItemDisplay[wss]: %MAP-0A%%NAME%{%RED%Warning%WHITE%: It can brick your item!%NL%%WHITE%Use this to %RED%Corrupt %WHITE%items.%NL%%NL%%TAN%Eye of Anu %WHITE%or %TAN%Heart of Creation%NL%A fragment of that which is known as:}
-ItemDisplay[scrb]: %BORDER-A9%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*{%WHITE%Create a %RED%Dungeon%NL%%GOLD%Cube %WHITE%this with a %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Map:}
+ItemDisplay[wss]: %MAP-0A%%NAME%{%RED%Warning%WHITE%: It can brick your item!%NL%%WHITE%Use this to %RED%Corrupt %WHITE%items.%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of Creation}
+ItemDisplay[scrb]: %BORDER-A9%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*%GOLD%{%WHITE%Create a %RED%Dungeon%NL%%GOLD%Cube %WHITE%this with a %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Map:}
 ItemDisplay[imra]: %NAME%{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel %WHITE%+ %ORANGE%Rune >9%NL%%WHITE%Imbue a White Map to %YELLOW%Rare%WHITE%:}
 ItemDisplay[rera]: %NAME%{%YELLOW%Map %WHITE%+ %GOLD%Orb %WHITE%+ Perfect Gem + %ORANGE%Rune >9%NL%%WHITE%Reroll a %YELLOW%Rare %WHITE%Map:}
 ItemDisplay[upma]: %NAME%{%BLUE%Map %WHITE%+ %GOLD%Orb %WHITE%+ %GRAY%@ %WHITE%+ %ORANGE%Rune >9%NL%%WHITE%Imbue a %BLUE%Magic %WHITE%Map to %YELLOW%Rare%WHITE%:}
 ItemDisplay[imma]: %NAME%{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel %NL%%WHITE%Imbue a White Map to %BLUE%Magic%WHITE%:}
 ItemDisplay[scou]: %NAME%{%BLUE%M%WHITE%a%YELLOW%p %WHITE%+ %GOLD%Orb %WHITE%+ %ORANGE%Hel Rune%NL%%WHITE%Imbue a %BLUE%Magic%WHITE%/%YELLOW%Rare %WHITE%Map to White:}
 ItemDisplay[upmp]: %NAME%{%WHITE%3x %BLUE%M%WHITE%a%YELLOW%p %TAN%(%WHITE%Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Orb %WHITE%= Map %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%WHITE%Upgrade Maps to a higher Tier:}
-ItemDisplay[lbox]: %BORDER-0A%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*{%RED%Corruption %WHITE%could result higher.%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Use this to %TAN%Socket %WHITE%an Item}
+ItemDisplay[lbox]: %BORDER-0A%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*%GOLD%{%RED%Corruption %WHITE%could result higher.%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Use this to %TAN%Socket %WHITE%an Item}
 
 //Project Diablo 2 Maps
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) NMAG]: %WHITE%%NAME%%CONTINUE%
@@ -1772,28 +1772,28 @@ ItemDisplay[bet]: %PX-60%%NAME%{%RED%Diablo, Lord of Terror%NL%%GRAY%Dropped by:
 ItemDisplay[fed]: %PX-60%%NAME%{%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Dropped by:}
 
 //Uber Keys
-ItemDisplay[pk1]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*{%RED%The Countess%NL%Blood Raven%NL%%GRAY%Dropped by:}
-ItemDisplay[pk2]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*{%BLUE%The Summoner%NL%Bloodwitch the Wild%NL%%GRAY%Dropped by:}
-ItemDisplay[pk3]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*{%PURPLE%Nihlathak the Necromancer%NL%Izual the Fallen Angel%NL%%GRAY%Dropped by:}
+ItemDisplay[pk1]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*%ORANGE%{%RED%The Countess%NL%Blood Raven%NL%%GRAY%Dropped by:}
+ItemDisplay[pk2]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*%ORANGE%{%BLUE%The Summoner%NL%Bloodwitch the Wild%NL%%GRAY%Dropped by:}
+ItemDisplay[pk3]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*%ORANGE%{%PURPLE%Nihlathak the Necromancer%NL%Izual the Fallen Angel%NL%%GRAY%Dropped by:}
 
 //Organs
-ItemDisplay[mbr]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*{%WHITE%to access %ORANGE%Uber Tristram%NL%%WHITE%+ %GRAY%Key%NL%%GOLD%Cube %WHITE%any three %RED%Organs}
-ItemDisplay[bey]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*{%WHITE%to access %ORANGE%Uber Tristram%NL%%WHITE%+ %GRAY%Key%NL%%GOLD%Cube %WHITE%any three %RED%Organs}
-ItemDisplay[dhn]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*{%WHITE%to access %ORANGE%Uber Tristram%NL%%WHITE%+ %GRAY%Key%NL%%GOLD%Cube %WHITE%any three %RED%Organs}
+ItemDisplay[mbr]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*%ORANGE%{%WHITE%to access %ORANGE%Uber Tristram%NL%%WHITE%+ %GRAY%Key%NL%%GOLD%Cube %WHITE%any three %RED%Organs}
+ItemDisplay[bey]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*%ORANGE%{%WHITE%to access %ORANGE%Uber Tristram%NL%%WHITE%+ %GRAY%Key%NL%%GOLD%Cube %WHITE%any three %RED%Organs}
+ItemDisplay[dhn]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*%ORANGE%{%WHITE%to access %ORANGE%Uber Tristram%NL%%WHITE%+ %GRAY%Key%NL%%GOLD%Cube %WHITE%any three %RED%Organs}
 
 //Pandemonium Talisman
-ItemDisplay[ubtm]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*{%ORANGE%Uber Tristram %GRAY%awaits...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath%NL%A singular attempt:}
+ItemDisplay[ubtm]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*%ORANGE%{%ORANGE%Uber Tristram %GRAY%awaits...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath%NL%A singular attempt:}
 
 //Diablo Clone
-ItemDisplay[dcbl]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*{%WHITE%Found throughout %BLUE%Maps of Sanctuary%NL%%WHITE%Those wrought in %RED%Supreme Maleficence%NL%%GRAY%Dropped by:}
-ItemDisplay[dcho]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*{%RED%The Pandemonium Event%NL%%GRAY%Dropped by:}
-ItemDisplay[dcso]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*{%DARK_GREEN%Baal, Lord of Destruction%NL%%RED%Diablo, Lord of Terror%NL%%GRAY%Dropped by:}
-ItemDisplay[dcma]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*{%ORANGE%Uber Diablo %GRAY%awaits...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath%NL%A singular attempt:}
+ItemDisplay[dcbl]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*%ORANGE%{%WHITE%Found throughout %BLUE%Maps of Sanctuary%NL%%WHITE%Those wrought in %RED%Supreme Maleficence%NL%%GRAY%Dropped by:}
+ItemDisplay[dcho]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*%ORANGE%{%RED%The Pandemonium Event%NL%%GRAY%Dropped by:}
+ItemDisplay[dcso]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*%ORANGE%{%DARK_GREEN%Baal, Lord of Destruction%NL%%RED%Diablo, Lord of Terror%NL%%GRAY%Dropped by:}
+ItemDisplay[dcma]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*%ORANGE%{%ORANGE%Uber Diablo %GRAY%awaits...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath%NL%A singular attempt:}
 
 //The Void
-ItemDisplay[rtmo]: %BORDER-0A%%WHITE%*%BLUE%*%PURPLE%*     %ORANGE%%NAME%     %PURPLE%*%BLUE%*%WHITE%*{%WHITE%Used in a recipe that creates a %ORANGE%Voidstone}
-ItemDisplay[rtma]: %BORDER-0A%%WHITE%*%BLUE%*%PURPLE%*     %ORANGE%%NAME%     %PURPLE%*%BLUE%*%WHITE%*{%ORANGE%Uber Rathma %GRAY%awaits...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath%NL%A singular attempt:}
-ItemDisplay[cwss]: %BORDER-68%%YELLOW%*%TAN%*%GRAY%*     %PURPLE%%NAME%     %GRAY%*%TAN%*%YELLOW%*{%RED%Warning%WHITE%: It can brick your charm!%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%Eye of Anu, Heart of Creation%NL%A fragment of that which goes by:}
+ItemDisplay[rtmo]: %BORDER-0A%%WHITE%*%BLUE%*%PURPLE%*     %ORANGE%%NAME%     %PURPLE%*%BLUE%*%WHITE%*%ORANGE%{%WHITE%Used in a recipe that creates a %ORANGE%Voidstone}
+ItemDisplay[rtma]: %BORDER-0A%%WHITE%*%BLUE%*%PURPLE%*     %ORANGE%%NAME%     %PURPLE%*%BLUE%*%WHITE%*%ORANGE%{%ORANGE%Uber Rathma %GRAY%awaits...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath%NL%A singular attempt:}
+ItemDisplay[cwss]: %BORDER-0A%%WHITE%*%BLUE%*%PURPLE%*     %PURPLE%%NAME%     %PURPLE%*%BLUE%*%WHITE%*%PURPLE%{%RED%Warning%WHITE%: It can brick your charm!%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of Creation}
 
 //Wirt's Leg
 ItemDisplay[leg ILVL>60]: %NAME% {%WHITE%From: Hell%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
@@ -4087,7 +4087,7 @@ ItemDisplay[NEC (SK67>2 OR SK74>2 OR SK94>2 OR SK75>2 OR SK70>2 OR SK84>2 OR SK8
 ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=0 OR SOCK=4 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 SOCK=3]: %NAME%{%NAME%}
 ItemDisplay[6rx NMAG !INF !RW (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(6cb OR 8rx OR 6rx) NMAG !INF !RW (SOCK=0 OR SOCK=3 OR SOCK=4)]: %NAME%{%NAME%}
+ItemDisplay[(6cb OR 8rx OR 6rx OR 6lx OR 6mx) NMAG !INF !RW (SOCK=0 OR SOCK=3 OR SOCK=4)]: %NAME%{%NAME%}
 
 //Daggers
 ItemDisplay[7kr !INF NMAG !RW SOCK=3]: %NAME%{%NAME%}
