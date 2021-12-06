@@ -1839,9 +1839,9 @@ ItemDisplay[r01s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%El %WHITE%+ %GRAY%Key %WHITE
 ItemDisplay[r02s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Eld %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Tir%NL%%NL%%WHITE%Shield: 7% Block Chance%NL%Armor/Helm: -15% Stamina Drain%NL%Weapon: +75% Dmg, +50 AR vs Undead%NL%}
 ItemDisplay[r03s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Tir %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Nef%NL%%NL%%WHITE%Shield: +2 to Mana per Kill%NL%Armor/Helm: +2 to Mana per Kill%NL%Weapon: +2 to Mana per Kill%NL%}
 ItemDisplay[r04s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Nef %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Eth%NL%%NL%%WHITE%Shield: +30 Defense Vs. Missile%NL%Armor/Helm: +30 Defense Vs. Missile%NL%Weapon: Knockback%NL%}
-ItemDisplay[r05s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Eth %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Ith%NL%%NL%%WHITE%Shield: Regenerate Mana 15%%NL%Armor/Helm: Regenerate Mana 15%%NL%Weapon: -25% Target Defense%NL%}
+ItemDisplay[r05s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Eth %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Ith%NL%%NL%%WHITE%Shield: Regenerate Mana +15%%NL%Armor/Helm: Regenerate Mana +15%%NL%Weapon: -25% Target Defense%NL%}
 ItemDisplay[r06s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Ith %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Tal%NL%%NL%%WHITE%Shield: 15% Damage to Mana%NL%Armor/Helm: 15% Damage to Mana%NL%Weapon: +9 to Max Damage%NL%}
-ItemDisplay[r07s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Tal %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Ral%NL%%NL%%WHITE%Shield: Psn Res +35%%NL%Armor/Helm: Psn Res +30%%NL%Weapon: +75 Psn Dmg Over 5 Sec%NL%}
+ItemDisplay[r07s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Tal %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Ral%NL%%NL%%WHITE%Shield: Psn Resist +35%%NL%Armor/Helm: Psn Resist +30%%NL%Weapon: +75 Psn Dmg Over 5 Sec%NL%}
 ItemDisplay[r08s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Ral %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Ort%NL%%NL%%WHITE%Shield: Fire Resist +35%%NL%Armor/Helm: Fire Resist +30%%NL%Weapon: +5-30 Fire Dmg%NL%}
 ItemDisplay[r09s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Ort %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Thul%NL%%NL%%WHITE%Shield: Light Resist +35%%NL%Armor/Helm: Light Resist +30%%NL%Weapon: +1-50 Light Dmg%NL%}
 ItemDisplay[r10s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Thul %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Amn%NL%%NL%%WHITE%Shield: Cold Resist +35%%NL%Armor/Helm: Cold Resist +30%%NL%Weapon: +3-14 Cold Dmg%NL%}
@@ -1855,35 +1855,35 @@ ItemDisplay[r17s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Lum %WHITE%+ %GRAY%Key %WHIT
 ItemDisplay[r18s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Ko %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Fal%NL%%NL%%WHITE%Shield: +10 to Dexterity%NL%Armor/Helm: +10 to Dexterity%NL%Weapon: +10 to Dexterity%NL%}
 ItemDisplay[r19s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Fal %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Lem%NL%%NL%%WHITE%Shield: +10 to Strength%NL%Armor/Helm: +10 to Strength%NL%Weapon: +10 to Strength%NL%}
 ItemDisplay[r20s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Lem %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Pul%NL%%NL%%WHITE%Shield: 50% Extra Gold%NL%Armor/Helm: 50% Extra Gold%NL%Weapon: 75% Extra Gold%NL%}
-ItemDisplay[r21s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Pul %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Um%NL%%NL%%WHITE%Shield: 30% Enhanced Def%NL%Armor/Helm: 30% Enhanced Def%NL%Weapon: +75% Dmg, +100 AR vs Demon%NL%}
-ItemDisplay[r22s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Um %WHITE%+ %GRAY%Key %WHITE%=%ORANGE%Mal%NL%%NL%%WHITE%Shield: All Res +22%NL%Armor/Helm: All Res +15%NL%Weapon: 25% Chance of Open Wounds%NL%}
-ItemDisplay[r23s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Mal %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Ist%NL%%NL%%WHITE%Shield: Magic Dmg Red by 7%NL%Armor/Helm: Magic Dmg Red by 7%NL%Weapon: Prevent Monster Heal%NL%}
+ItemDisplay[r21s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Pul %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Um%NL%%NL%%WHITE%Shield: 30% Enhanced Defense%NL%Armor/Helm: 30% Enhanced Defense%NL%Weapon: +75% Dmg, +100 AR vs Demon%NL%}
+ItemDisplay[r22s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Um %WHITE%+ %GRAY%Key %WHITE%=%ORANGE%Mal%NL%%NL%%WHITE%Shield: All Resist +22%NL%Armor/Helm: All Resist +15%NL%Weapon: 25% Chance of Open Wounds%NL%}
+ItemDisplay[r23s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Mal %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Ist%NL%%NL%%WHITE%Shield: Magic Dmg Reduced by 7%NL%Armor/Helm: Magic Dmg Reduced by 7%NL%Weapon: Prevent Monster Heal%NL%}
 ItemDisplay[r24s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Ist %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Gul%NL%%NL%%WHITE%Shield: 25% Magic Find%NL%Armor/Helm: 25% Magic Find%NL%Weapon: 30% Magic Find%NL%}
-ItemDisplay[r25s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Gul %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Vex%NL%%NL%%WHITE%Shield: +4% to Max Psn Res%NL%Armor/Helm: +4% to Max Psn Res%NL%Weapon: +20% to Attack Rating%NL%}
-ItemDisplay[r26s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Vex %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Ohm%NL%%NL%%WHITE%Shield: +4% to Max Fire Res%NL%Armor/Helm: +4% to Max Fire Res%NL%Weapon: 7% Mana Leech%NL%}
-ItemDisplay[r27s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Ohm %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Lo%NL%%NL%%WHITE%Shield: +4% to Max Cold Res%NL%Armor/Helm: +4% to Max Cold Res%NL%Weapon: 50% Enhanced Damage%NL%}
-ItemDisplay[r28s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Lo %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Sur%NL%%NL%%WHITE%Shield: +4% to Max Light Res%NL%Armor/Helm: +4% to Max Light Res%NL%Weapon: 20% Deadly Strike%NL%}
+ItemDisplay[r25s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Gul %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Vex%NL%%NL%%WHITE%Shield: +4% to Max Psn Resist%NL%Armor/Helm: +4% to Max Psn Resist%NL%Weapon: +20% to Attack Rating%NL%}
+ItemDisplay[r26s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Vex %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Ohm%NL%%NL%%WHITE%Shield: +4% to Max Fire Resist%NL%Armor/Helm: +4% to Max Fire Resist%NL%Weapon: 7% Mana Leech%NL%}
+ItemDisplay[r27s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Ohm %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Lo%NL%%NL%%WHITE%Shield: +4% to Max Cold Resist%NL%Armor/Helm: +4% to Max Cold Resist%NL%Weapon: 50% Enhanced Damage%NL%}
+ItemDisplay[r28s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Lo %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Sur%NL%%NL%%WHITE%Shield: +4% to Max Light Resist%NL%Armor/Helm: +4% to Max Light Resist%NL%Weapon: 20% Deadly Strike%NL%}
 ItemDisplay[r29s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Sur %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Ber%NL%%NL%%WHITE%Shield: +50 to Mana%NL%Armor/Helm: Inc Max Mana 5%%NL%Weapon: +4 Life After Each Kill%NL%}
-ItemDisplay[r30s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Ber %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Jah%NL%%NL%%WHITE%Shield: Dmg Red by 4%%NL%Armor/Helm: Dmg Red by 4%%NL%Weapon: 20% Chance of Crushing Blow%NL%}
+ItemDisplay[r30s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Ber %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Jah%NL%%NL%%WHITE%Shield: Dmg Reduced by 4%%NL%Armor/Helm: Dmg Reduced by 4%%NL%Weapon: 20% Chance of Crushing Blow%NL%}
 ItemDisplay[r31s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Jah %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Cham%NL%%NL%%WHITE%Shield: +50 to Life%NL%Armor/Helm: Inc Max Life 5%%NL%Weapon: Ignore Target's Defense%NL%}
 ItemDisplay[r32s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Cham %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Zod%NL%%NL%%WHITE%Shield: Cannot be Frozen%NL%Armor/Helm: Cannot be Frozen%NL%Weapon: Freezes Target +3%NL%}
 ItemDisplay[r33s]: %NAME%%ORANGE%{%ORANGE%Zod %WHITE%+ %GRAY%@ %WHITE%= Repair any Item%NL%%NL%Shield: Indestructible%NL%Armor/Helm: Indestructible%NL%Weapon: Indestructible%NL%}
 ItemDisplay[RUNE>0]: %NAME%%ORANGE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%}
 
 //Gems Notes
-ItemDisplay[gzvs]: %NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%[%PURPLE%@%ORANGE%]%NL%%NL%%WHITE%Shield: +24 Def%NL%Armor/Helm: +8 to Strength%NL%Weapon: +100 to Attack Rating%NL%}
-ItemDisplay[glys]: %NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%[%YELLOW%@%ORANGE%]%NL%%NL%%WHITE%Shield: 28% Light Res%NL%Armor/Helm: 20% Magic Find%NL%Weapon: 1-30 Light Damage%NL%}
-ItemDisplay[glbs]: %NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%[%BLUE%@%ORANGE%]%NL%%NL%%WHITE%Shield: 28% Cold Res%NL%Armor/Helm: +31 to Mana%NL%Weapon: 6-10 Cold Damage%NL%}
-ItemDisplay[glgs]: %NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%[%GREEN%@%ORANGE%]%NL%%NL%%WHITE%Shield: 28% Psn Res%NL%Armor/Helm: +8 Dexterity%NL%Weapon: +60 Psn Dmg over 6 Sec%NL%}
-ItemDisplay[glrs]: %NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%[%RED%@%ORANGE%]%NL%%NL%%WHITE%Shield: 28% Fire Res%NL%Armor/Helm: +31 to Life%NL%Weapon: 10-16 Fire Dmg%NL%}
-ItemDisplay[glws]: %NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%[%WHITE%@%ORANGE%]%NL%%NL%%WHITE%Shield: All Res +14%%NL%Armor/Helm: +80 to AR%NL%Weapon: +54% Dmg vs Undead%NL%}
+ItemDisplay[gzvs]: %NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%[%PURPLE%@%ORANGE%]%NL%%NL%%WHITE%Shield: +24 Defense%NL%Armor/Helm: +8 to Strength%NL%Weapon: +100 to Attack Rating%NL%}
+ItemDisplay[glys]: %NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%[%YELLOW%@%ORANGE%]%NL%%NL%%WHITE%Shield: 28% Light Resist%NL%Armor/Helm: 20% Magic Find%NL%Weapon: 1-30 Light Damage%NL%}
+ItemDisplay[glbs]: %NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%[%BLUE%@%ORANGE%]%NL%%NL%%WHITE%Shield: 28% Cold Resist%NL%Armor/Helm: +31 to Mana%NL%Weapon: 6-10 Cold Damage%NL%}
+ItemDisplay[glgs]: %NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%[%GREEN%@%ORANGE%]%NL%%NL%%WHITE%Shield: 28% Psn Resist%NL%Armor/Helm: +8 Dexterity%NL%Weapon: +60 Psn Dmg over 6 Sec%NL%}
+ItemDisplay[glrs]: %NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%[%RED%@%ORANGE%]%NL%%NL%%WHITE%Shield: 28% Fire Resist%NL%Armor/Helm: +31 to Life%NL%Weapon: 10-16 Fire Dmg%NL%}
+ItemDisplay[glws]: %NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%[%WHITE%@%ORANGE%]%NL%%NL%%WHITE%Shield: All Resist +14%%NL%Armor/Helm: +80 to AR%NL%Weapon: +54% Dmg vs Undead%NL%}
 ItemDisplay[skls]: %NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%[%GRAY%@%ORANGE%]%NL%%NL%%WHITE%Shield: Attacker +16 Dmg%NL%Armor/Helm: Rep Life 4 & Reg Mana 12%%NL%Weapon: 3% Life & 3% Mana Leech%NL%}
-ItemDisplay[gpvs]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: +30 Def%NL%Armor/Helm: +10 to Strength%NL%Weapon: +150 to Attack Rating%NL%}
-ItemDisplay[gpys]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: 40% Light Res%NL%Armor/Helm: 24% Magic Find%NL%Weapon: 1-40 Light Damage%NL%}
-ItemDisplay[gpbs]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: 40% Cold Res%NL%Armor/Helm: +38 to Mana%NL%Weapon: 10-14 Cold Damage%NL%}
-ItemDisplay[gpgs]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: 40% Psn Res%NL%Armor/Helm: +10 Dexterity%NL%Weapon: +100 Psn Dmg over 7 Sec%NL%}
-ItemDisplay[gprs]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: 40% Fire Res%NL%Armor/Helm: +38 to Life%NL%Weapon: 15-20 Fire Dmg%NL%}
-ItemDisplay[gpws]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: All Res +19%%NL%Armor/Helm: +100 to AR%NL%Weapon: +68% Dmg vs Undead%NL%}
+ItemDisplay[gpvs]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: +30 Defense%NL%Armor/Helm: +10 to Strength%NL%Weapon: +150 to Attack Rating%NL%}
+ItemDisplay[gpys]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: 40% Light Resist%NL%Armor/Helm: 24% Magic Find%NL%Weapon: 1-40 Light Damage%NL%}
+ItemDisplay[gpbs]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: 40% Cold Resist%NL%Armor/Helm: +38 to Mana%NL%Weapon: 10-14 Cold Damage%NL%}
+ItemDisplay[gpgs]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: 40% Psn Resist%NL%Armor/Helm: +10 Dexterity%NL%Weapon: +100 Psn Dmg over 7 Sec%NL%}
+ItemDisplay[gprs]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: 40% Fire Resist%NL%Armor/Helm: +38 to Life%NL%Weapon: 15-20 Fire Dmg%NL%}
+ItemDisplay[gpws]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: All Resist +19%%NL%Armor/Helm: +100 to AR%NL%Weapon: +68% Dmg vs Undead%NL%}
 ItemDisplay[skzs]: %PX-70%%NAME%%WHITE%{%GOLD%Cube %WHITE%to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: Attacker +20 Dmg%NL%Armor/Helm: Rep Life 5 & Reg Mana 19%%NL%Weapon: 4% Life & 3% Mana Leech %NL%}
 
 //IDed Jewel Notes
