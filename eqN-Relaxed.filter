@@ -1759,10 +1759,11 @@ ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)
 ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %GRAY%[%TAN%T2%GRAY%] %NAME%%CONTINUE%
 ItemDisplay[(t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %GRAY%[%ORANGE%T3%GRAY%] %NAME%%CONTINUE%
 ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %GRAY%[%RED%Dungeon%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %GRAY%[%PURPLE%PvP%GRAY%] %NAME%%CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t61 OR t62) (!ID OR NMAG)]: %MAP-7F%%NAME%%CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to modify Maps%NL%%GOLD%Cube %WHITE%with 3x Perfect Gems to Reroll}
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to modify Maps}
-ItemDisplay[(t61 OR t62)]: %NAME%{%NAME%}
+ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %NAME%{%GRAY%Deaths %WHITE%herein are not permanent in %RED%Hardcore%WHITE%.%NL%%NL%%TAN%- that they plan their fight in the ring.%NL%There is an old adage about gladiators}
 
 //Essences
 ItemDisplay[tes]: %PX-60%%NAME%{%BLUE%Duriel, Lord of Pain%NL%Andariel, Maiden of Anguish%NL%%GRAY%Dropped by:}
@@ -4388,7 +4389,7 @@ ItemDisplay[SOR SOCK=3 NMAG]: %NAME%{%NAME%} // 3 Socket Sorceress Orbs
 //Specific Item Failsafe
 ItemDisplay[CHEST !ETH !INF NMAG SOCK=4 CLVL<80]: %NAME%{%NAME%} // 4 Socket Chests for early progression MF
 ItemDisplay[HELM !ETH !INF NMAG SOCK=3 CLVL<75]: %NAME%{%NAME%} // 3 Socket Helms for early progression MF
-ItemDisplay[((HELM ELT) OR (EQ7 (EXC OR ELT)) OR crn) ETH !INF NMAG SOCK=3]: %NAME%{%NAME%} // 3 Socket Helms for Zeal Memes
+ItemDisplay[((HELM ELT) OR EQ7) ETH !INF NMAG SOCK=3]: %NAME%{%NAME%} // 3 Socket Helms for Zeal
 ItemDisplay[((POLEARM OR SPEAR) AND !(ZON OR THROWING)) NMAG ETH !INF (SOCK=0 OR SOCK=4)]: %NAME%{%NAME%} // Act 2 Merc RuneWord Bases
 ItemDisplay[xsh !ETH !INF NMAG !SOCK=1]: %NAME%{%NAME%} // Grim Shield
 ItemDisplay[xtp !INF NMAG !SOCK=1]: %NAME%{%NAME%} // Mage Plate
@@ -4406,9 +4407,6 @@ ItemDisplay[RARE ETH WEAPON !ID]: %NAME%{%NAME%}
 //Circlets
 ItemDisplay[EQ7 MAG !ID]: %NAME%{%NAME%}
 ItemDisplay[EQ7 NMAG !INF !ETH SOCK=0]: %NAME%{%NAME%}
-
-//Non-Equip Failsafe
-ItemDisplay[!(ARMOR OR WEAPON OR gpl OR gpm OR gps OR opl OR opm OR ops OR rin OR amu OR GOLD>0 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR hp5 OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR rvs OR rvl OR vps OR yps OR wms OR isc OR tsc OR ibk OR tbk)]: %NAME% // Showing all non-equipment items
 
 //----------------------------------------- Hiding Items -----------------------------------------
 
