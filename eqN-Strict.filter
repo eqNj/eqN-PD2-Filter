@@ -658,10 +658,10 @@ ItemDisplay[GOLD<1000 (CLVL>24 AND CLVL<70)]:
 ItemDisplay[GOLD<2000 (CLVL>69 AND CLVL<80)]:
 ItemDisplay[GOLD<5000 CLVL>79]:
 
-// These lines add a "$" to the start of rare item names if they're worth selling
-ItemDisplay[RARE !CHEST !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Hell
-ItemDisplay[RARE !CHEST !RW PRICE>19999 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Nightmare
-ItemDisplay[RARE !CHEST !RW PRICE>9999 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Normal
+// These lines add a "$" to the start of rare item names if they sell for maximum value per difficulty
+ItemDisplay[RARE !EQ7 !CHEST !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Hell
+ItemDisplay[RARE !EQ7 !CHEST !RW PRICE>19999 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Nightmare
+ItemDisplay[RARE !EQ7 !CHEST !RW PRICE>9999 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Normal
 ItemDisplay[RARE CHEST ID !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Hell
 ItemDisplay[RARE CHEST ID !RW PRICE>19999 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Nightmare
 ItemDisplay[RARE CHEST ID !RW PRICE>9999 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Normal
