@@ -1741,8 +1741,8 @@ ItemDisplay[jewf]: %BLUE%%NAME%{%WHITE%Functions identical to Jewels for %ORANGE
 ItemDisplay[std]: %PX-9D%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*{%WHITE%+10% Experience%NL%+20% Magic & Gold Find%NL%+20% Monster Density%NL%%GOLD%Cube %WHITE%this with a Map to gain:}
 
 //Project Diablo 2 Items
-ItemDisplay[wss]: %MAP-0A%%NAME%{%RED%Warning%WHITE%: It can brick your item!%NL%%WHITE%Use this to %RED%Corrupt %WHITE%items.%NL%%NL%Eye of Anu, Heart of Creation%NL%A fragment of that which goes by:}
-ItemDisplay[scrb]: %BORDER-A9%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*{%WHITE%Create a %RED%Group Dungeon%NL%%GOLD%Cube %WHITE%this with a %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Map:}
+ItemDisplay[wss]: %MAP-0A%%NAME%{%RED%Warning%WHITE%: It can brick your item!%NL%%WHITE%Use this to %RED%Corrupt %WHITE%items.%NL%%NL%%TAN%Eye of Anu %WHITE%or %TAN%Heart of Creation%NL%A fragment of that which is known as:}
+ItemDisplay[scrb]: %BORDER-A9%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*{%WHITE%Create a %RED%Dungeon%NL%%GOLD%Cube %WHITE%this with a %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Map:}
 ItemDisplay[imra]: %NAME%{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel %WHITE%+ %ORANGE%Rune >9%NL%%WHITE%Imbue a White Map to %YELLOW%Rare%WHITE%:}
 ItemDisplay[rera]: %NAME%{%YELLOW%Map %WHITE%+ %GOLD%Orb %WHITE%+ Perfect Gem + %ORANGE%Rune >9%NL%%WHITE%Reroll a %YELLOW%Rare %WHITE%Map:}
 ItemDisplay[upma]: %NAME%{%BLUE%Map %WHITE%+ %GOLD%Orb %WHITE%+ %GRAY%@ %WHITE%+ %ORANGE%Rune >9%NL%%WHITE%Imbue a %BLUE%Magic %WHITE%Map to %YELLOW%Rare%WHITE%:}
