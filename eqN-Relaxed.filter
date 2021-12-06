@@ -1741,7 +1741,7 @@ ItemDisplay[jewf]: %BLUE%%NAME%{%WHITE%Functions identical to %BLUE%Jewels %WHIT
 ItemDisplay[std]: %PX-9D%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*%GOLD%{%WHITE%+10% Experience%NL%+20% Magic & Gold Find%NL%+20% Monster Density%NL%%GOLD%Cube %WHITE%this with a Map to gain:}
 
 //Project Diablo 2 Items
-ItemDisplay[wss]: %MAP-0A%%NAME%{%RED%Warning%WHITE%: It can brick your item!%NL%%WHITE%Use this to %RED%Corrupt %WHITE%items.%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of Creation}
+ItemDisplay[wss]: %MAP-0A%%NAME%{%RED%Warning%WHITE%: It can brick your item!%NL%%WHITE%Use this to %RED%Corrupt %WHITE%items.%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
 ItemDisplay[scrb]: %BORDER-A9%%YELLOW%*%TAN%*%GRAY%*     %GOLD%%NAME%     %GRAY%*%TAN%*%YELLOW%*%GOLD%{%WHITE%Create a %RED%Dungeon%NL%%GOLD%Cube %WHITE%this with a %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Map:}
 ItemDisplay[imra]: %NAME%{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel %WHITE%+ %ORANGE%Rune >9%NL%%WHITE%Imbue a White Map to %YELLOW%Rare%WHITE%:}
 ItemDisplay[rera]: %NAME%{%YELLOW%Map %WHITE%+ %GOLD%Orb %WHITE%+ Perfect Gem + %ORANGE%Rune >9%NL%%WHITE%Reroll a %YELLOW%Rare %WHITE%Map:}
@@ -1793,7 +1793,7 @@ ItemDisplay[dcma]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%
 //The Void
 ItemDisplay[rtmo]: %BORDER-0A%%WHITE%*%BLUE%*%PURPLE%*     %ORANGE%%NAME%     %PURPLE%*%BLUE%*%WHITE%*%ORANGE%{%WHITE%Used in a recipe that creates a %ORANGE%Voidstone}
 ItemDisplay[rtma]: %BORDER-0A%%WHITE%*%BLUE%*%PURPLE%*     %ORANGE%%NAME%     %PURPLE%*%BLUE%*%WHITE%*%ORANGE%{%ORANGE%Uber Rathma %GRAY%awaits...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath%NL%A singular attempt:}
-ItemDisplay[cwss]: %BORDER-0A%%WHITE%*%BLUE%*%PURPLE%*     %PURPLE%%NAME%     %PURPLE%*%BLUE%*%WHITE%*%PURPLE%{%RED%Warning%WHITE%: It can brick your charm!%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of Creation}
+ItemDisplay[cwss]: %BORDER-0A%%WHITE%*%BLUE%*%PURPLE%*     %PURPLE%%NAME%     %PURPLE%*%BLUE%*%WHITE%*%PURPLE%{%RED%Warning%WHITE%: It can brick your charm!%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
 
 //Wirt's Leg
 ItemDisplay[leg ILVL>60]: %NAME% {%WHITE%From: Hell%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
