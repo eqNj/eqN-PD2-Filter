@@ -1100,7 +1100,7 @@ ItemDisplay[(6cs OR 6bs OR wst OR 8ws OR 6ws) MAG !ID ILVL>70]: %GRAY%*%BLUE%%NA
 ItemDisplay[WEAPON !(SOR OR WAND OR hax OR 9ha OR axe OR 9ax OR mac OR 9ma OR mst OR 9mt OR ssd OR 9ss OR scm OR 9sm OR sbr OR 9sb OR flc OR 9fc OR dgr OR 9dg OR dir OR 9di OR bld OR 9bl OR STAFF) MAG ETH !ID ILVL>65]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(xh9 OR uh9 OR xsk OR usk) MAG !ID ILVL>68]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(xrn OR urn OR xhm OR uhm) MAG ETH !ID ILVL>68]: %GRAY%*%BLUE%%NAME%%GRAY%*
-ItemDisplay[(xsh OR ush OR xrg OR urg OR upk OR xow OR uow OR xts OR uts) MAG !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
+ItemDisplay[(xsh OR ush OR xrg OR urg OR upk OR xit OR uit OR xow OR uow OR xts OR uts) MAG !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[NEC ELT MAG !ID ILVL>79]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[DIN ELT MAG !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[ltp MAG !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
