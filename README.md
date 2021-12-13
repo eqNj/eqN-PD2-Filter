@@ -34,6 +34,8 @@ All armor pieces of any kind will always show their base defense ranges (in thei
 
 ![Socketable](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Armor.jpg)
 
+All weapons will show their base speed (-60 to 20) value to make calculating IAS breakpoints quicker and easier.
+
 All unsocketed, but socketable, items of any kind will show their potential maximum sockets (in their description), accounting for item level. 
 
 If an item is non-magic it will show its maximum potential sockets possible through the Larzuk quest or Cube socket recipe. 
