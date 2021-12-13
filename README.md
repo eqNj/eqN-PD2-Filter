@@ -60,9 +60,9 @@ Rares of all tiers will still show at all levels. This includes all class items 
 
 Select ethereal and/or magic items from all tiers, those that are best for crafting, will continue to show, and they will be indicated by two gray asterisks, one on each side. High item level magic amulets will show an orange [C] next to them, and once identified will show the exact level best for crafting them to ensure +2 skills rolls are possible.
 
-Four socket, ethereal polearm/spear weapons of all tiers, for use with the Insight Rune Word on lower level characters, will show at all levels.
+Four socket, ethereal polearm/spear weapons of all tiers, for use with the Insight runeword on lower level characters, will show at all levels.
 
-Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed), as well as any elite class items that could be used for Rune Words.
+Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed), as well as any elite class items that could be used for runewords.
 
 Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items.
 
@@ -78,7 +78,7 @@ Non-magic class items with only one socket are always hidden, even with +3 skill
 
 Non-magic elite items are sometimes hidden, unless specifically useful for runewords or if they have +3 to a valuable skill.
 
-Normal and exceptional magic class items are hidden unless specifically great for crafting.
+Normal and exceptional magic class items are hidden unless specifically great for crafting and/or the class you are playing.
 
 Normal and exceptional rare items are hidden, with exceptions for: Gloves, Boots, Belts, Ethereal Weapons, Bows, Grim Shields, Mage Plates, Circlets, and all class items.
 
@@ -94,7 +94,7 @@ All presently showing superior items with Enhanced Defense or Enhanced Damage wi
 
 Stack sizes now only show on item names for stacks > 1.
 
-All possible Rune Words or the method of socketing will show in the description on applicable items at all times, if that item is seen by your character.
+All possible runewords or the method of socketing will show in the description on applicable items at all times, if that item is seen by your character.
 
 Added a description to unsocketed superior items advising they can be socketed only through Larzuk or Corruption.
 
@@ -212,9 +212,9 @@ Ensured any non-magic wands or necro shields with the new Summon Skeleton Archer
 
 Updated the "Max Sockets" info on countless items, as 2 handed weapons can once again get up to 4 sockets from Puzzlebox, or up to 6 sockets from Corruption. 
 
-Ensured all 'potential Rune Words' listed in non-magic, socketed item descriptions are accurate with Season 4 update.
+Ensured all 'potential runewords' listed in non-magic, socketed item descriptions are accurate with Season 4 update.
 
-Ensured any and all newly useful Rune Word bases are always showing and sometimes notifying. (4 socket, etheral elite shields, 3 socket ethereal class or elite helms, 5 socket elite amazon bows, etc.)
+Ensured any and all newly useful runeword bases are always showing and sometimes notifying. (4 socket, etheral elite shields, 3 socket ethereal class or elite helms, 5 socket elite amazon bows, etc.)
 
 Updated the list of +skills needed on a non-magic class item for it to show, overall making them generally much more inclusive in the endgame.
 
@@ -222,6 +222,6 @@ Added notes to magic and rare jewels that are good for Low Level Dueling to enco
 
 Added notes to unique and set items that are good for Low Level Dueling to encourage trading.
 
-Planned: Added notes and a [LLD] name tag to specific magic and non-magic items that drop and would serve as ideal Low Level Dueling bases for either Rune Words or Crafting.
+Planned: Added notes and a [LLD] name tag to specific magic and non-magic items that drop and would serve as ideal Low Level Dueling bases for either runewords or Crafting.
 
 Big thanks to Hastmannen for their help with all the Low Level Dueling information. You can find Hastmannen's LLD guides for PD2 on Reddit!
