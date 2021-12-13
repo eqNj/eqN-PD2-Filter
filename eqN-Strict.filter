@@ -1117,7 +1117,7 @@ ItemDisplay[rin MAG !ID ILVL>85]: %GRAY%*%BLUE%%NAME%%GRAY%*
 //Always Show Useful MAG
 ItemDisplay[xrg OR urg OR xit OR uit MAG !ID ILVL>84]: %NAME%%BLUE%
 ItemDisplay[CHEST ELT MAG !ID ILVL>84]: %NAME%%BLUE%
-ItemDisplay[(BOW OR XBOW) !(6lx OR 6sb OR 6hb OR 6lb OR 6cb) ELT MAG !AMAZON !ID ILVL>85]: %NAME%%BLUE%
+ItemDisplay[(BOW OR XBOW) !(6lx OR 6sb OR 6hb OR 6lb OR 6cb) ELT MAG !AMAZON !ID ILVL>84]: %NAME%%BLUE%
 ItemDisplay[(am5 OR ama OR amf) MAG !ID ILVL>60]: %NAME%%BLUE%
 
 //Notes For High ILVL Crafting Amulets
