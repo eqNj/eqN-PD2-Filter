@@ -32,7 +32,7 @@ All non-magic (white) items with a relevant amount of plus skills that drop will
 
 All armor pieces of any kind will always show their base defense ranges (in their description) to allow you to know if the item has a "good roll" in this way.
 
-![Socketable](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Details.jpg)
+![Socketable](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Armor.jpg)
 
 All unsocketed, but socketable, items of any kind will show their potential maximum sockets (in their description), accounting for item level. 
 
@@ -191,6 +191,10 @@ Tidied up and added all new/changed runewords to applicable socketed item types.
 Narrowed down some parameters to show non-magic staves at higher levels now due to staves having a scaling implicit cast speed bonus based upon tier.
 
 ## 1.3.0 - (Season 4)
+
+Added Base Speed value to weapons.
+
+Made all Base Defense, Base Speed, and Max Socket info in descriptions white.  
 
 Made it so more valuable magic class items stand out (for shop hunting or just IDing in general).
 
