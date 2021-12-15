@@ -1086,7 +1086,7 @@ ItemDisplay[(6rx OR amc OR am7 OR am2 OR amb OR am6 OR am1) MAG !ID AMAZON ILVL>
 ItemDisplay[(6rx OR amc OR amb) MAG !ID !AMAZON ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(am5 OR ama OR amf) MAG ETH !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(crs OR 9cr) MAG ETH !ID ILVL>50]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
-ItemDisplay[(ob5 OR oba OR obf) MAG !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
+ItemDisplay[(ob5 OR oba OR obf) MAG SORCERESS !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(xtp OR utp OR uui) MAG !ID ILVL>84]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[CHEST ELT ETH MAG !ID ILVL>84]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 
@@ -1101,7 +1101,7 @@ ItemDisplay[BELT (EXC OR ELT) !(ztb OR utc OR zhb OR uhc) MAG !ETH !ID ILVL>70]:
 ItemDisplay[(ztb OR utc OR zhb OR uhc) MAG ETH !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(xh9 OR uh9 OR xsk OR usk) MAG !ID ILVL>68]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(xrn OR urn OR xhm OR uhm) MAG ETH !ID ILVL>68]: %GRAY%*%BLUE%%NAME%%GRAY%*
-ItemDisplay[(xsh OR ush OR upk OR xow OR uow OR xts OR uts) MAG !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
+ItemDisplay[(xsh OR ush OR xow OR uow OR xts OR uts) MAG !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[NEC ELT MAG !ID ILVL>79]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[DIN ELT MAG !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(SCEPTER OR (DRU !ETH) OR (BAR !ETH) OR SIN) ELT MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
@@ -1115,7 +1115,8 @@ ItemDisplay[WEAPON !(SOR OR WAND OR hax OR 9ha OR axe OR 9ax OR mac OR 9ma OR ms
 ItemDisplay[rin MAG !ID ILVL>85]: %GRAY%*%BLUE%%NAME%%GRAY%*
 
 //Always Show Useful MAG
-ItemDisplay[xrg OR urg OR xit OR uit MAG !ID ILVL>84]: %NAME%%BLUE%
+ItemDisplay[(DRU OR BAR) ETH ELT MAG !ID ILVL>70]: %NAME%%BLUE%
+ItemDisplay[(xrg OR urg OR xit OR uit OR upk) MAG !ID ILVL>84]: %NAME%%BLUE%
 ItemDisplay[CHEST ELT MAG !ID ILVL>84]: %NAME%%BLUE%
 ItemDisplay[(BOW OR XBOW) !(6lx OR 6sb OR 6hb OR 6lb OR 6cb) ELT MAG !AMAZON !ID ILVL>84]: %NAME%%BLUE%
 ItemDisplay[(am5 OR ama OR amf) MAG !ID ILVL>60]: %NAME%%BLUE%
@@ -4371,6 +4372,7 @@ ItemDisplay[SOR SORCERESS SOCK=3 NMAG]: %NAME%{%NAME%} // 3 Socket Sorceress Orb
 //Specific Item Failsafe
 ItemDisplay[CHEST !ETH !INF NMAG SOCK=4 CLVL<80]: %NAME%{%NAME%} // 4 Socket Chests for early progression MF
 ItemDisplay[HELM !ETH !INF NMAG SOCK=3 CLVL<75]: %NAME%{%NAME%} // 3 Socket Helms for early progression MF
+ItemDisplay[(sbw OR hbw OR lbw OR cbw) NMAG SOCK=3 CLVL<90]: %NAME%{%NAME%} // 3 Socket Bows for Gambling
 ItemDisplay[((POLEARM OR SPEAR) AND !(ZON OR THROWING)) NMAG ETH !INF (SOCK=0 OR SOCK=4)]: %NAME%{%NAME%} // Act 2 Merc RuneWord Bases
 ItemDisplay[xsh !ETH !INF NMAG !SOCK=1]: %NAME%{%NAME%} // Grim Shield
 ItemDisplay[xtp !INF NMAG !SOCK=1]: %NAME%{%NAME%} // Mage Plate
