@@ -78,7 +78,7 @@ Non-magic class items with only one socket are always hidden, even with +3 skill
 
 Non-magic elite items are sometimes hidden, unless specifically useful for runewords or if they have +3 to a valuable skill.
 
-Normal and exceptional magic class items are hidden unless specifically great for crafting and/or the class you are playing.
+Normal and exceptional magic class items are hidden unless specifically great for crafting and/or specifically for the class you are playing.
 
 Normal and exceptional rare items are hidden, with exceptions for: Gloves, Boots, Belts, Ethereal Weapons, Bows, Grim Shields, Mage Plates, Circlets, and all class items.
 
