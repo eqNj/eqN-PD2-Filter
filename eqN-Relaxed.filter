@@ -3749,8 +3749,8 @@ ItemDisplay[nee ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0)
 ItemDisplay[nef ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 103-148}%CONTINUE%//
 
 //All Weapon Speeds
-ItemDisplay[WEAPON (THROWING OR SOCK>0 OR STAT360>0)]:%NAME%{%WHITE%Base Speed: %WPNSPD%%NAME%}%CONTINUE%
-ItemDisplay[WEAPON SOCK=0 STAT360=0 !THROWING]:%NAME%{%WHITE%Base Speed: %WPNSPD%%NL%%NAME%}%CONTINUE%
+ItemDisplay[WEAPON (THROWING OR SOCK>0 OR STAT360>0 OR MAG)]:%NAME%{%WHITE%Base Speed: %WPNSPD%%NAME%}%CONTINUE%
+ItemDisplay[WEAPON SOCK=0 STAT360=0 !THROWING !MAG]:%NAME%{%WHITE%Base Speed: %WPNSPD%%NL%%NAME%}%CONTINUE%
 
 //----------------------------------------- Notes For LLD & Upgrading Items -----------------------------------------
 
@@ -4372,7 +4372,6 @@ ItemDisplay[SOR SORCERESS SOCK=3 NMAG]: %NAME%{%NAME%} // 3 Socket Sorceress Orb
 //Specific Item Failsafe
 ItemDisplay[CHEST !ETH !INF NMAG SOCK=4 CLVL<80]: %NAME%{%NAME%} // 4 Socket Chests for early progression MF
 ItemDisplay[HELM !ETH !INF NMAG SOCK=3 CLVL<75]: %NAME%{%NAME%} // 3 Socket Helms for early progression MF
-ItemDisplay[(sbw OR hbw OR lbw OR cbw) NMAG SOCK=3 CLVL<90]: %NAME%{%NAME%} // 3 Socket Bows for Gambling
 ItemDisplay[((POLEARM OR SPEAR) AND !(ZON OR THROWING)) NMAG ETH !INF (SOCK=0 OR SOCK=4)]: %NAME%{%NAME%} // Act 2 Merc RuneWord Bases
 ItemDisplay[xsh !ETH !INF NMAG !SOCK=1]: %NAME%{%NAME%} // Grim Shield
 ItemDisplay[xtp !INF NMAG !SOCK=1]: %NAME%{%NAME%} // Mage Plate
