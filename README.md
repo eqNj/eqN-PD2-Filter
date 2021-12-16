@@ -80,7 +80,7 @@ Non-magic elite items are sometimes hidden, unless specifically useful for runew
 
 Normal and exceptional magic class items are hidden unless specifically great for crafting and/or specifically for the class you are playing.
 
-Normal and exceptional rare weapons are hidden, unless ethereal and/or a class item.
+Normal and exceptional rare weapons are hidden, unless ethereal, a bow/crossbow, and/or a class item.
 
 Only high/mid-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
