@@ -1110,6 +1110,7 @@ ItemDisplay[DIN !ETH ELT MAG !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[((DRU !ETH) OR (BAR !ETH)) ELT MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[SOR MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(spc OR 9sp OR 7sp OR 9cl OR 7cl) MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
+ItemDisplay[(6rx OR amc OR am7 OR am2 OR amb OR am6 OR am1) MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[WEAPON MAG ETH !ID ILVL>65]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[rin MAG !ID ILVL>85]: %GRAY%*%BLUE%%NAME%%GRAY%*
 
@@ -1117,7 +1118,6 @@ ItemDisplay[rin MAG !ID ILVL>85]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(DRU OR BAR) ETH ELT MAG !ID ILVL>70]: %NAME%%BLUE%
 ItemDisplay[(xrg OR urg OR uit OR upk) MAG !ID ILVL>84]: %NAME%%BLUE%
 ItemDisplay[CHEST ELT MAG !ID ILVL>84]: %NAME%%BLUE%
-ItemDisplay[(BOW OR XBOW) !(6lx OR 6sb OR 6hb OR 6lb OR 6cb) ELT MAG !AMAZON !ID ILVL>84]: %NAME%%BLUE%
 ItemDisplay[(am5 OR ama OR amf) MAG !ID ILVL>60]: %NAME%%BLUE%
 
 //Notes For High ILVL Crafting Amulets
