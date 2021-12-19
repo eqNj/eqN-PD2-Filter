@@ -198,8 +198,6 @@ Added Base Speed value to weapons.
 
 Made all Base Defense, Base Speed, and Max Socket info in descriptions white.  
 
-Crafting Recipes will no longer show in vendors, making shopping for valuable magic items much easier. (Huge thanks to TheIrateSeagoer for getting the new 'SHOP' code added)
-
 Added more shopping highlights for valuable items magic items. 
 
 Continued improvements and refinement of items that show up unidentified with two gray asterisks (denoting useful crafting bases).
