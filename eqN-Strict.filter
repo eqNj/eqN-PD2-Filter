@@ -1080,6 +1080,8 @@ ItemDisplay[NEC MAG ((TABSK17>2 AND (SK93>1 OR SK84>1 OR SK67>1)) OR ((TABSK17>1
 ItemDisplay[STAFF MAG CHSK54>0]: %RED%***   %GREEN%Teleport Charge Staff%RED%   ***%BLUE%{%RED%***   %GREEN%Teleport Charges%RED%   ***}
 ItemDisplay[WAND MAG CHSK91>0]: %RED%***   %GREEN%Lower Resist Charge Wand%RED%   ***%BLUE%{%RED%***   %GREEN%Lower Resist Charges%RED%   ***}
 ItemDisplay[WAND MAG CHSK82>0]: %RED%***   %GREEN%Life Tap Charge Wand%RED%   ***%BLUE%{%RED%***   %GREEN%Life Tap Charges%RED%   ***}
+//Clean Shopping
+ItemDisplay[MAG ID SHOP]: %NAME%{%NAME%}
 
 // --- // --- Craftables --- \\ --- \\
 
