@@ -1120,8 +1120,8 @@ ItemDisplay[(am5 OR ama OR amf) MAG !ID ILVL>60]: %NAME%%BLUE%
 ItemDisplay[(DRU OR BAR) ETH ELT MAG !ID ILVL>70]: %NAME%%BLUE%
 ItemDisplay[(xrg OR urg OR uit OR upk) MAG !ID ILVL>84]: %NAME%%BLUE%
 ItemDisplay[CHEST ELT MAG !ID ILVL>84]: %NAME%%BLUE%
-ItemDisplay[CHEST MAG ETH !ID ILVL>51]: %NAME%%BLUE%
-ItemDisplay[(bhm OR xh9 OR uh9 OR msk OR xsk OR usk OR crn OR xrn OR urn OR ghm OR xhm OR uhm) MAG ETH !ID ILVL>51]: %BLUE%%NAME%
+ItemDisplay[CHEST MAG ETH !ID ILVL>50]: %NAME%%BLUE%
+ItemDisplay[(bhm OR xh9 OR uh9 OR msk OR xsk OR usk OR crn OR xrn OR urn OR ghm OR xhm OR uhm) MAG ETH !ID ILVL>50]: %BLUE%%NAME%
 
 //Notes For High ILVL Crafting Amulets
 ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{%YELLOW%Bty: @ %WHITE%+ %ORANGE%Ko %WHITE%| %GRAY%V: @ %WHITE%+ %ORANGE%Dol%NL%%BLUE%HP: @ %WHITE%+ %ORANGE%Thul %WHITE%| %GREEN%S: @ %WHITE%+ %ORANGE%Thul%NL%%RED%Bld: @ %WHITE%+ %ORANGE%Amn%WHITE% | %PURPLE%C: @ %WHITE%+ %ORANGE%Ral%NL%Craft at 92+: %BLUE%Jewel %WHITE%+}
