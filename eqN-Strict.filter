@@ -1102,7 +1102,7 @@ ItemDisplay[(xtb OR utb OR xhb OR uhb) MAG ETH !ID ILVL>70]: %GRAY%*%BLUE%%NAME%
 ItemDisplay[(xtb OR utb OR xhb OR uhb) MAG !ETH !ID ASSASSIN ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[BELT (EXC OR ELT) !(ztb OR utc OR zhb OR uhc) MAG !ETH !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(ztb OR utc OR zhb OR uhc) MAG ETH !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
-ItemDisplay[(xh9 OR uh9 OR xsk OR usk) MAG !ETH !ID ILVL>68]: %GRAY%*%BLUE%%NAME%%GRAY%*
+ItemDisplay[(xh9 OR uh9 OR xsk OR usk) MAG !ID ILVL>68]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(xrn OR urn OR xhm OR uhm) MAG ETH !ID ILVL>68]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(xsh OR ush OR uow OR uts) MAG !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[NEC !ETH ELT MAG !ID ILVL>79]: %GRAY%*%BLUE%%NAME%%GRAY%*
@@ -1113,12 +1113,15 @@ ItemDisplay[(spc OR 9sp OR 7sp OR 9cl OR 7cl) MAG !ID ILVL>70]: %GRAY%*%BLUE%%NA
 ItemDisplay[(6rx OR amc OR am7 OR am2 OR amb OR am6 OR am1) MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[WEAPON MAG ETH !ID ILVL>65]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[rin MAG !ID ILVL>85]: %GRAY%*%BLUE%%NAME%%GRAY%*
+ItemDisplay[CHEST MAG ETH !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
 
 //Always Show Useful MAG
+ItemDisplay[(am5 OR ama OR amf) MAG !ID ILVL>60]: %NAME%%BLUE%
 ItemDisplay[(DRU OR BAR) ETH ELT MAG !ID ILVL>70]: %NAME%%BLUE%
 ItemDisplay[(xrg OR urg OR uit OR upk) MAG !ID ILVL>84]: %NAME%%BLUE%
 ItemDisplay[CHEST ELT MAG !ID ILVL>84]: %NAME%%BLUE%
-ItemDisplay[(am5 OR ama OR amf) MAG !ID ILVL>60]: %NAME%%BLUE%
+ItemDisplay[CHEST MAG ETH !ID ILVL>51]: %NAME%%BLUE%
+ItemDisplay[(bhm OR xh9 OR uh9 OR msk OR xsk OR usk OR crn OR xrn OR urn OR ghm OR xhm OR uhm) MAG ETH !ID ILVL>51]: %BLUE%%NAME%
 
 //Notes For High ILVL Crafting Amulets
 ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{%YELLOW%Bty: @ %WHITE%+ %ORANGE%Ko %WHITE%| %GRAY%V: @ %WHITE%+ %ORANGE%Dol%NL%%BLUE%HP: @ %WHITE%+ %ORANGE%Thul %WHITE%| %GREEN%S: @ %WHITE%+ %ORANGE%Thul%NL%%RED%Bld: @ %WHITE%+ %ORANGE%Amn%WHITE% | %PURPLE%C: @ %WHITE%+ %ORANGE%Ral%NL%Craft at 92+: %BLUE%Jewel %WHITE%+}
