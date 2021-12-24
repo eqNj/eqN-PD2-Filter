@@ -1112,8 +1112,8 @@ ItemDisplay[SOR MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(spc OR 9sp OR 7sp OR 9cl OR 7cl) MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(6rx OR amc OR am7 OR am2 OR amb OR am6 OR am1) MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[WEAPON MAG ETH !ID ILVL>65]: %GRAY%*%BLUE%%NAME%%GRAY%*
-ItemDisplay[rin MAG !ID ILVL>85]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[CHEST MAG ETH !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
+ItemDisplay[rin MAG !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
 
 //Always Show Useful MAG
 ItemDisplay[(am5 OR ama OR amf) MAG !ID ILVL>60]: %NAME%%BLUE%
