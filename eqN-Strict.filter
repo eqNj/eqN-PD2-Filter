@@ -1841,7 +1841,7 @@ ItemDisplay[dcso]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%
 ItemDisplay[dcma]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*%ORANGE%{%ORANGE%Uber Diablo %GRAY%awaits...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath%NL%A singular attempt:}
 
 //The Void
-ItemDisplay[rtmf]: %MAP-0A%%BLUE%*%PURPLE%*   %ORANGE%%NAME%   %PURPLE%*%BLUE%*%ORANGE%{%WHITE%To create a %ORANGE%Trang-Oul's Jawbone%NL%%WHITE%With any %GOLD%Hellfire Torch%NL%Cube %WHITE%three %ORANGE%Ancient Bone Fragments}
+ItemDisplay[rtmf]: %MAP-0A%%BLUE%*%PURPLE%*   %ORANGE%%NAME%   %PURPLE%*%BLUE%*%ORANGE%{%WHITE%To create a %ORANGE%Trang-Oul's Jawbone%NL%%WHITE%With any %GOLD%Hellfire Torch%NL%Cube %WHITE%two %ORANGE%Ancient Bone Fragments}
 ItemDisplay[rtmo]: %BORDER-0A%%WHITE%*%BLUE%*%PURPLE%*     %ORANGE%%NAME%     %PURPLE%*%BLUE%*%WHITE%*%ORANGE%{%WHITE%Used in a recipe that creates a %ORANGE%Voidstone}
 ItemDisplay[rtmv]: %BORDER-0A%%WHITE%*%BLUE%*%PURPLE%*     %ORANGE%%NAME%     %PURPLE%*%BLUE%*%WHITE%*%ORANGE%{%WHITE%Used in a recipe that creates a %ORANGE%Voidstone}
 ItemDisplay[rtma]: %BORDER-0A%%WHITE%*%BLUE%*%PURPLE%*     %ORANGE%%NAME%     %PURPLE%*%BLUE%*%WHITE%*%ORANGE%{%ORANGE%Uber Rathma %GRAY%awaits...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath%NL%A singular attempt:}
