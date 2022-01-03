@@ -66,7 +66,7 @@ Any class items with +3 to at least one of any useful skill will always show, re
 
 Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items. (All Filters)
 
-Read the "Changelog" further below for more details on the filter's features. (Relative to the above, using the Relaxed filter as the assumed baseline.) 
+###### Read the "Changelog" further below for more details on the filter's features. (Relative to the above, using the Relaxed filter as the assumed baseline.) 
 
 ## 'Relaxed' / 'Strict' / 'SuperStrict' Filter Differences
 
