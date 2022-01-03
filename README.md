@@ -22,7 +22,7 @@ All non-magic (white) items with a relevant amount of plus skills that drop will
 
 All armor pieces of any kind will always show their base defense ranges (in their description) to allow you to know if the item has a "good roll" in this way.
 
-![Unsocketed Armor](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Armor.jpg)
+![Unsocketed Armor](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Mage Plate.jpg)
 
 All weapons will show their base speed (-60 to 20) value to make calculating IAS breakpoints quicker and easier.
 
@@ -48,7 +48,7 @@ All elite tier items are set to always show, with small exceptions for either cl
 
 Rares of all tiers will still show at all levels. This includes all class items (wands, orbs, helms, scepters/maces, staves, claws) and any rare bows or crossbows of all tiers aswell. (Relaxed Filter)
 
-Select ethereal and/or magic items from all tiers, those that are best for crafting, will continue to show, and they will be indicated by two gray asterisks, one on each side. High item level magic amulets will show an orange [C] next to them, and once identified will show the exact level best for crafting them to ensure +2 skills rolls are possible. (Relaxed Filter)
+Select ethereal and/or magic items from all tiers, those that are best for crafting, will continue to show, and they will be indicated by two gray asterisks, one on each side. High item level magic amulets will, once identified, show the exact character level best for crafting them to ensure +2 skills rolls are possible.
 
 Four socket, ethereal polearm/spear weapons of all tiers, for use with the Insight runeword on lower level characters, will show at all levels. (Relaxed Filter)
 
@@ -143,7 +143,7 @@ Shortened skill names shown on dropped white class items to help reduce visual c
 
 Removed exact item prices, and instead replaced a green $ indicator (like Wolfie's filter) on identified rares if they sell for maximum value for each respective difficulty.  
 
-Item level 88+ amulets will be marked [C] to indicate they're desired for crafting (like Wolfie's filter), and they will tell you what level to craft them at for +2 class skills.  
+Item level 88+ amulets will tell you what level to craft them at for +2 class skills.  
 
 All circlets of all tiers will always show, except if they are lower tier, white, and ethereal and/or socketed (unusable for imbuing).  
 
