@@ -22,7 +22,7 @@ All non-magic (white) items with a relevant amount of plus skills that drop will
 
 All armor pieces of any kind will always show their base defense ranges (in their description) to allow you to know if the item has a "good roll" in this way.
 
-![Unsocketed Armor](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Mage Plate.jpg)
+![Unsocketed Armor](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/MagePlate.jpg)
 
 All weapons will show their base speed (-60 to 20) value to make calculating IAS breakpoints quicker and easier.
 
