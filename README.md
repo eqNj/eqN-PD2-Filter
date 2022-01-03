@@ -97,7 +97,7 @@ Non-magic elite items are often hidden, unless highly sought after for runewords
 
 Normal, exceptional, and elite magic items are hidden unless ethereal weapons for crafting and/or specifically for the class you are playing.
 
-Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, an amazon bow, a class helm/shield, gloves, boots, belts, rings, amulets, circlets, or arrows.
+Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, an amazon bow, a class helm, necro shield, gloves, boots, belts, rings, amulets, circlets, or arrows.
 
 Only high-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 

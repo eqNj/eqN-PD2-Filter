@@ -4264,7 +4264,7 @@ ItemDisplay[CIRC NMAG !INF !ETH SOCK=0 CLVL<75]: %NAME%{%NAME%}
 ItemDisplay[aqv !AMAZON RARE !ID CLVL>74]: %WHITE%*%YELLOW%  %NAME%  %WHITE%*
 ItemDisplay[aqv AMAZON RARE !ID CLVL>74]: %DOT-A8%%WHITE%*%YELLOW%*   %NAME%   *%WHITE%*
 ItemDisplay[(am2 OR am7 OR amc OR am1 OR am6 OR amb) RARE !ID]: %NAME%{%NAME%}
-ItemDisplay[RARE (NEC OR DIN OR DRU OR BAR) !ETH !ID]: %NAME%{%NAME%}
+ItemDisplay[RARE (NEC OR DRU OR BAR) !ETH !ID]: %NAME%{%NAME%}
 ItemDisplay[utp !ETH !INF NMAG !SOCK=1 DEF>499]: %NAME%{%NAME%}
 ItemDisplay[uit !ETH !INF NMAG !RW SOCK=4]: %NAME%{%NAME%}
 
