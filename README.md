@@ -42,7 +42,7 @@ These recipes will show up once relevant as your character progresses, to help e
 
 Specifically, socketing recipes will show at item level 21+ (or earlier on any +3 skills items). Upgrading recipes will show at item level 13+. Crafting recipes will show at item level 51+ (as a resulting craft item level of 51 is when you can guarantee at least 3 mods).
 
-![Upgrade Boots](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Upgraded.jpg)
+![Upgrade Boots](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Upgrade.jpg)
 
 All elite tier items are set to always show, with small exceptions for either class items that are of low plus skill values. (Relaxed Filter)
 
