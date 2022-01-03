@@ -2,27 +2,27 @@
 
 ![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Loot.jpg)
 
-This filter is up-to-date for Season 4 of Project Diablo 2!
+These filters are up-to-date for Season 4 of Project Diablo 2!
 
-You can find my loot filter(s) either here or on the Project Diablo 2 game launcher.
+You can find these loot filters either here (on GitHub) or through the Project Diablo 2 game launcher.
 
 If you would like to contact me, find me in the official PD2 Discord with the name eqN.
 
-There is both a Relaxed (Default) and Strict version of my filter. The differences are subtle and described below at the end of the features section. 
+#### There are three versions of the eqN filter: 
 
-Originally, this was a remastered version of Kryszard's Project Diablo 2 loot filter from Season 1. Now, due to many differences this filter is all its own. I do want to give a big thanks to him for his awesome work on his filter though! 
+##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable. Also good for "Solo Self Found" style players or those playing singleplayer. This is the base filter upon which the following two versions are based.
 
-For those familiar, I have kept many of the features of Kryszard's filter intact. I have added several quality of life features, cleaned up a lot of the syntax and formatting, thoroughly refined the drops shown throughout leveling and endgame, and much more.
+##### Strict - Ideal for well geared characters or those who wish to only see generally useful items or more specialized class items specifically for their current character's class.
 
-This filter is generally less strict than other filters available but still focused. It is especially focused on optimizations as you level and slightly more lenient in the endgame by comparison.
+##### SuperStrict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons that could potentially fetch a decently high value in trading. Useful for those who regularly run high density maps and dungeons. 
+ 
+###### The differences between these filters, relative to the Relaxed filter as a baseline, are further described below, at the end of the 'Features' section. 
 
-This filter is for those of us used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them.
+The Relaxed filter is generally less strict than other filters available but still focused. It is especially focused on optimizations as you level and slightly more lenient in the endgame by comparison. The Relaxed filter is for those used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them. The Relaxed filter will show you if anything usable, even into the late game, would drop for any class. Period. 
 
-Solo players, hardcore players, or simply those seeking out less commonly used items for specialty builds may find this filter most useful compared to others. This filter will show you if anything usable, even into the late game, would drop for any class. Period. 
+Solo players, hardcore players, or simply those seeking out less commonly used items for specialty builds may find these filters most useful compared to others.
 
-This filter doesn't try to make all the decisions for you. You will see things that you may or may not be inclined to pick up, but it is always reasonable why you're seeing these items.
-
-My philosophy, and playstyle, have always been that you should be allowed to decide what items are worth picking up for yourself. Knowledge is power.
+These filters don't try to make all the decisions for you. You will see things that you may or may not be inclined to pick up, but it is always reasonable why you're seeing these items if you understand the nuances of itemization in Diablo 2.
 
 ## Features
 
@@ -32,11 +32,11 @@ All non-magic (white) items with a relevant amount of plus skills that drop will
 
 All armor pieces of any kind will always show their base defense ranges (in their description) to allow you to know if the item has a "good roll" in this way.
 
-![Socketable](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Armor.jpg)
+![Unsocketed Armor](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Armor.jpg)
 
 All weapons will show their base speed (-60 to 20) value to make calculating IAS breakpoints quicker and easier.
 
-All unsocketed, but socketable, items of any kind will show their potential maximum sockets (in their description), accounting for item level. 
+All unsocketed, but socketable, items of any kind will show their potential maximum sockets (in their description), accounting for rarity, item level, and corruption. 
 
 If an item is non-magic it will show its maximum potential sockets possible through the Larzuk quest or Cube socket recipe. 
 
@@ -54,35 +54,64 @@ Specifically, socketing recipes will show at item level 21+ (or earlier on any +
 
 ![Upgrade Boots](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Upgraded.jpg)
 
-All elite tier items are set to show, even after level 80, with only small exceptions for either some class items that are of low plus skill values or unideal weapons with a maximum of 2 sockets or less. 
+All elite tier items are set to always show, with small exceptions for either class items that are of low plus skill values. (Relaxed Filter)
 
-Rares of all tiers will still show at all levels. This includes all class items (wands, orbs, helms, scepters/maces, staves, claws) and any rare bows or crossbows of all tiers aswell.
+Rares of all tiers will still show at all levels. This includes all class items (wands, orbs, helms, scepters/maces, staves, claws) and any rare bows or crossbows of all tiers aswell. (Relaxed Filter)
 
-Select ethereal and/or magic items from all tiers, those that are best for crafting, will continue to show, and they will be indicated by two gray asterisks, one on each side. High item level magic amulets will show an orange [C] next to them, and once identified will show the exact level best for crafting them to ensure +2 skills rolls are possible.
+Select ethereal and/or magic items from all tiers, those that are best for crafting, will continue to show, and they will be indicated by two gray asterisks, one on each side. High item level magic amulets will show an orange [C] next to them, and once identified will show the exact level best for crafting them to ensure +2 skills rolls are possible. (Relaxed Filter)
 
-Four socket, ethereal polearm/spear weapons of all tiers, for use with the Insight runeword on lower level characters, will show at all levels.
+Four socket, ethereal polearm/spear weapons of all tiers, for use with the Insight runeword on lower level characters, will show at all levels. (Relaxed Filter)
 
-Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed), as well as any elite class items that could be used for runewords.
+Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed favoring exceptional/elite items), as well as any elite class items that could be used for runewords. 
 
 Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items.
 
-Read the "Changelog" further below for more details on the filter's features.
+Read the "Changelog" further below for more details on the filter's features. (Relative to the above, using the Relaxed filter as the assumed baseline.) 
 
-## 'Relaxed' / 'Strict' Filter Differences
+## 'Relaxed' / 'Strict' / 'SuperStrict' Filter Differences
 
 ### The 'Strict' filter has the following changes (after character level 75):
 
 Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden. (Elite tier will still show.)
 
-Non-magic class items with only one socket are always hidden, even with +3 skills.
-
 Non-magic elite items are sometimes hidden, unless specifically useful for runewords or if they have +3 to a valuable skill.
 
-Normal and exceptional magic class items are hidden unless specifically great for crafting and/or specifically for the class you are playing.
+Normal and exceptional magic class items are hidden unless specifically great for crafting and specifically for the class you are playing.
 
-Normal and exceptional rare weapons are hidden, unless ethereal, a bow/crossbow, and/or a class item.
+Most exceptional and elite magic items for crafting, except for elite chest armors and select weapons or class items, are hidden once you reach level 85.
+
+Normal, exceptional, and elite rare weapons are hidden, unless ethereal, a bow/crossbow, and/or a class item.
 
 Only high/mid-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
+
+Rare bolts and magic bolts and arrows are hidden. Amazons will still see magic arrows.
+
+Magic rings and amulets are hidden, unless item level 86+ rings or item level 90+ amulets.
+
+
+### The 'SuperStrict' filter has the following changes (after character level 75):
+
+Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden. (Elite tier will still show.)
+
+Non-magic elite items are often hidden, unless highly sought after for runewords or if they have +3 to a valuable skill.
+
+Normal, exceptional, and elite magic items are hidden unless ethereal weapons for crafting and/or specifically for the class you are playing.
+
+Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, an amazon bow, a class helm/shield, gloves, boots, belts, rings, amulets, circlets, or arrows.
+
+Only high-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
+
+Low-tier runes will no longer notify on drop, but will still always show on the ground. (Mid/high-tier runes still notify.)
+
+Rare bolts are hidden and magic bolts and arrows are hidden.
+
+Non-magic circlets of all kinds (for imbuing) are hidden.
+
+Regular Rejuvination Potions (not Full) are hidden.
+
+Magic rings and amulets are hidden.
+
+Magic large charms are hidden.
 
 # Changelog:
 
@@ -132,7 +161,7 @@ Multi-line item names are impossible as of 3/29/21.
 
 All uniques and runes previously using multi-line item names will look otherwise identical and still use spacing to increase their name size.
 
-Plus skills on items will still be listed, though shortened, in dark green text next to applicable item names. (As seen above, in the Features section)
+Plus skills on items will still be listed, though shortened, in dark green text next to applicable item names. (As seen above, in the 'Features' section.)
 
 Items with only plus 1 to a skill will not show such in their names after character level 30. These items will still show up on the ground as normal, until character level 80+ where any non-elite bases are required to have plus 3 to atleast one useful skill to show.
 
@@ -182,7 +211,7 @@ Made it so magic (for crafting) and non-magic (with druid plus skills) clubs of 
 
 Added new Vampiric and Bountiful crafting recipes to magic item descriptions.
 
-Added the new Pandemonium Tailsman.
+Added the new Pandemonium Talisman.
 
 Some jewels that are good for LLD (Low Level Dueling) will indicate such once identified.
 
@@ -197,6 +226,8 @@ Narrowed down some parameters to show non-magic staves at higher levels now due 
 Added Base Speed value to weapons.
 
 Made all Base Defense, Base Speed, and Max Socket info in descriptions white.  
+
+By popular demand: There is now a 'SuperStrict' version of the filter. You can read more about above, in the 'Features' section.
 
 Added more shopping highlights for valuable items magic items. 
 
@@ -214,7 +245,7 @@ Updated the "Max Sockets" info on countless items, as 2 handed weapons can once 
 
 Ensured all 'potential runewords' listed in non-magic, socketed item descriptions are accurate with Season 4 update.
 
-Ensured any and all newly useful runeword bases are always showing and sometimes notifying. (4 socket, etheral elite shields, 3 socket ethereal class or elite helms, 5 socket elite amazon bows, etc.)
+Ensured any and all newly useful runeword bases are always showing and sometimes notifying. (4 socket, ethereal elite shields, 3 socket ethereal class or elite helms, 5 socket elite amazon bows, etc.)
 
 Updated the list of +skills needed on a non-magic class item for it to show, overall making them generally much more inclusive in the endgame.
 
@@ -222,6 +253,6 @@ Added notes to magic and rare jewels that are good for Low Level Dueling to enco
 
 Added notes to unique and set items that are good for Low Level Dueling to encourage trading.
 
-Planned: Added notes and a [LLD] name tag to specific magic and non-magic items that drop and would serve as ideal Low Level Dueling bases for either runewords or Crafting.
+Added notes to large charms that are good for Low Level Dueling to encourage trading.
 
 Big thanks to Hastmannen for their help with all the Low Level Dueling information. You can find Hastmannen's LLD guides for PD2 on Reddit!
