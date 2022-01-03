@@ -16,7 +16,7 @@ If you would like to contact me, find me in the official PD2 Discord with the na
 
 ##### SuperStrict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons that could potentially fetch a decently high value in trading. Useful for those who regularly run high density maps and dungeons. 
  
-###### The differences between these filters, relative to the Relaxed filter as a baseline, are further described below, at the end of the 'Features' section. 
+###### The differences between these filters, relative to the Relaxed filter as a baseline, are further described below, at the end of the 'Features' section. All of these filters share the same leveling experience prior to character level 75.
 
 The Relaxed filter is generally less strict than other filters available but still focused. It is especially focused on optimizations as you level and slightly more lenient in the endgame by comparison. The Relaxed filter is for those used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them. The Relaxed filter will show you if anything usable, even into the late game, would drop for any class. Period. 
 
@@ -78,7 +78,7 @@ Non-magic elite items are sometimes hidden, unless specifically useful for runew
 
 Normal and exceptional magic class items are hidden unless specifically great for crafting and specifically for the class you are playing.
 
-Most exceptional and elite magic items for crafting, except for elite chest armors and select weapons or class items, are hidden once you reach level 85.
+Most exceptional and elite magic items for crafting, except for elite chest armors and select weapons or class items, are hidden once you reach character level 85.
 
 Normal, exceptional, and elite rare weapons are hidden, unless ethereal, a bow/crossbow, and/or a class item.
 
