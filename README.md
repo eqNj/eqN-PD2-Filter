@@ -62,9 +62,9 @@ Select ethereal and/or magic items from all tiers, those that are best for craft
 
 Four socket, ethereal polearm/spear weapons of all tiers, for use with the Insight runeword on lower level characters, will show at all levels. (Relaxed Filter)
 
-Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed favoring exceptional/elite items), as well as any elite class items that could be used for runewords. 
+Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed favoring exceptional/elite items), as well as any elite class items that could be used for runewords. (All Filters)
 
-Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items.
+Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items. (All Filters)
 
 Read the "Changelog" further below for more details on the filter's features. (Relative to the above, using the Relaxed filter as the assumed baseline.) 
 
