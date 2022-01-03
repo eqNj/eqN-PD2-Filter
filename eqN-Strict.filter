@@ -991,8 +991,8 @@ ItemDisplay[jew MAG !ID]: %DOT-9A%%TAN%*%BLUE%*   %NAME%   *%TAN%*
 
 //Highlight Good Rare Items
 ItemDisplay[(jew OR rin OR amu OR CIRC) RARE !ID]: %DOT-A8%%WHITE%*%YELLOW%*   %NAME%   *%WHITE%*
-ItemDisplay[(cqv OR aqv) !AMAZON RARE !ID]: %WHITE%*%YELLOW%  %NAME%  %WHITE%*
-ItemDisplay[(cqv OR aqv) AMAZON RARE !ID]: %DOT-A8%%WHITE%*%YELLOW%*   %NAME%   *%WHITE%*
+ItemDisplay[(cqv OR aqv) !AMAZON RARE !ID CLVL<75]: %WHITE%*%YELLOW%  %NAME%  %WHITE%*
+ItemDisplay[(cqv OR aqv) AMAZON RARE !ID CLVL<75]: %DOT-A8%%WHITE%*%YELLOW%*   %NAME%   *%WHITE%*
 
 //Diablo Clone Uniques
 ItemDisplay[UNI !ID utb]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%%NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* // Mirrored Boots
@@ -4255,6 +4255,8 @@ ItemDisplay[(CHEST OR HELM OR SHIELD) RARE !ID]: %NAME%{%NAME%}
 ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%{%NAME%}
 ItemDisplay[(BOW OR XBOW) RARE !ID]: %NAME%{%NAME%}
 ItemDisplay[RARE ETH WEAPON !SOR !WAND !ID]: %NAME%{%NAME%}
+ItemDisplay[aqv !AMAZON RARE !ID CLVL>74]: %YELLOW%%NAME%%YELLOW%
+ItemDisplay[aqv AMAZON RARE !ID CLVL>74]: %DOT-A8%%WHITE%*%YELLOW%*  %NAME%  *%WHITE%*
 
 //Circlets
 ItemDisplay[CIRC MAG !ID]: %NAME%{%NAME%}

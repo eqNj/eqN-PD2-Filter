@@ -4248,7 +4248,9 @@ ItemDisplay[xtp !INF NMAG !SOCK=1]: %NAME%{%NAME%} // Mage Plate
 ItemDisplay[(CHEST OR HELM OR SHIELD) RARE !ID]: %NAME%{%NAME%}
 ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%{%NAME%}
 ItemDisplay[(BOW OR XBOW) RARE !ID]: %NAME%{%NAME%}
-ItemDisplay[RARE ETH WEAPON !SOR !WAND !ID]: %DOT-A8%%NAME%{%NAME%}
+ItemDisplay[RARE ETH WEAPON !SOR !WAND !ID]: %NAME%{%NAME%}
+ItemDisplay[aqv !AMAZON RARE !ID CLVL>74]: %YELLOW%%NAME%%YELLOW%
+ItemDisplay[aqv AMAZON RARE !ID CLVL>74]: %DOT-A8%%WHITE%*%YELLOW%*  %NAME%  *%WHITE%*
 
 //Circlets
 ItemDisplay[CIRC MAG !ID]: %NAME%{%NAME%}
