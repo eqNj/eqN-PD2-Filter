@@ -8,16 +8,6 @@ You can find these loot filters either here (on GitHub) or through the Project D
 
 If you would like to contact me, find me in the official PD2 Discord with the name eqN.
 
-#### There are three versions of the eqN filter: 
-
-##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable.  Also good for "Solo Self Found" style players or those playing singleplayer. This filter will show you if anything usable, even into the late game, would drop for any class. Period. This is the base filter upon which the following two versions are designed.
-
-##### Strict - Ideal for well geared characters or those who wish to only see generally useful items or more specialized class items specifically for their current character's class. This filter finds a happy medium between the Relaxed and SuperStrict filter, showing you most of the crafting and runeword bases of the Relaxed version, while tidying up on the rares and notifications. Crafting bases shown become specialized to the player's character class at level 85.
-
-##### SuperStrict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons that have a decently high value in trading. This filter is useful for those who regularly run high density maps and dungeons and are mostly only looking for items with the highest trade value. 
- 
-###### The differences between these filters, relative to the Relaxed filter as a baseline, are further described below, at the end of the 'Features' section. All of these filters share the same leveling experience prior to character level 75.
-
 The Relaxed filter is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is especially focused on optimizations as you level and slightly more lenient in the endgame by comparison. The Relaxed filter is for those used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them.
 
 Solo players, hardcore players, or simply those seeking out less commonly used items for specialty builds may find these filters most useful compared to others.
@@ -67,6 +57,16 @@ Any class items with +3 to at least one of any useful skill will always show, re
 Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items. (All Filters)
 
 ###### Read the "Changelog" further below for more details on the filters' features. (Relative to the above, using the Relaxed filter as the assumed baseline.) 
+
+## Versions 
+
+##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable.  Also good for "Solo Self Found" style players or those playing singleplayer. This filter will show you if anything usable, even into the late game, would drop for any class. Period. This is the base filter upon which the following two versions are designed.
+
+##### Strict - Ideal for well geared characters or those who wish to only see generally useful items or more specialized class items specifically for their current character's class. This filter finds a happy medium between the Relaxed and SuperStrict filter, showing you most of the crafting and runeword bases of the Relaxed version, while tidying up on the rares and notifications. Crafting bases shown become specialized to the player's character class at level 85.
+
+##### SuperStrict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons that have a decently high value in trading. This filter is useful for those who regularly run high density maps and dungeons and are mostly only looking for items with the highest trade value. 
+ 
+###### The differences between these filters, relative to the Relaxed filter as a baseline, are further described below. All of these filters share the same leveling experience prior to character level 75.
 
 ## 'Relaxed' / 'Strict' / 'SuperStrict' Filter Differences
 
@@ -227,7 +227,7 @@ Added Base Speed value to weapons.
 
 Made all Base Defense, Base Speed, and Max Socket info in descriptions white.  
 
-By popular demand: There is now a 'SuperStrict' version of the filter. You can read more about it above, in the 'Features' section.
+By popular demand: There is now a 'SuperStrict' version of the filter. You can read more about it above, in the 'Versions' section.
 
 Added more shopping highlights for valuable items magic items. 
 
