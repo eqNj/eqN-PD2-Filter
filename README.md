@@ -227,7 +227,7 @@ Added Base Speed value to weapons.
 
 Made all Base Defense, Base Speed, and Max Socket info in descriptions white.  
 
-By popular demand: There is now a 'SuperStrict' version of the filter. You can read more about above, in the 'Features' section.
+By popular demand: There is now a 'SuperStrict' version of the filter. You can read more about it above, in the 'Features' section.
 
 Added more shopping highlights for valuable items magic items. 
 
