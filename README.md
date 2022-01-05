@@ -78,7 +78,7 @@ Non-magic elite items are sometimes hidden, unless specifically useful for runew
 
 Normal and exceptional magic class items are hidden unless specifically great for crafting and specifically for the class you are playing.
 
-Most exceptional and elite magic items for crafting, except for elite chest armors and select weapons or class items, are hidden once you reach character level 85.
+Most exceptional and elite magic items for crafting, except for elite chest armors and select weapons or class items, are hidden once you reach character level 80.
 
 Normal, exceptional, and elite rare weapons are hidden, unless ethereal, a bow/crossbow, and/or a class item.
 
@@ -93,7 +93,7 @@ Magic rings and amulets are hidden, unless item level 86+ rings or item level 90
 
 Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden. (Elite tier will still show.)
 
-Non-magic elite items are often hidden, unless highly sought after for runewords or if they have +3 to a valuable skill.
+Non-magic elite items are often hidden, unless highly sought after for runewords (mostly requiring 10%+ ED) or if they have +3 to a valuable skill.
 
 Normal, exceptional, and elite magic items are hidden unless ethereal weapons for crafting and/or specifically for the class you are playing.
 
