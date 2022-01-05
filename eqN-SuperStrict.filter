@@ -1048,7 +1048,7 @@ ItemDisplay[(xkp OR xul OR xlm OR drb OR 9sp OR mbt OR xcl OR chn OR uul OR xng 
 //Weapons
 ItemDisplay[((6rx OR 6hx OR 7m7 OR 9cl OR mau OR 7ls OR 9ls OR 7br OR 7sr OR 7p7 OR 9ba OR 7ga OR 7wa OR 7gi OR 7pa OR 8ls OR 72a OR 7o7 OR 9yw OR 9fc OR 7bw OR 9kr OR amb OR 7sc OR 7mp OR 6sw OR 6l7 OR 8hx OR dgr OR 7dg OR 7bl OR 9ma OR 9wh OR 9gm OR 7s8 OR 7wc OR 9ws OR 6cs OR 7b7 OR 7gs OR 9sb) OR (ELT (WP5 OR WP6)) OR ywn OR 7wb OR 7sp) UNI !ID CLVL<75]: %PX-68%%NAME%
 //Sets
-ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0 OR ba5) !(uui OR xlb OR umc OR uhm OR xrs OR uts OR 7ma OR xrn OR xcl OR mbl OR 9vo OR xhl OR upl OR 7ls)) SET !ID]: %PX-84%%NAME%
+ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0 OR ba5) !(uui OR xlb OR umc OR uhm OR xrs OR uts OR 7ma OR xrn OR xcl OR mbl OR 9vo OR ztb OR xml OR xhl OR upl OR 7ls)) SET !ID]: %PX-84%%NAME%
 
 //Forces All Unique and Set Alerts
 ItemDisplay[UNI !ID CLVL<75]: %PX-68%%NAME%%GOLD%
@@ -3925,10 +3925,10 @@ ItemDisplay[NEC (SK67>2 OR SK74>2 OR SK94>2 OR SK75>2 OR SK70>2 OR SK84>2 OR SK8
 // --- // --- WEAPONS --- \\ --- \\
 
 //Bows/Crossbows
-ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=0 OR SOCK=4 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=2 OR SOCK=3 OR SOCK=6)]: %NAME%{%NAME%}
-ItemDisplay[6rx NMAG !INF !RW SOCK=0]: %NAME%{%NAME%}
-ItemDisplay[6rx NMAG !INF !RW SOCK=4]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=0 OR SOCK=4 OR SOCK=5) ED>9]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=2 OR SOCK=3 OR SOCK=6) ED>9]: %NAME%{%NAME%}
+ItemDisplay[6rx NMAG !INF !RW SOCK=0 ED>9]: %NAME%{%NAME%}
+ItemDisplay[6rx NMAG !INF !RW SOCK=4 ED>9]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(6cb OR 8rx OR 6rx OR 6lx OR 6mx) NMAG !INF !RW (SOCK=0 OR SOCK=3 OR SOCK=4) CLVL<75]: %NAME%{%NAME%}
 
 //Daggers
@@ -3940,13 +3940,13 @@ ItemDisplay[7di NMAG !INF !SOCK=1 ED=15]: %NAME%{%NAME%}
 //Axes
 ItemDisplay[(7wa OR 72a) !ETH !INF NMAG !RW !SOCK=1 ED>9]: %NAME%{%NAME%}
 ItemDisplay[(7wa OR 72a) ETH !INF NMAG !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(7bt OR 7ba OR 7ga OR 7gi OR 7la) !INF ETH NMAG !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(7bt OR 7ba OR 7ga OR 7gi OR 7la) !INF ETH NMAG !RW (SOCK=0 OR SOCK=5) ED>9]: %DOT-D6%%NAME%{%NAME%}
 
 //Hammers
 ItemDisplay[(7m7 OR 7gm) !INF ETH NMAG !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(7m7 OR 7gm) !INF NMAG !RW !SOCK=1 ED>9]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(7m7 OR 7gm) !INF NMAG !RW !SOCK=1 CLVL<75]: %NAME%{%NAME%}
-ItemDisplay[7wh !INF ETH NMAG !RW !SOCK=1]: %NAME%{%NAME%}
+ItemDisplay[7wh !INF ETH NMAG !RW !SOCK=1 ED>9]: %NAME%{%NAME%}
 
 //Maces
 ItemDisplay[fla NMAG !RW !INF (SOCK=0 OR SOCK>2) CLVL<75]: %NAME%{%NAME%}
@@ -3965,7 +3965,7 @@ ItemDisplay[(bsd OR lsd) NMAG !INF SOCK=0 ILVL>25 CLVL<75]: %NAME%{%NAME%}
 ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !RW SOCK=4 CLVL<75]: %NAME%{%NAME%}
 ItemDisplay[crs NMAG !INF !RW SOCK=5 CLVL<75]: %NAME%{%NAME%}
 ItemDisplay[7cr NMAG !INF !RW SOCK>2 ED>9]: %NAME%{%NAME%}
-ItemDisplay[(72h OR 7fb OR 7gd OR 7gs OR 7ls) ETH NMAG !RW !INF !SOCK=1 !SOCK=2]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(72h OR 7fb OR 7gd OR 7gs OR 7ls) ETH NMAG !RW !INF !SOCK=1 !SOCK=2 ED>9]: %DOT-D6%%NAME%{%NAME%}
 
 //Wands
 ItemDisplay[WAND !(wnd OR ywn OR 9wn) (SK67>2 OR SK74>2 OR SK94>2 OR SK75>2 OR SK70>2 OR SK84>2 OR SK83>2 OR SK89>2 OR SK92>2 OR SK93>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK95>2 OR SK374>2 OR SK381>2) !SOCK=1 NMAG !RW]: %NAME%{%NAME%}
@@ -3981,7 +3981,6 @@ ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs OR wst OR 8ws OR 6ws) SK58>1
 
 //Polearms/Spears/Amazon Spears
 ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7 OR 7tr OR 7br OR 7st OR 7p7 OR 7o7) ETH NMAG !INF !RW !SOCK=1 !SOCK=2]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(7p7 OR 7h7) ETH NMAG !INF !RW SOCK=6]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[7p7 NMAG !INF !RW !SOCK=1 ED>9]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(amd OR ame) TABSK2>2 NMAG !INF !RW !SOCK=1 (ETH OR ED>9)]: %DOT-D6%%NAME%{%NAME%}
 

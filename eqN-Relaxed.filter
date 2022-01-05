@@ -3981,7 +3981,6 @@ ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs OR wst OR 8ws OR 6ws) SK58>1
 
 //Polearms/Spears/Amazon Spears
 ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7 OR 7tr OR 7br OR 7st OR 7p7 OR 7o7) ETH NMAG !INF !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(7p7 OR 7h7) ETH NMAG !INF !RW SOCK=6]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[7p7 NMAG !INF !RW !SOCK=1 ED>4]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(amd OR ame) TABSK2>2 !INF NMAG !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
 
