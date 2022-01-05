@@ -1881,7 +1881,7 @@ ItemDisplay[r18s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Ko %WHITE%+ %GRAY%Key %WHITE
 ItemDisplay[r19s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Fal %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Lem%NL%%NL%%WHITE%Shield: +10 to Strength%NL%Armor/Helm: +10 to Strength%NL%Weapon: +10 to Strength%NL%}
 ItemDisplay[r20s]: %NAME%%ORANGE%{%WHITE%3x %ORANGE%Lem %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Pul%NL%%NL%%WHITE%Shield: 50% Extra Gold%NL%Armor/Helm: 50% Extra Gold%NL%Weapon: 75% Extra Gold%NL%}
 ItemDisplay[r21s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Pul %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Um%NL%%NL%%WHITE%Shield: 30% Enhanced Defense%NL%Armor/Helm: 30% Enhanced Defense%NL%Weapon: +75% Dmg, +100 AR vs Demon%NL%}
-ItemDisplay[r22s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Um %WHITE%+ %GRAY%Key %WHITE%=%ORANGE%Mal%NL%%NL%%WHITE%Shield: 22% All Resist%NL%Armor/Helm: 15% All Resist%NL%Weapon: 25% Chance of Open Wounds%NL%}
+ItemDisplay[r22s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Um %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Mal%NL%%NL%%WHITE%Shield: 22% All Resist%NL%Armor/Helm: 15% All Resist%NL%Weapon: 25% Chance of Open Wounds%NL%}
 ItemDisplay[r23s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Mal %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Ist%NL%%NL%%WHITE%Shield: Magic Dmg Reduced by 7%NL%Armor/Helm: Magic Dmg Reduced by 7%NL%Weapon: Prevent Monster Heal%NL%}
 ItemDisplay[r24s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Ist %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Gul%NL%%NL%%WHITE%Shield: 25% Magic Find%NL%Armor/Helm: 25% Magic Find%NL%Weapon: 30% Magic Find%NL%}
 ItemDisplay[r25s]: %NAME%%ORANGE%{%WHITE%2x %ORANGE%Gul %WHITE%+ %GRAY%Key %WHITE%=%ORANGE% Vex%NL%%NL%%WHITE%Shield: +4% to Max Psn Resist%NL%Armor/Helm: +4% to Max Psn Resist%NL%Weapon: +20% Attack Rating%NL%}
@@ -3766,7 +3766,7 @@ ItemDisplay[SET ID rin REPLIFE>5]: %NAME%%GREEN%{%TAN%Low Level Dueling Item}
 ItemDisplay[SET ID amu DTM>19 STAT89>2]: %NAME%%GREEN%{%TAN%Low Level Dueling Item}
 
 //Upgrade Recipes
-ItemDisplay[ARMOR NORM RARE ID ILVL>12]: %NAME%{%WHITE%Upgrade: %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %PURPLE%@%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[ARMOR NORM RARE ID ILVL>12]: %NAME%{%WHITE%Upgrade: %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %PURPLE%@%NL%%NAME%}%CONTINUE%
 ItemDisplay[ARMOR EXC RARE ID ILVL>12]: %NAME%{%WHITE%Upgrade: %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ %PURPLE%@%NL%%NAME%}%CONTINUE%
 ItemDisplay[WEAPON NORM RARE ID ILVL>12]: %NAME%{%WHITE%Upgrade: %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ %BLUE%@%NL%%NAME%}%CONTINUE%
 ItemDisplay[WEAPON EXC RARE ID ILVL>12]: %NAME%{%WHITE%Upgrade: %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ %BLUE%@%NL%%NAME%}%CONTINUE%
