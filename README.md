@@ -8,7 +8,7 @@ You can find these loot filters either here (on GitHub) or through the Project D
 
 If you would like to contact me, find me in the official PD2 Discord with the name eqN.
 
-The Relaxed filter is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is especially focused on optimizations as you level and slightly more lenient in the endgame by comparison. The Relaxed filter is for those used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them.
+The Relaxed filter is  generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is especially focused on optimizations as you level and slightly more lenient in the endgame by comparison. The Relaxed filter is for those used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them.
 
 Solo players, hardcore players, or simply those seeking out less commonly used items for specialty builds may find these filters most useful compared to others.
 
@@ -44,15 +44,19 @@ Specifically, socketing recipes will show at item level 21+ (or earlier on any +
 
 ![Upgrade Weapon](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Upgrade.jpg)
 
+All unique and set items always show in any of these filters, though only mid-to-high tier unique and set items will notify depending on the selected filter. All runes will always show and notify unless using the SuperStrict filter, in which case all runes will still show but only tier 15+ runes will notify. Flawless gems show and notify in all filter versions.
+
 All elite tier items are set to always show at higher levels, with a small exception only for class items that lack +3 to a useful skill. (Relaxed Filter)
 
 Four socket, ethereal polearm/spear weapons of all tiers, for use with the Insight runeword on lower level characters, will show at all levels. (Relaxed Filter)
 
 Rares of all tiers will still show at all levels. This includes all class items (wands, orbs, helms, scepters/maces, staves, claws) and any rare bows or crossbows of all tiers aswell. (Relaxed Filter)
 
-Select ethereal and/or magic items from all tiers, those that are best for crafting, will continue to show, and they will be indicated by two gray asterisks, one on each side. High item level magic amulets will, once identified, show the exact character level best for crafting them to ensure +2 skills rolls are possible. (All Filters)
+Select ethereal and/or magic items from all tiers, those that are best for crafting, will show, and they will be indicated by two gray asterisks, one on each side. High item level magic amulets will, once identified, show the exact character level best for crafting them to ensure +2 skills rolls are possible. (All Filters)
 
 Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed favoring exceptional/elite items), as well as any elite class items that could be used for runewords. (All Filters)
+
+The following items will have descriptions when they appear to be good for LLD (Low Level Dueling), and/or are in a state in which corruption would potentially yield a good low level dueling item: Charms, Jewels (Magic and Rare), Rare and Crafted Weapons (for attack builds), and certain unique and set items popular for LLD. The following runeword bases specifically for LLD will show at all levels: 10%+ ED Naga(s) and Lance(s) (for use with the Honor runeword). +3 Blade Fury (ethereal) and +3 Tiger Strike (non-ethereal) exceptional claws (for use with the Pattern runeword). (All Filters)
 
 Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items. (All Filters)
 
@@ -62,7 +66,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable. Also good for "Solo Self Found" / singleplayer, hardcore, and LLD crafters. This filter will show you if anything usable, even into the late game, would drop for any class. Period. This is the base filter upon which the following two versions are designed.
 
-##### Strict - Ideal for well geared characters and those who wish to only see more generally useful items and perfer magic class items specifically be for their current character's class. This filter still shows you all of the runeword bases and the best crafting bases of the Relaxed version. Crafting bases shown become specialized to the player's character class at level 80.This filter finds a happy medium between the Relaxed and SuperStrict filter. 
+##### Strict - Ideal for well geared characters and those who wish to only see more generally useful items and perfer magic class items specifically be for their current character's class. This filter still shows you all of niche runeword bases and the best general crafting bases from the Relaxed version. Crafting bases shown only become specialized to the player's character class at level 80. This filter finds a happy medium between the Relaxed and SuperStrict filter. 
 
 ##### SuperStrict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons that have a high value in trading. This filter is useful for those who regularly run high density maps and dungeons and are mostly only looking for items with the highest trade value. 
  
