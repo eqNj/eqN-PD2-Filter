@@ -231,13 +231,13 @@ Made all Base Defense, Base Speed, and Max Socket info in descriptions white.
 
 By popular demand: There is now a 'SuperStrict' version of the filter. You can read more about it above, in the 'Versions' section.
 
-Added more shopping highlights for valuable items magic items. 
+Added more shopping highlights for valuable magic items. 
 
 Continued improvements and refinement of items that show up unidentified with two gray asterisks (denoting useful crafting bases).
 
-Added alerts for the new rare quivers. Magic quivers will always show, but not notify.
+Added notificationa for rare quivers. Magic quivers will always show, but not notify.
 
-Added special alerts for all of the new Uber Rathma (The Void) uniques.
+Added special notifications for all of the new Uber Rathma uniques.
 
 Continued maintenance of new/improved unique item notifications and tiering therein. (Most relevant for the strict filter.)
 
