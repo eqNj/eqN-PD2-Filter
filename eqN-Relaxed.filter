@@ -1817,9 +1817,9 @@ ItemDisplay[dhn]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*%ORANGE%
 ItemDisplay[ubtm]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*%ORANGE%{%WHITE%Alas, %ORANGE%Uber Tristram %WHITE%shall determine %GRAY%your fate...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath awaits.%NL%A singular attempt to those who congregate:}
 
 //Diablo Clone
-ItemDisplay[dcbl]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*%ORANGE%{%WHITE%Found throughout %BLUE%Maps of Sanctuary%NL%%WHITE%Those wrought in %RED%Supreme Maleficence%NL%%GRAY%Dropped by:}
-ItemDisplay[dcho]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*%ORANGE%{%RED%The Pandemonium Event%NL%%GRAY%Dropped by:}
-ItemDisplay[dcso]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*%ORANGE%{%DARK_GREEN%Baal, Lord of Destruction%NL%%RED%Diablo, Lord of Terror%NL%%GRAY%Dropped by:}
+ItemDisplay[dcbl]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*%ORANGE%{%WHITE%To create a %ORANGE%Vision of Terror %BLACK%(Diablo Clone)%NL%%ORANGE%Black Soul Stone %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%WHITE%Found throughout %BLUE%Maps of Sanctuary%NL%%WHITE%Those wrought in %RED%Supreme Maleficence%NL%%GRAY%Dropped by:}
+ItemDisplay[dcho]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*%ORANGE%{%WHITE%To create a %ORANGE%Vision of Terror %BLACK%(Diablo Clone)%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%The Pandemonium Event%NL%%GRAY%Dropped by:}
+ItemDisplay[dcso]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*%ORANGE%{%WHITE%To create a %ORANGE%Vision of Terror %BLACK%(Diablo Clone)%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Black Soul Stone%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%DARK_GREEN%Baal, Lord of Destruction%NL%%RED%Diablo, Lord of Terror%NL%%GRAY%Dropped by:}
 ItemDisplay[dcma]: %BORDER-0A%%BLACK%*%GRAY%*%RED%*     %ORANGE%%NAME%     %RED%*%GRAY%*%BLACK%*%ORANGE%{%WHITE%Alas, %ORANGE%Uber Diablo %WHITE%shall determine %GRAY%your fate...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath awaits.%NL%A singular attempt to those who congregate:}
 
 //The Void
