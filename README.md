@@ -84,7 +84,7 @@ Normal, exceptional, and elite rare weapons are hidden, unless ethereal, a bow/c
 
 Only high/mid-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
-Rare bolts and magic bolts and arrows are hidden. Amazons will still see magic arrows.
+Rare bolts and magic bolts and arrows are hidden, however Amazons will still see rare bolts and magic arrows.
 
 Magic rings and amulets are hidden, unless item level 86+ rings or item level 90+ amulets.
 
