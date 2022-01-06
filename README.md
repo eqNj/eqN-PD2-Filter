@@ -44,13 +44,13 @@ Specifically, socketing recipes will show at item level 21+ (or earlier on any +
 
 All unique and set items always show in any of these filters, though only mid-to-high tier unique and set items will notify depending on the selected filter. All runes will always show and notify unless using the SuperStrict filter, in which case all runes will still show but only tier 15+ runes will notify. Flawless gems show and notify in all filter versions.
 
-All elite tier items are set to always show at higher levels, with a small exception only for class items that lack +3 to a useful skill. (Relaxed Filter)
+All elite tier non-magic (white) items are set to always show at higher levels, with a small exception only for class items that lack +3 to a useful skill. (Relaxed Filter)
 
 Four socket, ethereal polearm/spear weapons of all tiers, for use with the Insight runeword on lower level characters, will show at all levels. (Relaxed Filter)
 
-Rares of all tiers will still show at all levels. This includes all class items (wands, orbs, helms, scepters/maces, staves, claws) and any rare bows or crossbows of all tiers aswell. (Relaxed Filter)
+All rare items will still show at all levels. This includes all class items (wands, orbs, helms, scepters/maces, staves, claws) and any rare bows or crossbows of all tiers aswell. (Relaxed Filter)
 
-Select ethereal and/or magic items from all tiers, those that are best for crafting, will show, and they will be indicated by two gray asterisks, one on each side. High item level magic amulets will, once identified, show the exact character level best for crafting them to ensure +2 skills rolls are possible. (All Filter Versions)
+Select magic items from all tiers, those that are best for crafting, will show, and they will be indicated by two gray asterisks, one on each side. High item level magic amulets will, once identified, show the exact character level best for crafting them to ensure +2 skills rolls are possible. (All Filter Versions)
 
 Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed favoring exceptional/elite items), as well as any elite class items that could be used for runewords. (All Filter Versions)
 
