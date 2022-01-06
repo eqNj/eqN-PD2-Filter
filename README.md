@@ -60,11 +60,11 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ## Versions 
 
-##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable.  Also good for "Solo Self Found" style players or those playing singleplayer. This filter will show you if anything usable, even into the late game, would drop for any class. Period. This is the base filter upon which the following two versions are designed.
+##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable. Also good for "Solo Self Found" / singleplayer, hardcore, and LLD crafters. This filter will show you if anything usable, even into the late game, would drop for any class. Period. This is the base filter upon which the following two versions are designed.
 
-##### Strict - Ideal for well geared characters or those who wish to only see more generally useful items and magic class items specifically for their current character's class. This filter finds a happy medium between the Relaxed and SuperStrict filter, showing you most of the crafting and runeword bases of the Relaxed version, while tidying up on the rares and notifications. Crafting bases shown become specialized to the player's character class at level 80.
+##### Strict - Ideal for well geared characters and those who wish to only see more generally useful items and perfer magic class items specifically be for their current character's class. This filter still shows you all of the runeword bases and the best crafting bases of the Relaxed version. Crafting bases shown become specialized to the player's character class at level 80.This filter finds a happy medium between the Relaxed and SuperStrict filter. 
 
-##### SuperStrict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons that have a decently high value in trading. This filter is useful for those who regularly run high density maps and dungeons and are mostly only looking for items with the highest trade value. 
+##### SuperStrict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons that have a high value in trading. This filter is useful for those who regularly run high density maps and dungeons and are mostly only looking for items with the highest trade value. 
  
 ###### The differences between these filters, relative to the Relaxed filter as a baseline, are further described below. All of these filters share the same leveling experience prior to character level 75.
 
@@ -248,6 +248,8 @@ Ensured all 'potential runewords' listed in non-magic, socketed item description
 Ensured any and all newly useful runeword bases are always showing and sometimes notifying. (4 socket, ethereal elite shields, 3 socket ethereal class or elite helms, 5 socket elite amazon bows, etc.)
 
 Updated the list of +skills needed on a non-magic class item for it to show, overall making them generally much more inclusive in the endgame.
+
+Added notes to crafted and rare weapons that are good for Low Level Dueling to encourage trading.
 
 Added notes to magic and rare jewels that are good for Low Level Dueling to encourage trading.
 
