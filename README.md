@@ -8,9 +8,7 @@ You can find these loot filters either here (on GitHub) or through the Project D
 
 If you would like to contact me, find me in the official PD2 Discord with the name eqN.
 
-The Relaxed filter is  generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is especially focused on optimizations as you level and slightly more lenient in the endgame by comparison. The Relaxed filter is for those used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them.
-
-Solo players, hardcore players, or simply those seeking out less commonly used items for specialty builds may find these filters most useful compared to others.
+The Relaxed filter is the basis upon which all versions of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is especially focused on optimizations as you level and slightly more lenient in the endgame by comparison. All versions of this filter share the same optimized leveling experience before reaching character level 75.
 
 These filters don't try to make all the decisions for you. You will see things that you may or may not be inclined to pick up, but it is always reasonable why you're seeing these items if you understand the nuances of itemization in Diablo 2.
 
@@ -52,19 +50,19 @@ Four socket, ethereal polearm/spear weapons of all tiers, for use with the Insig
 
 Rares of all tiers will still show at all levels. This includes all class items (wands, orbs, helms, scepters/maces, staves, claws) and any rare bows or crossbows of all tiers aswell. (Relaxed Filter)
 
-Select ethereal and/or magic items from all tiers, those that are best for crafting, will show, and they will be indicated by two gray asterisks, one on each side. High item level magic amulets will, once identified, show the exact character level best for crafting them to ensure +2 skills rolls are possible. (All Filters)
+Select ethereal and/or magic items from all tiers, those that are best for crafting, will show, and they will be indicated by two gray asterisks, one on each side. High item level magic amulets will, once identified, show the exact character level best for crafting them to ensure +2 skills rolls are possible. (All Filter Versions)
 
-Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed favoring exceptional/elite items), as well as any elite class items that could be used for runewords. (All Filters)
+Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed favoring exceptional/elite items), as well as any elite class items that could be used for runewords. (All Filter Versions)
 
-The following items will have descriptions when they appear to be good for LLD (Low Level Dueling), and/or are in a state in which corruption would potentially yield a good low level dueling item: Charms, Jewels (Magic and Rare), Rare and Crafted Weapons (for attack builds), and certain unique and set items popular for LLD. The following runeword bases specifically for LLD will show at all levels: 10%+ ED Naga(s) and Lance(s) (for use with the Honor runeword). +3 Blade Fury (ethereal) and +3 Tiger Strike (non-ethereal) exceptional claws (for use with the Pattern runeword). (All Filters)
+The following items will have descriptions when they appear to be good for LLD (Low Level Dueling), and/or are in a state in which corruption would potentially yield a good low level dueling item: Charms, Jewels (Magic and Rare), Rare and Crafted Weapons (for attack builds), and certain unique and set items popular for LLD. The following runeword bases specifically for LLD will show at all levels: 10%+ ED Naga(s) and Lance(s) (for use with the Honor runeword). +3 Blade Fury (ethereal) and +3 Tiger Strike (non-ethereal) exceptional claws (for use with the Pattern runeword). (All Filter Versions)
 
-Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items. (All Filters)
+Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items. (All Filter Versions)
 
 ###### Read the "Changelog" further below for more details on the filters' features. (Relative to the above, using the Relaxed filter as the assumed baseline.) 
 
 ## Versions 
 
-##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable. Also good for "Solo Self Found" / singleplayer, hardcore, and LLD crafters. This filter will show you if anything usable, even into the late game, would drop for any class. Period. This is the base filter upon which the following two versions are designed.
+##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable. Also good for "Solo Self Found" / singleplayer, hardcore, and LLD crafters. This filter will show you if anything usable, even into the late game, would drop for any class. Period. The Relaxed filter is for those used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them. This is the base filter upon which the following two versions are designed.
 
 ##### Strict - Ideal for well geared characters and those who wish to only see more generally useful items and perfer magic class items specifically be for their current character's class. This filter still shows you all of niche runeword bases and the best general crafting bases from the Relaxed version. Crafting bases shown only become specialized to the player's character class at level 80. This filter finds a happy medium between the Relaxed and SuperStrict filter. 
 
