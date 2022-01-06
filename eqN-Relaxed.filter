@@ -1804,9 +1804,9 @@ ItemDisplay[bet]: %PX-60%%NAME%{%RED%Diablo, Lord of Terror%NL%%GRAY%Dropped by:
 ItemDisplay[fed]: %PX-60%%NAME%{%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Dropped by:}
 
 //Uber Keys
-ItemDisplay[pk1]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*%ORANGE%{%RED%The Countess%NL%Blood Raven%NL%%GRAY%Dropped by:}
-ItemDisplay[pk2]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*%ORANGE%{%BLUE%The Summoner%NL%Bloodwitch the Wild%NL%%GRAY%Dropped by:}
-ItemDisplay[pk3]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*%ORANGE%{%PURPLE%Nihlathak the Necromancer%NL%Izual the Fallen Angel%NL%%GRAY%Dropped by:}
+ItemDisplay[pk1]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*%ORANGE%{%WHITE%To open a %ORANGE%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Destruction%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%The Countess%NL%Blood Raven%NL%%GRAY%Dropped by:}
+ItemDisplay[pk2]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*%ORANGE%{%WHITE%To open a %ORANGE%Mini-Uber Portal%NL%%ORANGE%Key of Terror %WHITE%& %ORANGE%Key of Destruction%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%BLUE%The Summoner%NL%Bloodwitch the Wild%NL%%GRAY%Dropped by:}
+ItemDisplay[pk3]: %DOT-50%%RED%*   %ORANGE%%NAME%   %RED%*%ORANGE%{%WHITE%To open a %ORANGE%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Terror%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%PURPLE%Nihlathak the Necromancer%NL%Izual the Fallen Angel%NL%%GRAY%Dropped by:}
 
 //Organs
 ItemDisplay[mbr]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%%NAME%   %RED%*%GRAY%*%ORANGE%{%WHITE%to create a %ORANGE%Pandemonium Talisman %BLACK%(Uber Tristram)%NL%%GOLD%Cube %WHITE%any three %RED%Organs %WHITE%with a %GRAY%Key}
