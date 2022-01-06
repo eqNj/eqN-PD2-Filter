@@ -253,6 +253,6 @@ Added notes to magic and rare jewels that are good for Low Level Dueling to enco
 
 Added notes to unique and set items that are good for Low Level Dueling to encourage trading.
 
-Added notes to large charms that are good for Low Level Dueling to encourage trading.
+Added notes to charms that are good for Low Level Dueling to encourage trading.
 
 Big thanks to Hastmannen for their help with all the Low Level Dueling information. You can find Hastmannen's LLD guides for PD2 on Reddit!
