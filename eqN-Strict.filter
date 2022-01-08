@@ -4314,6 +4314,9 @@ ItemDisplay[aqv AMAZON RARE !ID CLVL>74]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%W
 ItemDisplay[CIRC MAG !ID]: %NAME%{%NAME%}
 ItemDisplay[CIRC NMAG !INF !ETH SOCK=0]: %NAME%{%NAME%}
 
+//Strict-Specific Failsafes
+ItemDisplay[((BAR !ETH !ELT !(ba4 OR ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ELT !(ne3 OR ne4 OR ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl)) MAG !ID ILVL>50]: %NAME%{%NAME%}
+
 //----------------------------------------- Hiding Items -----------------------------------------
 
 //Hiding NORM Tier Items
