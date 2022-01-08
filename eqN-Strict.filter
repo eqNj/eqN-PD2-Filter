@@ -4046,43 +4046,43 @@ ItemDisplay[((SIN ELT) OR 9tw OR 9lw) !INF ETH NMAG !RW !SOCK=1]: %NAME%{%NAME%}
 // --- // --- Sorceress --- \\ --- \\
 
 // --- Cold
-//ItemDisplay[NMAG !INF !RW SK39>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Ice Bolt
-ItemDisplay[NMAG !INF !RW SK40>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Enchant Cold
-ItemDisplay[NMAG !INF !RW SK44>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Frost Nova
-//ItemDisplay[NMAG !INF !RW SK45>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Ice Blast
-//ItemDisplay[NMAG !INF !RW SK50>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Shiver Armor
-//ItemDisplay[NMAG !INF !RW SK55>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Glacial Spike
-ItemDisplay[NMAG !INF !RW SK59>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Blizzard
-//ItemDisplay[NMAG !INF !RW SK60>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Chilling Armor
-ItemDisplay[NMAG !INF !RW SK369>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Ice Barrage
-ItemDisplay[NMAG !INF !RW SK64>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Frozen Orb
-ItemDisplay[NMAG !INF !RW SK65>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Cold Mastery
+//ItemDisplay[NMAG !INF !RW SK39>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Ice Bolt
+ItemDisplay[NMAG !INF !RW SK40>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Enchant Cold
+ItemDisplay[NMAG !INF !RW SK44>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Frost Nova
+//ItemDisplay[NMAG !INF !RW SK45>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Ice Blast
+//ItemDisplay[NMAG !INF !RW SK50>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Shiver Armor
+//ItemDisplay[NMAG !INF !RW SK55>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Glacial Spike
+ItemDisplay[NMAG !INF !RW SK59>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Blizzard
+//ItemDisplay[NMAG !INF !RW SK60>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Chilling Armor
+ItemDisplay[NMAG !INF !RW SK369>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Ice Barrage
+ItemDisplay[NMAG !INF !RW SK64>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Frozen Orb
+ItemDisplay[NMAG !INF !RW SK65>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Cold Mastery
 
 // --- Lightning
-ItemDisplay[NMAG !INF !RW SK38>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Charged Bolt
-//ItemDisplay[NMAG !INF !RW SK43>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Telekinesis
-ItemDisplay[NMAG !INF !RW SK42>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Static Field
-ItemDisplay[NMAG !INF !RW SK49>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Lightning
-ItemDisplay[NMAG !INF !RW SK48>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Nova
-ItemDisplay[NMAG !INF !RW SK53>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Chain Lightning
-//ItemDisplay[NMAG !INF !RW SK54>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Teleport
-ItemDisplay[NMAG !INF !RW SK57>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Thunder Storm
-ItemDisplay[NMAG !INF !RW SK58>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Energy Shield
-ItemDisplay[NMAG !INF !RW SK63>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Lightning Mastery
+ItemDisplay[NMAG !INF !RW SK38>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Charged Bolt
+//ItemDisplay[NMAG !INF !RW SK43>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Telekinesis
+ItemDisplay[NMAG !INF !RW SK42>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Static Field
+ItemDisplay[NMAG !INF !RW SK49>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Lightning
+ItemDisplay[NMAG !INF !RW SK48>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Nova
+ItemDisplay[NMAG !INF !RW SK53>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Chain Lightning
+//ItemDisplay[NMAG !INF !RW SK54>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Teleport
+ItemDisplay[NMAG !INF !RW SK57>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Thunder Storm
+ItemDisplay[NMAG !INF !RW SK58>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Energy Shield
+ItemDisplay[NMAG !INF !RW SK63>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Lightning Mastery
 
 // --- Fire
-ItemDisplay[NMAG !INF !RW SK36>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Fire Bolt
-//ItemDisplay[NMAG !INF !RW SK37>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Warmth
-//ItemDisplay[NMAG !INF !RW SK41>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Inferno
-ItemDisplay[NMAG !INF !RW SK46>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Blaze
-ItemDisplay[NMAG !INF !RW SK47>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Fireball
-ItemDisplay[NMAG !INF !RW SK383>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Lesser Hydra
-ItemDisplay[NMAG !INF !RW SK51>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Fire Wall
-ItemDisplay[NMAG !INF !RW SK52>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Enchant Fire
-ItemDisplay[NMAG !INF !RW SK56>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Meteor
-ItemDisplay[NMAG !INF !RW SK61>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Fire Mastery
-ItemDisplay[NMAG !INF !RW SK62>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Hydra
-ItemDisplay[NMAG !INF !RW SK376>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Combustion
+ItemDisplay[NMAG !INF !RW SK36>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Fire Bolt
+//ItemDisplay[NMAG !INF !RW SK37>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Warmth
+//ItemDisplay[NMAG !INF !RW SK41>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Inferno
+ItemDisplay[NMAG !INF !RW SK46>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Blaze
+ItemDisplay[NMAG !INF !RW SK47>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Fireball
+ItemDisplay[NMAG !INF !RW SK383>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Lesser Hydra
+ItemDisplay[NMAG !INF !RW SK51>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Fire Wall
+ItemDisplay[NMAG !INF !RW SK52>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Enchant Fire
+ItemDisplay[NMAG !INF !RW SK56>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Meteor
+ItemDisplay[NMAG !INF !RW SK61>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Fire Mastery
+ItemDisplay[NMAG !INF !RW SK62>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Hydra
+ItemDisplay[NMAG !INF !RW SK376>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Combustion
 
 // --- // --- Necromancer --- \\ --- \\
 
