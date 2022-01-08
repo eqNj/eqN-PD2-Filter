@@ -1040,6 +1040,9 @@ ItemDisplay[(7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ET
 //PD2 Exclusive
 ItemDisplay[(ne6 OR pa3 OR am5 OR ob6 OR dr2 OR ba6 OR 9ar) UNI !ID]: %DOT-68%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~%GOLD%
 
+//Low Level Dueling
+ItemDisplay[(gma OR gsd OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc) UNI !ID]: %NAME% %GRAY%[%PURPLE%LLD%GRAY%]{%NAME%}%CONTINUE%
+
 //Rainbow Facet
 ItemDisplay[jew UNI !ID]: %BORDER-68%%RED%:%ORANGE%:%YELLOW%:%GREEN%:%BLUE%:%PURPLE%:     %GOLD%%NAME%     %PURPLE%:%BLUE%:%GREEN%:%YELLOW%:%ORANGE%:%RED%:%GOLD%
 
@@ -4055,8 +4058,8 @@ ItemDisplay[7p7 NMAG !INF !RW !SOCK=1 ED>4]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(amd OR ame) TABSK2>2 !INF NMAG !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
 
 //Claws
-ItemDisplay[SIN EXC !INF ETH SK266>2 ((SOCK=0) OR (SOCK=3)) ILVL>25]: %DOT-D6%%NAME% %TAN%[%PURPLE%LLD%TAN%]%GRAY%{%NAME%}
-ItemDisplay[SIN EXC !INF !ETH SK254>2 ((SOCK=0) OR (SOCK=3)) ILVL>25]: %DOT-D6%%NAME% %TAN%[%PURPLE%LLD%TAN%]%GRAY%{%NAME%}
+ItemDisplay[SIN EXC SK266>2 !INF ETH NMAG !RW  ((SOCK=0) OR (SOCK=3)) ILVL>25]: %DOT-D6%%NAME% %GRAY%[%PURPLE%LLD%GRAY%]{%NAME%}
+ItemDisplay[SIN EXC SK254>2 !INF !ETH NMAG !RW  ((SOCK=0) OR (SOCK=3)) ILVL>25]: %DOT-D6%%NAME% %GRAY%[%PURPLE%LLD%GRAY%]{%NAME%}
 ItemDisplay[((SIN ELT) OR 9tw OR 9lw) (SK275>0 OR SK276>0 OR SK278>0) !INF ETH NMAG !RW (SOCK=0 OR SOCK=3)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[((SIN ELT) OR 9tw OR 9lw) (SK275>0 OR SK276>0 OR SK278>0 OR SK257>2 OR SK266>2) !INF ETH NMAG !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(9tw OR 7tw) (SK262>2 OR SK271>2 OR SK276>2) !INF NMAG !RW (SOCK=0 OR SOCK=3)]: %DOT-D6%%NAME%{%NAME%}
@@ -4314,7 +4317,7 @@ ItemDisplay[HELM !ETH !INF NMAG SOCK=3 CLVL<90]: %NAME%{%NAME%} // 3 Socket Helm
 ItemDisplay[((POLEARM OR SPEAR) AND !(ZON OR THROWING)) NMAG ETH !INF (SOCK=0 OR SOCK=4)]: %NAME%{%NAME%} // Act 2 Merc RuneWord Bases
 ItemDisplay[xsh !ETH !INF NMAG !SOCK=1]: %NAME%{%NAME%} // Grim Shield
 ItemDisplay[xtp !INF NMAG !SOCK=1]: %NAME%{%NAME%} // Mage Plate
-ItemDisplay[(9p9 OR 9wa) !ETH !INF NMAG (SOCK=0 OR SOCK=5) ED>9]: %DOT-D6%%NAME% %TAN%[%PURPLE%LLD%TAN%]%GRAY%{%NAME%} // High ED Honor Bases for LLD
+ItemDisplay[(9p9 OR 9wa) !ETH !INF NMAG !RW (SOCK=0 OR SOCK=5) ED>9]: %DOT-D6%%NAME% %GRAY%[%PURPLE%LLD%GRAY%]{%NAME%} // High ED Honor Bases for LLD
 
 //Rare Item Failsafe
 ItemDisplay[(CHEST OR HELM OR SHIELD) RARE !ID]: %NAME%{%NAME%}
