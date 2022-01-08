@@ -3717,7 +3717,7 @@ ItemDisplay[((9ga OR 9gi OR 9m9 OR 9gm OR 9fb OR 9gd OR 9p9 OR 9wc) OR (9pi OR 9
 ItemDisplay[((BAR !ELT !(ba4 OR ba9 OR baa)) OR (DRU !ELT !(dr9 OR dra)) OR (NEC !ELT !(ne3 OR ne4 OR ne8 OR ne9 OR nea)) OR (DIN !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa))) !ETH MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base}%CONTINUE%
 
 //Shop Cleaning
-ItemDisplay[SHOP ID MAG]: %NAME%%BLUE%{%NAME%}
+ItemDisplay[SHOP ID MAG CLVL>45]: %NAME%%BLUE%{%NAME%}
 
 //Notes For High ILVL Crafting Amulets
 ItemDisplay[MAG amu ILVL=88]: %GRAY%*%BLUE%%NAME%%GRAY%*{%YELLOW%Bty: @ %WHITE%+ %ORANGE%Ko %WHITE%| %GRAY%V: @ %WHITE%+ %ORANGE%Dol%NL%%BLUE%HP: @ %WHITE%+ %ORANGE%Thul %WHITE%| %GREEN%S: @ %WHITE%+ %ORANGE%Thul%NL%%RED%Bld: @ %WHITE%+ %ORANGE%Amn%WHITE% | %PURPLE%C: @ %WHITE%+ %ORANGE%Ral%NL%Craft at 92+: %BLUE%Jewel %WHITE%+}
