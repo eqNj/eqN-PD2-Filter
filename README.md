@@ -42,7 +42,7 @@ Specifically, socketing recipes will show at item level 21+ (or earlier on any +
 
 ![Upgrade Weapon](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Upgrade.jpg)
 
-All unique and set items always show in any of these filters, though only mid-to-high tier unique and set items will notify depending on the selected filter. All runes will always show and notify unless using the SuperStrict filter, in which case all runes will still show but only tier 15+ runes will notify. Flawless gems show and notify in all filter versions.
+All unique and set items always show in any of these filters, though only mid-to-high tier unique and set items will notify depending on the selected filter. All runes will always show and notify unless using the SuperStrict filter, in which case all runes will still show but only tier 15+ runes will notify. Flawless gems still show in all filter versions.
 
 All elite tier non-magic (white) items are set to always show at higher levels, with a small exception only for class items that lack +3 to a useful skill. (Relaxed Filter)
 
@@ -54,7 +54,7 @@ Select magic items from all tiers, those that are best for crafting, will show, 
 
 Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed favoring exceptional/elite items), as well as any elite class items that could be used for runewords. (All Filter Versions)
 
-The following items will have descriptions when they appear to be good for LLD (Low Level Dueling), and/or are in a state in which corruption would potentially yield a good low level dueling item: Charms, Jewels (Magic and Rare), Rare and Crafted Weapons (for attack builds), and certain unique and set items popular for LLD. The following runeword bases specifically for LLD will show at all levels: 10%+ ED Naga(s) and Lance(s) (for use with the Honor runeword). +3 Blade Fury (ethereal) and +3 Tiger Strike (non-ethereal) exceptional claws (for use with the Pattern runeword). (All Filter Versions)
+The following items will have added descriptions when they appear to be good for LLD (Low Level Dueling), and/or are in a state in which corruption would potentially yield a good low level dueling item: Charms, Jewels (Magic and Rare), certain Magic class item & weapon bases (ideal for crafting), Rare and Crafted Weapons (for attack builds), and certain Unique and Set items popular for LLD. The following runeword bases specifically for LLD will show at all levels: 10%+ ED Naga(s) and Lance(s) (for use with the Honor runeword). +3 Blade Fury (ethereal) and +3 Tiger Strike (non-ethereal) exceptional claws (for use with the Pattern runeword). (All Filter Versions)
 
 Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items. (All Filter Versions)
 
