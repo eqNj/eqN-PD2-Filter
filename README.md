@@ -95,7 +95,7 @@ Magic rings and amulets are hidden, unless item level 86+ rings or item level 90
 
 Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden. (Elite tier will still show.)
 
-Non-magic elite items are often hidden, unless highly sought after for runewords (mostly requiring 10%+ ED) or if they have +3 to a valuable skill.
+Non-magic items are almost all hidden, unless highly sought after bases for runewords (mostly requiring 8%+ ED) or if they have +3 to a valuable skill.
 
 Normal, exceptional, and elite magic items are hidden unless ethereal weapons for crafting and/or specifically for the class you are playing.
 
@@ -107,7 +107,7 @@ Low-tier runes will no longer notify on drop, but will still always show on the 
 
 Rare bolts are hidden and magic bolts and arrows are hidden.
 
-Non-magic circlets of all kinds (for imbuing) are hidden.
+Non-magic (for imbuing) and magic circlets of all kinds are hidden.
 
 Regular Rejuvination Potions (not Full) are hidden.
 
