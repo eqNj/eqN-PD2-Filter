@@ -1041,7 +1041,7 @@ ItemDisplay[(7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ET
 ItemDisplay[(ne6 OR pa3 OR am5 OR ob6 OR dr2 OR ba6 OR 9ar) UNI !ID]: %DOT-68%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~%GOLD%
 
 //Low Level Dueling
-ItemDisplay[(gma OR gsd OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc) UNI !ID]: %NAME% %GRAY%[%PURPLE%LLD%GRAY%]{%NAME%}%CONTINUE%
+ItemDisplay[(gma OR gsd OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc OR vgl) UNI !ID]: %NAME% %GRAY%[%PURPLE%LLD%GRAY%]{%NAME%}%CONTINUE%
 
 //Rainbow Facet
 ItemDisplay[jew UNI !ID]: %BORDER-68%%RED%:%ORANGE%:%YELLOW%:%GREEN%:%BLUE%:%PURPLE%:     %GOLD%%NAME%     %PURPLE%:%BLUE%:%GREEN%:%YELLOW%:%ORANGE%:%RED%:%GOLD%
@@ -3747,8 +3747,8 @@ ItemDisplay[amu MAG ID ILVL>50]: %NAME%%BLUE%{%YELLOW%Bty: @ %WHITE%+ %ORANGE%Ko
 ItemDisplay[rin MAG ID ILVL>50]: %NAME%%BLUE%{%YELLOW%Bty: @ %WHITE%+ %ORANGE%Lum %WHITE%| %GRAY%V: @ %WHITE%+ %ORANGE%Hel%NL%%BLUE%HP: @ %WHITE%+ %ORANGE%Amn %WHITE%| %GREEN%S: @ %WHITE%+ %ORANGE%Amn%NL%%RED%Bld: @ %WHITE%+ %ORANGE%Sol%WHITE% | %PURPLE%C: @%WHITE% %WHITE%+ %ORANGE%Amn%NL%Crafting: %BLUE%Jewel %WHITE%+}
 
 //Low Level Dueling Uniques
-ItemDisplay[UNI ID (gma OR gsd OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc) STAT360=0]: %NAME%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}%CONTINUE%
-//ItemDisplay[UNI ID (gma OR gsd OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc) STAT360>0]: %NAME%{%TAN%Low Level Dueling Item%NL%%NAME%}%CONTINUE%
+ItemDisplay[UNI ID (gma OR gsd OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc OR vgl) STAT360=0]: %NAME%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}%CONTINUE%
+//ItemDisplay[UNI ID (gma OR gsd OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc OR vgl) STAT360>0]: %NAME%{%TAN%Low Level Dueling Item%NL%%NAME%}%CONTINUE%
 
 //Low Level Dueling Set Items
 ItemDisplay[SET ID vbt STAT360=0]: %NAME%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}%CONTINUE%
