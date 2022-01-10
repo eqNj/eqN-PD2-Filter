@@ -1761,11 +1761,7 @@ ItemDisplay[rtma]: %BORDER-0A%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%     %P
 ItemDisplay[cwss]: %BORDER-0A%%WHITE%:%BLUE%|%PURPLE%:     %RED%%NAME%     %PURPLE%:%BLUE%|%WHITE%:%RED%{%WHITE%This cannot brick your Anni%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
 
 //Wirt's Leg
-ItemDisplay[leg ILVL>60]: %NAME% {%WHITE%From: Hell%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
-ItemDisplay[leg (ILVL<60 AND ILVL>30) DIFF=2]: %NAME%{%RED%From: Nightmare%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
-ItemDisplay[leg ((ILVL<60 AND ILVL>30) (DIFF=1 OR DIFF=0))]: %NAME%{%WHITE%From: Nightmare%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
-ItemDisplay[leg ILVL<30 DIFF>0]: %NAME%{%RED%From: Normal%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
-ItemDisplay[leg ILVL<30 DIFF=0]: %NAME%{%WHITE%From: Normal%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
+ItemDisplay[leg]: %NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
 
 //----------------------------------------- Notes on Socketable Items -----------------------------------------
 

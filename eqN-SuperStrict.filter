@@ -1704,13 +1704,13 @@ ItemDisplay[jewf]: %PURPLE%~ %BLUE%%NAME% %PURPLE%~%BLUE%{%WHITE%Functions ident
 ItemDisplay[std]: %PX-9D%%YELLOW%|%TAN%>%GRAY%:     %GOLD%%NAME%     %GRAY%:%TAN%<%YELLOW%|%GOLD%{%WHITE%+10% Experience%NL%+20% Magic & Gold Find%NL%+20% Monster Density%NL%%GOLD%Cube %WHITE%this with a Map to gain:}
 
 //Project Diablo 2 Items
-ItemDisplay[wss]: %MAP-0A%%NAME%{%RED%Warning%WHITE%: It can brick your item!%NL%%WHITE%Use this to %RED%Corrupt %WHITE%items or maps.%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
+ItemDisplay[wss]: %MAP-0A%%NAME%{%RED%Warning%WHITE%: It can brick your item%NL%%WHITE%Use this to %RED%Corrupt %WHITE%items or maps%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
 ItemDisplay[scrb]: %BORDER-A9%%YELLOW%|%TAN%>%GRAY%:     %GOLD%%NAME%     %GRAY%:%TAN%<%YELLOW%|%GOLD%{%WHITE%Create a %RED%Dungeon%NL%%GOLD%Cube %WHITE%this with a %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Map:}
 ItemDisplay[imra]: %NAME%{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel %WHITE%+ %ORANGE%Rune >9%NL%%WHITE%Imbue a White Map to %YELLOW%Rare%WHITE%:}
 ItemDisplay[rera]: %NAME%{%YELLOW%Map %WHITE%+ %GOLD%Orb %WHITE%+ Perfect Gem + %ORANGE%Rune >9%NL%%WHITE%Reroll a %YELLOW%Rare %WHITE%Map:}
 ItemDisplay[upma]: %NAME%{%BLUE%Map %WHITE%+ %GOLD%Orb %WHITE%+ %GRAY%@ %WHITE%+ %ORANGE%Rune >9%NL%%WHITE%Imbue a %BLUE%Magic %WHITE%Map to %YELLOW%Rare%WHITE%:}
-ItemDisplay[imma]: %NAME%{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel %NL%%WHITE%Imbue a White Map to %BLUE%Magic%WHITE%:}
-ItemDisplay[scou]: %NAME%{%BLUE%M%WHITE%a%YELLOW%p %WHITE%+ %GOLD%Orb %WHITE%+ %ORANGE%Hel Rune%NL%%WHITE%Imbue a %BLUE%Magic%WHITE%/%YELLOW%Rare %WHITE%Map to White:}
+ItemDisplay[imma]: %NAME%{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel%NL%%WHITE%Imbue a White Map to %BLUE%Magic%WHITE%:}
+ItemDisplay[scou]: %NAME%{%BLUE%M%WHITE%a%YELLOW%p %WHITE%+ %GOLD%Orb%NL%%WHITE%Imbue a %BLUE%Magic%WHITE%/%YELLOW%Rare %WHITE%Map to White:}
 ItemDisplay[upmp]: %NAME%{%WHITE%3x %BLUE%M%WHITE%a%YELLOW%p %TAN%(%WHITE%Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Orb %WHITE%= Map %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%WHITE%Upgrade Maps to a higher Tier:}
 ItemDisplay[lbox]: %BORDER-0A%%YELLOW%|%TAN%>%GRAY%:     %GOLD%%NAME%     %GRAY%:%TAN%<%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher.%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Use this to %TAN%Socket %WHITE%an Item}
 
@@ -1758,14 +1758,10 @@ ItemDisplay[rtmf]: %MAP-0A%%BLUE%|%PURPLE%:   %ORANGE%%NAME%   %PURPLE%:%BLUE%|%
 ItemDisplay[rtmo]: %BORDER-0A%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%     %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %ORANGE%Voidstone %BLACK%(Uber Rathma)%NL%%ORANGE%Splinter of the Void%WHITE%, %GOLD%Hellfire Torch%WHITE%, %ORANGE%Prime Evil Soul%WHITE%.%NL%%GOLD%Cube %WHITE%this item with the following:}
 ItemDisplay[rtmv]: %BORDER-0A%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%     %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %ORANGE%Voidstone %BLACK%(Uber Rathma)%NL%%ORANGE%Trang-Oul's Jawbone%WHITE%, %GOLD%Hellfire Torch%WHITE%, %ORANGE%Prime Evil Soul%WHITE%.%NL%%GOLD%Cube %WHITE%this item with the following:}
 ItemDisplay[rtma]: %BORDER-0A%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%     %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%Alas, %ORANGE%Uber Rathma %WHITE%shall determine %GRAY%your fate...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath awaits.%NL%A singular attempt to those who congregate:}
-ItemDisplay[cwss]: %BORDER-0A%%WHITE%:%BLUE%|%PURPLE%:     %RED%%NAME%     %PURPLE%:%BLUE%|%WHITE%:%RED%{%WHITE%This cannot brick your charm.%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
+ItemDisplay[cwss]: %BORDER-0A%%WHITE%:%BLUE%|%PURPLE%:     %RED%%NAME%     %PURPLE%:%BLUE%|%WHITE%:%RED%{%WHITE%This cannot brick your Anni%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
 
 //Wirt's Leg
-ItemDisplay[leg ILVL>60]: %NAME% {%WHITE%From: Hell%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
-ItemDisplay[leg (ILVL<60 AND ILVL>30) DIFF=2]: %NAME%{%RED%From: Nightmare%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
-ItemDisplay[leg ((ILVL<60 AND ILVL>30) (DIFF=1 OR DIFF=0))]: %NAME%{%WHITE%From: Nightmare%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
-ItemDisplay[leg ILVL<30 DIFF>0]: %NAME%{%RED%From: Normal%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
-ItemDisplay[leg ILVL<30 DIFF=0]: %NAME%{%WHITE%From: Normal%NL%%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy}
+ItemDisplay[leg]: %NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
 
 //----------------------------------------- Notes on Socketable Items -----------------------------------------
 
