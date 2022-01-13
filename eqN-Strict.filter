@@ -655,6 +655,10 @@ ItemDisplay[tr2]: %GOLD%Scroll of Resistance{%GOLD%Right click to Read%NL%%NL%%T
 ItemDisplay[toa]: %ORANGE%Token of Absolution{%GOLD%Right click to Respec%NL%%NL%%TAN%Wherever you are is the entry point.}
 
 //Gold
+ItemDisplay[GOLD<500 (MAPID=25 OR MAPID=37 OR MAPID=38 OR MAPID=73 OR MAPID=102 OR MAPID=132)]: %NAME%
+ItemDisplay[GOLD=69]: %NAME%
+ItemDisplay[GOLD=420]: %NAME%
+ItemDisplay[GOLD=666]: %NAME%
 ItemDisplay[GOLD<100 CLVL<12]:
 ItemDisplay[GOLD<500 (CLVL>11 AND CLVL<25)]:
 ItemDisplay[GOLD<1000 (CLVL>24 AND CLVL<70)]:
@@ -788,7 +792,9 @@ ItemDisplay[(cm1 OR cm2 OR cm3) UNI !ID]: %BORDER-68%%RED%(%GOLD%~%RED%:%GOLD%~ 
 
 //Small Charms
 ItemDisplay[cm1 !UNI ((MANA>9 OR RES>0 OR DEF>14 OR MAXDMG>1) AND (LIFE>9 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm1 !UNI LIFE>9 LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI LIFE>13 LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI LIFE>9 LIFE<14 (FRES>7 OR CRES>7 OR LRES>7 OR RES>2) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI LIFE>9 LIFE<14 MAXDMG>1 LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 
 ItemDisplay[cm1 !UNI ((MAXDMG>1 AND LIFE>0) OR (MAXDMG>0 AND LIFE>9))]: %TAN%Max Dmg %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
 ItemDisplay[cm1 !UNI ((MAXDMG>1 AND MFIND>0) OR (MAXDMG>0 AND MFIND>4))]: %TAN%Max Dmg %WHITE%/ %GREEN%MF %BLUE%Small Charm{%NAME%}
@@ -1729,34 +1735,34 @@ ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 
 ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %NAME%{%GRAY%Deaths %WHITE%within are not permanent in %RED%Hardcore%NL%%NL%%TAN%- that they plan their fight in the ring.%NL%There is an old adage about gladiators,}
 
 //Essences
-ItemDisplay[tes]: %PX-60%%NAME%{%BLUE%Duriel, Lord of Pain%NL%Andariel, Maiden of Anguish%NL%%GRAY%Dropped by:}
+ItemDisplay[tes]: %PX-60%%NAME%{%BLUE%Andariel, Maiden of Anguish %WHITE%& %BLUE%Duriel, Lord of Pain %NL%%GRAY%Dropped by:}
 ItemDisplay[ceh]: %PX-60%%NAME%{%TAN%Mephisto, Lord of Hatred%NL%%GRAY%Dropped by:}
 ItemDisplay[bet]: %PX-60%%NAME%{%RED%Diablo, Lord of Terror%NL%%GRAY%Dropped by:}
 ItemDisplay[fed]: %PX-60%%NAME%{%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Dropped by:}
 
 //Uber Keys
-ItemDisplay[pk1]: %DOT-50%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %ORANGE%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Destruction%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%The Countess%NL%Blood Raven%NL%%GRAY%Dropped by:}
-ItemDisplay[pk2]: %DOT-50%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %ORANGE%Mini-Uber Portal%NL%%ORANGE%Key of Terror %WHITE%& %ORANGE%Key of Destruction%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%BLUE%The Summoner%NL%Bloodwitch the Wild%NL%%GRAY%Dropped by:}
-ItemDisplay[pk3]: %DOT-50%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %ORANGE%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Terror%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%PURPLE%Nihlathak the Necromancer%NL%Izual the Fallen Angel%NL%%GRAY%Dropped by:}
+ItemDisplay[pk1]: %DOT-50%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Destruction%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%Blood Raven %WHITE%& %RED%The Countess%NL%%GRAY%Dropped by:}
+ItemDisplay[pk2]: %DOT-50%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Terror %WHITE%& %ORANGE%Key of Destruction%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%BLUE%Bloodwitch the Wild %WHITE%& %BLUE%The Summoner%NL%%GRAY%Dropped by:}
+ItemDisplay[pk3]: %DOT-50%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Terror%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%PURPLE%Izual the Fallen Angel %WHITE%& %PURPLE%Nihlathak the Necromancer%NL%%GRAY%Dropped by:}
 
 //Organs
-ItemDisplay[mbr]: %MAP-0A%%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%ORANGE%{%WHITE%to create a %ORANGE%Pandemonium Talisman %BLACK%(Uber Tristram)%NL%%GOLD%Cube %WHITE%any three %RED%Organs %WHITE%with a %GRAY%Key}
-ItemDisplay[bey]: %MAP-0A%%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%ORANGE%{%WHITE%to create a %ORANGE%Pandemonium Talisman %BLACK%(Uber Tristram)%NL%%GOLD%Cube %WHITE%any three %RED%Organs %WHITE%with a %GRAY%Key}
-ItemDisplay[dhn]: %MAP-0A%%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%ORANGE%{%WHITE%to create a %ORANGE%Pandemonium Talisman %BLACK%(Uber Tristram)%NL%%GOLD%Cube %WHITE%any three %RED%Organs %WHITE%with a %GRAY%Key}
+ItemDisplay[mbr]: %MAP-0A%%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%ORANGE%{%WHITE%to create a %RED%Pandemonium Talisman%NL%%GOLD%Cube %WHITE%any three %RED%Organs %WHITE%with a %GRAY%Key}
+ItemDisplay[bey]: %MAP-0A%%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%ORANGE%{%WHITE%to create a %RED%Pandemonium Talisman%NL%%GOLD%Cube %WHITE%any three %RED%Organs %WHITE%with a %GRAY%Key}
+ItemDisplay[dhn]: %MAP-0A%%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%ORANGE%{%WHITE%to create a %RED%Pandemonium Talisman%NL%%GOLD%Cube %WHITE%any three %RED%Organs %WHITE%with a %GRAY%Key}
 
 //Pandemonium Talisman
 ItemDisplay[ubtm]: %MAP-0A%%BLACK%|%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%BLACK%|%ORANGE%{%WHITE%Alas, %ORANGE%Uber Tristram %WHITE%shall determine %GRAY%your fate...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath awaits.%NL%A singular attempt to those who congregate:}
 
 //Diablo Clone
-ItemDisplay[dcbl]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|     %ORANGE%%NAME%     %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %ORANGE%Vision of Terror %BLACK%(Diablo Clone)%NL%%ORANGE%Black Soul Stone %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%WHITE%Found throughout %BLUE%Maps of Sanctuary%NL%%WHITE%Those wrought in %RED%Supreme Maleficence%NL%%GRAY%Dropped by:}
-ItemDisplay[dcho]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|     %ORANGE%%NAME%     %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %ORANGE%Vision of Terror %BLACK%(Diablo Clone)%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%The Pandemonium Event%NL%%GRAY%Dropped by:}
-ItemDisplay[dcso]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|     %ORANGE%%NAME%     %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %ORANGE%Vision of Terror %BLACK%(Diablo Clone)%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Black Soul Stone%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%DARK_GREEN%Baal, Lord of Destruction%NL%%RED%Diablo, Lord of Terror%NL%%GRAY%Dropped by:}
+ItemDisplay[dcbl]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|     %ORANGE%%NAME%     %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Black Soul Stone %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%WHITE%Found throughout %BLUE%Maps of Sanctuary%NL%%WHITE%Those wrought in %RED%Supreme Maleficence%NL%%GRAY%Dropped by:}
+ItemDisplay[dcho]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|     %ORANGE%%NAME%     %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%The Pandemonium Event%NL%%GRAY%Dropped by:}
+ItemDisplay[dcso]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|     %ORANGE%%NAME%     %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Black Soul Stone%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%Diablo, Lord of Terror%WHITE%& %DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Dropped by:}
 ItemDisplay[dcma]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|     %ORANGE%%NAME%     %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%Alas, %ORANGE%Uber Diablo %WHITE%shall determine %GRAY%your fate...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath awaits.%NL%A singular attempt to those who congregate:}
 
 //The Void
 ItemDisplay[rtmf]: %MAP-0A%%BLUE%|%PURPLE%:   %ORANGE%%NAME%   %PURPLE%:%BLUE%|%ORANGE%{%WHITE%to create a %ORANGE%Trang-Oul's Jawbone%NL%%WHITE%with any %GOLD%Hellfire Torch%NL%Cube %WHITE%two %ORANGE%Ancient Bone Fragments}
-ItemDisplay[rtmo]: %BORDER-0A%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%     %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %ORANGE%Voidstone %BLACK%(Uber Rathma)%NL%%ORANGE%Splinter of the Void%WHITE%, %GOLD%Hellfire Torch%WHITE%, %ORANGE%Prime Evil Soul%WHITE%.%NL%%GOLD%Cube %WHITE%this item with the following:}
-ItemDisplay[rtmv]: %BORDER-0A%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%     %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %ORANGE%Voidstone %BLACK%(Uber Rathma)%NL%%ORANGE%Trang-Oul's Jawbone%WHITE%, %GOLD%Hellfire Torch%WHITE%, %ORANGE%Prime Evil Soul%WHITE%.%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[rtmo]: %BORDER-0A%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%     %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone %BLACK%(Uber Rathma)%NL%%ORANGE%Splinter of the Void%WHITE%, %GOLD%Hellfire Torch%WHITE%, %ORANGE%Prime Evil Soul%WHITE%.%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[rtmv]: %BORDER-0A%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%     %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone %BLACK%(Uber Rathma)%NL%%ORANGE%Trang-Oul's Jawbone%WHITE%, %GOLD%Hellfire Torch%WHITE%, %ORANGE%Prime Evil Soul%WHITE%.%NL%%GOLD%Cube %WHITE%this item with the following:}
 ItemDisplay[rtma]: %BORDER-0A%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%     %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%Alas, %ORANGE%Uber Rathma %WHITE%shall determine %GRAY%your fate...%NL%%NL%%WHITE%The %RED%Blood Fountain %WHITE%of Harrogath awaits.%NL%A singular attempt to those who congregate:}
 ItemDisplay[cwss]: %BORDER-0A%%WHITE%:%BLUE%|%PURPLE%:     %RED%%NAME%     %PURPLE%:%BLUE%|%WHITE%:%RED%{%WHITE%This cannot brick your Anni%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
 
@@ -1836,7 +1842,7 @@ ItemDisplay[RARE LVLREQ<31 MAXDMG>15 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling
 ItemDisplay[RARE LVLREQ<31 MINDMG>4 MAXDMG>9 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 5+ Minimum Damage with 10+ Maximum Damage
 ItemDisplay[RARE LVLREQ<31 STAT91=-15 (RES>11 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // -Requirements with 12%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy
 
-//----------------------------------------- Arreat Summit Details (Defense and Sockets) -----------------------------------------
+//----------------------------------------- PD2 Wiki Details (Defense and Sockets) -----------------------------------------
 
 // --- // Non-Magic Items \\ --- \\
 
@@ -2264,8 +2270,8 @@ ItemDisplay[gsd ILVL>25 ILVL<41 NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NA
 ItemDisplay[gsd ILVL>40 NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 6%NL%%NAME%}%CONTINUE%//
 ItemDisplay[wnd NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
 ItemDisplay[ywn NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
-ItemDisplay[bwn NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
-ItemDisplay[gwn NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
+ItemDisplay[bwn NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gwn NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
 ItemDisplay[am1 ILVL<26 NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[am1 ILVL>25 ILVL<41 NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[am1 ILVL>40 NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 5%NL%%NAME%}%CONTINUE%//
@@ -2427,9 +2433,9 @@ ItemDisplay[9gd ILVL<26 NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CON
 ItemDisplay[9gd ILVL>25 ILVL<41 NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9gd ILVL>40 NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 6%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9wn NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
-ItemDisplay[9yw NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
-ItemDisplay[9bw NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
-ItemDisplay[9gw NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9yw NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9bw NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9gw NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
 ItemDisplay[am6 ILVL<25 NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[am6 ILVL>26 ILVL<41 NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[am6 ILVL>40 NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 5%NL%%NAME%}%CONTINUE%//
@@ -2632,7 +2638,7 @@ ItemDisplay[obf ILVL>25 NMAG SOCK=0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CON
 
 // --- // Unique, Set, Rare, or Crafted Items \\ --- \\
 
-//Armor 0 Sockets
+//Armor 0 Sockets Uncorrupted
 ItemDisplay[ci0 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 1%NL%Base Defense: 20-30}%CONTINUE%//
 ItemDisplay[ci0 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 20-30}%CONTINUE%//
 ItemDisplay[ci1 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 1%NL%Base Defense: 30-40}%CONTINUE%//
@@ -2921,7 +2927,296 @@ ItemDisplay[ned (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Ma
 ItemDisplay[nee (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 3%NL%Base Defense: 100-146}%CONTINUE%//
 ItemDisplay[nef (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 3%NL%Base Defense: 103-148}%CONTINUE%//
 
-//Weapon 0 Sockets
+//Armor 0 Sockets Corrupted
+ItemDisplay[ci0 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 1%NL%Base Defense: 20-30}%CONTINUE%//
+ItemDisplay[ci0 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 20-30}%CONTINUE%//
+ItemDisplay[ci1 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 1%NL%Base Defense: 30-40}%CONTINUE%//
+ItemDisplay[ci1 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 30-40}%CONTINUE%//
+ItemDisplay[cap (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 3-5}%CONTINUE%//
+ItemDisplay[skp (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 8-11}%CONTINUE%//
+ItemDisplay[hlm (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 15-18}%CONTINUE%//
+ItemDisplay[fhl (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 23-26}%CONTINUE%//
+ItemDisplay[ghm ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 30-35}%CONTINUE%//
+ItemDisplay[ghm ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 30-35}%CONTINUE%//
+ItemDisplay[msk ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 9-27}%CONTINUE%//
+ItemDisplay[msk ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 9-27}%CONTINUE%//
+ItemDisplay[crn ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 25-45}%CONTINUE%//
+ItemDisplay[crn ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 25-45}%CONTINUE%//
+ItemDisplay[bhm (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 33-36}%CONTINUE%//
+ItemDisplay[qui (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 8-11}%CONTINUE%//
+ItemDisplay[lea (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 14-17}%CONTINUE%//
+ItemDisplay[hla (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 21-24}%CONTINUE%//
+ItemDisplay[stu (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 32-35}%CONTINUE%//
+ItemDisplay[rng (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 45-48}%CONTINUE%//
+ItemDisplay[scl (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 57-60}%CONTINUE%//
+ItemDisplay[brs (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 65-68}%CONTINUE%//
+ItemDisplay[chn (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 72-75}%CONTINUE%//
+ItemDisplay[spl (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 90-95}%CONTINUE%//
+ItemDisplay[ltp (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 90-107}%CONTINUE%//
+ItemDisplay[fld (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 101-105}%CONTINUE%//
+ItemDisplay[plt (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 108-116}%CONTINUE%//
+ItemDisplay[gth ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 128-135}%CONTINUE%//
+ItemDisplay[gth ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 128-135}%CONTINUE%//
+ItemDisplay[ful ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 150-161}%CONTINUE%//
+ItemDisplay[ful ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 150-161}%CONTINUE%//
+ItemDisplay[aar ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 218-233}%CONTINUE%//
+ItemDisplay[aar ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 218-233}%CONTINUE%//
+ItemDisplay[buc (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 1%NL%Base Defense: 4-6}%CONTINUE%//
+ItemDisplay[sml (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 8-10}%CONTINUE%//
+ItemDisplay[lrg (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 12-14}%CONTINUE%//
+ItemDisplay[kit (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 16-18}%CONTINUE%//
+ItemDisplay[spk (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 15-25}%CONTINUE%//
+ItemDisplay[tow (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 22-25}%CONTINUE%//
+ItemDisplay[bsh (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 10-30}%CONTINUE%//
+ItemDisplay[gts (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 30-35}%CONTINUE%//
+ItemDisplay[lgl (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 2-3}%CONTINUE%//
+ItemDisplay[vgl (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 5-6}%CONTINUE%//
+ItemDisplay[mgl (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 8-9}%CONTINUE%//
+ItemDisplay[tgl (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 9-11}%CONTINUE%//
+ItemDisplay[hgl (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 12-15}%CONTINUE%//
+ItemDisplay[lbt (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 2-3}%CONTINUE%//
+ItemDisplay[vbt (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 5-6}%CONTINUE%//
+ItemDisplay[mbt (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 8-9}%CONTINUE%//
+ItemDisplay[tbt (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 9-11}%CONTINUE%//
+ItemDisplay[hbt (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 12-15}%CONTINUE%//
+ItemDisplay[lbl (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 2}%CONTINUE%//
+ItemDisplay[vbl (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 3}%CONTINUE%//
+ItemDisplay[mbl (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 5}%CONTINUE%//
+ItemDisplay[tbl (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 6}%CONTINUE%//
+ItemDisplay[hbl (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 8-11}%CONTINUE%//
+ItemDisplay[ba1 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 10-15}%CONTINUE%//
+ItemDisplay[ba1 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 10-15}%CONTINUE%//
+ItemDisplay[ba2 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 15-20}%CONTINUE%//
+ItemDisplay[ba2 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 15-20}%CONTINUE%//
+ItemDisplay[ba3 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 25-30}%CONTINUE%//
+ItemDisplay[ba3 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 25-30}%CONTINUE%//
+ItemDisplay[ba4 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 30-35}%CONTINUE%//
+ItemDisplay[ba4 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 30-35}%CONTINUE%//
+ItemDisplay[ba5 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 35-50}%CONTINUE%//
+ItemDisplay[ba5 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 35-50}%CONTINUE%//
+ItemDisplay[dr1 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 8-11}%CONTINUE%//
+ItemDisplay[dr1 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 8-11}%CONTINUE%//
+ItemDisplay[dr2 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 4-15}%CONTINUE%//
+ItemDisplay[dr2 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 4-15}%CONTINUE%//
+ItemDisplay[dr3 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 18-24}%CONTINUE%//
+ItemDisplay[dr3 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 18-24}%CONTINUE%//
+ItemDisplay[dr4 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 12-28}%CONTINUE%//
+ItemDisplay[dr4 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 12-28}%CONTINUE%//
+ItemDisplay[dr5 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 22-35}%CONTINUE%//
+ItemDisplay[dr5 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 22-35}%CONTINUE%//
+ItemDisplay[pa1 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 8-12}%CONTINUE%//
+ItemDisplay[pa1 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 8-12}%CONTINUE%//
+ItemDisplay[pa2 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 10-18}%CONTINUE%//
+ItemDisplay[pa2 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 10-18}%CONTINUE%//
+ItemDisplay[pa3 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 16-26}%CONTINUE%//
+ItemDisplay[pa3 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 16-26}%CONTINUE%//
+ItemDisplay[pa4 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 26-36}%CONTINUE%//
+ItemDisplay[pa4 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 26-36}%CONTINUE%//
+ItemDisplay[pa5 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 30-40}%CONTINUE%//
+ItemDisplay[pa5 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 30-40}%CONTINUE%//
+ItemDisplay[ne1 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 2-5}%CONTINUE%//
+ItemDisplay[ne2 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 4-8}%CONTINUE%//
+ItemDisplay[ne3 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 6-10}%CONTINUE%//
+ItemDisplay[ne4 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 10-16}%CONTINUE%//
+ItemDisplay[ne5 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 15-20}%CONTINUE%//
+ItemDisplay[ci2 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 1%NL%Base Defense: 40-50}%CONTINUE%//
+ItemDisplay[ci2 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 40-50}%CONTINUE%//
+ItemDisplay[ci2 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 40-50}%CONTINUE%//
+ItemDisplay[xap (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 45-53}%CONTINUE%//
+ItemDisplay[xkp (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 52-62}%CONTINUE%//
+ItemDisplay[xlm (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 63-72}%CONTINUE%//
+ItemDisplay[xhl (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 75-84}%CONTINUE%//
+ItemDisplay[xhm ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 85-98}%CONTINUE%//
+ItemDisplay[xhm ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 85-98}%CONTINUE%//
+ItemDisplay[xsk ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 54-86}%CONTINUE%//
+ItemDisplay[xsk ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 54-86}%CONTINUE%//
+ItemDisplay[xrn ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 78-113}%CONTINUE%//
+ItemDisplay[xrn ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 78-113}%CONTINUE%//
+ItemDisplay[xh9 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 60-125}%CONTINUE%//
+ItemDisplay[xui (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 102-117}%CONTINUE%//
+ItemDisplay[xea (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 111-126}%CONTINUE%//
+ItemDisplay[xla (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 122-136}%CONTINUE%//
+ItemDisplay[xtu (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 138-153}%CONTINUE%//
+ItemDisplay[xng (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 158-172}%CONTINUE%//
+ItemDisplay[xcl (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 176-190}%CONTINUE%//
+ItemDisplay[xrs (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 188-202}%CONTINUE%//
+ItemDisplay[xhn (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 198-213}%CONTINUE%//
+ItemDisplay[xpl (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 225-243}%CONTINUE%//
+ItemDisplay[xtp (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 225-261}%CONTINUE%//
+ItemDisplay[xld (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 242-258}%CONTINUE%//
+ItemDisplay[xlt (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 252-274}%CONTINUE%//
+ItemDisplay[xth ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 282-303}%CONTINUE%//
+ItemDisplay[xth ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 282-303}%CONTINUE%//
+ItemDisplay[xul ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 315-342}%CONTINUE%//
+ItemDisplay[xul ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 315-342}%CONTINUE%//
+ItemDisplay[xar ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 417-450}%CONTINUE%//
+ItemDisplay[xar ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 417-450}%CONTINUE%//
+ItemDisplay[xuc (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 1%NL%Base Defense: 41-49}%CONTINUE%//
+ItemDisplay[xml (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 47-55}%CONTINUE%//
+ItemDisplay[xrg (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 53-61}%CONTINUE%//
+ItemDisplay[xpk (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 58-78}%CONTINUE%//
+ItemDisplay[xit (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 59-67}%CONTINUE%//
+ItemDisplay[xsh (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 50-150}%CONTINUE%//
+ItemDisplay[xow (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 68-78}%CONTINUE%//
+ItemDisplay[xts (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 80-93}%CONTINUE%//
+ItemDisplay[xlg (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 28-35}%CONTINUE%//
+ItemDisplay[xvg (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 33-39}%CONTINUE%//
+ItemDisplay[xmg (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 37-44}%CONTINUE%//
+ItemDisplay[xtg (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 39-47}%CONTINUE%//
+ItemDisplay[xhg (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 43-53}%CONTINUE%//
+ItemDisplay[xlb (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 28-35}%CONTINUE%//
+ItemDisplay[xvb (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 33-39}%CONTINUE%//
+ItemDisplay[xmb (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 37-44}%CONTINUE%//
+ItemDisplay[xtb (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 39-47}%CONTINUE%//
+ItemDisplay[xhb (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 43-53}%CONTINUE%//
+ItemDisplay[zlb (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 29-34}%CONTINUE%//
+ItemDisplay[zvb (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 31-36}%CONTINUE%//
+ItemDisplay[zmb (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 35-40}%CONTINUE%//
+ItemDisplay[ztb (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 37-42}%CONTINUE%//
+ItemDisplay[zhb (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 41-52}%CONTINUE%//
+ItemDisplay[ba6 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 52-62}%CONTINUE%//
+ItemDisplay[ba6 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 52-62}%CONTINUE%//
+ItemDisplay[ba7 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 46-68}%CONTINUE%//
+ItemDisplay[ba7 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 46-68}%CONTINUE%//
+ItemDisplay[ba8 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 67-81}%CONTINUE%//
+ItemDisplay[ba8 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 67-81}%CONTINUE%//
+ItemDisplay[ba9 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 58-87}%CONTINUE%//
+ItemDisplay[ba9 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 58-87}%CONTINUE%//
+ItemDisplay[baa ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 73-98}%CONTINUE%//
+ItemDisplay[baa ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 73-98}%CONTINUE%//
+ItemDisplay[dr6 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 52-62}%CONTINUE%//
+ItemDisplay[dr6 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 52-62}%CONTINUE%//
+ItemDisplay[dr7 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 46-68}%CONTINUE%//
+ItemDisplay[dr7 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 46-68}%CONTINUE%//
+ItemDisplay[dr8 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 67-81}%CONTINUE%//
+ItemDisplay[dr8 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 67-81}%CONTINUE%//
+ItemDisplay[dr9 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 58-87}%CONTINUE%//
+ItemDisplay[dr9 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 58-87}%CONTINUE%//
+ItemDisplay[dra ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 73-98}%CONTINUE%//
+ItemDisplay[dra ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 73-98}%CONTINUE%//
+ItemDisplay[pa6 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 101-125}%CONTINUE%//
+ItemDisplay[pa6 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 101-125}%CONTINUE%//
+ItemDisplay[pa7 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 113-137}%CONTINUE%//
+ItemDisplay[pa7 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 113-137}%CONTINUE%//
+ItemDisplay[pa8 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 129-153}%CONTINUE%//
+ItemDisplay[pa8 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 129-153}%CONTINUE%//
+ItemDisplay[pa9 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 144-168}%CONTINUE%//
+ItemDisplay[pa9 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 144-168}%CONTINUE%//
+ItemDisplay[paa ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 156-181}%CONTINUE%//
+ItemDisplay[paa ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 156-181}%CONTINUE%//
+ItemDisplay[ne6 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 38-48}%CONTINUE%//
+ItemDisplay[ne7 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 41-52}%CONTINUE%//
+ItemDisplay[ne8 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 44-55}%CONTINUE%//
+ItemDisplay[ne9 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 50-64}%CONTINUE%//
+ItemDisplay[nea (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 58-70}%CONTINUE%//
+ItemDisplay[ci3 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 1%NL%Base Defense: 50-60}%CONTINUE%//
+ItemDisplay[ci3 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 50-60}%CONTINUE%//
+ItemDisplay[ci3 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 50-60}%CONTINUE%//
+ItemDisplay[uap (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 98-141}%CONTINUE%//
+ItemDisplay[ukp (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 101-145}%CONTINUE%//
+ItemDisplay[ulm (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 105-149}%CONTINUE%//
+ItemDisplay[uhl (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 110-154}%CONTINUE%//
+ItemDisplay[uhm ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 114-159}%CONTINUE%//
+ItemDisplay[uhm ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 114-159}%CONTINUE%//
+ItemDisplay[usk ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 101-154}%CONTINUE%//
+ItemDisplay[usk ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 101-154}%CONTINUE%//
+ItemDisplay[urn ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 111-165}%CONTINUE%//
+ItemDisplay[urn ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 111-165}%CONTINUE%//
+ItemDisplay[uh9 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 100-157}%CONTINUE%//
+ItemDisplay[uh9 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 100-157}%CONTINUE%//
+ItemDisplay[uui ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 361-467}%CONTINUE%//
+ItemDisplay[uui ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 361-467}%CONTINUE%//
+ItemDisplay[uea ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 364-470}%CONTINUE%//
+ItemDisplay[uea ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 364-470}%CONTINUE%//
+ItemDisplay[ula ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 369-474}%CONTINUE%//
+ItemDisplay[ula ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 369-474}%CONTINUE%//
+ItemDisplay[utu ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 375-481}%CONTINUE%//
+ItemDisplay[utu ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 375-481}%CONTINUE%//
+ItemDisplay[ung ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 383-489}%CONTINUE%//
+ItemDisplay[ung ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 383-489}%CONTINUE%//
+ItemDisplay[ucl ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 390-496}%CONTINUE%//
+ItemDisplay[ucl ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 390-496}%CONTINUE%//
+ItemDisplay[urs ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 395-501}%CONTINUE%//
+ItemDisplay[urs ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 395-501}%CONTINUE%//
+ItemDisplay[uhn ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 399-505}%CONTINUE%//
+ItemDisplay[uhn ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 399-505}%CONTINUE%//
+ItemDisplay[upl ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 410-517}%CONTINUE%//
+ItemDisplay[upl ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 410-517}%CONTINUE%//
+ItemDisplay[utp ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 410-524}%CONTINUE%//
+ItemDisplay[utp ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 410-524}%CONTINUE%//
+ItemDisplay[uld ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 417-523}%CONTINUE%//
+ItemDisplay[uld ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 417-523}%CONTINUE%//
+ItemDisplay[ult ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 421-530}%CONTINUE%//
+ItemDisplay[ult ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 421-530}%CONTINUE%//
+ItemDisplay[uth ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 433-541}%CONTINUE%//
+ItemDisplay[uth ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 433-541}%CONTINUE%//
+ItemDisplay[uul ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 446-557}%CONTINUE%//
+ItemDisplay[uul ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 446-557}%CONTINUE%//
+ItemDisplay[uar ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 487-600}%CONTINUE%//
+ItemDisplay[uar ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 487-600}%CONTINUE%//
+ItemDisplay[uuc (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 95-110}%CONTINUE%//
+ItemDisplay[uml (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 108-123}%CONTINUE%//
+ItemDisplay[urg (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 119-135}%CONTINUE%//
+ItemDisplay[uit ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 133-148}%CONTINUE%//
+ItemDisplay[uit ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 133-148}%CONTINUE%//
+ItemDisplay[upk (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 147-163}%CONTINUE%//
+ItemDisplay[uow ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 215-241}%CONTINUE%//
+ItemDisplay[uow ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 215-241}%CONTINUE%//
+ItemDisplay[ush (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 158-173}%CONTINUE%//
+ItemDisplay[uts ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 183-207}%CONTINUE%//
+ItemDisplay[uts ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 183-207}%CONTINUE%//
+ItemDisplay[ulg (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 54-62}%CONTINUE%//
+ItemDisplay[uvg (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 56-65}%CONTINUE%//
+ItemDisplay[umg (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 59-67}%CONTINUE%//
+ItemDisplay[utg (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 59-68}%CONTINUE%//
+ItemDisplay[uhg (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 62-71}%CONTINUE%//
+ItemDisplay[ulb (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 54-62}%CONTINUE%//
+ItemDisplay[uvb (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 56-65}%CONTINUE%//
+ItemDisplay[umb (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 59-67}%CONTINUE%//
+ItemDisplay[utb (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 59-67}%CONTINUE%//
+ItemDisplay[uhb (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 62-71}%CONTINUE%//
+ItemDisplay[ulc (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 55-62}%CONTINUE%//
+ItemDisplay[uvc (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 56-63}%CONTINUE%//
+ItemDisplay[umc (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 58-65}%CONTINUE%//
+ItemDisplay[utc (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 59-66}%CONTINUE%//
+ItemDisplay[uhc (UNI OR SET OR RARE OR CRAFT) SOCK=0]:%NAME%{%WHITE%Base Defense: 61-71}%CONTINUE%//
+ItemDisplay[bab ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 102-147}%CONTINUE%//
+ItemDisplay[bab ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 102-147}%CONTINUE%//
+ItemDisplay[bac ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 105-150}%CONTINUE%//
+ItemDisplay[bac ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 105-150}%CONTINUE%//
+ItemDisplay[bad ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 111-156}%CONTINUE%//
+ItemDisplay[bad ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 111-156}%CONTINUE%//
+ItemDisplay[bae ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 114-159}%CONTINUE%//
+ItemDisplay[bae ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 114-159}%CONTINUE%//
+ItemDisplay[baf ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 117-168}%CONTINUE%//
+ItemDisplay[baf ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 117-168}%CONTINUE%//
+ItemDisplay[drb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 101-145}%CONTINUE%//
+ItemDisplay[drb ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 101-145}%CONTINUE%//
+ItemDisplay[drc ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 98-147}%CONTINUE%//
+ItemDisplay[drc ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 98-147}%CONTINUE%//
+ItemDisplay[drd ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 107-152}%CONTINUE%//
+ItemDisplay[drd ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 107-152}%CONTINUE%//
+ItemDisplay[dre ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 103-155}%CONTINUE%//
+ItemDisplay[dre ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 103-155}%CONTINUE%//
+ItemDisplay[drf ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 109-159}%CONTINUE%//
+ItemDisplay[drf ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 109-159}%CONTINUE%//
+ItemDisplay[pab ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 126-158}%CONTINUE%//
+ItemDisplay[pab ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 126-158}%CONTINUE%//
+ItemDisplay[pac ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 138-164}%CONTINUE%//
+ItemDisplay[pac ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 138-164}%CONTINUE%//
+ItemDisplay[pad ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 154-172}%CONTINUE%//
+ItemDisplay[pad ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 154-172}%CONTINUE%//
+ItemDisplay[pae ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 169-193}%CONTINUE%//
+ItemDisplay[pae ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 169-193}%CONTINUE%//
+ItemDisplay[paf ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 182-225}%CONTINUE%//
+ItemDisplay[paf ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 182-225}%CONTINUE%//
+ItemDisplay[neb (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 95-139}%CONTINUE%//
+ItemDisplay[neg (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 96-141}%CONTINUE%//
+ItemDisplay[ned (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 98-142}%CONTINUE%//
+ItemDisplay[nee (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 100-146}%CONTINUE%//
+ItemDisplay[nef (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 2%NL%Base Defense: 103-148}%CONTINUE%//
+
+//Weapon 0 Sockets Uncorrupted
 ItemDisplay[hax (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
 ItemDisplay[axe (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[2ax ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
@@ -3056,8 +3351,8 @@ ItemDisplay[gsd ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:
 ItemDisplay[gsd ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 6%NL%%NAME%}%CONTINUE%//
 ItemDisplay[wnd (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
 ItemDisplay[ywn (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
-ItemDisplay[bwn (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
-ItemDisplay[gwn (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
+ItemDisplay[bwn (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gwn (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
 ItemDisplay[am1 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[am1 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[am1 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 5%NL%%NAME%}%CONTINUE%//
@@ -3219,9 +3514,9 @@ ItemDisplay[9gd ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%
 ItemDisplay[9gd ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9gd ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 6%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9wn (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
-ItemDisplay[9yw (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
-ItemDisplay[9bw (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
-ItemDisplay[9gw (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9yw (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9bw (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9gw (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
 ItemDisplay[am6 ILVL<25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[am6 ILVL>26 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[am6 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 5%NL%%NAME%}%CONTINUE%//
@@ -3418,249 +3713,746 @@ ItemDisplay[obe (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Ma
 ItemDisplay[obf ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
 ItemDisplay[obf ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 
-// --- // Armor with Sockets (or Corruption) of All Types (Including Low ILVL Magic Items with and without Sockets) \\ --- \\
-ItemDisplay[ci0 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG SOCK>0) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 20-30}%CONTINUE%//
-ItemDisplay[ci0 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG SOCK>0) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 20-30}%CONTINUE%//
-ItemDisplay[ci1 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG SOCK>0) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 30-40}%CONTINUE%//
-ItemDisplay[ci1 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG SOCK>0) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 30-40}%CONTINUE%//
-ItemDisplay[cap ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 3-5}%CONTINUE%//
-ItemDisplay[skp ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 8-11}%CONTINUE%//
-ItemDisplay[hlm ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 15-18}%CONTINUE%//
-ItemDisplay[fhl ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 23-26}%CONTINUE%//
-ItemDisplay[ghm ILVL<41 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 30-35}%CONTINUE%//
-ItemDisplay[ghm ILVL>40 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 30-35}%CONTINUE%//
-ItemDisplay[msk ILVL<41 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 9-27}%CONTINUE%//
-ItemDisplay[msk ILVL>40 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 9-27}%CONTINUE%//
-ItemDisplay[crn ILVL<41 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 25-45}%CONTINUE%//
-ItemDisplay[crn ILVL>40 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 25-45}%CONTINUE%//
-ItemDisplay[bhm ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 33-36}%CONTINUE%//
-ItemDisplay[qui ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 8-11}%CONTINUE%//
-ItemDisplay[lea ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 14-17}%CONTINUE%//
-ItemDisplay[hla ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 21-24}%CONTINUE%//
-ItemDisplay[stu ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 32-35}%CONTINUE%//
-ItemDisplay[rng ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 45-48}%CONTINUE%//
-ItemDisplay[scl ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 57-60}%CONTINUE%//
-ItemDisplay[brs ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 65-68}%CONTINUE%//
-ItemDisplay[chn ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 72-75}%CONTINUE%//
-ItemDisplay[spl ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 90-95}%CONTINUE%//
-ItemDisplay[ltp ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 90-107}%CONTINUE%//
-ItemDisplay[fld ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 101-105}%CONTINUE%//
-ItemDisplay[plt ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 108-116}%CONTINUE%//
-ItemDisplay[gth ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 128-135}%CONTINUE%//
-ItemDisplay[gth ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 128-135}%CONTINUE%//
-ItemDisplay[ful ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 150-161}%CONTINUE%//
-ItemDisplay[ful ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 150-161}%CONTINUE%//
-ItemDisplay[aar ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 218-233}%CONTINUE%//
-ItemDisplay[aar ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 218-233}%CONTINUE%//
-ItemDisplay[buc ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 4-6}%CONTINUE%//
-ItemDisplay[sml ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 8-10}%CONTINUE%//
-ItemDisplay[lrg ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 12-14}%CONTINUE%//
-ItemDisplay[kit ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 16-18}%CONTINUE%//
-ItemDisplay[spk ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 15-25}%CONTINUE%//
-ItemDisplay[tow ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 22-25}%CONTINUE%//
-ItemDisplay[bsh ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 10-30}%CONTINUE%//
-ItemDisplay[gts ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 30-35}%CONTINUE%//
-ItemDisplay[ba1 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 10-15}%CONTINUE%//
-ItemDisplay[ba1 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 10-15}%CONTINUE%//
-ItemDisplay[ba2 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 15-20}%CONTINUE%//
-ItemDisplay[ba2 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 15-20}%CONTINUE%//
-ItemDisplay[ba3 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 25-30}%CONTINUE%//
-ItemDisplay[ba3 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 25-30}%CONTINUE%//
-ItemDisplay[ba4 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 30-35}%CONTINUE%//
-ItemDisplay[ba4 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 30-35}%CONTINUE%//
-ItemDisplay[ba5 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 35-50}%CONTINUE%//
-ItemDisplay[ba5 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 35-50}%CONTINUE%//
-ItemDisplay[dr1 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 8-11}%CONTINUE%//
-ItemDisplay[dr1 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 8-11}%CONTINUE%//
-ItemDisplay[dr2 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 4-15}%CONTINUE%//
-ItemDisplay[dr2 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 4-15}%CONTINUE%//
-ItemDisplay[dr3 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 18-24}%CONTINUE%//
-ItemDisplay[dr3 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 18-24}%CONTINUE%//
-ItemDisplay[dr4 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 12-28}%CONTINUE%//
-ItemDisplay[dr4 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 12-28}%CONTINUE%//
-ItemDisplay[dr5 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 22-35}%CONTINUE%//
-ItemDisplay[dr5 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 22-35}%CONTINUE%//
-ItemDisplay[pa1 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 8-12}%CONTINUE%//
-ItemDisplay[pa1 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 8-12}%CONTINUE%//
-ItemDisplay[pa2 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 10-18}%CONTINUE%//
-ItemDisplay[pa2 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 10-18}%CONTINUE%//
-ItemDisplay[pa3 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 16-26}%CONTINUE%//
-ItemDisplay[pa3 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 16-26}%CONTINUE%//
-ItemDisplay[pa4 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 26-36}%CONTINUE%//
-ItemDisplay[pa4 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 26-36}%CONTINUE%//
-ItemDisplay[pa5 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 30-40}%CONTINUE%//
-ItemDisplay[pa5 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 30-40}%CONTINUE%//
-ItemDisplay[ne1 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 2-5}%CONTINUE%//
-ItemDisplay[ne2 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 4-8}%CONTINUE%//
-ItemDisplay[ne3 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 6-10}%CONTINUE%//
-ItemDisplay[ne4 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 10-16}%CONTINUE%//
-ItemDisplay[ne5 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 15-20}%CONTINUE%//
-ItemDisplay[ci2 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG SOCK>0) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 40-50}%CONTINUE%//
-ItemDisplay[ci2 ILVL>25 ILVL<41 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG SOCK>0) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 40-50}%CONTINUE%//
-ItemDisplay[ci2 ILVL>40 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG SOCK>0) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 40-50}%CONTINUE%//
-ItemDisplay[xap ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 45-53}%CONTINUE%//
-ItemDisplay[xkp ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 52-62}%CONTINUE%//
-ItemDisplay[xlm ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 63-72}%CONTINUE%//
-ItemDisplay[xhl ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 75-84}%CONTINUE%//
-ItemDisplay[xhm ILVL<41 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 85-98}%CONTINUE%//
-ItemDisplay[xhm ILVL>40 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 85-98}%CONTINUE%//
-ItemDisplay[xsk ILVL<41 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 54-86}%CONTINUE%//
-ItemDisplay[xsk ILVL>40 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 54-86}%CONTINUE%//
-ItemDisplay[xrn ILVL<41 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 78-113}%CONTINUE%//
-ItemDisplay[xrn ILVL>40 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 78-113}%CONTINUE%//
-ItemDisplay[xh9 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 60-125}%CONTINUE%//
-ItemDisplay[xui ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 102-117}%CONTINUE%//
-ItemDisplay[xea ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 111-126}%CONTINUE%//
-ItemDisplay[xla ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 122-136}%CONTINUE%//
-ItemDisplay[xtu ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 138-153}%CONTINUE%//
-ItemDisplay[xng ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 158-172}%CONTINUE%//
-ItemDisplay[xcl ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 176-190}%CONTINUE%//
-ItemDisplay[xrs ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 188-202}%CONTINUE%//
-ItemDisplay[xhn ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 198-213}%CONTINUE%//
-ItemDisplay[xpl ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 225-243}%CONTINUE%//
-ItemDisplay[xtp ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 225-261}%CONTINUE%//
-ItemDisplay[xld ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 242-258}%CONTINUE%//
-ItemDisplay[xlt ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 252-274}%CONTINUE%//
-ItemDisplay[xth ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 282-303}%CONTINUE%//
-ItemDisplay[xth ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 282-303}%CONTINUE%//
-ItemDisplay[xul ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 315-342}%CONTINUE%//
-ItemDisplay[xul ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 315-342}%CONTINUE%//
-ItemDisplay[xar ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 417-450}%CONTINUE%//
-ItemDisplay[xar ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 417-450}%CONTINUE%//
-ItemDisplay[xuc ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 41-49}%CONTINUE%//
-ItemDisplay[xml ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 47-55}%CONTINUE%//
-ItemDisplay[xrg ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 53-61}%CONTINUE%//
-ItemDisplay[xpk ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 58-78}%CONTINUE%//
-ItemDisplay[xit ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 59-67}%CONTINUE%//
-ItemDisplay[xsh ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 50-150}%CONTINUE%//
-ItemDisplay[xow ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 68-78}%CONTINUE%//
-ItemDisplay[xts ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 80-93}%CONTINUE%//
-ItemDisplay[ba6 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 52-62}%CONTINUE%//
-ItemDisplay[ba6 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 52-62}%CONTINUE%//
-ItemDisplay[ba7 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 46-68}%CONTINUE%//
-ItemDisplay[ba7 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 46-68}%CONTINUE%//
-ItemDisplay[ba8 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 67-81}%CONTINUE%//
-ItemDisplay[ba8 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 67-81}%CONTINUE%//
-ItemDisplay[ba9 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 58-87}%CONTINUE%//
-ItemDisplay[ba9 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 58-87}%CONTINUE%//
-ItemDisplay[baa ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 73-98}%CONTINUE%//
-ItemDisplay[baa ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 73-98}%CONTINUE%//
-ItemDisplay[dr6 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 52-62}%CONTINUE%//
-ItemDisplay[dr6 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 52-62}%CONTINUE%//
-ItemDisplay[dr7 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 46-68}%CONTINUE%//
-ItemDisplay[dr7 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 46-68}%CONTINUE%//
-ItemDisplay[dr8 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 67-81}%CONTINUE%//
-ItemDisplay[dr8 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 67-81}%CONTINUE%//
-ItemDisplay[dr9 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 58-87}%CONTINUE%//
-ItemDisplay[dr9 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 58-87}%CONTINUE%//
-ItemDisplay[dra ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 73-98}%CONTINUE%//
-ItemDisplay[dra ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 73-98}%CONTINUE%//
-ItemDisplay[pa6 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 101-125}%CONTINUE%//
-ItemDisplay[pa6 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 101-125}%CONTINUE%//
-ItemDisplay[pa7 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 113-137}%CONTINUE%//
-ItemDisplay[pa7 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 113-137}%CONTINUE%//
-ItemDisplay[pa8 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 129-153}%CONTINUE%//
-ItemDisplay[pa8 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 129-153}%CONTINUE%//
-ItemDisplay[pa9 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 144-168}%CONTINUE%//
-ItemDisplay[pa9 ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 144-168}%CONTINUE%//
-ItemDisplay[paa ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 156-181}%CONTINUE%//
-ItemDisplay[paa ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 156-181}%CONTINUE%//
-ItemDisplay[ne6 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 38-48}%CONTINUE%//
-ItemDisplay[ne7 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 41-52}%CONTINUE%//
-ItemDisplay[ne8 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 44-55}%CONTINUE%//
-ItemDisplay[ne9 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 50-64}%CONTINUE%//
-ItemDisplay[nea ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 58-70}%CONTINUE%//
-ItemDisplay[ci3 ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG SOCK>0) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 50-60}%CONTINUE%//
-ItemDisplay[ci3 ILVL>25 ILVL<41 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG SOCK>0) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 50-60}%CONTINUE%//
-ItemDisplay[ci3 ILVL>40 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG SOCK>0) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 50-60}%CONTINUE%//
-ItemDisplay[uap ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 98-141}%CONTINUE%//
-ItemDisplay[ukp ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 101-145}%CONTINUE%//
-ItemDisplay[ulm ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 105-149}%CONTINUE%//
-ItemDisplay[uhl ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 110-154}%CONTINUE%//
-ItemDisplay[uhm ILVL<41 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 114-159}%CONTINUE%//
-ItemDisplay[uhm ILVL>40 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 114-159}%CONTINUE%//
-ItemDisplay[usk ILVL<41 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 101-154}%CONTINUE%//
-ItemDisplay[usk ILVL>40 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 101-154}%CONTINUE%//
-ItemDisplay[urn ILVL<41 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 111-165}%CONTINUE%//
-ItemDisplay[urn ILVL>40 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 111-165}%CONTINUE%//
-ItemDisplay[uh9 ILVL<41 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 100-157}%CONTINUE%//
-ItemDisplay[uh9 ILVL>40 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 100-157}%CONTINUE%//
-ItemDisplay[uui ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 361-467}%CONTINUE%//
-ItemDisplay[uui ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 361-467}%CONTINUE%//
-ItemDisplay[uea ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 364-470}%CONTINUE%//
-ItemDisplay[uea ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 364-470}%CONTINUE%//
-ItemDisplay[ula ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 369-474}%CONTINUE%//
-ItemDisplay[ula ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 369-474}%CONTINUE%//
-ItemDisplay[utu ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 375-481}%CONTINUE%//
-ItemDisplay[utu ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 375-481}%CONTINUE%//
-ItemDisplay[ung ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 383-489}%CONTINUE%//
-ItemDisplay[ung ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 383-489}%CONTINUE%//
-ItemDisplay[ucl ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 390-496}%CONTINUE%//
-ItemDisplay[ucl ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 390-496}%CONTINUE%//
-ItemDisplay[urs ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 395-501}%CONTINUE%//
-ItemDisplay[urs ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 395-501}%CONTINUE%//
-ItemDisplay[uhn ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 399-505}%CONTINUE%//
-ItemDisplay[uhn ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 399-505}%CONTINUE%//
-ItemDisplay[upl ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 410-517}%CONTINUE%//
-ItemDisplay[upl ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 410-517}%CONTINUE%//
-ItemDisplay[utp ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 410-524}%CONTINUE%//
-ItemDisplay[utp ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 410-524}%CONTINUE%//
-ItemDisplay[uld ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 417-523}%CONTINUE%//
-ItemDisplay[uld ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 417-523}%CONTINUE%//
-ItemDisplay[ult ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 421-530}%CONTINUE%//
-ItemDisplay[ult ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 421-530}%CONTINUE%//
-ItemDisplay[uth ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 433-541}%CONTINUE%//
-ItemDisplay[uth ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 433-541}%CONTINUE%//
-ItemDisplay[uul ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 446-557}%CONTINUE%//
-ItemDisplay[uul ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 446-557}%CONTINUE%//
-ItemDisplay[uar ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 487-600}%CONTINUE%//
-ItemDisplay[uar ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 487-600}%CONTINUE%//
-ItemDisplay[uuc ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 95-110}%CONTINUE%//
-ItemDisplay[uml ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 108-123}%CONTINUE%//
-ItemDisplay[urg ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 119-135}%CONTINUE%//
-ItemDisplay[uit ILVL<41 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 133-148}%CONTINUE%//
-ItemDisplay[uit ILVL>40 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 133-148}%CONTINUE%//
-ItemDisplay[upk ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 147-163}%CONTINUE%//
-ItemDisplay[uow ILVL<41 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 215-241}%CONTINUE%//
-ItemDisplay[uow ILVL>40 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 215-241}%CONTINUE%//
-ItemDisplay[ush ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 158-173}%CONTINUE%//
-ItemDisplay[uts ILVL<41 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 183-207}%CONTINUE%//
-ItemDisplay[uts ILVL>40 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 183-207}%CONTINUE%//
-ItemDisplay[bab ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 102-147}%CONTINUE%//
-ItemDisplay[bab ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 102-147}%CONTINUE%//
-ItemDisplay[bac ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 105-150}%CONTINUE%//
-ItemDisplay[bac ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 105-150}%CONTINUE%//
-ItemDisplay[bad ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 111-156}%CONTINUE%//
-ItemDisplay[bad ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 111-156}%CONTINUE%//
-ItemDisplay[bae ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 114-159}%CONTINUE%//
-ItemDisplay[bae ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 114-159}%CONTINUE%//
-ItemDisplay[baf ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 117-168}%CONTINUE%//
-ItemDisplay[baf ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 117-168}%CONTINUE%//
-ItemDisplay[drb ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 101-145}%CONTINUE%//
-ItemDisplay[drb ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 101-145}%CONTINUE%//
-ItemDisplay[drc ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 98-147}%CONTINUE%//
-ItemDisplay[drc ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 98-147}%CONTINUE%//
-ItemDisplay[drd ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 107-152}%CONTINUE%//
-ItemDisplay[drd ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 107-152}%CONTINUE%//
-ItemDisplay[dre ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 103-155}%CONTINUE%//
-ItemDisplay[dre ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 103-155}%CONTINUE%//
-ItemDisplay[drf ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 109-159}%CONTINUE%//
-ItemDisplay[drf ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 109-159}%CONTINUE%//
-ItemDisplay[pab ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 126-158}%CONTINUE%//
-ItemDisplay[pab ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 126-158}%CONTINUE%//
-ItemDisplay[pac ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 138-164}%CONTINUE%//
-ItemDisplay[pac ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 138-164}%CONTINUE%//
-ItemDisplay[pad ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 154-172}%CONTINUE%//
-ItemDisplay[pad ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 154-172}%CONTINUE%//
-ItemDisplay[pae ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 169-193}%CONTINUE%//
-ItemDisplay[pae ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 169-193}%CONTINUE%//
-ItemDisplay[paf ILVL<26 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 182-225}%CONTINUE%//
-ItemDisplay[paf ILVL>25 ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 182-225}%CONTINUE%//
-ItemDisplay[neb ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 95-139}%CONTINUE%//
-ItemDisplay[neg ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 96-141}%CONTINUE%//
-ItemDisplay[ned ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 98-142}%CONTINUE%//
-ItemDisplay[nee ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 100-146}%CONTINUE%//
-ItemDisplay[nef ((UNI SOCK>0) OR (SET SOCK>0) OR (RARE SOCK>0) OR (CRAFT SOCK>0) OR RW OR (MAG ILVL<51 (SOCK=0 OR SOCK>0)) OR (NMAG SOCK>0) OR (STAT360>0))]:%NAME%{%WHITE%Base Defense: 103-148}%CONTINUE%//
+//Weapon 0 Sockets Corrupted
+ItemDisplay[hax (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[axe (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[2ax ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[2ax ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[mpi ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[mpi ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[mpi ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[wax ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[wax ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[wax ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[lax (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[bax ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[bax ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[btx ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[btx ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gax ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gax ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gax ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gix ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gix ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gix ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[sbw (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[hbw ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[hbw ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[lbw ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[lbw ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[lbw ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[cbw ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[cbw ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[sbb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[sbb ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[sbb ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[lbb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[lbb ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[lbb ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[swb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[swb ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[swb ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[lwb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[lwb ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[lwb ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[lxb (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[mxb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[mxb ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[hxb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[hxb ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[hxb ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[rxb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[rxb ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[rxb ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[dgr (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
+ItemDisplay[dir (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
+ItemDisplay[kri ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[kri ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[bld (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[clb (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[spc (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[mac (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[mst (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[fla ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[fla ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[fla ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[whm ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[whm ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[mau ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[mau ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[mau ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gma ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gma ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gma ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[bar (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[vou ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[vou ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[scy ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[scy ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[scy ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[pax ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[pax ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[pax ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[hal ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[hal ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[hal ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[wsc ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[wsc ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[wsc ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[scp (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gsc (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[wsp ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[wsp ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[spr (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[tri ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[tri ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[brn ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[brn ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[brn ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[spt ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[spt ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[spt ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[pik ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[pik ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[pik ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[sst (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[lst (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[cst (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[bst (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[wst ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[wst ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ssd (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[scm (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[sbr (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[flc (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[crs ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[crs ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[crs ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[bsd ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[bsd ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[lsd ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[lsd ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[wsd (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[2hs (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[clm ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[clm ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gis ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gis ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[bsw ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[bsw ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[flb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[flb ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[flb ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gsd ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gsd ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gsd ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[wnd (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ywn (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
+ItemDisplay[bwn (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[gwn (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am1 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am1 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am1 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am2 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am2 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am2 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am3 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am3 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am3 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am4 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am4 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am4 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ktr (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[wrb (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[axf (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ces (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[clw ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[clw ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[btl ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[btl ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[skr ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[skr ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ob1 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ob2 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ob3 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ob4 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ob5 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ob5 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9ha (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9ax (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[92a ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[92a ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9mp ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9mp ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9mp ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9wa ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9wa ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9wa ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9la (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9ba ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9ba ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9bt ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9bt ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9ga ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9ga ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9ga ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9gi ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9gi ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9gi ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8sb (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8hb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8hb ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8lb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8lb ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8lb ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8cb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8cb ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8s8 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8s8 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8s8 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8l8 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8l8 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8l8 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8sw ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8sw ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8sw ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8lw ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8lw ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8lw ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8lx (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8mx ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8mx ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8hx ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8hx ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8hx ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8rx ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8rx ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8rx ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9dg (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9di (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9kr ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9kr ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9bl (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9cl (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9sp (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9ma (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9mt (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9fl ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9fl ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9fl ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9wh ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9wh ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9m9 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9m9 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9m9 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9gm ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9gm ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9gm ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9b7 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9vo ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9vo ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9s8 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9s8 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9s8 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9pa ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9pa ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9pa ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9h9 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9h9 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9h9 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9wc ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9wc ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9wc ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9sc (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9qs (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9ws ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9ws ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9sr (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9tr ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9tr ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9br ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9br ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9br ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9st ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9st ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9st ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9p9 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9p9 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9p9 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8ss (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8ls (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8cs (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8bs (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8ws ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[8ws ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9ss (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9sm (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9sb (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9fc (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9cr ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9cr ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9cr ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9bs ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9bs ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9ls ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9ls ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9wd (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[92h (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9cm ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9cm ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9gs ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9gs ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9b9 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9b9 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9fb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9fb ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9fb ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9gd ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9gd ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9gd ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9wn (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9yw (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9bw (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9gw (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am6 ILVL<25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am6 ILVL>26 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am6 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am7 ILVL<25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am7 ILVL>26 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am7 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am8 ILVL<25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am8 ILVL>26 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am8 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am9 ILVL<25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am9 ILVL>26 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[am9 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9ar ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9ar ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9wb (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9xf (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9cs (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9lw ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9lw ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9tw ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9tw ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9qr ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9qr ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ob6 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ob7 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ob8 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ob9 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[oba ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[oba ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7ha (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7ax (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[72a ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[72a ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7mp ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7mp ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7mp ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7wa ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7wa ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7wa ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7la (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7ba ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7ba ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7bt ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7bt ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7ga ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7ga ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7ga ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7gi ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7gi ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7gi ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6sb (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6hb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6hb ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6lb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6lb ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6lb ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6cb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6cb ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6s7 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6s7 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6s7 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6l7 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6l7 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6l7 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6sw ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6sw ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6sw ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6lw ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6lw ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6lw ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6lx (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6mx ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6mx ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6hx ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6hx ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6hx ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6rx ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6rx ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6rx ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7dg (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7di (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7kr ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7kr ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7bl (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7cl (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7sp (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7ma (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7mt (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7fl ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7fl ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7fl ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7wh ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7wh ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7m7 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7m7 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7m7 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7gm ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7gm ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7gm ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7o7 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7vo ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7vo ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7s8 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7s8 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7s8 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7pa ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7pa ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7pa ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7h7 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7h7 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7h7 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7wc ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7wc ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7wc ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7sc (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7qs (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7ws ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7ws ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7sr (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7tr ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7tr ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7br ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7br ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7br ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7st ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7st ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7st ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7p7 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7p7 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7p7 ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6ss (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6ls (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6cs (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6bs (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6ws ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[6ws ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7ss (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7sm (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7sb (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7fc (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7cr ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7cr ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7cr ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7bs ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7bs ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7ls ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7ls ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7wd (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[72h (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7cm ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7cm ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7gs ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7gs ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7b7 ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7b7 ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7fb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7fb ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7fb ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7gd ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7gd ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7gd ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7wn (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7yw (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7bw (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7gw (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[amb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[amb ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[amb ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[amc ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ame ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[amc ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[amd ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[amd ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[amd ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ame ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[amc ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[ame ILVL>40 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7ar ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7ar ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7wb ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7wb ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7xf (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7cs (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7lw ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7lw ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7tw ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7tw ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7qr ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7qr ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[obb (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[obc (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[obd (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[obe (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[obf ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[obf ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]:%NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+
+// --- // Armor with Sockets \\ --- \\
+ItemDisplay[ci0 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 20-30}%CONTINUE%//
+ItemDisplay[ci0 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 20-30}%CONTINUE%//
+ItemDisplay[ci1 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 30-40}%CONTINUE%//
+ItemDisplay[ci1 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 30-40}%CONTINUE%//
+ItemDisplay[cap (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 3-5}%CONTINUE%//
+ItemDisplay[skp (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 8-11}%CONTINUE%//
+ItemDisplay[hlm (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 15-18}%CONTINUE%//
+ItemDisplay[fhl (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 23-26}%CONTINUE%//
+ItemDisplay[ghm ILVL<41 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 30-35}%CONTINUE%//
+ItemDisplay[ghm ILVL>40 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 30-35}%CONTINUE%//
+ItemDisplay[msk ILVL<41 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 9-27}%CONTINUE%//
+ItemDisplay[msk ILVL>40 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 9-27}%CONTINUE%//
+ItemDisplay[crn ILVL<41 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 25-45}%CONTINUE%//
+ItemDisplay[crn ILVL>40 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 25-45}%CONTINUE%//
+ItemDisplay[bhm (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 33-36}%CONTINUE%//
+ItemDisplay[qui (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 8-11}%CONTINUE%//
+ItemDisplay[lea (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 14-17}%CONTINUE%//
+ItemDisplay[hla (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 21-24}%CONTINUE%//
+ItemDisplay[stu (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 32-35}%CONTINUE%//
+ItemDisplay[rng (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 45-48}%CONTINUE%//
+ItemDisplay[scl (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 57-60}%CONTINUE%//
+ItemDisplay[brs (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 65-68}%CONTINUE%//
+ItemDisplay[chn (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 72-75}%CONTINUE%//
+ItemDisplay[spl (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 90-95}%CONTINUE%//
+ItemDisplay[ltp (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 90-107}%CONTINUE%//
+ItemDisplay[fld (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 101-105}%CONTINUE%//
+ItemDisplay[plt (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 108-116}%CONTINUE%//
+ItemDisplay[gth ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 128-135}%CONTINUE%//
+ItemDisplay[gth ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 128-135}%CONTINUE%//
+ItemDisplay[ful ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 150-161}%CONTINUE%//
+ItemDisplay[ful ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 150-161}%CONTINUE%//
+ItemDisplay[aar ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 218-233}%CONTINUE%//
+ItemDisplay[aar ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 218-233}%CONTINUE%//
+ItemDisplay[buc (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 4-6}%CONTINUE%//
+ItemDisplay[sml (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 8-10}%CONTINUE%//
+ItemDisplay[lrg (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 12-14}%CONTINUE%//
+ItemDisplay[kit (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 16-18}%CONTINUE%//
+ItemDisplay[spk (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 15-25}%CONTINUE%//
+ItemDisplay[tow (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 22-25}%CONTINUE%//
+ItemDisplay[bsh (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 10-30}%CONTINUE%//
+ItemDisplay[gts (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 30-35}%CONTINUE%//
+ItemDisplay[ba1 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 10-15}%CONTINUE%//
+ItemDisplay[ba1 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 10-15}%CONTINUE%//
+ItemDisplay[ba2 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 15-20}%CONTINUE%//
+ItemDisplay[ba2 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 15-20}%CONTINUE%//
+ItemDisplay[ba3 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 25-30}%CONTINUE%//
+ItemDisplay[ba3 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 25-30}%CONTINUE%//
+ItemDisplay[ba4 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 30-35}%CONTINUE%//
+ItemDisplay[ba4 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 30-35}%CONTINUE%//
+ItemDisplay[ba5 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 35-50}%CONTINUE%//
+ItemDisplay[ba5 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 35-50}%CONTINUE%//
+ItemDisplay[dr1 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 8-11}%CONTINUE%//
+ItemDisplay[dr1 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 8-11}%CONTINUE%//
+ItemDisplay[dr2 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 4-15}%CONTINUE%//
+ItemDisplay[dr2 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 4-15}%CONTINUE%//
+ItemDisplay[dr3 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 18-24}%CONTINUE%//
+ItemDisplay[dr3 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 18-24}%CONTINUE%//
+ItemDisplay[dr4 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 12-28}%CONTINUE%//
+ItemDisplay[dr4 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 12-28}%CONTINUE%//
+ItemDisplay[dr5 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 22-35}%CONTINUE%//
+ItemDisplay[dr5 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 22-35}%CONTINUE%//
+ItemDisplay[pa1 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 8-12}%CONTINUE%//
+ItemDisplay[pa1 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 8-12}%CONTINUE%//
+ItemDisplay[pa2 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 10-18}%CONTINUE%//
+ItemDisplay[pa2 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 10-18}%CONTINUE%//
+ItemDisplay[pa3 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 16-26}%CONTINUE%//
+ItemDisplay[pa3 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 16-26}%CONTINUE%//
+ItemDisplay[pa4 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 26-36}%CONTINUE%//
+ItemDisplay[pa4 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 26-36}%CONTINUE%//
+ItemDisplay[pa5 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 30-40}%CONTINUE%//
+ItemDisplay[pa5 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 30-40}%CONTINUE%//
+ItemDisplay[ne1 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 2-5}%CONTINUE%//
+ItemDisplay[ne2 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 4-8}%CONTINUE%//
+ItemDisplay[ne3 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 6-10}%CONTINUE%//
+ItemDisplay[ne4 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 10-16}%CONTINUE%//
+ItemDisplay[ne5 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 15-20}%CONTINUE%//
+ItemDisplay[ci2 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 40-50}%CONTINUE%//
+ItemDisplay[ci2 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 40-50}%CONTINUE%//
+ItemDisplay[ci2 ILVL>40 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 40-50}%CONTINUE%//
+ItemDisplay[xap (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 45-53}%CONTINUE%//
+ItemDisplay[xkp (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 52-62}%CONTINUE%//
+ItemDisplay[xlm (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 63-72}%CONTINUE%//
+ItemDisplay[xhl (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 75-84}%CONTINUE%//
+ItemDisplay[xhm ILVL<41 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 85-98}%CONTINUE%//
+ItemDisplay[xhm ILVL>40 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 85-98}%CONTINUE%//
+ItemDisplay[xsk ILVL<41 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 54-86}%CONTINUE%//
+ItemDisplay[xsk ILVL>40 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 54-86}%CONTINUE%//
+ItemDisplay[xrn ILVL<41 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 78-113}%CONTINUE%//
+ItemDisplay[xrn ILVL>40 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 78-113}%CONTINUE%//
+ItemDisplay[xh9 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 60-125}%CONTINUE%//
+ItemDisplay[xui (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 102-117}%CONTINUE%//
+ItemDisplay[xea (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 111-126}%CONTINUE%//
+ItemDisplay[xla (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 122-136}%CONTINUE%//
+ItemDisplay[xtu (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 138-153}%CONTINUE%//
+ItemDisplay[xng (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 158-172}%CONTINUE%//
+ItemDisplay[xcl (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 176-190}%CONTINUE%//
+ItemDisplay[xrs (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 188-202}%CONTINUE%//
+ItemDisplay[xhn (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 198-213}%CONTINUE%//
+ItemDisplay[xpl (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 225-243}%CONTINUE%//
+ItemDisplay[xtp (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 225-261}%CONTINUE%//
+ItemDisplay[xld (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 242-258}%CONTINUE%//
+ItemDisplay[xlt (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 252-274}%CONTINUE%//
+ItemDisplay[xth ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 282-303}%CONTINUE%//
+ItemDisplay[xth ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 282-303}%CONTINUE%//
+ItemDisplay[xul ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 315-342}%CONTINUE%//
+ItemDisplay[xul ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 315-342}%CONTINUE%//
+ItemDisplay[xar ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 417-450}%CONTINUE%//
+ItemDisplay[xar ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 417-450}%CONTINUE%//
+ItemDisplay[xuc (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 41-49}%CONTINUE%//
+ItemDisplay[xml (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 47-55}%CONTINUE%//
+ItemDisplay[xrg (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 53-61}%CONTINUE%//
+ItemDisplay[xpk (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 58-78}%CONTINUE%//
+ItemDisplay[xit (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 59-67}%CONTINUE%//
+ItemDisplay[xsh (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 50-150}%CONTINUE%//
+ItemDisplay[xow (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 68-78}%CONTINUE%//
+ItemDisplay[xts (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 80-93}%CONTINUE%//
+ItemDisplay[ba6 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 52-62}%CONTINUE%//
+ItemDisplay[ba6 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 52-62}%CONTINUE%//
+ItemDisplay[ba7 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 46-68}%CONTINUE%//
+ItemDisplay[ba7 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 46-68}%CONTINUE%//
+ItemDisplay[ba8 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 67-81}%CONTINUE%//
+ItemDisplay[ba8 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 67-81}%CONTINUE%//
+ItemDisplay[ba9 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 58-87}%CONTINUE%//
+ItemDisplay[ba9 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 58-87}%CONTINUE%//
+ItemDisplay[baa ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 73-98}%CONTINUE%//
+ItemDisplay[baa ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 73-98}%CONTINUE%//
+ItemDisplay[dr6 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 52-62}%CONTINUE%//
+ItemDisplay[dr6 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 52-62}%CONTINUE%//
+ItemDisplay[dr7 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 46-68}%CONTINUE%//
+ItemDisplay[dr7 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 46-68}%CONTINUE%//
+ItemDisplay[dr8 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 67-81}%CONTINUE%//
+ItemDisplay[dr8 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 67-81}%CONTINUE%//
+ItemDisplay[dr9 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 58-87}%CONTINUE%//
+ItemDisplay[dr9 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 58-87}%CONTINUE%//
+ItemDisplay[dra ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 73-98}%CONTINUE%//
+ItemDisplay[dra ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 73-98}%CONTINUE%//
+ItemDisplay[pa6 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 101-125}%CONTINUE%//
+ItemDisplay[pa6 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 101-125}%CONTINUE%//
+ItemDisplay[pa7 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 113-137}%CONTINUE%//
+ItemDisplay[pa7 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 113-137}%CONTINUE%//
+ItemDisplay[pa8 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 129-153}%CONTINUE%//
+ItemDisplay[pa8 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 129-153}%CONTINUE%//
+ItemDisplay[pa9 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 144-168}%CONTINUE%//
+ItemDisplay[pa9 ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 144-168}%CONTINUE%//
+ItemDisplay[paa ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 156-181}%CONTINUE%//
+ItemDisplay[paa ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 156-181}%CONTINUE%//
+ItemDisplay[ne6 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 38-48}%CONTINUE%//
+ItemDisplay[ne7 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 41-52}%CONTINUE%//
+ItemDisplay[ne8 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 44-55}%CONTINUE%//
+ItemDisplay[ne9 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 50-64}%CONTINUE%//
+ItemDisplay[nea (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 58-70}%CONTINUE%//
+ItemDisplay[ci3 ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 50-60}%CONTINUE%//
+ItemDisplay[ci3 ILVL>25 ILVL<41 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 50-60}%CONTINUE%//
+ItemDisplay[ci3 ILVL>40 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 50-60}%CONTINUE%//
+ItemDisplay[uap (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 98-141}%CONTINUE%//
+ItemDisplay[ukp (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 101-145}%CONTINUE%//
+ItemDisplay[ulm (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 105-149}%CONTINUE%//
+ItemDisplay[uhl (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 110-154}%CONTINUE%//
+ItemDisplay[uhm ILVL<41 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 114-159}%CONTINUE%//
+ItemDisplay[uhm ILVL>40 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 114-159}%CONTINUE%//
+ItemDisplay[usk ILVL<41 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 101-154}%CONTINUE%//
+ItemDisplay[usk ILVL>40 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 101-154}%CONTINUE%//
+ItemDisplay[urn ILVL<41 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 111-165}%CONTINUE%//
+ItemDisplay[urn ILVL>40 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 111-165}%CONTINUE%//
+ItemDisplay[uh9 ILVL<41 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 100-157}%CONTINUE%//
+ItemDisplay[uh9 ILVL>40 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 100-157}%CONTINUE%//
+ItemDisplay[uui ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 361-467}%CONTINUE%//
+ItemDisplay[uui ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 361-467}%CONTINUE%//
+ItemDisplay[uea ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 364-470}%CONTINUE%//
+ItemDisplay[uea ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 364-470}%CONTINUE%//
+ItemDisplay[ula ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 369-474}%CONTINUE%//
+ItemDisplay[ula ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 369-474}%CONTINUE%//
+ItemDisplay[utu ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 375-481}%CONTINUE%//
+ItemDisplay[utu ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 375-481}%CONTINUE%//
+ItemDisplay[ung ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 383-489}%CONTINUE%//
+ItemDisplay[ung ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 383-489}%CONTINUE%//
+ItemDisplay[ucl ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 390-496}%CONTINUE%//
+ItemDisplay[ucl ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 390-496}%CONTINUE%//
+ItemDisplay[urs ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 395-501}%CONTINUE%//
+ItemDisplay[urs ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 395-501}%CONTINUE%//
+ItemDisplay[uhn ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 399-505}%CONTINUE%//
+ItemDisplay[uhn ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 399-505}%CONTINUE%//
+ItemDisplay[upl ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 410-517}%CONTINUE%//
+ItemDisplay[upl ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 410-517}%CONTINUE%//
+ItemDisplay[utp ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 410-524}%CONTINUE%//
+ItemDisplay[utp ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 410-524}%CONTINUE%//
+ItemDisplay[uld ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 417-523}%CONTINUE%//
+ItemDisplay[uld ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 417-523}%CONTINUE%//
+ItemDisplay[ult ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 421-530}%CONTINUE%//
+ItemDisplay[ult ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 421-530}%CONTINUE%//
+ItemDisplay[uth ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 433-541}%CONTINUE%//
+ItemDisplay[uth ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 433-541}%CONTINUE%//
+ItemDisplay[uul ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 446-557}%CONTINUE%//
+ItemDisplay[uul ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 446-557}%CONTINUE%//
+ItemDisplay[uar ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 487-600}%CONTINUE%//
+ItemDisplay[uar ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 487-600}%CONTINUE%//
+ItemDisplay[uuc (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 95-110}%CONTINUE%//
+ItemDisplay[uml (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 108-123}%CONTINUE%//
+ItemDisplay[urg (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 119-135}%CONTINUE%//
+ItemDisplay[uit ILVL<41 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 133-148}%CONTINUE%//
+ItemDisplay[uit ILVL>40 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 133-148}%CONTINUE%//
+ItemDisplay[upk (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 147-163}%CONTINUE%//
+ItemDisplay[uow ILVL<41 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 215-241}%CONTINUE%//
+ItemDisplay[uow ILVL>40 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 215-241}%CONTINUE%//
+ItemDisplay[ush (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 158-173}%CONTINUE%//
+ItemDisplay[uts ILVL<41 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 183-207}%CONTINUE%//
+ItemDisplay[uts ILVL>40 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 183-207}%CONTINUE%//
+ItemDisplay[bab ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 102-147}%CONTINUE%//
+ItemDisplay[bab ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 102-147}%CONTINUE%//
+ItemDisplay[bac ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 105-150}%CONTINUE%//
+ItemDisplay[bac ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 105-150}%CONTINUE%//
+ItemDisplay[bad ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 111-156}%CONTINUE%//
+ItemDisplay[bad ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 111-156}%CONTINUE%//
+ItemDisplay[bae ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 114-159}%CONTINUE%//
+ItemDisplay[bae ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 114-159}%CONTINUE%//
+ItemDisplay[baf ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 117-168}%CONTINUE%//
+ItemDisplay[baf ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 117-168}%CONTINUE%//
+ItemDisplay[drb ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 101-145}%CONTINUE%//
+ItemDisplay[drb ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 101-145}%CONTINUE%//
+ItemDisplay[drc ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 98-147}%CONTINUE%//
+ItemDisplay[drc ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 98-147}%CONTINUE%//
+ItemDisplay[drd ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 107-152}%CONTINUE%//
+ItemDisplay[drd ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 107-152}%CONTINUE%//
+ItemDisplay[dre ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 103-155}%CONTINUE%//
+ItemDisplay[dre ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 103-155}%CONTINUE%//
+ItemDisplay[drf ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 109-159}%CONTINUE%//
+ItemDisplay[drf ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 109-159}%CONTINUE%//
+ItemDisplay[pab ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 126-158}%CONTINUE%//
+ItemDisplay[pab ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 126-158}%CONTINUE%//
+ItemDisplay[pac ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 138-164}%CONTINUE%//
+ItemDisplay[pac ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 138-164}%CONTINUE%//
+ItemDisplay[pad ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 154-172}%CONTINUE%//
+ItemDisplay[pad ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 154-172}%CONTINUE%//
+ItemDisplay[pae ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 169-193}%CONTINUE%//
+ItemDisplay[pae ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 169-193}%CONTINUE%//
+ItemDisplay[paf ILVL<26 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 182-225}%CONTINUE%//
+ItemDisplay[paf ILVL>25 (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 182-225}%CONTINUE%//
+ItemDisplay[neb (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 95-139}%CONTINUE%//
+ItemDisplay[neg (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 96-141}%CONTINUE%//
+ItemDisplay[ned (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 98-142}%CONTINUE%//
+ItemDisplay[nee (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 100-146}%CONTINUE%//
+ItemDisplay[nef (UNI OR SET OR RARE OR CRAFT OR RW OR NMAG) SOCK>0]:%NAME%{%WHITE%Base Defense: 103-148}%CONTINUE%//
 
 //----------------------------------------- Shop Hunting Flags -----------------------------------------
 
@@ -4328,7 +5120,7 @@ ItemDisplay[aqv AMAZON RARE !ID CLVL>74]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%W
 
 //Circlets
 ItemDisplay[CIRC MAG !ID]: %NAME%{%NAME%}
-ItemDisplay[CIRC NMAG !INF !ETH SOCK=0]: %NAME%{%NAME%}
+ItemDisplay[CIRC NMAG !INF !SUP !ETH SOCK=0]: %NAME%{%NAME%}
 
 //Strict-Specific Failsafes
 ItemDisplay[((BAR !ETH !ELT !(ba4 OR ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne3 OR ne4 OR ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR (ces OR 9cs)) MAG !ID ILVL>50]: %NAME%{%NAME%}

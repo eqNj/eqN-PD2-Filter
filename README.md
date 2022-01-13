@@ -30,7 +30,9 @@ If an item is non-magic it will show its maximum potential sockets possible thro
 
 If an item is rare, crafted, set, or unique it will show its maximum potential sockets through corruption specifically. 
 
-Once an item is either corrupted or socketed in any fashion the maximum potential socket information will be removed from the item's description.
+If an item is rare, crafted, set, or unique and corrupted it will then only show its maximum potential sockets through use of a Larzuk's Puzzlebox specifically.
+
+Once an item is socketed in any fashion the maximum potential socket information will be removed from the item's description.
 
 ![Crafting Ring](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Craft.jpg)
 
