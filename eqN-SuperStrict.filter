@@ -793,7 +793,7 @@ ItemDisplay[(cm1 OR cm2 OR cm3) UNI !ID]: %BORDER-68%%RED%(%GOLD%~%RED%:%GOLD%~ 
 //Small Charms
 ItemDisplay[cm1 !UNI ((MANA>9 OR RES>0 OR DEF>14 OR MAXDMG>1) AND (LIFE>9 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm1 !UNI LIFE>13 LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm1 !UNI LIFE>9 LIFE<14 (FRES>7 OR CRES>7 OR LRES>7 OR RES>2) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI LIFE>9 LIFE<14 (FRES>4 OR CRES>4 OR LRES>4) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm1 !UNI LIFE>9 LIFE<14 MAXDMG>1 LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 
 ItemDisplay[cm1 !UNI ((MAXDMG>1 AND LIFE>0) OR (MAXDMG>0 AND LIFE>9))]: %TAN%Max Dmg %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
