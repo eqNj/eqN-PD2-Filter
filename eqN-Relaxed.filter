@@ -1047,7 +1047,7 @@ ItemDisplay[(7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ET
 ItemDisplay[(ne6 OR pa3 OR am5 OR ob6 OR dr2 OR ba6 OR 9ar) UNI !ID]: %DOT-68%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~%GOLD%
 
 //Low Level Dueling
-ItemDisplay[(gma OR gsd OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc OR vgl) UNI !ID]: %NAME% %GRAY%[%PURPLE%LLD%GRAY%]{%NAME%}%CONTINUE%
+ItemDisplay[(wax OR gma OR gsd OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc OR vgl) UNI !ID]: %NAME% %GRAY%[%PURPLE%LLD%GRAY%]{%NAME%}%CONTINUE%
 
 //Rainbow Facet
 ItemDisplay[jew UNI !ID]: %BORDER-68%%RED%:%ORANGE%:%YELLOW%:%GREEN%:%BLUE%:%PURPLE%:     %GOLD%%NAME%     %PURPLE%:%BLUE%:%GREEN%:%YELLOW%:%ORANGE%:%RED%:%GOLD%
@@ -1830,7 +1830,8 @@ ItemDisplay[jew RARE ID]: %NAME%{%GOLD%Cube %WHITE%with a %GRAY%Key %WHITE%to cr
 //Low Level Dueling Magic Jewel Notes
 ItemDisplay[MAG LVLREQ<31 ED>14 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 15%+ Enhanced Damage
 ItemDisplay[MAG LVLREQ<31 MAXDMG>14 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 15+ Maximum Damage
-ItemDisplay[MAG LVLREQ<31 ED>9 MAXDMG>9 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ Enhanced Damage with 10+ Maximum Damage
+ItemDisplay[MAG LVLREQ<31 MINDMG>13 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 14+ Minimum Damage
+ItemDisplay[MAG LVLREQ<31 ED>9 MAXDMG>11 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ Enhanced Damage with 12+ Maximum Damage
 ItemDisplay[MAG LVLREQ<31 (RES>11 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR MANA>14) (STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 12%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage with 5+ Strength, 6+ Dexterity, 5+ Life, 5+ Energy, or -Requirements
 ItemDisplay[MAG LVLREQ<31 (RES>11 OR ED>14 OR MINDMG>6 OR MANA>14) (STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15 OR MAXDMG>7) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 12%+ All Resist, 15%+ Enhanced Damage, 7+ Minimum Damage with 5+ Strength, 6+ Dexterity, 5+ Life, 5+ Energy, -Requirements, or 8+ Maximum Damage
 
@@ -1838,7 +1839,8 @@ ItemDisplay[MAG LVLREQ<31 (RES>11 OR ED>14 OR MINDMG>6 OR MANA>14) (STR>4 OR DEX
 ItemDisplay[RARE LVLREQ<31 ED>14 (RES>11 OR MAXDMG>7 OR MINDMG>6 OR MANA>14 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 15%+ Enhanced Damage with 12%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy
 ItemDisplay[RARE LVLREQ<31 MAXDMG>8 (STR>4 OR DEX>5) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 9+ Maximum Damage with 5+ Strength or 6+ Dexterity
 ItemDisplay[RARE LVLREQ<31 STR>4 DEX>5 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 5+ Strength with 6+ Dexterity
-ItemDisplay[RARE LVLREQ<31 MAXDMG>15 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 16+ Maximum Damage
+ItemDisplay[RARE LVLREQ<31 MAXDMG>14 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 15+ Maximum Damage
+ItemDisplay[RARE LVLREQ<31 MINDMG>13 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 14+ Minimum Damage
 ItemDisplay[RARE LVLREQ<31 MINDMG>4 MAXDMG>9 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 5+ Minimum Damage with 10+ Maximum Damage
 ItemDisplay[RARE LVLREQ<31 STAT91=-15 (RES>11 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // -Requirements with 12%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy
 
@@ -4535,7 +4537,7 @@ ItemDisplay[amu MAG ID ILVL>50]: %NAME%%BLUE%{%YELLOW%Bty: @ %WHITE%+ %ORANGE%Ko
 ItemDisplay[rin MAG ID ILVL>50]: %NAME%%BLUE%{%YELLOW%Bty: @ %WHITE%+ %ORANGE%Lum %WHITE%| %GRAY%V: @ %WHITE%+ %ORANGE%Hel%NL%%BLUE%HP: @ %WHITE%+ %ORANGE%Amn %WHITE%| %GREEN%S: @ %WHITE%+ %ORANGE%Amn%NL%%RED%Bld: @ %WHITE%+ %ORANGE%Sol%WHITE% | %PURPLE%C: @%WHITE% %WHITE%+ %ORANGE%Amn%NL%Crafting: %BLUE%Jewel %WHITE%+}
 
 //Low Level Dueling Uniques
-ItemDisplay[UNI ID (gma OR gsd OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc OR vgl) STAT360=0]: %NAME%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}%CONTINUE%
+ItemDisplay[UNI ID (wax OR gma OR gsd OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc OR vgl) STAT360=0]: %NAME%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}%CONTINUE%
 //ItemDisplay[UNI ID (gma OR gsd OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc OR vgl) STAT360>0]: %NAME%{%TAN%Low Level Dueling Item%NL%%NAME%}%CONTINUE%
 
 //Low Level Dueling Set Items
