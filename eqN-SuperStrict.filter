@@ -4552,7 +4552,8 @@ ItemDisplay[UNI ID ((wax ED>119 !ETH) OR (gma ED>239 !ETH) OR (mau ED>249 STAT13
 //ItemDisplay[UNI ID ((wax ED>119 !ETH) OR (gma ED>239 !ETH) OR (mau ED>249 STAT136>29 !ETH) OR (gsd !ETH) OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc OR vgl OR sml) STAT360>0]: %NAME%{%TAN%Low Level Dueling %RED%Corruptible%NL%%NAME%}%CONTINUE%
 
 //Low Level Dueling Set Items
-ItemDisplay[SET ID LVLREQ<10 STAT360=0]: %NAME%{%TAN%Level 9 Dueling %RED%Corruptible%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !amu LVLREQ<10 STAT360=0]: %NAME%{%TAN%Level 9 Dueling %RED%Corruptible%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID amu LVLREQ<10 STAT360=0]: %NAME%{%TAN%Level 9 Dueling %RED%Corruptible}
 ItemDisplay[SET ID vbt STAT360=0]: %NAME%{%TAN%Low Level Dueling %RED%Corruptible%NL%%NAME%}%CONTINUE%
 ItemDisplay[SET ID rin REPLIFE>5 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling %RED%Corruptible}
 ItemDisplay[SET ID amu DTM>19 STAT89>2 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling %RED%Corruptible}
