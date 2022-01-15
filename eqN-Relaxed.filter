@@ -839,6 +839,7 @@ ItemDisplay[cm1 !UNI LIFE>16]: %RED%Life %BLUE%Small Charm{%NAME%}
 //Large Charms
 ItemDisplay[cm2 !UNI ((MANA>19 OR RES>5 OR DEF>29 OR MAXDMG>3) AND (LIFE>15 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm2 !UNI (STAT329=2 OR STAT330=2 OR STAT331=2 OR STAT332=2 OR STAT357=2) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm2 !UNI LIFE>13 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 
 ItemDisplay[cm2 !UNI (STAT329>0 AND LIFE>0)]: %RED%Fire Dmg %WHITE%/ %RED%Life %BLUE%Large Charm{%NAME%}
 ItemDisplay[cm2 !UNI (STAT329>0 AND DEX>0)]: %RED%Fire Dmg %WHITE%/ %GREEN%DEX %BLUE%Large Charm{%NAME%}
@@ -890,6 +891,7 @@ ItemDisplay[cm2 !UNI LIFE>33]: %RED%Life %BLUE%Large Charm{%NAME%}
 
 //Grand Charms
 ItemDisplay[cm3 !UNI ((MANA>30 OR RES>9 OR DEF>43 OR MAXDMG>6 OR AR>79) AND (LIFE>23 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm3 !UNI FHR>0 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 
 ItemDisplay[cm3 !UNI (MAXDMG>6 AND LIFE>0)]: %TAN%Max Dmg %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
 ItemDisplay[cm3 !UNI (MAXDMG>6 AND FRW>0)]: %TAN%Max Dmg %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
@@ -1047,7 +1049,8 @@ ItemDisplay[(7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ET
 ItemDisplay[(ne6 OR pa3 OR am5 OR ob6 OR dr2 OR ba6 OR 9ar) UNI !ID]: %DOT-68%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~%GOLD%
 
 //Low Level Dueling
-ItemDisplay[(wax OR gma OR mau OR gsd OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc OR vgl) UNI !ID]: %NAME% %GRAY%[%PURPLE%LLD%GRAY%]{%NAME%}%CONTINUE%
+ItemDisplay[(wax OR gma OR mau OR gsd OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc OR kit OR vgl) UNI !ID]: %NAME% %GRAY%[%PURPLE%LLD%GRAY%]{%NAME%}%CONTINUE%
+ItemDisplay[sml UNI !ID]: %NAME% %GRAY%[%PURPLE%VLLD%GRAY%]{%NAME%}%CONTINUE%
 
 //Rainbow Facet
 ItemDisplay[jew UNI !ID]: %BORDER-68%%RED%:%ORANGE%:%YELLOW%:%GREEN%:%BLUE%:%PURPLE%:     %GOLD%%NAME%     %PURPLE%:%BLUE%:%GREEN%:%YELLOW%:%ORANGE%:%RED%:%GOLD%
@@ -1828,6 +1831,9 @@ ItemDisplay[jew MAG ID]: %NAME%{%GOLD%Cube %WHITE%with a %GRAY%Key %WHITE%to cre
 ItemDisplay[jew RARE ID]: %NAME%{%GOLD%Cube %WHITE%with a %GRAY%Key %WHITE%to create: %BLUE%Jewel Fragment}%CONTINUE%
 
 //Low Level Dueling Magic Jewel Notes
+ItemDisplay[MAG LVLREQ<10 (ED>14 OR AR>19 OR CRES>11 OR FRES>11 OR LRES>11) (MAXDMG>5 OR MINDMG>3 OR STR>3 OR DEX>3 OR LIFE>5 OR STAT91=-15) jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 15%+ Enhanced Damage, 20+ AR, or 12%+ Cold, Fire, or Light Resist with 6+ Maximum Damage, 4+ Minimum Damage, 4+ Strength, 4+ Dexterity, 6+ Life, or -15% Requirements
+ItemDisplay[MAG LVLREQ<10 MAXDMG>4 MINDMG>3 jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 5+ Maximum Damage with 4+ Minimum Damage 
+ItemDisplay[MAG LVLREQ<10 (MAXDMG>8 OR MINDMG>4) jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 9+ Maximum Damage or 5+ Minimum Damage 
 ItemDisplay[MAG LVLREQ<31 ED>14 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 15%+ Enhanced Damage
 ItemDisplay[MAG LVLREQ<31 MAXDMG>14 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 15+ Maximum Damage
 ItemDisplay[MAG LVLREQ<31 MINDMG>13 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 14+ Minimum Damage
@@ -1837,6 +1843,9 @@ ItemDisplay[MAG LVLREQ<31 (RES>9 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR MANA>14) (D
 ItemDisplay[MAG LVLREQ<31 (RES>9 OR ED>14 OR MINDMG>6 OR MANA>14) (DEF>34 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15 OR MAXDMG>7) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ All Resist, 15%+ Enhanced Damage, 7+ Minimum Damage, or 15+ Mana with 5+ Strength, 6+ Dexterity, 5+ Life, 5+ Energy, -Requirements, or 8+ Maximum Damage
 
 //Low Level Dueling Rare Jewel Notes
+ItemDisplay[RARE LVLREQ<10 (ED>14 OR AR>19 OR CRES>11 OR FRES>11 OR LRES>11) (MAXDMG>5 OR MINDMG>3 OR STR>3 OR DEX>3 OR LIFE>5 OR STAT91=-15) jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 15%+ Enhanced Damage, 20+ AR, or 12%+ Cold, Fire, or Light Resist with 6+ Maximum Damage, 4+ Minimum Damage, 4+ Strength, 4+ Dexterity, 6+ Life, or -15% Requirements
+ItemDisplay[RARE LVLREQ<10 MAXDMG>4 MINDMG>3 jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 5+ Maximum Damage with 4+ Minimum Damage 
+ItemDisplay[RARE LVLREQ<10 (MAXDMG>8 OR MINDMG>4) jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 9+ Maximum Damage or 5+ Minimum Damage 
 ItemDisplay[RARE LVLREQ<31 ED>14 (RES>9 OR MAXDMG>7 OR MINDMG>6 OR MANA>14 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 15%+ Enhanced Damage with 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy
 ItemDisplay[RARE LVLREQ<31 MAXDMG>8 (STR>4 OR DEX>5) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 9+ Maximum Damage with 5+ Strength or 6+ Dexterity
 ItemDisplay[RARE LVLREQ<31 STR>4 DEX>5 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 5+ Strength with 6+ Dexterity
@@ -4539,23 +4548,22 @@ ItemDisplay[amu MAG ID ILVL>50]: %NAME%%BLUE%{%YELLOW%Bty: @ %WHITE%+ %ORANGE%Ko
 ItemDisplay[rin MAG ID ILVL>50]: %NAME%%BLUE%{%YELLOW%Bty: @ %WHITE%+ %ORANGE%Lum %WHITE%| %GRAY%V: @ %WHITE%+ %ORANGE%Hel%NL%%BLUE%HP: @ %WHITE%+ %ORANGE%Amn %WHITE%| %GREEN%S: @ %WHITE%+ %ORANGE%Amn%NL%%RED%Bld: @ %WHITE%+ %ORANGE%Sol%WHITE% | %PURPLE%C: @%WHITE% %WHITE%+ %ORANGE%Amn%NL%Crafting: %BLUE%Jewel %WHITE%+}
 
 //Low Level Dueling Uniques
-ItemDisplay[UNI ID ((wax ED>119 !ETH) OR (gma ED>239 !ETH) OR (mau ED>249 !ETH) OR (gsd !ETH) OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc OR vgl) STAT360=0]: %NAME%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}%CONTINUE%
-//ItemDisplay[UNI ID ((wax ED>119 !ETH) OR (gma ED>239 !ETH) OR (mau ED>249 !ETH) OR (gsd !ETH) OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc OR vgl) STAT360>0]: %NAME%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}%CONTINUE%
+ItemDisplay[UNI ID ((wax ED>119 !ETH) OR (gma ED>239 !ETH) OR (mau ED>249 STAT136>29 !ETH) OR (gsd !ETH) OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc OR vgl OR sml) STAT360=0]: %NAME%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}%CONTINUE%
+//ItemDisplay[UNI ID ((wax ED>119 !ETH) OR (gma ED>239 !ETH) OR (mau ED>249 STAT136>29 !ETH) OR (gsd !ETH) OR bld OR kri OR xap OR bhm OR cap OR crn OR gth OR aar OR xui OR xuc OR vgl OR sml) STAT360>0]: %NAME%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}%CONTINUE%
 
 //Low Level Dueling Set Items
+ItemDisplay[SET ID LVLREQ<10 STAT360=0]: %NAME%{%TAN%Level 9 Dueling %RED%Corruptable%NL%%NAME%}%CONTINUE%
 ItemDisplay[SET ID vbt STAT360=0]: %NAME%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}%CONTINUE%
-ItemDisplay[SET ID lbt STAT360=0]: %NAME%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}%CONTINUE%
 ItemDisplay[SET ID rin REPLIFE>5 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling %RED%Corruptable}
 ItemDisplay[SET ID amu DTM>19 STAT89>2 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling %RED%Corruptable}
 //ItemDisplay[SET ID vbt STAT360>0]: %NAME%{%TAN%Low Level Dueling Item%NL%%NAME%}%CONTINUE%
-//ItemDisplay[SET ID lbt STAT360>0]: %NAME%{%TAN%Low Level Dueling Item%NL%%NAME%}%CONTINUE%
 //ItemDisplay[SET ID rin REPLIFE>5 STAT360>0]: %NAME%%GREEN%{%TAN%Low Level Dueling Item}
 //ItemDisplay[SET ID amu DTM>19 STAT89>2 STAT360>0]: %NAME%%GREEN%{%TAN%Low Level Dueling Item}
 
 //Low Level Dueling Rares (Normal)
 ItemDisplay[RARE (mpi OR clb OR fla OR sbr OR lsd OR bld OR wsp OR wrb OR ces) ((SOCK=2 IAS>19 STAT360=0) OR (SOCK=2 ((ED>79) OR (MAXDMG>30)) IAS>19 STAT360>0) OR (SOCK=2 IAS>39 STAT360>0) OR (SOCK=3 IAS>19)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level Dueling IAS Weapon%NL%%NAME%}
 ItemDisplay[RARE (clw OR ktr OR skr) ((SOCK=2 IAS>29 STAT360=0) OR (SOCK=2 IAS>49 STAT360>0) OR (SOCK=3)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level Dueling IAS Weapon%NL%%NAME%}
-ItemDisplay[RARE (scm OR kri OR btl OR rxb) ((SOCK=2 IAS>19 STAT360=0) OR (SOCK=2 ((ED>79) OR (MAXDMG>30)) IAS>19 STAT360>0) OR (SOCK=2 IAS>39 STAT360>0) OR (SOCK=3 IAS>19)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level Dueling IAS Weapon%NL%%NAME%}
+ItemDisplay[RARE (scm OR kri OR btl) ((SOCK=2 IAS>19 STAT360=0) OR (SOCK=2 ((ED>79) OR (MAXDMG>30)) IAS>19 STAT360>0) OR (SOCK=2 IAS>39 STAT360>0) OR (SOCK=3 IAS>19)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level Dueling IAS Weapon%NL%%NAME%}
 ItemDisplay[RARE (wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces) ((ED>109 STAT360>0 ((IAS>19) OR (MAXDMG>20))) OR (ED>109 STAT360>0 IAS<20 SOCK>2) OR (ED>189 STAT360>0 IAS<20 SOCK<3)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level Dueling Upgradeable%NL%%NAME%}
 ItemDisplay[RARE (wax OR gax OR gix OR whm OR mau OR gma OR lsd OR wsd OR flb OR gsd OR kri OR bld OR pik OR wsc OR wsp OR wrb OR ces) ((ED>79 STAT360>0 ((IAS>19) OR (MAXDMG>20))) OR (ED>79 STAT360>0 IAS<20 SOCK>2) OR (ED>159 STAT360>0 IAS<20 SOCK<3)) ETH REPAIR LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level Dueling Upgradeable%NL%%NAME%}
 ItemDisplay[RARE (wax OR gax OR gix OR whm OR mau OR gma OR lsd OR wsd OR flb OR gsd OR kri OR bld OR pik OR wsc OR wsp OR wrb OR ces) ((ED>109 STAT360=0 !ETH) OR (ED>79 STAT360=0 ETH REPAIR)) LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}
@@ -4565,7 +4573,7 @@ ItemDisplay[RARE (lwb OR rxb OR am1) ((ED>159 STAT360>0 ((IAS>19) OR (MAXDMG>20)
 ItemDisplay[RARE (lwb OR rxb OR am1) ((ED>129 STAT360=0) OR (STAT360=0 TABSK0>2 IAS>19) OR (STAT360=0 TABSK0>3 IAS<20)) LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}
 //Low Level Dueling Rares (Exceptional)
 ItemDisplay[RARE (9mp OR 9cl OR 9fl OR 9sb OR 9ls OR 9bl OR 9ws OR 9wb OR 9cs) ((SOCK=2 IAS>19 STAT360=0) OR (SOCK=2 ((ED>79) OR (MAXDMG>30)) IAS>19 STAT360>0) OR (SOCK=2 IAS>39 STAT360>0) OR (SOCK=3 IAS>19)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level Dueling IAS Weapon%NL%%NAME%}
-ItemDisplay[RARE (9sm OR 9kr OR 8rx) ((SOCK=2 IAS>19 STAT360=0) OR (SOCK=2 ((ED>79) OR (MAXDMG>30)) IAS>19 STAT360>0) OR (SOCK=2 IAS>39 STAT360>0) OR (SOCK=3 IAS>19)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level Dueling IAS Weapon%NL%%NAME%}
+ItemDisplay[RARE (9sm OR 9kr) ((SOCK=2 IAS>19 STAT360=0) OR (SOCK=2 ((ED>79) OR (MAXDMG>30)) IAS>19 STAT360>0) OR (SOCK=2 IAS>39 STAT360>0) OR (SOCK=3 IAS>19)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level Dueling IAS Weapon%NL%%NAME%}
 ItemDisplay[RARE (9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) ((ED>109 STAT360>0 ((IAS>19) OR (MAXDMG>20))) OR (ED>109 STAT360>0 IAS<20 SOCK>2) OR (ED>189 STAT360>0 IAS<20 SOCK<3)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable%NL%%NAME%}
 ItemDisplay[RARE (9wa OR 9ga OR 9gi OR 9wh OR 9m9 OR 9gm OR 9ls OR 9wd OR 9fb OR 9gd OR 9kr OR 9bl OR 9p9 OR 9wc OR 9ws OR 9wb OR 9cs) ((ED>79 STAT360>0 ((IAS>19) OR (MAXDMG>20))) OR (ED>79 STAT360>0 IAS<20 SOCK>2) OR (ED>159 STAT360>0 IAS<20 SOCK<3)) ETH REPAIR LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable%NL%%NAME%}
 ItemDisplay[RARE (9wa OR 9ga OR 9gi OR 9wh OR 9m9 OR 9gm OR 9ls OR 9wd OR 9fb OR 9gd OR 9kr OR 9bl OR 9p9 OR 9wc OR 9ws OR 9wb OR 9cs) ((ED>109 STAT360=0 !ETH) OR (ED>79 STAT360=0 ETH REPAIR)) LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}
@@ -4577,7 +4585,7 @@ ItemDisplay[RARE (lwb OR 8lw OR rxb OR 8rx OR am1 OR am6) ((ED>129 STAT360=0) OR
 //Low Level Dueling Crafts (Normal)
 ItemDisplay[CRAFT (mpi OR clb OR fla OR sbr OR lsd OR bld OR wsp OR wrb OR ces) ((SOCK=2 IAS>19 STAT360=0) OR (SOCK=2 ((ED>79) OR (MAXDMG>30)) IAS>19 STAT360>0) OR (SOCK=2 IAS>39 STAT360>0) OR (SOCK=3 IAS>19)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%ORANGE%{%TAN%Low Level Dueling IAS Weapon%NL%%NAME%}
 ItemDisplay[CRAFT (clw OR ktr OR skr) ((SOCK=2 IAS>29 STAT360=0) OR (SOCK=2 IAS>49 STAT360>0) OR (SOCK=3 IAS>29)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%ORANGE%{%TAN%Low Level Dueling IAS Weapon%NL%%NAME%}
-ItemDisplay[CRAFT (scm OR kri OR btl OR rxb) ((SOCK=2 IAS>19 STAT360=0) OR (SOCK=2 ((ED>79) OR (MAXDMG>30)) IAS>19 STAT360>0) OR (SOCK=2 IAS>39 STAT360>0) OR (SOCK=3 IAS>19)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%ORANGE%{%TAN%Low Level Dueling IAS Weapon%NL%%NAME%}
+ItemDisplay[CRAFT (scm OR kri OR btl) ((SOCK=2 IAS>19 STAT360=0) OR (SOCK=2 ((ED>79) OR (MAXDMG>30)) IAS>19 STAT360>0) OR (SOCK=2 IAS>39 STAT360>0) OR (SOCK=3 IAS>19)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%ORANGE%{%TAN%Low Level Dueling IAS Weapon%NL%%NAME%}
 ItemDisplay[CRAFT (wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces) ((ED>119 STAT360>0 ((IAS>19) OR (MAXDMG>20))) OR (ED>119 STAT360>0 IAS<20 SOCK>2) OR (ED>199 STAT360>0 IAS<20 SOCK<3)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%ORANGE%{%TAN%Low Level Dueling Upgradeable%NL%%NAME%}
 ItemDisplay[CRAFT (wax OR gax OR gix OR whm OR mau OR gma OR lsd OR wsd OR flb OR gsd OR kri OR bld OR pik OR wsc OR wsp OR wrb OR ces) ((ED>79 STAT360>0 ((IAS>19) OR (MAXDMG>20))) OR (ED>79 STAT360>0 IAS<20 SOCK>2) OR (ED>159 STAT360>0 IAS<20 SOCK<3)) ETH REPAIR LVLREQ<31]: %NAME%%ORANGE%{%TAN%Low Level Dueling Upgradeable%NL%%NAME%}
 ItemDisplay[CRAFT (wax OR gax OR gix OR whm OR mau OR gma OR lsd OR wsd OR flb OR gsd OR kri OR bld OR pik OR wsc OR wsp OR wrb OR ces) ((ED>109 STAT360=0 !ETH) OR (ED>79 STAT360=0 ETH REPAIR)) LVLREQ<31]: %NAME%%ORANGE%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}
@@ -4587,7 +4595,7 @@ ItemDisplay[CRAFT (lwb OR rxb OR am1) ((ED>179 STAT360>0 ((IAS>19) OR (MAXDMG>20
 ItemDisplay[CRAFT (lwb OR rxb OR am1) ((ED>129 STAT360=0) OR (STAT360=0 TABSK0>2 IAS>19) OR (STAT360=0 TABSK0>3 IAS<20)) LVLREQ<31]: %NAME%%ORANGE%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}
 //Low Level Dueling Crafts (Exceptional)
 ItemDisplay[CRAFT (9mp OR 9cl OR 9fl OR 9sb OR 9ls OR 9bl OR 9ws OR 9wb OR 9cs) ((SOCK=2 IAS>19 STAT360=0) OR (SOCK=2 ((ED>79) OR (MAXDMG>30)) IAS>19 STAT360>0) OR (SOCK=2 IAS>39 STAT360>0) OR (SOCK=3 IAS>19)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%ORANGE%{%TAN%Low Level Dueling IAS Weapon%NL%%NAME%}
-ItemDisplay[CRAFT (9sm OR 9kr OR 8rx) ((SOCK=2 IAS>19 STAT360=0) OR (SOCK=2 ((ED>79) OR (MAXDMG>30)) IAS>19 STAT360>0) OR (SOCK=2 IAS>39 STAT360>0) OR (SOCK=3 IAS>19)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%ORANGE%{%TAN%Low Level Dueling IAS Weapon%NL%%NAME%}
+ItemDisplay[CRAFT (9sm OR 9kr) ((SOCK=2 IAS>19 STAT360=0) OR (SOCK=2 ((ED>79) OR (MAXDMG>30)) IAS>19 STAT360>0) OR (SOCK=2 IAS>39 STAT360>0) OR (SOCK=3 IAS>19)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%ORANGE%{%TAN%Low Level Dueling IAS Weapon%NL%%NAME%}
 ItemDisplay[CRAFT (9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) ((ED>119 STAT360>0 ((IAS>19) OR (MAXDMG>20))) OR (ED>119 STAT360>0 IAS<20 SOCK>2) OR (ED>199 STAT360>0 IAS<20 SOCK<3)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %NAME%%ORANGE%{%TAN%Low Level Dueling Usable%NL%%NAME%}
 ItemDisplay[CRAFT (9wa OR 9ga OR 9gi OR 9wh OR 9m9 OR 9gm OR 9ls OR 9wd OR 9fb OR 9gd OR 9kr OR 9bl OR 9p9 OR 9wc OR 9ws OR 9wb OR 9cs) ((ED>79 STAT360>0 ((IAS>19) OR (MAXDMG>20))) OR (ED>79 STAT360>0 IAS<20 SOCK>2) OR (ED>159 STAT360>0 IAS<20 SOCK<3)) ETH REPAIR LVLREQ<31]: %NAME%%ORANGE%{%TAN%Low Level Dueling Usable%NL%%NAME%}
 ItemDisplay[CRAFT (9wa OR 9ga OR 9gi OR 9wh OR 9m9 OR 9gm OR 9ls OR 9wd OR 9fb OR 9gd OR 9kr OR 9bl OR 9p9 OR 9wc OR 9ws OR 9wb OR 9cs) ((ED>109 STAT360=0 !ETH) OR (ED>79 STAT360=0 ETH REPAIR)) LVLREQ<31]: %NAME%%ORANGE%{%TAN%Low Level Dueling %RED%Corruptable%NL%%NAME%}
