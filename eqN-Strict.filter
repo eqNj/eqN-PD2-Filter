@@ -4788,7 +4788,7 @@ ItemDisplay[DIN (ELT OR paa) !INF ETH NMAG !RW (SOCK=0 OR SOCK=4) AR>80]: %DOT-D
 ItemDisplay[DIN (ELT OR paa) !INF ETH NMAG !RW (SOCK=0 OR SOCK=4) RES>19]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[DIN (EXC OR ELT) !INF !ETH NMAG !RW !SOCK=1 RES>19]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[DIN (ELT OR paa) !INF !ETH NMAG !RW !SOCK=1 AR>80]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[DIN (pa5 OR pa6 OR pa7) !INF !ETH NMAG !RW !SOCK=1 !SOCK=3 (RES>20 OR AR>80)]: %DOT-D6%%NAME% %GRAY%[%PURPLE%LLD%GRAY%]{%NAME%}
+ItemDisplay[DIN (pa5 OR pa6 OR pa7) !INF !ETH NMAG !RW !SOCK=1 !SOCK=3 (RES>19 OR AR>80)]: %DOT-D6%%NAME% %GRAY%[%PURPLE%LLD%GRAY%]{%NAME%}
 ItemDisplay[(uit OR xsh OR ush OR uow OR uts) !INF !ETH NMAG !RW !SOCK=1]: %NAME%{%NAME%}
 ItemDisplay[(uit OR uow OR uts) !INF ETH NMAG !RW (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%}
 
