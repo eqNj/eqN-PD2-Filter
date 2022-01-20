@@ -111,7 +111,7 @@ Rare bolts are hidden and magic bolts and arrows are hidden.
 
 Non-magic (for imbuing) and magic circlets of all kinds are hidden.
 
-Regular Rejuvination Potions (not Full) are hidden.
+Regular Rejuvination Potions (not Full) and Greater Mana Potions (not Super) are hidden.
 
 Magic rings and amulets are hidden.
 
@@ -144,8 +144,6 @@ Potion names have been greatly shrunk across the board, and greater mana potions
 Restructured item name formatting to help reduce visual clutter.  
 
 Shortened skill names shown on dropped white class items to help reduce visual clutter.  
-
-Removed exact item prices, and instead replaced a green $ indicator (like Wolfie's filter) on identified rares if they sell for maximum value for each respective difficulty.  
 
 Item level 88+ amulets will tell you what level to craft them at for +2 class skills.  
 
@@ -253,11 +251,11 @@ Ensured any and all newly useful runeword bases are always showing and sometimes
 
 Updated the list of +skills needed on a non-magic class item for it to show, overall making them generally much more inclusive in the endgame.
 
-Added notes to crafted and rare weapons that are good for Low Level Dueling to encourage trading.
+Added notes to magic, rare, and crafted items that are good for Low Level Dueling to encourage trading and corruption.
 
 Added notes to magic and rare jewels that are good for Low Level Dueling to encourage trading.
 
-Added notes to unique and set items that are good for Low Level Dueling to encourage trading.
+Added notes to unique and set items that are good for Low Level Dueling to encourage trading and corruption.
 
 Added notes to charms that are good for Low Level Dueling to encourage trading.
 
