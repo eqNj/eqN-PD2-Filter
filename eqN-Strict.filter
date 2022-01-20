@@ -4715,7 +4715,7 @@ ItemDisplay[WEAPON MAG ETH !(WAND OR SOR OR tkf OR 9tk OR 7tk OR tax OR 9ta OR 7
 ItemDisplay[CHEST MAG ETH !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[rin MAG !ID ILVL>85]: %GRAY%*%BLUE%%NAME%%GRAY%*
 
-//Useful MAG
+//Useful MAG\\
 ItemDisplay[(tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8) ETH MAG BARBARIAN !ID ILVL>65]: %NAME%
 ItemDisplay[(am5 OR ama OR amf) MAG !ID ILVL>60]: %NAME%%BLUE%
 ItemDisplay[((DRU DRUID) OR (BAR BARBARIAN)) ETH MAG !ID ILVL>70]: %NAME%%BLUE%
