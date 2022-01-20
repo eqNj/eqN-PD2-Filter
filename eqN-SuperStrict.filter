@@ -4066,7 +4066,7 @@ ItemDisplay[amu MAG ID ILVL>50]: %NAME%%BLUE%{%YELLOW%Bty: @ %WHITE%+ %ORANGE%Ko
 ItemDisplay[rin MAG ID ILVL>50]: %NAME%%BLUE%{%YELLOW%Bty: @ %WHITE%+ %ORANGE%Lum %WHITE%| %GRAY%V: @ %WHITE%+ %ORANGE%Hel%NL%%BLUE%HP: @ %WHITE%+ %ORANGE%Amn %WHITE%| %GREEN%S: @ %WHITE%+ %ORANGE%Amn%NL%%RED%Bld: @ %WHITE%+ %ORANGE%Sol%WHITE% | %PURPLE%C: @%WHITE% %WHITE%+ %ORANGE%Amn%NL%Crafting: %BLUE%Jewel %WHITE%+}
 
 //Low Level Dueling Uniques (Corruption Note)
-ItemDisplay[UNI ID ((wax ED>119 ILVL>40 !ETH) OR (gma ED>239 ILVL>40 !ETH) OR (mau ED>239 ILVL>40 STAT136>29 !ETH) OR (gsd ILVL>40 !ETH) OR (bld !ETH) OR (kri STAT365>1 ILVL>25 !ETH) OR (xap !ETH) OR (bhm !ETH) OR (cap !ETH) OR (crn SK69>2 SK70>2 ILVL>40 !ETH) OR (ghm ILVL>40 !ETH) OR (gth ED>49 !ETH) OR (aar !ETH) OR (fld STAT36>14 !ETH) OR (stu IAS<29 !ETH) OR (scl SK221>2 !ETH) OR (brs STAT336<-11 !ETH) OR (spl STAT362>1 !ETH) (xui !ETH) OR (xuc STAT330>7 !ETH) OR (kit !ETH) OR (vgl !ETH)) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}%CONTINUE%
+ItemDisplay[UNI ID ((wax ED>119 ILVL>40) OR (gma ED>239 ILVL>40) OR (mau ED>239 ILVL>40 STAT136>29) OR (gsd ILVL>40) OR (bld) OR (kri STAT365>1 ILVL>25) OR (xap) OR (bhm) OR (cap) OR (crn SK69>2 SK70>2 ILVL>40) OR (ghm ILVL>40) OR (gth ED>49) OR (aar) OR (fld STAT36>14) OR (stu IAS<29) OR (scl SK221>2) OR (brs STAT336<-11) OR (spl STAT362>1) (xui) OR (xuc STAT330>7) OR (kit) OR (vgl)) !ETH STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}%CONTINUE%
 ItemDisplay[UNI ID ((buc !ETH) OR (sml !ETH) OR (lax !ETH) OR (scm !ETH) OR sst OR (lst SK235>2 SK230>3) OR wnd) STAT360=0]: %NAME%{%TAN%Level 9 Dueling Corruptible%NL%%NAME%}%CONTINUE%
 
 //Low Level Dueling Set Items (Corruption Note)
