@@ -4118,7 +4118,7 @@ ItemDisplay[UNI ID ((wax ED>119 ILVL>40) OR (gma ED>239 ILVL>40) OR (mau ED>239 
 //ItemDisplay[UNI ID ((buc !ETH) OR (sml !ETH) OR (lax !ETH) OR (scm !ETH) OR sst OR (lst SK235>2 SK230>3) OR wnd) STAT360=0]: %NAME%{%TAN%Level 9 Dueling Corruptible%NL%%NAME%}%CONTINUE%
 
 //Low Level Dueling Set Items (Corruption Note)
-ItemDisplay[SET ID !(amu OR lsd OR sml OR gth OR hbl) LVLREQ<10 STAT360=0]: %NAME%{%TAN%Level 9 Dueling Corruptible%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !(amu OR sml OR gth OR hbl) LVLREQ<10 STAT360=0]: %NAME%{%TAN%Level 9 Dueling Corruptible%NL%%NAME%}%CONTINUE%
 ItemDisplay[SET ID (vbt OR vgl OR bwn OR xap) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}%CONTINUE%
 ItemDisplay[SET ID rin REPLIFE>5 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}
 ItemDisplay[SET ID amu DTM>19 STAT89>2 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}
@@ -4357,9 +4357,10 @@ ItemDisplay[hp1 CLVL>14]:
 ItemDisplay[tsc CLVL<15]: %BLUE%!%GRAY%tp%WHITE%{%TAN%Items/Recipes shown will adjust to your needs.%NL%As you level dynamic filtering will occur.%NL%%DARK_GREEN%eqN's Note:}%CONTINUE%
 ItemDisplay[tsc CLVL>14]: {%RED%Warning%WHITE%: Destroys removed gems/runes.%NL%%NL%Socketed Item + %BLUE%TP %WHITE%Scroll + %ORANGE%Hel%NL%%WHITE%Un-socketing Recipe:}
 ItemDisplay[isc CLVL<15]: %RED%!%GRAY%id%WHITE%{%TAN%Craft Recipes, ILVL 51+%NL%Socket Recipes, ILVL 21+%NL%Upgrade Recipes, ILVL 13+%NL%%DARK_GREEN%Recipes Shown:}%CONTINUE%
+ItemDisplay[isc CLVL>14]: {%TAN%To guarantee 3+ Additional Affixes: Craft with resulting ILVL 51%NL%To guarantee Required Level <31: Craft with resulting ILVL 42%NL%Gamble Circlets at Character Level 42-45%NL%%PURPLE%Low Level Dueling Tips:}%CONTINUE%
 ItemDisplay[vps]: %BLACK%!%WHITE%s{%TAN%We are what we repeatedly do.}%CONTINUE%
 ItemDisplay[wms]: %YELLOW%!%WHITE%t{%TAN%whom it touches.%NL%a soft white damn%NL%The snow doesn't give}%CONTINUE%
-ItemDisplay[(isc OR vps OR wms) CLVL>14]: {%NAME%}
+ItemDisplay[(vps OR wms) CLVL>14]: {%NAME%}
 ItemDisplay[yps]: %GREEN%!%WHITE%a{%TAN%Thy drugs art quick.%NL%O true apothecary,}
 ItemDisplay[key CLVL<15]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
 ItemDisplay[key CLVL>14]: {%TAN%The key is in the craft.}
