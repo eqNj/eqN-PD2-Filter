@@ -3807,15 +3807,15 @@ ItemDisplay[ci2 NMAG !INF !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%Imbue%YELLOW%]{%DA
 ItemDisplay[ci3 NMAG !INF !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%Imbue%YELLOW%]{%DARK_GREEN%Charsi %WHITE%at %GREEN%any %WHITE%level%NL%%YELLOW%Imbue %WHITE%this with%NL%%NAME%}%CONTINUE%
 
 //Highlight RW Bases with High DEF
-ItemDisplay[xtp !SOCK=1 !ETH !INF NMAG DEF>249]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[(uui OR uea OR ula) !SOCK=1 !ETH !INF NMAG DEF>449]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[utu !SOCK=1 !ETH !INF NMAG DEF>459]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[urs !SOCK=1 !ETH !INF NMAG DEF>479]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[utp !SOCK=1 !ETH !INF NMAG DEF>499]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[uar !SOCK=1 !ETH !INF NMAG DEF>574]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[CHEST ELT !SOCK=1 ETH !INF NMAG DEF>699]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[uit (SOCK=0 OR SOCK=4) !ETH !INF NMAG DEF>139]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[uit (SOCK=0 OR SOCK=4) ETH !INF NMAG DEF>209]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[xtp !SOCK=1 !ETH !INF NMAG DEF>249]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[(uui OR uea OR ula) !SOCK=1 !ETH !INF NMAG DEF>449]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[utu !SOCK=1 !ETH !INF NMAG DEF>459]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[urs !SOCK=1 !ETH !INF NMAG DEF>479]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[utp !SOCK=1 !ETH !INF NMAG DEF>499]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[uar !SOCK=1 !ETH !INF NMAG DEF>574]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[CHEST ELT !SOCK=1 ETH !INF NMAG DEF>699]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[uit (SOCK=0 OR SOCK=4) !ETH !INF NMAG DEF>139]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[uit (SOCK=0 OR SOCK=4) ETH !INF NMAG DEF>209]: %DOT-D6%%NAME%{%NAME%}%CONTINUE%
 
 //----------------------------------------- Socketables --------------------------------------------
 
@@ -4837,7 +4837,7 @@ ItemDisplay[(SOR OR WAND OR SCEPTER OR STAFF OR DRU OR MACE OR BAR OR NEC OR SIN
 // --- // --- NMAG ARMORS --- \\ --- \\
 
 //Chests
-ItemDisplay[xtp !INF !ETH NMAG !RW !SOCK=1 ED>13]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[xtp !INF !ETH NMAG !RW !SOCK=1 ED>11]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[CHEST ELT !INF !ETH NMAG !RW !SOCK=1 ED>7]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[CHEST ELT !INF ETH NMAG !RW !SOCK=1 DEF>699]: %NAME%{%NAME%}
 
@@ -4887,14 +4887,14 @@ ItemDisplay[(7bt OR 7ba OR 7ga OR 7gi OR 7la) !INF ETH NMAG !RW (SOCK=0 OR SOCK=
 //Hammers
 ItemDisplay[(7m7 OR 7gm) !INF ETH NMAG !RW !SOCK=1 !SOCK=2 ED>7]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(7m7 OR 7gm) !INF NMAG !RW !SOCK=1 !SOCK=2 ED>7]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(7m7 OR 7gm) !INF NMAG !RW !SOCK=1 CLVL<75]: %NAME%{%NAME%}
+ItemDisplay[(7m7 OR 7gm) !INF ETH NMAG !RW !SOCK=1]: %NAME%{%NAME%}
 ItemDisplay[7wh !INF ETH NMAG !RW !SOCK=1 !SOCK=2 ED>7]: %NAME%{%NAME%}
 
 //Maces
 ItemDisplay[fla NMAG !RW !INF (SOCK=0 OR SOCK>2) CLVL<75]: %NAME%{%NAME%}
 
 //Scepters
-ItemDisplay[9ws NMAG !INF !RW (SOCK=0 OR SOCK=4 OR SOCK=5) ED>9]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
+ItemDisplay[9ws NMAG !INF !RW (SOCK=0 OR SOCK=4 OR SOCK=5) (ED>9 OR SK122>2 OR SK106>2)]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) (SK100>2 OR SK125>2 OR SK108>2 OR SK121>2) !INF NMAG !RW (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) SK117>1 NMAG !INF !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) !INF NMAG !RW SOCK=4]: %NAME%{%NAME%}

@@ -4894,7 +4894,7 @@ ItemDisplay[7wh !INF NMAG !RW !SOCK=1]: %NAME%{%NAME%}
 ItemDisplay[fla NMAG !RW !INF (SOCK=0 OR SOCK>2)]: %NAME%{%NAME%}
 
 //Scepters
-ItemDisplay[9ws NMAG !INF !RW (SOCK=0 OR SOCK=4 OR SOCK=5) ED>9]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
+ItemDisplay[9ws NMAG !INF !RW (SOCK=0 OR SOCK=4 OR SOCK=5) (ED>9 OR SK122>2 OR SK106>2)]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) (SK100>2 OR SK125>2 OR SK108>2 OR SK121>2) !INF NMAG !RW (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) SK117>1 NMAG !INF !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) !INF NMAG !RW SOCK=4]: %DOT-D6%%NAME%{%NAME%}
@@ -4925,7 +4925,7 @@ ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs OR wst OR 8ws OR 6ws) SK58>1
 
 //Polearms/Spears/Amazon Spears
 ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7 OR 7tr OR 7br OR 7st OR 7p7 OR 7o7) ETH NMAG !INF !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[7p7 NMAG !INF !RW !SOCK=1 ED>4]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[7p7 NMAG !INF !RW !SOCK=1 ED>7]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(amd OR ame) TABSK2>2 !INF NMAG !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
 
 //Claws
