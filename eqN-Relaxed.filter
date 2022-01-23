@@ -4823,6 +4823,7 @@ ItemDisplay[CHEST MAG ETH !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[rin MAG !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
 
 //Useful MAG\\
+ItemDisplay[((gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) OR (pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama)) MAG ETH !ID DIFF<2]: %NAME%
 ItemDisplay[(tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8) ETH MAG !ID ILVL>65]: %NAME%
 ItemDisplay[(am5 OR ama OR amf) MAG !ID ILVL>60]: %NAME%
 ItemDisplay[(DRU OR BAR) ETH MAG !ID ILVL>70]: %NAME%
@@ -4914,7 +4915,6 @@ ItemDisplay[(72h OR 7fb OR 7gd OR 7gs OR 7ls) ETH NMAG !RW !INF !SOCK=1]: %DOT-D
 ItemDisplay[WAND !(wnd OR ywn OR 9wn) (SK67>2 OR SK74>2 OR SK94>2 OR SK75>2 OR SK70>2 OR SK84>2 OR SK83>2 OR SK89>2 OR SK92>2 OR SK93>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK95>2 OR SK374>2 OR SK381>2) !SOCK=1 NMAG !RW]: %NAME%{%NAME%}
 
 //Staves
-ItemDisplay[8ws NMAG !INF !RW (SOCK=0 OR SOCK=4 OR SOCK=5) ED>9]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
 ItemDisplay[(6cs OR 6bs OR 6ws) (SK48>2 OR SK49>2 OR SK38>2 OR SK53>2 OR SK57>2 OR SK63>2) NMAG !RW (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(8ws OR 6ws) ((SK44>2 OR SK64>2 OR SK65>2 OR SK59>2 OR SK369>2) OR ((SK44>1 OR SK64>1 OR SK59>1 OR SK369>1) SK65>0)) NMAG !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs OR wst OR 8ws OR 6ws) (SK58>2 OR (SK58>0 SK50>0)) NMAG !RW (SOCK=0 OR SOCK=4 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
