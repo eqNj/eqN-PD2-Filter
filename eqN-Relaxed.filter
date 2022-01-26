@@ -4979,7 +4979,7 @@ ItemDisplay[((SIN ELT) OR 9tw OR 9lw) !INF ETH NMAG !RW !SOCK=1]: %NAME%{%NAME%}
 // --- // --- Sorceress --- \\ --- \\
 
 // --- Cold
-//ItemDisplay[NMAG !INF !RW SK39>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Ice Bolt
+ItemDisplay[NMAG !INF !RW SK39>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Ice Bolt
 ItemDisplay[NMAG !INF !RW SK40>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Enchant Cold
 ItemDisplay[NMAG !INF !RW SK44>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Frost Nova
 //ItemDisplay[NMAG !INF !RW SK45>2 (((oba OR ob5 OR obf) CLVL>59) OR (SOR CLVL<60) OR (STAFF (ELT OR EXC))) ((!SOCK=1 !SOCK=2 SOR CLVL>59) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Ice Blast
@@ -5074,11 +5074,11 @@ ItemDisplay[NMAG !INF !RW SK249>2 (DRU OR MACE) (!SOCK=1 OR (CLVL<60))]: %NAME%{
 ItemDisplay[NMAG !INF !RW SK370>2 (DRU OR MACE) (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Gust
 
 // --- Shape Shifting
-//ItemDisplay[NMAG !INF !RW SK223>2 (DRU OR MACE) (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Werewolf
-//ItemDisplay[NMAG !INF !RW SK224>2 (DRU OR MACE) (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Lycanthropy
-//ItemDisplay[NMAG !INF !RW SK228>2 (DRU OR MACE) (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Werebear
+ItemDisplay[NMAG !INF !RW SK223>2 (DRU OR MACE) (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Werewolf
+ItemDisplay[NMAG !INF !RW SK224>2 (DRU OR MACE) (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Lycanthropy
+ItemDisplay[NMAG !INF !RW SK228>2 (DRU OR MACE) (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Werebear
 ItemDisplay[NMAG !INF !RW SK232>2 (DRU OR MACE) (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Feral Rage
-//ItemDisplay[NMAG !INF !RW SK233>2 (DRU OR MACE) (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Maul
+ItemDisplay[NMAG !INF !RW SK233>2 (DRU OR MACE) (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Maul
 ItemDisplay[NMAG !INF !RW SK238>2 (DRU OR MACE) (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Rabies
 ItemDisplay[NMAG !INF !RW SK239>2 (DRU OR MACE) (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Fire Claws
 ItemDisplay[NMAG !INF !RW SK242>2 (DRU OR MACE) (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Hunger
@@ -5103,7 +5103,7 @@ ItemDisplay[NMAG !INF !RW SK247>2 (DRU OR MACE) (!SOCK=1 OR (CLVL<60))]: %NAME%{
 //ItemDisplay[NMAG !INF !RW SK130>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Howl
 //ItemDisplay[NMAG !INF !RW SK131>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Find Potion
 //ItemDisplay[NMAG !INF !RW SK137>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Taunt
-//ItemDisplay[NMAG !INF !RW SK138>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Shout
+ItemDisplay[NMAG !INF !RW SK138>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Shout
 ItemDisplay[NMAG !INF !RW SK142>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Find Item
 ItemDisplay[NMAG !INF !RW SK146>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Battle Cry
 ItemDisplay[NMAG !INF !RW SK149>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Battle Orders
@@ -5114,7 +5114,7 @@ ItemDisplay[NMAG !INF !RW SK155>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} //
 // --- Combat Skills
 ItemDisplay[NMAG !INF !RW SK126>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Bash
 //ItemDisplay[NMAG !INF !RW SK132>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Leap
-//ItemDisplay[NMAG !INF !RW SK133>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Double Swing
+ItemDisplay[NMAG !INF !RW SK133>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Double Swing
 //ItemDisplay[NMAG !INF !RW SK139>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Stun
 ItemDisplay[NMAG !INF !RW SK140>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Double Throw
 ItemDisplay[NMAG !INF !RW SK143>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Leap Attack
@@ -5177,7 +5177,7 @@ ItemDisplay[NMAG !INF !RW SK125>2 SCEPTER (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%
 ItemDisplay[NMAG !INF !RW SK99>2 SCEPTER (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Prayer
 
 // --- Offensive Auras
-//ItemDisplay[NMAG !INF !RW SK98>2 SCEPTER (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Might
+ItemDisplay[NMAG !INF !RW SK98>2 SCEPTER (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Might
 ItemDisplay[NMAG !INF !RW SK102>2 SCEPTER (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Holy Fire
 //ItemDisplay[NMAG !INF !RW SK103>2 SCEPTER (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Thorns
 //ItemDisplay[NMAG !INF !RW SK108>2 SCEPTER (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Blessed Aim
