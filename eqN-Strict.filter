@@ -1,4 +1,5 @@
 //eqN's Project Diablo 2 Filter - 1.3.0 (Season 4)
+//eqN's Project Diablo 2 Filter - 1.3.0 (Season 4)
 //Strict Edition
 
 //----------------------------------------- Base Renaming and Formatting -----------------------------------------
@@ -3957,9 +3958,9 @@ ItemDisplay[MAG LVLREQ<31 ED>14 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable
 ItemDisplay[MAG LVLREQ<31 MAXDMG>14 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 15+ Maximum Damage
 ItemDisplay[MAG LVLREQ<31 MINDMG>13 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 14+ Minimum Damage
 ItemDisplay[MAG LVLREQ<31 ED>9 MAXDMG>11 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ Enhanced Damage with 12+ Maximum Damage
-ItemDisplay[MAG LVLREQ<31 (CRES>24 OR FRES>24 OR LRES>24) (DEF>34 OR MAXDMG>7 OR MINDMG>3 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 25%+ Cold, Fire, or Light Resist with 8+ Maximum Damage, 4+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy, or -Requirements
-ItemDisplay[MAG LVLREQ<31 (RES>9 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR MANA>14) (DEF>34 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, or 15+ Mana with 5+ Strength, 6+ Dexterity, 5+ Life, 5+ Energy, or -Requirements
-ItemDisplay[MAG LVLREQ<31 (RES>9 OR ED>14 OR MINDMG>6 OR MANA>14) (DEF>34 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15 OR MAXDMG>7) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ All Resist, 15%+ Enhanced Damage, 7+ Minimum Damage, or 15+ Mana with 5+ Strength, 6+ Dexterity, 5+ Life, 5+ Energy, -Requirements, or 8+ Maximum Damage
+ItemDisplay[MAG LVLREQ<31 (CRES>24 OR FRES>24 OR LRES>24) (STAT214>34 OR MAXDMG>7 OR MINDMG>3 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 25%+ Cold, Fire, or Light Resist with 8+ Maximum Damage, 4+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy, or -Requirements
+ItemDisplay[MAG LVLREQ<31 (RES>9 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR MANA>14) (STAT214>34 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, or 15+ Mana with 5+ Strength, 6+ Dexterity, 5+ Life, 5+ Energy, or -Requirements
+ItemDisplay[MAG LVLREQ<31 (RES>9 OR ED>14 OR MINDMG>6 OR MANA>14) (STAT214>34 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15 OR MAXDMG>7) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ All Resist, 15%+ Enhanced Damage, 7+ Minimum Damage, or 15+ Mana with 5+ Strength, 6+ Dexterity, 5+ Life, 5+ Energy, -Requirements, or 8+ Maximum Damage
 
 //Low Level Dueling Rare Jewel Notes
 ItemDisplay[RARE LVLREQ<10 (ED>14 OR AR>19 OR CRES>11 OR FRES>11 OR LRES>11) (MAXDMG>5 OR MINDMG>3 OR STR>3 OR DEX>3 OR LIFE>5 OR STAT91=-15) jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 15%+ Enhanced Damage, 20+ AR, or 12%+ Cold, Fire, or Light Resist with 6+ Maximum Damage, 4+ Minimum Damage, 4+ Strength, 4+ Dexterity, 6+ Life, or -15% Requirements
@@ -3971,8 +3972,8 @@ ItemDisplay[RARE LVLREQ<31 STR>4 DEX>5 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueli
 ItemDisplay[RARE LVLREQ<31 MAXDMG>14 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 15+ Maximum Damage
 ItemDisplay[RARE LVLREQ<31 MINDMG>13 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 14+ Minimum Damage
 ItemDisplay[RARE LVLREQ<31 MINDMG>4 MAXDMG>9 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 5+ Minimum Damage with 10+ Maximum Damage
-ItemDisplay[RARE LVLREQ<31 (CRES>24 OR FRES>24 OR LRES>24) (DEF>34 OR RES>9 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR MANA>14 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 25%+ Cold/Fire/Light Resist with 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 15+ Mana, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy, or -Requirements
-ItemDisplay[RARE LVLREQ<31 STAT91=-15 (DEF>34 OR RES>9 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // -Requirements with 35+ Defense, 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy
+ItemDisplay[RARE LVLREQ<31 (CRES>24 OR FRES>24 OR LRES>24) (STAT214>34 OR RES>9 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR MANA>14 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 25%+ Cold/Fire/Light Resist with 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 15+ Mana, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy, or -Requirements
+ItemDisplay[RARE LVLREQ<31 STAT91=-15 (STAT214>34 OR RES>9 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // -Requirements with 35+ Defense, 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy
 
 //----------------------------------------- Shop Hunting Flags -----------------------------------------
 
@@ -4341,7 +4342,7 @@ ItemDisplay[vip]: %NAME%{%TAN%Fangskin the Salamander abides%NL%An endless eclip
 ItemDisplay[hst]: %NAME%{%TAN%The Mage Clans united%NL%In Archangel Tyrael confided%NL%The Dark Exile provided}
 ItemDisplay[j34]: %NAME%{%TAN%As shaped of Man%NL%Smelted by Lightning%NL%A stone of Music}
 ItemDisplay[g34]: %NAME%{%TAN%Death is the life After%NL%The ashes of Ku Y'leh%NL%An urn of Immortality}
-ItemDisplay[xyz]: %GOLD%Potion of Life{%GOLD%Right click to Drink%NL%%GRAY%(Grants +10 to Maximum Life Permanently)%NL%%NL%%TAN%Forever is composed of nows.}
+ItemDisplay[xyz]: %GOLD%Potion of Life{%GOLD%Right click to Drink%NL%%GRAY%(Grants +20 to Maximum Life Permanently)%NL%%NL%%TAN%Forever is composed of nows.}
 ItemDisplay[g33]: %NAME%{%TAN%Lost in fervor of Zakarum%NL%Furnished by Skatsimi%NL%Point edged of Sorcery}
 ItemDisplay[bbb]: %NAME%{%TAN%Prime Evil Influences%NL%Ancient Kehjani Mysticism%NL%Within can be Known:}
 ItemDisplay[qbr]: %NAME%{%TAN%The brain is a commodity used to fertilize ideas.}
@@ -4395,8 +4396,9 @@ ItemDisplay[tsc CLVL>14]: {%RED%Warning%WHITE%: Destroys removed gems/runes.%NL%
 ItemDisplay[isc CLVL<15]: %RED%!%GRAY%id%WHITE%{%TAN%Craft Recipes, ILVL 51+%NL%Socket Recipes, ILVL 21+%NL%Upgrade Recipes, ILVL 13+%NL%%DARK_GREEN%Recipes Shown:}%CONTINUE%
 ItemDisplay[vps]: %BLACK%!%WHITE%s{%TAN%We are what we repeatedly do.}%CONTINUE%
 ItemDisplay[wms]: %YELLOW%!%WHITE%t{%TAN%whom it touches.%NL%a soft white damn%NL%The snow doesn't give}%CONTINUE%
-ItemDisplay[(vps OR wms OR isc) CLVL>14]: {%NAME%}
-ItemDisplay[yps]: %GREEN%!%WHITE%a{%TAN%Thy drugs art quick.%NL%O true apothecary,}
+ItemDisplay[yps]: %GREEN%!%WHITE%a{%TAN%Thy drugs art quick.%NL%O true apothecary,}%CONTINUE%
+ItemDisplay[yps (MAPID=37 OR MAPID=133 OR MAPID=161 OR MAPID=162 OR MAPID=163 OR MAPID=165)]: %GREEN%!%WHITE%a{%TAN%Thy drugs art quick.%NL%O true apothecary,}
+ItemDisplay[(vps OR wms OR yps OR isc) CLVL>14]: {%NAME%}
 ItemDisplay[key CLVL<15]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
 ItemDisplay[key CLVL>14]: {%TAN%The key is in the craft.}
 
@@ -4439,7 +4441,7 @@ ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)
 ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %WHITE%%NAME% %GRAY%[%PURPLE%PvP%GRAY%]%CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (!ID OR NMAG)]: %MAP-7F%%NAME%%CONTINUE%
 //Notes
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps%NL%%GOLD%Cube %WHITE%with 3x @ to %BLUE%Reroll}%CONTINUE%
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (RARE OR NMAG)]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
 ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %NAME%{%GRAY%Deaths %WHITE%within are not permanent in %RED%Hardcore%NL%%NL%%TAN%- that they plan their fight in the ring.%NL%There is an old adage about gladiators,}
 //Tier 1 Immunes
@@ -4530,7 +4532,7 @@ ItemDisplay[cm2 MAG !ID]: %TAN%(  %BLUE%%NAME%  %TAN%)
 ItemDisplay[(cm1 OR cm2 OR cm3) UNI !ID]: %BORDER-68%%RED%(%GOLD%~%RED%:%GOLD%~     %GOLD%%NAME%     %GOLD%~%RED%:%GOLD%~%RED%)%GOLD%
 
 //Small Charms
-ItemDisplay[cm1 !UNI ((MANA>9 OR RES>0 OR DEF>14 OR MAXDMG>1) (LIFE>9 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI ((MANA>9 OR RES>0 OR STAT214>14 OR MAXDMG>1) (LIFE>9 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm1 !UNI LIFE>13 LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm1 !UNI (LIFE>9 OR FRW>0 OR FHR>0) LIFE<14 (FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm1 !UNI (LIFE>9 OR FRW>0 OR FHR>0) LIFE<14 MAXDMG>1 LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
@@ -4544,16 +4546,16 @@ ItemDisplay[cm1 !UNI (MAXDMG>1 FRW>0)]: %TAN%Max Dmg %WHITE%/ %ORANGE%FRW %BLUE%
 ItemDisplay[cm1 !UNI (MAXDMG>1 FHR>0)]: %TAN%Max Dmg %WHITE%/ %ORANGE%FHR %BLUE%Small Charm{%NAME%}
 ItemDisplay[cm1 !UNI MAXDMG>1]: %TAN%Max Dmg %BLUE%Small Charm{%NAME%}
 
-ItemDisplay[cm1 !UNI (RES>0 LIFE>0)]: %PURPLE%ALL Res %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
-ItemDisplay[cm1 !UNI (RES>0 FRW>0)]: %PURPLE%ALL Res %WHITE%/ %ORANGE%FRW %BLUE%Small Charm{%NAME%}
-ItemDisplay[cm1 !UNI (RES>0 FHR>0)]: %PURPLE%ALL Res %WHITE%/ %ORANGE%FHR %BLUE%Small Charm{%NAME%}
-ItemDisplay[cm1 !UNI (RES>0 MFIND>0)]: %PURPLE%ALL Res %WHITE%/ %GREEN%MF %BLUE%Small Charm{%NAME%}
-ItemDisplay[cm1 !UNI RES>0]: %PURPLE%ALL Res %BLUE%Small Charm{%NAME%}
+ItemDisplay[cm1 !UNI (RES>0 LIFE>0)]: %PURPLE%All Res %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
+ItemDisplay[cm1 !UNI (RES>0 FRW>0)]: %PURPLE%All Res %WHITE%/ %ORANGE%FRW %BLUE%Small Charm{%NAME%}
+ItemDisplay[cm1 !UNI (RES>0 FHR>0)]: %PURPLE%All Res %WHITE%/ %ORANGE%FHR %BLUE%Small Charm{%NAME%}
+ItemDisplay[cm1 !UNI (RES>0 MFIND>0)]: %PURPLE%All Res %WHITE%/ %GREEN%MF %BLUE%Small Charm{%NAME%}
+ItemDisplay[cm1 !UNI RES>0]: %PURPLE%All Res %BLUE%Small Charm{%NAME%}
 
-ItemDisplay[cm1 !UNI (FRES>0 LIFE>0)]: %RED%Fire Res %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
-ItemDisplay[cm1 !UNI (LRES>0 LIFE>0)]: %YELLOW%Light Res %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
-ItemDisplay[cm1 !UNI (CRES>0 LIFE>0)]: %BLUE%Cold Res %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
-ItemDisplay[cm1 !UNI (PRES>0 LIFE>0)]: %GREEN%Psn Res %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
+ItemDisplay[cm1 !UNI (FRES>4 LIFE>7)]: %RED%Fire Res %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
+ItemDisplay[cm1 !UNI (LRES>4 LIFE>7)]: %YELLOW%Light Res %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
+ItemDisplay[cm1 !UNI (CRES>4 LIFE>7)]: %BLUE%Cold Res %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
+ItemDisplay[cm1 !UNI (PRES>4 LIFE>7)]: %GREEN%Psn Res %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
 
 ItemDisplay[cm1 !UNI (FRES>0 FRW>0)]: %RED%Fire Res %WHITE%/ %ORANGE%FRW %BLUE%Small Charm{%NAME%}
 ItemDisplay[cm1 !UNI (LRES>0 FRW>0)]: %YELLOW%Light Res %WHITE%/ %ORANGE%FRW %BLUE%Small Charm{%NAME%}
@@ -4569,15 +4571,16 @@ ItemDisplay[cm1 !UNI (LRES>0 MFIND>0)]: %YELLOW%Light Res %WHITE%/ %GREEN%MF %BL
 ItemDisplay[cm1 !UNI (CRES>0 MFIND>0)]: %BLUE%Cold Res %WHITE%/ %GREEN%MF %BLUE%Small Charm{%NAME%}
 ItemDisplay[cm1 !UNI (PRES>0 MFIND>0)]: %GREEN%Psn Res %WHITE%/ %GREEN%MF %BLUE%Small Charm{%NAME%}
 
+ItemDisplay[cm1 !UNI LIFE>13 LVLREQ<31]: %GRAY%(%PURPLE%LLD%GRAY%) %RED%Life %BLUE%Small Charm{%NAME%}
 ItemDisplay[cm1 !UNI FRES>0]: %RED%Fire Res %BLUE%Small Charm{%NAME%}
 ItemDisplay[cm1 !UNI LRES>0]: %YELLOW%Light Res %BLUE%Small Charm{%NAME%}
 ItemDisplay[cm1 !UNI CRES>0]: %BLUE%Cold Res %BLUE%Small Charm{%NAME%}
 ItemDisplay[cm1 !UNI PRES>0]: %GREEN%Psn Res %BLUE%Small Charm{%NAME%}
 ItemDisplay[cm1 !UNI MFIND>0]: %GREEN%MF %BLUE%Small Charm{%NAME%}
-ItemDisplay[cm1 !UNI LIFE>9]: %RED%Life %BLUE%Small Charm{%NAME%}
+ItemDisplay[cm1 !UNI LIFE>14]: %RED%Life %BLUE%Small Charm{%NAME%}
 
 //Large Charms
-ItemDisplay[cm2 !UNI ((MANA>19 OR RES>5 OR DEF>29 OR MAXDMG>3) (LIFE>15 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm2 !UNI ((MANA>19 OR RES>5 OR STAT214>29 OR MAXDMG>3) (LIFE>15 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm2 !UNI (STAT329=2 OR STAT330=2 OR STAT331=2 OR STAT332=2 OR STAT357=2) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm2 !UNI LIFE>13 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 ItemDisplay[cm2 !UNI LIFE>11 (CRES>3 OR FRES>3 OR LRES>3 OR PRES>3 OR AR>9) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
@@ -4624,14 +4627,14 @@ ItemDisplay[cm2 !UNI (MAXDMG>2 FRW>0)]: %TAN%Max Dmg %WHITE%/ %ORANGE%FRW %BLUE%
 ItemDisplay[cm2 !UNI (MAXDMG>2 FHR>0)]: %TAN%Max Dmg %WHITE%/ %ORANGE%FHR %BLUE%Large Charm{%NAME%}
 ItemDisplay[cm2 !UNI MAXDMG>3]: %TAN%Max Dmg %BLUE%Large Charm{%NAME%}
 
-ItemDisplay[cm2 !UNI (RES>0 FRW>0)]: %PURPLE%ALL Res %WHITE%/ %ORANGE%FRW %BLUE%Large Charm{%NAME%}
-ItemDisplay[cm2 !UNI (RES>0 FHR>0)]: %PURPLE%ALL Res %WHITE%/ %ORANGE%FHR %BLUE%Large Charm{%NAME%}
-ItemDisplay[cm2 !UNI (RES>0 LIFE>0)]: %PURPLE%ALL Res %WHITE%/ %RED%Life %BLUE%Large Charm{%NAME%}
-ItemDisplay[cm2 !UNI RES>0]: %PURPLE%ALL Res %BLUE%Large Charm{%NAME%}
-ItemDisplay[cm2 !UNI ((LIFE>13 LIFE>16) OR LIFE>29)]: %RED%Life %BLUE%Large Charm{%NAME%}
+ItemDisplay[cm2 !UNI (RES>0 FRW>0)]: %PURPLE%All Res %WHITE%/ %ORANGE%FRW %BLUE%Large Charm{%NAME%}
+ItemDisplay[cm2 !UNI (RES>0 FHR>0)]: %PURPLE%All Res %WHITE%/ %ORANGE%FHR %BLUE%Large Charm{%NAME%}
+ItemDisplay[cm2 !UNI (RES>0 LIFE>0)]: %PURPLE%All Res %WHITE%/ %RED%Life %BLUE%Large Charm{%NAME%}
+ItemDisplay[cm2 !UNI RES>0]: %PURPLE%All Res %BLUE%Large Charm{%NAME%}
+ItemDisplay[cm2 !UNI ((LIFE>13 LIFE<16) OR LIFE>29)]: %RED%Life %BLUE%Large Charm{%NAME%}
 
 //Grand Charms
-ItemDisplay[cm3 !UNI ((MANA>30 OR RES>9 OR DEF>43 OR MAXDMG>6 OR AR>79) (LIFE>23 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm3 !UNI ((MANA>30 OR RES>9 OR STAT214>43 OR MAXDMG>6 OR AR>79) (LIFE>23 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm3 !UNI FHR>0 (AR>19 OR CRES>11 OR FRES>11 OR LRES>11 OR PRES>11 OR RES>4) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 
 ItemDisplay[cm3 !UNI (MAXDMG>5 LIFE>0)]: %TAN%Max Dmg %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
@@ -4641,10 +4644,10 @@ ItemDisplay[cm3 !UNI (MAXDMG>5 DEX>0)]: %TAN%Max Dmg %WHITE%/ %GREEN%DEX %BLUE%G
 ItemDisplay[cm3 !UNI (MAXDMG>5 STR>0)]: %TAN%Max Dmg %WHITE%/ %DARK_GREEN%STR %BLUE%Grand Charm{%NAME%}
 ItemDisplay[cm3 !UNI MAXDMG>7]: %TAN%Max Dmg %BLUE%Grand Charm{%NAME%}
 
-ItemDisplay[cm3 !UNI (RES>0 LIFE>0)]: %PURPLE%ALL Res %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-ItemDisplay[cm3 !UNI (RES>0 FRW>0)]: %PURPLE%ALL Res %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-ItemDisplay[cm3 !UNI (RES>0 FHR>0)]: %PURPLE%ALL Res %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-ItemDisplay[cm3 !UNI RES>0]: %PURPLE%ALL Res %BLUE%Grand Charm{%NAME%}
+ItemDisplay[cm3 !UNI (RES>0 LIFE>0)]: %PURPLE%All Res %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
+ItemDisplay[cm3 !UNI (RES>0 FRW>0)]: %PURPLE%All Res %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
+ItemDisplay[cm3 !UNI (RES>0 FHR>0)]: %PURPLE%All Res %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
+ItemDisplay[cm3 !UNI RES>0]: %PURPLE%All Res %BLUE%Grand Charm{%NAME%}
 
 //Skillers
 ItemDisplay[cm3 (TABSK0>0 FHR>0)]: %PURPLE%Bow and Crossbow %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
