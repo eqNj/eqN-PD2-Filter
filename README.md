@@ -44,7 +44,7 @@ Specifically, socketing recipes will show at item level 21+ (or earlier on any +
 
 ![Upgrade Weapon](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Upgrade.jpg)
 
-All unique and set items always show in any of these filters, though only mid-to-high tier unique and set items will notify depending on the selected filter. All runes will always show and notify unless using the SuperStrict filter, in which case all runes will still show but only tier 15+ runes will notify. Flawless gems still show in all filter versions.
+All unique and set items always show in any of these filters, however only certain mid-to-high tier unique and set items will notify depending on which of the filter versions you choose. All runes will always show and notify on every filter version. Flawless gems always show and Perfect gems will always notify in all filter versions.
 
 All elite tier non-magic (white) items are set to always show at higher levels, with a small exception only for class items that lack +3 to a useful skill. (Relaxed Filter)
 
@@ -104,8 +104,6 @@ Normal, exceptional, and elite magic items are hidden unless ethereal weapons fo
 Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, an amazon bow, a class helm, necro shield, gloves, boots, belts, rings, amulets, circlets, or arrows.
 
 Only high-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
-
-Low-tier runes will no longer notify on drop, but will still always show on the ground. (Mid/high-tier runes still notify.)
 
 Rare bolts are hidden and magic bolts and arrows are hidden.
 

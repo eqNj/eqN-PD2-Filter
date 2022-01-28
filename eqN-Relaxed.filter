@@ -4393,10 +4393,9 @@ ItemDisplay[hp1 CLVL>14]:
 ItemDisplay[tsc CLVL<15]: %BLUE%!%GRAY%tp%WHITE%{%TAN%Items/Recipes shown will adjust to your needs.%NL%As you level dynamic filtering will occur.%NL%%DARK_GREEN%eqN's Note:}%CONTINUE%
 ItemDisplay[tsc CLVL>14]: {%RED%Warning%WHITE%: Destroys removed gems/runes.%NL%%NL%Socketed Item + %BLUE%TP %WHITE%Scroll + %ORANGE%Hel%NL%%WHITE%Un-socketing Recipe:}
 ItemDisplay[isc CLVL<15]: %RED%!%GRAY%id%WHITE%{%TAN%Craft Recipes, ILVL 51+%NL%Socket Recipes, ILVL 21+%NL%Upgrade Recipes, ILVL 13+%NL%%DARK_GREEN%Recipes Shown:}%CONTINUE%
-ItemDisplay[isc CLVL>14]: {%TAN%To guarantee 3+ Additional Affixes: Craft with resulting ILVL 51%NL%To guarantee Required Level <31: Craft with resulting ILVL 42%NL%Gamble Circlets at Character Level 42-45%NL%%PURPLE%Low Level Dueling Tips:}%CONTINUE%
 ItemDisplay[vps]: %BLACK%!%WHITE%s{%TAN%We are what we repeatedly do.}%CONTINUE%
 ItemDisplay[wms]: %YELLOW%!%WHITE%t{%TAN%whom it touches.%NL%a soft white damn%NL%The snow doesn't give}%CONTINUE%
-ItemDisplay[(vps OR wms) CLVL>14]: {%NAME%}
+ItemDisplay[(vps OR wms OR isc) CLVL>14]: {%NAME%}
 ItemDisplay[yps]: %GREEN%!%WHITE%a{%TAN%Thy drugs art quick.%NL%O true apothecary,}
 ItemDisplay[key CLVL<15]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
 ItemDisplay[key CLVL>14]: {%TAN%The key is in the craft.}
