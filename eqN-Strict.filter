@@ -4956,7 +4956,7 @@ ItemDisplay[7di ETH NMAG !INF !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
 //Axes
 ItemDisplay[(7wa OR 72a) !ETH !INF NMAG !RW !SOCK=1]: %NAME%{%NAME%}
 ItemDisplay[(7wa OR 72a) ETH !INF NMAG !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(7bt OR 7ba OR 7ga OR 7gi OR 7la) !INF ETH NMAG !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(7bt OR 7ba OR 7ga OR 7gi OR 7la) !INF ETH NMAG !RW !SOCK=1 !SOCK=2]: %DOT-D6%%NAME%{%NAME%}
 
 //Hammers
 ItemDisplay[(7m7 OR 7gm) !INF ETH NMAG !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
