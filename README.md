@@ -22,7 +22,7 @@ All armor pieces of any kind will always show their base defense ranges (in thei
 
 ![Unsocketed Armor](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/MagePlate.jpg)
 
-All weapons will show their base speed (-60 to 20) value to make calculating IAS breakpoints quicker and easier.
+All weapons, when relevant, will show their Base Speed (-60 to 20) and Added Range (0 to 4) to make calculating IAS and comparing item bases quicker and easier.
 
 All unsocketed, but socketable, items of any kind will show their potential maximum sockets (in their description), accounting for rarity, item level, and corruption. 
 
