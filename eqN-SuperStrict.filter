@@ -4809,7 +4809,7 @@ ItemDisplay[UNI !ID uhl]: %BORDER-68%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>    
 //The Void Uniques
 ItemDisplay[!ID ram]: %BORDER-68%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Amulet
 ItemDisplay[!ID rar]: %BORDER-68%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Boneweave
-ItemDisplay[!ID rab]: %BORDER-68%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Troll Belt
+ItemDisplay[!ID rbe]: %BORDER-68%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Troll Belt
 ItemDisplay[UNI !ID uhn]: %BORDER-68%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Boneweave
 ItemDisplay[UNI !ID utc]: %BORDER-68%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Troll Belt
 ItemDisplay[UNI tbk]: %BORDER-68%%PURPLE%<%BLUE%~%PURPLE%:%BLUE%~%PURPLE%>     %GOLD%%NAME%     %PURPLE%<%BLUE%~%PURPLE%:%BLUE%~%PURPLE%>%GOLD% // Tome of Town Portal
