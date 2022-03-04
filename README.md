@@ -8,7 +8,7 @@ You can find these loot filters either here (on GitHub) or through the Project D
 
 If you would like to contact me, find me in the official PD2 Discord with the name eqN.
 
-If ever so inclined, you can support my efforts by donating on ![PayPal](https://www.paypal.com/donate/?business=65YT5QXDEURW8&no_recurring=0&currency_code=USD).
+If ever so inclined, you can support my efforts by donating on [PayPal](https://www.paypal.com/donate/?business=65YT5QXDEURW8&no_recurring=0&currency_code=USD).
 
 The Relaxed filter is the basis upon which all versions of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is especially focused on optimizations as you level and slightly more lenient in the endgame by comparison. All versions of this filter share the same optimized leveling experience before reaching character level 75.
 
