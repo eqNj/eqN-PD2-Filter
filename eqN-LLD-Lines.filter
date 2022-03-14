@@ -238,7 +238,7 @@ ItemDisplay[WEAPON CRAFT (ALLSK>0 OR CLSK4>0) TABSK34>1 LVLREQ<31]: %DOT-9B%%GRA
 //
 
 //Low Level Dueling Unique & Set Item (Good for Corruption) Descriptions, Identified
-ItemDisplay[UNI ID ((swb STAT363>2 ILVL>25) OR (lbb (STAT335=-30 OR STAT335=-31 OR STAT335=-32 OR STAT335=-33 OR STAT335=-34 OR STAT335=-35)) OR (wax ED>119 ILVL>25) OR (gma ED>239 ILVL>25) OR (mau ED>239 ILVL>25 STAT136>29) OR (gsd ILVL>25) OR (bld) OR (kri STAT365>1 ILVL>25) OR (xap) OR (bhm) OR (bwn SK69>2 SK70>2) OR (cap) OR (crn SK69>2 SK70>2 ILVL>25) OR (ghm ILVL>25) OR (gth ED>49) OR (aar) OR (fld STAT36>14) OR (stu IAS<29) OR (scl SK221>2) OR (brs (STAT336=-12 OR STAT336=-13 OR STAT336=-14 OR STAT336=-15)) OR (spl STAT362>1) OR (xui) OR (xuc STAT330>7) OR (kit) OR (vgl)) !ETH STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}%CONTINUE%
+ItemDisplay[UNI ID ((swb STAT363>2 ILVL>25) OR (lbb (STAT335=-30 OR STAT335=-31 OR STAT335=-32 OR STAT335=-33 OR STAT335=-34 OR STAT335=-35)) OR (wax ED>119 ILVL>25) OR (gma ED>239 ILVL>25) OR (mau ED>239 ILVL>25 STAT136>29) OR (gsd ILVL>25) OR (bld) OR (kri STAT365>1 ILVL>25) OR (xap) OR (bhm) OR (bwn SK70=2 SK80=2) OR (cap) OR (crn SK69>2 SK70>2 ILVL>25) OR (ghm ILVL>25) OR (gth ED>49) OR (aar) OR (fld STAT36>14) OR (stu IAS>29) OR (scl SK221>2) OR (brs (STAT336=-12 OR STAT336=-13 OR STAT336=-14 OR STAT336=-15)) OR (spl STAT362>1) OR (xui) OR (xuc STAT330>7) OR (kit) OR (vgl)) !ETH STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}%CONTINUE%
 ItemDisplay[SET ID (cap OR tbl OR dgr OR mbl OR mbt OR lsd OR lbl OR lgl OR ghm OR hbt OR hgl) STAT360=0 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Corruptible%NL%%NAME%}%CONTINUE%
 ItemDisplay[SET ID (vbt OR vgl OR bwn OR xap) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}%CONTINUE%
 ItemDisplay[SET ID rin REPLIFE>5 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}
@@ -258,9 +258,11 @@ ItemDisplay[DIN (pa5 OR pa6 OR pa7) !INF !ETH NMAG !RW !SOCK=1 !SOCK=3 (RES>19 O
 //Scepters
 ItemDisplay[9ws NMAG !INF !RW (SOCK=0 OR SOCK=4 OR SOCK=5) (ED>7 OR SK122>2 OR SK106>2)]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
 //Axes
-ItemDisplay[9wa !ETH !INF NMAG !RW (SOCK=0 OR SOCK=5 OR (SOCK=4 !9wa)) ED>7]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
+ItemDisplay[9wa !ETH !INF NMAG !RW (SOCK=0 OR SOCK=5) ED>7]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
+ItemDisplay[9wa !ETH !INF NMAG !RW (SOCK=0 OR SOCK=5) CLVL>74 DIFF<2]: %NAME%{%NAME%}
 //Spears
-ItemDisplay[9p9 !ETH !INF NMAG !RW (SOCK=0 OR SOCK=5 OR (SOCK=4 !9wa)) ED>7]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
+ItemDisplay[9p9 !ETH !INF NMAG !RW (SOCK=0 OR SOCK=5 OR SOCK=4) ED>7]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
+ItemDisplay[9p9 !ETH !INF NMAG !RW (SOCK=0 OR SOCK=5 OR SOCK=4) CLVL>74 DIFF<2]: %NAME%{%NAME%}
 //Claws
 ItemDisplay[SIN EXC SK266>2 !INF ETH NMAG !RW ((SOCK=0 ILVL>25) OR (SOCK=3)) LVLREQ<31]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
 ItemDisplay[SIN EXC SK255>2 !INF !ETH NMAG !RW ((SOCK=0 ILVL>25) OR (SOCK=3)) LVLREQ<31]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
