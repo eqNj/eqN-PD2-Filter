@@ -55,7 +55,7 @@ ItemDisplay[RARE LVLREQ<31 (CRES>24 OR FRES>24 OR LRES>24) (STAT214>34 OR RES>9 
 ItemDisplay[RARE LVLREQ<31 STAT91=-15 (STAT214>34 OR RES>9 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // -Requirements with 35+ Defense, 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy
 
 //
-//---// IDed Drop & Description Highlighting //---//
+//---// Drop & Description Highlighting //---//
 //
 
 //Low Level Dueling Ideal Class Item Crafting Bases
