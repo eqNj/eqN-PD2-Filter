@@ -20,7 +20,7 @@ These filters don't try to make all the decisions for you. You will see things t
 
 All non-magic (white) items with a relevant amount of plus skills that drop will show those skills in their name, making them easily identifiable at a glance.
 
-All armor pieces of any kind will always show their base defense ranges (in their description) to allow you to know if the item has a "good roll" in this way.
+All non-magic body armors will show their base defense range (in their description) to allow you to know if the item has a "good roll" in this way.
 
 ![Unsocketed Armor](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/MagePlate.jpg)
 
