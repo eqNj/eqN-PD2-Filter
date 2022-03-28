@@ -24,7 +24,7 @@ All non-magic body armors will show their base defense range (in their descripti
 
 ![Unsocketed Armor](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/MagePlate.jpg)
 
-All weapons, when relevant, will show their Base Speed (-60 to 20) and Added Range (0 to 4) to make calculating IAS and comparing item bases quicker and easier.
+All weapons, when relevant, will show their Base Speed (-60 to 20) and Added Range (0 to +4) to make calculating IAS and comparing item bases quicker and easier.
 
 All unsocketed, but socketable, items of any kind will show their potential maximum sockets (in their description), accounting for rarity, item level, and corruption. 
 
@@ -42,7 +42,7 @@ All items will show any recipes possible, as applicable. They will use a color-c
 
 These recipes will show up once relevant as your character progresses, to help ease new players into this information. I.E.: Non-magic items will show their socketing recipe, if not of superior quality. Magic items will show all possible crafting recipes. Rare, crafted, set, and unique items will show possible upgrade recipes if any are available.
 
-Specifically, socketing recipes will show at item level 21+ (or earlier on any +3 skills items). Upgrading recipes will show at item level 13+. Crafting recipes will show at item level 51+ (as a resulting craft item level of 51 is when you can guarantee at least 3 mods).
+Specifically, socketing recipes will show at item level 21+ (or earlier on any +3 skills items). Upgrading recipes will show at item level 13+. Crafting recipes will show at item level 51+ (as a resulting craft item level of 51 is when you can guarantee at least 3 additional affixes).
 
 ![Upgrade Weapon](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Upgrade.jpg)
 
