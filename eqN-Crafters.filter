@@ -5329,8 +5329,8 @@ ItemDisplay[BELT NMAG (CLVL>29 OR (CLVL<31 DIFF>0))]:
 ItemDisplay[(ARMOR OR WEAPON) !leg INF]: 
 
 //Hiding Crafters Final
-ItemDisplay[ARMOR NMAG SOCK<4 !leg CLVL<75]: 
-ItemDisplay[WEAPON NMAG SOCK<6 !leg CLVL<75]: 
+ItemDisplay[ARMOR NMAG SOCK<4 !leg CLVL>74]: 
+ItemDisplay[WEAPON NMAG SOCK<6 !leg CLVL>74]: 
 
 
 //Shoutout to Wolfie, TheIrateSeagoer, and BetweenWalls for all of their help and contributions to our community as fellow filter creators!
