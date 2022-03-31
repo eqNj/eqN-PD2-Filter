@@ -3745,14 +3745,14 @@ ItemDisplay[SHIELD !INF SOCK=4 NMAG !RW]: %NAME%{%GRAY%Exile, Phoenix, Spirit%NL
 
 //Weapons: 2 Sockets
 ItemDisplay[(BOW OR XBOW) !INF SOCK=2 NMAG !RW]: %NAME%{%GRAY%Zephyr%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
-ItemDisplay[WAND !INF SOCK=2 NMAG !RW]: %NAME%{%GRAY%Unending Will, White, Wind%NL%%GOLD%Runewords: %GRAY%Strength%NL%%NAME%}%CONTINUE%
+ItemDisplay[WAND !INF SOCK=2 NMAG !RW]: %NAME%{%GRAY%Unending Will, White, Wind%NL%%GOLD%Runewords: %GRAY%Strength}%CONTINUE%
 ItemDisplay[STAFF !INF SOCK=2 NMAG !RW]: %NAME%{%GRAY%Leaf, Strength, Wind%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
 ItemDisplay[(SIN OR SWORD OR AXE OR mac OR mst OR fla OR 9ma OR 9mt OR 9fl OR 7ma OR 7mt OR 7fl) !leg !INF SOCK=2 NMAG !RW]: %NAME%{%GRAY%Steel, Strength, Wind%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
 ItemDisplay[WEAPON !(BOW OR XBOW OR SOR OR leg OR STAFF OR WAND OR SIN OR SWORD OR AXE OR mac OR mst OR fla OR 9ma OR 9mt OR 9fl OR 7ma OR 7mt OR 7fl) !INF SOCK=2 NMAG !RW]: %NAME%{%GRAY%Strength, Wind%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
 
 //Weapons: 3 Sockets
 ItemDisplay[(BOW OR XBOW) !INF SOCK=3 NMAG !RW]: %NAME%{%GRAY%Edge, Melody, Plague, Venom%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
-ItemDisplay[SOR !leg !INF SOCK=3 NMAG !RW]: %NAME%{%GRAY%Plague, Venom%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SOR !leg !INF SOCK=3 NMAG !RW]: %NAME%{%GRAY%Plague, Venom%NL%%GOLD%Runewords:}%CONTINUE%
 ItemDisplay[SIN !INF SOCK=3 NMAG !RW]: %NAME%{%GRAY%Plague, Venom%NL%Lawbringer, Malice, Pattern%NL%Crescent Moon, Fury, King's Grace%NL%%GOLD%Runewords: %GRAY%Black, Chaos%NL%%NAME%}%CONTINUE%
 ItemDisplay[(AXE OR POLEARM OR SPEAR) !INF SOCK=3 NMAG !RW]: %NAME%{%GRAY%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
 ItemDisplay[SWORD !INF SOCK=3 NMAG !RW]: %NAME%{%GRAY%Lawbringer, Malice, Plague, Venom%NL%Crescent Moon, Fury, King's Grace%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
