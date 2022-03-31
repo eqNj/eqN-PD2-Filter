@@ -5261,6 +5261,10 @@ ItemDisplay[CIRC NMAG !INF !SUP !ETH SOCK=0]: %NAME%{%NAME%}
 ItemDisplay[SET OR UNI OR CRAFT OR RW]: %NAME%{%NAME%}
 ItemDisplay[(MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%{%NAME%}
 
+//Crafters-Specific Failsafes
+ItemDisplay[(7wa OR 7wh OR 7ls OR 7wd OR 7kr OR 7bl OR 7ws) MAG !ID]: %NAME%
+ItemDisplay[(7ga OR 7gi OR 7m7 OR 7gm OR 7fb OR 7gd OR 7p7 OR 7wc) MAG !ID]: %NAME%
+
 //----------------------------------------- Hiding Items -----------------------------------------
 
 //Hiding NORM Tier Items
