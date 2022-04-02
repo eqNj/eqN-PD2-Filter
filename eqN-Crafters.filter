@@ -4086,11 +4086,11 @@ ItemDisplay[(WAND OR SOR) SOCK>0 NORM SET ID STAT468=0]: %NAME%{%WHITE%Upgrade: 
 ItemDisplay[(WAND OR SOR) SOCK>0 EXC SET ID STAT468=0]: %NAME%{%WHITE%Upgrade: %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ %GREEN%@}%CONTINUE%
 
 //Low Level Dueling (Class Item & Weapon) Crafting Bases
-ItemDisplay[((wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces) OR (lwb OR am1)) MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
-ItemDisplay[((gax OR gix OR mau OR gma OR flb OR gsd OR pik OR wsc) OR (pil OR ssp OR glv OR tsp OR am5)) ETH MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
-ItemDisplay[((9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) OR (8lw OR am6)) MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
-ItemDisplay[((9ga OR 9gi OR 9m9 OR 9gm OR 9fb OR 9gd OR 9p9 OR 9wc) OR (9pi OR 9s9 OR 9gl OR 9ts OR ama)) ETH MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
-ItemDisplay[((BAR !ELT !(ba4 OR ba9 OR baa)) OR (DRU !ELT !(dr9 OR dra)) OR (NEC !ELT !(ne3 OR ne4 OR ne8 OR ne9 OR nea)) OR (DIN !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa))) !ETH MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base}%CONTINUE%
+//ItemDisplay[((wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces) OR (lwb OR am1)) MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
+//ItemDisplay[((gax OR gix OR mau OR gma OR flb OR gsd OR pik OR wsc) OR (pil OR ssp OR glv OR tsp OR am5)) ETH MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
+//ItemDisplay[((9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) OR (8lw OR am6)) MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
+//ItemDisplay[((9ga OR 9gi OR 9m9 OR 9gm OR 9fb OR 9gd OR 9p9 OR 9wc) OR (9pi OR 9s9 OR 9gl OR 9ts OR ama)) ETH MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
+//ItemDisplay[((BAR !ELT !(ba4 OR ba9 OR baa)) OR (DRU !ELT !(dr9 OR dra)) OR (NEC !ELT !(ne3 OR ne4 OR ne8 OR ne9 OR nea)) OR (DIN !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa))) !ETH MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base}%CONTINUE%
 
 //Notes For High ILVL Crafting Amulets
 ItemDisplay[MAG amu ID ILVL=88]: %NAME%%BLUE%{%YELLOW%Bty: @ %WHITE%+ %ORANGE%Ko %WHITE%| %GRAY%V: @ %WHITE%+ %ORANGE%Dol%NL%%BLUE%HP: @ %WHITE%+ %ORANGE%Thul %WHITE%| %GREEN%S: @ %WHITE%+ %ORANGE%Thul%NL%%RED%Bld: @ %WHITE%+ %ORANGE%Amn%WHITE% | %PURPLE%C: @ %WHITE%+ %ORANGE%Ral%NL%Craft at 92+: %BLUE%Jewel %WHITE%+}
