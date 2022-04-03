@@ -537,7 +537,7 @@ ItemDisplay[ETH INF !RW NMAG]: %GRAY%[%WHITE%e%GRAY%] %NAME%%CONTINUE%
 
 //Paladin Shield AUTOMOD Formatting
 //DAMAGE
-ItemDisplay[DIN AR>60 !RW !INF NMAG]: %NAME% %GRAY%[%RED%ed%GRAY%]%CONTINUE%
+ItemDisplay[DIN AR>60 !RW !INF NMAG !ID]: %NAME% %GRAY%[%RED%ed%GRAY%]%CONTINUE%
 //RESISTANCES
 ItemDisplay[DIN NMAG !RW RES=5]: %NAME% %GRAY%[5%WHITE%r%GRAY%]%CONTINUE%
 ItemDisplay[DIN NMAG !RW RES=6]: %NAME% %GRAY%[6%WHITE%r%GRAY%]%CONTINUE%
@@ -4325,7 +4325,7 @@ ItemDisplay[CRAFT (8lw OR 8rx OR am6) ((ED>149 STAT360=0) OR (STAT360=0 TABSK0>2
 ItemDisplay[UNI OR RW]: %NAME%%GOLD%{%NAME%}%CONTINUE%
 ItemDisplay[SET]: %NAME%%GREEN%{%NAME%}%CONTINUE%
 ItemDisplay[RARE]: %NAME%%YELLOW%{%NAME%}%CONTINUE%
-ItemDisplay[MAG]: %NAME%%BLUE%{%NAME%}%CONTINUE%
+ItemDisplay[MAG !ID]: %NAME%%BLUE%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT]: %NAME%%ORANGE%{%NAME%}%CONTINUE%
 ItemDisplay[(ARMOR OR WEAPON) NMAG !ETH SOCK=0]: %NAME%%WHITE%{%NAME%}%CONTINUE%
 ItemDisplay[(ARMOR OR WEAPON) NMAG !RW (SOCK>0 OR ETH)]: %NAME%%GRAY%{%NAME%}%CONTINUE%
@@ -4450,7 +4450,7 @@ ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)
 ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %WHITE%%NAME% %GRAY%[%PURPLE%PvP%GRAY%]%CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (!ID OR NMAG)]: %MAP-7F%%NAME%%CONTINUE%
 //Notes
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG !ID]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (RARE OR NMAG)]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
 ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %NAME%{%GRAY%Deaths %WHITE%within are not permanent in %RED%Hardcore%NL%%NL%%TAN%- that they plan their fight in the ring.%NL%There is an old adage about gladiators,}
 //Tier 1 Immunes
@@ -4904,9 +4904,9 @@ ItemDisplay[BAR (SK149>2 OR SK154>2) !INF !ETH NMAG !RW !SOCK=1]: %DOT-D6%%NAME%
 ItemDisplay[DRU (((SK227>1 OR SK221>1) SK237>1 SK247>1) OR (SK240>1 SK245>1 SK250>1) OR ((SK240>2 OR SK250>2) SK245>2) OR (SK240>2 (SK245>2 OR SK250>2)) OR (SK240>2 SK250>0)) !INF !ETH NMAG !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[DRU (SK221>2 OR SK225>2 OR SK227>2 OR SK237>2 OR SK238>2 OR SK239>2 OR SK240>2 OR SK243>2 OR SK244>2 OR SK245>2 OR SK247>2 OR SK249>2 OR SK250>2) !INF !ETH NMAG !RW !SOCK=1]: %NAME%{%NAME%}
 ItemDisplay[(usk OR uh9 OR uhm OR urn) ETH !INF SOCK=0 NMAG]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(usk OR uh9 OR uhm OR urn) !INF !SOCK=1 NMAG]: %NAME%{%NAME%}
+ItemDisplay[(usk OR uh9 OR uhm OR urn) !INF !SOCK=1 NMAG !ID]: %NAME%{%NAME%}
 ItemDisplay[HELM ELT ETH !INF SOCK=3 NMAG]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[HELM ELT !INF (SOCK=3 OR SOCK=2) NMAG]: %NAME%{%NAME%}
+ItemDisplay[HELM ELT !INF (SOCK=3 OR SOCK=2) NMAG !ID]: %NAME%{%NAME%}
 
 //Shields
 ItemDisplay[DIN (ELT OR paa) !INF ETH NMAG !RW (SOCK=0 OR SOCK=4) AR>80]: %DOT-D6%%NAME%{%NAME%}
@@ -5225,23 +5225,23 @@ ItemDisplay[NMAG !INF !RW SK97>2 SCEPTER ((!SOCK=1 !scp) OR (CLVL<60))]: %NAME%{
 //----------------------------------------- MISC Failsafes -----------------------------------------
 
 //General Class Item Failsafe
-ItemDisplay[NEC NECROMANCER MAG]: %NAME%{%NAME%}
-ItemDisplay[DIN PALADIN MAG]: %NAME%{%NAME%}
-ItemDisplay[SOR SORCERESS MAG]: %NAME%{%NAME%}
-ItemDisplay[BAR BARBARIAN MAG]: %NAME%{%NAME%}
-ItemDisplay[(DRU OR (spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl)) DRUID MAG]: %NAME%{%NAME%}
-ItemDisplay[(ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR ces OR 9cs OR 7cs) ASSASSIN MAG]: %NAME%{%NAME%}
-ItemDisplay[(am4 OR am9 OR ame OR am3 OR am8 OR amd OR am5 OR ama OR amf OR am2 OR am7 OR amc OR am1 OR am6 OR amb) AMAZON MAG]: %NAME%{%NAME%}
-ItemDisplay[(SOR OR (am4 OR am9 OR ame OR am3 OR am8 OR amd) OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR (DRU !ETH) OR (spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl) OR (BAR !ETH) OR (NEC !ETH) OR (DIN !ETH)) MAG CLVL<75]: %NAME%{%NAME%}
+ItemDisplay[NEC NECROMANCER MAG !ID]: %NAME%{%NAME%}
+ItemDisplay[DIN PALADIN MAG !ID]: %NAME%{%NAME%}
+ItemDisplay[SOR SORCERESS MAG !ID]: %NAME%{%NAME%}
+ItemDisplay[BAR BARBARIAN MAG !ID]: %NAME%{%NAME%}
+ItemDisplay[(DRU OR (spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl)) DRUID MAG !ID]: %NAME%{%NAME%}
+ItemDisplay[(ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR ces OR 9cs OR 7cs) ASSASSIN MAG !ID]: %NAME%{%NAME%}
+ItemDisplay[(am4 OR am9 OR ame OR am3 OR am8 OR amd OR am5 OR ama OR amf OR am2 OR am7 OR amc OR am1 OR am6 OR amb) AMAZON MAG !ID]: %NAME%{%NAME%}
+ItemDisplay[(SOR OR (am4 OR am9 OR ame OR am3 OR am8 OR amd) OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR (DRU !ETH) OR (spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl) OR (BAR !ETH) OR (NEC !ETH) OR (DIN !ETH)) MAG CLVL<75 !ID]: %NAME%{%NAME%}
 ItemDisplay[(SOR OR WAND OR SIN OR SCEPTER OR STAFF OR (am4 OR am9 OR ame OR am3 OR am8 OR amd) OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR DRU OR (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) OR BAR OR NEC OR DIN) RARE]: %NAME%{%NAME%}
 
 //Specific Class Item Failsafe
-//ItemDisplay[(ame OR amd) AMAZON TABSK2=2 ED>9 NMAG]: %NAME%{%NAME%} // High ED +2 ELT Spears
-//ItemDisplay[(amb OR amc) AMAZON TABSK0=2 ED>9 NMAG]: %NAME%{%NAME%} // High ED +2 ELT Bows
+//ItemDisplay[(ame OR amd) AMAZON TABSK2=2 ED>9 NMAG !ID]: %NAME%{%NAME%} // High ED +2 ELT Spears
+//ItemDisplay[(amb OR amc) AMAZON TABSK0=2 ED>9 NMAG !ID]: %NAME%{%NAME%} // High ED +2 ELT Bows
 ItemDisplay[(am5 OR ama OR amf) AMAZON NMAG !INF CLVL<75]: %NAME%{%NAME%} // Amazon Javelins
 //ItemDisplay[(am5 OR ama OR amf) AMAZON NMAG !INF ETH CLVL>70]: %GRAY%Imbue Jav{%NAME%} // Eth Javelins for Imbuing
 //ItemDisplay[(glv OR 9gl OR 7gl) BARBARIAN NMAG ETH CLVL>70]: %GRAY%Imbue Glaive{%NAME%} // Eth Glaives for Imbuing
-//ItemDisplay[SOR SORCERESS SOCK=3 NMAG]: %NAME%{%NAME%} // 3 Socket Sorceress Orbs
+//ItemDisplay[SOR SORCERESS SOCK=3 NMAG !ID]: %NAME%{%NAME%} // 3 Socket Sorceress Orbs
 
 //Specific Item Failsafe
 ItemDisplay[CHEST !ETH !INF NMAG SOCK=4 CLVL<80]: %NAME%{%NAME%} // 4 Socket Chests for early progression MF

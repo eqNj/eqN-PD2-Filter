@@ -5225,14 +5225,14 @@ ItemDisplay[NMAG !INF !RW SK97>2 SCEPTER ((!SOCK=1 !scp) OR (CLVL<60))]: %NAME%{
 //----------------------------------------- MISC Failsafes -----------------------------------------
 
 //General Class Item Failsafe
-ItemDisplay[NEC NECROMANCER MAG CLVL<75]: %NAME%{%NAME%}
-ItemDisplay[DIN PALADIN MAG CLVL<75]: %NAME%{%NAME%}
-ItemDisplay[SOR SORCERESS MAG CLVL<75]: %NAME%{%NAME%}
-ItemDisplay[BAR BARBARIAN MAG CLVL<75]: %NAME%{%NAME%}
-ItemDisplay[(DRU OR (spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl)) DRUID MAG CLVL<75]: %NAME%{%NAME%}
-ItemDisplay[(ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR ces OR 9cs OR 7cs) ASSASSIN MAG CLVL<75]: %NAME%{%NAME%}
-ItemDisplay[(am4 OR am9 OR ame OR am3 OR am8 OR amd OR am5 OR ama OR amf OR am2 OR am7 OR amc OR am1 OR am6 OR amb) AMAZON MAG CLVL<75]: %NAME%{%NAME%}
-ItemDisplay[(SOR OR (am4 OR am9 OR ame OR am3 OR am8 OR amd) OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR (DRU !ETH) OR (spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl) OR (BAR !ETH) OR (NEC !ETH) OR (DIN !ETH)) MAG CLVL<75]: %NAME%{%NAME%}
+ItemDisplay[NEC NECROMANCER MAG CLVL<75 !ID]: %NAME%{%NAME%}
+ItemDisplay[DIN PALADIN MAG CLVL<75 !ID]: %NAME%{%NAME%}
+ItemDisplay[SOR SORCERESS MAG CLVL<75 !ID]: %NAME%{%NAME%}
+ItemDisplay[BAR BARBARIAN MAG CLVL<75 !ID]: %NAME%{%NAME%}
+ItemDisplay[(DRU OR (spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl)) DRUID MAG CLVL<75 !ID]: %NAME%{%NAME%}
+ItemDisplay[(ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR ces OR 9cs OR 7cs) ASSASSIN MAG CLVL<75 !ID]: %NAME%{%NAME%}
+ItemDisplay[(am4 OR am9 OR ame OR am3 OR am8 OR amd OR am5 OR ama OR amf OR am2 OR am7 OR amc OR am1 OR am6 OR amb) AMAZON MAG CLVL<75 !ID]: %NAME%{%NAME%}
+ItemDisplay[(SOR OR (am4 OR am9 OR ame OR am3 OR am8 OR amd) OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR (DRU !ETH) OR (spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl) OR (BAR !ETH) OR (NEC !ETH) OR (DIN !ETH)) MAG CLVL<75 !ID]: %NAME%{%NAME%}
 ItemDisplay[(SOR OR WAND OR SIN OR SCEPTER OR STAFF OR (am4 OR am9 OR ame OR am3 OR am8 OR amd) OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR DRU OR (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) OR BAR OR NEC OR DIN) RARE CLVL<75]: %NAME%{%NAME%}
 
 //Specific Class Item Failsafe
