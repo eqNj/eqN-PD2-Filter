@@ -1,6 +1,6 @@
 # Hello! Stay awhile and listen.
 
-![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Ground.jpg)
+![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Dropped.jpg)
 
 These filters are up-to-date for Season 4 of Project Diablo 2!
 
