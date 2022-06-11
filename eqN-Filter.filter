@@ -3891,14 +3891,14 @@ ItemDisplay[GEMTYPE=7 GEM=5]: %NAME% %ORANGE%[%GRAY%@%ORANGE%]%CONTINUE%
 //Runes
 ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17) CLVL>1]: %PX-62%%ORANGE%%RUNENAME% Rune %GRAY%[%TAN%%RUNENUM%%GRAY%]%CONTINUE%
 ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17) CLVL=1]: %ORANGE%%RUNENAME% Rune %GRAY%[%TAN%%RUNENUM%%GRAY%]%CONTINUE%
-ItemDisplay[RUNE=15 OR RUNE=18 OR RUNE=19]: %PX-62%%TAN%]  %ORANGE%%RUNENAME% Rune %GRAY%[%WHITE%%RUNENUM%%GRAY%]%TAN%  [%CONTINUE%
-ItemDisplay[RUNE>19 RUNE<26]: %DOT-62%%RED%]     %ORANGE%%RUNENAME% Rune %GRAY%[%RED%%RUNENUM%%GRAY%]%RED%     [%CONTINUE%
-ItemDisplay[RUNE>25]: %BORDER-62%%ORANGE%]%DARK_GREEN%:%ORANGE%[          %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]%ORANGE%          ]%DARK_GREEN%:%ORANGE%[%CONTINUE%
+ItemDisplay[RUNE=15 OR RUNE=18 OR RUNE=19]: %PX-62%%TAN%]  %ORANGE%%RUNENAME% Rune %GRAY%[%WHITE%%RUNENUM%%GRAY%] %TAN%x %WHITE%%QTY%  %TAN%[%CONTINUE%
+ItemDisplay[RUNE>19 RUNE<26]: %DOT-62%%RED%]     %ORANGE%%RUNENAME% Rune %GRAY%[%RED%%RUNENUM%%GRAY%] %TAN%x %WHITE%%QTY%     %RED%[%CONTINUE%
+ItemDisplay[RUNE>25]: %BORDER-62%%ORANGE%]%DARK_GREEN%:%ORANGE%[          %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%] %TAN%x %WHITE%%QTY%          %ORANGE%]%DARK_GREEN%:%ORANGE%[%CONTINUE%
 
 //----------------------------------------- Stack Sizes -----------------------------------------
 
 //Show All Stack Quantities >1
-ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk OR aqv OR cqv) QTY>1]: %NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
+ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk OR aqv OR cqv OR RUNE=15 OR RUNE=18 OR RUNE=19 OR RUNE>19) QTY>1]: %NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
 
 //----------------------------------------- Notes on Socketable Items -----------------------------------------
 
