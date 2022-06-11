@@ -4409,6 +4409,7 @@ ItemDisplay[yps (MAPID=37 OR MAPID=133 OR MAPID=161 OR MAPID=162 OR MAPID=163 OR
 ItemDisplay[(vps OR wms OR yps OR tsc OR isc) CLVL>14]: {%NAME%}
 ItemDisplay[key CLVL<15]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
 ItemDisplay[key CLVL>14]: {%TAN%The key is in the craft.}
+ItemDisplay[rkey]: %BORDER-0A%%GOLD%|%TAN%:   %GOLD%%NAME%   %TAN%:%GOLD%|{%TAN%will open a very heavy door.%NL%A very little key}
 
 //NMAG Arrows & Bolts
 ItemDisplay[(cqv) NMAG CLVL<7]: %NAME%{%TAN%you only hit what you aim at.%NL%In the long run,}
