@@ -1,6 +1,5 @@
 # Hello! Stay awhile and listen.
 
-![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Loot.jpg)
 ![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Dropped.jpg)
 
 These filters are up-to-date for Season 5 of Project Diablo 2!
@@ -282,4 +281,4 @@ Updated potion aesthetic to be more unique and slightly easier to pick up. Also 
 
 A massive amount of tweaks have been added to the LLD item tags introduced last season to refine them to always show the (LLD) tag on items worth keeping for you LLD characters without introducing excessive visuals and/or notifications.
 
-Made it so skill grand charms will use their original prefix names for their aesthetic coloration.Made it so skill grand charms will use their original prefix names for their aesthetic coloration.
+Made it so skill grand charms will use their original prefix names for their aesthetic coloration.
