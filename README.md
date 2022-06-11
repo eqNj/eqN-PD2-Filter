@@ -2,7 +2,7 @@
 
 ![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Loot.jpg)
 
-These filters are up-to-date for Season 4 of Project Diablo 2!
+These filters are up-to-date for Season 5 of Project Diablo 2!
 
 You can find these loot filters either here (on GitHub) or through the Project Diablo 2 game launcher.
 
@@ -10,9 +10,11 @@ If you would like to contact me, find me in the official PD2 Discord with the na
 
 If ever so inclined, you can support my efforts by donating on [PayPal](https://www.paypal.com/donate/?business=65YT5QXDEURW8&no_recurring=0&currency_code=USD).
 
-The Relaxed filter is the basis upon which all versions of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is especially focused on optimizations as you level and slightly more lenient in the endgame by comparison. All versions of this filter share the same optimized leveling experience before reaching character level 75.
+The version known as 'eqN-Filter' in the game launcher includes all other versions of the filter, adjustable using the in-game settings.
 
-These filters don't try to make all the decisions for you. You will see things that you may or may not be inclined to pick up, but it is always reasonable why you're seeing these items if you understand the nuances of itemization in Diablo 2.
+The Relaxed version of this filter is the basis upon which all versions of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is especially focused on optimizations as you level and slightly more lenient in the endgame by comparison. All versions of this filter share the same optimized leveling experience before reaching character level 75.
+
+This filter doesn't try to make all the decisions for you. You will see things that you may or may not be inclined to pick up, but it is always reasonable why you're seeing these items if you understand the nuances of itemization in Diablo 2.
 
 ## Features
 
@@ -260,3 +262,23 @@ Added notes to unique and set items that are good for Low Level Dueling to encou
 Added notes to charms that are good for Low Level Dueling to encourage trading.
 
 Big thanks to Hastmannen for their help with all the Low Level Dueling information. You can find Hastmannen's LLD guides for PD2 on Reddit!
+
+## 1.4.0 - (Season 5)
+
+Created a new "default" version of the filter, available in the launcher, simply with the name "eqN-Filter". This filter uses the new "filter level" settings available as of Season 5 to essentially combine the different strictness levels I've made publicly available of my filter in to a single filter.
+
+Added detailed descriptions and drop notifications/aesthetics for all of the new 'recipe' items in Season 5: Larzuk's Puzzlepiece, Lilith's Mirror, and Vial of Lightsong.
+
+Added mention of all of the new runewords in Season 5 to applicable bases, including both the new D2:R and PD2 exclusive runewords. Made sure all relevant item bases for use with these runewords will always show on drop, relative to their usefulness as you progress.
+
+Ensured all new unique items added to the game in Season 5 will notify on drop and have a specialize aesthetic.
+
+Adjusted it so recipes on items will not show if the item is equipped and/or in a shopping window.
+
+Updated the recipes on Uber Rathma ingredients as they no longer require Prime Evil Soul(s).
+
+Updated potion aesthetic to be more unique and slightly easier to pick up. Also thoroughly improved what potions show at what point of progress as you level to help reduce visual clutter.
+
+A massive amount of tweaks have been added to the LLD item tags introduced last season to refine them to always show the (LLD) tag on items worth keeping for you LLD characters without introducing excessive visuals and/or notifications.
+
+Made it so skill grand charms will use their original prefix names for their aesthetic coloration.
