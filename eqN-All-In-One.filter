@@ -4407,15 +4407,18 @@ ItemDisplay[hp1 (CLVL<15 OR FILTLVL=0)]: %RED%%%WHITE%min
 
 //Utilites
 ItemDisplay[tsc CLVL<15]: %BLUE%>%GRAY%tp%WHITE%{%TAN%Items/Recipes shown will adjust to your needs.%NL%As you level dynamic filtering will occur.%NL%%DARK_GREEN%eqN's Note:}%CONTINUE%
+ItemDisplay[tsc CLVL>14 FILTLVL=0]: %BLUE%>%GRAY%tp%WHITE%{%RED%Warning%WHITE%: Destroys removed gems/runes.%NL%%NL%Socketed Item + %BLUE%TP %WHITE%Scroll + %ORANGE%Hel%NL%%WHITE%Un-socketing Recipe:}
 ItemDisplay[tsc CLVL>14]: {%RED%Warning%WHITE%: Destroys removed gems/runes.%NL%%NL%Socketed Item + %BLUE%TP %WHITE%Scroll + %ORANGE%Hel%NL%%WHITE%Un-socketing Recipe:}
 ItemDisplay[isc CLVL<15]: %RED%>%GRAY%id%WHITE%{%TAN%Craft Recipes, ILVL 51+%NL%Socket Recipes, ILVL 21+%NL%Upgrade Recipes, ILVL 13+%NL%%DARK_GREEN%Recipes Shown:}%CONTINUE%
-ItemDisplay[isc CLVL>14]: {%ORANGE%Crafted Item Level %WHITE%= Character LVL/2 + Crafting Base ILVL/2%NL%%YELLOW%Rare %WHITE%items can now be used as crafting bases.%NL%%WHITE%Crafting Tip%GRAY%(s)%WHITE%:}
+ItemDisplay[isc CLVL>14 FILTLVL=0]: %RED%>%GRAY%id%WHITE%{%ORANGE%Crafted ILVL %WHITE%51+ = 3+ Affixes & %ORANGE%Crafted ILVL %WHITE%71+ = 4 Affixes%NL%%ORANGE%Crafted Item Level %WHITE%= Character LVL/2 + Base ILVL/2%NL%%YELLOW%Rare %WHITE%items can now be used as crafting bases.%NL%%WHITE%Crafting Tip%GRAY%(s)%WHITE%:}
+ItemDisplay[isc CLVL>14]: {%ORANGE%Crafted ILVL %WHITE%51+ = 3+ Affixes & %ORANGE%Crafted ILVL %WHITE%71+ = 4 Affixes%NL%%ORANGE%Crafted Item Level %WHITE%= Character LVL/2 + Base ILVL/2%NL%%YELLOW%Rare %WHITE%items can now be used as crafting bases.%NL%%WHITE%Crafting Tip%GRAY%(s)%WHITE%:}
 ItemDisplay[vps]: %BLACK%%%WHITE%s{%TAN%We are what we repeatedly do.}%CONTINUE%
 ItemDisplay[wms]: %YELLOW%%%WHITE%t{%TAN%whom it touches.%NL%a soft white damn%NL%The snow doesn't give}%CONTINUE%
 ItemDisplay[yps]: %GREEN%%%WHITE%a{%TAN%Thy drugs art quick.%NL%O true apothecary,}%CONTINUE%
 ItemDisplay[yps (MAPID=37 OR MAPID=133 OR MAPID=161 OR MAPID=162 OR MAPID=163 OR MAPID=165)]: %GREEN%%%WHITE%a{%TAN%Thy drugs art quick.%NL%O true apothecary,}
+ItemDisplay[(vps OR wms OR yps OR tsc OR isc) FILTLVL=0]: %NAME%{%NAME%}
 ItemDisplay[(vps OR wms OR yps OR tsc OR isc) CLVL>14]: {%NAME%}
-ItemDisplay[key CLVL<15]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
+ItemDisplay[key (CLVL<15 OR FILTLVL=0)]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
 ItemDisplay[key CLVL>14]: {%TAN%The key is in the craft.}
 ItemDisplay[rkey]: %BORDER-0A%%GOLD%|%TAN%:   %GOLD%%NAME%   %TAN%:%GOLD%|{%TAN%will open a very heavy door.%NL%A very little key}
 
@@ -4441,8 +4444,8 @@ ItemDisplay[wss]: %MAP-0A%%NAME%{%RED%Warning%WHITE%: This can brick your item%N
 ItemDisplay[scrb]: %BORDER-A9%%YELLOW%|%TAN%>%GRAY%:     %GOLD%%NAME%     %GRAY%:%TAN%<%YELLOW%|%GOLD%{%WHITE%Create a %RED%Dungeon%NL%%GOLD%Cube %WHITE%this with a %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Map:}
 ItemDisplay[lpp]: %BORDER-0A%%YELLOW%|%GRAY%:    %GOLD%%NAME%    %GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher.%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Use this to %TAN%Socket %WHITE%an %YELLOW%it%ORANGE%em}
 ItemDisplay[lbox]: %BORDER-0A%%YELLOW%|%TAN%>%GRAY%:     %GOLD%%NAME%     %GRAY%:%TAN%<%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher.%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Use this to %TAN%Socket %WHITE%an item}
-ItemDisplay[lsvl]: %BORDER-0A%%YELLOW%~%PURPLE%|%TAN%>%BLUE%:%GOLD%:     %PURPLE%%NAME%     %GOLD%:%BLUE%:%TAN%<%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Exception: %GOLD%Indestructible %WHITE%or %GREEN%Set %WHITE%items%NL%%WHITE%Use this to make any item %GRAY%Ethereal}
-ItemDisplay[llmr]: %BORDER-0A%%YELLOW%~%PURPLE%|%TAN%>%BLUE%:%GOLD%:     %PURPLE%%NAME%     %GOLD%:%BLUE%:%TAN%<%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Once an item is %PURPLE%Mirrored %WHITE%it cannot be modified.%NL%Use this to %PURPLE%Mirror %WHITE%any item}
+ItemDisplay[lsvl]: %BORDER-0A%%YELLOW%~%PURPLE%|%TAN%:%BLUE%>%GOLD%:     %PURPLE%%NAME%     %GOLD%:%BLUE%<%TAN%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Exception: %GOLD%Indestructible %WHITE%or %GREEN%Set %WHITE%items%NL%%WHITE%Use this to make any item %GRAY%Ethereal}
+ItemDisplay[llmr]: %BORDER-0A%%YELLOW%~%PURPLE%|%TAN%:%BLUE%>%GOLD%:     %PURPLE%%NAME%     %GOLD%:%BLUE%<%TAN%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Once an item is %PURPLE%Mirrored %WHITE%it cannot be modified.%NL%Use this to %PURPLE%Mirror %WHITE%any item}
 
 //Map Orbs
 ItemDisplay[imra]: %NAME%{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel %WHITE%+ %ORANGE%Rune >9%NL%%WHITE%Imbue a White Map to %YELLOW%Rare%WHITE%:}
