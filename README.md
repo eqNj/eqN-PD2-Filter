@@ -10,7 +10,7 @@ If you would like to contact me, find me in the official PD2 Discord with the na
 
 If ever so inclined, you can support my efforts by donating on [PayPal](https://www.paypal.com/donate/?business=65YT5QXDEURW8&no_recurring=0&currency_code=USD).
 
-The version known as 'eqN-Filter' in the game launcher includes all other versions of the filter, adjustable using the in-game settings.
+The version known as 'eqN-All-In-One' in the game launcher includes all other versions of the filter, adjustable using the in-game settings.
 
 The Relaxed version of this filter is the basis upon which all versions of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is especially focused on optimizations as you level and slightly more lenient in the endgame by comparison. All versions of this filter share the same optimized leveling experience before reaching character level 75.
 
@@ -265,7 +265,7 @@ Big thanks to Hastmannen for their help with all the Low Level Dueling informati
 
 ## 1.4.0 - (Season 5)
 
-Created a new "default" version of the filter, available in the launcher, simply with the name "eqN-Filter". This filter uses the new "filter level" settings available as of Season 5 to essentially combine the different strictness levels I've made publicly available of my filter in to a single filter.
+Created a new "default" version of the filter, available in the launcher, simply with the name "eqN-All-In-One". This filter uses the new "filter level" settings available as of Season 5 to essentially combine the different strictness levels I've made publicly available of my filter in to a single filter.
 
 Added detailed descriptions and drop notifications/aesthetics for all of the new 'recipe' items in Season 5: Larzuk's Puzzlepiece, Lilith's Mirror, and Vial of Lightsong.
 
