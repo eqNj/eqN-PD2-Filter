@@ -4542,10 +4542,10 @@ ItemDisplay[rtma]: %BORDER-0A%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      
 ItemDisplay[cwss]: %BORDER-0A%%WHITE%:%BLUE%|%PURPLE%:      %RED%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%RED%{%WHITE%This cannot brick your Anni%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
 
 //Uber Ancients
-ItemDisplay[ubaa]: %MAP-0A%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%whom had visions many followed.%NL%Madawac the Guardian from Val Narian,%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 1 Maps}
-ItemDisplay[ubab]: %MAP-0A%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%whom found power and duty young.%NL%Talic the Defender from Western Shores,%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 2 Maps}
-ItemDisplay[ubac]: %MAP-0A%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%whom ruled with a druid's touch.%NL%Korlic the Protector from Henknoc Jungles,%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 3 Maps}
-ItemDisplay[uba]: %BORDER-0A%%YELLOW%|%WHITE%:%GOLD%|      %ORANGE%%NAME%      %GOLD%|%WHITE%:%YELLOW%|%ORANGE%{%TAN%whom were are to forever watch over Worldstone.%NL%Come to meet the spirits of mighty barbarians%NL%%NL%%WHITE%Find your courage upon %ORANGE%The Arreat Summit%GRAY%...}
+ItemDisplay[ubaa]: %MAP-0A%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom had visions many followed.%NL%Madawac the Guardian from Val Narian.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 1 Maps}
+ItemDisplay[ubab]: %MAP-0A%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom found power and duty young.%NL%Talic the Defender from Western Shores.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 2 Maps}
+ItemDisplay[ubac]: %MAP-0A%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom ruled with a druid's touch.%NL%Korlic the Protector from Henknoc Jungles.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 3 Maps}
+ItemDisplay[uba]: %BORDER-0A%%YELLOW%|%WHITE%:%GOLD%|      %ORANGE%%NAME%      %GOLD%|%WHITE%:%YELLOW%|%ORANGE%{%TAN%whom are to forever watch over the Worldstone.%NL%Come to meet the spirits of mighty barbarians%NL%%NL%%WHITE%Find your courage upon %ORANGE%The Arreat Summit%GRAY%...}
 
 //Wirt's Leg
 ItemDisplay[leg]: %NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
