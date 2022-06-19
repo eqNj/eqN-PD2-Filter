@@ -267,6 +267,8 @@ Big thanks to Hastmannen for their help with all the Low Level Dueling informati
 
 Created a new "default" version of the filter, available in the launcher, simply with the name "eqN-All-In-One". This filter uses the new "filter level" settings available as of Season 5 to essentially combine the different strictness levels I've made publicly available of my filter in to a single filter.
 
+Visually remastered nearly every aspect of item drops and/or descriptons to include even more lore tidbits, famous quotes, and pertinent item information with concise and clean aesthetics and grammar.
+
 Added detailed descriptions and drop notifications/aesthetics for all of the new 'recipe' items in Season 5: Larzuk's Puzzlepiece, Lilith's Mirror, and Vial of Lightsong.
 
 Added mention of all of the new runewords in Season 5 to applicable bases, including both the new D2:R and PD2 exclusive runewords. Made sure all relevant item bases for use with these runewords will always show on drop, relative to their usefulness as you progress.
