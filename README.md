@@ -1,6 +1,6 @@
 # Hello! Stay awhile and listen.
 
-![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Dropped.jpg)
+![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Drops.jpg)
 
 These filters are up-to-date for Season 5 of Project Diablo 2!
 
@@ -18,13 +18,13 @@ This filter doesn't try to make all the decisions for you. You will see things t
 
 ## Features
 
-![Staff Mods](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Staffmods.jpg)
+![Staff Mods](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Staffmoody.jpg)
 
 All non-magic (white) items with a relevant amount of plus skills that drop will show those skills in their name, making them easily identifiable at a glance.
 
 All non-magic body armors will show their base defense range (in their description) to allow you to know if the item has a "good roll" in this way.
 
-![Unsocketed Armor](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/MagePlate.jpg)
+![Unsocketed Armor](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Armor.jpg)
 
 All weapons, when relevant, will show their Base Speed (-60 to 20) and Added Range (0 to +4) to make calculating IAS and comparing item bases quicker and easier.
 
