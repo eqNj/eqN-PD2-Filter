@@ -12,6 +12,8 @@ If ever so inclined, you can support my efforts by donating on [PayPal](https://
 
 The version known as 'eqN-All-In-One' in the game launcher includes all other versions of the filter, adjustable using the in-game settings.
 
+To those interested: these filters are specially designed to be 100% functional with the in-game filter strictness setting "Show All Items" and will apply all filter aesthetic (item name and description) effects to every item.
+
 The Relaxed version of this filter is the basis upon which all versions of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is especially focused on optimizations as you level and slightly more lenient in the endgame by comparison. All versions of this filter share the same optimized leveling experience before reaching character level 75.
 
 This filter doesn't try to make all the decisions for you. You will see things that you may or may not be inclined to pick up, but it is always reasonable why you're seeing these items if you understand the nuances of itemization in Diablo 2.
