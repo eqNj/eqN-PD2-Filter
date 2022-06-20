@@ -50,6 +50,8 @@ Specifically, socketing recipes will show at item level 21+ (or earlier on any +
 
 All unique and set items always show in any of these filters, however only certain mid-to-high tier unique and set items will notify depending on which of the filter versions you choose. All runes will always show and notify on every filter version. Flawless gems always show and Perfect gems will always notify in all filter versions.
 
+![A Lot Of Drops](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Drops.jpg)
+
 All elite tier non-magic (white) items are set to always show at higher levels, with a small exception only for class items that lack +3 to a useful skill. (Relaxed Filter)
 
 Four socket, ethereal polearm/spear weapons of all tiers, for use with the Insight runeword on lower level characters, will show at all levels. (Relaxed Filter)
@@ -63,8 +65,6 @@ Any class items with +3 to at least one of any useful skill will always show, re
 The following items will have added descriptions when they appear to be good for LLD (Low Level Dueling) or for high level PvE, and/or are in a state in which corruption would potentially yield a good LLD item: Charms, Jewels (Magic and Rare), certain Magic class item & weapon bases (ideal for crafting or usage as is), Rare and Crafted weapons and class items, and certain Unique and Set items popular for LLD. The following runeword bases specifically for LLD will show at all levels: 10%+ ED Naga, Lance, or Divine Scepter (for use with the Honor or Insight runewords). +3 Blade Fury (ethereal) and +3 Dragon Talon (non-ethereal) exceptional claws (for use with the Pattern or Malice runewords). (All Filter Versions)
 
 Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items. (All Filter Versions)
-
-![A Lot Of Drops](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Drops.jpg)
 
 ###### Read the "Changelog" further below for more details on the filters' features. (Relative to the above, using the Relaxed filter as the assumed baseline.) 
 
