@@ -1,6 +1,6 @@
 # Hello! Stay awhile and listen.
 
-![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Drops.jpg)
+![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Charming.jpg)
 
 These filters are up-to-date for Season 5 of Project Diablo 2!
 
@@ -63,6 +63,8 @@ Any class items with +3 to at least one of any useful skill will always show, re
 The following items will have added descriptions when they appear to be good for LLD (Low Level Dueling) or for high level PvE, and/or are in a state in which corruption would potentially yield a good LLD item: Charms, Jewels (Magic and Rare), certain Magic class item & weapon bases (ideal for crafting or usage as is), Rare and Crafted weapons and class items, and certain Unique and Set items popular for LLD. The following runeword bases specifically for LLD will show at all levels: 10%+ ED Naga, Lance, or Divine Scepter (for use with the Honor or Insight runewords). +3 Blade Fury (ethereal) and +3 Dragon Talon (non-ethereal) exceptional claws (for use with the Pattern or Malice runewords). (All Filter Versions)
 
 Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items. (All Filter Versions)
+
+![A Lot Of Drops](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Drops.jpg)
 
 ###### Read the "Changelog" further below for more details on the filters' features. (Relative to the above, using the Relaxed filter as the assumed baseline.) 
 
