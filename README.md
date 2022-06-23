@@ -52,7 +52,7 @@ Specifically, socketing recipes will show at item level 21+ (or earlier on any +
 
 All unique and set items always show in any of these filters, however only certain mid-to-high tier unique and set items will notify depending on which of the filter versions you choose. All runes will always show and notify on every filter version. Flawless gems always show and Perfect gems will always notify in all filter versions.
 
-![A Lot Of Drops](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Drops.jpg)
+![A Lot Of Drops](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Ground.jpg)
 
 All elite tier non-magic (white) items are set to always show at higher levels, with a small exception only for class items that lack +3 to a useful skill. (Relaxed Filter)
 
