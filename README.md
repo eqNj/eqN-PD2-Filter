@@ -16,7 +16,7 @@ To those interested: these filters are specially designed to be 100% functional 
 
 The Relaxed version of this filter is the basis upon which all versions of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is especially focused on optimizations as you level and slightly more lenient in the endgame by comparison. All versions of this filter share the same optimized leveling experience before reaching character level 75.
 
-This filter doesn't try to make all the decisions for you. You will see things that you may or may not be inclined to pick up, but it is always reasonable why you're seeing these items if you understand the nuances of itemization in Diablo 2.
+This filter doesn't try to make all the decisions for you. You will see things that you may not be inclined to pick up, but it is always reasonable why you're seeing these items if you understand the nuances of itemization in Diablo 2.
 
 ## Features
 
@@ -285,6 +285,6 @@ Updated the recipes on Uber Rathma ingredients as they no longer require Prime E
 
 Updated potion aesthetic to be more unique and slightly easier to pick up. Also thoroughly improved what potions show at what point of progress as you level to help reduce visual clutter.
 
-A massive amount of tweaks have been added to the LLD item tags introduced last season to refine them to always show the (LLD) tag on items worth keeping for you LLD characters without introducing excessive visuals and/or notifications.
+A massive amount of tweaks have been added to the LLD item tags introduced last season. These changes refine the item tags to always show the LLD tag on items worth keeping for your LLD characters without introducing excessive visuals and/or notifications.
 
 Made it so skill grand charms will use their original prefix names for their aesthetic coloration.

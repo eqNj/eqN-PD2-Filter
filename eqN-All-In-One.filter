@@ -3974,8 +3974,8 @@ ItemDisplay[gpws]: %PX-70%%NAME%%WHITE%{%TAN%Control%WHITE%+%TAN%Shift %WHITE%cl
 ItemDisplay[skzs]: %PX-70%%NAME%%WHITE%{%TAN%Control%WHITE%+%TAN%Shift %WHITE%click to %GRAY%(un)%WHITE%stack%NL%%NL%%WHITE%Shield: Attacker Takes 20 Dmg%NL%Armor/Helm: Regenerate Mana +19%, Replenish Life +5%NL%Weapon: 4% Life Leech, 3% Mana Leech%NL%}
 
 //IDed Jewel Notes
-ItemDisplay[jew MAG ID]: %NAME%{%GOLD%Cube %WHITE%+ %GRAY%Key %WHITE%to create: %BLUE%Jewel Fragment}%CONTINUE%
-ItemDisplay[jew RARE ID]: %NAME%{%GOLD%Cube %WHITE%+ %GRAY%Key %WHITE%to create: %BLUE%Jewel Fragment}%CONTINUE%
+ItemDisplay[jew MAG ID]: %NAME%{%GOLD%Cube %WHITE%+ %GRAY%Key %WHITE%to create a %BLUE%Jewel Fragment}%CONTINUE%
+ItemDisplay[jew RARE ID]: %NAME%{%GOLD%Cube %WHITE%+ %GRAY%Key %WHITE%to create a %BLUE%Jewel Fragment}%CONTINUE%
 
 //Low Level Dueling Magic Jewel Notes
 ItemDisplay[MAG LVLREQ<10 (ED>14 OR AR>19 OR CRES>11 OR FRES>11 OR LRES>11) (MAXDMG>5 OR MINDMG>3 OR STR>3 OR DEX>3 OR LIFE>5 OR STAT91=-15) jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 15%+ Enhanced Damage, 20+ AR, or 12%+ Cold, Fire, or Light Resist with 6+ Maximum Damage, 4+ Minimum Damage, 4+ Strength, 4+ Dexterity, 6+ Life, or -15% Requirements
@@ -3983,24 +3983,50 @@ ItemDisplay[MAG LVLREQ<10 MAXDMG>4 MINDMG>3 jew]: %NAME%%BLUE%{%TAN%Level 9 Duel
 ItemDisplay[MAG LVLREQ<10 (MAXDMG>8 OR MINDMG>4) jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 9+ Maximum Damage or 5+ Minimum Damage 
 ItemDisplay[MAG LVLREQ<31 ED>14 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 15%+ Enhanced Damage
 ItemDisplay[MAG LVLREQ<31 MAXDMG>14 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 15+ Maximum Damage
-ItemDisplay[MAG LVLREQ<31 MINDMG>13 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 14+ Minimum Damage
+ItemDisplay[MAG LVLREQ<31 MINDMG>13 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 14+ Minimum Damage
 ItemDisplay[MAG LVLREQ<31 ED>9 MAXDMG>11 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ Enhanced Damage with 12+ Maximum Damage
-ItemDisplay[MAG LVLREQ<31 (CRES>24 OR FRES>24 OR LRES>24) (STAT214>34 OR MAXDMG>7 OR MINDMG>3 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 25%+ Cold, Fire, or Light Resist with 8+ Maximum Damage, 4+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy, or -Requirements
-ItemDisplay[MAG LVLREQ<31 (RES>9 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR MANA>14) (STAT214>34 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, or 15+ Mana with 5+ Strength, 6+ Dexterity, 5+ Life, 5+ Energy, or -Requirements
-ItemDisplay[MAG LVLREQ<31 (RES>9 OR ED>14 OR MINDMG>6 OR MANA>14) (STAT214>34 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15 OR MAXDMG>7) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ All Resist, 15%+ Enhanced Damage, 7+ Minimum Damage, or 15+ Mana with 5+ Strength, 6+ Dexterity, 5+ Life, 5+ Energy, -Requirements, or 8+ Maximum Damage
+ItemDisplay[MAG LVLREQ<31 (CRES>24 OR FRES>24 OR LRES>24 OR PRES>24) (MAXDMG>7 OR MINDMG>3 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 25%+ Cold/Fire/Light/Poison with 8+ Maximum Damage, 4+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy, or -Requirements
+ItemDisplay[MAG LVLREQ<31 (RES>7 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR MANA>14 OR STAT214>34) (STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 15+ Mana, or 35+ Defense with 5+ Strength, 6+ Dexterity, 5+ Life, 5+ Energy, or -Requirements
+ItemDisplay[MAG LVLREQ<31 (RES>7 OR ED>14 OR MINDMG>6 OR MANA>14 OR STAT214>34) (STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15 OR MAXDMG>7) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ All Resist, 15%+ Enhanced Damage, 7+ Minimum Damage, 15+ Mana, or 35+ Defense with 5+ Strength, 6+ Dexterity, 5+ Life, 5+ Energy, -Requirements, or 8+ Maximum Damage
 
 //Low Level Dueling Rare Jewel Notes
-ItemDisplay[RARE LVLREQ<10 (ED>14 OR AR>19 OR CRES>11 OR FRES>11 OR LRES>11) (MAXDMG>5 OR MINDMG>3 OR STR>3 OR DEX>3 OR LIFE>5 OR STAT91=-15) jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 15%+ Enhanced Damage, 20+ AR, or 12%+ Cold, Fire, or Light Resist with 6+ Maximum Damage, 4+ Minimum Damage, 4+ Strength, 4+ Dexterity, 6+ Life, or -15% Requirements
-ItemDisplay[RARE LVLREQ<10 MAXDMG>4 MINDMG>3 jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 5+ Maximum Damage with 4+ Minimum Damage 
-ItemDisplay[RARE LVLREQ<10 (MAXDMG>8 OR MINDMG>4) jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 9+ Maximum Damage or 5+ Minimum Damage 
-ItemDisplay[RARE LVLREQ<31 ED>14 (RES>9 OR MAXDMG>7 OR MINDMG>6 OR MANA>14 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 15%+ Enhanced Damage with 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy
+ItemDisplay[RARE LVLREQ<10 (ED>14 OR AR>19 OR CRES>11 OR FRES>11 OR LRES>11) (MAXDMG>5 OR MINDMG>3 OR STR>3 OR DEX>3 OR LIFE>5 OR STAT91=-15) jew]: %NAME%%YELLOW%{%TAN%Level 9 Dueling Usable} // 15%+ Enhanced Damage, 20+ AR, or 12%+ Cold, Fire, or Light Resist with 6+ Maximum Damage, 4+ Minimum Damage, 4+ Strength, 4+ Dexterity, 6+ Life, or -15% Requirements
+ItemDisplay[RARE LVLREQ<10 MAXDMG>4 MINDMG>3 jew]: %NAME%%YELLOW%{%TAN%Level 9 Dueling Usable} // 5+ Maximum Damage with 4+ Minimum Damage 
+ItemDisplay[RARE LVLREQ<10 (MAXDMG>8 OR MINDMG>4) jew]: %NAME%%YELLOW%{%TAN%Level 9 Dueling Usable} // 9+ Maximum Damage or 5+ Minimum Damage 
+ItemDisplay[RARE LVLREQ<31 ED>14 (RES>7 OR MAXDMG>7 OR MINDMG>6 OR MANA>14 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 15%+ Enhanced Damage with 10%+ All Resist, 8+ Maximum Damage, 7+ Minimum Damage, 15+ Mana, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy
 ItemDisplay[RARE LVLREQ<31 MAXDMG>8 (STR>4 OR DEX>5) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 9+ Maximum Damage with 5+ Strength or 6+ Dexterity
 ItemDisplay[RARE LVLREQ<31 STR>4 DEX>5 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 5+ Strength with 6+ Dexterity
 ItemDisplay[RARE LVLREQ<31 MAXDMG>14 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 15+ Maximum Damage
 ItemDisplay[RARE LVLREQ<31 MINDMG>13 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 14+ Minimum Damage
 ItemDisplay[RARE LVLREQ<31 MINDMG>4 MAXDMG>9 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 5+ Minimum Damage with 10+ Maximum Damage
-ItemDisplay[RARE LVLREQ<31 (CRES>24 OR FRES>24 OR LRES>24) (STAT214>34 OR RES>9 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR MANA>14 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 25%+ Cold/Fire/Light Resist with 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 15+ Mana, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy, or -Requirements
-ItemDisplay[RARE LVLREQ<31 STAT91=-15 (STAT214>34 OR RES>9 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // -Requirements with 35+ Defense, 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy
+ItemDisplay[RARE LVLREQ<31 (CRES>24 OR FRES>24 OR LRES>24 OR PRES>24) (STAT214>34 OR RES>7 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR MANA>14 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 25%+ Cold/Fire/Light/Poison with 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 15+ Mana, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy, or -Requirements
+ItemDisplay[RARE LVLREQ<31 STAT91=-15 (STAT214>34 OR RES>7 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // -Requirements with 35+ Defense, 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy
+
+//Other Useful Magic Jewel Notes
+ItemDisplay[MAG ED>29 (MAXDMG>7 OR MINDMG>7) jew]: %NAME%%BLUE%{%TAN%High Enhanced + Flat Damage Jewel} // 30%+ Enhanced Damage with 8+ Maximum or Minimum Damage
+ItemDisplay[MAG ED>29 jew]: %NAME%%BLUE%{%TAN%High Enhanced Damage Jewel} // 30%+ Enhanced Damage
+ItemDisplay[MAG MAXDMG>21 jew]: %NAME%%BLUE%{%TAN%High Maximum Damage Jewel} // 22+ Maximum Damage
+ItemDisplay[MAG MINDMG>17 jew]: %NAME%%BLUE%{%TAN%High Minimum Damage Jewel} // 18+ Minimum Damage
+ItemDisplay[MAG MINDMG>7 MAXDMG>9 jew]: %NAME%%BLUE%{%TAN%High Flat Damage Jewel} // 8+ Minimum Damage with 10+ Maximum Damage
+ItemDisplay[MAG MAEK>1 jew]: %NAME%%BLUE%{%TAN%Mana After Each Kill Jewel} // 2+ MAEK
+ItemDisplay[MAG STAT86>2 jew]: %NAME%%BLUE%{%TAN%Life After Each Kill Jewel} // 3+ LAEK
+ItemDisplay[MAG (CRES>24 OR FRES>24 OR LRES>24 OR PRES>24) (MAXDMG>7 OR MINDMG>7 OR STR>5 OR DEX>5 OR LIFE>9 OR STAT1>7 OR STAT91=-15 OR STAT121>39 OR STAT122>39 OR IAS>0) jew]: %NAME%%BLUE%{%TAN%High Single Resist Jewel} // 25%+ Cold/Fire/Light/Poison with 8+ Maximum Damage, 8+ Minimum Damage, 6+ Strength, 6+ Dexterity, 10+ Life, or 8+ Energy, -Requirements,40%+ Damage to Demons/Undead, or 15% Increased Attack Speed
+ItemDisplay[MAG (RES>9 OR ED>29 OR MAXDMG>7 OR MINDMG>7 OR MANA>19 OR STAT214>49 OR 69>AR) (STR>5 OR DEX>5 OR LIFE>9 OR STAT1>7 OR STAT91=-15 OR MINDMG>7 OR STAT121>39 OR STAT122>39 OR IAS>0) jew]: %NAME%%BLUE%{%TAN%High Utility Magic Jewel} // 10%+ All Resist, 30%+ Enhanced Damage, 8+ Maximum Damage, 8+ Minimum Damage, 20+ Mana, 50+ Defense, or 70+ Attack Rating with 6+ Strength, 6+ Dexterity, 10+ Life, 8+ Energy, -Requirements, 8+ Minimum Damage,40%+ Damage to Demons/Undead, or 15% Increased Attack Speed
+ItemDisplay[MAG (RES>9 OR ED>29 OR MINDMG>7 OR MANA>19 OR STAT214>49 OR 69>AR) (STR>5 OR DEX>5 OR LIFE>9 OR STAT1>7 OR STAT91=-15 OR MAXDMG>7 OR STAT121>39 OR STAT122>39 OR IAS>0) jew]: %NAME%%BLUE%{%TAN%High Utility Magic Jewel} // 10%+ All Resist, 30%+ Enhanced Damage, 8+ Minimum Damage, 20+ Mana, 50+ Defense, or 70+ Attack Rating with 6+ Strength, 6+ Dexterity, 10+ Life, 8+ Energy, -Requirements, 8+ Maximum Damage,40%+ Damage to Demons/Undead, or 15% Increased Attack Speed
+
+//Other Useful Rare Jewel Notes
+ItemDisplay[RARE ED>29 (RES>9 OR MAXDMG>7 OR MINDMG>7 OR MANA>19 OR STR>5 OR DEX>5 OR LIFE>9 OR STAT1>7 OR STAT121>39 OR STAT122>39 OR AR>69) jew]: %NAME%%YELLOW%{%TAN%High Enhanced Damage Jewel} // 30%+ Enhanced Damage with 10%+ All Resist, 8+ Maximum Damage, 8+ Minimum Damage, 20+ Mana, 6+ Strength, 6+ Dexterity, 10+ Life, or 8+ Energy
+ItemDisplay[RARE (MINDMG>9 OR MAXDMG>9) (STR>5 OR DEX>5) jew]: %NAME%%YELLOW%{%TAN%High Flat Damage + Stat Jewel} // 9+ Maximum Damage with 5+ Strength or 6+ Dexterity
+ItemDisplay[RARE STR>5 DEX>5 jew]: %NAME%%YELLOW%{%TAN%High Dual Stat Jewel} // 6+ Strength with 6+ Dexterity
+ItemDisplay[RARE MAXDMG>21 jew]: %NAME%%YELLOW%{%TAN%High Maximum Damage Jewel} // 22+ Maximum Damage
+ItemDisplay[RARE MINDMG>17 jew]: %NAME%%YELLOW%{%TAN%High Minimum Damage Jewel} // 18+ Minimum Damage
+ItemDisplay[RARE MINDMG>7 MAXDMG>9 jew]: %NAME%%YELLOW%{%TAN%High Flat Damage Jewel} // 8+ Minimum Damage with 10+ Maximum Damage
+ItemDisplay[RARE MAEK>1 jew]: %NAME%%YELLOW%{%TAN%Mana After Each Kill Jewel} // 2+ MAEK
+ItemDisplay[RARE STAT86>2 jew]: %NAME%%YELLOW%{%TAN%Life After Each Kill Jewel} // 3+ LAEK
+ItemDisplay[RARE (CRES>24 OR FRES>24 OR LRES>24 OR PRES>24) (STAT214>49 OR RES>9 OR ED>29 OR MAXDMG>7 OR MINDMG>6 OR MANA>14 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>7 OR STAT91=-15 OR STAT121>39 OR STAT122>39 OR AR>69) jew]: %NAME%%YELLOW%{%TAN%High Single Resist Jewel} // 25%+ Cold/Fire/Light/Poison with 30%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 20+ Mana, 5+ Strength, 6+ Dexterity, 10+ Life, or 8+ Energy, -Requirements,40%+ Damage to Demons/Undead, or 70+ Attack Rating
+ItemDisplay[RARE STAT91=-15 (STAT214>49 OR RES>9 OR ED>29 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>7 OR STAT121>39 OR STAT122>39 OR AR>69) jew]: %NAME%%YELLOW%{%TAN%Reduced Requirements Jewel} // -Requirements with 50+ Defense, 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, 6+ Dexterity, 10+ Life, 8+ Energy,40%+ Damage to Demons/Undead, or 70+ Attack Rating
+ItemDisplay[RARE FHR>0 (STAT214>49 OR RES>9 OR ED>29 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>7 OR STAT121>39 OR STAT122>39 OR AR>69) jew]: %NAME%%YELLOW%{%TAN%Faster Hit Recovery Jewel} // 7% Faster Hit Recovery with 50+ Defense, 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, 6+ Dexterity, 10+ Life, 8+ Energy,40%+ Damage to Demons/Undead, or 70+ Attack Rating
+ItemDisplay[RARE IAS>0 (STAT214>49 OR RES>9 OR ED>29 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>7 OR STAT121>39 OR STAT122>39 OR AR>69) jew]: %NAME%%YELLOW%{%TAN%Faster Hit Recovery Jewel} // 15% Increased Attack Speed with 50+ Defense, 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, 6+ Dexterity, 10+ Life, 8+ Energy,40%+ Damage to Demons/Undead, or 70+ Attack Rating
 
 //----------------------------------------- Shop Hunting Flags -----------------------------------------
 
