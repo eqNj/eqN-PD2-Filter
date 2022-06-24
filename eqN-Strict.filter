@@ -4025,7 +4025,7 @@ ItemDisplay[RARE IAS>0 (STAT214>49 OR RES>9 OR ED>29 OR MAXDMG>7 OR MINDMG>6 OR 
 
 //----------------------------------------- Shop Hunting Flags -----------------------------------------
 
-//Low Level Dueling Shop Precursor
+//Low Level Dueling Shop Items (Equipped)
 ItemDisplay[WEAPON MAG ED>239 (!ETH OR (ETH REPAIR)) LVLREQ<31 EQUIPPED]: %DOT-9B%%BLUE%%NAME%%PURPLE%{%PURPLE%>   %TAN%High ED Weapon   %PURPLE%<%NL%%NAME%}
 ItemDisplay[SIN MAG ((TABSK49>1 OR CLSK6>0) SK278>1) LVLREQ<31 EQUIPPED]: %DOT-9B%%BLUE%%NAME%%PURPLE%{%PURPLE%>   %TAN%Venom Claw   %PURPLE%<%NL%%NAME%}
 ItemDisplay[SIN MAG ((TABSK49>1 OR CLSK6>0) SK273>1) LVLREQ<31 EQUIPPED]: %DOT-9B%%BLUE%%NAME%%PURPLE%{%PURPLE%>   %TAN%Mind Blast Claw   %PURPLE%<%NL%%NAME%}
@@ -4220,7 +4220,7 @@ ItemDisplay[SET ID amu DTM>19 STAT89>2 STAT360=0 !EQUIPPED]: %NAME%%GREEN%{%TAN%
 
 //----------------------------------------- Rare & Crafted Item Description Highlighting -----------------------------------------
 
-//Low Level Dueling Rare Drop and Description Highlighting Precursor
+//Low Level Dueling Rare Drop and Description Highlighting Items (Equipped)
 ItemDisplay[WEAPON RARE ED>239 (!ETH OR (ETH REPAIR)) LVLREQ<31 EQUIPPED]: %DOT-9B%%YELLOW%%NAME%%PURPLE%{%PURPLE%>   %TAN%High ED Weapon   %PURPLE%<%NL%%NAME%}
 ItemDisplay[SIN RARE ((TABSK49>1 OR CLSK6>0) SK278>1) LVLREQ<31 EQUIPPED]: %DOT-9B%%YELLOW%%NAME%%PURPLE%{%PURPLE%>   %TAN%Venom Claw   %PURPLE%<%NL%%NAME%}
 ItemDisplay[SIN RARE ((TABSK49>1 OR CLSK6>0) SK273>1) LVLREQ<31 EQUIPPED]: %DOT-9B%%YELLOW%%NAME%%PURPLE%{%PURPLE%>   %TAN%Mind Blast Claw   %PURPLE%<%NL%%NAME%}
@@ -4292,7 +4292,7 @@ ItemDisplay[DRU RARE ((TABSK40>1 OR (CLSK5>0 ALLSK>0) OR (CLSK5>0 TABSK40>0) OR 
 ItemDisplay[BAR RARE ((TABSK34>1 OR (CLSK4>0 ALLSK>0) OR (CLSK4>0 TABSK40>0) OR (ALLSK>0 TABSK34>0) (SK146>1 OR SK149>1 OR SK154>1)) OR ((CLSK4>0 OR ALLSK>0 OR TABSK34>0) (SK146>2 OR SK149>2 OR SK154>2))) LVLREQ<31 !EQUIPPED]: %DOT-9B%%PURPLE%LLD %YELLOW%%NAME%%PURPLE%{%PURPLE%>   %TAN%Warcries Helm   %PURPLE%<%NL%%NAME%}
 ItemDisplay[WEAPON RARE (ALLSK>0 OR CLSK4>0) TABSK34>1 LVLREQ<31 !EQUIPPED]: %DOT-9B%%PURPLE%LLD %YELLOW%%NAME%%PURPLE%{%PURPLE%>   %TAN%Warcries Weapon   %PURPLE%<%NL%%NAME%}
 
-//Low Level Dueling Craft Drop and Description Highlighting Precursor
+//Low Level Dueling Craft Drop and Description Highlighting Items (Equipped)
 ItemDisplay[WEAPON CRAFT ED>239 (!ETH OR (ETH REPAIR)) LVLREQ<31 EQUIPPED]: %DOT-9B%%ORANGE%%NAME%%PURPLE%{%PURPLE%>   %TAN%High ED Weapon   %PURPLE%<%NL%%NAME%}
 ItemDisplay[SIN CRAFT ((TABSK49>1 OR CLSK6>0) SK278>1) LVLREQ<31 EQUIPPED]: %DOT-9B%%ORANGE%%NAME%%PURPLE%{%PURPLE%>   %TAN%Venom Claw   %PURPLE%<%NL%%NAME%}
 ItemDisplay[SIN CRAFT ((TABSK49>1 OR CLSK6>0) SK273>1) LVLREQ<31 EQUIPPED]: %DOT-9B%%ORANGE%%NAME%%PURPLE%{%PURPLE%>   %TAN%Mind Blast Claw   %PURPLE%<%NL%%NAME%}
