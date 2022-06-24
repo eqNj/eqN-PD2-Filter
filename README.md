@@ -277,6 +277,10 @@ Added detailed descriptions and drop notifications/aesthetics for all of the new
 
 Added mention of all of the new runewords in Season 5 to applicable bases, including both the new D2:R and PD2 exclusive runewords. Made sure all relevant item bases for use with these runewords will always show on drop, relative to their usefulness as you progress.
 
+Added new discrete visual versions of every potion that immensely help declutter, particularly when using filter level 0.
+
+Added new description lines to hundreds of potentially useful jewel affixes and/or affix combinations to help signify their usability and/or tradability at a glance after indentification.
+
 Ensured all new unique items added to the game in Season 5 will notify on drop and have a specialize aesthetic.
 
 Adjusted it so recipes on items will not show if the item is equipped and/or in a shopping window.
