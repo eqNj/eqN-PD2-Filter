@@ -171,7 +171,7 @@ All uniques and runes previously using multi-line item names will look otherwise
 
 Plus skills on items will still be listed, though shortened, in dark green text next to applicable item names. (As seen above, in the 'Features' section.)
 
-Items with only plus 1 to a skill will not show such in their names after character level 30. These items will still show up on the ground as normal, until character level 80+ where any non-elite bases are required to have plus 3 to atleast one useful skill to show.
+Items with only plus 1 to a skill will not show such in their names after character level 20. These items will still show up on the ground as normal, until character level 80+ where any non-elite bases are required to have plus 3 to atleast one useful skill to show.
 
 I find this the easiest way to maintain item plus skill legibility at a glance, though I am open to any suggestions on how to improve this new system.
 
@@ -189,7 +189,7 @@ All unidentified magic items marked as ideal for crafting (two gray asterisks, o
 
 Replaced the word 'Inferior' (Crude, Cracked, etc.) on inferior items with a blue - sign at the front of item names. 
 
-(Inferior items are only viewable before level 30 and only if they have + to skills.)
+(Inferior items are normally only viewable before level 15 and only if they have + to skills.)
 
 Further refined the leveling experience to continually show useful items while de-cluttering across a gradient of character progression at all stages.
 
@@ -291,4 +291,4 @@ Updated potion aesthetic to be more unique and slightly easier to pick up. Also 
 
 A massive amount of tweaks have been added to the LLD item tags introduced last season. These changes refine the item tags to always show the LLD tag on items worth keeping for your LLD characters without introducing excessive visuals and/or notifications.
 
-Made it so skill grand charms will use their original prefix names for their aesthetic coloration.
+Made it so all charms will use their original affix names (testing this out, considering removing the color coded affix renaming system).
