@@ -4808,8 +4808,8 @@ ItemDisplay[leg]: %NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt
 //----------------------------------------- Charms -----------------------------------------
 
 //Unidentified Charms
-ItemDisplay[(cm1 OR cm3) MAG !ID]: %DOT-A3%%TAN%( %GRAY%~ %BLUE%%NAME% %GRAY%~ %TAN%)
-ItemDisplay[cm2 MAG !ID]: %DOT-A3%%TAN%(  %BLUE%%NAME%  %TAN%)
+ItemDisplay[(cm1 OR cm3) MAG !ID]: %DOT-A3%%TAN%( %GRAY%~ %BLUE%%NAME% %GRAY%~ %TAN%)%BLUE%
+ItemDisplay[cm2 MAG !ID]: %DOT-A3%%TAN%(  %BLUE%%NAME%  %TAN%)%BLUE%
 ItemDisplay[(cm1 OR cm2 OR cm3) UNI !ID]: %BORDER-62%%RED%(%GOLD%~%RED%:%GOLD%~     %GOLD%%NAME%     %GOLD%~%RED%:%GOLD%~%RED%)%GOLD%
 
 //Small Charms
