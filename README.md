@@ -84,6 +84,8 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ### The 'Strict' filter has the following changes (after character level 75):
 
+Flawless gems no longer notify. (Perfect gems still do.)
+
 Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden. (Elite tier will still show.)
 
 Non-magic elite items are sometimes hidden, unless specifically useful for runewords or if they have +3 to a valuable skill.
@@ -102,6 +104,8 @@ Magic rings and amulets are hidden, unless item level 86+ rings or item level 90
 
 
 ### The 'SuperStrict' filter has the following changes (after character level 75):
+
+Flawless gems no longer notify. (Perfect gems still do.)
 
 Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden. (Elite tier will still show.)
 
