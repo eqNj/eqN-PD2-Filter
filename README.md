@@ -269,7 +269,9 @@ Big thanks to Hastmannen for their help with all the Low Level Dueling informati
 
 ## 1.4.0 - (Season 5)
 
-Created a new "default" version of the filter, available in the launcher, simply with the name "eqN-All-In-One". This filter uses the new "filter level" settings available as of Season 5 to essentially combine the different strictness levels I've made publicly available of my filter in to a single filter.
+Created a new "default" version of the filter, available in the launcher, simply with the name "eqN-All-In-One". This filter uses the new "filter level" settings available as of Season 5 to essentially combine the different strictness levels I've made publicly available of my filter in to a single filter. All filter versions are designed to fully accommodate "filter level 0/Show All Items".
+
+Gold that is hidden is no longer able to be auto-looted as of Season 5. I've adopted the scaling gold drop system designed by BetweenWalls as a short term solution to allow much more gold to be seen and thus auto-looted. This is likely to undergo some personalized tweaks in the future, though as it stands it functions quite well for leveling and endgame.
 
 Visually remastered nearly every aspect of item drops and/or descriptons to include even more lore tidbits, famous quotes, and pertinent item information with concise and clean aesthetics and grammar.
 
@@ -279,11 +281,11 @@ Added mention of all of the new runewords in Season 5 to applicable bases, inclu
 
 Added new discrete visual versions of every potion that immensely help declutter, particularly when using filter level 0.
 
-Added new description lines to hundreds of potentially useful jewel affixes and/or affix combinations to help signify their usability and/or tradability at a glance after indentification.
+Added new description lines to hundreds of potentially useful jewel affixes and/or affix combinations to help signify their usability and/or tradability at a glance after identification.
 
-Ensured all new unique items added to the game in Season 5 will notify on drop and have a specialize aesthetic.
+Ensured all new unique items added to the game in Season 5 will notify on drop and have a specialized aesthetic.
 
-Adjusted it so recipes on items will not show if the item is equipped and/or in a shopping window.
+Adjusted it so recipes on items will not show if the item is equipped and/or in a shopping window. (This feature continues to be eternally bugged so it is not live at the moment.)
 
 Updated the recipes on Uber Rathma ingredients as they no longer require Prime Evil Soul(s).
 
