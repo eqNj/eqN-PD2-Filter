@@ -3785,15 +3785,16 @@ ItemDisplay[(BOW OR XBOW) !INF SOCK=5 NMAG !RW]: %NAME%{%GRAY%Call to Arms, Mist
 ItemDisplay[SCEPTER !INF SOCK=5 NMAG !RW]: %NAME%{%GRAY%Call to Arms, Eternity, Honor%NL%%GOLD%Runewords: %GRAY%Beast%NL%%NAME%}%CONTINUE%
 ItemDisplay[(whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm) !INF SOCK=5 NMAG !RW]: %NAME%{%GRAY%Eternity, Honor, Obedience%NL%Beast, Call to Arms, Doom%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
 ItemDisplay[AXE !INF SOCK=5 NMAG !RW]: %NAME%{%GRAY%Eternity, Grief, Honor%NL%Call to Arms, Death, Doom%NL%%GOLD%Runewords: %GRAY%Beast%NL%%NAME%}%CONTINUE%
-ItemDisplay[SWORD !INF SOCK=5 NMAG !RW]: %NAME%{%GRAY%Unbending Will%NL%Doom, Grief, Honor%NL%Eternity, Death, Destruction%NL%%GOLD%Runewords: %GRAY%Call to Arms%NL%%NAME%}%CONTINUE%
+ItemDisplay[SWORD !INF SOCK=5 NMAG !RW]: %NAME%{Doom, Grief, Honor%NL%Eternity, Death, Destruction%NL%%GOLD%Runewords: %GRAY%Call to Arms%NL%%NAME%}%CONTINUE%
 ItemDisplay[(POLEARM OR SPEAR OR JAV) !INF SOCK=5 NMAG !RW]: %NAME%{%GRAY%Honor, Obedience, Zenith%NL%Destruction, Doom, Eternity%NL%%GOLD%Runewords: %GRAY%Call to Arms%NL%%NAME%}%CONTINUE%
 ItemDisplay[STAFF !INF SOCK=5 NMAG !RW]: %NAME%{%GRAY%Eternity, Honor%NL%Call to Arms, Doom%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
 ItemDisplay[WEAPON !(BOW OR XBOW OR SOR OR SCEPTER OR whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm OR AXE OR SWORD OR POLEARM OR SPEAR OR JAV) !INF SOCK=5 NMAG !RW]: %NAME%{%GRAY%Call to Arms, Eternity, Honor%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
 
 //Weapons: 6 Sockets
+ItemDisplay[SWORD !INF SOCK=6 NMAG !RW]: %NAME%{%GRAY%Unbending Will%NL%Breath of the Dying, Silence%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
 ItemDisplay[STAFF !INF SOCK=6 NMAG !RW]: %NAME%{%GRAY%Breath of the Dying, Obsession, Silence%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
 ItemDisplay[(AXE OR SWORD OR (whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm)) !INF SOCK=6 NMAG !RW]: %NAME%{%GRAY%Breath of the Dying%NL%Last Wish, Silence%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
-ItemDisplay[WEAPON !(STAFF OR AXE OR SWORD OR whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm) !INF SOCK=6 NMAG !RW]: %NAME%{%GRAY%Breath of the Dying, Silence%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
+ItemDisplay[WEAPON !(STAFF OR AXE OR whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm) !INF SOCK=6 NMAG !RW]: %NAME%{%GRAY%Breath of the Dying, Silence%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
 
 //Note for CUBE Socketing
 ItemDisplay[CHEST !INF !SUP SOCK=0 NMAG ILVL>20]: %NAME%{%WHITE%Socket: %ORANGE%Tal %WHITE%+ %ORANGE%Thul %WHITE%+ %YELLOW%@%NL%%NAME%}%CONTINUE%
