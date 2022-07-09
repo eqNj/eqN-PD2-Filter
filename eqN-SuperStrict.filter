@@ -4206,8 +4206,8 @@ ItemDisplay[(WAND OR SOR) SOCK>0 NORM SET ID STAT468=0]: %NAME%{%WHITE%Upgrade: 
 ItemDisplay[(WAND OR SOR) SOCK>0 EXC SET ID STAT468=0]: %NAME%{%WHITE%Upgrade: %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ %GREEN%@}%CONTINUE%
 
 //Upgrades That Give +1 Socket
-ItemDisplay[!NMAG !MAG ID SOCK=0 STAT360=0 STAT468=0 !EQUIPPED !SHOP LVLREQ<31 (qui OR lea OR hla OR stu OR scl OR chn OR spl OR plt OR fld OR buc OR xuc OR spk OR bsh OR hax OR clb OR mac OR ssd OR scm OR sbr OR flc OR dgr OR dir OR sst OR wnd OR ywn OR scp OR (ILVL>25 (ne2 OR ne1 OR lax OR bar OR sbw OR lxb OR ktr OR wrb OR axf OR ces) OR (ILVL>40 bhm)))]: %NAME%{%GRAY%(Upgrade For +1 Max Socket)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG ID SOCK=0 STAT360=0 STAT468=0 !EQUIPPED !SHOP LVLREQ>30 (qui OR lea OR hla OR stu OR scl OR chn OR spl OR plt OR fld OR xui OR xea OR xla OR xtu OR buc OR xuc OR spk OR xpk OR bsh OR xsh OR hax OR clb OR mac OR ssd OR scm OR sbr OR flc OR dgr OR dir OR sst OR wnd OR ywn OR 9wn OR scp OR (ILVL>25 ((NEC NORM) OR lax OR bar OR sbw OR lxb OR ktr OR wrb OR axf OR ces)) OR (ILVL>40 (bhm OR xh9 OR ci0 OR ci1)))]: %NAME%{%GRAY%(Upgrade For +1 Max Socket)%NL%%NAME%}%CONTINUE%
+ItemDisplay[!NMAG !MAG ID SOCK=0 STAT360=0 STAT468=0 LVLREQ<31 (qui OR lea OR hla OR stu OR scl OR chn OR spl OR plt OR fld OR buc OR xuc OR spk OR bsh OR hax OR clb OR mac OR ssd OR scm OR sbr OR flc OR dgr OR dir OR sst OR wnd OR ywn OR scp OR (ILVL>25 (ne2 OR ne1 OR lax OR bar OR sbw OR lxb OR ktr OR wrb OR axf OR ces) OR (ILVL>40 bhm)))]: %NAME%{%GRAY%(Upgrade For +1 Max Socket)%NL%%NAME%}%CONTINUE%
+ItemDisplay[!NMAG !MAG ID SOCK=0 STAT360=0 STAT468=0 LVLREQ>30 (qui OR lea OR hla OR stu OR scl OR chn OR spl OR plt OR fld OR xui OR xea OR xla OR xtu OR buc OR xuc OR spk OR xpk OR bsh OR xsh OR hax OR clb OR mac OR ssd OR scm OR sbr OR flc OR dgr OR dir OR sst OR wnd OR ywn OR 9wn OR scp OR (ILVL>25 ((NEC NORM) OR lax OR bar OR sbw OR lxb OR ktr OR wrb OR axf OR ces)) OR (ILVL>40 (bhm OR xh9 OR ci0 OR ci1)))]: %NAME%{%GRAY%(Upgrade For +1 Max Socket)%NL%%NAME%}%CONTINUE%
 
 //Low Level Dueling (Class Item & Weapon) Crafting Bases
 ItemDisplay[((wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces) OR (lwb OR am1 OR am5)) MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
@@ -5092,7 +5092,7 @@ ItemDisplay[rid]: %BORDER-60%   %GOLD%%NAME%   {%NAME%}// Tome of Identify
 //High-Tier Uniques
 ItemDisplay[(6ws OR rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 //Only Eth
-ItemDisplay[((ELT SPEAR) OR 7lw OR 7tw OR 7sc OR 7ws OR amd OR am9 OR am5 OR ame OR uvb OR 7bt OR 9gm OR 7gm OR 7s8 OR 7tw OR utp) UNI ETH !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[((ELT SPEAR) OR 7lw OR 7tw OR 7sc OR 7ws OR amd OR am9 OR am5 OR ame OR uvb OR 7bt OR 9gm OR 7gm OR 7s8 OR 7tw OR utp OR 7b7) UNI ETH !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 
 //Mid-Tier Uniques
 //Belts
