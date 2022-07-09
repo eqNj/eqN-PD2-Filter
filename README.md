@@ -84,6 +84,8 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ### The 'Strict' filter has the following changes (after character level 75):
 
+Gold piles less than 1000 are hidden.
+
 Flawless gems no longer notify. (Perfect gems still do.)
 
 Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden. (Elite tier will still show.)
@@ -105,6 +107,8 @@ Magic rings and amulets are hidden, unless item level 86+ rings or item level 90
 
 ### The 'SuperStrict' filter has the following changes (after character level 75):
 
+Gold piles less than 4000 are hidden.
+
 Flawless gems no longer notify. (Perfect gems still do.)
 
 Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden. (Elite tier will still show.)
@@ -124,8 +128,6 @@ Non-magic (for imbuing) and magic circlets of all kinds are hidden.
 Regular Rejuvination Potions (not Full) and Greater Mana Potions (not Super) are hidden.
 
 Magic rings and amulets are hidden.
-
-Magic large charms are hidden.
 
 # Changelog:
 
@@ -147,7 +149,7 @@ More magic items worth crafting now show up with a gray asterisk crafting base i
 
 Reduced the threshold for Enhanced Damage and Increased Resistance paladin shields to be shown.  
 
-Paladin shields with any All Resistance or high Enhanced Damage will now show such ([#r] or [ed]) behind their names instead of in front.  
+Paladin shields with any All Resistance or Enhanced Damage will now show such ([#r] or [#ed]) behind their names instead of in front.  
 
 Potion names have been greatly shrunk across the board, and greater mana potions will still show in Hell.
 
@@ -287,7 +289,13 @@ Added new discrete visual versions of every potion that immensely help declutter
 
 Added new description lines to hundreds of potentially useful jewel affixes and/or affix combinations to help signify their usability and/or tradability at a glance after identification.
 
+Added description lines to all of the new maps in Season 5 with their potential monster immunities.
+
+Thoroughly refined the runeword bases that show and/or notify on drop to further accomidate any possible niche use cases.
+
 Ensured all new unique items added to the game in Season 5 will notify on drop and have a specialized aesthetic.
+
+Adjusted the Enhanced Damage tag on paladin shields to show the exact amount of enhanced damage in the item name.
 
 Adjusted it so recipes on items will not show if the item is equipped and/or in a shopping window. (This feature continues to be eternally bugged so it is not live at the moment.)
 
