@@ -52,7 +52,7 @@ Specifically, socketing recipes will show at item level 21+ (or earlier on any +
 
 All unique and set items always show in any of these filters, however only certain mid-to-high tier unique and set items will notify depending on which of the filter versions you choose. All runes will always show and notify on every filter version. Flawless gems always show and Perfect gems will always notify in all filter versions.
 
-![A Lot Of Drops](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Ground.jpg)
+![A Lot Of Drops](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Grounded.jpg)
 
 All elite tier non-magic (white) items are set to always show at higher levels, with a small exception only for class items that lack +3 to a useful skill. (Relaxed Filter)
 
@@ -277,7 +277,7 @@ Big thanks to Hastmannen for their help with all the Low Level Dueling informati
 
 Created a new "default" version of the filter, available in the launcher, simply with the name "eqN-All-In-One". This filter uses the new "filter level" settings available as of Season 5 to essentially combine the different strictness levels I've made publicly available of my filter in to a single filter. All filter versions are designed to fully accommodate "filter level 0/Show All Items".
 
-Gold that is hidden is no longer able to be auto-looted as of Season 5. I've adopted the scaling gold drop system designed by BetweenWalls as a short term solution to allow much more gold to be seen and thus auto-looted. This is likely to undergo some personalized tweaks in the future, though as it stands it functions quite well for leveling and endgame.
+Gold that is hidden is no longer able to be auto-looted as of Season 5. I've adopted the scaling gold drop system designed by BetweenWalls as a short term solution to allow much more gold to be seen and thus auto-looted. Currently, gold piles less than 1000 are hidden on the Strict filter and less than 4000 are hidden on the SuperStrict filter.
 
 Visually remastered nearly every aspect of item drops and/or descriptons to include even more lore tidbits, famous quotes, and pertinent item information with concise and clean aesthetics and grammar.
 
@@ -290,6 +290,12 @@ Added new discrete visual versions of every potion that immensely help declutter
 Added new description lines to hundreds of potentially useful jewel affixes and/or affix combinations to help signify their usability and/or tradability at a glance after identification.
 
 Added description lines to all of the new maps in Season 5 with their potential monster immunities.
+
+Made it so items that gain +1 potential maximum sockets from being upgraded indicate this in their description(s) (unless doing so would make them unusable for low level dueling).
+
+Made it so a corrupted Annihilus has a red name to help distinguish it if dropped.
+
+Thoroughly refined the unique items that notify on drop to further accomidate any possible niche use cases.
 
 Thoroughly refined the runeword bases that show and/or notify on drop to further accomidate any possible niche use cases.
 

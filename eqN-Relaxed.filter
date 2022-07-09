@@ -4826,6 +4826,10 @@ ItemDisplay[dcho]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%   
 ItemDisplay[dcso]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Black Soul Stone%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%Diablo, Lord of Terror %WHITE%& %DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Manifested By:}
 ItemDisplay[dcma]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%Alas, %ORANGE%Uber Diablo %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
 
+//Annihilus
+ItemDisplay[cm1 UNI ID STAT360=0]: %MAP-62%%NAME%
+ItemDisplay[cm1 UNI ID STAT360>0]: %MAP-62%%RED%%NAME%
+
 //The Void
 ItemDisplay[rtmf]: %MAP-90%%BLUE%|%PURPLE%:   %ORANGE%%NAME%   %PURPLE%:%BLUE%|%ORANGE%{%WHITE%to create a %ORANGE%Trang-Oul's Jawbone%NL%%WHITE%with any %GOLD%Hellfire Torch%NL%Cube %WHITE%two %ORANGE%Ancient Bone Fragments}
 ItemDisplay[rtmo]: %BORDER-90%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Splinter of the Void %WHITE%& %GOLD%Hellfire Torch%NL%%GOLD%Cube %WHITE%this item with the following:}
@@ -5086,27 +5090,27 @@ ItemDisplay[rtp]: %BORDER-60%  %GOLD%%NAME%  {%NAME%}// Tome of Town Portal
 ItemDisplay[rid]: %BORDER-60%   %GOLD%%NAME%   {%NAME%}// Tome of Identify
 
 //High-Tier Uniques
-ItemDisplay[(rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[(6ws OR rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 //Only Eth
-ItemDisplay[(uvb OR 7bt OR 9gm OR 7gm OR 7s8 OR am5 OR ame OR 7tw OR utp) UNI ETH !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[((ELT SPEAR) OR 7lw OR 7tw OR 7sc OR 7ws OR amd OR am9 OR am5 OR ame OR uvb OR 7bt OR 9gm OR 7gm OR 7s8 OR 7tw OR utp) UNI ETH !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 
 //Mid-Tier Uniques
 //Belts
-ItemDisplay[(ztb OR zlb OR zvb OR zhb OR umc OR uvc) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
+ItemDisplay[(tbl OR ztb OR zlb OR zvb OR zhb OR umc OR uvc) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Armors
 ItemDisplay[(xea OR uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Gloves
 ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Helmets
-ItemDisplay[(xlm OR xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
+ItemDisplay[(bac OR skp OR xsk OR ulm OR xlm OR xh9 OR usk OR ci2 OR baa OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Boots
 ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Shields
 ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Weapons
-ItemDisplay[(9gw OR 7bw OR 7cs OR 7ws OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR obc OR 7lw OR amf OR 7wh OR 8rx OR 9bw OR 6cs) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
+ItemDisplay[(7sc OR 9ws OR 7lw OR 9fc OR 8mx OR dgr OR 7bl OR 8s8 OR amb OR 9gw OR 7bw OR 7cs OR 7ws OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR obc OR 7lw OR amf OR 7wh OR 8rx OR 9bw OR 6cs) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Only Eth
-ItemDisplay[(7pa OR 7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ETH !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
+ItemDisplay[(7bk OR 9s8 OR 9sr OR xcl OR 9cr OR 9m9 OR 9la OR 7pa OR 7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ETH !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 
 //PD2 Exclusive (Season 3)
 ItemDisplay[(ne6 OR pa3 OR am5 OR ob6 OR dr2 OR ba6 OR 9ar) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
@@ -5130,7 +5134,7 @@ ItemDisplay[(amu OR rin OR uar OR ci3 OR 7qr OR uth OR paf) SET !ID]: %MAP-84%%P
 //Armors
 ItemDisplay[(xkp OR xul OR xlm OR drb OR 9sp OR mbt OR xcl OR chn OR uul OR xng OR xui OR spl OR pac OR xmg OR xsk OR xml OR xlb OR xpl OR xap OR xld OR xrs OR gth OR aar OR BELT OR skp OR xhl OR xrn OR vbt OR xmb OR uvb OR umb OR lgl OR vgl OR mgl OR tgl OR hgl OR xlg OR xvg OR xtg OR xhg OR ush OR upk OR uml OR xts OR xrg OR xuc OR tow OR kit OR gts) UNI !ID]: %PX-60%%NAME%
 //Weapons
-ItemDisplay[((6rx OR 6hx OR 7m7 OR 9cl OR mau OR 7ls OR 9ls OR 7br OR 7sr OR 7p7 OR 9ba OR 7ga OR 7wa OR 7gi OR 7pa OR 8ls OR 72a OR 7o7 OR 9yw OR 9fc OR 7bw OR 9kr OR amb OR 7sc OR 7mp OR 6sw OR 6l7 OR 8hx OR dgr OR 7dg OR 7bl OR 9ma OR 9wh OR 9gm OR 7s8 OR 7wc OR 9ws OR 7b7 OR 7gs OR 9sb) OR (ELT (WP5 OR WP6)) OR ywn OR 7wb OR 7sp) UNI !ID]: %PX-60%%NAME%
+ItemDisplay[((8cb OR 6sw OR 8ws OR 8cs OR xcl OR 9wc OR bac OR 6rx OR 6hx OR 7m7 OR 9cl OR mau OR 7ls OR 9ls OR 7br OR 7sr OR 7p7 OR 9ba OR 7ga OR 7wa OR 7gi OR 7pa OR 8ls OR 72a OR 7o7 OR 9yw OR 9fc OR 7bw OR 9kr OR amb OR 7sc OR 7mp OR 6sw OR 6l7 OR 8hx OR dgr OR 7dg OR 7bl OR 9ma OR 9wh OR 9gm OR 7s8 OR 7wc OR 9ws OR 7b7 OR 7gs OR 9sb) OR (ELT (WP5 OR WP6)) OR ywn OR 7wb OR 7sp) UNI !ID]: %PX-60%%NAME%
 //Sets
 ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0 OR ba5) !(9vo OR xcl OR xrn)) SET !ID]: %PX-84%%NAME%
 
