@@ -10,7 +10,9 @@ If you would like to contact me, find me in the official PD2 Discord with the na
 
 If ever so inclined, you can support my efforts by donating on [PayPal](https://www.paypal.com/donate/?business=65YT5QXDEURW8&no_recurring=0&currency_code=USD).
 
-The version known as 'eqN-All-In-One' in the game launcher includes all other versions of the filter, adjustable using the in-game settings.
+The version known as 'eqN-All-In-One' in the game launcher includes all other versions of the filter, adjustable using the in-game settings. 
+
+The version known as 'eqN-Potionless' is the same as "eqN-All-In-One", however it hides Super/Large Health and Mana potions after character level 75.
 
 To those interested: these filters are specially designed to be 100% functional with the in-game filter strictness setting "Show All Items" and will apply all filter aesthetic (item name and description) effects to every item.
 
@@ -278,6 +280,8 @@ Big thanks to Hastmannen for their help with all the Low Level Dueling informati
 Created a new "default" version of the filter, available in the launcher, simply with the name "eqN-All-In-One". This filter uses the new "filter level" settings available as of Season 5 to essentially combine the different strictness levels I've made publicly available of my filter in to a single filter. All filter versions are designed to fully accommodate "filter level 0/Show All Items".
 
 Gold that is hidden is no longer able to be auto-looted as of Season 5. I've adopted the scaling gold drop system designed by BetweenWalls as a short term solution to allow much more gold to be seen and thus auto-looted. Currently, gold piles less than 1000 are hidden on the Strict filter and less than 4000 are hidden on the SuperStrict filter.
+
+Added a new "Potionless" filter version, "eqN-Potionless", which functions identically to "eqN-All-In-One" except it hides Super Potions after character level 75. (Intended for character who do not need them.)
 
 Visually remastered nearly every aspect of item drops and/or descriptons to include even more lore tidbits, famous quotes, and pertinent item information with concise and clean aesthetics and grammar.
 
