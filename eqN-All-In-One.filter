@@ -4670,7 +4670,7 @@ ItemDisplay[rvs (FILTLVL<3 OR (CLVL<75 FILTLVL>2))]: %PURPLE%rj%WHITE%{%WHITE%Re
 ItemDisplay[mp5]: %BLUE%#%WHITE%M%WHITE%{%WHITE%Super Mana Potion}
 ItemDisplay[hp5]: %RED%#%WHITE%H%WHITE%{%WHITE%Super Healing Potion}
 ItemDisplay[mp4 (FILTLVL<3 OR (CLVL<75 FILTLVL>2))]: %BLUE%#%WHITE%m%WHITE%{%WHITE%Greater Mana Potion}
-ItemDisplay[hp4 (CLVL>69 OR (MAPID>108 DIFF>1 FILTLVL>26)) FILTLVL>0]: {%WHITE%Greater Healing Potion}
+ItemDisplay[hp4 (CLVL>69 OR (MAPID>108 DIFF>1 FILTLVL>2)) FILTLVL>0]: {%WHITE%Greater Healing Potion}
 ItemDisplay[hp4 (CLVL<70 OR FILTLVL=0)]: %RED%#%WHITE%h%WHITE%{%WHITE%Greater Healing Potion}
 ItemDisplay[mp3 (CLVL>49 OR MAPID>102 OR DIFF>0) FILTLVL>0]: {%WHITE%Mana Potion}
 ItemDisplay[mp3 CLVL>49 FILTLVL=0]: %BLUE%:%GRAY%m³{%WHITE%Mana Potion}
