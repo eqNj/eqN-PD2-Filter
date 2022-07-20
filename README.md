@@ -211,19 +211,13 @@ Made it so ALL rares will now show, regardless of tier, at ALL levels. (Relaxed 
 
 If this is deemed excessive I will cut it down to how it was previously (showing select ethereal rare weapons and/or ideal rare armors).
 
-Changed the Perfect Gem icon from "O" to "@" to help further distinguish it.
-
-Changed the Flawless Gem icon from "O" to "*" to help further distinguish it.
-
-Changed the Gem icon for all gems of lower tiers from "*" to ":" to further distinguish them.
-
 Made it so Large Charms (just as Small and Grand did priorly) will now notify on drop.
 
 Added detailed information to charm names for Large Charms with new % Damage stats.
 
 Added all new uniques added to the game for Season 3 as particularly highlighted drops.
 
-Made it so magic (for crafting) and non-magic (with druid plus skills) clubs of all tiers will always show on drop.
+Made it so magic (for crafting) and non-magic (with druid plus skills) clubs of all tiers will show on drop.
 
 Added new Vampiric and Bountiful crafting recipes to magic item descriptions.
 
@@ -277,13 +271,13 @@ Big thanks to Hastmannen for their help with all the Low Level Dueling informati
 
 ## 1.4.0 - (Season 5)
 
+Visually remastered nearly every aspect of item drop names and/or descriptons to include even more lore tidbits, famous quotes, and pertinent item information with concise and clean aesthetics and grammar.
+
 Created a new "default" version of the filter, available in the launcher, simply with the name "eqN-All-In-One". This filter uses the new "filter level" settings available as of Season 5 to essentially combine the different strictness levels I've made publicly available of my filter in to a single filter. All filter versions are designed to fully accommodate "filter level 0/Show All Items".
 
 Gold that is hidden is no longer able to be auto-looted as of Season 5. I've adopted the scaling gold drop system designed by BetweenWalls as a short term solution to allow much more gold to be seen and thus auto-looted. Currently, gold piles less than 1000 are hidden on the Strict filter and less than 4000 are hidden on the SuperStrict filter.
 
-Added a new "Potionless" filter version, "eqN-Potionless", which functions identically to "eqN-All-In-One" except it hides Super Potions after character level 75. (Intended for character who do not need them.)
-
-Visually remastered nearly every aspect of item drops and/or descriptons to include even more lore tidbits, famous quotes, and pertinent item information with concise and clean aesthetics and grammar.
+Added a new "Potionless" filter version, "eqN-Potionless", which functions identically to "eqN-All-In-One" except it hides Super Potions after character level 75. (Intended for characters who do not need them.)
 
 Added detailed descriptions and drop notifications/aesthetics for all of the new 'recipe' items in Season 5: Larzuk's Puzzlepiece, Lilith's Mirror, and Vial of Lightsong.
 
