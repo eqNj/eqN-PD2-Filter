@@ -273,6 +273,8 @@ Big thanks to Hastmannen for their help with all the Low Level Dueling informati
 
 Visually remastered nearly every aspect of item drop names and/or descriptons to include even more lore tidbits, famous quotes, and pertinent item information with concise and clean aesthetics and grammar.
 
+Crafting, upgrading, and socketing recipes will no longer show on items while they are in a vendor's inventory to help make items worth shopping for easier to see at a glance.
+
 Created a new "default" version of the filter, available in the launcher, simply with the name "eqN-All-In-One". This filter uses the new "filter level" settings available as of Season 5 to essentially combine the different strictness levels I've made publicly available of my filter in to a single filter. All filter versions are designed to fully accommodate "filter level 0/Show All Items".
 
 Gold that is hidden is no longer able to be auto-looted as of Season 5. I've adopted the scaling gold drop system designed by BetweenWalls as a short term solution to allow much more gold to be seen and thus auto-looted. Currently, gold piles less than 1000 are hidden on the Strict filter and less than 4000 are hidden on the SuperStrict filter.
@@ -291,7 +293,7 @@ Added description lines to all of the new maps in Season 5 with their potential 
 
 Made it so items that gain +1 potential maximum sockets from being upgraded indicate this in their description(s) (unless doing so would make them unusable for low level dueling).
 
-Made it so a corrupted Annihilus has a red name to help distinguish it if dropped.
+A corrupted Annihilus will now always have a red name and a corrupted Annihilus with the +1 All Skills corruption will have a purple + in front of it's red name. 
 
 Thoroughly refined the unique items that notify on drop to further accomidate any possible niche use cases.
 
@@ -301,7 +303,7 @@ Ensured all new unique items added to the game in Season 5 will notify on drop a
 
 Adjusted the Enhanced Damage tag on paladin shields to show the exact amount of enhanced damage in the item name.
 
-Adjusted it so recipes on items will not show if the item is equipped and/or in a shopping window. (This feature continues to be eternally bugged so it is not live at the moment.)
+When a map rolls an added monster type affix it will now tell what immunities those monsters have in the item description.
 
 Updated the recipes on Uber Rathma ingredients as they no longer require Prime Evil Soul(s).
 
@@ -309,4 +311,4 @@ Updated potion aesthetic to be more unique and slightly easier to pick up. Also 
 
 A massive amount of tweaks have been added to the LLD item tags introduced last season. These changes refine the item tags to always show the LLD tag on items worth keeping for your LLD characters without introducing excessive visuals and/or notifications.
 
-Made it so all charms will use their original affix names (testing this out, considering removing the color coded affix renaming system).
+Made it so all charms will use their original affix names instead of the color coded names based on the affix modifiers to retain some of the original D2 aesthetic.
