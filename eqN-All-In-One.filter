@@ -4216,10 +4216,13 @@ ItemDisplay[!NMAG !MAG ID SOCK=0 STAT360=0 STAT468=0 LVLREQ>30 (qui OR lea OR hl
 
 //Low Level Dueling (Class Item & Weapon) Crafting Bases
 ItemDisplay[((wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces) OR (lwb OR am1 OR am5)) MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
-ItemDisplay[((gax OR gix OR mau OR gma OR flb OR gsd OR pik OR wsc) OR (pil OR ssp OR glv OR tsp OR am5)) ETH MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
+ItemDisplay[((gax OR gix OR mau OR gma OR flb OR gsd OR pik OR wsc) OR (pil OR ssp OR glv OR tsp)) ETH MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
 ItemDisplay[((9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) OR (8lw OR am6 OR ama)) MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
-ItemDisplay[((9ga OR 9gi OR 9m9 OR 9gm OR 9fb OR 9gd OR 9p9 OR 9wc) OR (9pi OR 9s9 OR 9gl OR 9ts OR ama)) ETH MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
+ItemDisplay[((9ga OR 9gi OR 9m9 OR 9gm OR 9fb OR 9gd OR 9p9 OR 9wc) OR (9pi OR 9s9 OR 9gl OR 9ts)) ETH MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
 ItemDisplay[((BAR !ELT !(ba9 OR baa)) OR (DRU !ELT !(dr9 OR dra)) OR (NEC !ELT !(ne3 OR ne4 OR ne8 OR ne9 OR nea)) OR (DIN !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (clb OR spc OR 9cl OR 9sp)) !ETH MAG ID ILVL>50]: %NAME%{%TAN%Low Level Dueling Base}%CONTINUE%
+
+//Shop MAG Catchall
+ItemDisplay[(WEAPON OR ARMOR) MAG SHOP]: %NAME%{%NAME%}
 
 //Notes For High ILVL Crafting Amulets
 ItemDisplay[MAG amu ID ILVL=88 STAT468=0]: %NAME%%BLUE%{%YELLOW%Bty: @ %WHITE%+ %ORANGE%Ko %WHITE%| %GRAY%V: @ %WHITE%+ %ORANGE%Dol%NL%%BLUE%HP: @ %WHITE%+ %ORANGE%Thul %WHITE%| %GREEN%S: @ %WHITE%+ %ORANGE%Thul%NL%%RED%Bld: @ %WHITE%+ %ORANGE%Amn%WHITE% | %PURPLE%C: @ %WHITE%+ %ORANGE%Ral%NL%Craft at 92+: %BLUE%Jewel %WHITE%+}
@@ -4763,49 +4766,58 @@ ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (RARE OR NMAG)]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
 ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %NAME%{%GRAY%Deaths %WHITE%within are not permanent in %RED%Hardcore%NL%%NL%%TAN%- that they plan their fight in the ring.%NL%There is an old adage about gladiators,}
 //Tier 1 Immunes
-ItemDisplay[t10]: %NAME%{%NAME%}
-ItemDisplay[t11]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Ruins of Viz-jun
-ItemDisplay[t12]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Horazon's Memory
-ItemDisplay[t13]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Bastion Keep
-ItemDisplay[t14]: %NAME%{%RED%Fire %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Royal Crypts
-ItemDisplay[t15]: %NAME%{%YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Sanatorium
-ItemDisplay[t16]: %NAME%{%NAME%}
-ItemDisplay[t17]: %NAME%{%NAME%}
-ItemDisplay[t18]: %NAME%{%NAME%}
-ItemDisplay[t19]: %NAME%{%NAME%}
+ItemDisplay[t10]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t11]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Ruins of Viz-jun
+ItemDisplay[t12]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Horazon's Memory
+ItemDisplay[t13]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Bastion Keep
+ItemDisplay[t14]: %NAME%{%RED%Fire %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Royal Crypts
+ItemDisplay[t15]: %NAME%{%YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Sanatorium
+ItemDisplay[t16]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t17]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t18]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t19]: %NAME%{%NAME%}%CONTINUE%
 // Tier 2 Immunes
-ItemDisplay[t20]: %NAME%{%NAME%}
-ItemDisplay[t21]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Phlegethon
-ItemDisplay[t22]: %NAME%{%YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Torajan Jungle
-ItemDisplay[t23]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Arreat Battlefield
-ItemDisplay[t24]: %NAME%{%YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Tomb of Zoltun Kulle
-ItemDisplay[t25]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Sewers of Harrogath
-ItemDisplay[t26]: %NAME%{%RED%Fire %WHITE%/ %BLUE%Cold %WHITE%/ %ORANGE%Magic %WHITE%/ %TAN%Phys %NL%%WHITE%Possible Immunities:%NL%%NAME%} // Shadows of Westmarch
-ItemDisplay[t27]: %NAME%{%NAME%}
-ItemDisplay[t28]: %NAME%{%NAME%}
-ItemDisplay[t29]: %NAME%{%NAME%}
+ItemDisplay[t20]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t21]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Phlegethon
+ItemDisplay[t22]: %NAME%{%YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Torajan Jungle
+ItemDisplay[t23]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Arreat Battlefield
+ItemDisplay[t24]: %NAME%{%YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Tomb of Zoltun Kulle
+ItemDisplay[t25]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Sewers of Harrogath
+ItemDisplay[t26]: %NAME%{%RED%Fire %WHITE%/ %BLUE%Cold %WHITE%/ %ORANGE%Magic %WHITE%/ %TAN%Phys %NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Shadows of Westmarch
+ItemDisplay[t27]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t28]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t29]: %NAME%{%NAME%}%CONTINUE%
 // Tier 3 Immunes
-ItemDisplay[t30]: %NAME%{%NAME%}
-ItemDisplay[t31]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%} // River of Blood
-ItemDisplay[t32]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Throne of Insanity
-ItemDisplay[t33]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Reziarfg's Lair
-ItemDisplay[t34]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison %WHITE%/ %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Ancestral Trial
-ItemDisplay[t35]: %NAME%{%NAME%} // Blood Moon
-ItemDisplay[t36]: %NAME%{%YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Fall of Caldeum
-ItemDisplay[t37]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Pandemonium Citadel
-ItemDisplay[t38]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Canyon of Sescheron
-ItemDisplay[t39]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Kehjistan Marketplace
+ItemDisplay[t30]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t31]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // River of Blood
+ItemDisplay[t32]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Throne of Insanity
+ItemDisplay[t33]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Reziarfg's Lair
+ItemDisplay[t34]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison %WHITE%/ %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Ancestral Trial
+ItemDisplay[t35]: %NAME%{%NAME%}%CONTINUE% // Blood Moon
+ItemDisplay[t36]: %NAME%{%YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Fall of Caldeum
+ItemDisplay[t37]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Pandemonium Citadel
+ItemDisplay[t38]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Canyon of Sescheron
+ItemDisplay[t39]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Kehjistan Marketplace
 // Tier 4 Immunes
-ItemDisplay[t40]: %NAME%{%NAME%}
-ItemDisplay[t41]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Cathedral of Light
-ItemDisplay[t42]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Plains of Torment
-ItemDisplay[t43]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%} // Sanctuary of Sin
-ItemDisplay[t44]: %NAME%{%NAME%}
-ItemDisplay[t45]: %NAME%{%NAME%}
-ItemDisplay[t46]: %NAME%{%NAME%}
-ItemDisplay[t47]: %NAME%{%NAME%}
-ItemDisplay[t48]: %NAME%{%NAME%}
-ItemDisplay[t49]: %NAME%{%NAME%}
+ItemDisplay[t40]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t41]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Cathedral of Light
+ItemDisplay[t42]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Plains of Torment
+ItemDisplay[t43]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Sanctuary of Sin
+ItemDisplay[t44]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t45]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t46]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t47]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t48]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t49]: %NAME%{%NAME%}%CONTINUE%
+//Additional Immunes
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t36 OR t37 OR t38 OR t39) PREFIX=1569]: %NAME%{%WHITE%Reanimated: %GREEN%Poison%NL%%NAME%}
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t36 OR t37 OR t38 OR t39) PREFIX=1565]: %NAME%{%WHITE%Stygian: %GREEN%Poison%NL%%NAME%}
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t36 OR t37 OR t38 OR t39) PREFIX=1567]: %NAME%{%WHITE%Vampire: %BLUE%Cold%NL%%NAME%}
+ItemDisplay[t35 PREFIX=1569]: %NAME%{%WHITE%Reanimated Immunity: %GREEN%Poison%NL%%NAME%}
+ItemDisplay[t35 PREFIX=1565]: %NAME%{%WHITE%Stygian Immunity: %GREEN%Poison%NL%%NAME%}
+ItemDisplay[t35 PREFIX=1567]: %NAME%{%WHITE%Vampire Immunity: %BLUE%Cold%NL%%NAME%}
+//Always Show Maps
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%NAME%}
 
 //Essences
 ItemDisplay[tes]: %PX-82%%NAME%{%BLUE%Andariel, Maiden of Anguish %WHITE%& %BLUE%Duriel, Lord of Pain %NL%%GRAY%Manifested By:}
@@ -4834,6 +4846,7 @@ ItemDisplay[dcma]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%   
 
 //Annihilus
 ItemDisplay[cm1 UNI ID STAT360=0]: %MAP-62%%NAME%
+ItemDisplay[cm1 UNI ID ALLSK>1]: %MAP-62%%PURPLE%+%RED%%NAME%
 ItemDisplay[cm1 UNI ID STAT360>0]: %MAP-62%%RED%%NAME%
 
 //The Void
