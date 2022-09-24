@@ -127,7 +127,7 @@ Rare bolts are hidden and magic bolts and arrows are hidden.
 
 Non-magic (for imbuing) and magic circlets of all kinds are hidden.
 
-Regular Rejuvination Potions (not Full) and Greater Mana Potions (not Super) are hidden.
+Regular Rejuvenation Potions (not Full) and Greater Mana Potions (not Super, unless 'Potionless') are hidden.
 
 Magic rings and amulets are hidden.
 
