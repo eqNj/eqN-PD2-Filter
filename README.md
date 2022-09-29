@@ -30,7 +30,7 @@ All non-magic (white) items with a relevant amount of plus skills that drop will
 
 All non-magic (white) body armors will show their base defense range (in their description) to allow you to know if the item has a "good roll" in this way.
 
-![Unsocketed Armor](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Armor.jpg)
+![Based](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Based.jpg)
 
 All weapons, when relevant, will show their Base Speed (-60 to 20) and Added Range (0 to +4) to make calculating IAS and comparing item bases quicker and easier.
 
