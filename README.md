@@ -287,15 +287,13 @@ Renamed the old 'Strict' filter level to 'Medium'.
 
 Added a new 'StrictLLD' filter level that uses the 'late season' / 'high speed mapping' strictness of the SuperStrict filter level while still showing and notifying for all non-shoppable LLD crafting bases that drop.
 
-Added a new 'ShowRecipes' filter level that shows all crafting and upgrading recipes that previously would always show on items in your stash, inventory, or equipped. This filter level also shows the runes necessary for runewords on runeword bases in their sequential order of necessary socketing.
+Added a new 'ShowRecipes' filter level that shows all crafting and upgrading recipes that previously would always show on items in your stash, inventory, or equipped. Those recipes are now hidden on all other filter levels. This filter level also shows the runes necessary for runewords on runeword bases in their sequential order of necessary socketing.
 
 Socketing recipes will still show at all filter levels.
 
 Visually remastered nearly every aspect of item drop names and/or descriptons to include even more lore tidbits, famous quotes, and pertinent item information with concise and clean aesthetics and grammar.
 
 Crafting, upgrading, and socketing recipes will no longer show on items while they are in a vendor's inventory (all filter levels) to help make items worth shopping for easier to see at a glance.
-
-Crafting, upgrading,
 
 Gold that is hidden is no longer able to be auto-looted as of Season 5. I've adopted the scaling gold drop system designed by BetweenWalls as a solution to allow much more gold to be seen and thus auto-looted. This scaling applies at all levels on the Relaxed filter. Currently, at level 75+, gold piles less than 1600 are hidden on the Medium filter and less than 3000 are hidden on the SuperStrict & StrictLLD filters.
 
