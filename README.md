@@ -112,7 +112,7 @@ Normal, exceptional, and elite rare weapons are hidden, unless ethereal, a bow/c
 
 Only high/mid-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
-Rare bolts and magic bolts and arrows are hidden, however Amazons will still see rare bolts and magic arrows.
+Magic bolts and arrows are hidden, however Amazons will still see magic arrows.
 
 Magic rings and amulets are hidden, unless item level 86+ rings or item level 90+ amulets.
 
@@ -125,7 +125,7 @@ Flawless gems no longer notify. (Perfect gems still do.)
 
 Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden. (Elite tier will still show.)
 
-Non-magic (white) items are almost all hidden, unless highly sought after bases for runewords (mostly requiring 8%+ ED) or if they have +3 to a valuable skill.
+Non-magic (white) items are almost all hidden, unless highly sought after bases for runewords (mostly requiring 5%+ ED) or if they have +3 to a valuable skill.
 
 Normal, exceptional, and elite magic items are hidden unless ethereal weapons for crafting and/or specifically for the class you are playing.
 
