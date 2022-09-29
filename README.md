@@ -10,13 +10,15 @@ If you would like to contact me, find me in the official PD2 Discord with the na
 
 If ever so inclined, you can support my efforts by donating on [PayPal](https://www.paypal.com/donate/?business=65YT5QXDEURW8&no_recurring=0&currency_code=USD).
 
-The version known as 'eqN-All-In-One' in the game launcher includes all other versions of the filter, adjustable using the in-game settings. 
+The version known as 'eqN-All-In-One' in the game launcher includes all other past versions of the filter, adjustable using the in-game settings for "filter level". 
 
-The version known as 'eqN-Potionless' is the same as "eqN-All-In-One", however it hides Super/Large Health and Mana potions after character level 75.
+The version known as 'eqN-Potionless' is the same as "eqN-All-In-One", however it hides Super/Large Health and Mana potions after character level 75 at all levels.
 
-To those interested: these filters are specially designed to be 100% functional with the in-game filter strictness setting "Show All Items" and will apply all filter aesthetic (item name and description) effects to every item.
+To those interested: these filters are specially designed to be 100% functional with the in-game filter level setting "Show All Items" and will apply all filter aesthetic (item name and description) effects to every item.
 
-The Relaxed version of this filter is the basis upon which all versions of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is especially focused on optimizations as you level and slightly more lenient in the endgame by comparison. All versions of this filter share the same optimized leveling experience before reaching character level 75.
+![Filter Levels](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/FilterLevel.jpg)
+
+The Relaxed level of this filter is the basis upon which all levels of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is highly focused on optimizations as you level and slightly more lenient in the endgame by comparison. All levels of this filter share the same optimized leveling experience before reaching character level 75. For more details about all of the different filter levels please read the [levels](https://github.com/eqNj/eqN-PD2-Filter#levels) section of this readme.
 
 This filter doesn't try to make all the decisions for you. You will see things that you may not be inclined to pick up, but it is always reasonable why you're seeing these items if you understand the nuances of itemization in Diablo 2.
 
@@ -26,7 +28,7 @@ This filter doesn't try to make all the decisions for you. You will see things t
 
 All non-magic (white) items with a relevant amount of plus skills that drop will show those skills in their name, making them easily identifiable at a glance.
 
-All non-magic body armors will show their base defense range (in their description) to allow you to know if the item has a "good roll" in this way.
+All non-magic (white) body armors will show their base defense range (in their description) to allow you to know if the item has a "good roll" in this way.
 
 ![Unsocketed Armor](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Armor.jpg)
 
@@ -34,7 +36,11 @@ All weapons, when relevant, will show their Base Speed (-60 to 20) and Added Ran
 
 All unsocketed, but socketable, items of any kind will show their potential maximum sockets (in their description), accounting for rarity, item level, and corruption. 
 
-If an item is non-magic it will show its maximum potential sockets possible through the Larzuk quest or Cube socket recipe. 
+If an item is non-magic (white) and unsocketed it will show its maximum potential sockets possible through the Larzuk quest or Cube socket recipe. 
+
+If an item is non-magic (white) and socketed it will show its possible runewords by name on all filter levels and will include the runes in the approrpriate order on the 'ShowRecipes' filter level. 
+
+![Runewords](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Runewords.jpg)
 
 If an item is rare, crafted, set, or unique it will show its maximum potential sockets through corruption specifically. 
 
@@ -44,15 +50,15 @@ Once an item is socketed in any fashion the maximum potential socket information
 
 ![Crafting Ring](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Craft.jpg)
 
-All items will show any recipes possible, as applicable. They will use a color-coded symbol (@) matching their respective perfect gem color within the recipe, as seen above.
+All items will show any recipes possible, as applicable, when using the 'ShowRecipes' filter level. They will use a color-coded symbol (@) matching their respective perfect gem color within the recipe, as seen above.
 
-These recipes will show up once relevant as your character progresses, to help ease new players into this information. I.E.: Non-magic items will show their socketing recipe, if not of superior quality. Magic items will show all possible crafting recipes. Rare, crafted, set, and unique items will show possible upgrade recipes if any are available.
+Recipes will show up once relevant as your character progresses or when using the appropriate filter level. I.E.: Non-magic (white) items will show their socketing recipe. Magic and rare items will show all possible crafting recipes on the 'ShowRecipes' filter level. Rare, crafted, set, and unique items will show possible upgrade recipes if any are available.
 
-Specifically, socketing recipes will show at item level 21+ (or earlier on any +3 skills items). Upgrading recipes will show at item level 13+. Crafting recipes will show at item level 51+ (as a resulting craft item level of 51 is when you can guarantee at least 3 additional affixes).
+Specifically, socketing recipes will show at item level 21+ (or earlier on any +3 skills items) on all filter levels. Upgrading recipes will show at item level 13+ and crafting recipes will show at all item levels (when on the 'ShowRecipes' filter level).
 
 ![Upgrade Weapon](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Upgrade.jpg)
 
-All unique and set items always show in any of these filters, however only certain mid-to-high tier unique and set items will notify depending on which of the filter versions you choose. All runes will always show and notify on every filter version. Flawless gems always show and Perfect gems will always notify in all filter versions.
+All unique and set items always show in any of these filters. Uniques will always notify on the Relaxed filter level, however only certain mid-to-high tier unique and set items will notify on the other filter levels. All runes will always show and notify on every filter level. Flawless gems always show and Perfect gems will always notify in all filter levels.
 
 ![A Lot Of Drops](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Grounded.jpg)
 
@@ -62,37 +68,41 @@ Four socket, ethereal polearm/spear weapons of all tiers, for use with the Insig
 
 All rare items will still show at all levels. This includes all class items (wands, orbs, helms, scepters/maces, staves, claws) and any rare bows or crossbows of all tiers aswell. (Relaxed Filter)
 
-Select magic items from all tiers, those that are best for crafting, will show, and they will be indicated by two gray asterisks, one on each side. High item level magic amulets will, once identified, show the exact character level best for crafting them to ensure +2 skills rolls are possible. (All Filter Versions)
+Select magic items from all tiers, those that are best for crafting, will show, and they will be indicated by two gray asterisks, one on each side. High item level magic amulets will, once identified, show the exact character level best for crafting them to ensure +2 skills rolls are possible. (All filter levels)
 
-Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed favoring exceptional/elite items), as well as any elite class items that could be used for runewords. (All Filter Versions)
+Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed favoring exceptional/elite items), as well as any elite class items that could be used for runewords. (All filter levels)
 
-The following items will have added descriptions when they appear to be good for LLD (Low Level Dueling) or for high level PvE, and/or are in a state in which corruption would potentially yield a good LLD item: Charms, Jewels (Magic and Rare), certain Magic class item & weapon bases (ideal for crafting or usage as is), Rare and Crafted weapons and class items, and certain Unique and Set items popular for LLD. The following runeword bases specifically for LLD will show at all levels: 10%+ ED Naga, Lance, or Divine Scepter (for use with the Honor or Insight runewords). +3 Blade Fury (ethereal) and +3 Dragon Talon (non-ethereal) exceptional claws (for use with the Pattern or Malice runewords). (All Filter Versions)
+The following items will have added descriptions when they appear to be good for LLD (Low Level Dueling) or for high level PvE, and/or are in a state in which corruption would potentially yield a good LLD item: Charms, Jewels (Magic and Rare), certain Magic class item & weapon bases (ideal for crafting or usage as is), Rare and Crafted weapons and class items, and certain Unique and Set items popular for LLD. The following runeword bases specifically for LLD will show at all levels: 10%+ ED Naga, Lance, or Divine Scepter (for use with the Honor or Insight runewords). +3 Blade Fury (ethereal) and +3 Dragon Talon (non-ethereal) exceptional claws (for use with the Pattern or Malice runewords). (All filter levels)
 
-Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items. (All Filter Versions)
+Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items. (All filter levels)
 
 ###### Read the "Changelog" further below for more details on the filters' features. (Relative to the above, using the Relaxed filter as the assumed baseline.) 
 
-## Versions 
+## Levels 
 
-##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable. Also good for "Solo Self Found" / singleplayer, hardcore, and early ladder crafters. This filter will show you if anything usable, even into the late game, would drop for any class. Period. The Relaxed filter is for those used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them. This is the base filter upon which the following two versions are designed.
+##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable. Also good for "Solo Self Found" / singleplayer, hardcore, and early ladder crafting. This filter will show you if anything usable, even into the late game, would drop for any class. Period. The Relaxed filter is for those used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them. This is the base filter upon which the following two levels are designed.
 
-##### Strict - Ideal for well geared characters and those who wish to only see more generally useful items and perfer magic class items specifically be for their current character's class. This filter still shows you all of the niche runeword bases and the best general crafting bases from the Relaxed version, including those most useful for LLD. Crafting bases shown become specialized at character level 80. This filter finds a happy medium between the Relaxed and SuperStrict filter. 
+##### Medium - Ideal for well geared characters and those who wish to only see more generally useful items and perfer magic class items specifically be for their current character's class. This filter still shows you all of the niche runeword bases and the best general crafting bases from the Relaxed level, including those useful for LLD. Crafting bases shown become specialized at character level 80. This filter finds a happy 'medium' between the Relaxed and SuperStrict filter. 
 
-##### SuperStrict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons that have a high value in trading. This filter is useful for those who regularly run high density maps and dungeons and are mostly only looking for items with the highest trade value. 
- 
+##### SuperStrict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons that have a reasonably high value in trading. This filter is useful for those who regularly run high density maps and dungeons and are mostly only looking for items with the highest trade value. 
+
+##### StrictLLD - This is essentially a copy of the SuperStrict filter level, however it will continue to show & even notify when a LLD crafting base drops. This level is designed for late ladder and/or targeted LLD item farming.
+
+##### ShowRecipes - This level shows all crafting and upgrading recipes on any applicable items. It will also show the recommended level for LLD crafting on most LLD crafting bases. This level will show all runes necessary on any socketed non-magic (white) items. This level is not recommended for use while item finding, but just in case it uses SuperStrict as a baseline. It does still show (not notify) all LLD crafting bases, as well as all non-magic (white) items that drop with more than a single socket.
+
 ###### The differences between these filters, relative to the Relaxed filter as a baseline, are further described below. All of these filters share the same leveling experience prior to character level 75.
 
-## 'Relaxed' / 'Strict' / 'SuperStrict' Filter Differences
+## 'Relaxed' / 'Medium' / 'SuperStrict' Filter Differences
 
-### The 'Strict' filter has the following changes (after character level 75):
+### The 'Medium' filter has the following changes (after character level 75):
 
-Gold piles less than 1000 are hidden.
+Gold piles less than 1600 are hidden.
 
 Flawless gems no longer notify. (Perfect gems still do.)
 
 Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden. (Elite tier will still show.)
 
-Non-magic elite items are sometimes hidden, unless specifically useful for runewords or if they have +3 to a valuable skill.
+Non-magic (white) elite items are sometimes hidden, unless specifically useful for runewords or if they have +3 to a valuable skill.
 
 Normal and exceptional magic items are hidden unless specifically great for crafting for your class or nearly impossible to shop and useful for LLD crafting.
 
@@ -109,13 +119,13 @@ Magic rings and amulets are hidden, unless item level 86+ rings or item level 90
 
 ### The 'SuperStrict' filter has the following changes (after character level 75):
 
-Gold piles less than 4000 are hidden.
+Gold piles less than 3000 are hidden.
 
 Flawless gems no longer notify. (Perfect gems still do.)
 
 Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden. (Elite tier will still show.)
 
-Non-magic items are almost all hidden, unless highly sought after bases for runewords (mostly requiring 8%+ ED) or if they have +3 to a valuable skill.
+Non-magic (white) items are almost all hidden, unless highly sought after bases for runewords (mostly requiring 8%+ ED) or if they have +3 to a valuable skill.
 
 Normal, exceptional, and elite magic items are hidden unless ethereal weapons for crafting and/or specifically for the class you are playing.
 
@@ -205,7 +215,7 @@ Added quest item lore and quotes.
 
 ## 1.2.0 - (Season 3)
 
-Created and now maintain a more strict, seperate version of my filter. You can see the differences listed above.
+Created and now maintain a more strict, seperate level of my filter. You can see the differences listed above.
 
 Made it so ALL rares will now show, regardless of tier, at ALL levels. (Relaxed Filter Only)
 
@@ -237,7 +247,7 @@ Added Base Speed value to weapons.
 
 Made all Base Defense, Base Speed, and Max Socket info in descriptions white.  
 
-By popular demand: There is now a 'SuperStrict' version of the filter. You can read more about it above, in the 'Versions' section.
+By popular demand: There is now a 'SuperStrict' level of the filter. You can read more about it above, in the 'Levels' section.
 
 Added more shopping highlights for valuable magic items. 
 
@@ -247,7 +257,7 @@ Added notificationa for rare quivers. Magic quivers will always show, but not no
 
 Added special notifications for all of the new Uber Rathma uniques.
 
-Continued maintenance of new/improved unique item notifications and tiering therein. (Most relevant for the strict filter.)
+Continued maintenance of new/improved unique item notifications and tiering therein. (Most relevant for the Medium filter.)
 
 Ensured any non-magic wands or necro shields with the new Summon Skeleton Archer skill on them will show such in their name (SkArc).
 
@@ -271,15 +281,25 @@ Big thanks to Hastmannen for their help with all the Low Level Dueling informati
 
 ## 1.4.0 - (Season 5)
 
-Visually remastered nearly every aspect of item drop names and/or descriptons to include even more lore tidbits, famous quotes, and pertinent item information with concise and clean aesthetics and grammar.
-
-Crafting, upgrading, and socketing recipes will no longer show on items while they are in a vendor's inventory to help make items worth shopping for easier to see at a glance.
-
 Created a new "default" version of the filter, available in the launcher, simply with the name "eqN-All-In-One". This filter uses the new "filter level" settings available as of Season 5 to essentially combine the different strictness levels I've made publicly available of my filter in to a single filter. All filter versions are designed to fully accommodate "filter level 0/Show All Items".
 
-Gold that is hidden is no longer able to be auto-looted as of Season 5. I've adopted the scaling gold drop system designed by BetweenWalls as a short term solution to allow much more gold to be seen and thus auto-looted. Currently, gold piles less than 1000 are hidden on the Strict filter and less than 4000 are hidden on the SuperStrict filter.
+Renamed the old 'Strict' filter level to 'Medium'.
 
-Added a new "Potionless" filter version, "eqN-Potionless", which functions identically to "eqN-All-In-One" except it hides Super Potions after character level 75. (Intended for characters who do not need them.)
+Added a new 'StrictLLD' filter level that uses the 'late season' / 'high speed mapping' strictness of the SuperStrict filter level while still showing and notifying for all non-shoppable LLD crafting bases that drop.
+
+Added a new 'ShowRecipes' filter level that shows all crafting and upgrading recipes that previously would always show on items in your stash, inventory, or equipped. This filter level also shows the runes necessary for runewords on runeword bases in their sequential order of necessary socketing.
+
+Socketing recipes will still show at all filter levels.
+
+Visually remastered nearly every aspect of item drop names and/or descriptons to include even more lore tidbits, famous quotes, and pertinent item information with concise and clean aesthetics and grammar.
+
+Crafting, upgrading, and socketing recipes will no longer show on items while they are in a vendor's inventory (all filter levels) to help make items worth shopping for easier to see at a glance.
+
+Crafting, upgrading,
+
+Gold that is hidden is no longer able to be auto-looted as of Season 5. I've adopted the scaling gold drop system designed by BetweenWalls as a solution to allow much more gold to be seen and thus auto-looted. This scaling applies at all levels on the Relaxed filter. Currently, at level 75+, gold piles less than 1600 are hidden on the Medium filter and less than 3000 are hidden on the SuperStrict & StrictLLD filters.
+
+Added a new "Potionless" filter version to the launcher, "eqN-Potionless", which functions identically to "eqN-All-In-One" except it hides Super Potions after character level 75. (Intended for characters who do not need them.)
 
 Added detailed descriptions and drop notifications/aesthetics for all of the new 'recipe' items in Season 5: Larzuk's Puzzlepiece, Lilith's Mirror, and Vial of Lightsong.
 
@@ -293,7 +313,7 @@ Added description lines to all of the new maps in Season 5 with their potential 
 
 Made it so items that gain +1 potential maximum sockets from being upgraded indicate this in their description(s) (unless doing so would make them unusable for low level dueling).
 
-A corrupted Annihilus will now always have a red name and a corrupted Annihilus with the +1 All Skills corruption will have a purple + in front of it's red name. 
+A corrupted Annihilus will now always have a red name and a corrupted Annihilus with the +1 All Skills corruption will have a purple + in front of it's red name. Useful for drop trading.
 
 Thoroughly refined the unique items that notify on drop to further accomidate any possible niche use cases.
 
@@ -301,7 +321,7 @@ Thoroughly refined the runeword bases that show and/or notify on drop to further
 
 Ensured all new unique items added to the game in Season 5 will notify on drop and have a specialized aesthetic.
 
-Adjusted the Enhanced Damage tag on paladin shields to show the exact amount of enhanced damage in the item name.
+Adjusted the Enhanced Damage tag on Paladin shields to show the exact amount of enhanced damage in the item name.
 
 When a map rolls an added monster type affix it will now tell what immunities those monsters have in the item description.
 
@@ -311,4 +331,4 @@ Updated potion aesthetic to be more unique and slightly easier to pick up. Also 
 
 A massive amount of tweaks have been added to the LLD item tags introduced last season. These changes refine the item tags to always show the LLD tag on items worth keeping for your LLD characters without introducing excessive visuals and/or notifications.
 
-Made it so all charms will use their original affix names instead of the color coded names based on the affix modifiers to retain some of the original D2 aesthetic.
+Made it so all charms will use their original affix names (instead of the color coded names based on the affix modifiers, like other filters) to retain some of the original D2 aesthetic.
