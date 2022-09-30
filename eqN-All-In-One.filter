@@ -4206,7 +4206,6 @@ ItemDisplay[RARE IAS>0 (STAT214>49 OR RES>9 OR ED>29 OR MAXDMG>7 OR MINDMG>6 OR 
 //----------------------------------------- Shop Hunting Flags -----------------------------------------
 
 //Low Level Dueling Shop Hunting
-ItemDisplay[EXC MAG SHOP FILTLVL=4]: %GREEN%EXCEPTIONAL %WHITE%- %BLUE%%NAME%{%NAME%}
 ItemDisplay[SHOP WEAPON MAG ED>239 (!ETH OR (ETH REPAIR)) LVLREQ<31]: %DOT-9B%%PURPLE%LLD %WHITE%- %DARK_GREEN%%NAME%{%PURPLE%>   %TAN%High ED Weapon   %PURPLE%<%NL%%NAME%}
 ItemDisplay[SHOP SIN MAG ((TABSK49>1 OR CLSK6>0) SK278>1) LVLREQ<31]: %DOT-9B%%PURPLE%LLD %WHITE%- %DARK_GREEN%%NAME%{%PURPLE%>   %TAN%Venom Claw   %PURPLE%<%NL%%NAME%}
 ItemDisplay[SHOP SIN MAG ((TABSK49>1 OR CLSK6>0) SK273>1) LVLREQ<31]: %DOT-9B%%PURPLE%LLD %WHITE%- %DARK_GREEN%%NAME%{%PURPLE%>   %TAN%Mind Blast Claw   %PURPLE%<%NL%%NAME%}
@@ -4449,10 +4448,10 @@ ItemDisplay[!NMAG !MAG ID SOCK=0 STAT360=0 STAT468=0 !SHOP LVLREQ>30 (qui OR lea
 
 //Low Level Dueling (Class Item & Weapon) Crafting Bases
 ItemDisplay[(lwb OR am1 OR am5) MAG ID !FILTLVL=5]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
-ItemDisplay[((wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces) OR (gax OR gix OR mau OR gma OR flb OR gsd OR pik OR wsc) OR (pil OR ssp OR glv OR tsp)) ETH MAG ID !FILTLVL=5]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
+ItemDisplay[((wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces) OR (gax OR gix OR mau OR gma OR flb OR gsd OR pik OR wsc) OR (pil OR ssp OR glv OR tsp)) MAG ETH ID !FILTLVL=5]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
 ItemDisplay[(8lw OR am6 OR ama) MAG ID !FILTLVL=5]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
-ItemDisplay[((9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) OR (9ga OR 9gi OR 9m9 OR 9gm OR 9fb OR 9gd OR 9p9 OR 9wc) OR (9pi OR 9s9 OR 9gl OR 9ts)) ETH MAG ID !FILTLVL=5]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
-ItemDisplay[((BAR !ELT !(ba9 OR baa)) OR (DRU !ELT !(dr9 OR dra)) OR (NEC !ELT !(ne3 OR ne4 OR ne8 OR ne9 OR nea)) OR (DIN !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (clb OR spc OR 9cl OR 9sp)) !ETH MAG ID !FILTLVL=5]: %NAME%{%TAN%Low Level Dueling Base}%CONTINUE%
+ItemDisplay[((9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) OR (9ga OR 9gi OR 9m9 OR 9gm OR 9fb OR 9gd OR 9p9 OR 9wc) OR (9pi OR 9s9 OR 9gl OR 9ts)) MAG ETH ID !FILTLVL=5]: %NAME%{%TAN%Low Level Dueling Base%NL%%NAME%}%CONTINUE%
+ItemDisplay[((BAR !ELT !(ba9 OR baa)) OR (DRU !ELT !(dr9 OR dra)) OR (NEC !ELT !(ne3 OR ne4 OR ne8 OR ne9 OR nea)) OR (DIN !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (clb OR spc OR 9cl OR 9sp)) MAG !ETH ID !FILTLVL=5]: %NAME%{%TAN%Low Level Dueling Base}%CONTINUE%
 
 //Notes For High ILVL Crafting Amulets
 ItemDisplay[(MAG OR RARE) amu ID ILVL=88 STAT468=0 STAT360=0 !SHOP FILTLVL=5]: %NAME%{%YELLOW%Bty: @ %WHITE%+ %ORANGE%Ko %WHITE%| %GRAY%V: @ %WHITE%+ %ORANGE%Dol%NL%%BLUE%HP: @ %WHITE%+ %ORANGE%Thul %WHITE%| %GREEN%S: @ %WHITE%+ %ORANGE%Thul%NL%%RED%Bld: @ %WHITE%+ %ORANGE%Amn%WHITE% | %PURPLE%C: @ %WHITE%+ %ORANGE%Ral%NL%Craft at 92+%WHITE%: %BLUE%Jewel %WHITE%+}%CONTINUE%
@@ -14082,10 +14081,14 @@ ItemDisplay[(aqv OR cqv) MAG !ID CLVL>69 FILTLVL>2]:
 
 //Craftables\\
 
+//StrictLLD
+ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs) MAG !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%BLUE%%NAME%%PURPLE%*%BLUE%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs) MAG !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%BLUE%%NAME%%PURPLE%*%BLUE%{%NAME%}
+
 //Notified
 ItemDisplay[(SHIELD OR CHEST) MAG ETH !ID CRAFTALVL>84]: %DOT-9A%%TIER-2%%GRAY%*%BLUE%%NAME%%GRAY%*
-ItemDisplay[((MACE !(SCEPTER OR whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)) OR DAGGER OR (tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8) OR (am5 OR ama OR amf)) MAG ETH !ID CRAFTALVL>74 !ID]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
-ItemDisplay[((gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) OR (pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama)) ETH MAG !ID ILVL>65]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
+ItemDisplay[((MACE OR DAGGER OR (tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8) OR (am5 OR ama OR amf)) MAG ETH !ID CRAFTALVL>74 !ID]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
+ItemDisplay[((gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) OR (pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama)) MAG ETH !ID ILVL>65]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(SCEPTER OR SIN OR (am3 OR am8 OR amd OR am4 OR am9 OR ame) OR (spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl)) MAG ETH !ID ILVL>65 FILTLVL<3]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(SCEPTER PALADIN) OR (SIN ASSASSIN) OR ((am3 OR am8 OR amd OR am4 OR am9 OR ame) AMAZON) OR ((spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl) DRUID) MAG ETH !ID ILVL>65 FILTLVL>2]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(jav OR 9ja OR 7ja OR 7pi OR 7s7 OR 7gl OR 7ts) MAG ETH !ID ILVL>65]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
@@ -14096,7 +14099,8 @@ ItemDisplay[(crs OR 9cr) MAG ETH !ID ILVL>50]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%
 ItemDisplay[(ob5 OR oba OR obf) MAG SORCERESS !ID ILVL>70]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[DIN MAG PALADIN !ID CRAFTALVL>84]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 
-//Unnotified 
+//Unnotified
+//Gloves, Boots, Belts, Helms, and Shields
 ItemDisplay[GLOVES ELT !(xtg OR utg OR xhg OR uhg) MAG !ETH !ID ILVL>70 (FILTLVL<2 OR (CLVL<80 FILTLVL=2) OR (CLVL<75 FILTLVL>2))]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(xtg OR utg OR xhg OR uhg) MAG ETH !ID ILVL>70 (FILTLVL<2 OR (CLVL<80 FILTLVL=2) OR (CLVL<75 FILTLVL>2))]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[BOOTS ELT !(xtb OR utb OR xhb OR uhb) MAG !ETH !ID ILVL>70 (FILTLVL<2 OR (CLVL<80 FILTLVL=2) OR (CLVL<75 FILTLVL>2))]: %GRAY%*%BLUE%%NAME%%GRAY%*
@@ -14107,9 +14111,10 @@ ItemDisplay[(ztb OR utc OR zhb OR uhc) MAG ETH !ID ILVL>70 (FILTLVL<2 OR (CLVL<8
 ItemDisplay[(xh9 OR uh9 OR xsk OR usk) MAG !ID ILVL>68 (FILTLVL<2 OR (CLVL<80 FILTLVL=2) OR (CLVL<75 FILTLVL>2))]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(xrn OR urn OR xhm OR uhm) MAG ETH !ID ILVL>68 (FILTLVL<2 OR (CLVL<80 FILTLVL=2) OR (CLVL<75 FILTLVL>2))]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(xsh OR ush OR uow OR uts) MAG !ID ILVL>84 (FILTLVL<2 OR (CLVL<80 FILTLVL=2) OR (CLVL<75 FILTLVL>2))]: %GRAY%*%BLUE%%NAME%%GRAY%*
-ItemDisplay[NEC ELT !ETH MAG !ID ILVL>79]: %GRAY%*%BLUE%%NAME%%GRAY%*
-ItemDisplay[DIN ELT !ETH MAG !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
+ItemDisplay[NEC ELT MAG !ETH !ID ILVL>79]: %GRAY%*%BLUE%%NAME%%GRAY%*
+ItemDisplay[DIN ELT MAG !ETH !ID ILVL>84]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[((DRU !ETH) OR (BAR !ETH)) ELT MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
+//Weapons, Chests, and Jewelery
 ItemDisplay[(SOR (NORM OR (EXC !ob9) OR obf)) MAG !ID ILVL>70 (FILTLVL<2 OR (SORCERESS FILTLVL>1))]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl) MAG !ID ILVL>70]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(6rx OR amc OR am7 OR am2 OR amb OR am6 OR am1) MAG !ID CRAFTALVL>74]: %GRAY%*%BLUE%%NAME%%GRAY%*
@@ -14122,10 +14127,10 @@ ItemDisplay[amu MAG !ID ILVL>87 (FILTLVL<3 OR (CLVL<75 FILTLVL>2))]: %GRAY%*%BLU
 ItemDisplay[(pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama) MAG ETH !ID CLVL>69 DIFF<2]: %DOT-9A%%NAME%
 ItemDisplay[(wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces OR 9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) MAG ETH !ID CLVL>69 DIFF<2]: %DOT-9A%%NAME%
 ItemDisplay[(gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) MAG ETH !ID CLVL>69 DIFF<2]: %DOT-9A%%NAME%
-ItemDisplay[(tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8) ETH MAG !ID ILVL>65 (FILTLVL<3 OR (BARBARIAN FILTLVL>2))]: %NAME%
+ItemDisplay[(tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8) MAG ETH !ID ILVL>65 (FILTLVL<3 OR (BARBARIAN FILTLVL>2))]: %NAME%
 ItemDisplay[(am5 OR ama OR amf) MAG !ID ILVL>60 (FILTLVL<3 OR (CLVL<75 FILTLVL>2) OR (AMAZON FILTLVL>2))]: %NAME%
-ItemDisplay[(DRU OR BAR) ETH MAG !ID ILVL>70 FILTLVL<2]: %NAME%
-ItemDisplay[((DRU DRUID) OR (BAR BARBARIAN)) ETH MAG !ID ILVL>70 FILTLVL>1]: %NAME%
+ItemDisplay[(DRU OR BAR) MAG ETH !ID ILVL>70 FILTLVL<2]: %NAME%
+ItemDisplay[((DRU DRUID) OR (BAR BARBARIAN)) MAG ETH !ID ILVL>70 FILTLVL>1]: %NAME%
 ItemDisplay[SOR MAG !ID ILVL>70 (FILTLVL<2 OR (SORCERESS FILTLVL>1))]: %NAME%
 ItemDisplay[(xrg OR urg OR uit OR upk) MAG !ID ILVL>84]: %NAME%
 ItemDisplay[CHEST ELT MAG !ID ILVL>84 (FILTLVL<2 OR (CLVL<75 FILTLVL>2))]: %NAME%
@@ -14533,7 +14538,7 @@ ItemDisplay[SET OR UNI OR CRAFT OR RW]: %NAME%{%NAME%}
 ItemDisplay[(MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%{%NAME%}
 
 //Medium-Specific Failsafes
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR (ces OR 9cs)) MAG !ID FILTLVL<3]: %NAME%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs) MAG !ID FILTLVL<3]: %NAME%{%NAME%}
 
 //SuperStrict-Specific Failsafes
 ItemDisplay[(am2 OR am7 OR amc OR am1 OR am6 OR amb) RARE !ID FILTLVL>2]: %NAME%{%NAME%}
@@ -14544,23 +14549,21 @@ ItemDisplay[DIN PALADIN ELT !INF ETH NMAG !RW (SOCK=0 OR SOCK=4) AR>80 FILTLVL>2
 ItemDisplay[DIN PALADIN ELT !INF ETH NMAG !RW (SOCK=0 OR SOCK=4) RES>19 FILTLVL>2]: %NAME%{%NAME%}
 ItemDisplay[uit !ETH !INF NMAG !RW SOCK=4 FILTLVL>2]: %NAME%{%NAME%}
 
-//LLD-Specific Failsafes
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR (ces OR 9cs)) MAG !ID FILTLVL=4]: %DOT-4B%%PURPLE%*%BLUE%%NAME%%PURPLE%*%BLUE%{%NAME%}
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR (ces OR 9cs)) RARE !ID FILTLVL=4]: %DOT-4B%%YELLOW%%NAME%{%NAME%}
-ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp) MAG !ID FILTLVL=4]: %DOT-4B%%PURPLE%*%BLUE%%NAME%%PURPLE%*%BLUE%{%NAME%}
-ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp) RARE !ID FILTLVL=4]: %DOT-4B%%YELLOW%%NAME%{%NAME%}
-ItemDisplay[EXC STAFF RARE !ID FILTLVL=4]: %DOT-4B%%NAME%{%NAME%}
-ItemDisplay[NORM STAFF RARE !ID FILTLVL=4]: %NAME%{%NAME%}
-ItemDisplay[EXC (STAFF OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) MAG !ID FILTLVL=4]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%{%NAME%}
-ItemDisplay[EXC (STAFF OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) RARE !ID FILTLVL=4]: %GRAY%*%YELLOW%%NAME%%%GRAY%*%YELLOW%{%NAME%}
-ItemDisplay[ci0 MAG !ID FILTLVL=4]: %NAME%{%NAME%}
+//StrictLLD-Specific Failsafes
+ItemDisplay[EXC !ETH (STAFF OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) MAG !ID FILTLVL=4 CLVL>74]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%{%NAME%}
+ItemDisplay[EXC !ETH (STAFF OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) RARE !ID FILTLVL=4 CLVL>74]: %GRAY%*%YELLOW%%NAME%%%GRAY%*%YELLOW%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs) RARE !ID FILTLVL=4 CLVL>74]: %DOT-4B%%NAME%{%NAME%}
+ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs) RARE !ID FILTLVL=4 CLVL>74]: %DOT-4B%%NAME%{%NAME%}
+ItemDisplay[EXC STAFF RARE !ID FILTLVL=4 CLVL>74]: %DOT-4B%%NAME%{%NAME%}
+ItemDisplay[NORM STAFF RARE !ID FILTLVL=4 CLVL>74]: %NAME%{%NAME%}
+ItemDisplay[ci0 MAG !ID FILTLVL=4 CLVL>74]: %NAME%{%NAME%}
 
-//Recipes-Specific Failsafes
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR (ces OR 9cs)) MAG !ID FILTLVL=5]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%{%NAME%}
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR (ces OR 9cs)) RARE !ID FILTLVL=5]: %YELLOW%%NAME%{%NAME%}
-ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp) MAG !ID FILTLVL=5]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%{%NAME%}
-ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp) RARE !ID FILTLVL=5]: %YELLOW%%NAME%{%NAME%}
-ItemDisplay[NMAG !SOCK=1 !(GLOVES OR BOOTS OR BELT) FILTLVL=5]: %NAME%{%NAME%}
+//ShowRecipes-Specific Failsafes
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs) MAG !ID FILTLVL=5 CLVL>74]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs) RARE !ID FILTLVL=5 CLVL>74]: %NAME%{%NAME%}
+ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs) MAG !ID FILTLVL=5 CLVL>74]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%{%NAME%}
+ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs) RARE !ID FILTLVL=5 CLVL>74]: %NAME%{%NAME%}
+ItemDisplay[NMAG !SOCK=1 !(GLOVES OR BOOTS OR BELT) FILTLVL=5 CLVL>74]: %NAME%{%NAME%}
 
 //Filter Level 0 - Inferior Note
 ItemDisplay[(ARMOR OR WEAPON) INF FILTLVL=0]: %NAME%{%GRAY%This is an inferior item.}
