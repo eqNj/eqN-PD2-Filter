@@ -14028,7 +14028,11 @@ ItemDisplay[(7fb OR ame OR ned OR ulb OR utg OR 7tw OR 7qs OR 6bs OR baf OR utp 
 //Low Level Dueling
 ItemDisplay[((flb ILVL>40) OR cst OR (swb ILVL>40) OR (lbb ILVL>40) OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR (kri ILVL>25) OR xap OR bwn OR cap OR (crn ILVL>40) OR (ghm ILVL>40) OR aar OR fld OR stu OR scl OR brs OR spl OR xui OR xuc OR kit OR vgl OR mbt) !ETH UNI !ID]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}%CONTINUE%
 ItemDisplay[(vbt OR vgl OR bwn OR xap OR xml OR lbt) SET !ETH !ID]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}%CONTINUE%
-//ItemDisplay[(cap OR tbl OR dgr OR mbl OR mbt OR lsd OR lbl OR lgl OR ghm OR hbt OR hgl) SET !ETH !ID]: %NAME% %GRAY%(%PURPLE%vLLD%GRAY%){%NAME%}%CONTINUE%
+
+//StrictLLD
+ItemDisplay[FILTLVL=4 ((flb ILVL>40) OR cst OR (swb ILVL>40) OR (lbb ILVL>40) OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR (kri ILVL>25) OR xap OR bwn OR cap OR (crn ILVL>40) OR (ghm ILVL>40) OR aar OR fld OR stu OR scl OR brs OR spl OR xui OR xuc OR kit OR vgl OR mbt) !ETH UNI !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
+ItemDisplay[FILTLVL=4 (vbt OR vgl OR bwn OR xap OR xml OR lbt) SET !ETH !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
+ItemDisplay[FILTLVL=4 (cap OR tbl OR dgr OR mbl OR mbt OR lsd OR lbl OR lgl OR ghm OR hbt OR hgl) SET !ETH !ID]: %NAME% %GRAY%(%PURPLE%vLLD%GRAY%){%NAME%}
 
 //Rainbow Facet
 ItemDisplay[jew UNI !ID]: %BORDER-60%%RED%:%ORANGE%:%YELLOW%:%GREEN%:%BLUE%:%PURPLE%:     %GOLD%%NAME%     %PURPLE%:%BLUE%:%GREEN%:%YELLOW%:%ORANGE%:%RED%:%GOLD%
@@ -14542,17 +14546,18 @@ ItemDisplay[uit !ETH !INF NMAG !RW SOCK=4 FILTLVL>2]: %NAME%{%NAME%}
 //LLD-Specific Failsafes
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR (ces OR 9cs)) MAG !ID FILTLVL=4]: %DOT-4B%%PURPLE%*%BLUE%%NAME%%PURPLE%*%BLUE%{%NAME%}
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR (ces OR 9cs)) RARE !ID FILTLVL=4]: %DOT-4B%%YELLOW%%NAME%{%NAME%}
-ItemDisplay[ETH (xar OR 9kr OR 9bl OR kri OR bld OR xrn OR xh9 OR aar) MAG !ID FILTLVL=4]: %DOT-4B%%PURPLE%*%BLUE%%NAME%%PURPLE%*%BLUE%{%NAME%}
-ItemDisplay[ETH (xar OR 9kr OR 9bl OR kri OR bld OR xrn OR xh9 OR aar) RARE !ID FILTLVL=4]: %DOT-4B%%YELLOW%%NAME%{%NAME%}
+ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR tbt OR xtp) MAG !ID FILTLVL=4]: %DOT-4B%%PURPLE%*%BLUE%%NAME%%PURPLE%*%BLUE%{%NAME%}
+ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR tbt OR xtp) RARE !ID FILTLVL=4]: %DOT-4B%%YELLOW%%NAME%{%NAME%}
 ItemDisplay[EXC STAFF RARE !ID FILTLVL=5]: %DOT-4B%%NAME%{%NAME%}
 ItemDisplay[NORM STAFF RARE !ID FILTLVL=5]: %NAME%{%NAME%}
-ItemDisplay[EXC STAFF MAG !ID FILTLVL=5]: %NAME%{%NAME%}
+ItemDisplay[EXC (STAFF OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) MAG !ID FILTLVL=5]: %GRAY%*%BLUE%%NAME%%%GRAY%*%BLUE%{%NAME%}
+ItemDisplay[EXC (STAFF OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) RARE !ID FILTLVL=5]: %GRAY%*%YELLOW%%NAME%%%GRAY%*%YELLOW%{%NAME%}
 
 //Recipes-Specific Failsafes
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR (ces OR 9cs)) MAG !ID FILTLVL=5]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%{%NAME%}
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR (ces OR 9cs)) RARE !ID FILTLVL=5]: %YELLOW%%NAME%{%NAME%}
-ItemDisplay[ETH (xar OR 9kr OR 9bl OR kri OR bld OR xrn OR xh9 OR aar) MAG !ID FILTLVL=5]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%{%NAME%}
-ItemDisplay[ETH (xar OR 9kr OR 9bl OR kri OR bld OR xrn OR xh9 OR aar) RARE !ID FILTLVL=5]: %YELLOW%%NAME%{%NAME%}
+ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR tbt OR xtp) MAG !ID FILTLVL=5]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%{%NAME%}
+ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR tbt OR xtp) RARE !ID FILTLVL=5]: %YELLOW%%NAME%{%NAME%}
 ItemDisplay[NMAG !SOCK=1 !(GLOVES OR BOOTS OR BELT) FILTLVL=5]: %NAME%{%NAME%}
 
 //Filter Level 0 - Inferior Note
