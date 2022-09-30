@@ -4212,6 +4212,7 @@ ItemDisplay[RARE IAS>0 (STAT214>49 OR RES>9 OR ED>29 OR MAXDMG>7 OR MINDMG>6 OR 
 //----------------------------------------- Shop Hunting Flags -----------------------------------------
 
 //Low Level Dueling Shop Hunting
+ItemDisplay[EXC MAG SHOP FILTLVL=4]: %GREEN%EXCEPTIONAL %WHITE%- %BLUE%%NAME%{%NAME%}
 ItemDisplay[SHOP WEAPON MAG ED>239 (!ETH OR (ETH REPAIR)) LVLREQ<31]: %DOT-9B%%PURPLE%LLD %WHITE%- %DARK_GREEN%%NAME%{%PURPLE%>   %TAN%High ED Weapon   %PURPLE%<%NL%%NAME%}
 ItemDisplay[SHOP SIN MAG ((TABSK49>1 OR CLSK6>0) SK278>1) LVLREQ<31]: %DOT-9B%%PURPLE%LLD %WHITE%- %DARK_GREEN%%NAME%{%PURPLE%>   %TAN%Venom Claw   %PURPLE%<%NL%%NAME%}
 ItemDisplay[SHOP SIN MAG ((TABSK49>1 OR CLSK6>0) SK273>1) LVLREQ<31]: %DOT-9B%%PURPLE%LLD %WHITE%- %DARK_GREEN%%NAME%{%PURPLE%>   %TAN%Mind Blast Claw   %PURPLE%<%NL%%NAME%}
@@ -14563,6 +14564,7 @@ ItemDisplay[EXC STAFF RARE !ID FILTLVL=4]: %DOT-4B%%NAME%{%NAME%}
 ItemDisplay[NORM STAFF RARE !ID FILTLVL=4]: %NAME%{%NAME%}
 ItemDisplay[EXC (STAFF OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) MAG !ID FILTLVL=4]: %GRAY%*%BLUE%%NAME%%%GRAY%*%BLUE%{%NAME%}
 ItemDisplay[EXC (STAFF OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) RARE !ID FILTLVL=4]: %GRAY%*%YELLOW%%NAME%%%GRAY%*%YELLOW%{%NAME%}
+ItemDisplay[ci0 MAG !ID FILTLVL=4]: %NAME%{%NAME%}
 
 //Recipes-Specific Failsafes
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR (ces OR 9cs)) MAG !ID FILTLVL=5]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%{%NAME%}
