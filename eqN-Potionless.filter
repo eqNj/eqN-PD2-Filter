@@ -14098,7 +14098,7 @@ ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (
 
 //Notified
 ItemDisplay[(SHIELD OR CHEST) MAG ETH !ID CRAFTALVL>84]: %DOT-9A%%TIER-2%%GRAY%*%BLUE%%NAME%%GRAY%*
-ItemDisplay[((MACE OR DAGGER OR (tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8) OR (am5 OR ama OR amf)) MAG ETH !ID CRAFTALVL>74 !ID]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
+ItemDisplay[(MACE OR DAGGER OR (tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8) OR (am5 OR ama OR amf)) MAG ETH !ID CRAFTALVL>74 !ID]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[((gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) OR (pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama)) MAG ETH !ID ILVL>65]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(SCEPTER OR SIN OR (am3 OR am8 OR amd OR am4 OR am9 OR ame) OR (spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl)) MAG ETH !ID ILVL>65 FILTLVL<3]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(SCEPTER PALADIN) OR (SIN ASSASSIN) OR ((am3 OR am8 OR amd OR am4 OR am9 OR ame) AMAZON) OR ((spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl) DRUID) MAG ETH !ID ILVL>65 FILTLVL>2]: %DOT-9A%%GRAY%*%BLUE%%NAME%%GRAY%*
