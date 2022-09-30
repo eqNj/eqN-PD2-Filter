@@ -14551,7 +14551,7 @@ ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp) MAG !ID F
 ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp) RARE !ID FILTLVL=4]: %DOT-4B%%YELLOW%%NAME%{%NAME%}
 ItemDisplay[EXC STAFF RARE !ID FILTLVL=4]: %DOT-4B%%NAME%{%NAME%}
 ItemDisplay[NORM STAFF RARE !ID FILTLVL=4]: %NAME%{%NAME%}
-ItemDisplay[EXC (STAFF OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) MAG !ID FILTLVL=4]: %GRAY%*%BLUE%%NAME%%%GRAY%*%BLUE%{%NAME%}
+ItemDisplay[EXC (STAFF OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) MAG !ID FILTLVL=4]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%{%NAME%}
 ItemDisplay[EXC (STAFF OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) RARE !ID FILTLVL=4]: %GRAY%*%YELLOW%%NAME%%%GRAY%*%YELLOW%{%NAME%}
 ItemDisplay[ci0 MAG !ID FILTLVL=4]: %NAME%{%NAME%}
 
