@@ -14418,10 +14418,10 @@ ItemDisplay[NMAG !INF !RW SK153>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%N
 // --- // --- Assassin --- \\ --- \\
 
 // --- Martial Arts
-ItemDisplay[NMAG !INF !RW SK252>2 SIN ((!SOCK=1 (9wb OR 9cs OR ELT)) OR (CLVL<60))]: %NAME%{%NAME%} // Tiger Strike
+ItemDisplay[NMAG !INF !RW SK254>2 SIN ((!SOCK=1 (9wb OR 9cs OR ELT)) OR (CLVL<60))]: %NAME%{%NAME%} // Tiger Strike
 ItemDisplay[NMAG !INF !RW SK255>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Dragon Talon
 ItemDisplay[NMAG !INF !RW SK259>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Fists of Fire
-ItemDisplay[NMAG !INF !RW SK252>2 SIN ((!SOCK=1 (9wb OR 9cs OR ELT)) OR (CLVL<60))]: %NAME%{%NAME%} // Dragon Claw
+ItemDisplay[NMAG !INF !RW SK260>2 SIN ((!SOCK=1 (9wb OR 9cs OR ELT)) OR (CLVL<60))]: %NAME%{%NAME%} // Dragon Claw
 ItemDisplay[NMAG !INF !RW SK265>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Cobra Strike
 ItemDisplay[NMAG !INF !RW SK269>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Claws of Thunder
 ItemDisplay[NMAG !INF !RW SK270>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Dragon Tail
@@ -14444,14 +14444,14 @@ ItemDisplay[NMAG !INF !RW SK279>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR 
 // --- Traps
 ItemDisplay[NMAG !INF !RW SK251>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Fire Blast
 ItemDisplay[NMAG !INF !RW SK256>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Shock Web
-ItemDisplay[NMAG !INF !RW SK252>2 SIN ((!SOCK=1 (9wb OR 9cs OR ELT)) OR (CLVL<60))]: %NAME%{%NAME%} // Blade Sentinel
+ItemDisplay[NMAG !INF !RW SK257>2 SIN ((!SOCK=1 (9wb OR 9cs OR ELT)) OR (CLVL<60))]: %NAME%{%NAME%} // Blade Sentinel
 ItemDisplay[NMAG !INF !RW SK261>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Charged Bolt Sentry
 ItemDisplay[NMAG !INF !RW SK262>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Wake Of Fire
-ItemDisplay[NMAG !INF !RW SK252>2 SIN ((!SOCK=1 (9wb OR 9cs OR ELT)) OR (CLVL<60))]: %NAME%{%NAME%} // Blade Fury
+ItemDisplay[NMAG !INF !RW SK266>2 SIN ((!SOCK=1 (9wb OR 9cs OR ELT)) OR (CLVL<60))]: %NAME%{%NAME%} // Blade Fury
 ItemDisplay[NMAG !INF !RW SK272>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Wake Of Inferno
 ItemDisplay[NMAG !INF !RW SK276>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Death Sentry
 ItemDisplay[NMAG !INF !RW SK271>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Chain Lightning Sentry
-ItemDisplay[NMAG !INF !RW SK252>2 SIN ((!SOCK=1 (9wb OR 9cs OR ELT)) OR (CLVL<60))]: %NAME%{%NAME%} // Blade Shield
+ItemDisplay[NMAG !INF !RW SK277>2 SIN ((!SOCK=1 (9wb OR 9cs OR ELT)) OR (CLVL<60))]: %NAME%{%NAME%} // Blade Shield
 ItemDisplay[NMAG !INF !RW SK366>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Lightning Sentry
 
 // --- // --- Paladin --- \\ --- \\
