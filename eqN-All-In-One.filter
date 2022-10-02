@@ -14617,10 +14617,7 @@ ItemDisplay[DIN PALADIN ELT !INF ETH NMAG !RW (SOCK=0 OR SOCK=4) RES>19]: %NAME%
 ItemDisplay[uit !ETH !INF NMAG !RW SOCK=4]: %NAME%{%NAME%}
 
 //StrictLLD-Specific Failsafes
-ItemDisplay[EXC !ETH (STAFF OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) MAG !ID FILTLVL=4 CLVL>74]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%{%NAME%}
-ItemDisplay[EXC !ETH (STAFF OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) RARE !ID FILTLVL=4 CLVL>74]: %GRAY%*%YELLOW%%NAME%%GRAY%*%YELLOW%{%NAME%}
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs) RARE !ID FILTLVL=4 CLVL>74]: %DOT-4B%%NAME%{%NAME%}
-ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs) RARE !ID FILTLVL=4 CLVL>74]: %DOT-4B%%NAME%{%NAME%}
+ItemDisplay[(STAFF OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) (MAG OR RARE) !ID FILTLVL=4 CLVL>74]: %NAME%{%NAME%}
 ItemDisplay[EXC STAFF RARE !ID FILTLVL=4 CLVL>74]: %DOT-4B%%NAME%{%NAME%}
 ItemDisplay[NORM STAFF RARE !ID FILTLVL=4 CLVL>74]: %NAME%{%NAME%}
 ItemDisplay[ci0 MAG !ID FILTLVL=4 CLVL>74]: %NAME%{%NAME%}
