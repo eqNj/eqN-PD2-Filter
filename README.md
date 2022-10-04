@@ -18,6 +18,8 @@ To those interested: these filters are specially designed to be 100% functional 
 
 ![Filter Levels](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/FilterLevel.jpg)
 
+FYI: You can toggle the filter strictness level, or just switch to the ShowRecipes filter level (as shown above), by holding CTRL + clicking on the PD2 in-game 'Settings' button, then adjusting your filter level under the 'Item' tab.
+
 The Relaxed level of this filter is the basis upon which all levels of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is highly focused on optimizations as you level and slightly more lenient in the endgame by comparison. All levels of this filter share the same optimized leveling experience before reaching character level 75. For more details about all of the different filter levels please read the [levels](https://github.com/eqNj/eqN-PD2-Filter#levels) section of this readme.
 
 This filter doesn't try to make all the decisions for you. You will see things that you may not be inclined to pick up, but it is always reasonable why you're seeing these items if you understand the nuances of itemization in Diablo 2.
