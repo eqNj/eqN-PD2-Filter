@@ -14648,6 +14648,7 @@ ItemDisplay[WAND (RARE OR CRAFT) (SUFFIX=578 OR SUFFIX=579)]: %NAME%%DARK_GREEN%
 
 ItemDisplay[SET OR UNI OR CRAFT OR RW]: %NAME%{%NAME%}
 ItemDisplay[(MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%{%NAME%}
+ItemDisplay[(ARMOR OR WEAPON) NMAG !SOCK=1 !(GLOVES OR BOOTS OR BELT OR THROWING) FILTLVL=5]: %NAME%{%NAME%}
 
 //----------------------------------------- Hiding Items -----------------------------------------
 
