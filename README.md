@@ -18,7 +18,7 @@ To those interested: these filters are specially designed to be 100% functional 
 
 ![Filter Levels](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/FilterLevel.jpg)
 
-FYI: You can toggle the filter strictness level, or just switch to the ShowRecipes filter level (as shown above), by holding CTRL + clicking on the PD2 in-game 'Settings' button, then adjusting your filter level under the 'Item' tab.
+FYI: You can toggle the filter strictness level, or switch to the 'ShowRecipes' filter level, by holding CTRL + clicking on the PD2 in-game 'Settings' button, then adjusting your filter level under the 'Item' tab.
 
 The Relaxed level of this filter is the basis upon which all levels of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is highly focused on optimizations as you level and slightly more lenient in the endgame by comparison. All levels of this filter share the same optimized leveling experience before reaching character level 75. For more details about all of the different filter levels please read the [levels](https://github.com/eqNj/eqN-PD2-Filter#levels) section of this readme.
 
@@ -90,7 +90,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ##### StrictLLD - This is essentially a copy of the SuperStrict filter level, however it will continue to show & even notify when a LLD crafting base drops. This level is designed for late ladder and/or targeted LLD item farming.
 
-##### ShowRecipes - This level shows all crafting and upgrading recipes on any applicable items. It will also show the recommended level for LLD crafting on most LLD crafting bases. This level will show all runes necessary on any socketed non-magic (white) items. This level is not recommended for use while item finding, but just in case it uses SuperStrict as a baseline. It does still show (not notify) all LLD crafting bases, as well as all non-magic (white) items that drop with more than a single socket.
+##### ShowRecipes - This level shows all crafting and upgrading recipes on any applicable items. It will also show the recommended level for LLD crafting on most LLD crafting bases. This level will show all runes necessary for runewords on any socketed non-magic (white) items. This level is not recommended for use while item finding, though it will never hide anything important. This filter level uses SuperStrict as a baseline but it does still show (not notify) all LLD crafting bases, as well as any and all non-magic (white) items that are either socketable or drop with more than a single socket.
 
 ###### The differences between these filters, relative to the Relaxed filter as a baseline, are further described below. All of these filters share the same leveling experience prior to character level 75.
 
