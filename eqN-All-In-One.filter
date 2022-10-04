@@ -5395,7 +5395,6 @@ ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs) RARE !ID FILTLVL=5 CLVL>74]: %NAME%{%NAME%}
 ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs) MAG !ID FILTLVL=5 CLVL>74]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%{%NAME%}
 ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs) RARE !ID FILTLVL=5 CLVL>74]: %NAME%{%NAME%}
-ItemDisplay[NMAG !SOCK=1 !(GLOVES OR BOOTS OR BELT) FILTLVL=5 CLVL>74]: %NAME%{%NAME%}
 
 //Filter Level 0 - Inferior Note
 ItemDisplay[(ARMOR OR WEAPON) INF FILTLVL=0]: %NAME%{%GRAY%This is an inferior item.}
@@ -14638,6 +14637,7 @@ ItemDisplay[WAND (RARE OR CRAFT) (SUFFIX=578 OR SUFFIX=579)]: %NAME%%DARK_GREEN%
 
 ItemDisplay[SET OR UNI OR CRAFT OR RW]: %NAME%{%NAME%}
 ItemDisplay[(MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%{%NAME%}
+ItemDisplay[NMAG !SOCK=1 !(GLOVES OR BOOTS OR BELT OR THROWING) FILTLVL=5]: {%NAME%}
 
 //----------------------------------------- Hiding Items -----------------------------------------
 
