@@ -46,7 +46,7 @@ If an item is non-magic (white) and socketed it will show its possible runewords
 
 If an item is rare, crafted, set, or unique it will show its maximum potential sockets through corruption specifically. 
 
-If an item is rare, crafted, set, or unique and corrupted it will then only show its maximum potential sockets through use of a Larzuk's Puzzlebox specifically.
+If an item is rare, crafted, set, or unique and corrupted it will then only show its maximum potential sockets through use of a Larzuk's Puzzlepiece / Puzzlebox specifically.
 
 Once an item is socketed in any fashion the maximum potential socket information will be removed from the item's description.
 
