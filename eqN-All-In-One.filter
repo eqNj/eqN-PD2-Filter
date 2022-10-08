@@ -191,138 +191,6 @@ ItemDisplay[gpm (CLVL<15 OR FILTLVL=0)]: %DARK_GREEN%:%GRAY%p²%WHITE%{%WHITE%Cho
 ItemDisplay[gps (CLVL<15 OR FILTLVL=0)]: %DARK_GREEN%:%GRAY%p³%WHITE%{%WHITE%Rancid Potion}
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>14]:
 
-//----------------------------------------- Project Diablo 2 & End Game Items -----------------------------------------
-
-//Standard of Heroes
-ItemDisplay[std]: %PX-62%%YELLOW%|%TAN%>%GRAY%:     %GOLD%%NAME%     %GRAY%:%TAN%<%YELLOW%|%GOLD%{%WHITE%+10% Experience%NL%+20% Magic & Gold Find%NL%+20% Monster Density%NL%%GOLD%Cube %WHITE%this with a Map to gain:}
-
-//Project Diablo 2 Items
-ItemDisplay[wss]: %MAP-4B%%NAME%{%RED%Warning%WHITE%: This can brick your item%NL%%WHITE%Use this to %RED%Corrupt %WHITE%items or maps%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
-ItemDisplay[scrb]: %BORDER-62%%YELLOW%|%TAN%>%GRAY%:     %GOLD%%NAME%     %GRAY%:%TAN%<%YELLOW%|%GOLD%{%WHITE%Create a %RED%Dungeon%NL%%GOLD%Cube %WHITE%this with a %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Map:}
-ItemDisplay[lpp]: %BORDER-0B%%YELLOW%|%GRAY%:    %GOLD%%NAME%    %GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%to add a variable amount of %TAN%sockets %WHITE%to it.%NL%%GOLD%Cube %WHITE%this item with a %YELLOW%rare %WHITE%or %ORANGE%crafted %WHITE%weapon or armor}
-ItemDisplay[lbox]: %BORDER-0C%%YELLOW%|%TAN%>%GRAY%:      %GOLD%%NAME%      %GRAY%:%TAN%<%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%to add a variable amount of %TAN%sockets %WHITE%to it.%NL%%GOLD%Cube %WHITE%this item with %DARK_GREEN%any %WHITE%applicable weapon or armor}
-ItemDisplay[lsvl]: %BORDER-9B%%YELLOW%~%PURPLE%|%BLUE%>%GOLD%:          %PURPLE%%NAME%          %GOLD%:%BLUE%<%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Exception: %GOLD%Indestructible %WHITE%or %GREEN%Set %WHITE%items}
-ItemDisplay[llmr]: %BORDER-9B%%YELLOW%~%PURPLE%|%BLUE%>%GOLD%:          %PURPLE%%NAME%          %GOLD%:%BLUE%<%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Once an item is %PURPLE%Mirrored %WHITE%it cannot be modified}
-
-//Map Orbs
-ItemDisplay[imra]: %NAME%{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel %WHITE%+ %ORANGE%Rune >9%NL%%WHITE%Imbue a White Map to %YELLOW%Rare%WHITE%:}
-ItemDisplay[rera]: %NAME%{%YELLOW%Map %WHITE%+ %GOLD%Orb %WHITE%+ Perfect Gem + %ORANGE%Rune >9%NL%%WHITE%Reroll a %YELLOW%Rare %WHITE%Map:}
-ItemDisplay[upma]: %NAME%{%BLUE%Map %WHITE%+ %GOLD%Orb %WHITE%+ %GRAY%@ %WHITE%+ %ORANGE%Rune >9%NL%%WHITE%Imbue a %BLUE%Magic %WHITE%Map to %YELLOW%Rare%WHITE%:}
-ItemDisplay[imma]: %NAME%{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel%NL%%WHITE%Imbue a White Map to %BLUE%Magic%WHITE%:}
-ItemDisplay[scou]: %NAME%{%BLUE%M%WHITE%a%YELLOW%p %WHITE%+ %GOLD%Orb%NL%%WHITE%Imbue a %BLUE%Magic%WHITE%/%YELLOW%Rare %WHITE%Map to White:}
-ItemDisplay[upmp]: %NAME%{%WHITE%3x %BLUE%M%WHITE%a%YELLOW%p %TAN%(%WHITE%Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Orb %WHITE%= Map %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%WHITE%Upgrade Maps to a higher Tier:}
-
-//Project Diablo 2 Maps
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) NMAG]: %WHITE%%NAME%%CONTINUE%
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %BLUE%%NAME%%CONTINUE%
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) RARE]: %YELLOW%%NAME%%CONTINUE%
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %NAME% %GRAY%[%DARK_GREEN%T1%GRAY%]%CONTINUE%
-ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %NAME% %GRAY%[%TAN%T2%GRAY%]%CONTINUE%
-ItemDisplay[(t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %NAME% %GRAY%[%ORANGE%T3%GRAY%]%CONTINUE%
-ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME% %GRAY%[%RED%Dungeon%GRAY%]%CONTINUE%
-ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %WHITE%%NAME% %GRAY%[%PURPLE%PvP%GRAY%]%CONTINUE%
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (!ID OR NMAG)]: %MAP-7F%%NAME%%CONTINUE%
-//Notes
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (RARE OR NMAG)]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
-ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %NAME%{%GRAY%Deaths %WHITE%within are not permanent in %RED%Hardcore%NL%%NL%%TAN%- that they plan their fight in the ring.%NL%There is an old adage about gladiators,}
-//Tier 1 Immunes
-ItemDisplay[t10]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[t11]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Ruins of Viz-jun
-ItemDisplay[t12]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Horazon's Memory
-ItemDisplay[t13]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Bastion Keep
-ItemDisplay[t14]: %NAME%{%RED%Fire %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Royal Crypts
-ItemDisplay[t15]: %NAME%{%YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Sanatorium
-ItemDisplay[t16]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[t17]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[t18]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[t19]: %NAME%{%NAME%}%CONTINUE%
-// Tier 2 Immunes
-ItemDisplay[t20]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[t21]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Phlegethon
-ItemDisplay[t22]: %NAME%{%YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Torajan Jungle
-ItemDisplay[t23]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Arreat Battlefield
-ItemDisplay[t24]: %NAME%{%YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Tomb of Zoltun Kulle
-ItemDisplay[t25]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Sewers of Harrogath
-ItemDisplay[t26]: %NAME%{%RED%Fire %WHITE%/ %BLUE%Cold %WHITE%/ %ORANGE%Magic %WHITE%/ %TAN%Phys %NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Shadows of Westmarch
-ItemDisplay[t27]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[t28]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[t29]: %NAME%{%NAME%}%CONTINUE%
-// Tier 3 Immunes
-ItemDisplay[t30]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[t31]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // River of Blood
-ItemDisplay[t32]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Throne of Insanity
-ItemDisplay[t33]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Reziarfg's Lair
-ItemDisplay[t34]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison %WHITE%/ %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Ancestral Trial
-ItemDisplay[t35]: %NAME%{%NAME%}%CONTINUE% // Blood Moon
-ItemDisplay[t36]: %NAME%{%YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Fall of Caldeum
-ItemDisplay[t37]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Pandemonium Citadel
-ItemDisplay[t38]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Canyon of Sescheron
-ItemDisplay[t39]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Kehjistan Marketplace
-// Tier 4 Immunes
-ItemDisplay[t40]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[t41]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Cathedral of Light
-ItemDisplay[t42]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Plains of Torment
-ItemDisplay[t43]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Sanctuary of Sin
-ItemDisplay[t44]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[t45]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[t46]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[t47]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[t48]: %NAME%{%NAME%}%CONTINUE%
-ItemDisplay[t49]: %NAME%{%NAME%}%CONTINUE%
-//Additional Immunes
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) PREFIX=1569]: %NAME%{%WHITE%Reanimated Immunity: %GREEN%Poison%NL%%NAME%}
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) PREFIX=1565]: %NAME%{%WHITE%Stygian Immunity: %GREEN%Poison%NL%%NAME%}
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) PREFIX=1567]: %NAME%{%WHITE%Vampire Immunity: %BLUE%Cold%NL%%NAME%}
-//Always Show Maps
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%NAME%}
-
-//Essences
-ItemDisplay[tes]: %PX-82%%NAME%{%BLUE%Andariel, Maiden of Anguish %WHITE%& %BLUE%Duriel, Lord of Pain %NL%%GRAY%Manifested By:}
-ItemDisplay[ceh]: %PX-82%%NAME%{%TAN%Mephisto, Lord of Hatred%NL%%GRAY%Manifested By:}
-ItemDisplay[bet]: %PX-82%%NAME%{%RED%Diablo, Lord of Terror%NL%%GRAY%Manifested By:}
-ItemDisplay[fed]: %PX-82%%NAME%{%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Manifested By:}
-
-//Uber Keys
-ItemDisplay[pk1]: %DOT-05%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Destruction%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%Blood Raven %WHITE%& %RED%The Countess%NL%%GRAY%Manifested By:}
-ItemDisplay[pk2]: %DOT-05%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Terror %WHITE%& %ORANGE%Key of Destruction%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%BLUE%Bloodwitch the Wild %WHITE%& %BLUE%The Summoner%NL%%GRAY%Manifested By:}
-ItemDisplay[pk3]: %DOT-05%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Terror%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%PURPLE%Izual the Fallen Angel %WHITE%& %PURPLE%Nihlathak the Necromancer%NL%%GRAY%Manifested By:}
-
-//Organs
-ItemDisplay[mbr]: %MAP-08%%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%ORANGE%{%WHITE%to create a %RED%Pandemonium Talisman%NL%%GOLD%Cube %WHITE%any three %RED%Organs %WHITE%with a %GRAY%Key}
-ItemDisplay[bey]: %MAP-08%%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%ORANGE%{%WHITE%to create a %RED%Pandemonium Talisman%NL%%GOLD%Cube %WHITE%any three %RED%Organs %WHITE%with a %GRAY%Key}
-ItemDisplay[dhn]: %MAP-08%%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%ORANGE%{%WHITE%to create a %RED%Pandemonium Talisman%NL%%GOLD%Cube %WHITE%any three %RED%Organs %WHITE%with a %GRAY%Key}
-
-//Pandemonium Talisman
-ItemDisplay[ubtm]: %MAP-62%%BLACK%|%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%BLACK%|%ORANGE%{%WHITE%Alas, %ORANGE%Uber Tristram %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
-
-//Diablo Clone
-ItemDisplay[dcbl]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Black Soul Stone %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%WHITE%Found throughout %BLUE%Maps of Sanctuary%NL%%WHITE%Those wrought in %RED%Supreme Maleficence%NL%%GRAY%Manifested By:}
-ItemDisplay[dcho]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%The Pandemonium Event%NL%%GRAY%Manifested By:}
-ItemDisplay[dcso]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Black Soul Stone%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%Diablo, Lord of Terror %WHITE%& %DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Manifested By:}
-ItemDisplay[dcma]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%Alas, %ORANGE%Uber Diablo %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
-
-//Annihilus
-ItemDisplay[cm1 UNI ID STAT360=0]: %MAP-62%%NAME%
-ItemDisplay[cm1 UNI ID ALLSK>1]: %MAP-62%%PURPLE%+%RED%%NAME%
-ItemDisplay[cm1 UNI ID STAT360>0]: %MAP-62%%RED%%NAME%
-
-//The Void
-ItemDisplay[rtmf]: %MAP-90%%BLUE%|%PURPLE%:   %ORANGE%%NAME%   %PURPLE%:%BLUE%|%ORANGE%{%WHITE%to create a %ORANGE%Trang-Oul's Jawbone%NL%%WHITE%with any %GOLD%Hellfire Torch%NL%Cube %WHITE%two %ORANGE%Ancient Bone Fragments}
-ItemDisplay[rtmo]: %BORDER-90%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Splinter of the Void %WHITE%& %GOLD%Hellfire Torch%NL%%GOLD%Cube %WHITE%this item with the following:}
-ItemDisplay[rtmv]: %BORDER-90%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Trang-Oul's Jawbone %WHITE%& %GOLD%Hellfire Torch%NL%%GOLD%Cube %WHITE%this item with the following:}
-ItemDisplay[rtma]: %BORDER-97%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%Alas, %ORANGE%Uber Rathma %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
-ItemDisplay[cwss]: %BORDER-9B%%WHITE%:%BLUE%|%PURPLE%:      %RED%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%RED%{%RED%Warning%WHITE%: This can brick your %GOLD%Anni%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
-
-//Uber Ancients
-ItemDisplay[ubaa]: %MAP-80%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom had visions many followed.%NL%Madawac the Guardian from Val Narian.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 1 Maps}
-ItemDisplay[ubab]: %MAP-80%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom found duty and power young.%NL%Talic the Defender from Western Shores.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 2 Maps}
-ItemDisplay[ubac]: %MAP-80%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom ruled with a druid's touch.%NL%Korlic the Protector from Henknoc Jungles.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 3 Maps}
-ItemDisplay[uba]: %BORDER-81%%YELLOW%|%WHITE%:%GOLD%|      %ORANGE%%NAME%      %GOLD%|%WHITE%:%YELLOW%|%ORANGE%{%TAN%whom are to forever watch over the Worldstone.%NL%Come to meet the spirits of mighty barbarians%NL%%NL%%WHITE%Find your courage upon %ORANGE%The Arreat Summit%GRAY%...}
-
-//Wirt's Leg
-ItemDisplay[leg]: %NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
-
 //----------------------------------------- Charms -----------------------------------------
 
 //Unidentified Charms
@@ -381,7 +249,8 @@ ItemDisplay[cm1 !UNI LIFE=15 LVLREQ<31]: %PURPLE%LLD %BLUE%Small Charm of Susten
 //Large Charms
 ItemDisplay[cm2 !UNI ((MANA>19 OR RES>5 OR STAT214>29 OR MAXDMG>3) (LIFE>15 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm2 !UNI (STAT329=3 OR STAT330=3 OR STAT331=3 OR STAT332=3 OR STAT357=3) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm2 !UNI ((STAT329=2 OR STAT330=2 OR STAT331=2 OR STAT332=2 OR STAT357=2) (LIFE<5 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
+ItemDisplay[cm2 !UNI ((STAT329=2 OR STAT330=2 OR STAT331=2 OR STAT332=2 OR STAT357=2) (LIFE>5 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
+ItemDisplay[cm2 !UNI ((AR>29 OR MAXDMG>1) (LIFE>9 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
 ItemDisplay[cm2 !UNI LIFE=15 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 ItemDisplay[cm2 !UNI LIFE>11 (CRES>3 OR FRES>3 OR LRES>3 OR PRES>3 OR AR>9) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 
@@ -435,6 +304,7 @@ ItemDisplay[cm2 !UNI LIFE>11 (CRES>3 OR FRES>3 OR LRES>3 OR PRES>3 OR AR>9) LVLR
 
 //Grand Charms
 ItemDisplay[cm3 !UNI ((MANA>30 OR RES>9 OR STAT214>43 OR MAXDMG>6 OR AR>79) (LIFE>17 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm3 !UNI ((RES>7 OR MAXDMG>3 OR AR>39) (LIFE>9 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
 ItemDisplay[cm3 !UNI FHR>0 (AR>19 OR CRES>11 OR FRES>11 OR LRES>11 OR PRES>11 OR RES>4) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 
 //ItemDisplay[cm3 !UNI (MAXDMG>5 LIFE>0)]: %TAN%Max Dmg %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
@@ -634,9 +504,140 @@ ItemDisplay[RUNE>25 QTY>1]: %BORDER-68%%ORANGE%]%DARK_GREEN%:%ORANGE%[          
 //Show All Stack Quantities >1
 ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk OR aqv OR cqv OR RUNE=15 OR RUNE=18 OR RUNE=19 OR RUNE>19) QTY>1]: %NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
 
-//----------------------------------------- Stack Sizes -----------------------------------------
+//----------------------------------------- Project Diablo 2 & End Game Items -----------------------------------------
 
+//Jewel Fragments
 ItemDisplay[jewf]: %PURPLE%~ %BLUE%%NAME% %PURPLE%~%BLUE%{%WHITE%Functions identical to %BLUE%Jewels %WHITE%for %ORANGE%Recipes%NL%%NL%%TAN%Shatter to soot, component of creation.}
+
+//Standard of Heroes
+ItemDisplay[std]: %PX-62%%YELLOW%|%TAN%>%GRAY%:     %GOLD%%NAME%     %GRAY%:%TAN%<%YELLOW%|%GOLD%{%WHITE%+10% Experience%NL%+20% Magic & Gold Find%NL%+20% Monster Density%NL%%GOLD%Cube %WHITE%this with a Map to gain:}
+
+//Project Diablo 2 Items
+ItemDisplay[wss]: %MAP-4B%%NAME%{%RED%Warning%WHITE%: This can brick your item%NL%%WHITE%Use this to %RED%Corrupt %WHITE%items or maps%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
+ItemDisplay[scrb]: %BORDER-62%%YELLOW%|%TAN%>%GRAY%:     %GOLD%%NAME%     %GRAY%:%TAN%<%YELLOW%|%GOLD%{%WHITE%Create a %RED%Dungeon%NL%%GOLD%Cube %WHITE%this with a %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Map:}
+ItemDisplay[lpp]: %BORDER-0B%%YELLOW%|%GRAY%:    %GOLD%%NAME%    %GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%to add a variable amount of %TAN%sockets %WHITE%to it.%NL%%GOLD%Cube %WHITE%this item with a %YELLOW%rare %WHITE%or %ORANGE%crafted %WHITE%weapon or armor}
+ItemDisplay[lbox]: %BORDER-0C%%YELLOW%|%TAN%>%GRAY%:      %GOLD%%NAME%      %GRAY%:%TAN%<%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%to add a variable amount of %TAN%sockets %WHITE%to it.%NL%%GOLD%Cube %WHITE%this item with %DARK_GREEN%any %WHITE%applicable weapon or armor}
+ItemDisplay[lsvl]: %BORDER-9B%%YELLOW%~%PURPLE%|%BLUE%>%GOLD%:          %PURPLE%%NAME%          %GOLD%:%BLUE%<%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Exception: %GOLD%Indestructible %WHITE%or %GREEN%Set %WHITE%items}
+ItemDisplay[llmr]: %BORDER-9B%%YELLOW%~%PURPLE%|%BLUE%>%GOLD%:          %PURPLE%%NAME%          %GOLD%:%BLUE%<%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Once an item is %PURPLE%Mirrored %WHITE%it cannot be modified}
+
+//Map Orbs
+ItemDisplay[imra]: %NAME%{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel %WHITE%+ %ORANGE%Rune >9%NL%%WHITE%Imbue a White Map to %YELLOW%Rare%WHITE%:}
+ItemDisplay[rera]: %NAME%{%YELLOW%Map %WHITE%+ %GOLD%Orb %WHITE%+ Perfect Gem + %ORANGE%Rune >9%NL%%WHITE%Reroll a %YELLOW%Rare %WHITE%Map:}
+ItemDisplay[upma]: %NAME%{%BLUE%Map %WHITE%+ %GOLD%Orb %WHITE%+ %GRAY%@ %WHITE%+ %ORANGE%Rune >9%NL%%WHITE%Imbue a %BLUE%Magic %WHITE%Map to %YELLOW%Rare%WHITE%:}
+ItemDisplay[imma]: %NAME%{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel%NL%%WHITE%Imbue a White Map to %BLUE%Magic%WHITE%:}
+ItemDisplay[scou]: %NAME%{%BLUE%M%WHITE%a%YELLOW%p %WHITE%+ %GOLD%Orb%NL%%WHITE%Imbue a %BLUE%Magic%WHITE%/%YELLOW%Rare %WHITE%Map to White:}
+ItemDisplay[upmp]: %NAME%{%WHITE%3x %BLUE%M%WHITE%a%YELLOW%p %TAN%(%WHITE%Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Orb %WHITE%= Map %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%WHITE%Upgrade Maps to a higher Tier:}
+
+//Project Diablo 2 Maps
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) NMAG]: %WHITE%%NAME%%CONTINUE%
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %BLUE%%NAME%%CONTINUE%
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) RARE]: %YELLOW%%NAME%%CONTINUE%
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %NAME% %GRAY%[%DARK_GREEN%T1%GRAY%]%CONTINUE%
+ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %NAME% %GRAY%[%TAN%T2%GRAY%]%CONTINUE%
+ItemDisplay[(t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %NAME% %GRAY%[%ORANGE%T3%GRAY%]%CONTINUE%
+ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME% %GRAY%[%RED%Dungeon%GRAY%]%CONTINUE%
+ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %WHITE%%NAME% %GRAY%[%PURPLE%PvP%GRAY%]%CONTINUE%
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (!ID OR NMAG)]: %MAP-7F%%NAME%%CONTINUE%
+//Notes
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (RARE OR NMAG)]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
+ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %NAME%{%GRAY%Deaths %WHITE%within are not permanent in %RED%Hardcore%NL%%NL%%TAN%- that they plan their fight in the ring.%NL%There is an old adage about gladiators,}
+//Tier 1 Immunes
+ItemDisplay[t10]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t11]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Ruins of Viz-jun
+ItemDisplay[t12]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Horazon's Memory
+ItemDisplay[t13]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Bastion Keep
+ItemDisplay[t14]: %NAME%{%RED%Fire %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Royal Crypts
+ItemDisplay[t15]: %NAME%{%YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Sanatorium
+ItemDisplay[t16]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t17]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t18]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t19]: %NAME%{%NAME%}%CONTINUE%
+// Tier 2 Immunes
+ItemDisplay[t20]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t21]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Phlegethon
+ItemDisplay[t22]: %NAME%{%YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Torajan Jungle
+ItemDisplay[t23]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Arreat Battlefield
+ItemDisplay[t24]: %NAME%{%YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Tomb of Zoltun Kulle
+ItemDisplay[t25]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Sewers of Harrogath
+ItemDisplay[t26]: %NAME%{%RED%Fire %WHITE%/ %BLUE%Cold %WHITE%/ %ORANGE%Magic %WHITE%/ %TAN%Phys %NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Shadows of Westmarch
+ItemDisplay[t27]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t28]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t29]: %NAME%{%NAME%}%CONTINUE%
+// Tier 3 Immunes
+ItemDisplay[t30]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t31]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // River of Blood
+ItemDisplay[t32]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Throne of Insanity
+ItemDisplay[t33]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Reziarfg's Lair
+ItemDisplay[t34]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison %WHITE%/ %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Ancestral Trial
+ItemDisplay[t35]: %NAME%{%NAME%}%CONTINUE% // Blood Moon
+ItemDisplay[t36]: %NAME%{%YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Fall of Caldeum
+ItemDisplay[t37]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison %WHITE%/ %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Pandemonium Citadel
+ItemDisplay[t38]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %BLUE%Cold %WHITE%/ %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Canyon of Sescheron
+ItemDisplay[t39]: %NAME%{%RED%Fire %WHITE%/ %YELLOW%Light %WHITE%/ %GREEN%Poison %WHITE%/ %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Kehjistan Marketplace
+// Tier 4 Immunes
+ItemDisplay[t40]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t41]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Cathedral of Light
+ItemDisplay[t42]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Plains of Torment
+ItemDisplay[t43]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Sanctuary of Sin
+ItemDisplay[t44]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t45]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t46]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t47]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t48]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t49]: %NAME%{%NAME%}%CONTINUE%
+//Additional Immunes
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) PREFIX=1569]: %NAME%{%WHITE%Reanimated Immunity: %GREEN%Poison%NL%%NAME%}
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) PREFIX=1565]: %NAME%{%WHITE%Stygian Immunity: %GREEN%Poison%NL%%NAME%}
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) PREFIX=1567]: %NAME%{%WHITE%Vampire Immunity: %BLUE%Cold%NL%%NAME%}
+//Always Show Maps
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%NAME%}
+
+//Essences
+ItemDisplay[tes]: %PX-82%%NAME%{%BLUE%Andariel, Maiden of Anguish %WHITE%& %BLUE%Duriel, Lord of Pain %NL%%GRAY%Manifested By:}
+ItemDisplay[ceh]: %PX-82%%NAME%{%TAN%Mephisto, Lord of Hatred%NL%%GRAY%Manifested By:}
+ItemDisplay[bet]: %PX-82%%NAME%{%RED%Diablo, Lord of Terror%NL%%GRAY%Manifested By:}
+ItemDisplay[fed]: %PX-82%%NAME%{%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Manifested By:}
+
+//Uber Keys
+ItemDisplay[pk1]: %DOT-05%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Destruction%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%Blood Raven %WHITE%& %RED%The Countess%NL%%GRAY%Manifested By:}
+ItemDisplay[pk2]: %DOT-05%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Terror %WHITE%& %ORANGE%Key of Destruction%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%BLUE%Bloodwitch the Wild %WHITE%& %BLUE%The Summoner%NL%%GRAY%Manifested By:}
+ItemDisplay[pk3]: %DOT-05%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Terror%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%PURPLE%Izual the Fallen Angel %WHITE%& %PURPLE%Nihlathak the Necromancer%NL%%GRAY%Manifested By:}
+
+//Organs
+ItemDisplay[mbr]: %MAP-08%%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%ORANGE%{%WHITE%to create a %RED%Pandemonium Talisman%NL%%GOLD%Cube %WHITE%any three %RED%Organs %WHITE%with a %GRAY%Key}
+ItemDisplay[bey]: %MAP-08%%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%ORANGE%{%WHITE%to create a %RED%Pandemonium Talisman%NL%%GOLD%Cube %WHITE%any three %RED%Organs %WHITE%with a %GRAY%Key}
+ItemDisplay[dhn]: %MAP-08%%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%ORANGE%{%WHITE%to create a %RED%Pandemonium Talisman%NL%%GOLD%Cube %WHITE%any three %RED%Organs %WHITE%with a %GRAY%Key}
+
+//Pandemonium Talisman
+ItemDisplay[ubtm]: %MAP-62%%BLACK%|%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%BLACK%|%ORANGE%{%WHITE%Alas, %ORANGE%Uber Tristram %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
+
+//Diablo Clone
+ItemDisplay[dcbl]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Black Soul Stone %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%WHITE%Found throughout %BLUE%Maps of Sanctuary%NL%%WHITE%Those wrought in %RED%Supreme Maleficence%NL%%GRAY%Manifested By:}
+ItemDisplay[dcho]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%The Pandemonium Event%NL%%GRAY%Manifested By:}
+ItemDisplay[dcso]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Black Soul Stone%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%Diablo, Lord of Terror %WHITE%& %DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Manifested By:}
+ItemDisplay[dcma]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%Alas, %ORANGE%Uber Diablo %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
+
+//Annihilus
+ItemDisplay[cm1 UNI ID STAT360=0]: %MAP-62%%NAME%
+ItemDisplay[cm1 UNI ID ALLSK>1]: %MAP-62%%PURPLE%+%RED%%NAME%
+ItemDisplay[cm1 UNI ID STAT360>0]: %MAP-62%%RED%%NAME%
+
+//The Void
+ItemDisplay[rtmf]: %MAP-90%%BLUE%|%PURPLE%:   %ORANGE%%NAME%   %PURPLE%:%BLUE%|%ORANGE%{%WHITE%to create a %ORANGE%Trang-Oul's Jawbone%NL%%WHITE%with any %GOLD%Hellfire Torch%NL%Cube %WHITE%two %ORANGE%Ancient Bone Fragments}
+ItemDisplay[rtmo]: %BORDER-90%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Splinter of the Void %WHITE%& %GOLD%Hellfire Torch%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[rtmv]: %BORDER-90%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Trang-Oul's Jawbone %WHITE%& %GOLD%Hellfire Torch%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[rtma]: %BORDER-97%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%Alas, %ORANGE%Uber Rathma %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
+ItemDisplay[cwss]: %BORDER-9B%%WHITE%:%BLUE%|%PURPLE%:      %RED%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%RED%{%RED%Warning%WHITE%: This can brick your %GOLD%Anni%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
+
+//Uber Ancients
+ItemDisplay[ubaa]: %MAP-80%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom had visions many followed.%NL%Madawac the Guardian from Val Narian.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 1 Maps}
+ItemDisplay[ubab]: %MAP-80%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom found duty and power young.%NL%Talic the Defender from Western Shores.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 2 Maps}
+ItemDisplay[ubac]: %MAP-80%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom ruled with a druid's touch.%NL%Korlic the Protector from Henknoc Jungles.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 3 Maps}
+ItemDisplay[uba]: %BORDER-81%%YELLOW%|%WHITE%:%GOLD%|      %ORANGE%%NAME%      %GOLD%|%WHITE%:%YELLOW%|%ORANGE%{%TAN%whom are to forever watch over the Worldstone.%NL%Come to meet the spirits of mighty barbarians%NL%%NL%%WHITE%Find your courage upon %ORANGE%The Arreat Summit%GRAY%...}
+
+//Wirt's Leg
+ItemDisplay[leg]: %NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
 
 //----------------------------------------- Notes on Socketable Items -----------------------------------------
 
@@ -698,8 +699,11 @@ ItemDisplay[jew RARE ID]: %NAME%{%GOLD%Cube %WHITE%+ %GRAY%Key %WHITE%to create 
 
 //Low Level Dueling Magic Jewel Notes
 ItemDisplay[MAG LVLREQ<10 (ED>14 OR AR>19 OR CRES>11 OR FRES>11 OR LRES>11) (MAXDMG>5 OR MINDMG>3 OR STR>3 OR DEX>3 OR LIFE>5 OR STAT91=-15) jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 15%+ Enhanced Damage, 20+ AR, or 12%+ Cold, Fire, or Light Resist with 6+ Maximum Damage, 4+ Minimum Damage, 4+ Strength, 4+ Dexterity, 6+ Life, or -15% Requirements
-ItemDisplay[MAG LVLREQ<10 MAXDMG>4 MINDMG>3 jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 5+ Maximum Damage with 4+ Minimum Damage 
+ItemDisplay[MAG LVLREQ<10 MAXDMG>4 MINDMG>2 jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 5+ Maximum Damage with 3+ Minimum Damage 
 ItemDisplay[MAG LVLREQ<10 (MAXDMG>8 OR MINDMG>4) jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 9+ Maximum Damage or 5+ Minimum Damage 
+ItemDisplay[MAG LVLREQ<19 (ED>14 OR AR>39 OR CRES>19 OR FRES>19 OR LRES>19 OR RES>7) (MAXDMG>7 OR MINDMG>3 OR STR>3 OR DEX>3 OR LIFE>5 OR STAT91=-15) jew]: %NAME%%BLUE%{%TAN%Level 18 Dueling Usable} // 15%+ Enhanced Damage, 40+ AR, or 20%+ Cold, Fire, or Light Resist with 8+ Maximum Damage, 4+ Minimum Damage, 4+ Strength, 4+ Dexterity, 6+ Life, or -15% Requirements
+ItemDisplay[MAG LVLREQ<19 MAXDMG>7 MINDMG>2 jew]: %NAME%%BLUE%{%TAN%Level 18 Dueling Usable} // 8+ Maximum Damage with 3+ Minimum Damage 
+ItemDisplay[MAG LVLREQ<10 (MAXDMG>13 OR MINDMG>7) jew]: %NAME%%BLUE%{%TAN%Level 18 Dueling Usable} // 14+ Maximum Damage or 8+ Minimum Damage
 ItemDisplay[MAG LVLREQ<31 ED>14 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 15%+ Enhanced Damage
 ItemDisplay[MAG LVLREQ<31 MAXDMG>14 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 15+ Maximum Damage
 ItemDisplay[MAG LVLREQ<31 MINDMG>13 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 14+ Minimum Damage
@@ -710,8 +714,11 @@ ItemDisplay[MAG LVLREQ<31 (RES>7 OR ED>14 OR MINDMG>6 OR MANA>14 OR STAT214>34) 
 
 //Low Level Dueling Rare Jewel Notes
 ItemDisplay[RARE LVLREQ<10 (ED>14 OR AR>19 OR CRES>11 OR FRES>11 OR LRES>11) (MAXDMG>5 OR MINDMG>3 OR STR>3 OR DEX>3 OR LIFE>5 OR STAT91=-15) jew]: %NAME%%YELLOW%{%TAN%Level 9 Dueling Usable} // 15%+ Enhanced Damage, 20+ AR, or 12%+ Cold, Fire, or Light Resist with 6+ Maximum Damage, 4+ Minimum Damage, 4+ Strength, 4+ Dexterity, 6+ Life, or -15% Requirements
-ItemDisplay[RARE LVLREQ<10 MAXDMG>4 MINDMG>3 jew]: %NAME%%YELLOW%{%TAN%Level 9 Dueling Usable} // 5+ Maximum Damage with 4+ Minimum Damage 
+ItemDisplay[RARE LVLREQ<10 MAXDMG>4 MINDMG>2 jew]: %NAME%%YELLOW%{%TAN%Level 9 Dueling Usable} // 5+ Maximum Damage with 3+ Minimum Damage 
 ItemDisplay[RARE LVLREQ<10 (MAXDMG>8 OR MINDMG>4) jew]: %NAME%%YELLOW%{%TAN%Level 9 Dueling Usable} // 9+ Maximum Damage or 5+ Minimum Damage 
+ItemDisplay[RARE LVLREQ<19 (ED>14 OR AR>39 OR CRES>19 OR FRES>19 OR LRES>19 OR RES>7) (MAXDMG>7 OR MINDMG>3 OR STR>3 OR DEX>3 OR LIFE>5 OR STAT91=-15) jew]: %NAME%%YELLOW%{%TAN%Level 18 Dueling Usable} // 15%+ Enhanced Damage, 40+ AR, or 20%+ Cold, Fire, or Light Resist with 8+ Maximum Damage, 4+ Minimum Damage, 4+ Strength, 4+ Dexterity, 6+ Life, or -15% Requirements
+ItemDisplay[RARE LVLREQ<19 MAXDMG>7 MINDMG>2 jew]: %NAME%%YELLOW%{%TAN%Level 18 Dueling Usable} // 8+ Maximum Damage with 3+ Minimum Damage 
+ItemDisplay[RARE LVLREQ<10 (MAXDMG>13 OR MINDMG>7) jew]: %NAME%%YELLOW%{%TAN%Level 18 Dueling Usable} // 14+ Maximum Damage or 8+ Minimum Damage
 ItemDisplay[RARE LVLREQ<31 ED>14 (RES>7 OR MAXDMG>7 OR MINDMG>6 OR MANA>14 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 15%+ Enhanced Damage with 10%+ All Resist, 8+ Maximum Damage, 7+ Minimum Damage, 15+ Mana, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy
 ItemDisplay[RARE LVLREQ<31 MAXDMG>8 (STR>4 OR DEX>5) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 9+ Maximum Damage with 5+ Strength or 6+ Dexterity
 ItemDisplay[RARE LVLREQ<31 STR>4 DEX>5 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 5+ Strength with 6+ Dexterity
