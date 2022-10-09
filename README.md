@@ -12,9 +12,9 @@ If ever so inclined, you can support my efforts by donating on [PayPal](https://
 
 The version known as 'eqN-All-In-One' in the game launcher includes all other past versions of the filter, adjustable using the in-game settings for "filter level". 
 
-The version known as 'eqN-Potionless' is the same as "eqN-All-In-One", however it hides Super/Large Health and Mana potions after character level 75 at all levels.
+The version known as 'eqN-Potionless' is the same as 'eqN-All-In-One', however it hides Super/Large Health and Mana potions after character level 75 at all levels.
 
-To those interested: these filters are specially designed to be 100% functional with the in-game filter level setting "Show All Items" and will apply all filter aesthetic (item name and description) effects to every item.
+To those interested: these filters are specially designed to be 100% functional with the in-game filter level setting 'Show All Items' and will apply all filter aesthetic (item name and description) effects to every item.
 
 ![Filter Levels](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/FilterLevel.jpg)
 
