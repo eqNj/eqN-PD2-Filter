@@ -5044,7 +5044,7 @@ ItemDisplay[tow !INF !ETH NMAG !RW (SOCK=0 OR SOCK=3) (FILTLVL<3 OR (CLVL<75 FIL
 // --- // --- NMAG WEAPONS --- \\ --- \\
 
 //Superior + Ethereal Failsafe
-ItemDisplay[WEAPON !THROWING !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN ELT NMAG !INF !RW !SOCK=1 !(SOCK=2 2H) ETH ED>9]: %DOT-D6%%NAME%{%NAME%} // All Useful Ethereal Weapons With 10%+ Enhanced Damage
+ItemDisplay[WEAPON !THROWING !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN ELT NMAG !INF !RW !SOCK=1 !(SOCK=2 2H) ETH ED>3]: %DOT-D6%%NAME%{%NAME%} // All Useful Ethereal Weapons With 10%+ Enhanced Damage
 
 //Bows/Crossbows
 ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=0 OR SOCK=4 OR SOCK=5) (FILTLVL<3 OR (ED>3 FILTLVL>2))]: %DOT-D6%%NAME%{%NAME%} // 0 / 4 / 5 Socket Elite Amazon Bows
