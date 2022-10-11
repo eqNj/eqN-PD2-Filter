@@ -5225,9 +5225,9 @@ ItemDisplay[NMAG !INF !RW SK235>2 DRU (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} //
 ItemDisplay[NMAG !INF !RW SK240>2 (DRU OR MACE) ((!SOCK=1) OR (CLVL<60))]: %NAME%{%NAME%} // Twister
 ItemDisplay[NMAG !INF !RW SK244>2 (DRU OR MACE) ((!SOCK=1) OR (CLVL<60))]: %NAME%{%NAME%} // Volcano
 ItemDisplay[NMAG !INF !RW SK245>2 (DRU OR MACE) ((!SOCK=1) OR (CLVL<60))]: %NAME%{%NAME%} // Tornado
-ItemDisplay[NMAG !INF !RW SK250>2 (DRU ((!SOCK=1) OR (CLVL<60))]: %NAME%{%NAME%} // Hurricane
-ItemDisplay[NMAG !INF !RW SK249>2 (DRU ((!SOCK=1) OR (CLVL<60))]: %NAME%{%NAME%} // Armageddon
-ItemDisplay[NMAG !INF !RW SK370>2 (DRU ((!SOCK=1) OR (CLVL<60))]: %NAME%{%NAME%} // Gust
+ItemDisplay[NMAG !INF !RW SK250>2 (DRU (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Hurricane
+ItemDisplay[NMAG !INF !RW SK249>2 (DRU (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Armageddon
+ItemDisplay[NMAG !INF !RW SK370>2 (DRU (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Gust
 
 // --- Shape Shifting
 ItemDisplay[NMAG !INF !RW SK223>2 (DRU OR MACE) ((!SOCK=1 !((NORM OR EXC) MACE)) OR (CLVL<60))]: %NAME%{%NAME%} // Werewolf
