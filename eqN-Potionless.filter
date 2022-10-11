@@ -613,7 +613,7 @@ ItemDisplay[fed]: %PX-82%%NAME%{%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%M
 //Uber Keys
 ItemDisplay[pk1]: %DOT-05%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Destruction%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%Blood Raven %WHITE%& %RED%The Countess%NL%%GRAY%Manifested By:}
 ItemDisplay[pk2]: %DOT-05%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Terror %WHITE%& %ORANGE%Key of Destruction%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%BLUE%Bloodwitch the Wild %WHITE%& %BLUE%The Summoner%NL%%GRAY%Manifested By:}
-ItemDisplay[pk3]: %DOT-05%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Terror%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%PURPLE%Izual the Fallen Angel %WHITE%& %PURPLE%Nihlathak the Necromancer%NL%%GRAY%Manifested By:}
+ItemDisplay[pk3]: %DOT-05%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Terror%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%PURPLE%Izual the Fallen %WHITE%& %PURPLE%Nihlathak the Necromancer%NL%%GRAY%Manifested By:}
 
 //Organs
 ItemDisplay[mbr]: %MAP-08%%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%ORANGE%{%WHITE%to create a %RED%Pandemonium Talisman%NL%%GOLD%Cube %WHITE%any three %RED%Organs %WHITE%with a %GRAY%Key}

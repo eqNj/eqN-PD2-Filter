@@ -602,7 +602,7 @@ ItemDisplay[fed]: %PX-82%%NAME%{%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%M
 //Uber Keys
 ItemDisplay[pk1]: %DOT-05%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Destruction%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%Blood Raven %WHITE%& %RED%The Countess%NL%%GRAY%Manifested By:}
 ItemDisplay[pk2]: %DOT-05%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Terror %WHITE%& %ORANGE%Key of Destruction%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%BLUE%Bloodwitch the Wild %WHITE%& %BLUE%The Summoner%NL%%GRAY%Manifested By:}
-ItemDisplay[pk3]: %DOT-05%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Terror%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%PURPLE%Izual the Fallen Angel %WHITE%& %PURPLE%Nihlathak the Necromancer%NL%%GRAY%Manifested By:}
+ItemDisplay[pk3]: %DOT-05%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Terror%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%PURPLE%Izual the Fallen %WHITE%& %PURPLE%Nihlathak the Necromancer%NL%%GRAY%Manifested By:}
 
 //Organs
 ItemDisplay[mbr]: %MAP-08%%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%ORANGE%{%WHITE%to create a %RED%Pandemonium Talisman%NL%%GOLD%Cube %WHITE%any three %RED%Organs %WHITE%with a %GRAY%Key}
@@ -5257,25 +5257,25 @@ ItemDisplay[NMAG !INF !RW SK154>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} //
 //ItemDisplay[NMAG !INF !RW SK155>2 BAR (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Battle Command
 
 // --- Combat Skills
-ItemDisplay[NMAG !INF !RW SK126>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // Bash
-//ItemDisplay[NMAG !INF !RW SK132>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // Leap
-ItemDisplay[NMAG !INF !RW SK133>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // Double Swing
-//ItemDisplay[NMAG !INF !RW SK139>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // Stun
-ItemDisplay[NMAG !INF !RW SK140>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // Double Throw
-ItemDisplay[NMAG !INF !RW SK143>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // Leap Attack
-ItemDisplay[NMAG !INF !RW SK144>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // Concentrate
-ItemDisplay[NMAG !INF !RW SK147>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // Frenzy
-ItemDisplay[NMAG !INF !RW SK151>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // Whirlwind
-ItemDisplay[NMAG !INF !RW SK152>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // Berserk
+ItemDisplay[NMAG !INF !RW SK126>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // Bash
+//ItemDisplay[NMAG !INF !RW SK132>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // Leap
+ItemDisplay[NMAG !INF !RW SK133>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // Double Swing
+//ItemDisplay[NMAG !INF !RW SK139>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // Stun
+ItemDisplay[NMAG !INF !RW SK140>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // Double Throw
+ItemDisplay[NMAG !INF !RW SK143>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // Leap Attack
+ItemDisplay[NMAG !INF !RW SK144>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // Concentrate
+ItemDisplay[NMAG !INF !RW SK147>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // Frenzy
+ItemDisplay[NMAG !INF !RW SK151>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // Whirlwind
+ItemDisplay[NMAG !INF !RW SK152>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // Berserk
 
 // --- Combat Masteries
-ItemDisplay[NMAG !INF !RW SK128>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // General Mastery
-ItemDisplay[NMAG !INF !RW SK134>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // Polearm and Spear Mastery
-ItemDisplay[NMAG !INF !RW SK135>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // Throwing Mastery
-ItemDisplay[NMAG !INF !RW SK141>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // Combat Reflexes
-ItemDisplay[NMAG !INF !RW SK145>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // Iron Skin
-ItemDisplay[NMAG !INF !RW SK148>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // Increased Speed
-ItemDisplay[NMAG !INF !RW SK153>2 BAR ((!SOCK=1 !(NORM ILVL<26)) OR (CLVL<60))]: %NAME%{%NAME%} // Natural Resistance
+ItemDisplay[NMAG !INF !RW SK128>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // General Mastery
+ItemDisplay[NMAG !INF !RW SK134>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // Polearm and Spear Mastery
+ItemDisplay[NMAG !INF !RW SK135>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // Throwing Mastery
+ItemDisplay[NMAG !INF !RW SK141>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // Combat Reflexes
+ItemDisplay[NMAG !INF !RW SK145>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // Iron Skin
+ItemDisplay[NMAG !INF !RW SK148>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // Increased Speed
+ItemDisplay[NMAG !INF !RW SK153>2 BAR ((!SOCK=1 !NORM) OR (CLVL<60))]: %NAME%{%NAME%} // Natural Resistance
 
 // --- // --- Assassin --- \\ --- \\
 
