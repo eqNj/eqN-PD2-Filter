@@ -185,7 +185,7 @@ ItemDisplay[(vps OR wms OR yps OR tsc OR isc) FILTLVL=0]: %NAME%{%NAME%}
 ItemDisplay[(vps OR wms OR yps OR tsc OR isc) CLVL>14]: {%NAME%}
 ItemDisplay[rkey]: %BORDER-0A%%GOLD%|%TAN%:    %GOLD%%NAME%    %TAN%:%GOLD%|{%TAN%will open a very heavy door.%NL%A very little key}
 ItemDisplay[key (CLVL<10 OR FILTLVL=0)]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
-ItemDisplay[key CLVL>10 SHOP]: {%TAN%Crafting recipes will show on magic items and on perfect gems.%NL%Use 'ShowRecipes' to see crafting and upgrading recipes.%NL%These are several filter strictness level settings available.%NL%%DARK_GREEN%eqN's Note:}
+ItemDisplay[key CLVL>10 SHOP]: {%TAN%Crafting recipes will show on magic items and on perfect gems.%NL%Use 'ShowRecipes' to see crafting and upgrading recipes.%NL%There are several filter strictness level settings available.%NL%%DARK_GREEN%eqN's Note:}
 ItemDisplay[key CLVL>10]: {%TAN%The key is in the craft.}
 
 //NMAG Arrows & Bolts
