@@ -52,9 +52,9 @@ Once an item is socketed in any fashion the maximum potential socket information
 
 ![Crafting Ring](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Craft.jpg)
 
-All items will show any recipes possible, as applicable, when using the 'ShowRecipes' filter level. They will use a color-coded symbol (@) matching their respective perfect gem color within the recipe, as seen above.
+All items will show recipes possible, as applicable, when using the 'ShowRecipes' filter level. They will use a color-coded symbol (@) matching their respective perfect gem color within the recipe, as seen above.
 
-Recipes will show up once relevant as your character progresses or when using the appropriate filter level. I.E.: Non-magic (white) items will show their socketing recipe. Magic and rare items will show all possible crafting recipes on the 'ShowRecipes' filter level. Rare, crafted, set, and unique items will show possible upgrade recipes if any are available.
+Recipes will begin to be available once relevant as your character progresses or when using the appropriate filter level. I.E.: Non-magic (white) items will show their socketing recipe. Magic items and perfect gems will show crafting recipes on the 'ShowRecipes' filter level. Rare, crafted, set, and unique items will show possible upgrade recipes if any are available.
 
 Specifically, socketing recipes will show at item level 21+ (or earlier on any +3 skills items) on all filter levels. Upgrading recipes will show at item level 13+ and crafting recipes will show at all item levels (when on the 'ShowRecipes' filter level).
 
@@ -90,7 +90,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ##### StrictLLD - This is essentially a copy of the SuperStrict filter level, however it will continue to show & even notify when a LLD crafting base drops. This level is designed for late ladder and/or targeted LLD item farming.
 
-##### ShowRecipes - This level shows all crafting and upgrading recipes on any applicable items. It will also show the recommended level for LLD crafting on most LLD crafting bases. This level will show all runes necessary for runewords on any socketed non-magic (white) items. This level is not recommended for use while item finding, though it will never hide anything important. This filter level uses SuperStrict as a baseline but it does still show (not notify) all LLD crafting bases, as well as any and all non-magic (white) items that are either socketable or drop with more than a single socket.
+##### ShowRecipes - This level shows all crafting and upgrading recipes on any applicable items. The crafting recipes can be found on magic items and on perfect gems. The upgrade recipes include information about the requirements for upgraded items. This filter level will also show the recommended level for LLD crafting on most LLD crafting bases. This level will show all runes necessary for runewords on any socketed non-magic (white) items. This level is not recommended for use while item finding, though it will never hide anything important. This filter level uses SuperStrict as a baseline but it does still show (not notify) all LLD crafting bases, as well as any and all non-magic (white) items that are either socketable or drop with more than a single socket.
 
 ###### The differences between these filters, relative to the Relaxed filter as a baseline, are further described below. All of these filters share the same leveling experience prior to character level 75.
 
@@ -201,8 +201,6 @@ Details from 'The Arreat Summit' about Base Defense ranges and maximum potential
 
 (Big thanks to TheIrateSeagoer for his work on the Arreat Summit details!)
 
-Crafting recipes will now only show on identified magic items with item level 51 or higher. 
-
 Worth note: when crafting, base item level 51+ and character level 51+ ensures a minimum of three additional affixes on the resulting item.
 
 All unidentified magic items marked as ideal for crafting (two gray asterisks, one on each side) do so based on when they meet the item level (assuming same character level or higher) for either 4 guaranteed additional affixes (level 71) and/or in rare cases when their most relevant affixes become available before then.
@@ -289,7 +287,7 @@ Renamed the old 'Strict' filter level to 'Medium'.
 
 Added a new 'StrictLLD' filter level that uses the 'late season' / 'high speed mapping' strictness of the SuperStrict filter level while still showing and notifying for all non-shoppable LLD crafting bases that drop.
 
-Added a new 'ShowRecipes' filter level that shows all crafting and upgrading recipes that previously would always show on items in your stash, inventory, or equipped. Those recipes are now hidden on all other filter levels. This filter level also shows the runes necessary for runewords on runeword bases in their sequential order of necessary socketing.
+Added a new 'ShowRecipes' filter level that shows all crafting and upgrading recipes that previously would always show on items in your stash, inventory, or when equipped. These recipes show on all magic items and on perfect gems. These recipes are now hidden on all other filter levels. This filter level also shows the runes necessary for runewords on runeword bases in their sequential order of necessary socketing.
 
 Socketing recipes will still show at all filter levels.
 
