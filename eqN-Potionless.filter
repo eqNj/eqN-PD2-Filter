@@ -428,13 +428,13 @@ ItemDisplay[cm3 MAG ID ILVL>90 FILTLVL=5]: %NAME%{%GOLD%Cube %WHITE%with 3x Perf
 
 //Gems
 ItemDisplay[(gzv OR glw OR glg OR glr OR glb OR gly OR skl) CLVL<75]: %DOT-66%%NAME%%CONTINUE%
-ItemDisplay[gzv]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%PURPLE%ø%ORANGE%)%CONTINUE%
-ItemDisplay[glw]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%WHITE%ø%ORANGE%)%CONTINUE%
-ItemDisplay[glg]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%GREEN%ø%ORANGE%)%CONTINUE%
-ItemDisplay[glr]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%RED%ø%ORANGE%)%CONTINUE%
-ItemDisplay[glb]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%BLUE%ø%ORANGE%)%CONTINUE%
-ItemDisplay[gly]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%YELLOW%ø%ORANGE%)%CONTINUE%
-ItemDisplay[skl]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%GRAY%ø%ORANGE%)%CONTINUE%
+ItemDisplay[gzv]: %PX-66%%TIER-1%%NAME% %ORANGE%(%PURPLE%ø%ORANGE%)%CONTINUE%
+ItemDisplay[glw]: %PX-66%%TIER-1%%NAME% %ORANGE%(%WHITE%ø%ORANGE%)%CONTINUE%
+ItemDisplay[glg]: %PX-66%%TIER-1%%NAME% %ORANGE%(%GREEN%ø%ORANGE%)%CONTINUE%
+ItemDisplay[glr]: %PX-66%%TIER-1%%NAME% %ORANGE%(%RED%ø%ORANGE%)%CONTINUE%
+ItemDisplay[glb]: %PX-66%%TIER-1%%NAME% %ORANGE%(%BLUE%ø%ORANGE%)%CONTINUE%
+ItemDisplay[gly]: %PX-66%%TIER-1%%NAME% %ORANGE%(%YELLOW%ø%ORANGE%)%CONTINUE%
+ItemDisplay[skl]: %PX-66%%TIER-1%%NAME% %ORANGE%(%GRAY%ø%ORANGE%)%CONTINUE%
 
 ItemDisplay[gpv]: %DOT-66%%NAME% %ORANGE%(%PURPLE%@%ORANGE%)%CONTINUE%
 ItemDisplay[gpw]: %DOT-66%%NAME% %ORANGE%(%WHITE%@%ORANGE%)%CONTINUE%
@@ -549,7 +549,7 @@ ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)
 ItemDisplay[(t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %NAME% %GRAY%[%ORANGE%T3%GRAY%]%CONTINUE%
 ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME% %GRAY%[%RED%Dungeon%GRAY%]%CONTINUE%
 ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %WHITE%%NAME% %GRAY%[%PURPLE%PvP%GRAY%]%CONTINUE%
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (!ID OR NMAG)]: %MAP-79%%DOT-D5%%NAME%%CONTINUE%
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (!ID OR NMAG)]: %MAP-73%%DOT-40%%NAME%%CONTINUE%
 //Notes
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (RARE OR NMAG)]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
@@ -643,10 +643,10 @@ ItemDisplay[rtma]: %BORDER-97%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      
 ItemDisplay[cwss]: %BORDER-9B%%WHITE%:%BLUE%|%PURPLE%:      %RED%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%RED%{%RED%Warning%WHITE%: This can brick your %GOLD%Anni%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
 
 //Uber Ancients
-ItemDisplay[ubaa]: %MAP-80%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom had visions many followed.%NL%Madawac the Guardian from Val Narian.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 1 Maps}
-ItemDisplay[ubab]: %MAP-80%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom found duty and power young.%NL%Talic the Defender from Western Shores.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 2 Maps}
-ItemDisplay[ubac]: %MAP-80%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom ruled with a druid's touch.%NL%Korlic the Protector from Henknoc Jungles.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 3 Maps}
-ItemDisplay[uba]: %BORDER-81%%YELLOW%|%WHITE%:%GOLD%|      %ORANGE%%NAME%      %GOLD%|%WHITE%:%YELLOW%|%ORANGE%{%TAN%whom are to forever watch over the Worldstone.%NL%Come to meet the spirits of mighty barbarians%NL%%NL%%WHITE%Find your courage upon %ORANGE%The Arreat Summit%GRAY%...}
+ItemDisplay[ubaa]: %MAP-73%%DOT-40%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom had visions many followed.%NL%Madawac the Guardian from Val Narian.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 1 Maps}
+ItemDisplay[ubab]: %MAP-73%%DOT-40%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom found duty and power young.%NL%Talic the Defender from Western Shores.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 2 Maps}
+ItemDisplay[ubac]: %MAP-73%%DOT-40%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom ruled with a druid's touch.%NL%Korlic the Protector from Henknoc Jungles.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 3 Maps}
+ItemDisplay[uba]: %BORDER-73%%MAP-40%%YELLOW%|%WHITE%:%GOLD%|      %ORANGE%%NAME%      %GOLD%|%WHITE%:%YELLOW%|%ORANGE%{%TAN%whom are to forever watch over the Worldstone.%NL%Come to meet the spirits of mighty barbarians%NL%%NL%%WHITE%Find your courage upon %ORANGE%The Arreat Summit%GRAY%...}
 
 //Wirt's Leg
 ItemDisplay[leg]: %NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
@@ -690,13 +690,13 @@ ItemDisplay[r33s]: %NAME%%ORANGE%{%ORANGE%Zod %WHITE%+ %GRAY%@ %WHITE%= Repair a
 ItemDisplay[RUNE>0]: %NAME%%ORANGE%{%TAN%Control%WHITE%+%TAN%Shift %WHITE%click to %GRAY%(un)%WHITE%stack%NL%}
 
 //Gems Notes
-ItemDisplay[gzvs]: %DOT-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%PURPLE%@%ORANGE%)%NL%%NL%%WHITE%Shield: +24 Defense%NL%Armor/Helm: +8 to Strength%NL%Weapon: +100 Attack Rating%NL%}%CONTINUE%
-ItemDisplay[glys]: %DOT-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%YELLOW%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Light Resist%NL%Armor/Helm: 20% Magic Find%NL%Weapon: 1-30 Light Dmg%NL%}%CONTINUE%
-ItemDisplay[glbs]: %DOT-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%BLUE%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Cold Resist%NL%Armor/Helm: +31 to Mana%NL%Weapon: 6-10 Cold Dmg%NL%}%CONTINUE%
-ItemDisplay[glgs]: %DOT-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%GREEN%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Psn Resist%NL%Armor/Helm: +8 Dexterity%NL%Weapon: +60 Psn Dmg over 6 Sec%NL%}%CONTINUE%
-ItemDisplay[glrs]: %DOT-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%RED%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Fire Resist%NL%Armor/Helm: +31 to Life%NL%Weapon: 10-16 Fire Dmg%NL%}%CONTINUE%
-ItemDisplay[glws]: %DOT-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%WHITE%@%ORANGE%)%NL%%NL%%WHITE%Shield: 14% All Resist%NL%Armor/Helm: +80 Attack Rating%NL%Weapon: +54% Dmg vs Undead%NL%}%CONTINUE%
-ItemDisplay[skls]: %DOT-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%GRAY%@%ORANGE%)%NL%%NL%%WHITE%Shield: Attacker Takes 16 Dmg%NL%Armor/Helm: Regenerate Mana +12%, Replenish Life +4%NL%Weapon: 3% Life Leech, 3% Mana Leech%NL%}%CONTINUE%
+ItemDisplay[gzvs]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%PURPLE%@%ORANGE%)%NL%%NL%%WHITE%Shield: +24 Defense%NL%Armor/Helm: +8 to Strength%NL%Weapon: +100 Attack Rating%NL%}%CONTINUE%
+ItemDisplay[glys]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%YELLOW%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Light Resist%NL%Armor/Helm: 20% Magic Find%NL%Weapon: 1-30 Light Dmg%NL%}%CONTINUE%
+ItemDisplay[glbs]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%BLUE%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Cold Resist%NL%Armor/Helm: +31 to Mana%NL%Weapon: 6-10 Cold Dmg%NL%}%CONTINUE%
+ItemDisplay[glgs]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%GREEN%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Psn Resist%NL%Armor/Helm: +8 Dexterity%NL%Weapon: +60 Psn Dmg over 6 Sec%NL%}%CONTINUE%
+ItemDisplay[glrs]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%RED%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Fire Resist%NL%Armor/Helm: +31 to Life%NL%Weapon: 10-16 Fire Dmg%NL%}%CONTINUE%
+ItemDisplay[glws]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%WHITE%@%ORANGE%)%NL%%NL%%WHITE%Shield: 14% All Resist%NL%Armor/Helm: +80 Attack Rating%NL%Weapon: +54% Dmg vs Undead%NL%}%CONTINUE%
+ItemDisplay[skls]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%GRAY%@%ORANGE%)%NL%%NL%%WHITE%Shield: Attacker Takes 16 Dmg%NL%Armor/Helm: Regenerate Mana +12%, Replenish Life +4%NL%Weapon: 3% Life Leech, 3% Mana Leech%NL%}%CONTINUE%
 ItemDisplay[gpvs]: %DOT-66%%NAME%%WHITE%{%WHITE%Shield: +30 Defense%NL%Armor/Helm: +10 to Strength%NL%Weapon: +150 Attack Rating%NL%}%CONTINUE%
 ItemDisplay[gpys]: %DOT-66%%NAME%%WHITE%{%WHITE%Shield: 40% Light Resist%NL%Armor/Helm: 24% Magic Find%NL%Weapon: 1-40 Light Dmg%NL%}%CONTINUE%
 ItemDisplay[gpbs]: %DOT-66%%NAME%%WHITE%{%WHITE%Shield: 40% Cold Resist%NL%Armor/Helm: +38 to Mana%NL%Weapon: 10-14 Cold Dmg%NL%}%CONTINUE%
