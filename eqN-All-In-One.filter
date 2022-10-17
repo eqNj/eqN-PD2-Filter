@@ -416,14 +416,14 @@ ItemDisplay[cm3 MAG ID ILVL>90 FILTLVL=5]: %NAME%{%GOLD%Cube %WHITE%with 3x Perf
 //----------------------------------------- Socketables --------------------------------------------
 
 //Gems
-ItemDisplay[(gzv OR glw OR glg OR glr OR glb OR gly OR skl) CLVL<75]: %PX-66%%NAME%%CONTINUE%
-ItemDisplay[gzv]: %PX-66%%TIER-1%%NAME% %ORANGE%(%PURPLE%ø%ORANGE%)%CONTINUE%
-ItemDisplay[glw]: %PX-66%%TIER-1%%NAME% %ORANGE%(%WHITE%ø%ORANGE%)%CONTINUE%
-ItemDisplay[glg]: %PX-66%%TIER-1%%NAME% %ORANGE%(%GREEN%ø%ORANGE%)%CONTINUE%
-ItemDisplay[glr]: %PX-66%%TIER-1%%NAME% %ORANGE%(%RED%ø%ORANGE%)%CONTINUE%
-ItemDisplay[glb]: %PX-66%%TIER-1%%NAME% %ORANGE%(%BLUE%ø%ORANGE%)%CONTINUE%
-ItemDisplay[gly]: %PX-66%%TIER-1%%NAME% %ORANGE%(%YELLOW%ø%ORANGE%)%CONTINUE%
-ItemDisplay[skl]: %PX-66%%TIER-1%%NAME% %ORANGE%(%GRAY%ø%ORANGE%)%CONTINUE%
+ItemDisplay[(gzv OR glw OR glg OR glr OR glb OR gly OR skl) CLVL<75]: %DOT-66%%NAME%%CONTINUE%
+ItemDisplay[gzv]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%PURPLE%ø%ORANGE%)%CONTINUE%
+ItemDisplay[glw]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%WHITE%ø%ORANGE%)%CONTINUE%
+ItemDisplay[glg]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%GREEN%ø%ORANGE%)%CONTINUE%
+ItemDisplay[glr]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%RED%ø%ORANGE%)%CONTINUE%
+ItemDisplay[glb]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%BLUE%ø%ORANGE%)%CONTINUE%
+ItemDisplay[gly]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%YELLOW%ø%ORANGE%)%CONTINUE%
+ItemDisplay[skl]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%GRAY%ø%ORANGE%)%CONTINUE%
 
 ItemDisplay[gpv]: %DOT-66%%NAME% %ORANGE%(%PURPLE%@%ORANGE%)%CONTINUE%
 ItemDisplay[gpw]: %DOT-66%%NAME% %ORANGE%(%WHITE%@%ORANGE%)%CONTINUE%
@@ -439,49 +439,49 @@ ItemDisplay[gzv OR glw OR glg OR glr OR glb OR gly OR skl OR gpv OR gpw OR gpg O
 ItemDisplay[GEMTYPE=1 GEM=1]: %NAME% %ORANGE%(%PURPLE%*%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=1 GEM=2]: %NAME% %ORANGE%(%PURPLE%+%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=1 GEM=3]: %NAME% %ORANGE%(%PURPLE%¤%ORANGE%)%CONTINUE%
-ItemDisplay[GEMTYPE=1 GEM=4]: %PX-66%%TIER-1%%NAME% %ORANGE%(%PURPLE%ø%ORANGE%)%CONTINUE%
+ItemDisplay[GEMTYPE=1 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%PURPLE%ø%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=1 GEM=5]: %DOT-66%%NAME% %ORANGE%(%PURPLE%@%ORANGE%)%CONTINUE%
 
 //Diamond
 ItemDisplay[GEMTYPE=2 GEM=1]: %NAME% %ORANGE%(%WHITE%*%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=2 GEM=2]: %NAME% %ORANGE%(%WHITE%+%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=2 GEM=3]: %NAME% %ORANGE%(%WHITE%¤%ORANGE%)%CONTINUE%
-ItemDisplay[GEMTYPE=2 GEM=4]: %PX-66%%TIER-1%%NAME% %ORANGE%(%WHITE%ø%ORANGE%)%CONTINUE%
+ItemDisplay[GEMTYPE=2 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%WHITE%ø%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=2 GEM=5]: %DOT-66%%NAME% %ORANGE%(%WHITE%@%ORANGE%)%CONTINUE%
 
 //Emerald
 ItemDisplay[GEMTYPE=3 GEM=1]: %NAME% %ORANGE%(%GREEN%*%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=3 GEM=2]: %NAME% %ORANGE%(%GREEN%+%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=3 GEM=3]: %NAME% %ORANGE%(%GREEN%¤%ORANGE%)%CONTINUE%
-ItemDisplay[GEMTYPE=3 GEM=4]: %PX-66%%TIER-1%%NAME% %ORANGE%(%GREEN%ø%ORANGE%)%CONTINUE%
+ItemDisplay[GEMTYPE=3 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%GREEN%ø%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=3 GEM=5]: %DOT-66%%NAME% %ORANGE%(%GREEN%@%ORANGE%)%CONTINUE%
 
 //Ruby
 ItemDisplay[GEMTYPE=4 GEM=1]: %NAME% %ORANGE%(%RED%*%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=4 GEM=2]: %NAME% %ORANGE%(%RED%+%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=4 GEM=3]: %NAME% %ORANGE%(%RED%¤%ORANGE%)%CONTINUE%
-ItemDisplay[GEMTYPE=4 GEM=4]: %PX-66%%TIER-1%%NAME% %ORANGE%(%RED%ø%ORANGE%)%CONTINUE%
+ItemDisplay[GEMTYPE=4 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%RED%ø%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=4 GEM=5]: %DOT-66%%NAME% %ORANGE%(%RED%@%ORANGE%)%CONTINUE%
 
 //Sapphires
 ItemDisplay[GEMTYPE=5 GEM=1]: %NAME% %ORANGE%(%BLUE%*%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=5 GEM=2]: %NAME% %ORANGE%(%BLUE%+%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=5 GEM=3]: %NAME% %ORANGE%(%BLUE%¤%ORANGE%)%CONTINUE%
-ItemDisplay[GEMTYPE=5 GEM=4]: %PX-66%%TIER-1%%NAME% %ORANGE%(%BLUE%ø%ORANGE%)%CONTINUE%
+ItemDisplay[GEMTYPE=5 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%BLUE%ø%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=5 GEM=5]: %DOT-66%%NAME% %ORANGE%(%BLUE%@%ORANGE%)%CONTINUE%
 
 //Topazes
 ItemDisplay[GEMTYPE=6 GEM=1]: %NAME% %ORANGE%(%YELLOW%*%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=6 GEM=2]: %NAME% %ORANGE%(%YELLOW%+%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=6 GEM=3]: %NAME% %ORANGE%(%YELLOW%¤%ORANGE%)%CONTINUE%
-ItemDisplay[GEMTYPE=6 GEM=4]: %PX-66%%TIER-1%%NAME% %ORANGE%(%YELLOW%ø%ORANGE%)%CONTINUE%
+ItemDisplay[GEMTYPE=6 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%YELLOW%ø%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=6 GEM=5]: %DOT-66%%NAME% %ORANGE%(%YELLOW%@%ORANGE%)%CONTINUE%
 
 //Skulls
 ItemDisplay[GEMTYPE=7 GEM=1]: %NAME% %ORANGE%(%GRAY%*%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=7 GEM=2]: %NAME% %ORANGE%(%GRAY%+%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=7 GEM=3]: %NAME% %ORANGE%(%GRAY%¤%ORANGE%)%CONTINUE%
-ItemDisplay[GEMTYPE=7 GEM=4]: %PX-66%%TIER-1%%NAME% %ORANGE%(%GRAY%ø%ORANGE%)%CONTINUE%
+ItemDisplay[GEMTYPE=7 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%GRAY%ø%ORANGE%)%CONTINUE%
 ItemDisplay[GEMTYPE=7 GEM=5]: %DOT-66%%NAME% %ORANGE%(%GRAY%@%ORANGE%)%CONTINUE%
 
 //Hiding Low Gems
@@ -679,13 +679,13 @@ ItemDisplay[r33s]: %NAME%%ORANGE%{%ORANGE%Zod %WHITE%+ %GRAY%@ %WHITE%= Repair a
 ItemDisplay[RUNE>0]: %NAME%%ORANGE%{%TAN%Control%WHITE%+%TAN%Shift %WHITE%click to %GRAY%(un)%WHITE%stack%NL%}
 
 //Gems Notes
-ItemDisplay[gzvs]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%PURPLE%@%ORANGE%)%NL%%NL%%WHITE%Shield: +24 Defense%NL%Armor/Helm: +8 to Strength%NL%Weapon: +100 Attack Rating%NL%}%CONTINUE%
-ItemDisplay[glys]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%YELLOW%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Light Resist%NL%Armor/Helm: 20% Magic Find%NL%Weapon: 1-30 Light Dmg%NL%}%CONTINUE%
-ItemDisplay[glbs]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%BLUE%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Cold Resist%NL%Armor/Helm: +31 to Mana%NL%Weapon: 6-10 Cold Dmg%NL%}%CONTINUE%
-ItemDisplay[glgs]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%GREEN%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Psn Resist%NL%Armor/Helm: +8 Dexterity%NL%Weapon: +60 Psn Dmg over 6 Sec%NL%}%CONTINUE%
-ItemDisplay[glrs]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%RED%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Fire Resist%NL%Armor/Helm: +31 to Life%NL%Weapon: 10-16 Fire Dmg%NL%}%CONTINUE%
-ItemDisplay[glws]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%WHITE%@%ORANGE%)%NL%%NL%%WHITE%Shield: 14% All Resist%NL%Armor/Helm: +80 Attack Rating%NL%Weapon: +54% Dmg vs Undead%NL%}%CONTINUE%
-ItemDisplay[skls]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%GRAY%@%ORANGE%)%NL%%NL%%WHITE%Shield: Attacker Takes 16 Dmg%NL%Armor/Helm: Regenerate Mana +12%, Replenish Life +4%NL%Weapon: 3% Life Leech, 3% Mana Leech%NL%}%CONTINUE%
+ItemDisplay[gzvs]: %DOT-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%PURPLE%@%ORANGE%)%NL%%NL%%WHITE%Shield: +24 Defense%NL%Armor/Helm: +8 to Strength%NL%Weapon: +100 Attack Rating%NL%}%CONTINUE%
+ItemDisplay[glys]: %DOT-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%YELLOW%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Light Resist%NL%Armor/Helm: 20% Magic Find%NL%Weapon: 1-30 Light Dmg%NL%}%CONTINUE%
+ItemDisplay[glbs]: %DOT-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%BLUE%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Cold Resist%NL%Armor/Helm: +31 to Mana%NL%Weapon: 6-10 Cold Dmg%NL%}%CONTINUE%
+ItemDisplay[glgs]: %DOT-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%GREEN%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Psn Resist%NL%Armor/Helm: +8 Dexterity%NL%Weapon: +60 Psn Dmg over 6 Sec%NL%}%CONTINUE%
+ItemDisplay[glrs]: %DOT-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%RED%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Fire Resist%NL%Armor/Helm: +31 to Life%NL%Weapon: 10-16 Fire Dmg%NL%}%CONTINUE%
+ItemDisplay[glws]: %DOT-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%WHITE%@%ORANGE%)%NL%%NL%%WHITE%Shield: 14% All Resist%NL%Armor/Helm: +80 Attack Rating%NL%Weapon: +54% Dmg vs Undead%NL%}%CONTINUE%
+ItemDisplay[skls]: %DOT-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%GRAY%@%ORANGE%)%NL%%NL%%WHITE%Shield: Attacker Takes 16 Dmg%NL%Armor/Helm: Regenerate Mana +12%, Replenish Life +4%NL%Weapon: 3% Life Leech, 3% Mana Leech%NL%}%CONTINUE%
 ItemDisplay[gpvs]: %DOT-66%%NAME%%WHITE%{%WHITE%Shield: +30 Defense%NL%Armor/Helm: +10 to Strength%NL%Weapon: +150 Attack Rating%NL%}%CONTINUE%
 ItemDisplay[gpys]: %DOT-66%%NAME%%WHITE%{%WHITE%Shield: 40% Light Resist%NL%Armor/Helm: 24% Magic Find%NL%Weapon: 1-40 Light Dmg%NL%}%CONTINUE%
 ItemDisplay[gpbs]: %DOT-66%%NAME%%WHITE%{%WHITE%Shield: 40% Cold Resist%NL%Armor/Helm: +38 to Mana%NL%Weapon: 10-14 Cold Dmg%NL%}%CONTINUE%
@@ -4874,7 +4874,7 @@ ItemDisplay[(aqv OR cqv) MAG !ID CLVL>69 FILTLVL>2]:
 
 //StrictLLD
 ItemDisplay[(9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) MAG ETH !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%BLUE%%NAME%%PURPLE%*%GRAY%{%NAME%}
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) MAG !ID FILTLVL=4 CLVL>74]: %PX-4B%%TIER-0%%PURPLE%*%BLUE%%NAME%%PURPLE%*%GRAY%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) MAG !ID FILTLVL=4 CLVL>74]: %DOT-4B%%TIER-0%%PURPLE%*%BLUE%%NAME%%PURPLE%*%GRAY%{%NAME%}
 
 //Notified
 ItemDisplay[(SHIELD OR CHEST) !(NEC OR qui OR xui OR lea OR xea OR hla OR xla OR stu OR xtu OR scl OR chn OR spl OR plt OR fld OR buc OR xuc OR uuc OR sml OR xml OR uml) MAG ETH !ID CRAFTALVL>84]: %DOT-97%%GRAY%*%BLUE%%NAME%%GRAY%*
@@ -4936,7 +4936,7 @@ ItemDisplay[(am5 OR ama OR amf) MAG !ID]: %NAME%
 
 //StrictLLD
 ItemDisplay[(9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) RARE ETH !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%YELLOW%%NAME%%PURPLE%*%GRAY%{%NAME%}
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) RARE !ID FILTLVL=4 CLVL>74]: %PX-4B%%PURPLE%*%YELLOW%%NAME%%PURPLE%*%GRAY%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) RARE !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%YELLOW%%NAME%%PURPLE%*%GRAY%{%NAME%}
 
 //Notified
 ItemDisplay[(SHIELD OR CHEST) !(NEC OR qui OR xui OR lea OR xea OR hla OR xla OR stu OR xtu OR scl OR chn OR spl OR plt OR fld OR buc OR xuc OR uuc OR sml OR xml OR uml) RARE ETH !ID CRAFTALVL>84]: %DOT-A8%%GRAY%*%YELLOW%%NAME%%GRAY%*
