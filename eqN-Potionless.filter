@@ -4885,7 +4885,7 @@ ItemDisplay[(aqv OR cqv) MAG !ID CLVL>69 FILTLVL>2]:
 
 //StrictLLD
 ItemDisplay[(9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) MAG ETH !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%BLUE%%NAME%%PURPLE%*%GRAY%{%NAME%}
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) MAG !ID FILTLVL=4 CLVL>74]: %DOT-4B%%TIER-0%%PURPLE%*%BLUE%%NAME%%PURPLE%*%GRAY%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) MAG !ID FILTLVL=4 CLVL>74]: %PX-4B%%TIER-0%%PURPLE%*%BLUE%%NAME%%PURPLE%*%GRAY%{%NAME%}
 
 //Notified
 ItemDisplay[(SHIELD OR CHEST) !(NEC OR qui OR xui OR lea OR xea OR hla OR xla OR stu OR xtu OR scl OR chn OR spl OR plt OR fld OR buc OR xuc OR uuc OR sml OR xml OR uml) MAG ETH !ID CRAFTALVL>84]: %DOT-97%%GRAY%*%BLUE%%NAME%%GRAY%*
