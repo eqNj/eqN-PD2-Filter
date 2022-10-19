@@ -4884,7 +4884,7 @@ ItemDisplay[(aqv OR cqv) MAG !ID CLVL>69 FILTLVL>2]:
 //Magic Craftables\\
 
 //StrictLLD
-ItemDisplay[(9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) MAG ETH !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%BLUE%%NAME%%PURPLE%*%GRAY%{%NAME%}
+ItemDisplay[(ssd OR 9ss OR jav OR 9ja OR 9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) MAG ETH !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%BLUE%%NAME%%PURPLE%*%GRAY%{%NAME%}
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) MAG !ID FILTLVL=4 CLVL>74]: %PX-4B%%TIER-0%%PURPLE%*%BLUE%%NAME%%PURPLE%*%GRAY%{%NAME%}
 
 //Notified
@@ -4926,14 +4926,14 @@ ItemDisplay[((DRU DRUID) OR (BAR BARBARIAN)) MAG ETH !ID CRAFTALVL>80 FILTLVL>2]
 ItemDisplay[(SOR (NORM OR (EXC !ob9) OR obf)) MAG !ID CRAFTALVL>49 (FILTLVL<2 OR (SORCERESS FILTLVL>1))]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl) MAG !ID CRAFTALVL>74 (FILTLVL<2 OR (DRUID FILTLVL>1))]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(6rx OR amc OR am7 OR am2 OR amb OR am6 OR am1) MAG !ID CRAFTALVL>74 (FILTLVL<2 OR (AMAZON FILTLVL>1))]: %GRAY%*%BLUE%%NAME%%GRAY%*
-ItemDisplay[WEAPON MAG ETH !(WAND OR SOR OR tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8 OR hax OR clb OR mac OR ssd OR scm OR sbr OR flc OR dgr OR dir OR sst OR ywn OR 9wn OR scp) !ID CRAFTALVL>64]: %GRAY%*%BLUE%%NAME%%GRAY%*
+ItemDisplay[WEAPON MAG ETH !(WAND OR SOR OR tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8 OR hax OR mac OR scm OR sbr OR flc OR dgr OR dir OR sst OR ywn OR 9wn OR scp) !ID CRAFTALVL>64]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8) MAG ETH !ID CRAFTALVL>74 BARBARIAN CLVL<80]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[rin MAG !ID CRAFTALVL>79 (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[amu MAG !ID CRAFTALVL>89 (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %GRAY%*%BLUE%%NAME%%GRAY%*
 
 //Misc Useful Magic Items
 ItemDisplay[(jav OR 9ja OR pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama) MAG ETH !ID CLVL>69 DIFF<2]: %DOT-97%%NAME%
-ItemDisplay[(wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces OR 9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) MAG ETH !ID CLVL>69 DIFF<2]: %DOT-97%%NAME%
+ItemDisplay[(ssd OR 9sd OR clb OR 9cl OR wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces OR 9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) MAG ETH !ID CLVL>69 DIFF<2]: %DOT-97%%NAME%
 ItemDisplay[(gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) MAG ETH !ID CLVL>69 DIFF<2]: %DOT-97%%NAME%
 ItemDisplay[SOR MAG !ID CRAFTALVL>49 (FILTLVL<2 OR (SORCERESS FILTLVL>1))]: %NAME%
 ItemDisplay[(xrg OR urg OR uit OR upk) MAG !ID CRAFTALVL>74 FILTLVL<3]: %NAME%
@@ -4946,7 +4946,7 @@ ItemDisplay[(am5 OR ama OR amf) MAG !ID]: %NAME%
 //Rare Craftables\\
 
 //StrictLLD
-ItemDisplay[(9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) RARE ETH !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%YELLOW%%NAME%%PURPLE%*%GRAY%{%NAME%}
+ItemDisplay[(ssd OR 9ss OR jav OR 9ja OR 9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) RARE ETH !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%YELLOW%%NAME%%PURPLE%*%GRAY%{%NAME%}
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) RARE !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%YELLOW%%NAME%%PURPLE%*%GRAY%{%NAME%}
 
 //Notified
@@ -4988,14 +4988,14 @@ ItemDisplay[((DRU DRUID) OR (BAR BARBARIAN)) RARE ETH !ID CRAFTALVL>80 FILTLVL>1
 ItemDisplay[(SOR (NORM OR (EXC !ob9) OR obf)) RARE !ID CRAFTALVL>49 (FILTLVL<2 OR (SORCERESS FILTLVL>1))]: %GRAY%*%YELLOW%%NAME%%GRAY%*
 ItemDisplay[(spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl) RARE !ID CRAFTALVL>74 (FILTLVL<2 OR (DRUID FILTLVL>1))]: %GRAY%*%YELLOW%%NAME%%GRAY%*
 ItemDisplay[(6rx OR amc OR am7 OR am2 OR amb OR am6 OR am1) RARE !ID CRAFTALVL>74 (FILTLVL<2 OR (AMAZON FILTLVL>1))]: %GRAY%*%YELLOW%%NAME%%GRAY%*
-ItemDisplay[WEAPON RARE ETH !(WAND OR SOR OR tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8 OR hax OR clb OR mac OR ssd OR scm OR sbr OR flc OR dgr OR dir OR sst OR ywn OR 9wn OR scp) !ID CRAFTALVL>64]: %GRAY%*%YELLOW%%NAME%%GRAY%*
+ItemDisplay[WEAPON RARE ETH !(WAND OR SOR OR tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8 OR hax OR mac OR scm OR sbr OR flc OR dgr OR dir OR sst OR ywn OR 9wn OR scp) !ID CRAFTALVL>64]: %GRAY%*%YELLOW%%NAME%%GRAY%*
 ItemDisplay[(tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8) RARE ETH !ID CRAFTALVL>74 BARBARIAN CLVL<80]: %GRAY%*%YELLOW%%NAME%%GRAY%*
 ItemDisplay[rin RARE !ID CRAFTALVL>79 (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %GRAY%*%YELLOW%%NAME%%GRAY%*
 ItemDisplay[amu RARE !ID CRAFTALVL>89 (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %GRAY%*%YELLOW%%NAME%%GRAY%*
 
 //Misc Useful Rare Items
 ItemDisplay[(jav OR 9ja OR pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama) RARE ETH !ID CLVL>69 DIFF<2]: %DOT-A8%%NAME%
-ItemDisplay[(wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces OR 9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) RARE ETH !ID CLVL>69 DIFF<2]: %DOT-A8%%NAME%
+ItemDisplay[(ssd OR 9sd OR clb OR 9cl OR wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces OR 9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) RARE ETH !ID CLVL>69 DIFF<2]: %DOT-A8%%NAME%
 ItemDisplay[(gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) RARE ETH !ID CLVL>69 DIFF<2]: %DOT-A8%%NAME%
 ItemDisplay[SOR RARE !ID (CRAFTALVL>49 OR ALVL>49) (FILTLVL<2 OR (SORCERESS FILTLVL>1))]: %NAME%
 ItemDisplay[(xrg OR urg OR uit OR upk) RARE !ID (CRAFTALVL>74 OR ALVL>74) FILTLVL<3]: %NAME%
