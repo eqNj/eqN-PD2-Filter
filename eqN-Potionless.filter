@@ -5406,7 +5406,7 @@ ItemDisplay[(ame OR amd) AMAZON TABSK2=2 ED>9 NMAG (FILTLVL<2 OR (CLVL<75 FILTLV
 ItemDisplay[(amb OR amc) AMAZON TABSK0=2 ED>9 NMAG (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // High ED +2 ELT Bows
 ItemDisplay[(am5 OR ama OR amf) AMAZON NMAG !INF CLVL<75]: %NAME%{%NAME%} // Amazon Javelins
 ItemDisplay[(am5 OR ama OR amf) NMAG !INF ETH ((FILTLVL=1 OR FILTLVL=5) OR (AMAZON FILTLVL=2) OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %GRAY%Imbue Javelin{%NAME%} // Eth Javelins for Imbuing
-ItemDisplay[(glv OR 9gl OR 7gl) NMAG !INF ETH ((FILTLVL=1 OR FILTLVL=5) OR (BARBARIAN FILTLVL=2) OR (CLVL<75 FILTLVL=3 OR FILTLVL=4))]: %GRAY%Imbue Glaive{%NAME%} // Eth Glaives for Imbuing
+ItemDisplay[(glv OR 9gl OR 7gl) NMAG !INF ETH ((FILTLVL=1 OR FILTLVL=5) OR (BARBARIAN FILTLVL=2) OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %GRAY%Imbue Glaive{%NAME%} // Eth Glaives for Imbuing
 ItemDisplay[SOR SORCERESS SOCK=3 NMAG (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // 3 Socket Sorceress Orbs
 
 //Specific Item Failsafe
