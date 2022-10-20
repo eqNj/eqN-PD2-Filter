@@ -4922,7 +4922,7 @@ ItemDisplay[amu MAG !ID CRAFTALVL>89 (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %GRAY%
 
 //Misc Useful Magic Items
 ItemDisplay[(jav OR 9ja OR pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama) MAG ETH !ID CLVL>69 DIFF<2]: %DOT-97%%NAME%
-ItemDisplay[(ssd OR 9sd OR clb OR 9cl OR wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces OR 9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) MAG ETH !ID CLVL>69 DIFF<2]: %DOT-97%%NAME%
+ItemDisplay[(ssd OR 9ss OR clb OR 9cl OR wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces OR 9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) MAG ETH !ID CLVL>69 DIFF<2]: %DOT-97%%NAME%
 ItemDisplay[(gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) MAG ETH !ID CLVL>69 DIFF<2]: %DOT-97%%NAME%
 ItemDisplay[SOR MAG !ID CRAFTALVL>49 (FILTLVL<2 OR (SORCERESS FILTLVL>1))]: %NAME%
 ItemDisplay[(xrg OR urg OR uit OR upk) MAG !ID CRAFTALVL>74 FILTLVL<3]: %NAME%
@@ -4984,7 +4984,7 @@ ItemDisplay[amu RARE !ID CRAFTALVL>89 (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %GRAY
 
 //Misc Useful Rare Items
 ItemDisplay[(jav OR 9ja OR pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama) RARE ETH !ID CLVL>69 DIFF<2]: %DOT-A8%%NAME%
-ItemDisplay[(ssd OR 9sd OR clb OR 9cl OR wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces OR 9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) RARE ETH !ID CLVL>69 DIFF<2]: %DOT-A8%%NAME%
+ItemDisplay[(ssd OR 9ss OR clb OR 9cl OR wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces OR 9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) RARE ETH !ID CLVL>69 DIFF<2]: %DOT-A8%%NAME%
 ItemDisplay[(gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) RARE ETH !ID CLVL>69 DIFF<2]: %DOT-A8%%NAME%
 ItemDisplay[SOR RARE !ID (CRAFTALVL>49 OR ALVL>49) (FILTLVL<2 OR (SORCERESS FILTLVL>1))]: %NAME%
 ItemDisplay[(xrg OR urg OR uit OR upk) RARE !ID (CRAFTALVL>74 OR ALVL>74) FILTLVL<3]: %NAME%
