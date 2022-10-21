@@ -5053,7 +5053,7 @@ ItemDisplay[NEC (SK66>2 OR SK67>2 OR SK70>2 OR SK74>2 OR SK75>2 OR SK80>2 OR SK8
 //Shields
 ItemDisplay[(uit OR uow OR uts) !INF ETH NMAG !RW (SOCK=0 OR SOCK=4) (FILTLVL<3 OR (ED>3 FILTLVL>2))]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(uit OR xsh OR ush OR uow OR uts) !INF NMAG !RW !SOCK=1 (FILTLVL<3 OR ((uit OR uow OR uts) ED>3) FILTLVL>2)]: %NAME%{%NAME%}
-ItemDisplay[tow !INF !ETH NMAG !RW (SOCK=0 OR SOCK=3) (FILTLVL<3 OR (CLVL<75 FILTLVL>2)) (ED=15 OR (SOCK=3 CLVL<75))]: %NAME%{%NAME%}
+ItemDisplay[tow !INF !ETH NMAG !RW (SOCK=0 OR SOCK=3) (ED=15 OR (SOCK=3 CLVL<75))]: %NAME%{%NAME%}
 
 // --- // --- NMAG WEAPONS --- \\ --- \\
 
