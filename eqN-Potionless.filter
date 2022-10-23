@@ -213,8 +213,10 @@ ItemDisplay[(cm1 OR cm2 OR cm3) UNI !ID]: %BORDER-62%%RED%(%GOLD%~%RED%:%GOLD%~ 
 //Small Charms
 ItemDisplay[cm1 !UNI ((MANA>9 OR RES>0 OR STAT214>14 OR MAXDMG>1 OR CRES>6 OR FRES>6 OR LRES>6 OR PRES>6) (LIFE>9 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm1 !UNI LIFE>13 LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm1 !UNI (LIFE>9 OR FRW>0 OR FHR>0) LIFE<14 (FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm1 !UNI (LIFE>9 OR FRW>0 OR FHR>0) LIFE<14 MAXDMG>1 LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI (LIFE>9 OR FRW>0 OR FHR>0) (FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI (LIFE>9 OR FRW>0 OR FHR>0) MAXDMG>1 LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI LIFE>9 (MANA>4 OR STAT214>4 OR FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI (DEX>1 OR STR>1) (MANA>6 OR STAT214>7 OR FRES>6 OR CRES>6 OR LRES>6 OR PRES>6) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
 ItemDisplay[cm1 !UNI (FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) STR>0 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 
 //ItemDisplay[cm1 !UNI ((MAXDMG>1 LIFE>0) OR (MAXDMG>0 LIFE>9))]: %TAN%Max Dmg %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
@@ -250,7 +252,7 @@ ItemDisplay[cm1 !UNI (FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) STR>0 LVLREQ<10]: %N
 //ItemDisplay[cm1 !UNI (CRES>0 MFIND>0)]: %BLUE%Cold Res %WHITE%/ %GREEN%MF %BLUE%Small Charm{%NAME%}
 //ItemDisplay[cm1 !UNI (PRES>0 MFIND>0)]: %GREEN%Psn Res %WHITE%/ %GREEN%MF %BLUE%Small Charm{%NAME%}
 
-ItemDisplay[cm1 !UNI LIFE=15 LVLREQ<31]: %PURPLE%LLD %BLUE%Small Charm of Sustenance{%NAME%}
+ItemDisplay[cm1 !UNI LIFE<13 LVLREQ<31]: %PURPLE%LLD %BLUE%Small Charm of Sustenance{%NAME%}
 //ItemDisplay[cm1 !UNI FRES>0]: %RED%Fire Res %BLUE%Small Charm{%NAME%}
 //ItemDisplay[cm1 !UNI LRES>0]: %YELLOW%Light Res %BLUE%Small Charm{%NAME%}
 //ItemDisplay[cm1 !UNI CRES>0]: %BLUE%Cold Res %BLUE%Small Charm{%NAME%}
@@ -260,11 +262,11 @@ ItemDisplay[cm1 !UNI LIFE=15 LVLREQ<31]: %PURPLE%LLD %BLUE%Small Charm of Susten
 
 //Large Charms
 ItemDisplay[cm2 !UNI ((MANA>19 OR RES>5 OR STAT214>29 OR MAXDMG>3) (LIFE>15 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm2 !UNI (STAT329=3 OR STAT330=3 OR STAT331=3 OR STAT332=3 OR STAT357=3) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm2 !UNI ((STAT329=2 OR STAT330=2 OR STAT331=2 OR STAT332=2 OR STAT357=2) (LIFE>5 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
-ItemDisplay[cm2 !UNI ((AR>29 OR MAXDMG>1) (LIFE>9 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
+ItemDisplay[cm2 !UNI (STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm2 !UNI ((STAT329>1 OR STAT330>1 OR STAT331>1 OR STAT332>1 OR STAT357>1) (LIFE>5 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
+ItemDisplay[cm2 !UNI ((AR>29 OR MAXDMG>1 OR MANA>13 OR RES>4) (LIFE>9 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
 ItemDisplay[cm2 !UNI LIFE=15 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
-ItemDisplay[cm2 !UNI LIFE>11 (CRES>3 OR FRES>3 OR LRES>3 OR PRES>3 OR AR>9) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
+ItemDisplay[cm2 !UNI LIFE>11 (CRES>3 OR FRES>3 OR LRES>3 OR PRES>3 OR AR>9 OR MANA>0 OR STAT11>0) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 
 //ItemDisplay[cm2 !UNI (STAT329>0 LIFE>0)]: %RED%Fire Dmg %WHITE%/ %RED%Life %BLUE%Large Charm{%NAME%}
 //ItemDisplay[cm2 !UNI (STAT329>0 DEX>0)]: %RED%Fire Dmg %WHITE%/ %GREEN%DEX %BLUE%Large Charm{%NAME%}
@@ -316,8 +318,9 @@ ItemDisplay[cm2 !UNI LIFE>11 (CRES>3 OR FRES>3 OR LRES>3 OR PRES>3 OR AR>9) LVLR
 
 //Grand Charms
 ItemDisplay[cm3 !UNI ((MANA>30 OR RES>9 OR STAT214>43 OR MAXDMG>6 OR AR>79) (LIFE>17 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm3 !UNI ((RES>7 OR MAXDMG>3 OR AR>39) (LIFE>9 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
-ItemDisplay[cm3 !UNI FHR>0 (AR>19 OR CRES>11 OR FRES>11 OR LRES>11 OR PRES>11 OR RES>4) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
+ItemDisplay[cm3 !UNI ((RES>7 OR MAXDMG>3 OR AR>49) (LIFE>9 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
+ItemDisplay[cm3 !UNI ((STAT214>19 OR MANA>20) (LIFE>11 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
+ItemDisplay[cm3 !UNI ((FHR>0 OR LIFE>12) (AR>29 OR STAT214>9 OR MANA>13 OR CRES>11 OR FRES>11 OR LRES>11 OR PRES>11 OR RES>4)) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 
 //ItemDisplay[cm3 !UNI (MAXDMG>5 LIFE>0)]: %TAN%Max Dmg %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
 //ItemDisplay[cm3 !UNI (MAXDMG>5 FRW>0)]: %TAN%Max Dmg %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
@@ -421,7 +424,7 @@ ItemDisplay[cm3 !UNI FHR>0 (AR>19 OR CRES>11 OR FRES>11 OR LRES>11 OR PRES>11 OR
 //ItemDisplay[cm3 TABSK50>0]: %PURPLE%Shogukusha's %BLUE%Grand Charm{%NAME%}
 
 //Note on High ILVL Grand Charms
-ItemDisplay[cm3 MAG ID ILVL>90 !FILTLVL=5]: %NAME%{%TAN%Reroll Grand Charm}
+ItemDisplay[cm3 MAG ID ILVL>90 !FILTLVL=5]: %NAME%{%TAN%ILVL 91+ Grand Charm}
 ItemDisplay[cm3 MAG ID ILVL>90 FILTLVL=5]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%ILVL %GREEN%91+ %BLUE%Grand Charm%WHITE% Reroll:}
 
 //----------------------------------------- Socketables --------------------------------------------
@@ -5098,12 +5101,13 @@ ItemDisplay[fla !INF NMAG !RW !SUP (SOCK=0 OR SOCK>3) (FILTLVL<3 OR (CLVL<75 FIL
 
 //Scepters
 ItemDisplay[9ws NMAG !INF !RW (((SOCK=0 OR SOCK=4) (SK106>2 OR SK107>0 OR SK112>2 OR SK113>2 OR SK115>1 OR SK122>0 OR SK378>0)) OR (SOCK=5 (SK106>2 OR SK107>0 OR SK115>0 OR SK122>0 OR SK378>0)))]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // Zeal or Liberator Divine Scepters
-ItemDisplay[wsp NMAG !INF !RW (SOCK=0 OR SOCK=4) SK112>2]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // Hammer War Scepter
+ItemDisplay[wsp NMAG !INF !RW (SOCK=0 OR SOCK=4) SK112>2 FILTLVL=4]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // Hammer War Scepter (LLD)
+ItemDisplay[(SCEPTER !scp) !INF NMAG !RW SK112>2 SK113>1 !SOCK=1 (FILTLVL>1 !SOCK=2) !(SOCK=5 !7ws)]: %DOT-D6%%NAME%{%NAME%} // +3 Hammer + Concentration Scepters
 ItemDisplay[7ws NMAG !RW !SOCK=1 ((ETH !SOCK=2) OR ED>3)]: %DOT-D6%%NAME%{%NAME%} // Ethereal or Superior Caduceus
 ItemDisplay[ELT SCEPTER (SK96>2 OR SK102>2 OR SK106>2 OR SK107>2 OR SK111>2 OR SK114>2 OR SK118>2 OR SK122>2 OR SK123>2 OR SK378>2) !INF NMAG !RW !SOCK=1 !(SOCK=3 !ETH)]: %DOT-D6%%NAME%{%NAME%} // +3 Melee Elite Scepters
 ItemDisplay[(wsp OR 9ws OR 7ws) SK117>1 NMAG !INF !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%} // Call to Arms with Holy Shield Scepters
-ItemDisplay[(SCEPTER !scp) !INF NMAG !RW ((SK109>2 !SOCK=3 (wsp OR 9ws OR 7ws)) OR SK99>2) !SOCK=1 (FILTLVL>1 !SOCK=2) !(SOCK=5 !7sp)]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // +3 Cleansing/Prayer Mercenary Scepters
-ItemDisplay[(SCEPTER !scp) !INF NMAG !RW (SK101>2 OR SK112>2 OR SK121>2 OR SK364>2) !SOCK=1 (FILTLVL>1 !SOCK=2) !(SOCK=5 !7sp)]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // +3 Holy Spell Scepters
+ItemDisplay[(SCEPTER !scp) !INF NMAG !RW ((SK109>2 !SOCK=3 (wsp OR 9ws OR 7ws)) OR SK99>2) !SOCK=1 (FILTLVL>1 !SOCK=2) !(SOCK=5 !7ws)]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // +3 Cleansing/Prayer Mercenary Scepters
+ItemDisplay[(SCEPTER !scp) !INF NMAG !RW (SK101>2 OR SK112>2 OR SK121>2 OR SK364>2) !SOCK=1 (FILTLVL>1 !SOCK=2) !(SOCK=5 !7ws)]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // +3 Holy Spell Scepters
 ItemDisplay[(wsp OR 9ws OR 7ws) !INF NMAG !RW SOCK=4]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // Insight Scepters
 ItemDisplay[(wsp OR 9ws OR 7ws) !INF NMAG !RW !SUP SOCK=0 (FILTLVL<3 OR (CLVL<75 FILTLVL>2))]: %NAME%{%NAME%} // 0 Socket Scepters
 ItemDisplay[7ws (SK102>1 OR SK106>1 OR SK111>1 OR SK114>1 OR SK118>1 OR SK122>1 OR SK123>1) !INF NMAG !RW !SOCK=1 !(SOCK=3 !ETH)]: %NAME%{%NAME%} // +2 Melee Caduceus
