@@ -4821,7 +4821,7 @@ ItemDisplay[(7fb OR ame OR ned OR ulb OR utg OR 7tw OR 7qs OR 6bs OR baf OR utp 
 
 //Low Level Dueling
 ItemDisplay[!FILTLVL=4 (vbt OR (flb ILVL>40) OR cst OR (swb ILVL>40) OR (lbb ILVL>40) OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR (kri ILVL>25) OR xap OR bwn OR cap OR (crn ILVL>40) OR (ghm ILVL>40) OR aar OR fld OR stu OR scl OR brs OR spl OR xui OR xuc OR kit OR vgl OR mbt) !ETH UNI !ID]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}%CONTINUE%
-ItemDisplay[!FILTLVL=4 (lgl OR vbt OR vgl OR bwn OR xap OR xml OR lbt) SET !ETH !ID]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}%CONTINUE%
+ItemDisplay[!FILTLVL=4 (lgl OR vbt OR vgl OR bwn OR xap OR lbt) SET !ETH !ID]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}%CONTINUE%
 
 //StrictLLD
 ItemDisplay[FILTLVL=4 (vbt OR (flb ILVL>40) OR cst OR (swb ILVL>40) OR (lbb ILVL>40) OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR (kri ILVL>25) OR xap OR bwn OR cap OR (crn ILVL>40) OR (ghm ILVL>40) OR aar OR fld OR stu OR scl OR brs OR spl OR xui OR xuc OR kit OR vgl OR mbt) !ETH UNI !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
@@ -4876,13 +4876,13 @@ ItemDisplay[(aqv OR cqv) MAG !ID CLVL>69 FILTLVL>2]:
 //Magic Craftables\\
 
 //StrictLLD
-ItemDisplay[(ssd OR 9ss OR jav OR 9ja OR 9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) MAG ETH !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%BLUE%%NAME%%PURPLE%*%GRAY%{%NAME%}
+ItemDisplay[(ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) MAG ETH !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%BLUE%%NAME%%PURPLE%*%GRAY%{%NAME%}
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) MAG !ID FILTLVL=4 CLVL>74]: %PX-4B%%TIER-0%%PURPLE%*%BLUE%%NAME%%PURPLE%*%GRAY%{%NAME%}
 
 //Notified
-ItemDisplay[(SHIELD OR CHEST) !(NEC OR qui OR xui OR lea OR xea OR hla OR xla OR stu OR xtu OR scl OR chn OR spl OR plt OR fld OR buc OR xuc OR uuc OR sml OR xml OR uml) MAG ETH !ID CRAFTALVL>84]: %DOT-97%%GRAY%*%BLUE%%NAME%%GRAY%*
-ItemDisplay[(wsp OR 9ws OR 7ws OR DAGGER OR (tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8) OR (am5 OR ama OR amf)) MAG ETH !ID CRAFTALVL>75 !ID]: %DOT-97%%GRAY%*%BLUE%%NAME%%GRAY%*
-ItemDisplay[((gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) OR (pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama)) MAG ETH !ID CRAFTALVL>57]: %DOT-97%%GRAY%*%BLUE%%NAME%%GRAY%*
+ItemDisplay[(SHIELD OR CHEST) !(NEC OR qui OR xui OR lea OR xea OR hla OR xla OR stu OR xtu OR scl OR chn OR spl OR plt OR fld OR buc OR xuc OR uuc OR sml OR xml OR uml) MAG ETH !ID (CRAFTALVL>84 OR ((DIFF<2 OR CLVL<90) CRAFTALVL>74))]: %DOT-97%%GRAY%*%BLUE%%NAME%%GRAY%*
+ItemDisplay[(((wsp OR 9ws OR 7ws OR wax OR 9wa OR 7wa OR whm OR 9wh OR 7wh OR lsd OR 9ls OR 7ls OR wsd OR 9wd OR 7wd OR kri OR 9kr OR 7kr OR bld OR 9bl OR 7bl) OR (am5 OR ama OR amf)) MAG ETH !ID (CLVL>49 OR ILVL>59)]: %DOT-97%%GRAY%*%BLUE%%NAME%%GRAY%*
+ItemDisplay[((gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) OR (pil OR 9pi OR 7pl OR ssp OR 9s9 OR 7s9 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)) MAG ETH !ID (CLVL>49 OR ILVL>59)]: %DOT-97%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(SCEPTER OR SIN OR (am3 OR am8 OR amd OR am4 OR am9 OR ame) OR (spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl)) MAG ETH !ID CRAFTALVL>57 FILTLVL<3]: %DOT-97%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(SCEPTER PALADIN) OR (SIN ASSASSIN) OR ((am3 OR am8 OR amd OR am4 OR am9 OR ame) AMAZON) OR ((spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl) DRUID) MAG ETH !ID CRAFTALVL>57 FILTLVL>2]: %DOT-97%%GRAY%*%BLUE%%NAME%%GRAY%*
 ItemDisplay[(jav OR 9ja OR 7ja OR 7pi OR 7s7 OR 7gl OR 7ts) MAG ETH !ID CRAFTALVL>57]: %DOT-97%%GRAY%*%BLUE%%NAME%%GRAY%*
@@ -4938,13 +4938,13 @@ ItemDisplay[(am5 OR ama OR amf) MAG !ID]: %NAME%
 //Rare Craftables\\
 
 //StrictLLD
-ItemDisplay[(ssd OR 9ss OR jav OR 9ja OR 9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) RARE ETH !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%YELLOW%%NAME%%PURPLE%*%GRAY%{%NAME%}
+ItemDisplay[(ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) RARE ETH !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%YELLOW%%NAME%%PURPLE%*%GRAY%{%NAME%}
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) RARE !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%YELLOW%%NAME%%PURPLE%*%GRAY%{%NAME%}
 
 //Notified
-ItemDisplay[(SHIELD OR CHEST) !(NEC OR qui OR xui OR lea OR xea OR hla OR xla OR stu OR xtu OR scl OR chn OR spl OR plt OR fld OR buc OR xuc OR uuc OR sml OR xml OR uml) RARE ETH !ID CRAFTALVL>84]: %DOT-A8%%GRAY%*%YELLOW%%NAME%%GRAY%*
-ItemDisplay[(wsp OR 9ws OR 7ws OR DAGGER OR (tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8) OR (am5 OR ama OR amf)) RARE ETH !ID CRAFTALVL>75 !ID]: %DOT-A8%%GRAY%*%YELLOW%%NAME%%GRAY%*
-ItemDisplay[((gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) OR (pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama)) RARE ETH !ID CRAFTALVL>57]: %DOT-A8%%GRAY%*%YELLOW%%NAME%%GRAY%*
+ItemDisplay[(SHIELD OR CHEST) !(NEC OR qui OR xui OR lea OR xea OR hla OR xla OR stu OR xtu OR scl OR chn OR spl OR plt OR fld OR buc OR xuc OR uuc OR sml OR xml OR uml) MAG ETH !ID (CRAFTALVL>84 OR ((DIFF<2 OR CLVL<90) CRAFTALVL>74))]: %DOT-A8%%GRAY%*%YELLOW%%NAME%%GRAY%*
+ItemDisplay[((wsp OR 9ws OR 7ws OR wax OR 9wa OR 7wa OR whm OR 9wh OR 7wh OR lsd OR 9ls OR 7ls OR wsd OR 9wd OR 7wd OR kri OR 9kr OR 7kr OR bld OR 9bl OR 7bl) OR (am5 OR ama OR amf)) MAG ETH !ID (CLVL>49 OR ILVL>59)]: %DOT-A8%%GRAY%*%YELLOW%%NAME%%GRAY%*
+ItemDisplay[((gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) OR (pil OR 9pi OR 7pl OR ssp OR 9s9 OR 7s9 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)) MAG ETH !ID (CLVL>49 OR ILVL>59)]: %DOT-A8%%GRAY%*%YELLOW%%NAME%%GRAY%*
 ItemDisplay[(SCEPTER OR SIN OR (am3 OR am8 OR amd OR am4 OR am9 OR ame) OR (spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl)) RARE ETH !ID CRAFTALVL>57 FILTLVL<3]: %DOT-A8%%GRAY%*%YELLOW%%NAME%%GRAY%*
 ItemDisplay[(SCEPTER PALADIN) OR (SIN ASSASSIN) OR ((am3 OR am8 OR amd OR am4 OR am9 OR ame) AMAZON) OR ((spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl) DRUID) RARE ETH !ID CRAFTALVL>57 FILTLVL>2]: %DOT-A8%%GRAY%*%YELLOW%%NAME%%GRAY%*
 ItemDisplay[(jav OR 9ja OR 7ja OR 7pi OR 7s7 OR 7gl OR 7ts) RARE ETH !ID CRAFTALVL>57]: %DOT-A8%%GRAY%*%YELLOW%%NAME%%GRAY%*
@@ -5080,7 +5080,7 @@ ItemDisplay[(7sp OR 7cl) (SK238>2 ((SK223>2 OR SK224>2 OR SK226>2 OR SK232>2 OR 
 
 //Hammers
 ItemDisplay[(7m7 OR 7gm) !INF ETH NMAG !RW !SOCK=1]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // Ethereal Two Handed Elite Hammers
-ItemDisplay[(7m7 OR 7gm) !INF NMAG !RW !SOCK=1 ED>3 (FILTLVL<3 OR (CLVL<75 FILTLVL>2))]: %DOT-D6%%NAME%{%NAME%} // Superior Two Handed Elite Hammers
+ItemDisplay[(7m7 OR 7gm) !INF NMAG !RW !SOCK=1 ED>3 (FILTLVL<3 OR (ED>9 FILTLVL>2))]: %DOT-D6%%NAME%{%NAME%} // Superior Two Handed Elite Hammers
 ItemDisplay[7wh !INF NMAG !RW !SOCK=1 (FILTLVL<3 OR ((ED>3 OR ETH) FILTLVL>2))]: %NAME%{%NAME%} // Legendary Mallet
 
 //Maces
@@ -5103,7 +5103,7 @@ ItemDisplay[7ws (SK102>1 OR SK106>1 OR SK111>1 OR SK114>1 OR SK118>1 OR SK122>1 
 
 //Swords
 ItemDisplay[ELT SWORD !7cr ETH NMAG !RW !INF !SOCK=1]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // Ethereal Elite Swords
-ItemDisplay[ELT SWORD !7cr !ETH NMAG !RW !INF !SOCK=1 ED>7]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // Superior Elite Swords
+ItemDisplay[ELT SWORD !ETH NMAG !RW !INF !SOCK=1 ED>7]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // Superior Elite Swords
 ItemDisplay[7cr NMAG !INF !RW (SOCK=4 OR SOCK=5) (FILTLVL<3 OR (ED>7 FILTLVL>2))]: %DOT-D6%%NAME%{%NAME%} // 4 or 5 Socket Phase Blade
 ItemDisplay[7cr NMAG !INF !RW (SOCK=0 OR SOCK>2) (FILTLVL<3 OR (ED>3 FILTLVL>2))]: %NAME%{%NAME%} // 0 or >2 Socket Phase Blade
 ItemDisplay[7gd NMAG !RW !INF (SOCK=0 OR SOCK=6) (FILTLVL<3 OR (CLVL<80 FILTLVL>2))]: %NAME%{%NAME%} // Unbending Will Colossus Blade
