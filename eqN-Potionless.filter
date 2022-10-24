@@ -14877,7 +14877,7 @@ ItemDisplay[(rin OR amu) MAG !ID CLVL>74 FILTLVL>1]: {%NAME%}
 ItemDisplay[WEAPON RARE !ETH !ID !leg CLVL>74 FILTLVL>1]: {%NAME%}
 
 //SuperStrict FINAL
-ItemDisplay[(tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8 OR hax OR clb OR mac OR ssd OR scm OR sbr OR flc OR dgr OR dir OR sst OR scp OR qui OR xui OR lea OR xea OR hla OR xla OR stu OR xtu OR scl OR chn OR spl OR plt OR fld OR buc OR xuc OR uuc OR sml OR xml OR uml) MAG ETH !ID CLVL>74 FILTLVL=3]: {%NAME%}
+ItemDisplay[(tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8 OR hax OR clb OR mac OR scm OR sbr OR flc OR dgr OR dir OR sst OR scp OR qui OR xui OR lea OR xea OR hla OR xla OR stu OR xtu OR scl OR chn OR spl OR plt OR fld OR buc OR xuc OR uuc OR sml OR xml OR uml) MAG ETH !ID CLVL>74 FILTLVL=3]: {%NAME%}
 ItemDisplay[ARMOR !(BAR OR DRU OR DIN OR NEC) (NORM OR EXC) RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
 ItemDisplay[(CHEST OR HELM OR SHIELD) !(BAR OR DRU OR DIN OR NEC) ELT RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
 ItemDisplay[cqv RARE !ID CLVL>74 FILTLVL=3]: {%NAME%}
