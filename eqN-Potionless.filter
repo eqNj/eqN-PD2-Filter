@@ -651,9 +651,6 @@ ItemDisplay[ubab]: %MAP-73%%DOT-40%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WH
 ItemDisplay[ubac]: %MAP-73%%DOT-40%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom ruled with a druid's touch.%NL%Korlic the Protector from Henknoc Jungles.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 3 Maps}
 ItemDisplay[uba]: %BORDER-73%%MAP-40%%YELLOW%|%WHITE%:%GOLD%|      %ORANGE%%NAME%      %GOLD%|%WHITE%:%YELLOW%|%ORANGE%{%TAN%whom are to forever watch over the Worldstone.%NL%Come to meet the spirits of mighty barbarians%NL%%NL%%WHITE%Find your courage upon %ORANGE%The Arreat Summit%GRAY%...}
 
-//Wirt's Leg
-ItemDisplay[leg]: %NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
-
 //----------------------------------------- Notes on Socketable Items -----------------------------------------
 
 //Runes Notes
@@ -5059,6 +5056,9 @@ ItemDisplay[(uit OR xsh OR ush OR uow OR uts) !INF NMAG !RW !SOCK=1 (FILTLVL<3 O
 ItemDisplay[(tow OR xsh OR ush) !INF !ETH NMAG !RW (SOCK=0 OR SOCK=3) (ED=15 OR (tow SOCK=3 CLVL<75))]: %NAME%{%NAME%}
 
 // --- // --- NMAG WEAPONS --- \\ --- \\
+
+//Wirt's Leg
+ItemDisplay[leg]: %NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
 
 //Superior + Ethereal Failsafe
 ItemDisplay[WEAPON !THROWING !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !(TABSK2<3 (amd OR ame)) ELT NMAG !INF !RW !SOCK=1 !(SOCK=2 2H) ETH ED>3]: %DOT-D6%%NAME%{%NAME%} // All Useful Ethereal Weapons With Any Enhanced Damage
