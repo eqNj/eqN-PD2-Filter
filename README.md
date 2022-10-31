@@ -82,7 +82,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ## Levels 
 
-##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable. Also good for "Solo Self Found" / singleplayer, hardcore, and early ladder crafting. This filter will show you if anything usable, even into the late game, would drop for any class. Period. The Relaxed filter level is for those used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them. This is the base filter level upon which the following two levels are designed.
+##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable. Also good for "Solo Self Found" / singleplayer, hardcore, and early ladder crafting. This filter level will show you if anything usable, even into the late game, would drop for any class. Period. The Relaxed filter level is for those used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them. This is the base filter level upon which the following two levels are designed.
 
 ##### Medium - Ideal for well geared characters and those who wish to only see more generally useful items. This filter level is also good for those who perfer magic class items that show mostly only be for their current character's class. This filter level still shows you all of the niche runeword bases and the best general crafting bases from the Relaxed level, including those useful for LLD. Crafting bases shown become specialized at character level 80. This filter level finds a happy 'medium' between the Relaxed and SuperStrict filter levels. 
 
