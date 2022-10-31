@@ -78,25 +78,25 @@ The following items will have added descriptions when they appear to be good for
 
 Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items. (All filter levels)
 
-###### Read the "Changelog" further below for more details on the filters' features. (Relative to the above, using the Relaxed filter as the assumed baseline.) 
+###### Read the "Changelog" further below for more details on the filters' features. (Relative to the above, using the Relaxed filter level as the assumed baseline.) 
 
 ## Levels 
 
-##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable. Also good for "Solo Self Found" / singleplayer, hardcore, and early ladder crafting. This filter will show you if anything usable, even into the late game, would drop for any class. Period. The Relaxed filter is for those used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them. This is the base filter upon which the following two levels are designed.
+##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable. Also good for "Solo Self Found" / singleplayer, hardcore, and early ladder crafting. This filter will show you if anything usable, even into the late game, would drop for any class. Period. The Relaxed filter level is for those used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them. This is the base filter level upon which the following two levels are designed.
 
-##### Medium - Ideal for well geared characters and those who wish to only see more generally useful items and perfer magic class items specifically be for their current character's class. This filter still shows you all of the niche runeword bases and the best general crafting bases from the Relaxed level, including those useful for LLD. Crafting bases shown become specialized at character level 80. This filter finds a happy 'medium' between the Relaxed and SuperStrict filter. 
+##### Medium - Ideal for well geared characters and those who wish to only see more generally useful items. This filter level is also good for those who perfer magic class items that show mostly only be for their current character's class. This filter level still shows you all of the niche runeword bases and the best general crafting bases from the Relaxed level, including those useful for LLD. Crafting bases shown become specialized at character level 80. This filter level finds a happy 'medium' between the Relaxed and SuperStrict filter levels. 
 
-##### SuperStrict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons that have a reasonably high value in trading. This filter is useful for those who regularly run high density maps and dungeons and are mostly only looking for items with the highest trade value. 
+##### SuperStrict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons when they are likely to have a reasonably high value in trading. Even at this level, all unique and set items will still show. This filter level is useful for those who regularly run high density maps and dungeons and are mostly only looking for items that are easy to trade or . 
 
-##### StrictLLD - This is essentially a copy of the SuperStrict filter level, however it will continue to show & even notify when a LLD crafting base drops. This level is designed for late ladder and/or targeted LLD item farming.
+##### StrictLLD - This is essentially a copy of the SuperStrict filter level, however it will continue to show & sometimes notify when a LLD crafting base drops. This level is designed for late ladder and/or targeted LLD item farming. LLD crafting bases are marked with purple asterisks.
 
-##### ShowRecipes - This level shows all crafting and upgrading recipes on any applicable items. The crafting recipes can be found on magic items and on perfect gems. The upgrade recipes include information about the requirements for upgraded items. This filter level will also show the recommended level for LLD crafting on most LLD crafting bases. This level will show all runes necessary for runewords on any socketed non-magic (white) items. This level is not recommended for use while item finding, though it will never hide anything important. This filter level uses SuperStrict as a baseline but it does still show (not notify) all LLD crafting bases, as well as any and all non-magic (white) items that are either socketable or drop with more than a single socket that would otherwise show on the Relaxed filter.
+##### ShowRecipes - This filter level shows all crafting and upgrading recipes on any applicable items. The crafting recipes can be found on magic items and on perfect gems. The upgrade recipes include information about the requirements for upgraded items. This filter level will show the recommended level for LLD crafting on most LLD-applicable crafting bases. This level will also show all runes necessary for runewords on any socketed non-magic (white) items. This level is not recommended for use while item finding as it can be a bit visually noisy. Though, if item finding with this filter level it will never hide anything important. This filter level uses SuperStrict as a baseline but it still shows all LLD crafting bases, as well as any and all non-magic (white) items that would otherwise show on the Relaxed filter.
 
-###### The differences between these filters, relative to the Relaxed filter as a baseline, are further described below. All of these filters share the same leveling experience prior to character level 75.
+###### The differences between these filter levels, relative to the Relaxed filter level as a baseline, are further described below. All of these filter levels share the same leveling experience prior to character level 75.
 
-## 'Relaxed' / 'Medium' / 'SuperStrict' Filter Differences
+## 'Relaxed' / 'Medium' / 'SuperStrict' Filter Level Differences
 
-### The 'Medium' filter has the following changes (after character level 75):
+### The 'Medium' filter level has the following changes (after character level 75):
 
 Gold piles less than 1600 are hidden.
 
@@ -119,7 +119,7 @@ Magic bolts and arrows are hidden, however Amazons will still see magic arrows.
 Magic rings and amulets are hidden, unless item level 86+ rings or item level 90+ amulets.
 
 
-### The 'SuperStrict' filter has the following changes (after character level 75):
+### The 'SuperStrict' filter level has the following changes (after character level 75):
 
 Gold piles less than 3000 are hidden.
 
