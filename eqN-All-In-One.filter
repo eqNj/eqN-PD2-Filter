@@ -241,7 +241,7 @@ ItemDisplay[cm1 !UNI (FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) STR>0 LVLREQ<10]: %N
 //ItemDisplay[cm1 !UNI (CRES>0 MFIND>0)]: %BLUE%Cold Res %WHITE%/ %GREEN%MF %BLUE%Small Charm{%NAME%}
 //ItemDisplay[cm1 !UNI (PRES>0 MFIND>0)]: %GREEN%Psn Res %WHITE%/ %GREEN%MF %BLUE%Small Charm{%NAME%}
 
-ItemDisplay[cm1 !UNI LIFE>13 LVLREQ<31]: %PURPLE%LLD %BLUE%Small Charm of Sustenance{%NAME%}
+ItemDisplay[cm1 !UNI LIFE>13 LVLREQ<31]: %PURPLE%LLD %BLUE%%NAME%{%NAME%}
 //ItemDisplay[cm1 !UNI FRES>0]: %RED%Fire Res %BLUE%Small Charm{%NAME%}
 //ItemDisplay[cm1 !UNI LRES>0]: %YELLOW%Light Res %BLUE%Small Charm{%NAME%}
 //ItemDisplay[cm1 !UNI CRES>0]: %BLUE%Cold Res %BLUE%Small Charm{%NAME%}
