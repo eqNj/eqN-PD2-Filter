@@ -8,6 +8,12 @@ ItemDisplayFilterName[]:SuperStrict
 ItemDisplayFilterName[]:StrictLLD
 ItemDisplayFilterName[]:ShowRecipes
 
+//Specialized Filter Key
+//ItemDisplay[box]: %NAME%{%GRAY%Specialized%NL%%TAN%As above, so below.} 
+//ItemDisplay[mp5 CLVL>75 FILTLVL>1 !FILTLVL=5]: {%WHITE%Super Mana Potion}
+//ItemDisplay[hp5 CLVL>75 FILTLVL>1 !FILTLVL=5]: {%WHITE%Super Healing Potion}
+//ItemDisplay[mp4 CLVL>75 FILTLVL>1 !FILTLVL=5]: {%WHITE%Greater Mana Potion}
+
 //----------------------------------------- Utilities -----------------------------------------
 
 //Show Item Names When Gambling
@@ -19,7 +25,7 @@ ItemDisplay[bkd]: %NAME%{%TAN%Find the sage Deckard Cain%NL%Behest a Demigod imp
 ItemDisplay[hdm]: %NAME%{%TAN%Bestowed to the Sisters of the Sightless Eye%NL%Enchanted by ancient Horadric Mages%NL%Crafted in necessity of the Sin War} 
 ItemDisplay[tr1]: %NAME%{%TAN%Onward, the Tomb of Tal Rasha%NL%Found, the details of the binding of Baal%NL%Slain, Radament the Fallen, mummified Horadrim}
 ItemDisplay[ass]: %GOLD%Book of Skill{%GOLD%Right click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned are those who stay awhile and listen.}
-ItemDisplay[box]: %NAME%{%TAN%As above, so below.} 
+ItemDisplay[box]: %NAME%{%GRAY%Specialized%NL%%TAN%As above, so below.} 
 ItemDisplay[msf]: %NAME%{%TAN%A relic of royalty, withered of dust%NL%Beneath the tunnels woven of Arthropods}
 ItemDisplay[vip]: %NAME%{%TAN%Fangskin the Salamander abides%NL%An endless eclipse, buried in scales%NL%Amidst the darkness, an amulet unworn}
 ItemDisplay[hst]: %NAME%{%TAN%The Mage Clans united%NL%In Archangel Tyrael confided%NL%The Dark Exile provided}
@@ -133,9 +139,9 @@ ItemDisplay[GOLD<988 DIFF=2 (MAPID=136 OR MAPID=137 OR MAPID=161 OR MAPID=162 OR
 ItemDisplay[GOLD>0]: %NAME%
 
 //Potionless
-ItemDisplay[mp5 CLVL>75 FILTLVL>0]: {%WHITE%Super Mana Potion}
-ItemDisplay[hp5 CLVL>75 FILTLVL>0]: {%WHITE%Super Healing Potion}
-ItemDisplay[mp4 CLVL>75 FILTLVL>0]: {%WHITE%Greater Mana Potion}
+ItemDisplay[mp5 CLVL>75 FILTLVL>1 !FILTLVL=5]: {%WHITE%Super Mana Potion}
+ItemDisplay[hp5 CLVL>75 FILTLVL>1 !FILTLVL=5]: {%WHITE%Super Healing Potion}
+ItemDisplay[mp4 CLVL>75 FILTLVL>1 !FILTLVL=5]: {%WHITE%Greater Mana Potion}
 
 //Health & Mana Potions
 ItemDisplay[rvl]: %BLACK%* %PURPLE%JV %BLACK%*%WHITE%{%WHITE%Full Rejuvenation Potion}
@@ -5443,12 +5449,14 @@ ItemDisplay[uit !ETH !INF NMAG !RW SOCK=4]: %NAME%{%NAME%}
 //StrictLLD-Specific Failsafes
 ItemDisplay[((STAFF !ELT) OR ltp OR xtp OR bhm OR xh9 OR bsh OR xsh OR lrg OR xrg OR spk OR xpk OR wsp OR 9ws OR wax OR 9wa OR gsd OR 9gd OR whm OR 9wh OR gma OR 9gm OR kri OR 9kr OR lwb OR 8lw OR pik OR 9p9) RARE !ID FILTLVL=4 CLVL>74]: %NAME%{%NAME%}
 ItemDisplay[((EXC STAFF) OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) MAG !ID FILTLVL=4 CLVL>74]: %NAME%{%NAME%}
+ItemDisplay[(amu OR rin) MAG !ID FILTLVL=4 DIFF<2 CLVL>74]: %NAME%{%NAME%}
 ItemDisplay[ci0 MAG !ID FILTLVL=4 CLVL>74]: %NAME%{%NAME%}
 
 //ShowRecipes-Specific Failsafes
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs) MAG !ID FILTLVL=5 CLVL>74]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%{%NAME%}
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs) RARE !ID FILTLVL=5 CLVL>74]: %NAME%{%NAME%}
 ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs) MAG !ID FILTLVL=5 CLVL>74]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%{%NAME%}
+ItemDisplay[(amu OR rin) MAG !ID FILTLVL=5 DIFF<2 CLVL>74]: %NAME%{%NAME%}
 
 //Filter Level 0 - Inferior Note
 ItemDisplay[(ARMOR OR WEAPON) INF FILTLVL=0]: %NAME%{%GRAY%This is an inferior item.}
