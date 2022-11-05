@@ -116,7 +116,7 @@ Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are 
 
 Non-magic (white) elite items are sometimes hidden, unless specifically useful for runewords or if they have +3 to a valuable skill.
 
-Normal and exceptional magic items are hidden unless specifically great for crafting for your class or nearly impossible to shop and useful for LLD crafting.
+Normal and exceptional magic items are hidden unless they are ethereal or specifically great for crafting for your class and/or nearly impossible to shop and useful for LLD crafting.
 
 Most exceptional and elite magic non-class items for crafting, except for elite chest armors, are hidden once you reach character level 80.
 
@@ -139,7 +139,7 @@ Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are 
 
 Non-magic (white) items are almost all hidden, unless highly sought after bases for runewords (mostly requiring 5%+ ED) or if they have +3 to a valuable skill.
 
-Normal, exceptional, and elite magic items are hidden unless ethereal weapons for crafting and/or specifically for the class you are playing.
+Normal, exceptional, and elite magic items are hidden unless ethereal items for crafting and/or specifically useful for the class you are playing.
 
 Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, an amazon bow, a class helm, necro shield, gloves, boots, belts, rings, amulets, circlets, or arrows.
 
