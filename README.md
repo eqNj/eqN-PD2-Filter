@@ -14,11 +14,19 @@ The version known as 'eqN-All-In-One' in the game launcher includes all other pa
 
 The version known as 'eqN-Potionless' is the same as 'eqN-All-In-One', however it hides Super/Large Health and Mana potions after character level 75 at all filter levels.
 
+The version known as 'eqN-Specialized-LLD' is the same as 'eqN-All-In-One', however it hides Super/Large Health and Mana potions after character level 75 at filter levels above 'Relaxed' and it shows details for LLD crafting on applicable base items on the 'ShowRecipes' filter level.
+
 To those interested: these filters are specially designed to be 100% functional with the in-game filter level setting 'Show All Items' and will apply all filter aesthetic (item name and description) effects to every item.
 
 ![Filter Levels](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/FilterLevel.jpg)
 
 FYI: You can toggle the filter strictness level, or switch to the 'ShowRecipes' filter level, by holding CTRL + clicking on the PD2 in-game 'Settings' button, then adjusting your filter level under the 'Item' tab.
+
+## Brief Summary
+
+When using any filter level the following applies. All flawless+ gems and runes always show. All charms always show. Unique and set items always show. Ethereal rare, magic, or elite non-magic (white) items always show. All non-magic items with +3 to a useful skill always show.
+
+When using the default, 'Relaxed', filer level the above and the following apply. All elite non-magic (white) items always show. All rare items always show. All useful magic crafting bases always show. 
 
 The Relaxed level of this filter is the basis upon which all levels of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is highly focused on optimizations as you level and slightly more lenient in the endgame by comparison. All levels of this filter share the same optimized leveling experience before reaching character level 75. For more details about all of the different filter levels please read the [levels](https://github.com/eqNj/eqN-PD2-Filter#levels) section of this readme.
 
@@ -86,7 +94,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ##### Medium - Ideal for well geared characters and those who wish to only see more generally useful items. This filter level is also good for those who perfer magic class items that show mostly only be for their current character's class. This filter level still shows you all of the niche runeword bases and the best general crafting bases from the Relaxed level, including those useful for LLD. Crafting bases shown become specialized at character level 80. This filter level finds a happy 'medium' between the Relaxed and SuperStrict filter levels. 
 
-##### SuperStrict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons when they are likely to have a reasonably high value in trading. Even at this level, all unique and set items will still show. This filter level is useful for those who regularly run high density maps and dungeons and are mostly only looking for items that are easy to trade or . 
+##### SuperStrict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons when they are likely to have a reasonably high value in trading. Even at this level, all unique and set items will still show. This filter level is useful for those who regularly run high density maps and dungeons and are mostly only looking for items that are easy to trade. 
 
 ##### StrictLLD - This is essentially a copy of the SuperStrict filter level, however it will continue to show & sometimes notify when a LLD crafting base drops. This level is designed for late ladder and/or targeted LLD item farming. LLD crafting bases are marked with purple asterisks.
 
