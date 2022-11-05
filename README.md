@@ -20,7 +20,7 @@ To those interested: these filters are specially designed to be 100% functional 
 
 ![Filter Levels](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/FilterLevel.jpg)
 
-##### FYI: You can toggle the filter strictness level, or switch to the 'ShowRecipes' filter level, by holding CTRL + clicking on the PD2 in-game 'Settings' button, then adjusting your filter level under the 'Item' tab. These filters use this functionality heavily.
+#### FYI: You can toggle the filter strictness level, or switch to the 'ShowRecipes' filter level, by holding CTRL + clicking on the PD2 in-game 'Settings' button, then adjusting your filter level under the 'Item' tab. These filters use this functionality heavily.
 
 ## Brief Summary
 
