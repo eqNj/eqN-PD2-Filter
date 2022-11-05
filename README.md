@@ -24,7 +24,7 @@ To those interested: these filters are specially designed to be 100% functional 
 
 ## Brief Summary
 
-When using any filter level the following applies. All flawless+ gems and runes always show. All charms always show. Unique and set items always show. Ethereal rare, magic, or elite non-magic (white) items always show. All non-magic items with +3 to a useful skill always show.
+When using any filter level the following applies. All flawless and perfect gems and runes always show. All charms always show. Unique and set items always show. Ethereal rare, magic, or elite non-magic (white) items always show. All non-magic items with +3 to a useful skill always show.
 
 When using the default, 'Relaxed', filter level the above and the following apply. All elite non-magic (white) items always show. All rare items always show. All useful magic crafting bases always show. 
 
