@@ -24,13 +24,15 @@ To those interested: these filters are specially designed to be 100% functional 
 
 ## Brief Summary
 
-When using any filter level the following applies. All flawless and perfect gems and runes always show. All charms always show. Unique and set items always show. Ethereal rare, magic, or elite non-magic (white) items always show. All non-magic items with +3 to a useful skill always show.
+When using any filter level the following applies. All flawless and perfect gems always show. All runes always show. All charms always show. Unique and set items always show. Ethereal rare, magic, or elite non-magic (white) items always show. All non-magic (white) items with +3 to a useful skill always show.
 
 When using the default, 'Relaxed', filter level the above and the following apply. All elite non-magic (white) items always show. All rare items always show. All useful magic crafting bases always show. 
 
-The Relaxed level of this filter is the basis upon which all levels of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. It is highly focused on optimizations as you level and slightly more lenient in the endgame by comparison. All levels of this filter share the same optimized leveling experience before reaching character level 75. For more details about all of the different filter levels please read the [levels](https://github.com/eqNj/eqN-PD2-Filter#levels) section of this readme.
+The 'Relaxed' level of this filter is the basis upon which all levels of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. All levels of this filter share the same optimized leveling experience before reaching character level 75. 
 
-This filter doesn't try to make all the decisions for you. You will see things that you may not be inclined to pick up, but it is always reasonable why you're seeing these items if you understand the nuances of itemization in Diablo 2.
+#### For more details about all of the different filter levels please read the [levels](https://github.com/eqNj/eqN-PD2-Filter#levels) section of this readme.
+
+This filter doesn't try to make all the decisions for you. It is highly focused on optimizations as you level and slightly more lenient in the endgame by comparison. You will occasionally see things that you may not be inclined to pick up, but it is always reasonable why you're seeing these items if you understand the nuances of itemization in Diablo 2.
 
 ## Features
 
@@ -38,7 +40,7 @@ This filter doesn't try to make all the decisions for you. You will see things t
 
 All non-magic (white) items with a relevant amount of plus skills that drop will show those skills in their name, making them easily identifiable at a glance.
 
-All non-magic (white) body armors will show their base defense range (in their description) to allow you to know if the item has a "good roll" in this way.
+All non-magic (white) body armors and helmets will show their base defense range (in their description) to allow you to know if the item has a "good roll" in this way.
 
 ![Based](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Based.jpg)
 
@@ -52,9 +54,9 @@ If an item is non-magic (white) and socketed it will show its possible runewords
 
 ![Runewords](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Runewords.jpg)
 
-If an item is rare, crafted, set, or unique it will show its maximum potential sockets through corruption specifically. 
+If an item is magic, rare, crafted, set, or unique it will show its maximum potential sockets through corruption specifically. 
 
-If an item is rare, crafted, set, or unique and corrupted it will then only show its maximum potential sockets through use of a Larzuk's Puzzlepiece / Puzzlebox specifically.
+If an item is magic, rare, crafted, set, or unique and corrupted it will then only show its maximum potential sockets through use of a Larzuk's Puzzlepiece / Puzzlebox specifically.
 
 Once an item is socketed in any fashion the maximum potential socket information will be removed from the item's description.
 
@@ -68,7 +70,7 @@ Specifically, socketing recipes will show at item level 21+ (or earlier on any +
 
 ![Upgrade Weapon](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Upgrade.jpg)
 
-All unique and set items always show in any of these filters. Uniques will always notify on the Relaxed filter level, however only certain mid-to-high tier unique and set items will notify on the other filter levels. All runes will always show and notify on every filter level. Flawless gems always show and Perfect gems will always notify in all filter levels.
+All unique and set items always show in any of these filters. Uniques will always notify on the Relaxed filter level, however only certain mid-to-high tier unique and set items will notify on the other filter levels. All runes will always show and notify on every filter level. Flawless gems always show and perfect gems will always notify in all filter levels.
 
 ![A Lot Of Drops](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Grounded.jpg)
 
