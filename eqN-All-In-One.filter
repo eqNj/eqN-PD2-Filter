@@ -4848,7 +4848,7 @@ ItemDisplay[SET !ID CLVL<75 FILTLVL>1]: %PX-84%%NAME%%GREEN%
 ItemDisplay[aqv MAG !ID CLVL<70]: %BLUE%%NAME%
 ItemDisplay[cqv MAG !ID CLVL<60]: %BLUE%%NAME%
 ItemDisplay[aqv MAG AMAZON !ID CLVL>69 FILTLVL=1]: %BLUE%%NAME%
-ItemDisplay[(aqv OR cqv) MAG !ID CLVL>59 FILTLVL<3]:
+ItemDisplay[(aqv OR cqv) MAG !ID CLVL>59]:
 
 //Magic Craftables\\
 
