@@ -2,7 +2,7 @@
 
 ![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Charming.jpg)
 
-These filters are up-to-date for Season 5 of Project Diablo 2!
+These filters are up-to-date for Season 6 of Project Diablo 2!
 
 You can find these loot filters either here (on GitHub) or through the Project Diablo 2 game launcher.
 
@@ -24,7 +24,7 @@ To those interested: these filters are specially designed to be 100% functional 
 
 ## Brief Summary
 
-When using any filter level the following applies. All flawless and perfect gems always show. All runes always show. All charms always show. Unique and set items always show. Ethereal rare, magic, or elite non-magic (white) items always show. All non-magic (white) items with +3 to a useful skill always show.
+When using any filter level the following applies. All flawless and perfect gems always show. All runes always show. All charms always show. Unique and set items always show. Ethereal rare, magic, or elite non-magic (white) items always show. All non-magic (white) items with +3 to a useful skill always show. All elite non-magic superior items with 10%+ ED always show.
 
 When using the default, 'Relaxed', filter level the above and the following apply. All elite non-magic (white) items always show. All rare items always show. All useful magic crafting bases always show. 
 
@@ -124,7 +124,7 @@ Normal, exceptional, and elite rare weapons are hidden, unless ethereal, a bow/c
 
 Only high/mid-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
-Magic bolts and arrows are hidden, however Amazons will still see magic arrows.
+Magic arrows are hidden for all classes. Rare arrows and bolts will still show.
 
 Magic rings and amulets are hidden, unless item level 86+ rings or item level 90+ amulets.
 
@@ -145,7 +145,7 @@ Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon,
 
 Only high-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
-Rare bolts are hidden and magic bolts and arrows are hidden.
+Magic arrows are hidden for all classes. Rare bolts are hidden for all classes except Amazons. Rare arrows will still show.
 
 Non-magic (for imbuing) and magic circlets of all kinds are hidden.
 
@@ -309,6 +309,8 @@ Gold that is hidden is no longer able to be auto-looted as of Season 5. I've ado
 
 Added a new "Potionless" filter version to the launcher, "eqN-Potionless", which functions identically to "eqN-All-In-One" except it hides Super Potions after character level 75. (Intended for characters who do not need them.)
 
+Added a new "Specialized LLD" filter version to the launcher, "eqN-Specialized-LLD", which functions identically to "eqN-All-In-One" except it hides Super Potions after character level 75 on Medium or higher strictness. This filter level also adds details about ideal character levels to craft with to LLD crafting bases.
+
 Added detailed descriptions and drop notifications/aesthetics for all of the new 'recipe' items in Season 5: Larzuk's Puzzlepiece, Lilith's Mirror, and Vial of Lightsong.
 
 Added mention of all of the new runewords in Season 5 to applicable bases, including both the new D2:R and PD2 exclusive runewords. Made sure all relevant item bases for use with these runewords will always show on drop, relative to their usefulness as you progress.
@@ -340,3 +342,23 @@ Updated potion aesthetic to be more unique and slightly easier to pick up. Also 
 A massive amount of tweaks have been added to the LLD item tags introduced last season. These changes refine the item tags to always show the LLD tag on items worth keeping for your LLD characters without introducing excessive visuals and/or notifications.
 
 Made it so all charms will use their original affix names (instead of the color coded names based on the affix modifiers, like other filters) to retain some of the original D2 aesthetic.
+
+## 1.5.0 - (Season 6)
+
+A massive amount of changes/improvements were made to the filter throughout the last half of Season 5, please read about them above.
+
+Ensured all useful +3 runeword bases will show for improved skills this season (Inferno, Arctic Blast, Dragon Talon, etc).
+
+Updated the descriptions for changed rune socketing effects for Jah, Ber, and Ist runes.
+
+Made sure ideal Wand runeword bases for the improved White runeword will notify on drop as a Necromancer. (They were already showing.)
+
+Added pertinent information for the new runewords (Asylum and Shattered Wall) to applicable runeword bases. (This includes rune listing/order provided in the ShowRecipes filter level.)
+
+Added new existing runeword possibilites introduced this season to applicable runewords bases. (This includes rune listing/order provided in the ShowRecipes filter level.)
+
+Reworked how and when rare and magic arrows and bolts show depending on filter level.
+
+Updated map tiers and immunities in alignment with their rework this season.
+
+Continued improvements on mid and high tier uniques with highlights.
