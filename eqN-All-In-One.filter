@@ -5046,6 +5046,7 @@ ItemDisplay[(6rx OR 6lx OR 6mx) NMAG !INF !RW (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOC
 ItemDisplay[7bl NMAG !INF !SOCK=1 (ETH OR ED>9)]: %DOT-D6%%NAME%{%NAME%} // Ethereal or Superior Legend Spike
 ItemDisplay[7kr NMAG !INF !SOCK=1 (ETH OR ED>9)]: %DOT-D6%%NAME%{%NAME%} // Ethereal or Superior Fanged Knife
 ItemDisplay[(7dg OR 7di) NMAG !INF !SOCK=1 (ETH OR ED>9)]: %NAME%{%NAME%} // Ethereal or Superior Bone Knife or Mithril Point
+ItemDisplay[DAGGER NMAG !INF SOCK=3 ASSASSIN CLVL<70]: %DOT-D6%%NAME%{%NAME%} // Leveling Daggers for Malice on Kick Assassin
 
 //Axes
 ItemDisplay[(7wa OR 72a OR 7mp) ETH !INF NMAG !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%} // Ethereal One Handed Elite Axes
