@@ -361,4 +361,6 @@ Reworked how and when rare and magic arrows and bolts show depending on filter l
 
 Updated map tiers and immunities in alignment with their rework this season.
 
+Added monster immunity percentage to map immunity information.
+
 Continued improvements on mid and high tier uniques with highlights.

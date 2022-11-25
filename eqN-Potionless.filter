@@ -561,30 +561,30 @@ ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 
 ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %NAME%{%WHITE%Deaths within are not permanent in %RED%Hardcore%NL%%NL%%TAN%- that they plan their fight in the ring.%NL%There is an old adage about gladiators,}
 
 //Tier 1 Immunes
-ItemDisplay[t22]: %NAME%{%YELLOW%Light %GRAY%|| %BLUE%Cold%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Torajan Jungle
-ItemDisplay[t12]: %NAME%{%RED%Fire %GRAY%|| %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Horazon's Memory
-ItemDisplay[t13]: %NAME%{%YELLOW%Light %GRAY%|| %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Bastion Keep
-ItemDisplay[t23]: %NAME%{%RED%Fire %GRAY%|| %BLUE%Cold%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Arreat Battlefield
-ItemDisplay[t21]: %NAME%{%GREEN%Poison %GRAY%|| %ORANGE%Magic %GRAY%|| %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Phlegethon
-ItemDisplay[t33]: %NAME%{%RED%Fire %GRAY%|| %YELLOW%Light%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Lost Temple
-ItemDisplay[t16]: %NAME%{%BLUE%Cold %GRAY%|| %GREEN%Poison %GRAY%|| %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Ruined Cistern
+ItemDisplay[t22]: %NAME%{%YELLOW%105% %GRAY%|| %BLUE%140%%NL%%YELLOW%Light %GRAY%|| %BLUE%Cold%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Torajan Jungle
+ItemDisplay[t12]: %NAME%{%RED%135% %GRAY%|| %GREEN%120%%NL%%RED%Fire %GRAY%|| %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Horazon's Memory
+ItemDisplay[t13]: %NAME%{%YELLOW%135% %GRAY%|| %TAN%110%%NL%%YELLOW%Light %GRAY%|| %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Bastion Keep
+ItemDisplay[t23]: %NAME%{%RED%130% %GRAY%|| %YELLOW%100%%NL%%RED%Fire %GRAY%|| %YELLOW%Light%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Arreat Battlefield
+ItemDisplay[t21]: %NAME%{%RED%140% %GRAY%|| %GREEN%120%%NL%%RED%Fire %GRAY%|| %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Phlegethon
+ItemDisplay[t33]: %NAME%{%RED%120% %GRAY%|| %BLUE%110% %GRAY%|| %YELLOW%115%%NL%%RED%Fire %GRAY%|| %BLUE%Cold %GRAY%|| %YELLOW%Light%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Lost Temple
+ItemDisplay[t16]: %NAME%{%BLUE%115% %GRAY%|| %GREEN%140% %GRAY%|| %ORANGE%125%%NL%%BLUE%Cold %GRAY%|| %GREEN%Poison %GRAY%|| %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Ruined Cistern
 // Tier 2 Immunes
-ItemDisplay[t17]: %NAME%{%RED%Fire %GRAY%|| %BLUE%Cold %GRAY%|| %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Royal Crypts
-ItemDisplay[t11]: %NAME%{%YELLOW%Light %GRAY%|| %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Ruins of Viz-jun
-ItemDisplay[t15]: %NAME%{%RED%Fire %GRAY%|| %BLUE%Cold%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Sanatorium
-ItemDisplay[t34]: %NAME%{%BLUE%Cold %GRAY%|| %GREEN%Poison %GRAY%|| %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Ancestral Trial
-ItemDisplay[t36]: %NAME%{%RED%Fire %GRAY%|| %YELLOW%Light %GRAY%|| %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Fall of Caldeum
-ItemDisplay[t26]: %NAME%{%RED%Fire %GRAY%|| %BLUE%Cold %GRAY%|| %TAN%Phys %NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Shadows of Westmarch
+ItemDisplay[t15]: %NAME%{%YELLOW%100% %GRAY%|| %GREEN%105% %GRAY%|| %ORANGE%150%%NL%%YELLOW%Light %GRAY%|| %GREEN%Poison %GRAY%|| %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Royal Crypts
+ItemDisplay[t11]: %NAME%{%YELLOW%120% %GRAY%|| %GREEN%120%%NL%%YELLOW%Light %GRAY%|| %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Ruins of Viz-jun
+ItemDisplay[t14]: %NAME%{%RED%130% %GRAY%|| %BLUE%130%%NL%%RED%Fire %GRAY%|| %BLUE%Cold%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Sanatorium
+ItemDisplay[t34]: %NAME%{%RED%120% %GRAY%|| %GREEN%120% %GRAY%|| %TAN%110%%NL%%RED%Fire %GRAY%|| %GREEN%Poison %GRAY%|| %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Ancestral Trial
+ItemDisplay[t36]: %NAME%{%YELLOW%Light %GRAY%(%YELLOW%100%%GRAY%)%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Fall of Caldeum
+ItemDisplay[t26]: %NAME%{%RED%110% %GRAY%|| %BLUE%150% %GRAY%|| %TAN%100%%NL%%RED%Fire %GRAY%|| %BLUE%Cold %GRAY%|| %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Shadows of Westmarch
 // Tier 3 Immunes
-ItemDisplay[t31]: %NAME%{%RED%Fire %GRAY%|| %BLUE%Cold %GRAY%|| %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // River of Blood
-ItemDisplay[t32]: %NAME%{%RED%Fire %GRAY%|| %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Throne of Insanity
-ItemDisplay[t25]: %NAME%{%RED%Fire %GRAY%|| %YELLOW%Light %GRAY%|| %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Sewers of Harrogath
-ItemDisplay[t24]: %NAME%{%YELLOW%Light %GRAY%|| %GREEN%Poison %GRAY%|| %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Tomb of Zoltun Kulle
+ItemDisplay[t31]: %NAME%{%RED%125% %GRAY%|| %BLUE%180% %GRAY%|| %ORANGE%100%%NL%%RED%Fire %GRAY%|| %BLUE%Cold %GRAY%|| %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // River of Blood
+ItemDisplay[t32]: %NAME%{%RED%130% %GRAY%|| %GREEN%115%%NL%%RED%Fire %GRAY%|| %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Throne of Insanity
+ItemDisplay[t25]: %NAME%{%RED%125% %GRAY%|| %YELLOW%135%%NL%%RED%Fire %GRAY%|| %YELLOW%Light%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Sewers of Harrogath
+ItemDisplay[t24]: %NAME%{%BLUE%150% %GRAY%|| %YELLOW%120% %GRAY%|| %GREEN%110% %GRAY%|| %TAN%105%%NL%%BLUE%Cold %GRAY%|| %YELLOW%Light %GRAY%|| %GREEN%Poison %GRAY%|| %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Tomb of Zoltun Kulle
 ItemDisplay[t35]: %NAME%{%NAME%}%CONTINUE% // Blood Moon
-ItemDisplay[t3a]: %NAME%{%YELLOW%Light %GRAY%|| %GREEN%Poison %GRAY%|| %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Ashen Plains
-ItemDisplay[t37]: %NAME%{%RED%Fire %GRAY%|| %BLUE%Cold %GRAY%|| %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Pandemonium Citadel
-ItemDisplay[t38]: %NAME%{%YELLOW%Light %GRAY%|| %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Canyon of Sescheron
-ItemDisplay[t39]: %NAME%{%BLUE%Cold %GRAY%|| %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Kehjistan Marketplace
+ItemDisplay[t3a]: %NAME%{%YELLOW%145% %GRAY%|| %GREEN%130% %GRAY%|| %ORANGE%120%%NL%%YELLOW%Light %GRAY%|| %GREEN%Poison %GRAY%|| %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Ashen Plains
+ItemDisplay[t37]: %NAME%{%RED%140% %GRAY%|| %BLUE%130% %GRAY%|| %TAN%100%%NL%%RED%Fire %GRAY%|| %BLUE%Cold %GRAY%|| %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Pandemonium Citadel
+ItemDisplay[t38]: %NAME%{%YELLOW%160% %GRAY%|| %GREEN%110%%NL%%YELLOW%Light %GRAY%|| %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Canyon of Sescheron
+ItemDisplay[t39]: %NAME%{%BLUE%130% %GRAY%|| %GREEN%110%%NL%%BLUE%Cold %GRAY%|| %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Kehjistan Marketplace
 // Tier 4 Immunes
 ItemDisplay[t41]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Cathedral of Light
 ItemDisplay[t42]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Plains of Torment
