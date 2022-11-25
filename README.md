@@ -349,7 +349,7 @@ A massive amount of changes/improvements were made to the filter throughout the 
 
 Ensured all useful +3 runeword bases will show for improved skills this season (Inferno, Arctic Blast, Dragon Talon, etc).
 
-Updated the descriptions for changed rune socketing effects for Jah, Ber, and Ist runes.
+Updated the descriptions for changed rune socketing effects for Jah, Ber, Ohm, Ist, and Dol runes.
 
 Made sure ideal Wand runeword bases for the improved White runeword will notify on drop as a Necromancer. (They were already showing.)
 

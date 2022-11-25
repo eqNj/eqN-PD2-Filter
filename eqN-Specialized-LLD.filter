@@ -530,10 +530,11 @@ ItemDisplay[std]: %PX-62%%YELLOW%|%TAN%>%GRAY%:     %GOLD%%NAME%     %GRAY%:%TAN
 //Project Diablo 2 Items
 ItemDisplay[wss]: %MAP-4B%%NAME%{%RED%Warning%WHITE%: This can brick your item%NL%%WHITE%Use this to %RED%Corrupt %WHITE%items or maps%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
 ItemDisplay[scrb]: %BORDER-62%%YELLOW%|%TAN%>%GRAY%:     %GOLD%%NAME%     %GRAY%:%TAN%<%YELLOW%|%GOLD%{%WHITE%Create a %RED%Dungeon%NL%%GOLD%Cube %WHITE%this with a %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Map:}
+ItemDisplay[lmal]: %DOT-0B%%GRAY%:  %GOLD%%NAME%  %GRAY%:%GOLD%{%RED%Corruption %WHITE%and/or %GOLD%Puzzlepieces %WHITE%could result higher.%NL%%NL%%WHITE%to add a single %TAN%socket %WHITE%to the item.%NL%%GOLD%Cube %WHITE%this item with %DARK_GREEN%any %WHITE%applicable weapon or armor}
 ItemDisplay[lpp]: %BORDER-0B%%YELLOW%|%GRAY%:    %GOLD%%NAME%    %GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%to add a variable amount of %TAN%sockets %WHITE%to it.%NL%%GOLD%Cube %WHITE%this item with a %YELLOW%rare %WHITE%or %ORANGE%crafted %WHITE%weapon or armor}
 ItemDisplay[lbox]: %BORDER-0C%%YELLOW%|%TAN%>%GRAY%:      %GOLD%%NAME%      %GRAY%:%TAN%<%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%to add a variable amount of %TAN%sockets %WHITE%to it.%NL%%GOLD%Cube %WHITE%this item with %DARK_GREEN%any %WHITE%applicable weapon or armor}
-ItemDisplay[lsvl]: %BORDER-9B%%YELLOW%~%PURPLE%|%BLUE%>%GOLD%:          %PURPLE%%NAME%          %GOLD%:%BLUE%<%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Exception: %GOLD%Indestructible %WHITE%or %GREEN%Set %WHITE%items}
-ItemDisplay[llmr]: %BORDER-9B%%YELLOW%~%PURPLE%|%BLUE%>%GOLD%:          %PURPLE%%NAME%          %GOLD%:%BLUE%<%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Once an item is %PURPLE%Mirrored %WHITE%it cannot be modified}
+ItemDisplay[lsvl]: %BORDER-9B%%YELLOW%~%PURPLE%|%BLUE%>%GOLD%:          %PURPLE%%NAME%          %GOLD%:%BLUE%<%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%GOLD%Indestructible %WHITE%and %GREEN%Set %WHITE%items cannot be made ethereal.}
+ItemDisplay[llmr]: %BORDER-9B%%YELLOW%~%PURPLE%|%BLUE%>%GOLD%:          %PURPLE%%NAME%          %GOLD%:%BLUE%<%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Once an item is %PURPLE%Mirrored %WHITE%it cannot be %GOLD%Cubed%WHITE%.%NL%Usable on %BLUE%Magic %WHITE%or %YELLOW%Rare items.}
 
 //Map Orbs
 ItemDisplay[imra]: %NAME%{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel %WHITE%+ %ORANGE%Rune >9%NL%%WHITE%Imbue a White Map to %YELLOW%Rare%WHITE%:}
