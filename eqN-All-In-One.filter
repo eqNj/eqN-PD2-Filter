@@ -545,8 +545,8 @@ ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)
 ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %WHITE%%NAME% %GRAY%[%PURPLE%PvP%GRAY%]%CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (!ID OR NMAG)]: %MAP-73%%DOT-57%%NAME%%CONTINUE%
 //Notes
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (RARE OR NMAG)]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t3a OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t3a OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (RARE OR NMAG)]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
 ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %NAME%{%WHITE%Deaths within are not permanent in %RED%Hardcore%NL%%NL%%TAN%- that they plan their fight in the ring.%NL%There is an old adage about gladiators,}
 
 //Tier 1 Immunes
@@ -562,7 +562,7 @@ ItemDisplay[t15]: %NAME%{%YELLOW%100% %GRAY%|| %GREEN%105% %GRAY%|| %ORANGE%150%
 ItemDisplay[t11]: %NAME%{%YELLOW%120% %GRAY%|| %GREEN%120%%NL%%YELLOW%Light %GRAY%|| %GREEN%Poison%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Ruins of Viz-jun
 ItemDisplay[t14]: %NAME%{%RED%130% %GRAY%|| %BLUE%130%%NL%%RED%Fire %GRAY%|| %BLUE%Cold%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Sanatorium
 ItemDisplay[t34]: %NAME%{%RED%120% %GRAY%|| %GREEN%120% %GRAY%|| %TAN%110%%NL%%RED%Fire %GRAY%|| %GREEN%Poison %GRAY%|| %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Ancestral Trial
-ItemDisplay[t36]: %NAME%{%YELLOW%Light %GRAY%(%YELLOW%100%%GRAY%)%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Fall of Caldeum
+ItemDisplay[t36]: %NAME%{%YELLOW%Light %GRAY%|| %YELLOW%100%%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Fall of Caldeum
 ItemDisplay[t26]: %NAME%{%RED%110% %GRAY%|| %BLUE%150% %GRAY%|| %TAN%100%%NL%%RED%Fire %GRAY%|| %BLUE%Cold %GRAY%|| %TAN%Phys%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Shadows of Westmarch
 // Tier 3 Immunes
 ItemDisplay[t31]: %NAME%{%RED%125% %GRAY%|| %BLUE%180% %GRAY%|| %ORANGE%100%%NL%%RED%Fire %GRAY%|| %BLUE%Cold %GRAY%|| %ORANGE%Magic%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // River of Blood
