@@ -590,9 +590,9 @@ ItemDisplay[t41]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%
 ItemDisplay[t42]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Plains of Torment
 ItemDisplay[t43]: %NAME%{%TAN%All Types%NL%%WHITE%Possible Immunities:%NL%%NAME%}%CONTINUE% // Sanctuary of Sin
 //Additional Immunes
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) PREFIX=1569]: %NAME%{%WHITE%Reanimated Immunity: %GREEN%Poison %GRAY%(%GREEN%120%%GRAY%)%NL%%NAME%}
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) PREFIX=1565]: %NAME%{%WHITE%Stygian Immunity: %GREEN%Poison %GRAY%(%GREEN%105%%GRAY%)%NL%%NAME%}
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) PREFIX=1567]: %NAME%{%WHITE%Vampire Immunity: %BLUE%Cold %GRAY%(%BLUE%135%%GRAY%)NL%%NAME%}
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) PREFIX=1569]: %NAME%{%WHITE%Reanimated Immunity: %GREEN%Poison %GRAY%|| %GREEN%120%%NL%%NAME%}
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) PREFIX=1565]: %NAME%{%WHITE%Stygian Immunity: %GREEN%Poison %GRAY%|| %GREEN%105%%NL%%NAME%}
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) PREFIX=1567]: %NAME%{%WHITE%Vampire Immunity: %BLUE%Cold %GRAY%|| %BLUE%135%%NL%%NAME%}
 //Always Show Maps
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%NAME%}
 
