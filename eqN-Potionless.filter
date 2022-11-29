@@ -6120,8 +6120,9 @@ ItemDisplay[GOLD<1000 CLVL<31 DIFF>0 FILTLVL>0]: {%NAME%}
 ItemDisplay[BELT NMAG (CLVL>29 OR (CLVL<31 DIFF>0)) FILTLVL>0]: {%NAME%}
 ItemDisplay[(ARMOR OR WEAPON) !leg INF FILTLVL>0]: {%NAME%}
 
-//ShowRecipes Relaxed NMAG Filter Congruency
+//ShowRecipes Relaxed Filter Congruency
 ItemDisplay[(ARMOR OR WEAPON) NMAG !SOCK=1 !(GLOVES OR BOOTS OR BELT OR THROWING) !INF FILTLVL=5]: %NAME%{%NAME%}
+ItemDisplay[RARE !ID FILTLVL=5]: %NAME%{%NAME%}
 
 //Medium FINAL
 ItemDisplay[(ARMOR OR WEAPON) NMAG !leg CLVL>74 FILTLVL>1]: {%NAME%}
