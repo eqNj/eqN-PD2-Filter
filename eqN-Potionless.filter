@@ -6052,6 +6052,7 @@ ItemDisplay[CRAFT (8lw OR 8rx OR am6) ((ED>149 STAT360=0) OR (STAT360=0 TABSK0>2
 
 ItemDisplay[SET OR UNI OR CRAFT OR RW]: %NAME%{%NAME%}
 ItemDisplay[(MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%{%NAME%}
+ItemDisplay[ETH !NMAG]: %NAME%{%NAME%}
 
 //----------------------------------------- Hiding Items -----------------------------------------
 
