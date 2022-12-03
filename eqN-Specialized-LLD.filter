@@ -4821,6 +4821,9 @@ ItemDisplay[(ne6 OR pa3 OR am5 OR ob6 OR dr2 OR ba6 OR 9ar) UNI !ID]: %DOT-60%%Y
 //PD2 Exclusive (Season 5)
 ItemDisplay[(7fb OR ame OR ned OR ulb OR utg OR 7tw OR 7qs OR 6bs OR baf OR utp OR drf) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 
+//eqN's Special Request
+ItemDisplay[(lea OR hla) UNI !ETH !ID]: %DOT-60%%ORANGE%~  %GOLD%%NAME%  %ORANGE%~
+
 //Low Level Dueling
 ItemDisplay[!FILTLVL=4 (cst OR (swb ILVL>40) OR (lbb ILVL>40) OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR (kri ILVL>25) OR xap OR bwn OR cap OR (crn ILVL>40) OR (ghm ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xui OR xuc OR kit OR vgl OR mbt OR gth) !ETH UNI !ID]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}%CONTINUE%
 ItemDisplay[!FILTLVL=4 (lgl OR vbt OR vgl OR bwn OR xap OR lbt) SET !ETH !ID]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}%CONTINUE%
@@ -5818,6 +5821,9 @@ ItemDisplay[SET ID (vbt OR vgl OR bwn OR xap OR xml OR lbt) STAT360=0]: %NAME%{%
 ItemDisplay[SET ID rin REPLIFE>5 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
 ItemDisplay[SET ID amu DTM>19 STAT89>2 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
 ItemDisplay[SET ID amu STAT156>0 STAT360=0 (FILTLVL=4 OR FILTLVL=5)]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
+
+//eqN's Special Request Note
+ItemDisplay[(lea OR hla) UNI !ETH STAT360=0]: %NAME%{%GRAY%Sell this to *Equanimity on Softcore!%NL%%NAME%}%CONTINUE%
 
 //----------------------------------------- Spraynard's Giga LLD Crafting Level Guides -----------------------------------------
 
