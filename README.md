@@ -108,7 +108,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ### The 'Medium' filter level has the following changes (after character level 75):
 
-Gold piles less than 2000 are hidden.
+Gold piles less than 1600 are hidden.
 
 Flawless gems no longer notify. (Perfect gems still do.)
 

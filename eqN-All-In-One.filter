@@ -44,7 +44,7 @@ ItemDisplay[GOLD<500 (MAPID=25 OR MAPID=37 OR MAPID=38 OR MAPID=73 OR MAPID=102 
 ItemDisplay[GOLD=69]: %NAME%
 ItemDisplay[GOLD=420]: %NAME%
 ItemDisplay[GOLD=666]: %NAME%
-ItemDisplay[GOLD<2000 FILTLVL=2 CLVL>74]:
+ItemDisplay[GOLD<1600 FILTLVL=2 CLVL>74]:
 ItemDisplay[GOLD<3000 FILTLVL>2 CLVL>74]:
 ItemDisplay[GOLD<4 DIFF=0 (MAPID=2 OR MAPID=8)]:												// Area Level 1
 ItemDisplay[GOLD<8 DIFF=0 (MAPID=3 OR MAPID=9 OR MAPID=13)]:											// Area Level 2
