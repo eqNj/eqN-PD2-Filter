@@ -5798,6 +5798,9 @@ ItemDisplay[(HELM OR SHIELD OR CHEST) !CIRC ELT RARE SOCK=0 STAT468=0 STAT360=0 
 //Crafted Affix Level Note (RARES Part 2)
 ItemDisplay[(rin OR amu OR (ELT (GLOVES OR BOOTS OR BELT OR (SOCK>0 (HELM OR SHIELD OR CHEST))))) !CIRC RARE STAT468=0 STAT360=0 !SHOP FILTLVL=5]: %NAME%{%GRAY%ALVL %CRAFTALVL% if crafted with current CLVL}%CONTINUE%
 
+//eqN's Special Request Note
+ItemDisplay[(lea OR hla) UNI !ETH STAT360=0]: %NAME%{%GRAY%Sell this to *Equanimity on Softcore!%NL%%NAME%}
+
 //Low Level Dueling Uniques (Corruption Note)
 ItemDisplay[UNI ID !FILTLVL=5 ((xap) OR (bhm) OR (bwn SK70=2 SK80=2) OR (cap) OR (crn SK69>2 SK70>2 ILVL>40) OR (ghm ILVL>40) OR (gth ED>79) OR (aar) OR (fld STAT36>14) OR (stu IAS>29) OR (scl SK221>2) OR (spl STAT362>1) OR (xui) OR (xuc STAT330>7) OR (kit) OR (vgl) OR (mbt LIFE>19 STAT156>14) OR (lea) OR (hla REPLIFE>9) OR (chn STAT330=10) OR (ssd)) !ETH STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible}
 ItemDisplay[UNI ID FILTLVL=5 ((xap) OR (bhm) OR (bwn SK70=2 SK80=2) OR (cap) OR (crn SK69>2 SK70>2 ILVL>40) OR (ghm ILVL>40) OR (gth ED>79) OR (aar) OR (fld STAT36>14) OR (stu IAS>29) OR (scl SK221>2) OR (spl STAT362>1) OR (xui) OR (xuc STAT330>7) OR (kit) OR (vgl) OR (mbt LIFE>19 STAT156>14) OR (lea) OR (hla REPLIFE>9) OR (chn STAT330=10) OR (ssd)) !ETH STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}
@@ -5811,9 +5814,6 @@ ItemDisplay[SET ID (vbt OR vgl OR bwn OR xap OR xml OR lbt) STAT360=0]: %NAME%{%
 ItemDisplay[SET ID rin REPLIFE>5 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
 ItemDisplay[SET ID amu DTM>19 STAT89>2 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
 ItemDisplay[SET ID amu STAT156>0 STAT360=0 (FILTLVL=4 OR FILTLVL=5)]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
-
-//eqN's Special Request Note
-ItemDisplay[(lea OR hla) UNI !ETH STAT360=0]: %NAME%{%GRAY%Sell this to *Equanimity on Softcore!%NL%%NAME%}%CONTINUE%
 
 //----------------------------------------- Rare & Crafted Item Description Highlighting -----------------------------------------
 
