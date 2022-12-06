@@ -4791,7 +4791,7 @@ ItemDisplay[((ELT SPEAR) OR 7fb OR 7ha OR 9la OR 7lw OR 7tw OR 7sc OR 7ws OR amd
 
 //Mid-Tier Uniques
 //Belts
-ItemDisplay[(tbl OR ztb OR zlb OR zhb OR umc OR uvc) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
+ItemDisplay[(ztb OR zlb OR zhb OR umc OR uvc) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Armors
 ItemDisplay[(xea OR xth OR xhn OR xtp OR xlt OR upl OR uld) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Gloves
@@ -4813,7 +4813,7 @@ ItemDisplay[(ne6 OR ob6 OR dr2 OR ba6 OR 9ar) UNI !ID]: %DOT-60%%YELLOW%~%TAN%: 
 //PD2 Exclusive (Season 5)
 ItemDisplay[(7fb OR ame OR ned OR ulb OR utg OR 7tw OR 7qs OR 6bs OR baf OR utp OR drf) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Others
-ItemDisplay[((ELT 2H MACE) OR 8ws OR 6l7 OR 7ha OR 9gm OR xsk OR xlm OR 7fl OR ush OR upk OR pae OR umb OR uui OR tbt OR zvb OR utu) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
+ItemDisplay[((ELT 2H MACE) OR 8ws OR 6l7 OR 7ha OR 9gm OR xsk OR xlm OR 7fl OR ush OR upk OR pae OR umb OR uui OR tbt OR zvb OR utu OR tbl) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Only Eth
 ItemDisplay[9b7 UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //eqN's Special Request
