@@ -517,7 +517,7 @@ ItemDisplay[RUNE>25 QTY>1]: %BORDER-68%%ORANGE%]%DARK_GREEN%:%ORANGE%[          
 //----------------------------------------- Stack Sizes -----------------------------------------
 
 //Show All Stack Quantities >1
-ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk OR aqv OR cqv OR RUNE=15 OR RUNE=18 OR RUNE=19 OR RUNE>19) QTY>1]: %NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
+ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk OR aqv OR cqv OR RUNE>16) QTY>1]: %NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
 
 //----------------------------------------- Project Diablo 2 & End Game Items -----------------------------------------
 
