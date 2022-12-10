@@ -614,7 +614,7 @@ ItemDisplay[dcma]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%   
 //Annihilus
 ItemDisplay[cm1 UNI ID STAT360=0]: %MAP-62%%NAME%
 ItemDisplay[cm1 UNI ID STAT360>0]: %MAP-62%%RED%%NAME%%CONTINUE%
-ItemDisplay[cm1 UNI ID ALLSK>1]: %MAP-62%%PURPLE%+%NAME%
+ItemDisplay[cm1 UNI ID ALLSK>1]: %MAP-62%%ORANGE%+%NAME%
 
 //The Void
 ItemDisplay[rtmf]: %MAP-90%%BLUE%|%PURPLE%:   %ORANGE%%NAME%   %PURPLE%:%BLUE%|%ORANGE%{%WHITE%to create a %ORANGE%Trang-Oul's Jawbone%NL%%WHITE%with any %GOLD%Hellfire Torch%NL%Cube %WHITE%two %ORANGE%Ancient Bone Fragments}

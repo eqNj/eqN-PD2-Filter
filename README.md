@@ -323,7 +323,7 @@ Added description lines to all of the new maps in Season 5 with their potential 
 
 Made it so items that gain +1 potential maximum sockets from being upgraded indicate this in their description(s) (unless doing so would make them unusable for low level dueling).
 
-A corrupted Annihilus will now always have a red name and a corrupted Annihilus with the +1 All Skills corruption will have a purple + in front of it's red name. Useful for drop trading.
+A corrupted Annihilus will now always have a red name and a corrupted Annihilus with the +1 All Skills corruption will have an orange + in front of it's red name. Useful for drop trading.
 
 Thoroughly refined the unique items that notify on drop to further accomidate any possible niche use cases.
 
