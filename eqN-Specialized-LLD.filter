@@ -5089,8 +5089,8 @@ ItemDisplay[(7ma OR 7mt) !INF NMAG !RW !SOCK=1 (ETH OR ED>7)]: %NAME%{%NAME%} //
 ItemDisplay[fla !INF NMAG !RW !SUP (SOCK=0 OR SOCK>3) (FILTLVL<3 OR (CLVL<75 FILTLVL>2))]: %NAME%{%NAME%} // Flail
 
 //Scepters
-ItemDisplay[9ws NMAG !INF !RW ((SOCK=4 (SK106>2 OR SK107>0 OR SK112>2 OR SK113>2 OR SK115>1 OR SK122>0 OR SK378>0)) OR (SOCK=5 (SK106>2 OR SK107>0 OR SK115>0 OR SK122>0 OR SK378>0)))]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // 4 or 5 Socket Zeal or Liberator Divine Scepters
-ItemDisplay[9ws NMAG !INF !RW (SOCK=0 (SK106>2 OR SK107>0 OR SK112>2 OR SK113>2 OR SK115>1 OR SK122>0 OR SK378>0))]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // 0 Socket Zeal or Liberator Divine Scepters
+ItemDisplay[9ws NMAG !INF !RW ((SOCK=4 (SK106>2 OR SK107>0 OR SK112>2 OR SK113>2 OR SK115>1 OR SK122>0 OR SK378>0 OR SK119>2)) OR (SOCK=5 (SK106>2 OR SK107>0 OR SK115>0 OR SK122>0 OR SK378>0)))]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // 4 or 5 Socket Zeal or Liberator Divine Scepters
+ItemDisplay[9ws NMAG !INF !RW (SOCK=0 (SK106>2 OR SK107>0 OR SK112>2 OR SK113>2 OR SK115>1 OR SK122>0 OR SK378>0 OR SK119>2))]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // 0 Socket Zeal or Liberator Divine Scepters
 ItemDisplay[wsp NMAG !INF !RW SOCK=4 SK112>2 FILTLVL=4]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // 4 Socket Hammer War Scepter
 ItemDisplay[wsp NMAG !INF !RW SOCK=0 SK112>2 FILTLVL=4]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%GRAY%Must be 4 sockets to be LLD usable.%NL%%NAME%} // 0 Socket Hammer War Scepter
 ItemDisplay[(SCEPTER !scp) !INF NMAG !RW SK112>2 SK113>1 !SOCK=1 (FILTLVL>1 !SOCK=2) !(SOCK=5 !7ws)]: %DOT-D6%%NAME%{%NAME%} // +3 Hammer + Concentration Scepters
