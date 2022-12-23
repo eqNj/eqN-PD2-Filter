@@ -355,6 +355,8 @@ Made sure ideal Wand runeword bases for the improved White runeword will notify 
 
 Added pertinent information for the new runewords (Asylum and Shattered Wall) to applicable runeword bases. (This includes rune listing/order provided in the ShowRecipes filter level.)
 
+Added new description lines for class skill and/or high ED armors and shields with other useful affixes. (Applicable for LLD and high level items.)
+
 Added new existing runeword possibilites introduced this season to applicable runewords bases. (This includes rune listing/order provided in the ShowRecipes filter level.)
 
 Reworked how and when rare and magic arrows and bolts show depending on filter level.
