@@ -4834,13 +4834,13 @@ ItemDisplay[(amu OR uar OR ci3) SET !ID]: %MAP-84%%PURPLE%~%DARK_GREEN%:%PURPLE%
 ItemDisplay[(rin OR uhm OR dr8 OR 7qr OR uth OR paf OR lbt OR lbl OR lgl) SET !ID]: %MAP-84%%PURPLE%~%DARK_GREEN%:   %GREEN%%NAME%   %DARK_GREEN%:%PURPLE%~%GREEN%
 
 //Low Level Dueling
-ItemDisplay[!FILTLVL=4 (cst OR (swb ILVL>40) OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xui OR xuc OR kit OR vgl OR mbt OR gth) !ETH UNI !ID]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}%CONTINUE%
-ItemDisplay[!FILTLVL=4 (lgl OR vbt OR vgl OR bwn OR xap) SET !ETH !ID]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}%CONTINUE%
+ItemDisplay[!FILTLVL=4 !FILTLVL=5 (cst OR (swb ILVL>40) OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xui OR xuc OR kit OR vgl OR mbt OR gth) !ETH UNI !ID]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}%CONTINUE%
+ItemDisplay[!FILTLVL=4 !FILTLVL=5 (lgl OR vbt OR vgl OR bwn OR xap) SET !ETH !ID]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}%CONTINUE%
 //StrictLLD
-ItemDisplay[FILTLVL=4 (cst OR (swb ILVL>40) OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xui OR xuc OR kit OR vgl OR mbt OR vbt OR (flb ILVL>40) OR gth OR hbt) !ETH UNI !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
-ItemDisplay[FILTLVL=4 (lea OR hla OR chn OR ssd) UNI !ETH !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%vLLD%GRAY%){%NAME%}
-ItemDisplay[FILTLVL=4 (lgl OR vbt OR vgl OR bwn OR xap OR xml) SET !ETH !ID]: %DOT-84%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
-ItemDisplay[FILTLVL=4 (cap OR dgr OR mbl OR mbt OR lsd OR lbl OR ghm OR hbt OR hgl OR tow OR wsd) SET !ETH !ID]: %NAME% %GRAY%(%PURPLE%vLLD%GRAY%){%NAME%}
+ItemDisplay[(FILTLVL=4 OR FILTLVL=5) (cst OR (swb ILVL>40) OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xui OR xuc OR kit OR vgl OR mbt OR vbt OR (flb ILVL>40) OR gth OR hbt) !ETH UNI !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
+ItemDisplay[(FILTLVL=4 OR FILTLVL=5) (lea OR hla OR chn OR ssd) UNI !ETH !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%vLLD%GRAY%){%NAME%}
+ItemDisplay[(FILTLVL=4 OR FILTLVL=5) (lgl OR vbt OR vgl OR bwn OR xap OR xml) SET !ETH !ID]: %DOT-84%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
+ItemDisplay[(FILTLVL=4 OR FILTLVL=5) (cap OR dgr OR mbl OR mbt OR lsd OR lbl OR ghm OR hbt OR hgl OR tow OR wsd) SET !ETH !ID]: %NAME% %GRAY%(%PURPLE%vLLD%GRAY%){%NAME%}
 
 //Specific Unique and Set Alerts (Only Relevant if "All Unique and Set Alerts" are disabled)
 //Armors
@@ -4869,9 +4869,9 @@ ItemDisplay[(aqv OR cqv) MAG !ID CLVL>59]:
 
 //Magic Craftables\\
 
-//StrictLLD
-ItemDisplay[(ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) MAG ETH !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%BLUE%%NAME%%PURPLE%*%GRAY%{%NAME%}
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) MAG !ID FILTLVL=4 CLVL>74]: %PX-4B%%TIER-0%%PURPLE%*%BLUE%%NAME%%PURPLE%*%GRAY%{%NAME%}
+//StrictLLD & ShowRecipes
+ItemDisplay[(ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) MAG ETH !ID (FILTLVL=4 OR FILTLVL=5) CLVL>74]: %DOT-4B%%PURPLE%*%BLUE%%NAME%%PURPLE%*%GRAY%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) MAG !ID (FILTLVL=4 OR FILTLVL=5) CLVL>74]: %PX-4B%%TIER-0%%PURPLE%*%BLUE%%NAME%%PURPLE%*%GRAY%{%NAME%}
 
 //Notified
 ItemDisplay[(SHIELD OR CHEST) !(NEC OR qui OR xui OR lea OR xea OR hla OR xla OR stu OR xtu OR scl OR chn OR spl OR plt OR fld OR buc OR xuc OR uuc OR sml OR xml OR uml) MAG ETH !ID (CRAFTALVL>84 OR ((DIFF<2 OR CLVL<90) CRAFTALVL>74))]: %DOT-97%%GRAY%*%BLUE%%NAME%%GRAY%*
@@ -4931,9 +4931,9 @@ ItemDisplay[(am5 OR ama OR amf) MAG !ID]: %NAME%
 
 //Rare Craftables\\
 
-//StrictLLD
-ItemDisplay[(ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) RARE ETH !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%YELLOW%%NAME%%PURPLE%*%GRAY%{%NAME%}
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) RARE !ID FILTLVL=4 CLVL>74]: %DOT-4B%%PURPLE%*%YELLOW%%NAME%%PURPLE%*%GRAY%{%NAME%}
+//StrictLLD & ShowRecipes
+ItemDisplay[(ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) RARE ETH !ID (FILTLVL=4 OR FILTLVL=5) CLVL>74]: %DOT-4B%%PURPLE%*%YELLOW%%NAME%%PURPLE%*%GRAY%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) RARE !ID (FILTLVL=4 OR FILTLVL=5) CLVL>74]: %DOT-4B%%PURPLE%*%YELLOW%%NAME%%PURPLE%*%GRAY%{%NAME%}
 
 //Notified
 ItemDisplay[(SHIELD OR CHEST) !(NEC OR qui OR xui OR lea OR xea OR hla OR xla OR stu OR xtu OR scl OR chn OR spl OR plt OR fld OR buc OR xuc OR uuc OR sml OR xml OR uml) RARE ETH !ID (CRAFTALVL>84 OR ((DIFF<2 OR CLVL<90) CRAFTALVL>74))]: %DOT-A8%%GRAY%*%YELLOW%%NAME%%GRAY%*
@@ -5446,10 +5446,10 @@ ItemDisplay[utp !ETH !INF NMAG !SOCK=1 DEF>499]: %NAME%{%NAME%}
 ItemDisplay[uit !ETH !INF NMAG !RW SOCK=4]: %NAME%{%NAME%}
 
 //StrictLLD-Specific Failsafes
-ItemDisplay[((STAFF !ELT) OR ltp OR xtp OR bhm OR xh9 OR bsh OR xsh OR lrg OR xrg OR spk OR xpk OR wsp OR 9ws OR wax OR 9wa OR gsd OR 9gd OR whm OR 9wh OR gma OR 9gm OR kri OR 9kr OR lwb OR 8lw OR pik OR 9p9) RARE !ID FILTLVL=4 CLVL>74]: %NAME%{%NAME%}
-ItemDisplay[((EXC STAFF) OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) MAG !ID FILTLVL=4 CLVL>74]: %NAME%{%NAME%}
-ItemDisplay[(amu OR rin) MAG !ID FILTLVL=4 DIFF<2 CLVL>74]: %NAME%{%NAME%}
-ItemDisplay[ci0 MAG !ID FILTLVL=4 CLVL>74]: %NAME%{%NAME%}
+ItemDisplay[((STAFF !ELT) OR ltp OR xtp OR bhm OR xh9 OR bsh OR xsh OR lrg OR xrg OR spk OR xpk OR wsp OR 9ws OR wax OR 9wa OR gsd OR 9gd OR whm OR 9wh OR gma OR 9gm OR kri OR 9kr OR lwb OR 8lw OR pik OR 9p9) RARE !ID FILTLVL>3 CLVL>74]: %NAME%{%NAME%}
+ItemDisplay[((EXC STAFF) OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) MAG !ID FILTLVL>3 CLVL>74]: %NAME%{%NAME%}
+ItemDisplay[(amu OR rin) MAG !ID FILTLVL>3 (DIFF<2 OR MAPID=83) CLVL>74]: %NAME%{%NAME%}
+ItemDisplay[ci0 MAG !ID FILTLVL>3 CLVL>74]: %NAME%{%NAME%}
 
 //ShowRecipes-Specific Failsafes
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs) MAG !ID FILTLVL=5 CLVL>74]: %GRAY%*%BLUE%%NAME%%GRAY%*%BLUE%{%NAME%}
