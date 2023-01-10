@@ -366,3 +366,7 @@ Updated map tiers and immunities in alignment with their rework this season.
 Added monster immunity percentage to map immunity information.
 
 Continued improvements on mid and high tier uniques with highlights.
+
+Made it so small and large charms with the ideal affix level ranges for rerolling for LLD will be LLD highlighted on drop and have a description encouraging their rerolling (until they hit a reasonably desired roll).
+
+Made it so ideal affix level (38) jewels for LLD rerolling are highlighted on drop and have a description encouraging their rerolling (until they hit a reasonably desired roll).

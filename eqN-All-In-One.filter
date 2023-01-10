@@ -702,6 +702,7 @@ ItemDisplay[(gpvs OR gpv OR gpys OR gpy OR gpbs OR gpb OR gpgs OR gpg OR gprs OR
 //IDed Jewel Notes
 ItemDisplay[jew MAG ID]: %NAME%{%GOLD%Cube %WHITE%+ %GRAY%Key %WHITE%to create a %BLUE%Jewel Fragment}%CONTINUE%
 ItemDisplay[jew RARE ID]: %NAME%{%GOLD%Cube %WHITE%+ %GRAY%Key %WHITE%to create a %BLUE%Jewel Fragment}%CONTINUE%
+ItemDisplay[jew RARE (ALVL=38 OR ILVL=38)]: %NAME%{%TAN%Ideal Low Level Dueling Reroll Jewel}%CONTINUE%
 
 //Low Level Dueling Magic Jewel Notes
 ItemDisplay[MAG LVLREQ<10 (ED>14 OR AR>19 OR CRES>11 OR FRES>11 OR LRES>11) (MAXDMG>5 OR MINDMG>3 OR STR>3 OR DEX>3 OR LIFE>5 OR STAT91=-15) jew]: %NAME%%BLUE%{%TAN%Level 9 Dueling Usable} // 15%+ Enhanced Damage, 20+ AR, or 12%+ Cold, Fire, or Light Resist with 6+ Maximum Damage, 4+ Minimum Damage, 4+ Strength, 4+ Dexterity, 6+ Life, or -15% Requirements
@@ -4767,6 +4768,7 @@ ItemDisplay[uit (SOCK=0 OR SOCK=4) ETH !INF NMAG DEF>209 FILTLVL<3]: %DOT-D6%%NA
 ItemDisplay[jew MAG !ID]: %DOT-97%%BLUE%~%TAN%:%BLUE%~  %NAME%  ~%TAN%:%BLUE%~
 
 //Highlight Good Rare Items
+ItemDisplay[jew RARE !ID (ALVL=38 OR ILVL=38)]: %DOT-A8%%WHITE%~%YELLOW%:%WHITE%~  %PURPLE%LLD %YELLOW%%NAME%  %WHITE%~%YELLOW%:%WHITE%~%YELLOW%
 ItemDisplay[(jew OR rin OR amu OR CIRC) RARE !ID]: %DOT-A8%%WHITE%~%YELLOW%:%WHITE%~  %YELLOW%%NAME%  %WHITE%~%YELLOW%:%WHITE%~%YELLOW%
 ItemDisplay[(cqv OR aqv) !AMAZON RARE !ID CLVL<75]: %YELLOW%%NAME%%YELLOW%
 ItemDisplay[(cqv OR aqv) AMAZON RARE !ID CLVL<75]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
