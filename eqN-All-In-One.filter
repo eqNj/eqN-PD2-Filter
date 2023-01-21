@@ -5049,6 +5049,7 @@ ItemDisplay[WEAPON !THROWING !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !(TAB
 ItemDisplay[WEAPON !THROWING !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !(TABSK2<3 (amd OR ame)) ELT NMAG !INF !RW !SOCK=1 ED=15]: %DOT-D6%%NAME%{%NAME%} // All Useful Weapons With 15% Enhanced Damage
 
 //Bows/Crossbows
+ItemDisplay[(6l7 OR 6lw OR 6hx) NMAG !INF !RW (SOCK=0 OR SOCK=6) ED>7]: %DOT-D6%%NAME%{%NAME%} // Superior Asylum Bows & Crossbow
 ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=0 OR SOCK=4 OR SOCK=5) (FILTLVL<3 OR (ED>3 FILTLVL>2))]: %DOT-D6%%NAME%{%NAME%} // 0 / 4 / 5 Socket Elite Amazon Bows
 ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=2 OR SOCK=3 OR SOCK=6) (FILTLVL<3 OR (ED>3 FILTLVL>2))]: %NAME%{%NAME%} // 2 / 3 / 6 Socket Elite Amazon Bows
 ItemDisplay[6rx NMAG !INF !RW (SOCK=4 OR SOCK=5) (FILTLVL<3 OR (ED>3 FILTLVL>2))]: %DOT-D6%%NAME%{%NAME%} // 4 or 5 Socket Demon Crossbow
