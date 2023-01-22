@@ -5653,7 +5653,8 @@ ItemDisplay[(WAND OR SOR) !(SOCK>0 LVLREQ>30) NORM SET ID STAT468=0 !SHOP FILTLV
 ItemDisplay[(WAND OR SOR) !(SOCK>0 LVLREQ>30) EXC SET ID STAT468=0 !SHOP FILTLVL=5]: %NAME%{%WHITE%Upgrade: %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ %GREEN%@}%CONTINUE%
 
 //Suicide Branch Fix
-ItemDisplay[9wn UNI FILTLVL=5]: %NAME%{%WHITE%Upgrade: %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ %GREEN%@}%CONTINUE%
+ItemDisplay[9wn UNI SOCK=0 FILTLVL=5]: %NAME%{%WHITE%Upgrade: %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ %GREEN%@%NL%%NAME%}%CONTINUE%
+ItemDisplay[9wn UNI SOCK>0 FILTLVL=5]: %NAME%{%WHITE%Upgrade: %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ %GREEN%@}%CONTINUE%
 
 //Upgrades That Give +1 Socket
 ItemDisplay[!NMAG !MAG ID SOCK=0 STAT360=0 STAT468=0 !SHOP LVLREQ<31 (qui OR lea OR hla OR stu OR scl OR chn OR spl OR plt OR fld OR buc OR xuc OR spk OR bsh OR hax OR clb OR mac OR ssd OR scm OR sbr OR flc OR dgr OR dir OR sst OR wnd OR ywn OR scp OR (ILVL>25 (ne2 OR ne1 OR lax OR bar OR sbw OR lxb OR ktr OR wrb OR axf OR ces) OR (ILVL>40 bhm)))]: %NAME%{%GRAY%(Upgrade For +1 Max Socket)%NL%%NAME%}%CONTINUE%
