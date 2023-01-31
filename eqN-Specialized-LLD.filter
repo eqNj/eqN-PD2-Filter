@@ -187,7 +187,7 @@ ItemDisplay[rkey]: %BORDER-0A%%GOLD%|%TAN%:    %GOLD%%NAME%    %TAN%:%GOLD%|{%TA
 ItemDisplay[key (CLVL<10 OR FILTLVL=0)]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
 ItemDisplay[key CLVL>10 SHOP]: {%TAN%Crafting recipes will show on magic items and on perfect gems.%NL%Use 'ShowRecipes' to see crafting and upgrading recipes.%NL%There are several filter strictness level settings available.%NL%%DARK_GREEN%eqN's Note:}
 ItemDisplay[key CLVL>10]: {%TAN%The key is in the craft.}
-ItemDisplay[ear (MAPID=157 OR MAPID=159)]:
+ItemDisplay[ear]:
 
 //NMAG Arrows & Bolts
 ItemDisplay[(cqv) NMAG CLVL<7]: %NAME%{%TAN%you only hit what you aim at.%NL%In the long run,}
