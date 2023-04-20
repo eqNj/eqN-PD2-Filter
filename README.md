@@ -80,7 +80,7 @@ Four socket, ethereal polearm/spear weapons of all tiers, for use with the Insig
 
 All rare items will still show at all levels. This includes all class items (wands, orbs, helms, scepters/maces, staves, claws) and any rare bows or crossbows of all tiers aswell. (Relaxed Filter)
 
-Select magic and rare items from all tiers, those that are best for crafting based on your character level or general rarity, will always show, and they will be indicated by two gray dots, one on each side, of their unidentified name. (All filter levels)
+Select magic and rare items from all tiers, those that are best for crafting based on your character level or general rarity, will always show, and they will be indicated by two gray asterisks, one on each side, of their unidentified name. (All filter levels)
 
 Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed favoring exceptional/elite items), as well as any elite class items that could be used for runewords. (All filter levels)
 
@@ -98,7 +98,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ##### SuperStrict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons when they are likely to have a reasonably high value in trading. Even at this level, all unique and set items will still show. Crafting bases shown are only those which are highly sought after. This filter level is useful for those who regularly run high density maps and dungeons and are mostly only looking for items that are easy to trade. 
 
-##### StrictLLD - This is essentially a copy of the SuperStrict filter level, however it will continue to show & sometimes notify when a LLD crafting base drops. This level is designed for late ladder and/or targeted LLD item farming. LLD crafting bases are marked with purple dots.
+##### StrictLLD - This is essentially a copy of the SuperStrict filter level, however it will continue to show & sometimes notify when a LLD crafting base drops. This level is designed for late ladder and/or targeted LLD item farming. LLD crafting bases are marked with purple asterisks.
 
 ##### ShowRecipes - This filter level shows all crafting and upgrading recipes on any applicable items. The crafting recipes can be found on magic items and on perfect gems. The upgrade recipes include information about the requirements for upgraded items. This level will also show all runes necessary for runewords on any socketed non-magic (white) items. This level is not recommended for use while item finding as it can be a bit visually noisy. Though, if item finding with this filter level it will never hide anything important. This filter level uses SuperStrict as a baseline but it still shows all LLD crafting bases, as well as any and all non-magic (white) items that would otherwise show on the Relaxed filter. This filter level will show the recommended level for LLD crafting on most LLD-applicable crafting bases when using the 'eqN-Specialized-LLD' filter specifically.
 
@@ -169,7 +169,7 @@ Added a description to unsocketed superior items advising they can be socketed o
 
 Ethereal items will be tagged with [e] at the front of their names.
 
-More magic items worth crafting now show up with a gray dot crafting base indication, and select few with added alerts.
+More magic items worth crafting now show up with a gray asterisk crafting base indication, and select few with added alerts.
 
 Reduced the threshold for Enhanced Damage and Increased Resistance paladin shields to be shown.  
 
@@ -213,7 +213,7 @@ Details from 'The Arreat Summit' about Base Defense ranges and maximum potential
 
 Worth note: when crafting, base item level 51+ and character level 51+ ensures a minimum of three additional affixes on the resulting item.
 
-All unidentified magic items marked as ideal for crafting (two gray dots, one on each side) do so based on when they meet the item level (assuming same character level or higher) for either 4 guaranteed additional affixes (level 71) and/or in rare cases when their most relevant affixes become available before then.
+All unidentified magic items marked as ideal for crafting (two gray asterisks, one on each side) do so based on when they meet the item level (assuming same character level or higher) for either 4 guaranteed additional affixes (level 71) and/or in rare cases when their most relevant affixes become available before then.
 
 Replaced the word 'Inferior' (Crude, Cracked, etc.) on inferior items with a blue - sign at the front of item names. 
 
@@ -261,7 +261,7 @@ By popular demand: There is now a 'SuperStrict' level of the filter. You can rea
 
 Added more shopping highlights for valuable magic items. 
 
-Continued improvements and refinement of items that show up unidentified with two gray dots (denoting useful crafting bases).
+Continued improvements and refinement of items that show up unidentified with two gray asterisks (denoting useful crafting bases).
 
 Added notificationa for rare quivers. Magic quivers will always show, but not notify.
 
