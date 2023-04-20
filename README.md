@@ -2,7 +2,7 @@
 
 ![Ground Loot](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Charming.jpg)
 
-These filters are up-to-date for Season 6 of Project Diablo 2!
+These filters are up-to-date for Season 7 of Project Diablo 2!
 
 You can find these loot filters either here (on GitHub) or through the Project Diablo 2 game launcher.
 
@@ -372,3 +372,17 @@ Made it so small and large charms with the ideal affix level ranges for rerollin
 Made it so ideal affix level (38) jewels for LLD rerolling are highlighted on drop and have a description encouraging their rerolling (until they hit a reasonably desired roll).
 
 ## 1.6.0 - (Season 7)
+
+Improved name formatting and added descriptions for all the new items introduced in Season 7, including highlighting for unique map drops.
+
+Added new runewords possibility info to all applicable bases and ensured that any useful bases for those runewords continue to show up.
+
+Improved "Upgraded Requirements", "Upgrade Recipe", and "LLD Armor/Shield" description implementations to be more inclusive.
+
+Overhauled filter in-line formatting on NMAG items for consistency in editing.
+
+Changed the asterisks on craftable item bases to dots for improved aesthetics on the improved graphics settings this season.
+
+Made is so equipped items no longer show recipes on the ShowRecipes filter level, as always intended, now that it has been fixed to not include the shared stash tabs.
+
+Added LLD tags for good crafted/rare LLD rings and rare quivers.
