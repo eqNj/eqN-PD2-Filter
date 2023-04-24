@@ -375,9 +375,9 @@ Made it so ideal affix level (38) jewels for LLD rerolling are highlighted on dr
 
 ## 1.6.0 - (Season 7)
 
-Added a red dot on corrupted item names.
-
 Renamed the SuperStrict filter level to Strict.
+
+Refined the overall filter aesthetic with the new HD text in mind. Currently, enabling the new HD text is mandatory to prevent question marks from appearing on certain item names.
 
 Added the name of the currently selected filter level to the Horadric Cube's description.
 
@@ -400,3 +400,5 @@ Made is so equipped items no longer show recipes on the ShowRecipes filter level
 Added LLD tags for good crafted/rare LLD rings and rare quivers.
 
 Refined the descriptions on many existing items for congruence and legibility.
+
+Added a red dot on corrupted item names when in the new unique map that drops corrupted items.
