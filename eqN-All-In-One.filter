@@ -643,7 +643,7 @@ ItemDisplay[t43]: %NAME%{%TAN%150% All Types%NL%%WHITE%Highest Monster Immunitie
 //ItemDisplay[MAPTIER>0 !MAPTIER=4 PREFIX=1580]: %NAME%{%WHITE%Vampire Immunity: %BLUE%Cold %GRAY%:: %BLUE%135%%NL%%NAME%}
 
 //Catalyzed Maps
-ItemDisplay[STAT500>0]:%NAME%%CONTINUE%{%PURPLE%Catalyzed%NL%%NAME%}
+ItemDisplay[STAT500>0 MAPTIER>0]:%NAME%%CONTINUE%{%PURPLE%Catalyzed%NL%%NAME%}
 
 //Always Show Maps
 ItemDisplay[MAPTIER>0]: %NAME%{%NAME%}
