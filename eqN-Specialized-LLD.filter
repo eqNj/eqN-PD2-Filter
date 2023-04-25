@@ -4856,7 +4856,7 @@ ItemDisplay[(ne6 OR ob6 OR dr2 OR ba6 OR 9ar) UNI !ID]: %DOT-60%%YELLOW%~%TAN%: 
 //PD2 Exclusive (Season 5)
 ItemDisplay[(ame OR ned OR ulb OR utg OR 7tw OR 7qs OR 6bs OR baf OR utp OR drf) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Others
-ItemDisplay[((ELT 2H MACE) OR 9gs OR 8ws OR 6l7 OR 7ha OR 9gm OR xsk OR xlm OR 7fl OR ush OR upk OR pae OR umb OR uui OR tbt OR zvb OR utu OR tbl OR 7p7 OR lea OR hla OR fld OR tgl OR xmg) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
+ItemDisplay[((ELT 2H MACE) OR 9gs OR 8ws OR 6l7 OR 7ha OR 9gm OR xsk OR xlm OR 7fl OR ush OR upk OR pae OR umb OR 7ga OR uui OR tbt OR zvb OR utu OR tbl OR 7p7 OR lea OR hla OR fld OR tgl OR xmg) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Only Eth
 ItemDisplay[9b7 UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 
@@ -4878,7 +4878,7 @@ ItemDisplay[(FILTLVL=4 OR FILTLVL=5) (cap OR dgr OR mbl OR mbt OR lsd OR lbl OR 
 //Armors
 ItemDisplay[(ghm OR brs OR pa3 OR xkp OR xul OR xlm OR drb OR 9sp OR mbt OR xcl OR chn OR uul OR xng OR xui OR spl OR pac OR xsk OR xml OR xlb OR xpl OR xap OR xld OR xrs OR gth OR aar OR BELT OR skp OR xhl OR xrn OR vbt OR xmb OR uvb OR lgl OR vgl OR mgl OR hgl OR xlg OR xvg OR xtg OR xhg OR uml OR xts OR xrg OR xuc OR kit OR gts) UNI !ID]: %PX-60%%NAME%
 //Weapons
-ItemDisplay[((lbb OR 7fb OR scy OR 9s8 OR 8cb OR am5 OR 6sw OR 8cs OR xcl OR 9wc OR bac OR 6rx OR 6hx OR 7m7 OR 9cl OR mau OR 7ls OR 9ls OR 7br OR 7sr OR 9ba OR 7ga OR 7wa OR 7gi OR 7pa OR 8ls OR 72a OR 7o7 OR 9yw OR 9fc OR 7bw OR 9kr OR amb OR 7sc OR 7mp OR 6sw OR 8hx OR dgr OR 7dg OR 7bl OR 9ma OR 9wh OR 9gm OR 7s8 OR 7wc OR 9ws OR 7b7 OR 7gs OR 9sb) OR (ELT (WP5 OR WP6)) OR ywn OR 7wb OR 7sp) UNI !ID]: %PX-60%%NAME%
+ItemDisplay[((lbb OR 7fb OR scy OR 9s8 OR 8cb OR am5 OR 6sw OR 8cs OR xcl OR 9wc OR 9b7 OR bac OR 6rx OR 6hx OR 7m7 OR 9cl OR mau OR 7ls OR 9ls OR 7br OR 7sr OR 9ba OR 7wa OR 7gi OR 7pa OR 8ls OR 72a OR 7o7 OR 9yw OR 9fc OR 7bw OR 9kr OR amb OR 7sc OR 7mp OR 6sw OR 8hx OR dgr OR 7dg OR 7bl OR 9ma OR 9wh OR 9gm OR 7s8 OR 7wc OR 9ws OR 7b7 OR 7gs OR 9sb) OR (ELT (WP5 OR WP6)) OR ywn OR 7wb OR 7sp) UNI !ID]: %PX-60%%NAME%
 //Sets
 ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0 OR ba5 OR lbt) !(9vo OR xcl OR xrn)) SET !ID]: %PX-84%%NAME%
 
