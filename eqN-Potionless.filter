@@ -578,7 +578,7 @@ ItemDisplay[ubtm]: %MAP-62%%BLACK%|%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%
 ItemDisplay[dcbl]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Black Soul Stone %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%WHITE%Found throughout %BLUE%Maps of Sanctuary%NL%%WHITE%Those wrought in %RED%Supreme Maleficence%NL%%GRAY%Manifested By:}
 ItemDisplay[dcho]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%The Pandemonium Event%NL%%GRAY%Manifested By:}
 ItemDisplay[dcso]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Black Soul Stone%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%Diablo, Lord of Terror %WHITE%& %DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Manifested By:}
-ItemDisplay[dcma]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%ORANGE%Ber %GRAY%- %WHITE%5 %GRAY%| %ORANGE%Jah %GRAY%- %WHITE%6 %GRAY%| %ORANGE%Cham %GRAY%- %WHITE%7 %GRAY%| %ORANGE%Zod %GRAY%- %WHITE%8%NL%%ORANGE%Vex %GRAY%- %WHITE%1 %GRAY%| %ORANGE%Ohm %GRAY%- %WHITE%2 %GRAY%|  %ORANGE%Lo %GRAY%- %WHITE%3 %GRAY%| %ORANGE%Sur %GRAY%- %WHITE%4%NL%%GOLD%Cube this item with a %ORANGE%Rune %WHITE%to add difficulty levels:%NL%%NL%%WHITE%Alas, %ORANGE%Uber Diablo %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
+ItemDisplay[dcma]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%ORANGE%Ber %GRAY%- %WHITE%5 %GRAY%| %ORANGE%Jah %GRAY%- %WHITE%6 %GRAY%| %ORANGE%Cham %GRAY%- %WHITE%7 %GRAY%| %ORANGE%Zod %GRAY%- %WHITE%8%NL%%ORANGE%Vex %GRAY%- %WHITE%1 %GRAY%| %ORANGE%Ohm %GRAY%- %WHITE%2 %GRAY%|  %ORANGE%Lo %GRAY%- %WHITE%3 %GRAY%| %ORANGE%Sur %GRAY%- %WHITE%4%NL%%GOLD%Cube %WHITE%this item with a %ORANGE%Rune %WHITE%to add a difficulty tier:%NL%%NL%%WHITE%Alas, %ORANGE%Uber Diablo %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
 
 //Annihilus
 ItemDisplay[cm1 UNI ID STAT360=0]: %MAP-62%%NAME%
@@ -589,7 +589,7 @@ ItemDisplay[cm1 UNI ID ALLSK>1]: %MAP-62%%ORANGE%+%NAME%
 ItemDisplay[rtmf]: %MAP-90%%BLUE%|%PURPLE%:   %ORANGE%%NAME%   %PURPLE%:%BLUE%|%ORANGE%{%WHITE%to create a %ORANGE%Trang-Oul's Jawbone%NL%%WHITE%with %ORANGE%Hellfire Ashes%NL%Cube %WHITE%two %ORANGE%Ancient Bone Fragments}
 ItemDisplay[rtmo]: %BORDER-90%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Splinter of the Void %WHITE%& %ORANGE%Hellfire Ashes%NL%%GOLD%Cube %WHITE%this item with the following:}
 ItemDisplay[rtmv]: %BORDER-90%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Trang-Oul's Jawbone %WHITE%& %ORANGE%Hellfire Ashes%NL%%GOLD%Cube %WHITE%this item with the following:}
-ItemDisplay[rtma]: %BORDER-97%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%ORANGE%Ber %GRAY%- %WHITE%5 %GRAY%| %ORANGE%Jah %GRAY%- %WHITE%6 %GRAY%| %ORANGE%Cham %GRAY%- %WHITE%7 %GRAY%| %ORANGE%Zod %GRAY%- %WHITE%8%NL%%ORANGE%Vex %GRAY%- %WHITE%1 %GRAY%| %ORANGE%Ohm %GRAY%- %WHITE%2 %GRAY%|  %ORANGE%Lo %GRAY%- %WHITE%3 %GRAY%| %ORANGE%Sur %GRAY%- %WHITE%4%NL%%GOLD%Cube this item with a %ORANGE%Rune %WHITE%to add difficulty levels:%NL%%NL%%WHITE%Alas, %ORANGE%Uber Rathma %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
+ItemDisplay[rtma]: %BORDER-97%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%ORANGE%Ber %GRAY%- %WHITE%5 %GRAY%| %ORANGE%Jah %GRAY%- %WHITE%6 %GRAY%| %ORANGE%Cham %GRAY%- %WHITE%7 %GRAY%| %ORANGE%Zod %GRAY%- %WHITE%8%NL%%ORANGE%Vex %GRAY%- %WHITE%1 %GRAY%| %ORANGE%Ohm %GRAY%- %WHITE%2 %GRAY%|  %ORANGE%Lo %GRAY%- %WHITE%3 %GRAY%| %ORANGE%Sur %GRAY%- %WHITE%4%NL%%GOLD%Cube %WHITE%this item with a %ORANGE%Rune %WHITE%to add a difficulty tier:%NL%%NL%%WHITE%Alas, %ORANGE%Uber Rathma %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
 ItemDisplay[cwss]: %BORDER-9B%%WHITE%:%BLUE%|%PURPLE%:      %RED%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%RED%{%RED%Warning%WHITE%: This can brick your %GOLD%Anni%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
 ItemDisplay[cm2f]: %BLUE%|%PURPLE%:   %ORANGE%%NAME%   %PURPLE%:%BLUE%|%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Splinter of the Void %WHITE%& %ORANGE%Trang-Oul's Jawbone%NL%%GOLD%Cube %WHITE%this item with the following:}
 
@@ -5572,8 +5572,9 @@ ItemDisplay[SHOP DRU MAG (((TABSK40>2 OR CLSK5>1) (SK221>1 OR SK226>1 OR SK237>1
 ItemDisplay[SHOP BAR MAG (((TABSK34>2 OR CLSK4>1) (SK146>1 OR SK149>1 OR SK154>1)) OR (TABSK34>1 (SK146>2 OR SK149>2 OR SK154>2)))]: %DARK_GREEN%%NAME%{%GREEN%~%RED%>   %TAN%Warcries Helm%RED%   <%GREEN%~}
 ItemDisplay[SHOP WEAPON MAG TABSK34>2]: %DARK_GREEN%%NAME%{%GREEN%~%RED%>   %TAN%Warcries Weapon%RED%   <%GREEN%~}
 ItemDisplay[SHOP STAFF MAG CHSK54>0]: %DARK_GREEN%%NAME%{%GREEN%~%RED%>   %TAN%Teleport Charges%RED%   <%GREEN%~}
-ItemDisplay[SHOP WAND MAG (SUFFIX=594 OR SUFFIX=595)]: %DARK_GREEN%%NAME%{%GREEN%~%RED%>   %TAN%Lower Resist Charges%RED%   <%GREEN%~}
-ItemDisplay[SHOP WAND MAG (SUFFIX=578 OR SUFFIX=579)]: %DARK_GREEN%%NAME%{%GREEN%~%RED%>   %TAN%Life Tap Charges%RED%   <%GREEN%~}
+ItemDisplay[SHOP WEAPON MAG (SUFFIX=594 OR SUFFIX=595)]: %DARK_GREEN%%NAME%{%GREEN%~%RED%>   %TAN%Lower Resist Charges%RED%   <%GREEN%~}
+ItemDisplay[SHOP WEAPON MAG (SUFFIX=578 OR SUFFIX=579)]: %DARK_GREEN%%NAME%{%GREEN%~%RED%>   %TAN%Life Tap Charges%RED%   <%GREEN%~}
+ItemDisplay[SHOP WEAPON MAG (SUFFIX=662 OR SUFFIX=898 OR SUFFIX=899)]: %DARK_GREEN%%NAME%{%GREEN%~%RED%>   %TAN%Amplify Damage Weapon%RED%   <%GREEN%~%NL%%NAME%}
 
 //Low Level Dueling, "Out of the Shop"
 ItemDisplay[!SHOP WEAPON MAG ED>239 (!ETH OR (ETH REPAIR)) LVLREQ<31]: %DOT-9B%%BLUE%%NAME%%DARK_GREEN%{%PURPLE%>   %TAN%High ED Weapon   %PURPLE%<%NL%%NAME%}
@@ -5644,8 +5645,9 @@ ItemDisplay[!SHOP DRU MAG (((TABSK40>2 OR CLSK5>1) (SK221>1 OR SK226>1 OR SK237>
 ItemDisplay[!SHOP BAR MAG (((TABSK34>2 OR CLSK4>1) (SK146>1 OR SK149>1 OR SK154>1)) OR (TABSK34>1 (SK146>2 OR SK149>2 OR SK154>2)))]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Warcries Helm%RED%   <%GREEN%~}
 ItemDisplay[!SHOP WEAPON MAG TABSK34>2]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Warcries Weapon%RED%   <%GREEN%~}
 ItemDisplay[!SHOP STAFF MAG CHSK54>0]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Teleport Charges%RED%   <%GREEN%~}
-ItemDisplay[!SHOP WAND MAG (SUFFIX=594 OR SUFFIX=595)]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Lower Resist Charges%RED%   <%GREEN%~}
-ItemDisplay[!SHOP WAND MAG (SUFFIX=578 OR SUFFIX=579)]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Life Tap Charges%RED%   <%GREEN%~}
+ItemDisplay[!SHOP WEAPON MAG (SUFFIX=594 OR SUFFIX=595)]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Lower Resist Charges%RED%   <%GREEN%~}
+ItemDisplay[!SHOP WEAPON MAG (SUFFIX=578 OR SUFFIX=579)]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Life Tap Charges%RED%   <%GREEN%~}
+ItemDisplay[!SHOP WEAPON MAG (SUFFIX=662 OR SUFFIX=898 OR SUFFIX=899)]: %NAME%{%GREEN%~%RED%>   %TAN%Amplify Damage Weapon%RED%   <%GREEN%~%NL%%NAME%}
 
 //----------------------------------------- Vendor Colors -----------------------------------------
 
@@ -6147,8 +6149,9 @@ ItemDisplay[DRU (RARE OR CRAFT) ((TABSK40>2 OR (CLSK5>1 ALLSK>0) OR (CLSK5>1 TAB
 ItemDisplay[BAR (RARE OR CRAFT) ((TABSK34>2 OR (CLSK4>1 ALLSK>0) OR (CLSK4>1 TABSK40>0) OR (ALLSK>0 TABSK34>1) (SK146>1 OR SK149>1 OR SK154>1)) OR ((CLSK4>1 OR TABSK34>1) (SK146>2 OR SK149>2 OR SK154>2)))]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Warcries Helm%RED%   <%GREEN%~%NL%%NAME%}
 ItemDisplay[WEAPON (RARE OR CRAFT) (ALLSK>0 OR CLSK4>0) TABSK34>1]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Warcries Weapon%RED%   <%GREEN%~%NL%%NAME%}
 ItemDisplay[STAFF (RARE OR CRAFT) CHSK54>0]: %NAME%%DARK_GREEN%{%GREEN%~   %TAN%Teleport Charges   %GREEN%~%NL%%NAME%}
-ItemDisplay[WAND (RARE OR CRAFT) (SUFFIX=594 OR SUFFIX=595)]: %NAME%%DARK_GREEN%{%GREEN%~   %TAN%Lower Resist Charges   %GREEN%~%NL%%NAME%}
-ItemDisplay[WAND (RARE OR CRAFT) (SUFFIX=578 OR SUFFIX=579)]: %NAME%%DARK_GREEN%{%GREEN%~   %TAN%Life Tap Charges   %GREEN%~%NL%%NAME%}
+ItemDisplay[WEAPON (RARE OR CRAFT) (SUFFIX=594 OR SUFFIX=595)]: %NAME%%DARK_GREEN%{%GREEN%~   %TAN%Lower Resist Charges   %GREEN%~%NL%%NAME%}
+ItemDisplay[WEAPON (RARE OR CRAFT) (SUFFIX=578 OR SUFFIX=579)]: %NAME%%DARK_GREEN%{%GREEN%~   %TAN%Life Tap Charges   %GREEN%~%NL%%NAME%}
+ItemDisplay[WEAPON (RARE OR CRAFT) (SUFFIX=662 OR SUFFIX=898 OR SUFFIX=899)]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Amplify Damage Weapon%RED%   <%GREEN%~%NL%%NAME%}
 ItemDisplay[CHEST (RARE OR CRAFT) (CLSK0>0 OR CLSK1>0 OR CLSK2>0 OR CLSK3>0 OR CLSK4>0 OR CLSK5>0 OR CLSK6>0) (FCR>10 OR LIFE>39 OR STAT36>5 OR STAT76>0 OR FRW>0 OR SOCK>2 OR STAT18>99 OR STAT17>99 OR ALLSK>0)]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Skill Armor%RED%   <%GREEN%~}
 ItemDisplay[SHIELD (RARE OR CRAFT) (CLSK0>0 OR CLSK1>0 OR CLSK2>0 OR CLSK3>0 OR CLSK4>0 OR CLSK5>0 OR CLSK6>0) (FCR>10 OR LIFE>39 OR STAT36>5 OR STAT76>0 OR FRW>0 OR SOCK>2 OR STAT18>99 OR STAT17>99 OR ALLSK>0)]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Skill Shield%RED%   <%GREEN%~}
 ItemDisplay[CHEST (RARE OR CRAFT) (STAT18>99 OR STAT17>99) (LIFE>39 OR STAT36>5 OR STAT76>0 OR FRW>0 OR SOCK>2 OR ALLSK>0)]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Enhanced Damage Armor%RED%   <%GREEN%~}
