@@ -4848,7 +4848,7 @@ ItemDisplay[(ame OR ned OR ulb OR utg OR 7tw OR 7qs OR 6bs OR baf OR utp OR drf)
 //Others
 ItemDisplay[((ELT 2H MACE) OR 9gs OR 8ws OR 6l7 OR 7ha OR 9gm OR xsk OR xlm OR 7fl OR ush OR upk OR pae OR umb OR 7ga OR uui OR tbt OR zvb OR utu OR tbl OR 7p7 OR lea OR hla OR fld OR tgl OR xmg) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Only Eth
-ItemDisplay[9b7 UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
+ItemDisplay[9b7 UNI ETH !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 
 //High-Tier Set Items
 ItemDisplay[(amu OR uar OR ci3) SET !ID]: %MAP-84%%PURPLE%~%DARK_GREEN%:%PURPLE%~    %GREEN%%NAME%    %PURPLE%~%DARK_GREEN%:%PURPLE%~%GREEN%
