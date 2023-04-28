@@ -5106,8 +5106,8 @@ ItemDisplay[7wh NMAG !INF !RW !SOCK=1 (FILTLVL<3 OR FILTLVL=5 OR ((ED>3 OR ETH) 
 //Maces
 ItemDisplay[7fl NMAG !INF !RW !SOCK=1 (ETH OR ED>7)]: %DOT-D6%%NAME%{%NAME%} // Ethereal or Superior Scourge
 ItemDisplay[(7ma OR 7mt) NMAG !INF !RW !SOCK=1 (ETH OR ED>7)]: %NAME%{%NAME%} // Ethereal or Superior Reinforced Mace or Devil Star
-ItemDisplay[fla NMAG !INF !SUP !RW SOCK=0 (FILTLVL<3 OR FILTLVL=5 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // 0 Socket Flail
-ItemDisplay[fla NMAG !INF !RW (SOCK=4 OR SOCK=5) (FILTLVL<3 OR FILTLVL=5 OR FILTLVL=5)]: %NAME%{%NAME%} // 4 or 5 Socket Flail
+ItemDisplay[fla NMAG !INF !SUP !RW SOCK=0 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // 0 Socket Flail
+ItemDisplay[fla NMAG !INF !RW (SOCK=4 OR SOCK=5)]: %NAME%{%NAME%} // 4 or 5 Socket Flail
 
 //Scepters
 ItemDisplay[9ws NMAG !INF !RW ((SOCK=4 (SK106>2 OR SK107>0 OR SK112>2 OR SK113>2 OR SK115>1 OR SK122>0 OR SK378>0 OR SK119>2)) OR (SOCK=5 (SK106>2 OR SK107>0 OR SK115>0 OR SK122>0 OR SK378>0)))]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // 4 or 5 Socket Zeal or Liberator Divine Scepters
