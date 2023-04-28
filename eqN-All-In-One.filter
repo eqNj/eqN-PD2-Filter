@@ -37,12 +37,12 @@ ItemDisplay[hfh]: %NAME%{%TAN%Forger of Shadowfang%NL%Legend of the Burning Hell
 ItemDisplay[ice]: %GOLD%Malah's Potion{%TAN%What is man but a mass of thawing clay?}
 ItemDisplay[tr2]: %GOLD%Scroll of Resistance{%GOLD%Right click to Read%NL%%GRAY%(Grants +10 to All Resistances Permanently)%NL%%NL%%TAN%Where there is power, there is resistance.}
 ItemDisplay[toa]: %ORANGE%Token of Absolution{%GOLD%Right click to Respec%NL%%NL%%TAN%Wherever you are is the entry point.}
-ItemDisplay[box FILTLVL=0]: %NAME%{%CORAL%Show All Items%NL%%TAN%As above, so below.}
-ItemDisplay[box FILTLVL=1]: %NAME%{%CORAL%Relaxed%NL%%TAN%As above, so below.}
-ItemDisplay[box FILTLVL=2]: %NAME%{%CORAL%Medium%NL%%TAN%As above, so below.}
-ItemDisplay[box FILTLVL=3]: %NAME%{%CORAL%Strict%NL%%TAN%As above, so below.}
-ItemDisplay[box FILTLVL=4]: %NAME%{%CORAL%StrictLLD%NL%%TAN%As above, so below.}
-ItemDisplay[box FILTLVL=5]: %NAME%{%CORAL%ShowRecipes%NL%%TAN%As above, so below.}
+ItemDisplay[box FILTLVL=0]: %NAME%{%SAGE%Show All Items%NL%%TAN%As above, so below.}
+ItemDisplay[box FILTLVL=1]: %NAME%{%SAGE%Relaxed%NL%%TAN%As above, so below.}
+ItemDisplay[box FILTLVL=2]: %NAME%{%SAGE%Medium%NL%%TAN%As above, so below.}
+ItemDisplay[box FILTLVL=3]: %NAME%{%SAGE%Strict%NL%%TAN%As above, so below.}
+ItemDisplay[box FILTLVL=4]: %NAME%{%SAGE%StrictLLD%NL%%TAN%As above, so below.}
+ItemDisplay[box FILTLVL=5]: %NAME%{%SAGE%ShowRecipes%NL%%TAN%As above, so below.}
 
 //Gold (Big thanks to BetweenWalls for their work on this section!)
 ItemDisplay[GOLD<500 (MAPID=25 OR MAPID=37 OR MAPID=38 OR MAPID=73 OR MAPID=102 OR MAPID=132)]: %NAME%
