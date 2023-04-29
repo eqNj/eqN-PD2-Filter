@@ -399,7 +399,7 @@ Improved "Upgraded Requirements", "Upgrade Recipe", and "LLD Armor/Shield" descr
 
 Overhauled filter in-line formatting on non-magic items for consistency in editing.
 
-Made is so equipped items no longer show recipes on the ShowRecipes filter level, as always intended, now that it has been fixed to not include the shared stash tabs.
+Made is so equipped items no longer show recipes on the ShowRecipes filter level, as always intended, now that it has been fixed to not include the shared stash tabs. Non-equipped items still show recipes as intended.
 
 Added LLD tags for good crafted/rare LLD rings and rare quivers.
 
@@ -408,3 +408,7 @@ Added a discription tag to magic, rare, and crafted weapons with an Amplify Dama
 Refined the descriptions on many existing items for congruence and legibility.
 
 Added a red dot on corrupted item names when in the new unique map that drops corrupted items.
+
+Added monster resistance information for unique maps.
+
+Added a note about adding difficulty tier to a Vision of Terror or a Voidstone when there is no difficulty tier yet added.
