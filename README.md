@@ -407,7 +407,7 @@ Added a discription tag to magic, rare, and crafted weapons with an Amplify Dama
 
 Refined the descriptions on many existing items for congruence and legibility.
 
-Added a red dot on corrupted item names when in the new unique map that drops corrupted items.
+Added a red dot on corrupted item names when in the new unique map that drops corrupted items. Since confirming these corrupted items drop unidentified, all Rare unidentified items will always show on all filter levels when in this map.
 
 Added monster resistance information for unique maps.
 

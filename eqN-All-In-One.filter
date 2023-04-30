@@ -5564,7 +5564,7 @@ ItemDisplay[SHOP WEAPON MAG TABSK34>2]: %DARK_GREEN%%NAME%{%GREEN%~%RED%>   %TAN
 ItemDisplay[SHOP STAFF MAG CHSK54>0]: %DARK_GREEN%%NAME%{%GREEN%~%RED%>   %TAN%Teleport Charges%RED%   <%GREEN%~}
 ItemDisplay[SHOP WEAPON MAG (SUFFIX=594 OR SUFFIX=595)]: %DARK_GREEN%%NAME%{%GREEN%~%RED%>   %TAN%Lower Resist Charges%RED%   <%GREEN%~}
 ItemDisplay[SHOP WEAPON MAG (SUFFIX=578 OR SUFFIX=579)]: %DARK_GREEN%%NAME%{%GREEN%~%RED%>   %TAN%Life Tap Charges%RED%   <%GREEN%~}
-ItemDisplay[SHOP WEAPON MAG (SUFFIX=662 OR SUFFIX=898 OR SUFFIX=899)]: %DARK_GREEN%%NAME%{%GREEN%~%RED%>   %TAN%Amplify Damage Weapon%RED%   <%GREEN%~%NL%%NAME%}
+ItemDisplay[SHOP WEAPON !(WAND OR SOR) MAG (SUFFIX=662 OR SUFFIX=898 OR SUFFIX=899)]: %DARK_GREEN%%NAME%{%GREEN%~%RED%>   %TAN%Amplify Damage Weapon%RED%   <%GREEN%~%NL%%NAME%}
 
 //Low Level Dueling, "Out of the Shop"
 ItemDisplay[!SHOP WEAPON MAG ED>239 (!ETH OR (ETH REPAIR)) LVLREQ<31]: %DOT-9B%%BLUE%%NAME%%DARK_GREEN%{%PURPLE%>   %TAN%High ED Weapon   %PURPLE%<%NL%%NAME%}
@@ -5637,7 +5637,7 @@ ItemDisplay[!SHOP WEAPON MAG TABSK34>2]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TA
 ItemDisplay[!SHOP STAFF MAG CHSK54>0]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Teleport Charges%RED%   <%GREEN%~}
 ItemDisplay[!SHOP WEAPON MAG (SUFFIX=594 OR SUFFIX=595)]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Lower Resist Charges%RED%   <%GREEN%~}
 ItemDisplay[!SHOP WEAPON MAG (SUFFIX=578 OR SUFFIX=579)]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Life Tap Charges%RED%   <%GREEN%~}
-ItemDisplay[!SHOP WEAPON MAG (SUFFIX=662 OR SUFFIX=898 OR SUFFIX=899)]: %NAME%{%GREEN%~%RED%>   %TAN%Amplify Damage Weapon%RED%   <%GREEN%~%NL%%NAME%}
+ItemDisplay[!SHOP WEAPON !(WAND OR SOR) MAG (SUFFIX=662 OR SUFFIX=898 OR SUFFIX=899)]: %NAME%{%GREEN%~%RED%>   %TAN%Amplify Damage Weapon%RED%   <%GREEN%~%NL%%NAME%}
 
 //----------------------------------------- Vendor Colors -----------------------------------------
 
@@ -5846,19 +5846,19 @@ ItemDisplay[(HELM OR SHIELD OR CHEST) !CIRC ELT RARE SOCK=0 STAT486=0 STAT360=0 
 //Crafted Affix Level Note (RARES Part 2)
 ItemDisplay[(rin OR amu OR (ELT (GLOVES OR BOOTS OR BELT OR (SOCK>0 (HELM OR SHIELD OR CHEST))))) !CIRC RARE STAT486=0 STAT360=0 !SHOP !EQUIPPED FILTLVL=5]: %NAME%{%GRAY%ALVL %CRAFTALVL% if crafted with current CLVL}%CONTINUE%
 
-//Low Level Dueling Uniques (Corruption Note)
-ItemDisplay[UNI ID !FILTLVL=5 ((xap) OR (bhm) OR (bwn SK70=2 SK80=2) OR (cap) OR (crn SK69>2 SK70>2 ILVL>40) OR (ghm ILVL>40) OR (gth ED>79) OR (aar) OR (fld STAT36>14) OR (stu IAS>29) OR (scl SK221>2) OR (spl STAT362>1) OR (xui) OR (xuc STAT330>7) OR (kit) OR (vgl) OR (mbt LIFE>19 STAT156>14) OR (lea) OR (hla REPLIFE>9) OR (chn STAT330=10) OR (ssd) OR (lea) OR (hla)) !ETH STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible}
-ItemDisplay[UNI ID FILTLVL=5 ((xap) OR (bhm) OR (bwn SK70=2 SK80=2) OR (cap) OR (crn SK69>2 SK70>2 ILVL>40) OR (ghm ILVL>40) OR (gth ED>79) OR (aar) OR (fld STAT36>14) OR (stu IAS>29) OR (scl SK221>2) OR (spl STAT362>1) OR (xui) OR (xuc STAT330>7) OR (kit) OR (vgl) OR (mbt LIFE>19 STAT156>14) OR (lea) OR (hla REPLIFE>9) OR (chn STAT330=10) OR (ssd) OR (lea) OR (hla)) !ETH STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}
-ItemDisplay[UNI ID ((flb ED>179 ILVL>40) OR (cst ALLSK=3) OR (swb STAT363>2 ILVL>40) OR (lbb (STAT335=-30 OR STAT335=-31 OR STAT335=-32 OR STAT335=-33 OR STAT335=-34 OR STAT335=-35) ILVL>40) OR (wax ED>119 ILVL>40) OR (gma ED>239 ILVL>40) OR (mau ED>239 ILVL>40 STAT136>29) OR (gsd ILVL>40) OR (bld) OR (kri STAT365>1 ILVL>25)) !ETH STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}%CONTINUE%
+//Low Level Dueling Unique Items (Corruption Note)
+ItemDisplay[!EQUIPPED UNI ID !FILTLVL=5 ((xap !ETH) OR (bhm !ETH) OR (bwn SK70=2 SK80=2) OR (cap !ETH) OR (crn SK69>2 SK70>2 ILVL>40 !ETH) OR (ghm ILVL>40) OR (gth ED>79) OR (aar) OR (fld STAT36>14) OR (stu IAS>29 !ETH) OR (scl SK221>2) OR (spl STAT362>1) OR (xui) OR (xuc STAT330>7 !ETH) OR (kit !ETH) OR (vgl !ETH) OR (mbt LIFE>19 STAT156>14 !ETH) OR (lea !ETH) OR (hla REPLIFE>9 !ETH) OR (chn STAT330=10 !ETH) OR (ssd !ETH)) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible}
+ItemDisplay[!EQUIPPED UNI ID FILTLVL=5 ((xap !ETH) OR (bhm !ETH) OR (bwn SK70=2 SK80=2) OR (cap !ETH) OR (crn SK69>2 SK70>2 ILVL>40 !ETH) OR (ghm ILVL>40) OR (gth ED>79) OR (aar) OR (fld STAT36>14) OR (stu IAS>29 !ETH) OR (scl SK221>2) OR (spl STAT362>1) OR (xui) OR (xuc STAT330>7 !ETH) OR (kit !ETH) OR (vgl !ETH) OR (mbt LIFE>19 STAT156>14 !ETH) OR (lea !ETH) OR (hla REPLIFE>9 !ETH) OR (chn STAT330=10 !ETH) OR (ssd !ETH)) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}
+ItemDisplay[!EQUIPPED UNI ID ((flb ED>149 ILVL>40 !ETH) OR (cst ALLSK=3) OR (swb STAT363>2 ILVL>40) OR (lbb (STAT335=-30 OR STAT335=-31 OR STAT335=-32 OR STAT335=-33 OR STAT335=-34 OR STAT335=-35) ILVL>40) OR (wax ED>119 ILVL>40 !ETH) OR (gma ED>239 ILVL>40) OR (mau ED>239 ILVL>40 STAT136>29) OR (gsd ILVL>40) OR (bld)) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}%CONTINUE%
 
 //Low Level Dueling Set Items (Corruption Note)
-ItemDisplay[SET ID !FILTLVL=5 (cap OR tbl OR mbl OR mbt OR lbl OR lgl OR ghm OR hbt OR hgl OR tow OR wsd) STAT360=0 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Corruptible}
-ItemDisplay[SET ID !FILTLVL=5 (vbt OR vgl OR bwn OR xap OR xml OR lbt) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible}
-ItemDisplay[SET ID (cap OR tbl OR dgr OR mbl OR mbt OR lsd OR lbl OR lgl OR ghm OR hbt OR hgl) STAT360=0 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Corruptible%NL%%NAME%}%CONTINUE%
-ItemDisplay[SET ID (vbt OR vgl OR bwn OR xap OR xml OR lbt) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}%CONTINUE%
-ItemDisplay[SET ID rin REPLIFE>5 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
-ItemDisplay[SET ID amu DTM>19 STAT89>2 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
-ItemDisplay[SET ID amu STAT156>0 STAT360=0 (FILTLVL=4 OR FILTLVL=5)]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
+ItemDisplay[!EQUIPPED SET ID !FILTLVL=5 (cap OR tbl OR mbl OR mbt OR lbl OR lgl OR ghm OR hbt OR hgl OR tow OR wsd) STAT360=0 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Corruptible}
+ItemDisplay[!EQUIPPED SET ID !FILTLVL=5 (vbt OR vgl OR bwn OR xap OR xml OR lbt) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible}
+ItemDisplay[!EQUIPPED SET ID (cap OR tbl OR dgr OR mbl OR mbt OR lsd OR lbl OR lgl OR ghm OR hbt OR hgl) STAT360=0 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Corruptible%NL%%NAME%}%CONTINUE%
+ItemDisplay[!EQUIPPED SET ID (vbt OR vgl OR bwn OR xap OR xml OR lbt) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}%CONTINUE%
+ItemDisplay[!EQUIPPED SET ID rin REPLIFE>5 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
+ItemDisplay[!EQUIPPED SET ID amu DTM>19 STAT89>2 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
+ItemDisplay[!EQUIPPED SET ID amu STAT156>0 STAT360=0 (FILTLVL=4 OR FILTLVL=5)]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
 
 //----------------------------------------- Rare & Crafted Item Description Highlighting -----------------------------------------
 
@@ -6141,7 +6141,7 @@ ItemDisplay[WEAPON (RARE OR CRAFT) (ALLSK>0 OR CLSK4>0) TABSK34>1]: %NAME%%DARK_
 ItemDisplay[STAFF (RARE OR CRAFT) CHSK54>0]: %NAME%%DARK_GREEN%{%GREEN%~   %TAN%Teleport Charges   %GREEN%~%NL%%NAME%}
 ItemDisplay[WEAPON (RARE OR CRAFT) (SUFFIX=594 OR SUFFIX=595)]: %NAME%%DARK_GREEN%{%GREEN%~   %TAN%Lower Resist Charges   %GREEN%~%NL%%NAME%}
 ItemDisplay[WEAPON (RARE OR CRAFT) (SUFFIX=578 OR SUFFIX=579)]: %NAME%%DARK_GREEN%{%GREEN%~   %TAN%Life Tap Charges   %GREEN%~%NL%%NAME%}
-ItemDisplay[WEAPON (RARE OR CRAFT) (SUFFIX=662 OR SUFFIX=898 OR SUFFIX=899)]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Amplify Damage Weapon%RED%   <%GREEN%~%NL%%NAME%}
+ItemDisplay[WEAPON !(WAND OR SOR) (RARE OR CRAFT) (SUFFIX=662 OR SUFFIX=898 OR SUFFIX=899)]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Amplify Damage Weapon%RED%   <%GREEN%~%NL%%NAME%}
 ItemDisplay[CHEST (RARE OR CRAFT) (CLSK0>0 OR CLSK1>0 OR CLSK2>0 OR CLSK3>0 OR CLSK4>0 OR CLSK5>0 OR CLSK6>0) (FCR>10 OR LIFE>39 OR STAT36>5 OR STAT76>0 OR FRW>0 OR SOCK>2 OR STAT18>99 OR STAT17>99 OR ALLSK>0)]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Skill Armor%RED%   <%GREEN%~}
 ItemDisplay[SHIELD (RARE OR CRAFT) (CLSK0>0 OR CLSK1>0 OR CLSK2>0 OR CLSK3>0 OR CLSK4>0 OR CLSK5>0 OR CLSK6>0) (FCR>10 OR LIFE>39 OR STAT36>5 OR STAT76>0 OR FRW>0 OR SOCK>2 OR STAT18>99 OR STAT17>99 OR ALLSK>0)]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Skill Shield%RED%   <%GREEN%~}
 ItemDisplay[CHEST (RARE OR CRAFT) (STAT18>99 OR STAT17>99) (LIFE>39 OR STAT36>5 OR STAT76>0 OR FRW>0 OR SOCK>2 OR ALLSK>0)]: %NAME%%DARK_GREEN%{%GREEN%~%RED%>   %TAN%Enhanced Damage Armor%RED%   <%GREEN%~}
@@ -6195,8 +6195,9 @@ ItemDisplay[CRAFT (8lw OR 8rx OR am6 OR 8sw) ((ED>169 STAT360=0) OR (STAT360=0 T
 
 //----------------------------------------- Always Show These -----------------------------------------
 
-ItemDisplay[SET OR UNI OR CRAFT OR RW]: %NAME%{%NAME%}
+ItemDisplay[(SET OR UNI OR CRAFT OR RW OR (NMAG GEMMED))]: %NAME%{%NAME%}
 ItemDisplay[(MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%{%NAME%}
+ItemDisplay[RARE !ID (MAPID=181 OR MAPID=182)]: %NAME%{%NAME%}
 ItemDisplay[ETH !NMAG]: %NAME%{%NAME%}
 
 //----------------------------------------- Hiding Items -----------------------------------------
