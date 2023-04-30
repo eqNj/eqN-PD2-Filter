@@ -5466,6 +5466,7 @@ ItemDisplay[aqv AMAZON RARE !ID]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~
 ItemDisplay[CIRC MAG !ID (FILTLVL<3 OR FILTLVL=5)]: %TAN%:: %BLUE%%NAME% %TAN%::{%NAME%}
 ItemDisplay[CIRC MAG !ID FILTLVL>2]: %NAME%{%NAME%}
 ItemDisplay[CIRC NMAG !INF !SUP !ETH SOCK=0 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%}
+ItemDisplay[ci3 NMAG !INF !SUP !ETH SOCK=0]: %NAME%{%NAME%}
 
 //Medium-Specific Failsafes
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs) MAG !ID (FILTLVL<3 OR FILTLVL=5)]: %NAME%{%NAME%}
