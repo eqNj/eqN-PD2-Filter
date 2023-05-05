@@ -5246,7 +5246,7 @@ ItemDisplay[NMAG !INF !RW SK91>2 (NEC OR WAND) ((!SOCK=1 !(wnd OR ywn OR 9wn)) O
 ItemDisplay[NMAG !INF !RW SK381>2 (NEC OR WAND) ((!SOCK=1 !(wnd OR ywn OR 9wn)) OR (CLVL<60))]: %NAME%{%NAME%} // Dark Pact
 
 // --- Poison Bone
-ItemDisplay[NMAG !INF !RW SK67>2 (NEC OR WAND) wnd ywn 9wn (!SOCK=1 OR (CLVL<60))]: %NAME%{%NAME%} // Teeth
+ItemDisplay[NMAG !INF !RW SK67>2 (NEC OR WAND) ((!SOCK=1 !(wnd OR ywn OR 9wn)) OR (CLVL<60))]: %NAME%{%NAME%} // Teeth
 ItemDisplay[NMAG !INF !RW SK68>2 (NEC OR WAND) ((!SOCK=1 !(wnd OR ywn OR 9wn)) OR (CLVL<60))]: %NAME%{%NAME%} // Bone Armor
 ItemDisplay[NMAG !INF !RW SK73>2 (NEC OR WAND) ((!SOCK=1 !(wnd OR ywn OR 9wn)) OR (CLVL<60))]: %NAME%{%NAME%} // Poison Strike
 ItemDisplay[NMAG !INF !RW SK74>2 (NEC OR WAND) ((!SOCK=1 !(wnd OR ywn OR 9wn)) OR (CLVL<60))]: %NAME%{%NAME%} // Corpse Explosion
