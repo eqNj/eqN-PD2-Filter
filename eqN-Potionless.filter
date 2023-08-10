@@ -5077,7 +5077,7 @@ ItemDisplay[(tow OR xsh OR ush) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=3) (ED=15 OR 
 // --- // --- NMAG WEAPONS --- \\ --- \\
 
 //Wirt's Leg
-ItemDisplay[leg]: %NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
+ItemDisplay[leg NMAG]: %NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
 
 //Superior + Ethereal Failsafe
 ItemDisplay[WEAPON !THROWING !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !(TABSK2<3 (amd OR ame)) ELT NMAG !INF !RW !SOCK=1 !(SOCK=2 2H) ETH ED>3]: %DOT-D6%%NAME%{%NAME%} // All Useful Ethereal Weapons With Any Enhanced Damage
