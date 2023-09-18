@@ -20,7 +20,7 @@ The version known as 'eqN-Specialized-LLD' is the same as 'eqN-All-In-One', howe
 
 ##### <ins>If you intend to use a locally edited version of these filters do note that the file will be encoded as 'ISO 8859-1'. The file needs to be saved with that encoding. This is due to the use of special characters not originally available in the default encoding of 'UTF-8'.</ins>
 
-### To those interested: these filters are specially designed to be 100% functional with the in-game filter level setting 'Show All Items' and will apply all filter aesthetic (item name and description) effects to every item.
+#### To those interested: these filters are specially designed to be 100% functional with the in-game filter level setting 'Show All Items' and will apply all filter aesthetic (item name and description) effects to every item.
 
 ![Filter Levels](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/FiltLevel.jpg)
 
