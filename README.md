@@ -415,6 +415,8 @@ Added a note about adding difficulty tier to a Vision of Terror or a Voidstone w
 
 ## 1.7.0 - (Season 8)
 
+Added the two new uniques for Season 8 with accented notifications, as with all new uniques each season.
+
 Added the newly introduced throwing potions of all elements, useful during leveling, to the filter with a discreet aesthetic to help minimalize visual clutter.
 
 Added new leveling notifications (before level 75) for high defense Mage Plates, Grim Shields, and Grim Helmets as well as notifications on these (and all Elite) perfect Superior (15% ED) chest, shield, and helmet runeword bases at all levels. Elite weapons that were perfect Superior (15% ED) were already notifying, and as always all moderately useful runeword bases, Superior or having good Staffmods, were already showing and sometimes notifying.
