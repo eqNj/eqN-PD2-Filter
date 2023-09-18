@@ -154,16 +154,16 @@ ItemDisplay[hp3 CLVL>39 FILTLVL=0]:	%RED%:%GRAY%h³{%WHITE%Healing Potion}
 ItemDisplay[hp3 (CLVL<40 OR FILTLVL=0)]: %RED%#%WHITE%heal%WHITE%{%WHITE%Healing Potion}
 ItemDisplay[mp2 (CLVL>39 OR MAPID>74 OR DIFF>0) FILTLVL>0]: {%WHITE%Lesser Mana Potion}
 ItemDisplay[mp2 CLVL>39 FILTLVL=0]: %BLUE%:%GRAY%m²{%WHITE%Lesser Mana Potion}
-ItemDisplay[mp2 (CLVL<40 OR FILTLVL=0)]: %BLUE%#%WHITE%lite%WHITE%{%WHITE%Lesser Mana Potion}
+ItemDisplay[mp2 (CLVL<40 OR FILTLVL=0)]: %BLUE%#%WHITE%lgt%WHITE%{%WHITE%Lesser Mana Potion}
 ItemDisplay[hp2 (CLVL>29 OR MAPID>74 OR DIFF>0) FILTLVL>0]: {%WHITE%Lesser Healing Potion}
 ItemDisplay[hp2 CLVL>29 FILTLVL=0]: %RED%:%GRAY%h²{%WHITE%Lesser Healing Potion}
-ItemDisplay[hp2 (CLVL<30 OR FILTLVL=0)]: %RED%#%WHITE%lite%WHITE%{%WHITE%Lesser Healing Potion}
+ItemDisplay[hp2 (CLVL<30 OR FILTLVL=0)]: %RED%#%WHITE%lgt%WHITE%{%WHITE%Lesser Healing Potion}
 ItemDisplay[mp1 (CLVL>29 OR MAPID>38 OR DIFF>0) FILTLVL>0]: {%WHITE%Minor Mana Potion}
 ItemDisplay[mp1 CLVL>29 FILTLVL=0]: %BLUE%:%GRAY%m¹{%WHITE%Minor Mana Potion}
-ItemDisplay[mp1 (CLVL<30 OR FILTLVL=0)]: %BLUE%#%WHITE%min%WHITE%{%WHITE%Minor Mana Potion}
+ItemDisplay[mp1 (CLVL<30 OR FILTLVL=0)]: %BLUE%#%WHITE%mnr%WHITE%{%WHITE%Minor Mana Potion}
 ItemDisplay[hp1 (CLVL>14 OR MAPID>38 OR DIFF>0) FILTLVL>0]: {%WHITE%Minor Healing Potion}
 ItemDisplay[hp1 CLVL>14 FILTLVL=0]: %RED%:%GRAY%h¹{%WHITE%Minor Healing Potion}
-ItemDisplay[hp1 (CLVL<15 OR FILTLVL=0)]: %RED%#%WHITE%min%WHITE%{%WHITE%Minor Healing Potion}
+ItemDisplay[hp1 (CLVL<15 OR FILTLVL=0)]: %RED%#%WHITE%mnr%WHITE%{%WHITE%Minor Healing Potion}
 
 //Utilites
 ItemDisplay[tsc CLVL<15]: %BLUE%>%GRAY%tp%WHITE%{%TAN%Items/Recipes shown will adjust to your needs.%NL%As you level dynamic filtering will occur.%NL%%DARK_GREEN%Editor's Note:%NL%%WHITE%Scroll of Town Portal}%CONTINUE%
