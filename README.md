@@ -16,7 +16,7 @@ The version known as 'eqN-Potionless' is the same as 'eqN-All-In-One', however i
 
 The version known as 'eqN-Specialized-LLD' is the same as 'eqN-All-In-One', however it hides Super/Large Health and Mana potions after character level 75 at filter levels above 'Relaxed' and it shows details for LLD crafting on applicable base items on the 'ShowRecipes' filter level.
 
-#### <ins>Currently, these filters are stylized in such a way as to require the use of the new in-game setting HD text (enabled by default) introduced with Season 7 of Project Diablo 2. This allows more colors for text that this filter uses.</ins>
+#### <ins>Currently these filters are stylized in such a way as to require the use of the new in-game setting 'HD Text' (enabled by default) introduced with Season 7 of Project Diablo 2. This is to allow for more text colors, which this filter uses.</ins>
 
 #### <ins>If you intend to use a locally edited version of these filters, do note that the file will be encoded as 'ISO 8859-1' and needs to be saved with that encoding. This is due to the use of special characters not originally available in the default encoding of UTF-8.</ins>
 
