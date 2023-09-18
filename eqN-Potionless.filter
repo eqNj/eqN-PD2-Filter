@@ -175,22 +175,22 @@ ItemDisplay[hp1 CLVL>14 FILTLVL=0]: %RED%:%GRAY%h¹{%WHITE%Minor Healing Potion}
 ItemDisplay[hp1 (CLVL<15 OR FILTLVL=0)]: %RED%#%WHITE%min%WHITE%{%WHITE%Minor Healing Potion}
 
 //Utilites
-ItemDisplay[tsc CLVL<15]: %BLUE%>%GRAY%tp%WHITE%{%TAN%Items/Recipes shown will adjust to your needs.%NL%As you level dynamic filtering will occur.%NL%%DARK_GREEN%eqN's Note:}%CONTINUE%
-ItemDisplay[tsc CLVL>14 FILTLVL=0]: %BLUE%>%GRAY%tp%WHITE%{%RED%Warning%WHITE%: Destroys removed gems/runes.%NL%%NL%Socketed Item + This Scroll + %ORANGE%Hel%NL%%WHITE%Un-socketing Recipe:}
-ItemDisplay[tsc CLVL>14]: {%RED%Warning%WHITE%: Destroys removed gems/runes.%NL%%NL%Socketed Item + This Scroll + %ORANGE%Hel%NL%%WHITE%Un-socketing Recipe:}
-ItemDisplay[isc CLVL<15]: %RED%>%GRAY%id%WHITE%{%TAN%Craft Recipes, Always%NL%Socket Recipes, ILVL 21+%NL%Upgrade Recipes, ILVL 13+%NL%%DARK_GREEN%Recipes Shown:%NL%Use the 'Filter Level' setting to see all recipes.}%CONTINUE%
-ItemDisplay[isc CLVL>14 FILTLVL=0]: %RED%>%GRAY%id%WHITE%{%ORANGE%Crafted ILVL %WHITE%51+ = 3+ Affixes & %ORANGE%Crafted ILVL %WHITE%71+ = 4 Affixes%NL%%ORANGE%Crafted Item Level %WHITE%= Character LVL/2 + Base ILVL/2%NL%%YELLOW%Rare %WHITE%items can now be used as crafting bases.%NL%%WHITE%Crafting Tip%GRAY%(s)%WHITE%:}
-ItemDisplay[isc CLVL>14]: {%ORANGE%Crafted ILVL %WHITE%51+ = 3+ Affixes & %ORANGE%Crafted ILVL %WHITE%71+ = 4 Affixes%NL%%ORANGE%Crafted Item Level %WHITE%= Character LVL/2 + Base ILVL/2%NL%%YELLOW%Rare %WHITE%and %BLUE%Magic %WHITE%items can be used as crafting bases.%NL%%WHITE%Crafting Tip%GRAY%(s)%WHITE%:}
-ItemDisplay[vps]: %WHITE%#%GRAY%s%WHITE%{%TAN%We are what we repeatedly do.}%CONTINUE%
-ItemDisplay[wms]: %YELLOW%#%GRAY%t%WHITE%{%TAN%whom it touches.%NL%a soft white damn%NL%The snow doesn't give}%CONTINUE%
-ItemDisplay[yps]: %GREEN%#%GRAY%a%WHITE%{%TAN%Thy drugs art quick.%NL%O true apothecary,}%CONTINUE%
-ItemDisplay[yps (MAPID=37 OR MAPID=133 OR MAPID=161 OR MAPID=162 OR MAPID=163 OR MAPID=165)]: %GREEN%%%GRAY%a%WHITE%{%TAN%Thy drugs art quick.%NL%O true apothecary,}
+ItemDisplay[tsc CLVL<15]: %BLUE%>%GRAY%tp%WHITE%{%TAN%Items/Recipes shown will adjust to your needs.%NL%As you level dynamic filtering will occur.%NL%%DARK_GREEN%Editor's Note:%NL%%WHITE%Scroll of Town Portal}%CONTINUE%
+ItemDisplay[tsc CLVL>14 FILTLVL=0]: %BLUE%>%GRAY%tp%WHITE%{%RED%Warning%WHITE%: Destroys removed gems/runes.%NL%%NL%Socketed Item + This Scroll + %ORANGE%Hel%NL%%WHITE%Un-socketing Recipe:%NL%%WHITE%Scroll of Town Portal}
+ItemDisplay[tsc CLVL>14]: {%RED%Warning%WHITE%: Destroys removed gems/runes.%NL%%NL%Socketed Item + This Scroll + %ORANGE%Hel%NL%%WHITE%Un-socketing Recipe:%NL%%WHITE%Scroll of Town Portal}
+ItemDisplay[isc CLVL<15]: %RED%>%GRAY%id%WHITE%{%TAN%Craft Recipes, Always%NL%Socket Recipes, ILVL 21+%NL%Upgrade Recipes, ILVL 13+%NL%%DARK_GREEN%Recipes Shown:%NL%Use the 'Filter Level' setting to see all recipes.%NL%%WHITE%Scroll of Identify}%CONTINUE%
+ItemDisplay[isc CLVL>14 FILTLVL=0]: %RED%>%GRAY%id%WHITE%{%ORANGE%Crafted ILVL %WHITE%51+ = 3+ Affixes & %ORANGE%Crafted ILVL %WHITE%71+ = 4 Affixes%NL%%ORANGE%Crafted Item Level %WHITE%= Character LVL/2 + Base ILVL/2%NL%%YELLOW%Rare %WHITE%items can now be used as crafting bases.%NL%%WHITE%Crafting Tip%GRAY%(s)%WHITE%:%NL%%WHITE%Scroll of Identify}
+ItemDisplay[isc CLVL>14]: {%ORANGE%Crafted ILVL %WHITE%51+ = 3+ Affixes & %ORANGE%Crafted ILVL %WHITE%71+ = 4 Affixes%NL%%ORANGE%Crafted Item Level %WHITE%= Character LVL/2 + Base ILVL/2%NL%%YELLOW%Rare %WHITE%and %BLUE%Magic %WHITE%items can be used as crafting bases.%NL%%WHITE%Crafting Tip%GRAY%(s)%WHITE%:%NL%%WHITE%Scroll of Identify}
+ItemDisplay[vps]: %WHITE%#%GRAY%s%WHITE%{%TAN%We are what we repeatedly do.%NL%%WHITE%Stamina Potion}%CONTINUE%
+ItemDisplay[wms]: %YELLOW%#%GRAY%t%WHITE%{%TAN%whom it touches.%NL%a soft white damn%NL%The snow doesn't give%NL%%WHITE%Thawing Potion}%CONTINUE%
+ItemDisplay[yps]: %GREEN%#%GRAY%a%WHITE%{%TAN%Thy drugs art quick.%NL%O true apothecary,%NL%%WHITE%Antidote Potion}%CONTINUE%
+ItemDisplay[yps (MAPID=37 OR MAPID=133 OR MAPID=161 OR MAPID=162 OR MAPID=163 OR MAPID=165)]: %GREEN%%%GRAY%a%WHITE%{%TAN%Thy drugs art quick.%NL%O true apothecary,%NL%%WHITE%Antidote Potion}
 ItemDisplay[(vps OR wms OR yps OR tsc OR isc) FILTLVL=0]: %NAME%{%NAME%}
 ItemDisplay[(vps OR wms OR yps OR tsc OR isc) CLVL>14]: {%NAME%}
 ItemDisplay[rkey]: %BORDER-0A%%GOLD%|%TAN%:    %GOLD%%NAME%    %TAN%:%GOLD%|{%TAN%will open a very heavy door.%NL%A very little key}
 ItemDisplay[key (CLVL<10 OR FILTLVL=0)]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
-ItemDisplay[key CLVL>10 SHOP]: {%TAN%Crafting recipes will show on magic items and on perfect gems.%NL%Use 'ShowRecipes' to see crafting and upgrading recipes.%NL%There are several filter strictness level settings available.%NL%%DARK_GREEN%eqN's Note:}
-ItemDisplay[key CLVL>10]: {%TAN%The key is in the craft.}
+ItemDisplay[key CLVL>10 SHOP]: {%TAN%Crafting recipes will show on magic items and on perfect gems.%NL%Use 'ShowRecipes' to see crafting and upgrading recipes.%NL%There are several filter strictness level settings available.%NL%%DARK_GREEN%Editor's Note:%NL%%WHITE%Key}
+ItemDisplay[key CLVL>10]: {%TAN%The key is in the craft.%NL%%WHITE%Key}
 ItemDisplay[ear]:
 
 //NMAG Arrows & Bolts
@@ -201,46 +201,30 @@ ItemDisplay[(aqv) NMAG CLVL>6]: {%TAN%you must aim a little above it.%NL%If you 
 
 //Ye Olde Throwing Potions
 ItemDisplay[opl (CLVL<10 OR FILTLVL=0)]: %RED%:%GRAY%f¹%WHITE%{%WHITE%Ye Olde Fulminating Potion}
-ItemDisplay[opl]: {%WHITE%Ye Olde Fulminating Potion}
 ItemDisplay[opm (CLVL<10 OR FILTLVL=0)]: %RED%:%GRAY%f²%WHITE%{%WHITE%Ye Olde Exploding Potion}
-ItemDisplay[opm]: {%WHITE%Exploding Potion}
 ItemDisplay[ops (CLVL<10 OR FILTLVL=0)]: %RED%:%GRAY%f³%WHITE%{%WHITE%Ye Olde Oil Potion}
-ItemDisplay[ops]: {%WHITE%Ye Olde Oil Potion}
 ItemDisplay[gpl (CLVL<10 OR FILTLVL=0)]: %SAGE%:%GRAY%p¹%WHITE%{%WHITE%Ye Olde Strangling Potion}
-ItemDisplay[gpl]: {%WHITE%Ye Olde Strangling Potion}
 ItemDisplay[gpm (CLVL<10 OR FILTLVL=0)]: %SAGE%:%GRAY%p²%WHITE%{%WHITE%Ye Olde Choking Potion}
-ItemDisplay[gpm]: {%WHITE%Ye Olde Choking Potion}
 ItemDisplay[gps (CLVL<10 OR FILTLVL=0)]: %SAGE%:%GRAY%p³%WHITE%{%WHITE%Ye Olde Rancid Potion}
-ItemDisplay[gps]: {%WHITE%Ye Olde Rancid Potion}
+ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl)]: {%NAME%}
 
 //New Throwing Potions
 ItemDisplay[tpfs (CLVL<15 OR FILTLVL=0)]: %ORANGE%#%GRAY%f¹%WHITE%{%WHITE%Fulminating Potion}
-ItemDisplay[tpfs]: {%WHITE%Fulminating Potion}
 ItemDisplay[tpfm (CLVL<30 OR FILTLVL=0)]: %ORANGE%#%GRAY%f²%WHITE%{%WHITE%Exploding Potion}
-ItemDisplay[tpfm]: {%WHITE%Exploding Potion}
 ItemDisplay[tpfl (CLVL<60 OR FILTLVL=0 OR DIFF=0)]: %ORANGE%#%GRAY%f³%WHITE%{%WHITE%Oil Potion}
-ItemDisplay[tpfl]: {%WHITE%Oil Potion}
 
 ItemDisplay[tpgs (CLVL<15 OR FILTLVL=0)]: %DARK_GREEN%#%GRAY%p¹%WHITE%{%WHITE%Strangling Potion}
-ItemDisplay[tpgs]: {%WHITE%Strangling Potion}
 ItemDisplay[tpgm (CLVL<30 OR FILTLVL=0)]: %DARK_GREEN%#%GRAY%p²%WHITE%{%WHITE%Choking Potion}
-ItemDisplay[tpgm]: {%WHITE%Choking Potion}
 ItemDisplay[tpgl (CLVL<60 OR FILTLVL=0 OR DIFF=0)]: %DARK_GREEN%#%GRAY%p³%WHITE%{%WHITE%Rancid Potion}
-ItemDisplay[tpgl]: {%WHITE%Rancid Potion}
  
 ItemDisplay[tpcs (CLVL<15 OR FILTLVL=0)]: %TEAL%#%GRAY%c¹%WHITE%{%WHITE%Chilling Potion}
-ItemDisplay[tpcs]: {%WHITE%Chilling Potion}
 ItemDisplay[tpcm (CLVL<30 OR FILTLVL=0)]: %TEAL%#%GRAY%c²%WHITE%{%WHITE%Frost Potion}
-ItemDisplay[tpcm]: {%WHITE%Frost Potion}
 ItemDisplay[tpcl (CLVL<60 OR FILTLVL=0 OR DIFF=0)]: %TEAL%#%GRAY%c³%WHITE%{%WHITE%Freezing Potion}
-ItemDisplay[tpcl]: {%WHITE%Freezing Potion}
 
 ItemDisplay[tpls (CLVL<15 OR FILTLVL=0)]: %YELLOW%#%GRAY%l¹%WHITE%{%WHITE%Charged Potion}
-ItemDisplay[tpls]: {%WHITE%Charged Potion}
 ItemDisplay[tplm (CLVL<30 OR FILTLVL=0)]: %YELLOW%#%GRAY%l²%WHITE%{%WHITE%Static Potion}
-ItemDisplay[tplm]: {%WHITE%Static Potion}
 ItemDisplay[tpll (CLVL<60 OR FILTLVL=0 OR DIFF=0)]: %YELLOW%#%GRAY%l³%WHITE%{%WHITE%Shock Potion}
-ItemDisplay[tpll]: {%WHITE%Shock Potion}
+ItemDisplay[(tpfs OR tpfm OR tpfl OR tpgs OR tpgm OR tpgl OR tpcs OR tpcs OR tpcm OR tpcl OR tpls OR tplm OR tpll)]: {%NAME%}
 
 //----------------------------------------- Charms -----------------------------------------
 
