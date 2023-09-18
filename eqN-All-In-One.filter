@@ -1,4 +1,4 @@
-//eqN's Project Diablo 2 Filter - 1.6.0 (Season 7)
+//eqN's Project Diablo 2 Filter - 1.7.0 (Season 8)
 //Every Edition
 
 //Versions
@@ -179,9 +179,9 @@ ItemDisplay[yps (MAPID=37 OR MAPID=133 OR MAPID=161 OR MAPID=162 OR MAPID=163 OR
 ItemDisplay[(vps OR wms OR yps OR tsc OR isc) FILTLVL=0]: %NAME%{%NAME%}
 ItemDisplay[(vps OR wms OR yps OR tsc OR isc) CLVL>14]: {%NAME%}
 ItemDisplay[rkey]: %BORDER-0A%%GOLD%|%TAN%:    %GOLD%%NAME%    %TAN%:%GOLD%|{%TAN%will open a very heavy door.%NL%A very little key}
-ItemDisplay[key (CLVL<10 OR FILTLVL=0)]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
-ItemDisplay[key CLVL>10 SHOP]: {%TAN%Crafting recipes will show on magic items and on perfect gems.%NL%Use 'ShowRecipes' to see crafting and upgrading recipes.%NL%There are several filter strictness level settings available.%NL%%DARK_GREEN%Editor's Note:}
-ItemDisplay[key CLVL>10]: {%TAN%The key is in the craft.}
+ItemDisplay[key (CLVL<10 OR FILTLVL=0)]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}%CONTINUE%
+ItemDisplay[key CLVL>10 SHOP]: {%TAN%Crafting recipes will show on magic items and on perfect gems.%NL%Use 'ShowRecipes' to see crafting and upgrading recipes.%NL%There are several filter strictness level settings available.%NL%%DARK_GREEN%(Season 8)%NL%Filter Version 1.7.0}
+ItemDisplay[key CLVL>10 FILTLVL>0]: {%TAN%The key is in the craft.}
 ItemDisplay[ear]: {%NAME%}
 
 //NMAG Arrows & Bolts
