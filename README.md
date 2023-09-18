@@ -2,7 +2,7 @@
 
 ![Den](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Header.jpg)
 
-These filters are up-to-date for Season 7 of Project Diablo 2!
+These filters are up-to-date for Season 8 of Project Diablo 2!
 
 You can find these loot filters either here (on GitHub) or through the Project Diablo 2 game launcher.
 
@@ -412,3 +412,23 @@ Added a red dot on corrupted item names when in the new unique map that drops co
 Added monster resistance information for unique maps.
 
 Added a note about adding difficulty tier to a Vision of Terror or a Voidstone when there is no difficulty tier yet added.
+
+## 1.7.0 - (Season 8)
+
+Added the newly introduced throwing potions of all elements, useful during leveling, to the filter with a discreet aesthetic to help minimalize visual clutter.
+
+Updated all relevant staffmod information and applications for the new Paladin skill Holy Sword.
+
+Updated the uber fight difficulty scaling instructions on relevant items for the new three tier system.
+
+Updated the descriptions for existing map orbs, when necessary, and added descriptions for the new Infused map orbs.
+
+Added all of the new runewords (and their runes, listed on the ShowRecipes filter level) introduced this season to applicable base items.
+
+Removed the red corruption indicator in the Warlord of Blood unique map as all items now drop corrupted in the map.
+
+Added new a shop hunting highlight style that utilizes the fact that %NL% within identified item names is now usable.
+
+Did a pass on all the Unique and Set items that have accenting based on their rarity and/or value and further organized them within the code for ease of editing.
+
+Continued optimizations for use with the new HD text introduced last season.
