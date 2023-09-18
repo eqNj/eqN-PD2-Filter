@@ -427,7 +427,7 @@ Added all of the new runewords (and their runes, listed on the ShowRecipes filte
 
 Removed the red corruption indicator in the Warlord of Blood unique map as all items now drop corrupted in the map.
 
-Added new a shop hunting highlight style that utilizes the fact that %NL% within identified item names is now usable.
+Added a new shop hunting highlight style that utilizes the fact that %NL% within identified item names is now usable.
 
 Did a pass on all the Unique and Set items that have accenting based on their rarity and/or value and further organized them within the code for ease of editing.
 
