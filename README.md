@@ -24,7 +24,7 @@ The version known as 'eqN-Specialized-LLD' is the same as 'eqN-All-In-One', howe
 
 ![Filter Levels](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/FiltLevel.jpg)
 
-#### FYI: You can toggle the filter strictness level, or switch to the 'ShowRecipes' filter level, by holding CTRL + clicking on the PD2 in-game 'Settings' button, then adjusting your filter level under the 'Item' tab. These filters use this functionality heavily.
+#### You can toggle the filter strictness level, or switch to the 'ShowRecipes' filter level, by holding CTRL + clicking on the PD2 in-game 'Settings' button, then adjusting your filter level under the 'Item' tab. These filters use this functionality heavily.
 
 ## Brief Summary
 
