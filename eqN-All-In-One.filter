@@ -1450,8 +1450,7 @@ ItemDisplay[uit (SOCK=0 OR SOCK=4) !ETH !INF !RW NMAG DEF>139 ED<5]: %NAME%%DARK
 ItemDisplay[uit (SOCK=0 OR SOCK=4) ETH !INF !RW NMAG DEF>209 ED<5]: %NAME%%DARK_GREEN%·%CONTINUE%
 
 //Display Number of Sockets
-ItemDisplay[SOCK>0 !RARE !RW]: %NAME% %TAN%<%WHITE%%SOCKETS%%TAN%>%CONTINUE%
-ItemDisplay[SOCK>0 RARE]: %NAME% %GRAY%<%WHITE%%SOCKETS%%GRAY%>%CONTINUE%
+ItemDisplay[SOCK>0 !RW]: %NAME% %TAN%<%WHITE%%SOCKETS%%TAN%>%CONTINUE%
 
 //Shows exact %ED on Armor and Weapons, if no +Skills
 ItemDisplay[ARMOR ED=15 !BAR !DRU !NEC NMAG ILVL>20]: %GRAY%[%BLUE%15%%GRAY%] %NAME%%CONTINUE%
