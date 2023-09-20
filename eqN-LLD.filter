@@ -406,7 +406,6 @@ ItemDisplay[9p9 !ETH !INF NMAG !RW (SOCK=0 OR SOCK=5 OR SOCK=4) ED>11]: %DOT-D6%
 ItemDisplay[9p9 !ETH !INF NMAG !RW (SOCK=0 OR SOCK=5 OR SOCK=4) CLVL>74 DIFF<2]: %NAME%{%NAME%}
 
 //The following is an all-encompassing Failsafe section of the eqN filter(s) that accounts for ideal base items for all of following +3 staff mods, for LLD and otherwise.
-//----------------------------------------- (+3) Class Specific Failsafes -----------------------------------------
 
 //----------------------------------------- (+3) Class Specific Failsafes -----------------------------------------
 
