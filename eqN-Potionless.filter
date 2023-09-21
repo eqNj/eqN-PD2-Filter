@@ -693,7 +693,7 @@ ItemDisplay[t43]: %NAME%{%TAN%150% All Types%NL%%WHITE%Highest Monster Immunitie
 //Unique Map Immunes
 ItemDisplay[t51]: %NAME%{%RED%85% %GRAY%|| %YELLOW%85% %GRAY%|| %BLUE%85% %GRAY%|| %GREEN%95% %GRAY%|| %ORANGE%40% %GRAY%|| %TAN%65%%NL%%RED%Fire %GRAY%|| %YELLOW%Light %GRAY%|| %BLUE%Cold %GRAY%|| %GREEN%Poison %GRAY%|| %ORANGE%Magic %GRAY%|| %TAN%Phys%NL%%WHITE%Highest Monster Immunities:}%CONTINUE% // Zhar's Sanctum
 ItemDisplay[t52]: %NAME%{%RED%65% %GRAY%|| %YELLOW%60% %GRAY%|| %BLUE%65% %GRAY%|| %GREEN%75% %GRAY%|| %ORANGE%50% %GRAY%|| %TAN%50%%NL%%RED%Fire %GRAY%|| %YELLOW%Light %GRAY%|| %BLUE%Cold %GRAY%|| %GREEN%Poison %GRAY%|| %ORANGE%Magic %GRAY%|| %TAN%Phys%NL%%WHITE%Highest Monster Immunities:}%CONTINUE% // Stygian Caverns
-ItemDisplay[t53]: %NAME%{%RED%70% %GRAY%|| %YELLOW%75% %GRAY%|| %BLUE%65% %GRAY%|| %GREEN%80% %GRAY%|| %ORANGE%80% %GRAY%|| %TAN%60%%NL%%RED%Fire %GRAY%|| %YELLOW%Light %GRAY%|| %BLUE%Cold %GRAY%|| %GREEN%Poison %GRAY%|| %ORANGE%Magic %GRAY%|| %TAN%Phys%NL%%WHITE%Highest Monster Immunities:}%CONTINUE% // Stygian Caverns
+ItemDisplay[t53]: %NAME%{%RED%70% %GRAY%|| %YELLOW%75% %GRAY%|| %BLUE%65% %GRAY%|| %GREEN%80% %GRAY%|| %ORANGE%80% %GRAY%|| %TAN%60%%NL%%RED%Fire %GRAY%|| %YELLOW%Light %GRAY%|| %BLUE%Cold %GRAY%|| %GREEN%Poison %GRAY%|| %ORANGE%Magic %GRAY%|| %TAN%Phys%NL%%WHITE%Highest Monster Immunities:}%CONTINUE% // Fallen Gardens
 
 //Catalyzed Maps
 ItemDisplay[STAT500>0 MAPTIER>0]:%NAME%%CONTINUE%{%PURPLE%Catalyzed%NL%%NAME%}

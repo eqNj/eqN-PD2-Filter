@@ -12,9 +12,9 @@ If ever so inclined, you can support my efforts by donating on [PayPal](https://
 
 The version known as 'eqN-All-In-One' in the game launcher includes all other past versions of the filter, adjustable using the in-game settings for "filter level". 
 
-The version known as 'eqN-Potionless' is the same as 'eqN-All-In-One', however it hides Super/Large Health and Mana potions after character level 75 at all filter levels.
+The version known as 'eqN-Potionless' is the same as 'eqN-All-In-One', however it hides Super/Greater Health and Mana potions after character level 75 at all filter levels.
 
-The version known as 'eqN-Specialized-LLD' is the same as 'eqN-All-In-One', however it hides Super/Large Health and Mana potions after character level 75 at filter levels above 'Relaxed' and it shows details for LLD crafting on applicable base items on the 'ShowRecipes' filter level.
+The version known as 'eqN-Specialized-LLD' is the same as 'eqN-All-In-One', however it hides Super/Greater Health and Mana potions after character level 75 at filter levels above 'Relaxed' and it shows details for LLD crafting on applicable base items on the 'ShowRecipes' filter level.
 
 ##### <ins>Currently these filters are stylized in such a way as to require the use of the new in-game setting 'HD Text' (enabled by default) introduced with Season 7 of Project Diablo 2. This is to allow for more text colors.</ins>
 
