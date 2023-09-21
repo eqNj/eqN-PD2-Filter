@@ -5075,15 +5075,15 @@ ItemDisplay[(SOR OR WAND OR SCEPTER OR STAFF OR DRU OR MACE OR BAR OR NEC OR SIN
 // --- // --- NMAG ARMORS (Runeword Bases) --- \\ --- \\
 
 //Chests
-ItemDisplay[xtp NMAG !INF !RW !SOCK=1 ((CLVL<75 ((!ETH DEF>239) OR (ETH DEF>359))) OR ED=15)]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[xtp NMAG !INF !RW !SOCK=1 ((CLVL<75 ((!ETH DEF>239) OR (ETH DEF>359))) OR ED=15)]: %DOT-D6%%NAME%{%NAME%} // (Leveling)
 ItemDisplay[xtp !ETH NMAG !INF !RW !SOCK=1 (FILTLVL<2 OR (DEF>249 FILTLVL=2) OR (ED>7 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%}
 ItemDisplay[xtp ETH NMAG !INF !RW !SOCK=1 (FILTLVL<2 OR (DEF>374 FILTLVL=2) OR (ED>7 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%}
 ItemDisplay[CHEST ELT NMAG !INF !RW !SOCK=1 ED=15]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[CHEST ELT !ETH NMAG !INF !RW !SOCK=1 (FILTLVL<2 OR (DEF>439 FILTLVL=2) OR (ED>7 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%}
 ItemDisplay[CHEST ELT ETH NMAG !INF !RW !SOCK=1 (FILTLVL<2 OR (DEF>674 FILTLVL>1))]: %NAME%{%NAME%}
 ItemDisplay[CHEST ((EXC !(xui OR xea OR xla OR xtu)) OR aar OR ful OR gth) NMAG !INF !RW !SOCK=1 ED=15]: %DOT-D6%%TIER-2%%NAME%{%NAME%}
-ItemDisplay[aar NMAG !INF !RW !SOCK=1 ED>9 FILTLVL=1]: %NAME%{%NAME%}
-ItemDisplay[ltp !ETH NMAG !INF !RW !SOCK=1 DIFF<2]: %NAME%{%NAME%}
+ItemDisplay[aar NMAG !INF !RW !SOCK=1 ED=15 FILTLVL<3]: %NAME%{%NAME%}
+ItemDisplay[ltp !ETH NMAG !INF !RW !SOCK=1 DEF>99 DIFF<2 (CLVL<60 OR ED=15)]: %NAME%{%NAME%} // (Leveling)
 
 //Barbarian Helmets
 ItemDisplay[BAR (SK128>2 OR SK134>2 OR SK135>2 OR SK141>2 OR SK145>2 OR SK146>2 OR SK149>2 OR (SK128>1 (SK141>1 OR SK143>2 OR SK144>2 OR SK146>1 OR SK147>2 OR SK148>1 OR SK149>1 OR SK150>1 OR SK151>2 OR SK153>1 OR SK368>1)) OR (SK134>1 (SK141>1 OR SK143>2 OR SK144>2 OR SK146>1 OR SK148>1 OR SK149>1 OR SK150>1 OR SK151>2 OR SK153>1 OR SK368>1)) OR (SK135>1 (SK140>1 OR SK141>1 OR SK146>1 OR SK148>1 OR SK149>1 OR SK150>1 OR SK153>1 OR SK368>1))) (ETH OR ELT) NMAG !INF !RW (SOCK=0 OR SOCK=3)]: %DOT-D6%%NAME%{%NAME%} // Ethereal or Elite Melee Helmets
@@ -5101,15 +5101,16 @@ ItemDisplay[DRU ((SK221>1 (SK227>1 OR SK237>1 OR SK247>1) !(NORM ILVL<26)) OR (S
 
 //Helmets
 ItemDisplay[xsk ETH NMAG !INF !RW !(SOCK=1 OR SOCK=2) ED=15]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[xh9 !ETH NMAG !INF !RW !SOCK=1 ((CLVL<75 DEF>119) OR ED=15)]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[xh9 !ETH NMAG !INF !RW !SOCK=1 ((CLVL<75 DEF>119) OR ED=15)]: %DOT-D6%%NAME%{%NAME%} // (Leveling)
 ItemDisplay[(usk OR uh9 OR uhm OR urn) ETH !INF !RW SOCK=0 NMAG (FILTLVL<3 OR FILTLVL=5 OR (ED>3 (FILTLVL=3 OR FILTLVL=4)))]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[HELM ELT ETH !BAR !DRU !INF !RW SOCK=3 NMAG (FILTLVL<3 OR FILTLVL=5 OR (ED>3 (FILTLVL=3 OR FILTLVL=4)))]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(usk OR uh9 OR uhm OR urn) !INF !RW !SOCK=1 NMAG ED=15]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(usk OR uh9 OR uhm OR urn) !INF !RW !SOCK=1 NMAG (FILTLVL<3 OR FILTLVL=5 OR (ETH (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%}
-ItemDisplay[HELM ELT !INF !RW (SOCK=3 OR SOCK=2) NMAG (FILTLVL<3 OR FILTLVL=5 OR (SOCK=3 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%}
-ItemDisplay[(ghm OR xsk) !INF !RW !(SOCK=1 OR SOCK=2) NMAG ((FILTLVL<2 CLVL<90) OR ED=15)]: %NAME%{%NAME%}
+ItemDisplay[HELM ELT !BAR !DRU !INF !RW (SOCK=3 OR SOCK=2) NMAG (FILTLVL<3 OR FILTLVL=5 OR (SOCK=3 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%}
+ItemDisplay[(ghm OR xsk) !INF !RW !(SOCK=1 OR SOCK=2) NMAG ((FILTLVL<2 CLVL<90 ED>3) OR ED=15)]: %NAME%{%NAME%}
 
 //Paladin Shields
+ItemDisplay[DIN !ETH NMAG !INF !RW !SOCK=1 (RES>24 OR AR>99) PALADIN CLVL<75]: %DOT-D6%%NAME%{%NAME%} // (Leveling)
 ItemDisplay[DIN (pa5 OR pa6 OR pa7) !ETH NMAG !INF !RW !SOCK=1 !SOCK=3 (RES>24 OR AR>99)]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
 ItemDisplay[DIN (ELT OR paa) ETH NMAG !INF !RW (SOCK=0 OR SOCK=4) AR>80 (FILTLVL<3 OR FILTLVL=5 OR (AR>99 (FILTLVL=3 OR FILTLVL=4)))]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[DIN (ELT OR paa) ETH NMAG !INF !RW (SOCK=0 OR SOCK=4) RES>19 (FILTLVL<3 OR FILTLVL=5 OR (RES>24 (FILTLVL=3 OR FILTLVL=4)))]: %DOT-D6%%NAME%{%NAME%}
@@ -5121,7 +5122,7 @@ ItemDisplay[DIN (ELT OR paa) ETH NMAG !INF !RW !SOCK=1 (AR>80 OR RES>19) FILTLVL
 ItemDisplay[NEC (SK66>2 OR SK67>2 OR SK70>2 OR SK74>2 OR SK75>2 OR SK80>2 OR SK84>2 OR SK85>2 OR SK89>2 OR SK91>2 OR SK92>2 OR SK94>2 OR SK95>2 OR SK381>2) !ETH NMAG !INF !RW ((!SOCK=1 (EXC OR ELT)) OR (!SOCK<2 NORM))]: %DOT-D6%%NAME%{%NAME%}
 
 //Shields
-ItemDisplay[xsh NMAG !INF !RW !SOCK=1 ((CLVL<75 ((!ETH DEF>119) OR (ETH DEF>179))) OR ED=15)]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[xsh NMAG !INF !RW !SOCK=1 ((CLVL<75 ((!ETH DEF>119) OR (ETH DEF>179))) OR ED=15)]: %DOT-D6%%NAME%{%NAME%} // (Leveling)
 ItemDisplay[(uit OR uow OR uts) ETH NMAG !INF !RW (SOCK=0 OR SOCK=4) (FILTLVL<3 OR FILTLVL=5 OR (ED>3 (FILTLVL=3 OR FILTLVL=4)))]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(uit OR uow OR uts OR ush) NMAG !INF !RW !SOCK=1 !(SOCK=4 !ETH) ED=15]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(uit OR (xsh DEF>119) OR ush OR uow OR uts) NMAG !INF !RW !SOCK=1 (FILTLVL<3 OR FILTLVL=5 OR (((uit OR uow OR uts) ED>3) (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%}
@@ -5139,6 +5140,7 @@ ItemDisplay[WEAPON !THROWING !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !(TAB
 ItemDisplay[WEAPON !THROWING !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !(TABSK2<3 (amd OR ame)) ELT NMAG !INF !RW !SOCK=1 ED=15]: %DOT-D6%%NAME%{%NAME%} // All Useful Weapons With 15% Enhanced Damage
 
 //Bows/Crossbows
+ItemDisplay[BOW NMAG !INF !RW TABSK0>2 !SOCK=1 !(SOCK=2 CLVL>29) (!NORM CLVL>59) AMAZON CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Amazon Bows (Leveling)
 ItemDisplay[(6l7 OR 6lw OR 6hx) NMAG !INF !RW (SOCK=0 OR SOCK=6) ED>7]: %DOT-D6%%NAME%{%NAME%} // Superior Asylum Bows & Crossbow
 ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=0 OR SOCK=4 OR SOCK=5) (FILTLVL<3 OR FILTLVL=5 OR (ED>3 (FILTLVL=3 OR FILTLVL=4)))]: %DOT-D6%%NAME%{%NAME%} // 0 / 4 / 5 Socket Elite Amazon Bows
 ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=2 OR SOCK=3 OR SOCK=6) (FILTLVL<3 OR FILTLVL=5 OR (ED>3 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // 2 / 3 / 6 Socket Elite Amazon Bows
@@ -5150,7 +5152,7 @@ ItemDisplay[(6rx OR 6lx OR 6mx) NMAG !INF !RW (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOC
 ItemDisplay[7bl NMAG !INF !SOCK=1 (ETH OR ED>9)]: %DOT-D6%%NAME%{%NAME%} // Ethereal or Superior Legend Spike
 ItemDisplay[7kr NMAG !INF !SOCK=1 (ETH OR ED>9)]: %DOT-D6%%NAME%{%NAME%} // Ethereal or Superior Fanged Knife
 ItemDisplay[(7dg OR 7di) NMAG !INF !SOCK=1 (ETH OR ED>9)]: %NAME%{%NAME%} // Ethereal or Superior Bone Knife or Mithril Point
-ItemDisplay[DAGGER NMAG !INF SOCK=3 ASSASSIN CLVL<70]: %DOT-D6%%NAME%{%NAME%} // Leveling Daggers for Malice on Kick Assassin
+ItemDisplay[DAGGER NMAG !INF SOCK=3 ASSASSIN CLVL<70]: %DOT-D6%%NAME%{%NAME%} // Daggers for Malice on Kick Assassin (Leveling)
 
 //Axes
 ItemDisplay[(7wa OR 72a OR 7mp) ETH NMAG !INF !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%} // Ethereal One Handed Elite Axes
@@ -5173,6 +5175,8 @@ ItemDisplay[7wh NMAG !INF !RW !SOCK=1 (FILTLVL<3 OR FILTLVL=5 OR ((ED>3 OR ETH) 
 //Maces
 ItemDisplay[7fl NMAG !INF !RW !SOCK=1 (ETH OR ED>7)]: %DOT-D6%%NAME%{%NAME%} // Ethereal or Superior Scourge
 ItemDisplay[(7ma OR 7mt) NMAG !INF !RW !SOCK=1 (ETH OR ED>7)]: %NAME%{%NAME%} // Ethereal or Superior Reinforced Mace or Devil Star
+ItemDisplay[fla NMAG !INF !SUP !RW SOCK=0 CLVL<50 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // 0 Socket Flail (Leveling)
+ItemDisplay[fla NMAG !INF !RW (SOCK=4 OR SOCK=5) CLVL<60 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // 4 or 5 Socket Flail (Leveling)
 ItemDisplay[fla NMAG !INF !SUP !RW SOCK=0 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // 0 Socket Flail
 ItemDisplay[fla NMAG !INF !RW (SOCK=4 OR SOCK=5)]: %NAME%{%NAME%} // 4 or 5 Socket Flail
 
@@ -5190,7 +5194,8 @@ ItemDisplay[ELT SCEPTER (SK96>2 OR SK102>2 OR SK106>2 OR SK107>2 OR SK111>2 OR S
 ItemDisplay[(wsp OR 9ws OR 7ws) SK117>2 NMAG !INF !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%} // Call to Arms with Holy Shield Scepters
 ItemDisplay[(SCEPTER !scp) NMAG !INF !RW ((SK109>2 !SOCK=3 (wsp OR 9ws OR 7ws)) OR SK99>2) !SOCK=1 (FILTLVL>1 !SOCK=2) !(SOCK=5 !7ws)]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // +3 Cleansing/Prayer Mercenary Scepters
 ItemDisplay[(SCEPTER !scp) NMAG !INF !RW (SK101>2 OR SK112>2 OR SK121>2 OR SK364>2) !SOCK=1 (FILTLVL>1 !SOCK=2) !(SOCK=5 !7ws)]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // +3 Holy Spell Scepters
-ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !INF !RW SOCK=4]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // Insight Scepters
+ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !INF !RW SOCK=4 CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Insight Scepters (Leveling)
+ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !INF !RW SOCK=4]: %NAME%{%NAME%} // Insight Scepters
 ItemDisplay[(wsp OR 9ws OR 7ws) SK117>1 NMAG !INF !RW (SOCK=0 OR SOCK=5) (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // Low Tier Call to Arms with Holy Shield Scepters
 ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !INF !RW !SUP SOCK=0 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // 0 Socket Scepters
 ItemDisplay[7ws (SK102>1 OR SK106>1 OR SK111>1 OR SK114>1 OR SK118>1 OR SK122>1 OR SK123>1) NMAG !INF !RW !SOCK=1 !(SOCK=3 !ETH)]: %NAME%{%NAME%} // +2 Melee Caduceus
@@ -5202,18 +5207,19 @@ ItemDisplay[7cr NMAG !INF !RW (SOCK=4 OR SOCK=5) (FILTLVL<3 OR FILTLVL=5 OR (ED>
 ItemDisplay[7cr NMAG !INF !RW (SOCK=0 OR SOCK>1) (FILTLVL<3 OR FILTLVL=5 OR (ED>3 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // 0 or >2 Socket Phase Blade
 ItemDisplay[7gd NMAG !INF !RW (SOCK=0 OR SOCK=6) (FILTLVL<3 OR FILTLVL=5 OR (CLVL<80 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // Unbending Will Colossus Blade
 ItemDisplay[crs NMAG !INF !RW SOCK=5 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // Call to Arms Crystal Sword
+ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !RW SOCK=4 CLVL<60 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // Spirit Swords (Leveling)
 ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !RW SOCK=4 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // Spirit Swords
 ItemDisplay[crs NMAG !INF SOCK=0 (ILVL>25 ILVL<41) CLVL<80]: %NAME%{%NAME%} // 0 Socket Crystal Sword
 ItemDisplay[(bsd OR lsd) NMAG !INF SOCK=0 ILVL>25 CLVL<80]: %NAME%{%NAME%} // 0 Socket Broad and Long Sword 
 
 //Wands
 ItemDisplay[WAND !(wnd OR ywn OR 9wn) ((SK75>2 OR SK85>2 OR SK94>2) OR ((SK75>1 OR SK85>1 OR SK90>1 OR SK94>1) SK79>1)) !SOCK=1 NMAG !INF !RW]: %DOT-D6%%NAME%{%NAME%} // Dominion Wands
-ItemDisplay[WAND !(wnd OR ywn OR 9wn) NECROMANCER (SK67>2 OR SK68>2 OR SK84>2 OR SK94>2) !SOCK=1 NMAG !INF !RW]: %DOT-D6%%NAME%{%NAME%} // White Wands
-ItemDisplay[WAND !(wnd OR ywn OR 9wn) NECROMANCER ((SK67>1 OR SK68>1 OR SK94>1) SK84>1) !SOCK=1 NMAG !INF !RW CLVL<80]: %NAME%{%NAME%} // Low Tier White Wands
+ItemDisplay[WAND !(wnd OR ywn OR 9wn) NECROMANCER (SK67>2 OR SK68>2 OR SK84>2 OR SK94>2) !SOCK=1 NMAG !INF !RW]: %DOT-D6%%NAME%{%NAME%} // White Wands (Leveling)
+ItemDisplay[WAND !(wnd OR ywn OR 9wn) NECROMANCER ((SK67>1 OR SK68>1 OR SK94>1) SK84>1) !SOCK=1 NMAG !INF !RW CLVL<80]: %NAME%{%NAME%} // Low Tier White Wands (Leveling)
 
 //Orbs
-ItemDisplay[((oba OR ob5 OR obf) OR (SOR ((CLVL<60 !SORCERESS) OR (CLVL<80 SORCERESS)))) (((SK44>2 OR SK64>2 OR SK59>2 OR SK369>2) SK65>1) OR ((SK41>2 OR SK47>2 OR SK51>2 OR SK56>2 OR SK62>2 OR SK383>2) SK61>1) OR ((SK38>2 OR SK42>2 OR SK48>2 OR SK49>2 OR SK57>2) SK63>1)) NMAG !INF !RW !SOCK=1 !(SOCK=2 ((CLVL<60 !SORCERESS) OR (CLVL<80 SORCERESS)))]: %DOT-D6%%NAME%{%NAME%} // Mastery Orbs
-ItemDisplay[((oba OR ob5 OR obf) OR (SOR ((CLVL<60 !SORCERESS) OR (CLVL<80 SORCERESS)))) (((SK44>1 OR SK64>1 OR SK59>1 OR SK369>1) SK65>2) OR ((SK41>1 OR SK47>1 OR SK51>1 OR SK56>1 OR SK62>1 OR SK383>1) SK61>2) OR ((SK38>1 OR SK42>1 OR SK48>1 OR SK49>1 OR SK57>1) SK63>2)) NMAG !INF !RW !SOCK=1 !(SOCK=2 ((CLVL<60 !SORCERESS) OR (CLVL<80 SORCERESS)))]: %NAME%{%NAME%} // Low Tier Mastery Orbs
+ItemDisplay[((oba OR ob5 OR obf) OR (SOR ((CLVL<60 !SORCERESS) OR (CLVL<80 SORCERESS)))) (((SK44>2 OR SK64>2 OR SK59>2 OR SK369>2) SK65>1) OR ((SK41>2 OR SK47>2 OR SK51>2 OR SK56>2 OR SK62>2 OR SK383>2) SK61>1) OR ((SK38>2 OR SK42>2 OR SK48>2 OR SK49>2 OR SK57>2) SK63>1)) NMAG !INF !RW !SOCK=1 !(SOCK=2 ((CLVL<60 !SORCERESS) OR (CLVL<80 SORCERESS)))]: %DOT-D6%%NAME%{%NAME%} // Mastery Orbs (Leveling)
+ItemDisplay[((oba OR ob5 OR obf) OR (SOR ((CLVL<60 !SORCERESS) OR (CLVL<80 SORCERESS)))) (((SK44>1 OR SK64>1 OR SK59>1 OR SK369>1) SK65>2) OR ((SK41>1 OR SK47>1 OR SK51>1 OR SK56>1 OR SK62>1 OR SK383>1) SK61>2) OR ((SK38>1 OR SK42>1 OR SK48>1 OR SK49>1 OR SK57>1) SK63>2)) NMAG !INF !RW !SOCK=1 !(SOCK=2 ((CLVL<60 !SORCERESS) OR (CLVL<80 SORCERESS)))]: %NAME%{%NAME%} // Low Tier Mastery Orbs (Leveling)
 ItemDisplay[(oba OR ob5 OR obf) ((SK58>2 (SK50>2 OR SK57>2 OR SK60>2)) OR (SK50>2 (SK57>2 OR SK58>2 OR SK60>2)) OR (SK57>2 (SK50>2 OR SK58>2 OR SK60>2)) OR (SK60>2 (SK50>2 OR SK57>2 OR SK58>2))) NMAG !INF !RW !SOCK=1 !SOCK=2]: %NAME%{%NAME%} // Plague Prebuff Orbs
 
 //Staves
@@ -5232,6 +5238,7 @@ ItemDisplay[6ws (SK65>2 OR SK61>2 OR SK63>2) NMAG !INF !RW SOCK=5]: %NAME%{%NAME
 ItemDisplay[6ws (SK65>2 OR SK61>2) NMAG !INF !RW SOCK=6]: %NAME%{%NAME%} // 6 Socket Mastery Staves
 
 //Polearms/Spears/Amazon Spears
+ItemDisplay[ZON SPEAR TABSK2>2 NMAG !INF !RW !SOCK=1 (!NORM CLVL>59) AMAZON CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Amazon Spears (Leveling)
 ItemDisplay[((SPEAR !THROWING !ZON) OR POLEARM) ELT ETH NMAG !INF !RW !SOCK=1 (FILTLVL<3 OR FILTLVL=5 OR (!SOCK=2 (FILTLVL=3 OR FILTLVL=4)))]: %DOT-D6%%NAME%{%NAME%}  // Ethereal Elite Spears and Polearms
 ItemDisplay[7p7 NMAG !INF !RW !SOCK=1 ED>3]: %DOT-D6%%NAME%{%NAME%} // Superior War Pike
 ItemDisplay[(amd OR ame) TABSK2>2 NMAG !INF !RW !SOCK=1 (FILTLVL<3 OR FILTLVL=5 OR ((ED>3 OR ETH) (FILTLVL=3 OR FILTLVL=4)))]: %DOT-D6%%NAME%{%NAME%} // Amazon Spears
@@ -5500,22 +5507,20 @@ ItemDisplay[(SOR OR (am4 OR am9 OR ame OR am3 OR am8 OR amd) OR (am5 OR ama OR a
 ItemDisplay[(SOR OR WAND OR SIN OR SCEPTER OR (am4 OR am9 OR ame OR am3 OR am8 OR amd) OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) OR DRU OR BAR OR NEC OR DIN) RARE !ID]: %NAME%{%NAME%}
 
 //Specific Class Item Failsafe
-ItemDisplay[(ame OR amd) AMAZON TABSK2=2 ED>9 NMAG (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // High ED +2 ELT Spears
-ItemDisplay[(amb OR amc) AMAZON TABSK0=2 ED>9 NMAG (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // High ED +2 ELT Bows
-ItemDisplay[(am1 OR am2 OR am6 OR am7 OR amb OR amc) TABSK0>2 (SOCK=0 OR SOCK>3) AMAZON FILTLVL<3]: %NAME%{%NAME%} // +3 EXC/NORM Bows
-ItemDisplay[(am5 OR ama OR amf) AMAZON NMAG !INF CLVL<75]: %NAME%{%NAME%} // Amazon Javelins
+ItemDisplay[(ame OR amd) AMAZON TABSK2=2 ED>9 NMAG (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // High ED +2 ELT Spears (Leveling)
+ItemDisplay[(amb OR amc) AMAZON TABSK0=2 ED>9 NMAG (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // High ED +2 ELT Bows (Leveling)
+ItemDisplay[(am5 OR ama OR amf) AMAZON NMAG !INF CLVL<75]: %NAME%{%NAME%} // Amazon Javelins (Leveling)
 ItemDisplay[(am5 OR ama OR amf) NMAG !INF ETH ((AMAZON FILTLVL<3) OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%%DARK_GREEN%·{%WHITE%Once %YELLOW%Rare%WHITE%, this item is a valuable base for %ORANGE%Crafting%WHITE%.%NL%%RED%Corrupt %WHITE%or %DARK_GREEN%Imbue %WHITE%this item to make it %YELLOW%Rare%WHITE%.%NL%%NAME%} // Eth Javelins for Imbuing
 ItemDisplay[(glv OR 9gl OR 7gl) NMAG !INF ETH ((BARBARIAN FILTLVL<3) OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%%DARK_GREEN%·{%WHITE%Once %YELLOW%Rare%WHITE%, this item is a valuable base for %ORANGE%Crafting%WHITE%.%NL%%RED%Corrupt %WHITE%or %DARK_GREEN%Imbue %WHITE%this item to make it %YELLOW%Rare%WHITE%.%NL%%NAME%} // Eth Glaives for Imbuing
-ItemDisplay[SOR SORCERESS SOCK=3 NMAG (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // 3 Socket Sorceress Orbs
+ItemDisplay[SOR SORCERESS SOCK=3 NMAG !INF !RW (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // 3 Socket Sorceress Orbs
 
 //Specific Item Failsafe
-ItemDisplay[CHEST !ETH NMAG !INF SOCK=4 CLVL<90 (FILTLVL<2 OR (CLVL<80 FILTLVL>1))]: %NAME%{%NAME%} // 4 Socket Chests for early progression MF
-ItemDisplay[HELM !ETH NMAG !INF SOCK=3 CLVL<90 (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // 3 Socket Helms for early progression MF
-ItemDisplay[((POLEARM OR SPEAR) !(ZON OR THROWING)) NMAG ETH !INF (SOCK=0 OR SOCK=4) FILTLVL=1]: %NAME%{%NAME%} // Act 2 Merc Low Level Bases
-ItemDisplay[xsh !ETH NMAG !INF !SOCK=1 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // Grim Shield
-ItemDisplay[xtp NMAG !INF !SOCK=1 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // Mage Plate
-ItemDisplay[(9p9 OR 9wa) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=5 OR (SOCK=4 !9wa)) ED>9]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // Otherwise hidden, High ED Honor/Insight Bases for LLD
-ItemDisplay[(9p9 OR 9wa) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=5 OR (SOCK=4 !9wa)) CLVL>74 DIFF<2]: %NAME%{%NAME%} // Otherwise hidden, Honor/Insight Bases for LLD (Normal/Nightmare)
+ItemDisplay[CHEST !ETH NMAG !INF !RW SOCK=4 CLVL<90 (FILTLVL<2 OR (CLVL<80 FILTLVL>1))]: %NAME%{%NAME%} // 4 Socket Chests for early progression MF (Leveling)
+ItemDisplay[HELM !ETH NMAG !INF !RW SOCK=3 CLVL<90 (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // 3 Socket Helms for early progression MF (Leveling)
+ItemDisplay[((POLEARM OR SPEAR) !(ZON OR THROWING)) NMAG ETH !INF !RW SOCK=4 CLVL<60 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // Act 2 Merc Low Level Bases (Leveling)
+ItemDisplay[((POLEARM OR SPEAR) !(ZON OR THROWING)) NMAG ETH !INF !RW (SOCK=0 OR SOCK=4) FILTLVL=1]: %NAME%{%NAME%} // Act 2 Merc Low Level Bases
+ItemDisplay[(9p9 OR 9wa) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=5 OR (SOCK=4 !9wa)) ED>9]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // High ED Honor/Insight Bases for LLD
+ItemDisplay[(9p9 OR 9wa) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=5 OR (SOCK=4 !9wa)) CLVL>74 DIFF<2]: %NAME%{%NAME%} // Honor/Insight Bases (Leveling)
 
 //Rare Item Failsafe
 ItemDisplay[(CHEST OR HELM OR SHIELD OR STAFF) RARE !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%}
