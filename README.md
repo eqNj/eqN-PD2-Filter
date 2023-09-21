@@ -431,6 +431,8 @@ Updated the descriptions for existing map orbs, when necessary, and added descri
 
 Added all of the new runewords (and their runes, listed on the ShowRecipes filter level) introduced this season to applicable base items.
 
+Added all of the "highest immunity" information to the new unique map's description.
+
 Removed the red corruption indicator in the Warlord of Blood unique map as all items now drop corrupted in the map.
 
 Added a new description note for the filter version to keys when in the shop.
@@ -438,5 +440,9 @@ Added a new description note for the filter version to keys when in the shop.
 Added a new shop hunting highlight style that utilizes the fact that %NL% within identified item names is now usable.
 
 Did a pass on all the Unique and Set items that have accenting based on their rarity and/or value and further organized them within the code for ease of editing.
+
+ Did a pass on all runeword bases and added more notification lines specifically for good bases that drop while leveling generally and for class specific items.
+
+Added a note to mirrored jewels that labels if they would yield a white or black item coloration when socketed.
 
 Continued optimizations for use with the new HD text introduced last season.
