@@ -5194,24 +5194,28 @@ ItemDisplay[fla NMAG !INF !SUP !RW SOCK=0 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (F
 ItemDisplay[fla NMAG !INF !RW (SOCK=4 OR SOCK=5)]: %NAME%{%NAME%} // 4 or 5 Socket Flail
 
 //Scepters
+ItemDisplay[SCEPTER NMAG !INF !RW (SK101>2 OR SK112>2 OR SK121>2) SOCK=2 PALADIN CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Neophyte Scepters (Leveling)
+ItemDisplay[SCEPTER NMAG !ETH !INF !RW SK118>2 SOCK=4 PALADIN CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Holy Thunder Scepters (Leveling)
+ItemDisplay[SCEPTER (9ws OR ELT) NMAG !ETH !INF !RW (SK111>2 OR SK123>2) SOCK=3 PALADIN CLVL<80]: %DOT-D6%%NAME%{%NAME%} // Lawbringer Scepters (Leveling)
 ItemDisplay[9ws NMAG !INF !RW ((SOCK=4 (SK106>2 OR SK107>0 OR SK112>2 OR SK113>2 OR SK115>1 OR SK122>0 OR SK378>0 OR SK119>2)) OR (SOCK=5 (SK106>2 OR SK107>0 OR SK115>0 OR SK122>0 OR SK378>0)))]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // 4 or 5 Socket Zeal or Liberator Divine Scepters
 ItemDisplay[9ws NMAG !INF !RW SOCK=0 (SK106>2 OR SK107>0 OR SK112>2 OR SK113>2 OR SK115>1 OR SK122>0 OR SK378>0 OR SK119>2)]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // 0 Socket Zeal or Liberator Divine Scepters
 ItemDisplay[wsp NMAG !INF !RW SOCK=4 (SK112>2 OR (SK113>2 SK115>2)) FILTLVL>3]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // 4 Socket Hammer War Scepter
 ItemDisplay[wsp NMAG !INF !RW SOCK=0 (SK112>2 OR (SK113>2 SK115>2)) FILTLVL>3]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%GRAY%Must be 4 sockets to be LLD usable.%NL%%NAME%} // 0 Socket Hammer War Scepter
 ItemDisplay[wsp NMAG !INF !RW SOCK=0 (SK112>2 OR (SK113>2 SK115>2)) FILTLVL<4]: %NAME% {%GRAY%Must be 4 sockets to be LLD usable.%NL%%NAME%} // 0 Socket Hammer War Scepter
 ItemDisplay[(SCEPTER !scp) NMAG !INF !RW SK112>2 SK113>1 !SOCK=1 (FILTLVL>1 !SOCK=2) !(SOCK=5 !7ws)]: %DOT-D6%%NAME%{%NAME%} // +3 Hammer + Concentration Scepters
+ItemDisplay[(SCEPTER !scp) NMAG !INF !RW ((SK101>2 (SK121>2 OR SK119>2 OR SK125>2 OR SK364>2)) OR ((SK121>2 (SK101>2 OR SK125>2 OR SK364>2)))) !SOCK=1 (CLVL>79 !SOCK=2) !(SOCK=5 !7ws)]: %DOT-D6%%NAME%{%NAME%} // +3 Holy Spell Scepters
 ItemDisplay[7ws NMAG !INF !RW !SOCK=1 ((ETH !SOCK=2) OR ED>3)]: %DOT-D6%%NAME%{%NAME%} // Ethereal or Superior Caduceus
-ItemDisplay[7ws !ETH NMAG !INF !RW (SK105>2 OR SK111>2 OR SK125>2) (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%} // Doom Caduceus
+ItemDisplay[7ws !ETH NMAG !INF !RW (SK105>2 OR SK111>2 OR SK123>2 OR SK125>2) (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%} // Doom Caduceus
+ItemDisplay[7ws !ETH NMAG !INF !RW (SK100>2 OR SK123>2 OR SK125>2) (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%} // Hand of Justice Caduceus
 ItemDisplay[(wsp OR 9ws OR 7ws) !ETH NMAG !INF !RW (SK111>2 OR SK125>2) (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%} // Rift Scepters
 ItemDisplay[ELT SCEPTER (SK96>2 OR SK102>2 OR SK106>2 OR SK107>2 OR SK111>2 OR SK114>2 OR SK118>2 OR SK122>2 OR SK123>2 OR SK378>2) NMAG !INF !RW !SOCK=1 !(SOCK=3 !ETH)]: %DOT-D6%%NAME%{%NAME%} // +3 Melee Elite Scepters
 ItemDisplay[(wsp OR 9ws OR 7ws) SK117>2 NMAG !INF !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%} // Call to Arms with Holy Shield Scepters
-ItemDisplay[(SCEPTER !scp) NMAG !INF !RW ((SK109>2 !SOCK=3 (wsp OR 9ws OR 7ws)) OR SK99>2) !SOCK=1 (FILTLVL>1 !SOCK=2) !(SOCK=5 !7ws)]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // +3 Cleansing/Prayer Mercenary Scepters
-ItemDisplay[(SCEPTER !scp) NMAG !INF !RW (SK101>2 OR SK112>2 OR SK121>2 OR SK364>2) !SOCK=1 (FILTLVL>1 !SOCK=2) !(SOCK=5 !7ws)]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // +3 Holy Spell Scepters
+ItemDisplay[(SCEPTER !scp) NMAG !INF !RW ((SK109>2 !SOCK=3 (wsp OR 9ws OR 7ws)) OR SK99>2) !SOCK=1 (FILTLVL>1 !SOCK=2) !(SOCK=5 !7ws)]: %DOT-D6%%TIER-3%%NAME%{%NAME%} // +3 Cleansing/Prayer Mercenary Scepters
 ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !INF !RW SOCK=4 CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Insight Scepters (Leveling)
 ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !INF !RW SOCK=4]: %NAME%{%NAME%} // Insight Scepters
+ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !INF !RW !SUP SOCK=0 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // 0 Socket Insight Scepters
 ItemDisplay[(wsp OR 9ws OR 7ws) SK117>1 NMAG !INF !RW (SOCK=0 OR SOCK=5) (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // Low Tier Call to Arms with Holy Shield Scepters
-ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !INF !RW !SUP SOCK=0 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // 0 Socket Scepters
-ItemDisplay[7ws (SK102>1 OR SK106>1 OR SK111>1 OR SK114>1 OR SK118>1 OR SK122>1 OR SK123>1) NMAG !INF !RW !SOCK=1 !(SOCK=3 !ETH)]: %NAME%{%NAME%} // +2 Melee Caduceus
+ItemDisplay[7ws (SK102>1 OR SK106>1 OR SK107>2 OR SK111>1 OR SK114>1 OR SK118>1 OR SK122>1 OR SK123>1) NMAG !INF !RW !SOCK=1 !(SOCK=3 !ETH)]: %NAME%{%NAME%} // +2 Melee Caduceus
 
 //Swords
 ItemDisplay[ELT SWORD !7cr ETH NMAG !INF !RW !SOCK=1]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // Ethereal Elite Swords
@@ -5258,7 +5262,7 @@ ItemDisplay[(amd OR ame) TABSK2>2 NMAG !INF !RW !SOCK=1 (FILTLVL<3 OR FILTLVL=5 
 ItemDisplay[((((SPEAR !THROWING !ZON) OR POLEARM) ETH SOCK=2) OR ((amd OR ame) TABSK2>2)) ELT NMAG !INF !RW !SOCK=1 FILTLVL>2]: %NAME%{%NAME%} // Misc. FILTLVL>2
 
 //Claws
-ItemDisplay[SIN (SK273>2 OR SK253>2) NMAG !INF !RW (SOCK=0 OR SOCK=2) ASSASSIN CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Neophyte Claws (Leveling)
+ItemDisplay[SIN (SK273>2 OR SK253>2) NMAG !INF !RW SOCK=2 ASSASSIN CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Neophyte Claws (Leveling)
 ItemDisplay[7xf ETH NMAG !INF !RW (SOCK=0 OR SOCK=3)]: %DOT-D6%%NAME%{%NAME%} // Ethereal War Fist
 ItemDisplay[SIN ELT (SK275>0 OR SK252>0 OR SK258>0 OR SK263>0 OR SK267>0 OR SK277>0 OR SK278>0 OR SK254>2 OR SK257>2 OR SK266>2) ETH NMAG !INF !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%} // Blade Skill / Chaos / Fury Claws
 ItemDisplay[SIN ELT (SK252>2 OR SK254>2 OR SK257>2 OR SK266>2) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=2)]: %DOT-D6%%NAME%{%NAME%} // Wind Claws
