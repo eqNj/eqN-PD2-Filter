@@ -392,7 +392,7 @@ ItemDisplay[(cap OR dgr OR mbl OR mbt OR lsd OR lbl OR ghm OR hbt OR hgl OR tow 
 //---// Non-Magic Items //---//
 //
 //Armors (Lower Difficulties / Item Levels)
-ItemDisplay[(ltp or xtp) !INF !ETH NMAG !RW !SOCK=1 DIFF<2]: %NAME%{%NAME%}
+ItemDisplay[(ltp OR xtp) !INF !ETH NMAG !RW !SOCK=1 DIFF<2]: %NAME%{%NAME%}
 //Paladin Shields
 ItemDisplay[DIN (pa5 OR pa6 OR pa7) !ETH NMAG !INF !RW !SOCK=1 !SOCK=3 (RES>24 OR AR>99)]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
 //Scepters
@@ -400,7 +400,7 @@ ItemDisplay[9ws NMAG !INF !RW ((SOCK=4 (SK106>2 OR SK107>0 OR SK112>2 OR SK113>2
 ItemDisplay[9ws NMAG !INF !RW SOCK=0 (SK106>2 OR SK107>0 OR SK112>2 OR SK113>2 OR SK115>1 OR SK122>0 OR SK378>0 OR SK119>2)]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // 0 Socket Zeal or Liberator Divine Scepters
 ItemDisplay[wsp NMAG !INF !RW SOCK=4 (SK112>2 OR (SK113>2 SK115>2))]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // 4 Socket Hammer War Scepter
 ItemDisplay[wsp NMAG !INF !RW SOCK=0 (SK112>2 OR (SK113>2 SK115>2))]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%GRAY%Must be 4 sockets to be LLD usable.%NL%%NAME%} // 0 Socket Hammer War Scepter
-ItemDisplay[wsp NMAG !INF !RW SOCK=0 (SK112>2 OR (SK113>2 SK115>2))]: %NAME% {%GRAY%Must be 4 sockets to be LLD usable.%NL%%NAME%} // 0 Socket Hammer War Scepter//Axes
+//Axes
 ItemDisplay[9wa !ETH !INF NMAG !RW (SOCK=0 OR SOCK=5) ED>11]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
 ItemDisplay[9wa !ETH !INF NMAG !RW (SOCK=0 OR SOCK=5) CLVL>74 DIFF<2]: %NAME%{%NAME%}
 //Staves
