@@ -445,4 +445,8 @@ Did a pass on all the Unique and Set items that have accenting based on their ra
 
 Added a note to mirrored jewels that labels if they would yield a white or black item coloration when socketed.
 
+Thoroughly reviewed the LLD tagging on Magic, Rare, and Crafted items to minimize 'false positives'.
+
+Made an up-to-date copy of all of the LLD lines in my filter available separately in the 'Filter-Sub' branch.
+
 Continued optimizations for use with the new HD text introduced last season.
