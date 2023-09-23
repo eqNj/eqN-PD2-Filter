@@ -96,11 +96,11 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ## Levels 
 
-##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable. Also good for "Solo Self Found" / singleplayer, hardcore, and early ladder crafting. This filter level will show you if anything usable, even into the late game, would drop for any class. Period. The Relaxed filter level is for those used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them. This is the base filter level upon which the following two levels are designed.
+##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable. Also good for "Solo Self Found" / singleplayer, hardcore, and early ladder crafting. This filter level will show you if anything usable, even into the late game, would drop for any class. Period. High gold value items will be indicated at all levels. The Relaxed filter level is for those used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them. This is the base filter level upon which the following two levels are designed.
 
-##### Medium - Ideal for well geared characters and those who wish to only see more generally useful items. This filter level is also good for those who perfer magic class items that show mostly only be for their current character's class. This filter level still shows you all of the niche runeword bases and the best general crafting bases from the Relaxed level. Crafting bases shown become class specialized at character level 80. This filter level finds a happy 'medium' between the Relaxed and Strict filter levels. 
+##### Medium - Ideal for well geared characters and those who wish to only see more generally useful items. This filter level is also good for those who perfer magic class items that show mostly only be for their current character's class. This filter level still shows you all of the niche runeword bases and the best general crafting bases from the Relaxed level. Crafting bases shown become class specialized at character level 80. High gold value items stop being indicated at level 75. This filter level finds a happy 'medium' between the Relaxed and Strict filter levels. 
 
-##### Strict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons when they are likely to have a reasonably high value in trading. Even at this level, all unique and set items will still show. Crafting bases shown are only those which are highly sought after. This filter level is useful for those who regularly run high density maps and dungeons and are mostly only looking for items that are easy to trade. 
+##### Strict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons when they are likely to have a reasonably high value in trading. Even at this level, all unique and set items will still show. Crafting bases shown are only those which are highly sought after. High gold value items stop being indicated at level 75. This filter level is useful for those who regularly run high density maps and dungeons and are mostly only looking for items that are easy to trade. 
 
 ##### StrictLLD - This is essentially a copy of the Strict filter level, however it will continue to show & sometimes notify when a LLD crafting base drops. This level is designed for late ladder and/or targeted LLD item farming. LLD crafting bases are marked with purple dots.
 
@@ -113,6 +113,8 @@ Descriptions have been added to almost every quest item and/or utility item in t
 ### The 'Medium' filter level has the following changes (after character level 75):
 
 Gold piles less than 1600 are hidden.
+
+High gold value items stop being indicated at level 75.
 
 Flawless gems no longer notify. (Perfect gems still do.)
 
@@ -136,6 +138,8 @@ Magic rings and amulets are hidden, unless item level 86+ rings or item level 90
 ### The 'Strict' filter level has the following changes (after character level 75):
 
 Gold piles less than 3000 are hidden.
+
+High gold value items stop being indicated at level 75.
 
 Flawless gems no longer notify. (Perfect gems still do.)
 
