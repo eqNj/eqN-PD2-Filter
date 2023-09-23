@@ -112,7 +112,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ### The 'Medium' filter level has the following changes (after character level 75):
 
-Gold piles less than 1600 are hidden.
+Gold piles less than 1200 are hidden.
 
 High gold value items stop being indicated at level 75.
 
@@ -137,7 +137,7 @@ Magic rings and amulets are hidden, unless item level 86+ rings or item level 90
 
 ### The 'Strict' filter level has the following changes (after character level 75):
 
-Gold piles less than 3000 are hidden.
+Gold piles less than 2500 are hidden.
 
 High gold value items stop being indicated at level 75.
 
