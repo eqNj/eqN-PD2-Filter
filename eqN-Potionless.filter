@@ -654,7 +654,7 @@ ItemDisplay[(t31 OR t32 OR t25 OR t24 OR t35 OR t37 OR t38 OR t39 OR t3a)]: %NAM
 ItemDisplay[(t41 OR t42 OR t43)]: %NAME% %GRAY%[%RED%Dungeon%GRAY%]%CONTINUE%
 ItemDisplay[(t61 OR t62)]: %WHITE%%NAME% %GRAY%[%PURPLE%PvP%GRAY%]%CONTINUE%
 ItemDisplay[(t22 OR t12 OR t13 OR t23 OR t21 OR t33 OR t16 OR t15 OR t11 OR t14 OR t34 OR t36 OR t26 OR t31 OR t32 OR t25 OR t24 OR t35 OR t37 OR t38 OR t39 OR t3a OR t41 OR t42 OR t43) (!ID OR NMAG)]: %MAP-73%%DOT-57%%NAME%%CONTINUE%
-ItemDisplay[(t51 OR t52) !ID]: %MAP-73%%DOT-57%%ORANGE%|%WHITE%:%YELLOW%|      %GOLD%%NAME%      %YELLOW%|%WHITE%:%ORANGE%|%GOLD%{%NAME%}
+ItemDisplay[(t51 OR t52 OR t53) !ID]: %MAP-73%%DOT-57%%ORANGE%|%WHITE%:%YELLOW%|      %GOLD%%NAME%      %YELLOW%|%WHITE%:%ORANGE%|%GOLD%{%NAME%}
 
 //Notes
 ItemDisplay[MAPTIER>0 MAG]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
@@ -5193,7 +5193,7 @@ ItemDisplay[fla NMAG !INF !RW (SOCK=4 OR SOCK=5) CLVL<60 DIFF<2]: %DOT-D6%%NAME%
 ItemDisplay[fla NMAG !INF !SUP !RW SOCK=0 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // 0 Socket Flail
 ItemDisplay[fla NMAG !INF !RW (SOCK=4 OR SOCK=5)]: %NAME%{%NAME%} // 4 or 5 Socket Flail
 
-///Scepters
+//Scepters
 ItemDisplay[SCEPTER NMAG !INF !RW (SK101>2 OR SK112>2 OR SK121>2) SOCK=2 PALADIN CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Neophyte Scepters (Leveling)
 ItemDisplay[SCEPTER NMAG !ETH !INF !RW SK118>2 SOCK=4 PALADIN CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Holy Thunder Scepters (Leveling)
 ItemDisplay[SCEPTER (9ws OR ELT) NMAG !ETH !INF !RW (SK111>2 OR SK123>2) SOCK=3 PALADIN CLVL<80]: %DOT-D6%%NAME%{%NAME%} // Lawbringer Scepters (Leveling)
