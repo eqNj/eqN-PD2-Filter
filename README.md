@@ -417,7 +417,7 @@ Added a note about adding difficulty tier to a Vision of Terror or a Voidstone w
 
 ## 1.7.0 - (Season 8)
 
-Added an indicator [$] to the beginning of NMAG item names if they sell for a decent amount of gold. The exact price will show in their descriptions. Values indicated: 10k+ until level 30. 20k+ until level 60. 30k+ until level 75 or permanently on the 'Relaxed' filter level. This is an experimental feature so please feel free to give feedback on it and report any issues.
+Added an indicator [$] to the beginning of NMAG class item names if they sell for a decent amount of gold. The exact price will show in their descriptions and in the description of magic and rare items of similar value(s). Values indicated: 10k+ until level 30. 20k+ until level 60. 30k+ until level 75 or permanently on the 'Relaxed' filter level. This is an experimental feature so please feel free to give feedback on it and report any issues.
 
 Added new leveling notifications (before level 75) for high defense Mage Plates, Grim Shields, and Grim Helmets as well as notifications on these (and all Elite) perfect Superior (15% ED) chest, shield, and helmet runeword bases at all levels. Elite weapons that were perfect Superior (15% ED) were already notifying, and as always all moderately useful runeword bases, Superior or having good Staffmods, were already showing and sometimes notifying.
 
