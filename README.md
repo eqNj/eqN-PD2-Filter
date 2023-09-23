@@ -417,11 +417,25 @@ Added a note about adding difficulty tier to a Vision of Terror or a Voidstone w
 
 ## 1.7.0 - (Season 8)
 
+Added an indicator [$] to the beginning of NMAG item names if they sell for a decent amount of gold. The exact price will show in their descriptions. Values indicated: 10k+ until level 30. 20k+ until level 60. 30k+ until level 75 or permanently on the 'Relaxed' filter level. This is an experimental feature so please feel free to give feedback on it and report any issues.
+
+Added new leveling notifications (before level 75) for high defense Mage Plates, Grim Shields, and Grim Helmets as well as notifications on these (and all Elite) perfect Superior (15% ED) chest, shield, and helmet runeword bases at all levels. Elite weapons that were perfect Superior (15% ED) were already notifying, and as always all moderately useful runeword bases, Superior or having good Staffmods, were already showing and sometimes notifying.
+
 Added the two new uniques for Season 8 with accented notifications, as with all new uniques each season.
 
 Added the newly introduced throwing potions of all elements, useful during leveling, to the filter with a discreet aesthetic to help minimalize visual clutter.
 
-Added new leveling notifications (before level 75) for high defense Mage Plates, Grim Shields, and Grim Helmets as well as notifications on these (and all Elite) perfect Superior (15% ED) chest, shield, and helmet runeword bases at all levels. Elite weapons that were perfect Superior (15% ED) were already notifying, and as always all moderately useful runeword bases, Superior or having good Staffmods, were already showing and sometimes notifying.
+Added all of the new runewords (and their runes, listed on the ShowRecipes filter level) introduced this season to applicable base items.
+
+Added all of the "highest immunity" information to the new unique map's description.
+
+Added a new description note for the filter version to keys when in the shop.
+
+Added a new shop hunting highlight style that utilizes the fact that %NL% within identified item names is now usable.
+
+Added a note to mirrored jewels that labels if they would yield a white or black item coloration when socketed.
+
+Removed the red corruption indicator in the Warlord of Blood unique map as all items now drop corrupted in the map.
 
 Updated all relevant Staffmod information and applications for the new Paladin skill Holy Sword.
 
@@ -429,21 +443,9 @@ Updated the uber fight difficulty scaling instructions on relevant items for the
 
 Updated the descriptions for existing map orbs, when necessary, and added descriptions for the new Infused map orbs.
 
-Added all of the new runewords (and their runes, listed on the ShowRecipes filter level) introduced this season to applicable base items.
-
-Added all of the "highest immunity" information to the new unique map's description.
-
-Removed the red corruption indicator in the Warlord of Blood unique map as all items now drop corrupted in the map.
-
-Added a new description note for the filter version to keys when in the shop.
-
-Added a new shop hunting highlight style that utilizes the fact that %NL% within identified item names is now usable.
-
 Did a pass on all the Unique and Set items that have accenting based on their rarity and/or value and further organized them within the code for ease of editing.
 
- Did a pass on all runeword bases and added more notification lines specifically for good bases that drop while leveling generally and for class specific items.
-
-Added a note to mirrored jewels that labels if they would yield a white or black item coloration when socketed.
+Did a pass on all runeword bases and added more notification lines specifically for good bases that drop while leveling generally and for class specific items.
 
 Thoroughly reviewed the LLD tagging on Magic, Rare, and Crafted items to minimize 'false positives'.
 
