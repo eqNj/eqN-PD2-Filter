@@ -261,47 +261,7 @@ ItemDisplay[cm1 !UNI (LIFE>9 OR FRW>0 OR FHR>0) MAXDMG>1 LVLREQ<31]: %NAME%{%TAN
 ItemDisplay[cm1 !UNI LIFE>9 (MANA>4 OR STAT214>4 OR FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
 ItemDisplay[cm1 !UNI (DEX>1 OR STR>1) (MANA>6 OR STAT214>7 OR FRES>6 OR CRES>6 OR LRES>6 OR PRES>6) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
 ItemDisplay[cm1 !UNI (FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) STR>0 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
-
-//ItemDisplay[cm1 !UNI ((MAXDMG>1 LIFE>0) OR (MAXDMG>0 LIFE>9))]: %TAN%Max Dmg %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI ((MAXDMG>1 MFIND>0) OR (MAXDMG>0 MFIND>4))]: %TAN%Max Dmg %WHITE%/ %GREEN%MF %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (MAXDMG>1 DEX>0)]: %TAN%Max Dmg %WHITE%/ %GREEN%DEX %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (MAXDMG>1 STR>0)]: %TAN%Max Dmg %WHITE%/ %DARK_GREEN%STR %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (MAXDMG>1 FRW>0)]: %TAN%Max Dmg %WHITE%/ %ORANGE%FRW %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (MAXDMG>1 FHR>0)]: %TAN%Max Dmg %WHITE%/ %ORANGE%FHR %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI MAXDMG>1]: %TAN%Max Dmg %BLUE%Small Charm{%NAME%}
-
-//ItemDisplay[cm1 !UNI (RES>0 LIFE>0)]: %PURPLE%All Res %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (RES>0 FRW>0)]: %PURPLE%All Res %WHITE%/ %ORANGE%FRW %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (RES>0 FHR>0)]: %PURPLE%All Res %WHITE%/ %ORANGE%FHR %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (RES>0 MFIND>0)]: %PURPLE%All Res %WHITE%/ %GREEN%MF %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI RES>0]: %PURPLE%All Res %BLUE%Small Charm{%NAME%}
-
-//ItemDisplay[cm1 !UNI (FRES>4 LIFE>7)]: %RED%Fire Res %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (LRES>4 LIFE>7)]: %YELLOW%Light Res %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (CRES>4 LIFE>7)]: %BLUE%Cold Res %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (PRES>4 LIFE>7)]: %GREEN%Psn Res %WHITE%/ %RED%Life %BLUE%Small Charm{%NAME%}
-
-//ItemDisplay[cm1 !UNI (FRES>0 FRW>0)]: %RED%Fire Res %WHITE%/ %ORANGE%FRW %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (LRES>0 FRW>0)]: %YELLOW%Light Res %WHITE%/ %ORANGE%FRW %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (CRES>0 FRW>0)]: %BLUE%Cold Res %WHITE%/ %ORANGE%FRW %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (PRES>0 FRW>0)]: %GREEN%Psn Res %WHITE%/ %ORANGE%FRW %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (FRES>0 FHR>0)]: %RED%Fire Res %WHITE%/ %ORANGE%FHR %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (LRES>0 FHR>0)]: %YELLOW%Light Res %WHITE%/ %ORANGE%FHR %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (CRES>0 FHR>0)]: %BLUE%Cold Res %WHITE%/ %ORANGE%FHR %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (PRES>0 FHR>0)]: %GREEN%Psn Res %WHITE%/ %ORANGE%FHR %BLUE%Small Charm{%NAME%}
-
-//ItemDisplay[cm1 !UNI (FRES>0 MFIND>0)]: %RED%Fire Res %WHITE%/ %GREEN%MF %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (LRES>0 MFIND>0)]: %YELLOW%Light Res %WHITE%/ %GREEN%MF %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (CRES>0 MFIND>0)]: %BLUE%Cold Res %WHITE%/ %GREEN%MF %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI (PRES>0 MFIND>0)]: %GREEN%Psn Res %WHITE%/ %GREEN%MF %BLUE%Small Charm{%NAME%}
-
-ItemDisplay[cm1 !UNI (LIFE>13 OR MAXDMG>1) LIFE>9 LVLREQ<31]: %PURPLE%LLD%NL%%BLUE%%NAME%{%NAME%}
-//ItemDisplay[cm1 !UNI FRES>0]: %RED%Fire Res %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI LRES>0]: %YELLOW%Light Res %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI CRES>0]: %BLUE%Cold Res %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI PRES>0]: %GREEN%Psn Res %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI MFIND>0]: %GREEN%MF %BLUE%Small Charm{%NAME%}
-//ItemDisplay[cm1 !UNI LIFE>14]: %RED%Life %BLUE%Small Charm{%NAME%}
+ItemDisplay[cm1 !UNI ((MANA>9 OR RES>0 OR STAT214>14 OR MAXDMG>1 OR CRES>6 OR FRES>6 OR LRES>6 OR PRES>6) (LIFE>9 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0) OR LIFE>14) LVLREQ<31 FILTLVL=4]: %PURPLE%LLD%NL%%BLUE%%NAME%{%NAME%}
 
 //Large Charms
 ItemDisplay[cm2 !UNI ALVL<41 ALVL>37]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%%TAN%Low Level Dueling Reroll Charm}%CONTINUE%
@@ -311,161 +271,15 @@ ItemDisplay[cm2 !UNI ((STAT329>1 OR STAT330>1 OR STAT331>1 OR STAT332>1 OR STAT3
 ItemDisplay[cm2 !UNI ((AR>29 OR MAXDMG>1 OR MANA>13 OR RES>4) (LIFE>9 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
 ItemDisplay[cm2 !UNI LIFE=15 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 ItemDisplay[cm2 !UNI LIFE>11 (CRES>3 OR FRES>3 OR LRES>3 OR PRES>3 OR AR>9 OR MANA>0 OR STAT11>0) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
-
-//ItemDisplay[cm2 !UNI (STAT329>0 LIFE>0)]: %RED%Fire Dmg %WHITE%/ %RED%Life %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT329>0 DEX>0)]: %RED%Fire Dmg %WHITE%/ %GREEN%DEX %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT329>0 STR>0)]: %RED%Fire Dmg %WHITE%/ %DARK_GREEN%STR %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT329>0 FRW>0)]: %RED%Fire Dmg %WHITE%/ %ORANGE%FRW %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT329>0 FHR>0)]: %RED%Fire Dmg %WHITE%/ %ORANGE%FHR %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI STAT329>0]: %RED%Fire Dmg %BLUE%Large Charm{%NAME%}
-
-//ItemDisplay[cm2 !UNI (STAT330>0 LIFE>0)]:%YELLOW%Light Dmg %WHITE%/ %RED%Life %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT330>0 DEX>0)]: %YELLOW%Light Dmg %WHITE%/ %GREEN%DEX %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT330>0 STR>0)]: %YELLOW%Light Dmg %WHITE%/ %DARK_GREEN%STR %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT330>0 FRW>0)]: %YELLOW%Light Dmg %WHITE%/ %ORANGE%FRW %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT330>0 FHR>0)]: %YELLOW%Light Dmg %WHITE%/ %ORANGE%FHR %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI STAT330>0]: %YELLOW%Light Dmg %BLUE%Large Charm{%NAME%}
-
-//ItemDisplay[cm2 !UNI (STAT331>0 LIFE>0)]: %BLUE%Cold Dmg %WHITE%/ %RED%Life %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT331>0 DEX>0)]: %BLUE%Cold Dmg %WHITE%/ %GREEN%DEX %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT331>0 STR>0)]: %BLUE%Cold Dmg %WHITE%/ %DARK_GREEN%STR %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT331>0 FRW>0)]: %BLUE%Cold Dmg %WHITE%/ %ORANGE%FRW %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT331>0 FHR>0)]: %BLUE%Cold Dmg %WHITE%/ %ORANGE%FHR %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI STAT331>0]: %BLUE%Cold Dmg %BLUE%Large Charm{%NAME%}
-
-//ItemDisplay[cm2 !UNI (STAT332>0 LIFE>0)]:%GREEN%Psn Dmg %WHITE%/ %RED%Life %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT332>0 DEX>0)]: %GREEN%Psn Dmg %WHITE%/ %GREEN%DEX %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT332>0 STR>0)]: %GREEN%Psn Dmg %WHITE%/ %DARK_GREEN%STR %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT332>0 FRW>0)]: %GREEN%Psn Dmg %WHITE%/ %ORANGE%FRW %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT332>0 FHR>0)]: %GREEN%Psn Dmg %WHITE%/ %ORANGE%FHR %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI STAT332>0]: %GREEN%Psn Dmg %BLUE%Large Charm{%NAME%}
-
-//ItemDisplay[cm2 !UNI (STAT357>0 LIFE>0)]:%GRAY%Magic Dmg %WHITE%/ %RED%Life %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT357>0 DEX>0)]: %GRAY%Magic Dmg %WHITE%/ %GREEN%DEX %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT357>0 STR>0)]: %GRAY%Magic Dmg %WHITE%/ %DARK_GREEN%STR %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT357>0 FRW>0)]: %GRAY%Magic Dmg %WHITE%/ %ORANGE%FRW %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (STAT357>0 FHR>0)]: %GRAY%Magic Dmg %WHITE%/ %ORANGE%FHR %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI STAT357>0]: %GRAY%Magic Dmg %BLUE%Large Charm{%NAME%}
-
-//ItemDisplay[cm2 !UNI (MAXDMG>2 LIFE>0)]: %TAN%Max Dmg %WHITE%/ %RED%Life %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (MAXDMG>2 DEX>0)]: %TAN%Max Dmg %WHITE%/ %GREEN%DEX %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (MAXDMG>2 STR>0)]: %TAN%Max Dmg %WHITE%/ %DARK_GREEN%STR %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (MAXDMG>2 FRW>0)]: %TAN%Max Dmg %WHITE%/ %ORANGE%FRW %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (MAXDMG>2 FHR>0)]: %TAN%Max Dmg %WHITE%/ %ORANGE%FHR %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI MAXDMG>3]: %TAN%Max Dmg %BLUE%Large Charm{%NAME%}
-
-//ItemDisplay[cm2 !UNI (RES>0 FRW>0)]: %PURPLE%All Res %WHITE%/ %ORANGE%FRW %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (RES>0 FHR>0)]: %PURPLE%All Res %WHITE%/ %ORANGE%FHR %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI (RES>0 LIFE>0)]: %PURPLE%All Res %WHITE%/ %RED%Life %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI RES>0]: %PURPLE%All Res %BLUE%Large Charm{%NAME%}
-//ItemDisplay[cm2 !UNI ((LIFE>13 LIFE<16) OR LIFE>29)]: %RED%Life %BLUE%Large Charm{%NAME%}
+ItemDisplay[cm2 !UNI ((MANA>19 OR RES>5 OR STAT214>29 OR MAXDMG>3) (LIFE>15 OR DEX>4 OR STR>4 OR FRW>0 OR FHR>0)) LVLREQ<31]: %PURPLE%LLD%NL%%BLUE%%NAME%{%NAME%}
+ItemDisplay[cm2 !UNI ((STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2) (LIFE>9 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %PURPLE%LLD%NL%%BLUE%%NAME%{%NAME%}
 
 //Grand Charms
 ItemDisplay[cm3 !UNI ((MANA>30 OR RES>9 OR STAT214>43 OR MAXDMG>6 OR AR>79) (LIFE>17 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm3 !UNI ((RES>7 OR MAXDMG>3 OR AR>49) (LIFE>9 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
 ItemDisplay[cm3 !UNI ((STAT214>19 OR MANA>20) (LIFE>11 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
 ItemDisplay[cm3 !UNI ((FHR>0 OR LIFE>12) (AR>29 OR STAT214>9 OR MANA>13 OR CRES>11 OR FRES>11 OR LRES>11 OR PRES>11 OR RES>4)) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
-
-//ItemDisplay[cm3 !UNI (MAXDMG>5 LIFE>0)]: %TAN%Max Dmg %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 !UNI (MAXDMG>5 FRW>0)]: %TAN%Max Dmg %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 !UNI (MAXDMG>5 FHR>0)]: %TAN%Max Dmg %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 !UNI (MAXDMG>5 DEX>0)]: %TAN%Max Dmg %WHITE%/ %GREEN%DEX %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 !UNI (MAXDMG>5 STR>0)]: %TAN%Max Dmg %WHITE%/ %DARK_GREEN%STR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 !UNI MAXDMG>7]: %TAN%Max Dmg %BLUE%Grand Charm{%NAME%}
-
-//ItemDisplay[cm3 !UNI (RES>0 LIFE>0)]: %PURPLE%All Res %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 !UNI (RES>0 FRW>0)]: %PURPLE%All Res %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 !UNI (RES>0 FHR>0)]: %PURPLE%All Res %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 !UNI RES>0]: %PURPLE%All Res %BLUE%Grand Charm{%NAME%}
-
-////Skillers
-//ItemDisplay[cm3 (TABSK0>0 FHR>0)]: %PURPLE%Fletcher's %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK2>0 FHR>0)]: %PURPLE%Harpoonist's %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK1>0 FHR>0)]: %PURPLE%Acrobat's %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK8>0 FHR>0)]: %PURPLE%Burning %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK9>0 FHR>0)]: %PURPLE%Sparking %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK10>0 FHR>0)]: %PURPLE%Chilling %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK16>0 FHR>0)]: %PURPLE%Hexing %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK17>0 FHR>0)]: %PURPLE%Fungal %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK18>0 FHR>0)]: %PURPLE%Graverobber's %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK24>0 FHR>0)]: %PURPLE%Lion Branded %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK25>0 FHR>0)]: %PURPLE%Captain's %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK26>0 FHR>0)]: %PURPLE%Preserver's %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK32>0 FHR>0)]: %PURPLE%Fanatic %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK33>0 FHR>0)]: %PURPLE%Expert's %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK34>0 FHR>0)]: %PURPLE%Sounding %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK40>0 FHR>0)]: %PURPLE%Trainer's %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK41>0 FHR>0)]: %PURPLE%Spiritual %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK42>0 FHR>0)]: %PURPLE%Nature's %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK48>0 FHR>0)]: %PURPLE%Entrapping %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK49>0 FHR>0)]: %PURPLE%Mentalist's %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK50>0 FHR>0)]: %PURPLE%Shogukusha's %WHITE%/ %ORANGE%FHR %BLUE%Grand Charm{%NAME%}
-
-//ItemDisplay[cm3 (TABSK0>0 FRW>0)]: %PURPLE%Fletcher's %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK2>0 FRW>0)]: %PURPLE%Harpoonist's %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK1>0 FRW>0)]: %PURPLE%Acrobat's %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK8>0 FRW>0)]: %PURPLE%Burning %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK9>0 FRW>0)]: %PURPLE%Sparking %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK10>0 FRW>0)]: %PURPLE%Chilling %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK16>0 FRW>0)]: %PURPLE%Hexing %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK17>0 FRW>0)]: %PURPLE%Fungal %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK18>0 FRW>0)]: %PURPLE%Graverobber's %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK24>0 FRW>0)]: %PURPLE%Lion Branded %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK25>0 FRW>0)]: %PURPLE%Captain's %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK26>0 FRW>0)]: %PURPLE%Preserver's %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK32>0 FRW>0)]: %PURPLE%Fanatic %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK33>0 FRW>0)]: %PURPLE%Expert's %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK34>0 FRW>0)]: %PURPLE%Sounding %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK40>0 FRW>0)]: %PURPLE%Trainer's %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK41>0 FRW>0)]: %PURPLE%Spiritual %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK42>0 FRW>0)]: %PURPLE%Nature's %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK48>0 FRW>0)]: %PURPLE%Entrapping %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK49>0 FRW>0)]: %PURPLE%Mentalist's %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK50>0 FRW>0)]: %PURPLE%Shogukusha's %WHITE%/ %ORANGE%FRW %BLUE%Grand Charm{%NAME%}
-
-//ItemDisplay[cm3 (TABSK0>0 LIFE>0)]: %PURPLE%Fletcher's %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK2>0 LIFE>0)]: %PURPLE%Harpoonist's %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK1>0 LIFE>0)]: %PURPLE%Acrobat's %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK8>0 LIFE>0)]: %PURPLE%Burning %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK9>0 LIFE>0)]: %PURPLE%Sparking %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK10>0 LIFE>0)]: %PURPLE%Chilling %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK16>0 LIFE>0)]: %PURPLE%Hexing %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK17>0 LIFE>0)]: %PURPLE%Fungal %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK18>0 LIFE>0)]: %PURPLE%Graverobber's %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK24>0 LIFE>0)]: %PURPLE%Lion Branded %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK25>0 LIFE>0)]: %PURPLE%Captain's %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK26>0 LIFE>0)]: %PURPLE%Preserver's %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK32>0 LIFE>0)]: %PURPLE%Fanatic %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK33>0 LIFE>0)]: %PURPLE%Expert's %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK34>0 LIFE>0)]: %PURPLE%Sounding %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK40>0 LIFE>0)]: %PURPLE%Trainer's %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK41>0 LIFE>0)]: %PURPLE%Spiritual %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK42>0 LIFE>0)]: %PURPLE%Nature's %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK48>0 LIFE>0)]: %PURPLE%Entrapping %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK49>0 LIFE>0)]: %PURPLE%Mentalist's %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 (TABSK50>0 LIFE>0)]: %PURPLE%Shogukusha's %WHITE%/ %RED%Life %BLUE%Grand Charm{%NAME%}
-
-//ItemDisplay[cm3 TABSK0>0]: %PURPLE%Fletcher's %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK2>0]: %PURPLE%Harpoonist's %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK1>0]: %PURPLE%Acrobat's %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK8>0]: %PURPLE%Burning %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK9>0]: %PURPLE%Sparking %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK10>0]: %PURPLE%Chilling %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK16>0]: %PURPLE%Hexing %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK17>0]: %PURPLE%Fungal %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK18>0]: %PURPLE%Graverobber's %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK24>0]: %PURPLE%Lion Branded %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK25>0]: %PURPLE%Captain's %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK26>0]: %PURPLE%Preserver's %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK32>0]: %PURPLE%Fanatic %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK33>0]: %PURPLE%Expert's %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK34>0]: %PURPLE%Sounding %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK40>0]: %PURPLE%Trainer's %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK41>0]: %PURPLE%Spiritual %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK42>0]: %PURPLE%Nature's %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK48>0]: %PURPLE%Entrapping %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK49>0]: %PURPLE%Mentalist's %BLUE%Grand Charm{%NAME%}
-//ItemDisplay[cm3 TABSK50>0]: %PURPLE%Shogukusha's %BLUE%Grand Charm{%NAME%}
+ItemDisplay[cm3 !UNI ((MANA>30 OR RES>9 OR STAT214>43 OR MAXDMG>7 OR AR>79) (LIFE>17 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<31]: %PURPLE%LLD%NL%%BLUE%%NAME%{%NAME%}
 
 //Note on High ILVL Grand Charms
 ItemDisplay[cm3 MAG ID ILVL>90 !FILTLVL=5]: %NAME%{%TAN%ILVL 91+ Grand Charm}
@@ -475,13 +289,13 @@ ItemDisplay[cm3 MAG ID ILVL>90 FILTLVL=5]: %NAME%{%GOLD%Cube %WHITE%with 3x Perf
 
 //Gems
 ItemDisplay[(gzv OR glw OR glg OR glr OR glb OR gly OR skl) CLVL<75]: %DOT-66%%NAME%%CONTINUE%
-ItemDisplay[gzv]: %PX-66%%TIER-1%%NAME% %ORANGE%(%PURPLE%õ%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[glw]: %PX-66%%TIER-1%%NAME% %ORANGE%(%WHITE%õ%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[glg]: %PX-66%%TIER-1%%NAME% %ORANGE%(%GREEN%õ%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[glr]: %PX-66%%TIER-1%%NAME% %ORANGE%(%RED%õ%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[glb]: %PX-66%%TIER-1%%NAME% %ORANGE%(%BLUE%õ%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[gly]: %PX-66%%TIER-1%%NAME% %ORANGE%(%YELLOW%õ%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[skl]: %PX-66%%TIER-1%%NAME% %ORANGE%(%GRAY%õ%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[gzv]: %PX-66%%TIER-1%%NAME% %ORANGE%(%PURPLE%ö%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[glw]: %PX-66%%TIER-1%%NAME% %ORANGE%(%WHITE%ö%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[glg]: %PX-66%%TIER-1%%NAME% %ORANGE%(%GREEN%ö%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[glr]: %PX-66%%TIER-1%%NAME% %ORANGE%(%RED%ö%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[glb]: %PX-66%%TIER-1%%NAME% %ORANGE%(%BLUE%ö%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[gly]: %PX-66%%TIER-1%%NAME% %ORANGE%(%YELLOW%ö%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[skl]: %PX-66%%TIER-1%%NAME% %ORANGE%(%GRAY%ö%ORANGE%)%WHITE%%CONTINUE%
 
 ItemDisplay[gpv]: %DOT-66%%NAME% %ORANGE%(%PURPLE%@%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[gpw]: %DOT-66%%NAME% %ORANGE%(%WHITE%@%ORANGE%)%WHITE%%CONTINUE%
@@ -496,57 +310,57 @@ ItemDisplay[gzv OR glw OR glg OR glr OR glb OR gly OR skl OR gpv OR gpw OR gpg O
 //Amethyst
 ItemDisplay[GEMTYPE=1 GEM=1]: %NAME% %ORANGE%(%PURPLE%ø%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[GEMTYPE=1 GEM=2]: %NAME% %ORANGE%(%PURPLE%o%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=1 GEM=3]: %NAME% %ORANGE%(%PURPLE%ö%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=1 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%PURPLE%õ%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=1 GEM=3]: %NAME% %ORANGE%(%PURPLE%õ%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=1 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%PURPLE%ö%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[GEMTYPE=1 GEM=5]: %DOT-66%%NAME% %ORANGE%(%PURPLE%@%ORANGE%)%WHITE%%CONTINUE%
 
 //Diamond
 ItemDisplay[GEMTYPE=2 GEM=1]: %NAME% %ORANGE%(%WHITE%ø%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[GEMTYPE=2 GEM=2]: %NAME% %ORANGE%(%WHITE%o%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=2 GEM=3]: %NAME% %ORANGE%(%WHITE%ö%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=2 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%WHITE%õ%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=2 GEM=3]: %NAME% %ORANGE%(%WHITE%õ%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=2 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%WHITE%ö%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[GEMTYPE=2 GEM=5]: %DOT-66%%NAME% %ORANGE%(%WHITE%@%ORANGE%)%WHITE%%CONTINUE%
 
 //Emerald
 ItemDisplay[GEMTYPE=3 GEM=1]: %NAME% %ORANGE%(%GREEN%ø%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[GEMTYPE=3 GEM=2]: %NAME% %ORANGE%(%GREEN%o%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=3 GEM=3]: %NAME% %ORANGE%(%GREEN%ö%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=3 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%GREEN%õ%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=3 GEM=3]: %NAME% %ORANGE%(%GREEN%õ%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=3 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%GREEN%ö%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[GEMTYPE=3 GEM=5]: %DOT-66%%NAME% %ORANGE%(%GREEN%@%ORANGE%)%WHITE%%CONTINUE%
 
 //Ruby
 ItemDisplay[GEMTYPE=4 GEM=1]: %NAME% %ORANGE%(%RED%ø%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[GEMTYPE=4 GEM=2]: %NAME% %ORANGE%(%RED%o%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=4 GEM=3]: %NAME% %ORANGE%(%RED%ö%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=4 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%RED%õ%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=4 GEM=3]: %NAME% %ORANGE%(%RED%õ%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=4 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%RED%ö%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[GEMTYPE=4 GEM=5]: %DOT-66%%NAME% %ORANGE%(%RED%@%ORANGE%)%WHITE%%CONTINUE%
 
 //Sapphires
 ItemDisplay[GEMTYPE=5 GEM=1]: %NAME% %ORANGE%(%BLUE%ø%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[GEMTYPE=5 GEM=2]: %NAME% %ORANGE%(%BLUE%o%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=5 GEM=3]: %NAME% %ORANGE%(%BLUE%ö%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=5 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%BLUE%õ%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=5 GEM=3]: %NAME% %ORANGE%(%BLUE%õ%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=5 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%BLUE%ö%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[GEMTYPE=5 GEM=5]: %DOT-66%%NAME% %ORANGE%(%BLUE%@%ORANGE%)%WHITE%%CONTINUE%
 
 //Topazes
 ItemDisplay[GEMTYPE=6 GEM=1]: %NAME% %ORANGE%(%YELLOW%ø%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[GEMTYPE=6 GEM=2]: %NAME% %ORANGE%(%YELLOW%o%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=6 GEM=3]: %NAME% %ORANGE%(%YELLOW%ö%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=6 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%YELLOW%õ%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=6 GEM=3]: %NAME% %ORANGE%(%YELLOW%õ%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=6 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%YELLOW%ö%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[GEMTYPE=6 GEM=5]: %DOT-66%%NAME% %ORANGE%(%YELLOW%@%ORANGE%)%WHITE%%CONTINUE%
 
 //Skulls
 ItemDisplay[GEMTYPE=7 GEM=1]: %NAME% %ORANGE%(%GRAY%ø%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[GEMTYPE=7 GEM=2]: %NAME% %ORANGE%(%GRAY%o%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=7 GEM=3]: %NAME% %ORANGE%(%GRAY%ö%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=7 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%GRAY%õ%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=7 GEM=3]: %NAME% %ORANGE%(%GRAY%õ%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=7 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%GRAY%ö%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[GEMTYPE=7 GEM=5]: %DOT-66%%NAME% %ORANGE%(%GRAY%@%ORANGE%)%WHITE%%CONTINUE%
 
 //Hiding Low Gems
-ItemDisplay[GEM<4 DIFF>1 CLVL>30]: %NAME%%WHITE%{%NAME%}%CONTINUE%
-ItemDisplay[GEM<4 DIFF>1 CLVL>30 !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) !FILTLVL=0]:
-ItemDisplay[GEM<3 DIFF>0 CLVL>12]: %NAME%%WHITE%{%NAME%}%CONTINUE%
-ItemDisplay[GEM<3 DIFF>0 CLVL>12 !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) !FILTLVL=0]:
+ItemDisplay[GEM<4 (DIFF>1 OR CLVL>30)]: %NAME%%WHITE%{%NAME%}%CONTINUE%
+ItemDisplay[GEM<4 (DIFF>1 OR CLVL>30) !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) !FILTLVL=0]:
+ItemDisplay[GEM<3 (DIFF>0 OR CLVL>12)]: %NAME%%WHITE%{%NAME%}%CONTINUE%
+ItemDisplay[GEM<3 (DIFF>0 OR CLVL>12) !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) !FILTLVL=0]:
 
 //Runes
 ItemDisplay[(RUNE<17) CLVL>1]: %PX-68%%ORANGE%%RUNENAME% Rune %GRAY%[%TAN%%RUNENUM%%GRAY%]%CONTINUE%
