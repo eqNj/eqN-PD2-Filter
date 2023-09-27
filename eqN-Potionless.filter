@@ -5454,6 +5454,7 @@ ItemDisplay[SHOP DRU MAG (((TABSK40>1 OR (CLSK5>0 ALLSK>0) OR (CLSK5>0 TABSK40>0
 ItemDisplay[SHOP BAR MAG (((TABSK34>1 OR (CLSK4>0 ALLSK>0) OR (CLSK4>0 TABSK40>0) OR (ALLSK>0 TABSK34>0)) (SK146>1 OR SK149>1 OR SK154>1)) OR ((CLSK4>0 OR ALLSK>0 OR TABSK34>0) (SK146>2 OR SK149>2 OR SK154>2))) LVLREQ<31]: %DOT-9B%%GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%PURPLE%>   %TAN%Warcries Helm   %PURPLE%<}
 ItemDisplay[SHOP WEAPON MAG TABSK34>1 LVLREQ<31]: %DOT-9B%%GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%PURPLE%>   %TAN%Warcries Weapon   %PURPLE%<}
 ItemDisplay[SHOP STAFF MAG FCR>19 CHSK54>0 LVLREQ<31]: %DOT-9B%%GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%PURPLE%>   %TAN%Teleport Charges   %PURPLE%<}
+ItemDisplay[SHOP WEAPON MAG (TABSK2>4 OR (CLSK0>0 TABSK2>2)) LVLREQ<31]: %DOT-9B%%GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%PURPLE%>   %TAN%High Skill Javelin   %PURPLE%<}
 
 //High Level Shop Hunting
 ItemDisplay[SHOP WEAPON MAG ED>299]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%GREEN%~%RED%:   %TAN%High ED Weapon   %RED%:%GREEN%~%NL%%NAME%}
@@ -5494,6 +5495,9 @@ ItemDisplay[SHOP STAFF MAG CHSK54>0]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%
 ItemDisplay[SHOP WEAPON MAG (SUFFIX=594 OR SUFFIX=595)]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%GREEN%~%RED%:   %TAN%Lower Resist Charges   %RED%:%GREEN%~}
 ItemDisplay[SHOP WEAPON MAG (SUFFIX=578 OR SUFFIX=579)]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%GREEN%~%RED%:   %TAN%Life Tap Charges   %RED%:%GREEN%~}
 ItemDisplay[SHOP WEAPON !(WAND OR SOR) MAG (SUFFIX=662 OR SUFFIX=898 OR SUFFIX=899)]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%GREEN%~%RED%:   %TAN%Amplify Damage Weapon   %RED%:%GREEN%~%NL%%NAME%}
+ItemDisplay[SHOP WEAPON MAG (TABSK2>5 OR (CLSK0>1 TABSK2>2))]: %DOT-9B%%GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%GREEN%~%RED%:   %TAN%High Skill Javelin   %RED%:%GREEN%~%NL%%NAME%}
+ItemDisplay[SHOP CHEST MAG SOCK=4]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%GREEN%~%RED%:   %TAN%Jeweler's Armor  %RED%:%GREEN%~}
+ItemDisplay[SHOP SHIELD MAG SOCK=4]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%GREEN%~%RED%:   %TAN%Jeweler's Shield  %RED%:%GREEN%~}
 
 //Low Level, "Out of the Shop"
 ItemDisplay[!SHOP WEAPON MAG ED>239 (!ETH OR (ETH REPAIR)) LVLREQ<31]: %DOT-9B%%BLUE%%NAME%{%PURPLE%>   %TAN%High ED Weapon   %PURPLE%<%NL%%NAME%}
@@ -5534,6 +5538,7 @@ ItemDisplay[!SHOP DRU MAG (((TABSK40>1 OR (CLSK5>0 ALLSK>0) OR (CLSK5>0 TABSK40>
 ItemDisplay[!SHOP BAR MAG (((TABSK34>1 OR (CLSK4>0 ALLSK>0) OR (CLSK4>0 TABSK40>0) OR (ALLSK>0 TABSK34>0)) (SK146>1 OR SK149>1 OR SK154>1)) OR ((CLSK4>0 OR ALLSK>0 OR TABSK34>0) (SK146>2 OR SK149>2 OR SK154>2))) LVLREQ<31]: %DOT-9B%%BLUE%%NAME%{%PURPLE%>   %TAN%Warcries Helm   %PURPLE%<}
 ItemDisplay[!SHOP WEAPON MAG TABSK34>1 LVLREQ<31]: %DOT-9B%%BLUE%%NAME%{%PURPLE%>   %TAN%Warcries Weapon   %PURPLE%<}
 ItemDisplay[!SHOP STAFF MAG CHSK54>0 LVLREQ<31]: %DOT-9B%%BLUE%%NAME%{%PURPLE%>   %TAN%Teleport Charges   %PURPLE%<}
+ItemDisplay[SHOP WEAPON MAG (TABSK2>4 OR (CLSK0>0 TABSK2>2)) LVLREQ<31]: %DOT-9B%%BLUE%%NAME%{%PURPLE%>   %TAN%High Skill Javelin   %PURPLE%<%NL%%NAME%}
 
 //High Level, "Out of the Shop"
 ItemDisplay[!SHOP WEAPON MAG ED>299]: %NAME%{%GREEN%~%RED%:   %TAN%High ED Weapon   %RED%:%GREEN%~%NL%%NAME%}
@@ -5574,6 +5579,9 @@ ItemDisplay[!SHOP STAFF MAG CHSK54>0]: %NAME%{%GREEN%~%RED%:   %TAN%Teleport Cha
 ItemDisplay[!SHOP WEAPON MAG (SUFFIX=594 OR SUFFIX=595)]: %NAME%{%GREEN%~%RED%:   %TAN%Lower Resist Charges   %RED%:%GREEN%~}
 ItemDisplay[!SHOP WEAPON MAG (SUFFIX=578 OR SUFFIX=579)]: %NAME%{%GREEN%~%RED%:   %TAN%Life Tap Charges   %RED%:%GREEN%~}
 ItemDisplay[!SHOP WEAPON !(WAND OR SOR) MAG (SUFFIX=662 OR SUFFIX=898 OR SUFFIX=899)]: %NAME%{%GREEN%~%RED%:   %TAN%Amplify Damage Weapon   %RED%:%GREEN%~%NL%%NAME%}
+ItemDisplay[!SHOP WEAPON MAG (TABSK2>5 OR (CLSK0>1 TABSK2>2))]: %NAME%{%GREEN%~%RED%:   %TAN%High Skill Javelin   %RED%:%GREEN%~%NL%%NAME%}
+ItemDisplay[!SHOP CHEST MAG SOCK=4]: %NAME%{%GREEN%~%RED%:   %TAN%Jeweler's Armor   %RED%:%GREEN%~}
+ItemDisplay[!SHOP SHIELD MAG SOCK=4]: %NAME%{%GREEN%~%RED%:   %TAN%Jeweler's Shield   %RED%:%GREEN%~}
 
 //----------------------------------------- Vendor Colors -----------------------------------------
 
