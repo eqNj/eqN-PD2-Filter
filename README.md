@@ -99,28 +99,28 @@ Descriptions have been added to almost every quest item and/or utility item in t
 ##### Accent Symbol(s) (Accent Color) = Signified Value(s)
 
 ### Prefixes
-[%#] (Red) = Superior Weapon Enhanced Damage  
-[%#] (Blue) = Superior Armor Enhanced Defense  
-[»] (Green) = High Vendor Sell Price  
-[e] (White) = Ethereal  
-+ (Orange) = Superior  
-- (Blue) = Inferior  
+[%#] (Red) = Superior Weapon Enhanced Damage<br>
+[%#] (Blue) = Superior Armor Enhanced Defense<br>
+[»] (Green) = High Vendor Sell Price<br>
+[e] (White) = Ethereal<br>
++ (Orange) = Superior<br>
+- (Blue) = Inferior<br>
 
 ### Suffixes
-[#r] (Scaling Colors) = Paladin Shield Resistances  
-[#ed] (Red) = Paladin Shield Enhanced Damage  
-+# XXXXX (Green) = Staffmod Skills  
-<#> (White) = Sockets  
+[#r] (Scaling Colors) = Paladin Shield Resistances<br>
+[#ed] (Red) = Paladin Shield Enhanced Damage<br>
++# XXXXX (Green) = Staffmod Skills<br>
+<#> (White) = Sockets<br>
 
 ### Unidentified
-: NAME : (Purple) = LLD Corruptible Unique or Set Item  
-·NAME· (Teal) = Ideal Crafting Base @ Character Level Rare or Magic Item  
-·NAME· (Purple) = Ideal LLD Crafting Base Rare or Magic Item  
-<~:~> NAME <~:~> (Gold/Yellow) = High Tier of Notable Unique Items  
-~:~ NAME ~:~ (Gold/Yellow) = Mid Tier of Notable Unique Items  
-~: NAME :~ (Gold/Yellow) = Low Tier of Notable Unique Items  
-~:~ NAME ~:~ (Purple/Green) = High Tier of Notable Set Items  
-~: NAME :~ (Purple/Green) = Low Tier of Notable Set Items  
+: NAME : (Purple) = LLD Corruptible Unique or Set Item<br>
+·NAME· (Teal) = Ideal Crafting Base @ Character Level Rare or Magic Item<br>
+·NAME· (Purple) = Ideal LLD Crafting Base Rare or Magic Item<br>
+<~:~> NAME <~:~> (Gold/Yellow) = High Tier of Notable Unique Items<br>
+~:~ NAME ~:~ (Gold/Yellow) = Mid Tier of Notable Unique Items<br>
+~: NAME :~ (Gold/Yellow) = Low Tier of Notable Unique Items<br>
+~:~ NAME ~:~ (Purple/Green) = High Tier of Notable Set Items<br>
+~: NAME :~ (Purple/Green) = Low Tier of Notable Set Items<br>
 
 ## Levels 
 
