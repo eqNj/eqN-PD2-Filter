@@ -113,14 +113,14 @@ Descriptions have been added to almost every quest item and/or utility item in t
 <#> (White) = Sockets<br>
 
 ### Unidentified
-: NAME : (Purple) = LLD Corruptible Unique or Set Item<br>
 ·NAME· (Teal) = Ideal Crafting Base @ Character Level Rare or Magic Item<br>
 ·NAME· (Purple) = Ideal LLD Crafting Base Rare or Magic Item<br>
-<\~:\~> NAME <\~:\~> (Gold/Yellow) = High Tier of Notable Unique Items<br>
-\~:\~ NAME \~:\~ (Gold/Yellow) = Mid Tier of Notable Unique Items<br>
-\~: NAME :\~ (Gold/Yellow) = Low Tier of Notable Unique Items<br>
-\~:\~ NAME \~:\~ (Purple/Green) = High Tier of Notable Set Items<br>
-\~: NAME :\~ (Purple/Green) = Low Tier of Notable Set Items<br>
+<\~:\~> NAME <\~:\~> (Gold/Yellow) = High Tier of Notable Unique Item<br>
+\~:\~ NAME \~:\~ (Gold/Yellow) = Mid Tier of Notable Unique Item<br>
+\~: NAME :\~ (Gold/Yellow) = Low Tier of Notable Unique Item<br>
+\~:\~ NAME \~:\~ (Purple/Green) = High Tier of Notable Set Item<br>
+\~: NAME :\~ (Purple/Green) = Low Tier of Notable Set Item<br>
+: NAME : (Purple) = LLD Corruptible Unique or Set Item<br>
 
 ## Levels 
 
