@@ -96,7 +96,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ## Filter Key
 
-##### Accent Symbol(s) (Accent Color) = Signified Value(s)
+**Accent Symbol(s) (Accent Color) = Signified Value(s)**
 
 ### Prefixes
 [%#] (Red) = Superior Weapon Enhanced Damage<br>
