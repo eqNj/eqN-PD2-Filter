@@ -84,11 +84,11 @@ Four socket, ethereal polearm/spear weapons of all tiers, for use with the Insig
 
 All rare items will still show at all levels. This includes all class items (wands, orbs, helms, scepters/maces, staves, claws) and any rare bows or crossbows of all tiers aswell. (Relaxed filter level)
 
-Select magic and rare items from all tiers, those that are best for crafting based on your character level or general rarity, will always show, and they will be indicated by two teal dots, one on each side, of their unidentified name. (All filter levels)
+Select magic and rare items from all tiers, those that are best for crafting based on your character level or general rarity, will always show, and they will be indicated by two teal dots, one on each side of their unidentified name. (All filter levels)
 
 Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed favoring exceptional/elite items), as well as any elite class items that could be used for runewords. (All filter levels)
 
-The following items will have added descriptions when they appear to be good for LLD (Low Level Dueling) or for high level PvE, and/or are in a state in which corruption would potentially yield a good LLD item: Charms, Jewels (Magic and Rare), certain Magic class item & weapon bases (ideal for crafting or usage as is), Rare and Crafted weapons, chest armors, shields, and class items, and certain Unique and Set items popular for LLD.
+The following items will have added descriptions when they appear to be good for LLD (Low Level Dueling) or for high level PvE, and/or are in a state in which corruption would potentially yield a good LLD item: Charms, Jewels (Magic and Rare), certain Magic class item & weapon bases (ideal for crafting or usage as is), Rare and Crafted weapons, chest armors, shields, and class items, and certain Unique and Set items popular for LLD. (All filter levels)
 
 Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items. (All filter levels)
 
