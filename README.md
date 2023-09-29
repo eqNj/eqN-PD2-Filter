@@ -16,13 +16,13 @@ The version known as 'eqN-Potionless' is the same as 'eqN-All-In-One', however i
 
 The version known as 'eqN-Specialized-LLD' is the same as 'eqN-All-In-One', however it hides Super/Greater Health and Mana potions after character level 75 at filter levels above 'Relaxed' and it shows details for LLD crafting on applicable base items on the 'ShowRecipes' filter level.
 
-##### <ins>Currently these filters are stylized in such a way as to require the use of the new in-game setting 'HD Text' (enabled by default) introduced with Season 7 of Project Diablo 2. This is to allow for more text colors.</ins>
+**<ins>Currently these filters are stylized in such a way as to require the use of the new in-game setting 'HD Text' (enabled by default) introduced with Season 7 of Project Diablo 2. This is to allow for more text colors.</ins>**
 
-#### To those interested: these filters are specially designed to be 100% functional with the in-game filter level setting 'Show All Items' and will apply all filter aesthetic (item name and description) effects to every item.
+**To those interested: these filters are specially designed to be 100% functional with the in-game filter level setting 'Show All Items' and will apply all filter aesthetic (item name and description) effects to every item.**
 
 ![Filter Levels](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/FiltLevel.jpg)
 
-#### You can toggle the filter strictness level, or switch to the 'ShowRecipes' filter level, by holding CTRL + clicking on the PD2 in-game 'Settings' button, then adjusting your filter level under the 'Item' tab. These filters use this functionality heavily.
+**You can toggle the filter strictness level, or switch to the 'ShowRecipes' filter level, by holding CTRL + clicking on the PD2 in-game 'Settings' button, then adjusting your filter level under the 'Item' tab. These filters use this functionality heavily.**
 
 ## Brief Summary
 
@@ -32,11 +32,11 @@ When using the default, 'Relaxed', filter level the above and the following appl
 
 The 'Relaxed' level of this filter is the basis upon which all levels of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. All levels of this filter share an identical, highly optimized leveling experience before reaching character level 75. 
 
-#### For more details about all of the different filter levels please read the [levels](https://github.com/eqNj/eqN-PD2-Filter#levels) section of this readme.
+**For more details about all of the different filter levels please read the [levels](https://github.com/eqNj/eqN-PD2-Filter#levels) section of this readme.**
 
 This filter doesn't try to make all the decisions for you. It is highly focused on optimizations as you level and slightly more lenient in the endgame by comparison. You will occasionally see things that you may not be inclined to pick up, but it is always reasonable why you're seeing these items if you understand the nuances of itemization in Diablo 2.
 
-##### <ins>If you intend to use a locally edited version of this filter do note that the file will be encoded as 'ISO 8859-1'. Whenever saved the file needs to be saved with that encoding. This is due to the use of special characters not originally available in the default encoding of 'UTF-8'.</ins>
+**<ins>If you intend to use a locally edited version of this filter do note that the file will be encoded as 'ISO 8859-1'. Whenever saved the file needs to be saved with that encoding. This is due to the use of special characters not originally available in the default encoding of 'UTF-8'.</ins>**
 
 ## Features
 
@@ -92,7 +92,7 @@ The following items will have added descriptions when they appear to be good for
 
 Descriptions have been added to almost every quest item and/or utility item in the game. These descriptions are either lore tidbits or famous quotes throughout history befitting the items. (All filter levels)
 
-###### Read the "Changelog" further below for more details on the filters' features. (Relative to the above, using the Relaxed filter level as the assumed baseline.) 
+**Read the "Changelog" further below for more details on the filters' features. (Relative to the above, using the Relaxed filter level as the assumed baseline.)**
 
 ## Filter Key
 
