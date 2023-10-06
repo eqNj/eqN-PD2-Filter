@@ -5807,7 +5807,7 @@ ItemDisplay[!EQUIPPED SET ID amu DTM>19 STAT89>2 STAT360=0]: %NAME%%GREEN%{%TAN%
 ItemDisplay[!EQUIPPED SET ID amu STAT156>0 STAT360=0 (FILTLVL=4 OR FILTLVL=5)]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
 
 //----------------------------------------- Legacy Item Highlighting -----------------------------------------
-ItemDisplay[(rin OR BOOTS) STAT153>0 !STAT148>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[(rin OR BOOTS) STAT153>0 !STAT148>0 !((xlb OR ulb) SET STAT11>0) !(uhn UNI SK69>0)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[rin UNI (OS236>0 OR OS226>0)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[ush UNI AR>99]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[(tgl OR xtg OR utg) UNI (STAT362>0 OR STAT364>0 OR STAT365>0)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
