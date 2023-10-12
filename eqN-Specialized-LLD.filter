@@ -4836,7 +4836,7 @@ ItemDisplay[(6rx OR amc OR am7 OR am2 OR amb OR am6 OR am1) MAG !ID CRAFTALVL>74
 ItemDisplay[WEAPON MAG ETH !(WAND OR SOR OR tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8 OR hax OR mac OR scm OR sbr OR flc OR dgr OR dir OR sst OR ywn OR 9wn OR scp) !ID CRAFTALVL>64]: %TEAL%·%BLUE%%NAME%%TEAL%·
 ItemDisplay[(tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR 7bk OR bal OR 9b8 OR 7b8) MAG ETH !ID CRAFTALVL>74 BARBARIAN CLVL<80]: %TEAL%·%BLUE%%NAME%%TEAL%·
 ItemDisplay[rin MAG !ID CRAFTALVL>79 (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %TEAL%·%BLUE%%NAME%%TEAL%·
-ItemDisplay[amu MAG !ID CRAFTALVL>89 (FILTLVL<2 OR (CLVL<75 FILTLVL>1))]: %TEAL%·%BLUE%%NAME%%TEAL%·
+ItemDisplay[amu MAG !ID CRAFTALVL>89 (FILTLVL<2 OR (CLVL<75 FILTLVL>1) OR FILTLVL=5)]: %TEAL%·%BLUE%%NAME%%TEAL%·
 
 //Misc Useful Magic Items
 ItemDisplay[(jav OR 9ja OR pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama) MAG ETH !ID CLVL>69 DIFF<2]: %DOT-97%%NAME%
