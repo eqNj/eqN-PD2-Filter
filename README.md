@@ -463,6 +463,8 @@ Added all of the "highest immunity" information to the new unique map's descript
 
 Added a new description note for the filter version to keys when in the shop.
 
+Added a list of possible unique items when buying from Gheed within maps.
+
 Added a new shop hunting highlight style that utilizes the fact that %NL% within identified item names is now usable.
 
 Added a note to mirrored jewels that labels if they would yield a white or black item coloration when socketed.
