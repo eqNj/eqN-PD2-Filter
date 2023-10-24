@@ -5968,22 +5968,47 @@ ItemDisplay[!EQUIPPED SET ID amu DTM>19 STAT89>2 STAT360=0]: %NAME%%GREEN%{%TAN%
 ItemDisplay[!EQUIPPED SET ID amu STAT156>0 STAT360=0 (FILTLVL=4 OR FILTLVL=5)]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
 
 //----------------------------------------- Legacy Item Highlighting -----------------------------------------
-ItemDisplay[(rin OR (BELT (FRW<20 OR FRW>30))) FRW>10]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
-ItemDisplay[(rin OR BOOTS) STAT153>0 !STAT148>0 !((xlb OR ulb) SET STAT11>0) !(umb UNI SK69>0)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[((BELT (SET OR UNI)) OR (amu !CRAFT) OR BOOTS) (FHR=11 OR FHR=12 OR FHR=13 OR FHR=14)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy FHR Corrupt   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[(rin OR (BELT (FRW<20 OR FRW>30)) OR (amu !(CRAFT FRW<21) !FRW>29)) FRW>10]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy FRW Corrupt   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[(rin OR BOOTS) STAT153>0 !STAT148>0 !((xlb OR ulb) SET STAT11>0) !(umb UNI SK69>0)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy CBF Corrupt   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[rin UNI (OS236>0 OR OS226>0)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
-ItemDisplay[ush UNI AR>99]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[rin UNI FRW>9 CHSK222=21]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[rin UNI (STAT148>5 OR STAT142>6)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[amu UNI STAT2>90]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[amu UNI STAT333>9]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[(tgl OR xtg OR utg) UNI (STAT362>0 OR STAT364>0 OR STAT365>0)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[(xvb OR uvb) UNI ((FRW=40 !STAT360=44) OR (FRW=50 STAT360=44))]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[(vbt OR xvb OR uvb) UNI STAT135=18]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[uvg UNI LAEK>4 IAS>19]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[umg UNI STAT425>5]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
-ItemDisplay[umg UNI STAT425>5]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[(xhg OR uhg) UNI STAT333>10]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
-ItemDisplay[(zhb OR uhc) UNI SK20=2]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[(zhb OR uhc) UNI SK35=2]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[urn UNI STAT109>60]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[SHIELD RW MULTI198,28306=25]: %BORDER-9B%%NAME% [Legacy]{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[SHIELD RW STAT143>0]: %BORDER-9B%%NAME% [Legacy]{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[WAND RW STAT476>1]: %BORDER-9B%%NAME% [Legacy]{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[7p7 UNI REPAIR]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[7wh UNI (ED>260 OR STAT136>39) STAT425>5]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[7gd UNI TABSK34>3]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[(9wc OR 7wc) UNI STAT461>6]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[(9bw OR 7bw) UNI STAT461>0 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[(9bw OR 7bw) UNI STAT461>0 SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[(ba6 OR bab) UNI STAT425>0 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[(ba6 OR bab) UNI STAT425>0 SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[bac UNI OS232>0 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[bac UNI OS232>0 SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
-ItemDisplay[SHIELD RW MULTI198,28306=25]: %BORDER-9B%%NAME% [Legacy]{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
-ItemDisplay[7wh UNI STAT425>5]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
-ItemDisplay[7gd UNI TABSK34>3]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[uhl UNI STAT425>15 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[uhl UNI STAT425>15 SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[ulm UNI FBR>20 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[ulm UNI FBR>20 SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[ush UNI AR>99 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[ush UNI AR>99 SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[NEC UNI STAT485>0 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[NEC UNI STAT485>0 SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[(plt OR xlt OR ult) UNI OS68>0 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[(plt OR xlt OR ult) UNI OS68>0 SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[uth UNI STAT91=-20 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[uth UNI (STAT91=-20 OR STAT91=-35 OR STAT91=-50 OR STAT91=-65) SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 
 //----------------------------------------- Rare & Crafted Item Description Highlighting -----------------------------------------
 
@@ -6252,6 +6277,8 @@ ItemDisplay[SIN (RARE OR CRAFT) (TABSK48>2 OR ((TABSK48>1 OR CLSK6>1) (SK366>1 O
 ItemDisplay[SIN (RARE OR CRAFT) (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) (SK280>1 OR SK274>1 OR SK269>1 OR SK265>1 OR SK259>1)))]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Martial Arts Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[SIN (RARE OR CRAFT) ((TABSK49>1 OR CLSK6>1) SK278>1)]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Venom Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[SIN (RARE OR CRAFT) ((TABSK49>1 OR CLSK6>1) SK273>1)]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Mind Blast Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[GLOVES FILTLVL=5 EQUIPPED (RARE OR CRAFT) ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) IAS>9]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%+2 Skill IAS Gloves   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[GLOVES FILTLVL=5 EQUIPPED (RARE OR CRAFT) ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) FCR>9]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%+2 Skill FCR Gloves   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[GLOVES (RARE OR CRAFT) ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) IAS>9]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%+2 Skill IAS Gloves   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[GLOVES (RARE OR CRAFT) ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) FCR>9]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%+2 Skill FCR Gloves   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[SCEPTER (RARE OR CRAFT) ((TABSK24>2 SK112>1) OR (TABSK24>1 SK112>2) OR (CLSK3>1 SK112>2))]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Blessed Hammer Scepter   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
