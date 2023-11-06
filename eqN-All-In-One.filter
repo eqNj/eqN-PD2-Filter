@@ -4953,8 +4953,8 @@ ItemDisplay[(amu OR uar OR ci3) SET !ID]: %MAP-84%%PURPLE%~%DARK_GREEN%:%PURPLE%
 ItemDisplay[(rin OR uhm OR dr8 OR 7qr OR uth OR paf OR lbt OR lbl OR lgl OR ulg OR xmg) SET !ID]: %MAP-84%%PURPLE%~%DARK_GREEN%:   %GREEN%%NAME%   %DARK_GREEN%:%PURPLE%~%GREEN%
 
 //Low Level Dueling
-ItemDisplay[!FILTLVL=4 (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xui OR xuc OR kit OR vgl OR mbt OR gth) !ETH UNI !ID]: %PURPLE%: %GOLD%%NAME% %PURPLE%:{%NAME%}%CONTINUE%
-ItemDisplay[!FILTLVL=4 (lgl OR vbt OR vgl OR bwn OR xap) SET !ETH !ID]: %PURPLE%: %GREEN%%NAME% %PURPLE%:{%NAME%}%CONTINUE%
+ItemDisplay[!FILTLVL=4 (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xui OR xuc OR kit OR vgl OR mbt OR gth) !ETH UNI !ID]: %YELLOW%~%PURPLE%: %GOLD%%NAME% %PURPLE%:%YELLOW%~{%NAME%}%CONTINUE%
+ItemDisplay[!FILTLVL=4 (lgl OR vbt OR vgl OR bwn OR xap) SET !ETH !ID]: %GREEN%~%PURPLE%: %GREEN%%NAME%  %PURPLE%:%GREEN%~{%NAME%}%CONTINUE%
 //StrictLLD
 ItemDisplay[FILTLVL=4 (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xui OR xuc OR kit OR vgl OR mbt OR vbt OR (flb ILVL>40) OR gth OR hbt) !ETH UNI !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
 ItemDisplay[FILTLVL=4 (lea OR hla OR chn OR ssd) UNI !ETH !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%vLLD%GRAY%){%NAME%}
