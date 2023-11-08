@@ -6038,9 +6038,9 @@ ItemDisplay[WAND RW STAT476>1]: %BORDER-9B%%NAME% [Legacy]{%DARK_GREEN%<%RED%::%
 ItemDisplay[7p7 UNI REPAIR]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[7wh UNI (ED>260 OR STAT136>39) STAT425>5]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[7gd UNI TABSK34>3]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
-ItemDisplay[(9wc OR 7wc) UNI STAT461>6]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
-ItemDisplay[(9bw OR 7bw) UNI STAT461>0 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
-ItemDisplay[(9bw OR 7bw) UNI STAT461>0 SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[(9wc OR 7wc) UNI STAT466>8]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[(9bw OR 7bw) UNI STAT461>1 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[(9bw OR 7bw) UNI STAT461>1 SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[(ba6 OR bab) UNI STAT425>0 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[(ba6 OR bab) UNI STAT425>0 SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[bac UNI OS232>0 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
