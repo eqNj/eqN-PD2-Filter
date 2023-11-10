@@ -769,7 +769,6 @@ ItemDisplay[MAG LVLREQ<10 (MAXDMG>8 OR MINDMG>4) jew]: %NAME%%BLUE%{%TAN%Level 9
 ItemDisplay[MAG LVLREQ<19 (ED>14 OR AR>39 OR CRES>19 OR FRES>19 OR LRES>19 OR RES>7) (MAXDMG>7 OR MINDMG>3 OR STR>3 OR DEX>3 OR LIFE>5 OR STAT91=-15) jew]: %NAME%%BLUE%{%TAN%Level 18 Dueling Usable} // 15%+ Enhanced Damage, 40+ AR, or 20%+ Cold, Fire, or Light Resist with 8+ Maximum Damage, 4+ Minimum Damage, 4+ Strength, 4+ Dexterity, 6+ Life, or -15% Requirements
 ItemDisplay[MAG LVLREQ<19 MAXDMG>7 MINDMG>2 jew]: %NAME%%BLUE%{%TAN%Level 18 Dueling Usable} // 8+ Maximum Damage with 3+ Minimum Damage 
 ItemDisplay[MAG LVLREQ<19 (MAXDMG>14 OR MINDMG>7) jew]: %NAME%%BLUE%{%TAN%Level 18 Dueling Usable} // 14+ Maximum Damage or 8+ Minimum Damage
-ItemDisplay[MAG LVLREQ<31 ED>14 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 15%+ Enhanced Damage
 ItemDisplay[MAG LVLREQ<31 STAT135>0 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 5% Open Wounds
 ItemDisplay[MAG LVLREQ<31 MAXDMG>14 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 15+ Maximum Damage
 ItemDisplay[MAG LVLREQ<31 MINDMG>13 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 14+ Minimum Damage
@@ -4937,7 +4936,7 @@ ItemDisplay[!FILTLVL=4 (lgl OR vbt OR vgl OR bwn OR xap) SET !ETH !ID]: %GREEN%~
 //StrictLLD
 ItemDisplay[FILTLVL=4 (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xui OR xuc OR kit OR vgl OR mbt OR vbt OR (flb ILVL>40) OR gth OR hbt) !ETH UNI !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
 ItemDisplay[FILTLVL=4 (lea OR hla OR chn OR ssd) UNI !ETH !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%vLLD%GRAY%){%NAME%}
-ItemDisplay[FILTLVL=4 (lgl OR vbt OR vgl OR bwn OR xap OR xml) SET !ETH !ID]: %DOT-84%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
+ItemDisplay[FILTLVL=4 (lgl OR vbt OR vgl OR bwn OR xap) SET !ETH !ID]: %DOT-84%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
 ItemDisplay[FILTLVL=4 (cap OR dgr OR mbl OR mbt OR lsd OR lbl OR ghm OR hbt OR hgl OR tow OR wsd) SET !ETH !ID]: %NAME% %GRAY%(%PURPLE%vLLD%GRAY%){%NAME%}
 
 //Specific Unique and Set Alerts (Only Relevant if "All Unique and Set Alerts" are disabled)
@@ -5979,7 +5978,7 @@ ItemDisplay[!EQUIPPED UNI ID ((flb ED>149 ILVL>40) OR (cst ALLSK=3) OR (lbb (STA
 ItemDisplay[!EQUIPPED SET ID !FILTLVL=5 (cap OR tbl OR mbl OR mbt OR lbl OR lgl OR ghm OR hbt OR hgl OR tow OR wsd) STAT360=0 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Corruptible}
 ItemDisplay[!EQUIPPED SET ID !FILTLVL=5 (vbt OR vgl OR bwn OR xap OR xml OR lbt) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible}
 ItemDisplay[!EQUIPPED SET ID (cap OR tbl OR dgr OR mbl OR mbt OR lsd OR lbl OR lgl OR ghm OR hbt OR hgl) STAT360=0 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Corruptible%NL%%NAME%}%CONTINUE%
-ItemDisplay[!EQUIPPED SET ID (vbt OR vgl OR bwn OR xap OR xml OR lbt) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}%CONTINUE%
+ItemDisplay[!EQUIPPED SET ID (vbt OR vgl OR bwn OR xap OR lbt) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}%CONTINUE%
 ItemDisplay[!EQUIPPED SET ID rin REPLIFE>5 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
 ItemDisplay[!EQUIPPED SET ID amu DTM>19 STAT89>2 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
 ItemDisplay[!EQUIPPED SET ID amu STAT156>0 STAT360=0 (FILTLVL=4 OR FILTLVL=5)]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
