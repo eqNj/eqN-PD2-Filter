@@ -9,28 +9,32 @@
 
 //Small Charms
 ItemDisplay[cm1 !UNI ALVL<39 ALVL>36]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%%TAN%Low Level Dueling Reroll Charm}%CONTINUE%
-ItemDisplay[cm1 !UNI ((MANA>9 OR RES>0 OR STAT214>14 OR MAXDMG>1 OR CRES>6 OR FRES>6 OR LRES>6 OR PRES>6) (LIFE>9 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm1 !UNI LIFE>13 LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm1 !UNI (LIFE>9 OR FRW>0 OR FHR>0) (FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm1 !UNI (LIFE>9 OR FRW>0 OR FHR>0) MAXDMG>1 LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm1 !UNI LIFE>9 (MANA>4 OR STAT214>4 OR FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
-ItemDisplay[cm1 !UNI (DEX>1 OR STR>1) (MANA>6 OR STAT214>7 OR FRES>6 OR CRES>6 OR LRES>6 OR PRES>6) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI ((MANA>9 OR RES>0 OR STAT31>14 OR MAXDMG>1 OR CRES>6 OR FRES>6 OR LRES>6 OR PRES>6) (LIFE>11 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0)) LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI LIFE>13 LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI (LIFE>11 OR FRW>0 OR FHR>0) (FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI (LIFE>11 OR FRW>0 OR FHR>0) MAXDMG>1 LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI LIFE>11 (MANA>4 OR STAT31>4 OR FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI (DEX>1 OR STR>1) (MANA>6 OR STAT31>7 OR FRES>6 OR CRES>6 OR LRES>6 OR PRES>6) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
 ItemDisplay[cm1 !UNI (FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) STR>0 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI ((MANA>9 OR RES>0 OR STAT31>14 OR MAXDMG>1 OR CRES>6 OR FRES>6 OR LRES>6 OR PRES>6) (LIFE>11 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0) OR LIFE>14) LVLREQ<31 FILTLVL=4]: %PURPLE%LLD%NL%%BLUE%%NAME%{%NAME%}
 
 //Large Charms
 ItemDisplay[cm2 !UNI ALVL<41 ALVL>37]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%%TAN%Low Level Dueling Reroll Charm}%CONTINUE%
-ItemDisplay[cm2 !UNI ((MANA>19 OR RES>5 OR STAT214>29 OR MAXDMG>3) (LIFE>15 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm2 !UNI ((STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2) (LIFE>9 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm2 !UNI ((STAT329>1 OR STAT330>1 OR STAT331>1 OR STAT332>1 OR STAT357>1) (LIFE>9 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
-ItemDisplay[cm2 !UNI ((AR>29 OR MAXDMG>1 OR MANA>13 OR RES>4) (LIFE>9 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
+ItemDisplay[cm2 !UNI ((MANA>19 OR RES>5 OR STAT31>29 OR MAXDMG>3) (LIFE>15 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm2 !UNI ((STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2) (LIFE>11 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm2 !UNI ((STAT329>1 OR STAT330>1 OR STAT331>1 OR STAT332>1 OR STAT357>1) (LIFE>11 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
+ItemDisplay[cm2 !UNI ((AR>29 OR MAXDMG>1 OR MANA>13 OR RES>4) (LIFE>11 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
 ItemDisplay[cm2 !UNI LIFE=15 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 ItemDisplay[cm2 !UNI LIFE>11 (CRES>3 OR FRES>3 OR LRES>3 OR PRES>3 OR AR>9 OR MANA>0 OR STAT11>0) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
+ItemDisplay[cm2 !UNI ((MANA>19 OR RES>5 OR STAT31>29 OR MAXDMG>3) (LIFE>15 OR DEX>4 OR STR>4 OR FRW>0 OR FHR>0)) LVLREQ<31]: %PURPLE%LLD%NL%%BLUE%%NAME%{%NAME%}
+ItemDisplay[cm2 !UNI ((STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2) (LIFE>11 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %PURPLE%LLD%NL%%BLUE%%NAME%{%NAME%}
 
 //Grand Charms
-ItemDisplay[cm3 !UNI ((MANA>30 OR RES>9 OR STAT214>43 OR MAXDMG>6 OR AR>79) (LIFE>17 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm3 !UNI ((RES>7 OR MAXDMG>3 OR AR>49) (LIFE>9 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
-ItemDisplay[cm3 !UNI ((STAT214>19 OR MANA>20) (LIFE>11 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
-ItemDisplay[cm3 !UNI ((FHR>0 OR LIFE>12) (AR>29 OR STAT214>9 OR MANA>13 OR CRES>11 OR FRES>11 OR LRES>11 OR PRES>11 OR RES>4)) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
+ItemDisplay[cm3 !UNI ((MANA>30 OR RES>9 OR STAT31>43 OR MAXDMG>6 OR AR>79) (LIFE>17 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm3 !UNI ((RES>7 OR MAXDMG>3 OR AR>49) (LIFE>11 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
+ItemDisplay[cm3 !UNI ((STAT31>19 OR MANA>20) (LIFE>11 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
+ItemDisplay[cm3 !UNI ((FHR>0 OR LIFE>12) (AR>29 OR STAT31>9 OR MANA>13 OR CRES>11 OR FRES>11 OR LRES>11 OR PRES>11 OR RES>4)) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
+ItemDisplay[cm3 !UNI ((MANA>30 OR RES>9 OR STAT31>43 OR MAXDMG>7 OR AR>79) (LIFE>17 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<31]: %PURPLE%LLD%NL%%BLUE%%NAME%{%NAME%}
 
 //
 //---// Jewels //---//
@@ -50,8 +54,8 @@ ItemDisplay[MAG LVLREQ<31 MAXDMG>14 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Us
 ItemDisplay[MAG LVLREQ<31 MINDMG>13 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 14+ Minimum Damage
 ItemDisplay[MAG LVLREQ<31 ED>9 MAXDMG>11 jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ Enhanced Damage with 12+ Maximum Damage
 ItemDisplay[MAG LVLREQ<31 (CRES>24 OR FRES>24 OR LRES>24 OR PRES>24) (MAXDMG>7 OR MINDMG>3 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15 OR STAT135>0) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 25%+ Cold/Fire/Light/Poison with 8+ Maximum Damage, 4+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy, -Requirements, or  or 5% Open Wounds
-ItemDisplay[MAG LVLREQ<31 (RES>7 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR MANA>14 OR STAT214>34) (STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15 OR STAT135>0) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 15+ Mana, or 35+ Defense with 5+ Strength, 6+ Dexterity, 5+ Life, 5+ Energy, -Requirements, or 5% Open Wounds
-ItemDisplay[MAG LVLREQ<31 (RES>7 OR ED>14 OR MINDMG>6 OR MANA>14 OR STAT214>34  OR STAT135>0) (STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15 OR MAXDMG>7) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ All Resist, 15%+ Enhanced Damage, 7+ Minimum Damage, 15+ Mana, 35+ Defense, or 5% Open Wounds with 5+ Strength, 6+ Dexterity, 5+ Life, 5+ Energy, -Requirements, or 8+ Maximum Damage
+ItemDisplay[MAG LVLREQ<31 (RES>7 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR MANA>14 OR STAT31>34) (STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15 OR STAT135>0) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 15+ Mana, or 35+ Defense with 5+ Strength, 6+ Dexterity, 5+ Life, 5+ Energy, -Requirements, or 5% Open Wounds
+ItemDisplay[MAG LVLREQ<31 (RES>7 OR ED>14 OR MINDMG>6 OR MANA>14 OR STAT31>34  OR STAT135>0) (STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15 OR MAXDMG>7) jew]: %NAME%%BLUE%{%TAN%Low Level Dueling Usable} // 10%+ All Resist, 15%+ Enhanced Damage, 7+ Minimum Damage, 15+ Mana, 35+ Defense, or 5% Open Wounds with 5+ Strength, 6+ Dexterity, 5+ Life, 5+ Energy, -Requirements, or 8+ Maximum Damage
 
 //Low Level Dueling Rare Jewel Notes
 ItemDisplay[RARE LVLREQ<10 (ED>14 OR AR>19 OR CRES>11 OR FRES>11 OR LRES>11) (MAXDMG>5 OR MINDMG>3 OR STR>3 OR DEX>3 OR LIFE>5 OR STAT91=-15) jew]: %NAME%%YELLOW%{%TAN%Level 9 Dueling Usable} // 15%+ Enhanced Damage, 20+ AR, or 12%+ Cold, Fire, or Light Resist with 6+ Maximum Damage, 4+ Minimum Damage, 4+ Strength, 4+ Dexterity, 6+ Life, or -15% Requirements
@@ -67,8 +71,8 @@ ItemDisplay[RARE LVLREQ<31 STAT135>0 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling
 ItemDisplay[RARE LVLREQ<31 MAXDMG>14 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 15+ Maximum Damage
 ItemDisplay[RARE LVLREQ<31 MINDMG>13 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 14+ Minimum Damage
 ItemDisplay[RARE LVLREQ<31 MINDMG>4 MAXDMG>9 jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 5+ Minimum Damage with 10+ Maximum Damage
-ItemDisplay[RARE LVLREQ<31 (CRES>24 OR FRES>24 OR LRES>24 OR PRES>24 OR STAT135>0) (STAT214>34 OR RES>7 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR MANA>14 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 25%+ Cold/Fire/Light/Poison or 5% Open Wounds with 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 15+ Mana, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy, or -Requirements
-ItemDisplay[RARE LVLREQ<31 STAT91=-15 (STAT214>34 OR RES>7 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // -Requirements with 35+ Defense, 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy
+ItemDisplay[RARE LVLREQ<31 (CRES>24 OR FRES>24 OR LRES>24 OR PRES>24 OR STAT135>0) (STAT31>34 OR RES>7 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR MANA>14 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4 OR STAT91=-15) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // 25%+ Cold/Fire/Light/Poison or 5% Open Wounds with 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 15+ Mana, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy, or -Requirements
+ItemDisplay[RARE LVLREQ<31 STAT91=-15 (STAT31>34 OR RES>7 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4) jew]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable} // -Requirements with 35+ Defense, 10%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, 6+ Dexterity, 5+ Life, or 5+ Energy
 
 //
 //---// Drop & Description Highlighting //---//
@@ -181,7 +185,7 @@ ItemDisplay[!SHOP SCEPTER MAG ((TABSK24>1 SK101>1) OR (TABSK24>0 SK101>2) OR (CL
 ItemDisplay[!SHOP SCEPTER MAG ((TABSK24>1 SK121>1) OR (TABSK24>0 SK121>2) OR (CLSK3>0 SK121>2)) LVLREQ<31]: %DOT-9B%%BLUE%%NAME%%DARK_GREEN%{%PURPLE%>   %TAN%FotH Scepter   %PURPLE%<%NL%%NAME%}
 ItemDisplay[!SHOP SCEPTER MAG ((TABSK24>1 SK117>1) OR (TABSK24>0 SK117>2) OR (CLSK3>0 SK117>2)) LVLREQ<31]: %DOT-9B%%BLUE%%NAME%%DARK_GREEN%{%PURPLE%>   %TAN%Holy Shield Scepter   %PURPLE%<%NL%%NAME%}
 ItemDisplay[!SHOP WAND MAG ((TABSK16>1 SK381>1) OR ((TABSK16>0 OR CLSK2>0) SK381>2)) LVLREQ<31]: %DOT-9B%%BLUE%%NAME%%DARK_GREEN%{%PURPLE%>   %TAN%Dark Pact Wand   %PURPLE%<}
-ItemDisplay[!SHOP NEC MAG ((TABSK16>1 SK381>1) OR ((TABSK16>0 OR CLSK2>0) SK381>2)) LVLREQ<31]: %DOT-9B%%BLUE%%NAME%%DARK_GREEN%{%PURPLE%>   %TAN%Dark Pact Shield   %PURPLE%<}
+ItemDisplay[!SHOP NEC MAG ((TABSK16>1 SK381>1) OR ((TABSK16>0 OR CLSK2>0) SK381>2 )) LVLREQ<31]: %DOT-9B%%BLUE%%NAME%%DARK_GREEN%{%PURPLE%>   %TAN%Dark Pact Shield   %PURPLE%<}
 ItemDisplay[!SHOP WAND MAG ((TABSK17>1 (SK93>1 OR SK84>1 OR SK67>1)) OR ((TABSK17>0 OR CLSK2>0) (SK93>2 OR SK84>2 OR SK67>2))) LVLREQ<31]: %DOT-9B%%BLUE%%NAME%%DARK_GREEN%{%PURPLE%>   %TAN%Bone Spells Wand   %PURPLE%<}
 ItemDisplay[!SHOP NEC MAG ((TABSK17>1 (SK93>1 OR SK84>1 OR SK67>1)) OR ((TABSK17>0 OR CLSK2>0) (SK93>2 OR SK84>2 OR SK67>2))) LVLREQ<31]: %DOT-9B%%BLUE%%NAME%%DARK_GREEN%{%PURPLE%>   %TAN%Bone Spells Shield   %PURPLE%<}
 ItemDisplay[!SHOP WAND MAG ((TABSK17>1 (SK92>1 OR SK83>1)) OR ((TABSK17>0 OR CLSK2>0) (SK92>2 OR SK83>2))) LVLREQ<31]: %DOT-9B%%BLUE%%NAME%%DARK_GREEN%{%PURPLE%>   %TAN%Poison Spells Wand   %PURPLE%<}
