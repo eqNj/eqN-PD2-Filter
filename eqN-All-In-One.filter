@@ -5637,6 +5637,8 @@ ItemDisplay[SHOP WEAPON MAG TABSK34>1 LVLREQ<31]: %DOT-9B%%GREEN%--/--\--%NL%%BL
 ItemDisplay[SHOP STAFF MAG FCR>19 CHSK54>0 LVLREQ<31]: %DOT-9B%%GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%PURPLE%>   %TAN%Teleport Charges   %PURPLE%<}
 ItemDisplay[SHOP WEAPON MAG (TABSK2>4 OR (CLSK0>0 TABSK2>2)) LVLREQ<31]: %DOT-9B%%GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%PURPLE%>   %TAN%High Skill Javelin   %PURPLE%<}
 ItemDisplay[SHOP xsh MAG (FILTLVL=4 OR FILTLVL=5)]: %GREEN%Grim Shield%NL%%BLUE%%NAME%{%NAME%}
+ItemDisplay[SHOP xh9 MAG (FILTLVL=4 OR FILTLVL=5)]: %GREEN%Grim Helm%NL%%BLUE%%NAME%{%NAME%}
+ItemDisplay[SHOP xtp MAG (FILTLVL=4 OR FILTLVL=5)]: %GREEN%Mage Plate%NL%%BLUE%%NAME%{%NAME%}
 
 //High Level Shop Hunting
 ItemDisplay[SHOP WEAPON MAG ED>299]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%High ED Weapon   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
