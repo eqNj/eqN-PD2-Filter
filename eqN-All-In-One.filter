@@ -335,19 +335,19 @@ ItemDisplay[hp1 (CLVL<15 OR FILTLVL=0)]: %RED%#%WHITE%mnr%WHITE%{%WHITE%Minor He
 
 //PvP Mana Potions
 ItemDisplay[DIFF<2 pvpp SHOP BARBARIAN]: %CONTINUE%{Open Wounds: 10% (Normal)%NL%Whirlwind: 75%%NL%Warcry: 135%%NL%Stun: 100%%NL%Frenzy: 200%%NL%Double Swing: 200%%NL%Double Throw: 114%%NL%Concentrate: 50% (Magic)%NL%Berserk: 125%%NL%Bash: 100%%NL%%TAN%~Barbarian~}
-ItemDisplay[DIFF<2 pvpp SHOP ASSASSIN]: %CONTINUE%{Wake of Fire: 60%%NL%Chain Lightning: Sentry: 35%%NL%Lightning: Sentry: 35%%NL%Psychic Hammer: 20%%NL%Mind Blast: 25%%NL%Blade Sentinel: 70%%NL%Blade Fury: 80%%NL%%TAN%~Assassin~}
+ItemDisplay[DIFF<2 pvpp SHOP ASSASSIN]: %CONTINUE%{Wake of Fire: 60%%NL%Chain Lightning Sentry: 35%%NL%Lightning Sentry: 35%%NL%Psychic Hammer: 20%%NL%Mind Blast: 25%%NL%Blade Sentinel: 70%%NL%Blade Fury: 80%%NL%%TAN%~Assassin~}
 ItemDisplay[DIFF<2 pvpp SHOP PALADIN]: %CONTINUE%{Zeal: All: 75%%NL%Vengeance: 200% (Ele)%NL%Smite: 85%%NL%Sacrifice: 150%%NL%Joust: 20%%NL%Holy Nova: 70%%NL%Holy Fire: 125%%NL%Holy Bolt: 65%%NL%Fist of the Heavens: 55%%NL%Charge: 70%%NL%Blessed Hammer: 70%%NL%%TAN%~Paladin~}
 ItemDisplay[DIFF<2 pvpp SHOP DRUID]: %CONTINUE%{Volcano: 65%%NL%Tornado: 75%%NL%Shockwave: 175%%NL%Raven: 60%%NL%Rabies: 150% (Psn)%NL%Molten Boulder: 90%%NL%Maul: 150%%NL%Firestorm: 150%%NL%Fire Claws: 300% (Fire)%NL%Hurricane: 150%%NL%Arctic Blast: 200%%NL%Armageddon: 35%%NL%%TAN%~Druid~}
 ItemDisplay[DIFF<2 pvpp SHOP NECROMANCER]: %CONTINUE%{Teeth: 40%%NL%Poison Nova: 150%%NL%Poison Strike: 150%%NL%Desecrate: 100%%NL%Dark Pact: 65%%NL%Corpse Explosion: 65%%NL%Bone Spear: 55%%NL%Bone Spirit: 45%%NL%%TAN%~Necromancer~}
-ItemDisplay[DIFF<2 pvpp SHOP AMAZON]: %CONTINUE%{Valkyrie: 70%%NL%Strafe: 65%%NL%Power Strike: 17% (Phys)%NL%Poison Javelin: 100%%NL%Plague Javelin: 110% (Psn)%NL%Magic Arrow: 100%%NL%Lightning: Bolt: 100%%NL%Lightning: Fury: 100%%NL%Jab: 90%%NL%Ice Arrow: 175%%NL%Immolation Arrow: 200%%NL%Guided Arrow: 130%%NL%Freezing Arrow: 175%%NL%Decoy: 55%%NL%Charged Strike: 130% (Light)%NL%%TAN%~Amazon~}
+ItemDisplay[DIFF<2 pvpp SHOP AMAZON]: %CONTINUE%{Valkyrie: 70%%NL%Strafe: 65%%NL%Power Strike: 17% (Phys)%NL%Poison Javelin: 100%%NL%Plague Javelin: 110% (Psn)%NL%Magic Arrow: 100%%NL%Lightning Bolt: 100%%NL%Lightning Fury: 100%%NL%Jab: 90%%NL%Ice Arrow: 175%%NL%Immolation Arrow: 200%%NL%Guided Arrow: 130%%NL%Freezing Arrow: 175%%NL%Decoy: 55%%NL%Charged Strike: 130% (Light)%NL%%TAN%~Amazon~}
 ItemDisplay[DIFF<2 pvpp SHOP SORCERESS]: %CONTINUE%{Telekinesis: 10%%NL%Thunder Storm: 30%%NL%Nova: 150%%NL%Meteor: 65%%NL%Lesser Hydra: 50%%NL%Lightning: 200%%NL%Ice Barrage: 175%%NL%Ice Bolt: 135%%NL%Ice Blast: 150%%NL%Inferno: 114%%NL%Hydra: 60%%NL%Glacial Spike: 150%%NL%Frost Nova: 165%%NL%Frozen Orb: 150%%NL%Fire Wall: 90%%NL%Fire Bolt: 95%%NL%Fire Ball: 95%%NL%Charged Bolt: 185%%NL%Chain Lightning: 120%%NL%Combustion: 90%%NL%Blizzard: 160%%NL%Blaze: 130%%NL%%TAN%~Sorceress~}
 
 ItemDisplay[DIFF=2 pvpp SHOP BARBARIAN]: %CONTINUE%{Open Wounds: 6% (Hell)%NL%Whirlwind: 90%%NL%Warcry: 125%%NL%Stun: 100%%NL%Frenzy: 200%%NL%Double Swing: 200%%NL%Double Throw: 114%%NL%Concentrate: 100% (Magic)%NL%Berserk: 125%%NL%Bash: 100%%NL%%TAN%~Barbarian~}
-ItemDisplay[DIFF=2 pvpp SHOP ASSASSIN]: %CONTINUE%{Wake of Fire: 60%%NL%Chain Lightning: Sentry: 45%%NL%Lightning: Sentry: 45%%NL%Psychic Hammer: 10%%NL%Mind Blast: 30%%NL%Blade Sentinel: 50%%NL%Blade Fury: 60%%NL%Blade Dance: 85%%NL%%TAN%~Assassin~}
+ItemDisplay[DIFF=2 pvpp SHOP ASSASSIN]: %CONTINUE%{Wake of Fire: 60%%NL%Chain Lightning Sentry: 45%%NL%Lightning Sentry: 45%%NL%Psychic Hammer: 10%%NL%Mind Blast: 30%%NL%Blade Sentinel: 50%%NL%Blade Fury: 60%%NL%Blade Dance: 85%%NL%%TAN%~Assassin~}
 ItemDisplay[DIFF=2 pvpp SHOP PALADIN]: %CONTINUE%{Zeal: All: 75%%NL%Vengeance: 100%%NL%Smite: 75%%NL%Sacrifice: 100%%NL%Joust: 20%%NL%Holy Nova: 100%%NL%Holy Fire: 50%%NL%Holy Bolt: 75%%NL%Fist of the Heavens: 65%%NL%Charge: 70%%NL%Blessed Hammer: 50%%NL%%TAN%~Paladin~}
 ItemDisplay[DIFF=2 pvpp SHOP DRUID]: %CONTINUE%{Volcano: 65%%NL%Tornado: 65%%NL%Shockwave: 175%%NL%Raven: 60%%NL%Rabies: 100% (Psn)%NL%Molten Boulder: 80%%NL%Maul: 150%%NL%Firestorm: 150%%NL%Fire Claws: 100%%NL%Hurricane: 150%%NL%Arctic Blast: 200%%NL%Armageddon: 55%%NL%%TAN%~Druid~}
 ItemDisplay[DIFF=2 pvpp SHOP NECROMANCER]: %CONTINUE%{Teeth: 35%%NL%Poison Nova: 125%%NL%Poison Strike: 125%%NL%Desecrate: 60%%NL%Dark Pact: 55%%NL%Corpse Explosion: 65%%NL%Bone Spear: 45%%NL%Bone Spirit: 30%%NL%%TAN%~Necromancer~}
-ItemDisplay[DIFF=2 pvpp SHOP AMAZON]: %CONTINUE%{Valkyrie: 70%%NL%Strafe: 65%%NL%Power Strike: 17% (Phys)%NL%Poison Javelin: 85%%NL%Plague Javelin: 45(Psn)%NL%Plague Javelin: All: 100% (Phys)%NL%Magic Arrow: 100%%NL%Lightning: Bolt: 100%%NL%Lightning: Fury: 100%%NL%Jab: 80%%NL%Ice Arrow: 110%%NL%Immolation Arrow: 100%%NL%Guided Arrow: 120%%NL%Freezing Arrow: 100%%NL%Decoy: 100%%NL%Charged Strike: 100%%NL%%TAN%~Amazon~}
+ItemDisplay[DIFF=2 pvpp SHOP AMAZON]: %CONTINUE%{Valkyrie: 70%%NL%Strafe: 65%%NL%Power Strike: 17% (Phys)%NL%Poison Javelin: 85%%NL%Plague Javelin: 45(Psn)%NL%Plague Javelin: All: 100% (Phys)%NL%Magic Arrow: 100%%NL%Lightning Bolt: 100%%NL%Lightning Fury: 100%%NL%Jab: 80%%NL%Ice Arrow: 110%%NL%Immolation Arrow: 100%%NL%Guided Arrow: 120%%NL%Freezing Arrow: 100%%NL%Decoy: 100%%NL%Charged Strike: 100%%NL%%TAN%~Amazon~}
 ItemDisplay[DIFF=2 pvpp SHOP SORCERESS]: %CONTINUE%{Telekinesis: 10%%NL%Thunder Storm: 35%%NL%Nova: 140%%NL%Meteor: 90%%NL%Lesser Hydra: 90%%NL%Lightning: 180%%NL%Ice Barrage: 140%%NL%Ice Bolt: 114%%NL%Ice Blast: 114%%NL%Inferno: 100%%NL%Hydra: 90%%NL%Glacial Spike: 114%%NL%Frost Nova: 125%%NL%Frozen Orb: 114%%NL%Fire Wall: 90%%NL%Fire Bolt: 114%%NL%Fire Ball: 114%%NL%Charged Bolt: 75%%NL%Chain Lightning: 120%%NL%Combustion: 80%%NL%Blizzard: 130%%NL%Blaze: 100%%NL%%TAN%~Sorceress~}
 
 ItemDisplay[pvpp SHOP DIFF=0]: %CONTINUE%{%NAME%%NL%PvP Modifiers (Normal)}
@@ -5336,7 +5336,7 @@ ItemDisplay[NMAG !INF !RW SK53>2 (((oba OR ob5 OR obf) !SOCK=1 CLVL>59) OR (SOR 
 //ItemDisplay[NMAG !INF !RW SK54>2 (((oba OR ob5 OR obf) !SOCK=1 CLVL>59) OR (SOR ((CLVL<60 !SORCERESS) OR (CLVL<75 SORCERESS))) OR (STAFF ELT)) ((!SOCK=1 SOR CLVL>59) OR (!SOCK=2 SOR CLVL>74) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Teleport
 //ItemDisplay[NMAG !INF !RW SK57>2 (((oba OR ob5 OR obf) !SOCK=1 CLVL>59) OR (SOR ((CLVL<60 !SORCERESS) OR (CLVL<75 SORCERESS))) OR (STAFF ELT)) ((!SOCK=1 SOR CLVL>59) OR (!SOCK=2 SOR CLVL>74) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Thunder Storm
 //ItemDisplay[NMAG !INF !RW SK58>2 (((oba OR ob5 OR obf) !SOCK=1 CLVL>59) OR (SOR ((CLVL<60 !SORCERESS) OR (CLVL<75 SORCERESS))) OR (STAFF ELT)) ((!SOCK=1 SOR CLVL>59) OR (!SOCK=2 SOR CLVL>74) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Energy Shield
-//ItemDisplay[NMAG !INF !RW SK63>2 (((oba OR ob5 OR obf) !SOCK=1 CLVL>59) OR (SOR ((CLVL<60 !SORCERESS) OR (CLVL<75 SORCERESS))) OR (STAFF ELT)) ((!SOCK=1 SOR CLVL>59) OR (!SOCK=2 SOR CLVL>74) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Lightning: Mastery
+//ItemDisplay[NMAG !INF !RW SK63>2 (((oba OR ob5 OR obf) !SOCK=1 CLVL>59) OR (SOR ((CLVL<60 !SORCERESS) OR (CLVL<75 SORCERESS))) OR (STAFF ELT)) ((!SOCK=1 SOR CLVL>59) OR (!SOCK=2 SOR CLVL>74) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Lightning Mastery
 
 // --- Fire
 ItemDisplay[NMAG !INF !RW SK36>2 (((oba OR ob5 OR obf) !SOCK=1 CLVL>59) OR (SOR ((CLVL<60 !SORCERESS) OR (CLVL<75 SORCERESS))) OR (STAFF ELT)) ((!SOCK=1 SOR CLVL>59) OR (!SOCK=2 SOR CLVL>74) OR (!SOCK=1 STAFF))]: %NAME%{%NAME%} // Fire Bolt
@@ -5503,9 +5503,9 @@ ItemDisplay[NMAG !INF !RW SK262>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR 
 ItemDisplay[NMAG !INF !RW SK266>2 SIN ((!SOCK=1 !(SOCK=2 (EXC OR NORM)) !(ETH (EXC OR NORM)) (9wb OR 9cs OR ELT)) OR (CLVL<60))]: %NAME%{%NAME%} // Blade Fury
 ItemDisplay[NMAG !INF !RW SK272>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Wake Of Inferno
 ItemDisplay[NMAG !INF !RW SK276>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Death Sentry
-ItemDisplay[NMAG !INF !RW SK271>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Chain Lightning: Sentry
+ItemDisplay[NMAG !INF !RW SK271>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Chain Lightning Sentry
 ItemDisplay[NMAG !INF !RW SK277>2 SIN ((!SOCK=1 !(SOCK=2 (EXC OR NORM)) !(ETH (EXC OR NORM)) (9wb OR 9cs OR ELT)) OR (CLVL<60))]: %NAME%{%NAME%} // Blade Shield
-ItemDisplay[NMAG !INF !RW SK366>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Lightning: Sentry
+ItemDisplay[NMAG !INF !RW SK366>2 SIN ((!SOCK=1 !(ktr OR wrb OR axf OR ces)) OR (CLVL<60))]: %NAME%{%NAME%} // Lightning Sentry
 
 // --- // --- Paladin --- \\ --- \\
 
