@@ -6032,7 +6032,7 @@ ItemDisplay[amu UNI STAT333>9]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%
 ItemDisplay[(tgl OR xtg OR utg) UNI (STAT362>0 OR STAT364>0 OR STAT365>0)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[(xvb OR uvb) UNI ((FRW=40 !STAT360=44) OR (FRW=50 STAT360=44))]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[(vbt OR xvb OR uvb) UNI STAT135=18]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
-ItemDisplay[uvg UNI LAEK>4 IAS>19]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[uvg UNI STAT86>4 IAS>19]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[umg UNI STAT425>5]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[(xhg OR uhg) UNI STAT333>10]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[(zhb OR uhc) UNI SK35=2]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
