@@ -2,7 +2,7 @@
 
 ![Den](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Header.jpg)
 
-These filters are up-to-date for Season 8 of Project Diablo 2!
+These filters are up-to-date for Season 9 of Project Diablo 2!
 
 You can find these loot filters either here (on GitHub) or through the Project Diablo 2 game launcher.
 
@@ -417,8 +417,6 @@ Refined the overall filter aesthetic with the new HD text in mind. This includes
 
 Changed the asterisks on craftable item bases to dots for improved aesthetics on the improved graphics settings this season.
 
-Currently, enabling the new HD text is mandatory to prevent question marks from appearing on certain item names.
-
 Added the name of the currently selected filter level to the Horadric Cube's description.
 
 Updated the descriptions for changed rune socketing effects for Ohm runes.
@@ -488,3 +486,26 @@ Thoroughly reviewed the LLD tagging on Magic, Rare, and Crafted items to minimiz
 Made an up-to-date copy of all of the LLD lines in my filter available separately in the 'Filter-Sub' branch.
 
 Continued optimizations for use with the new HD text introduced last season.
+
+## 1.7.0 - (Season 9)
+
+Updated Defense Range information on armor bases.
+
+Further refined the 'green dot' added to the end of high defense, non-superior non-magic (white) runeword bases that signifies a good roll.
+
+Updated Vision of Terror and Voidstone descriptions with new difficulty toggle capability.
+
+Added details about crafting results to Infusion descriptions, but only in town.
+
+Added new Diamond recipes to applicable magic crafting base and stacked Diamond descriptions when using the 'ShowRecipes' filter level.
+
+Made it so crafting recipes show on P Gems on all filter levels, but only in town.
+
+Updated 'High IAS Low Level Weapon' tags to account for the new Brilliant crafts.
+
+Ensured items for Ice Bolt, Inferno, Arctic Blast, Poison Creeper, Poison Strike, and various other skills were all showing appropriately useful drops and/or description highlights.
+
+Added new LLD tags for daggers that would be good for Kick/MA Assassin and Poison Strike Necromancer.
+
+Added new high level tags for daggers that would be good for all kinds of Assassins as well as Poison Strike Necromancer.
+
