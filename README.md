@@ -509,3 +509,4 @@ Added new LLD tags for daggers that would be good for Kick/MA Assassin and Poiso
 
 Added new high level tags for daggers that would be good for all kinds of Assassins as well as Poison Strike Necromancer.
 
+Added Half Freeze Duration / Cannot Be Frozen status to player cubes.
