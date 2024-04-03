@@ -210,6 +210,14 @@ ItemDisplay[hfh]: %NAME%{%TAN%Forger of Shadowfang%NL%Legend of the Burning Hell
 ItemDisplay[ice]: %GOLD%Malah's Potion{%TAN%What is man but a mass of thawing clay?}
 ItemDisplay[tr2]: %GOLD%Scroll of Resistance{%GOLD%Right click to Read%NL%%GRAY%(Grants +10 to All Resistances Permanently)%NL%%NL%%TAN%Where there is power, there is resistance.}
 ItemDisplay[toa]: %ORANGE%Token of Absolution{%GOLD%Right click to Respec%NL%%NL%%TAN%Wherever you are is the entry point.}
+ItemDisplay[box CHARSTAT118=1]: %NAME%{%GRAY%Half Freeze Duration}%CONTINUE%
+ItemDisplay[box (CHARSTAT118>1 OR CHARSTAT153=1)]: %NAME%{%GRAY%Cannot Be Frozen}%CONTINUE%
+ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=0]: %NAME%{%SAGE%Show All Items%NL%%TAN%As above, so below.%NL%%NAME%}
+ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=1]: %NAME%{%SAGE%Relaxed%NL%%TAN%As above, so below.%NL%%NAME%}
+ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=2]: %NAME%{%SAGE%Medium%NL%%TAN%As above, so below.%NL%%NAME%}
+ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=3]: %NAME%{%SAGE%Strict%NL%%TAN%As above, so below.%NL%%NAME%}
+ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=4]: %NAME%{%SAGE%StrictLLD%NL%%TAN%As above, so below.%NL%%NAME%}
+ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=5]: %NAME%{%SAGE%ShowRecipes%NL%%TAN%As above, so below.%NL%%NAME%}
 ItemDisplay[box FILTLVL=0]: %NAME%{%SAGE%Show All Items%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=1]: %NAME%{%SAGE%Relaxed%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=2]: %NAME%{%SAGE%Medium%NL%%TAN%As above, so below.}
