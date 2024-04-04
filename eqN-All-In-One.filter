@@ -643,13 +643,13 @@ ItemDisplay[dcbl]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%   
 ItemDisplay[dcho]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%The Pandemonium Event%NL%%GRAY%Manifested By:}
 ItemDisplay[dcso]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Black Soul Stone%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%Diablo, Lord of Terror %WHITE%& %DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Manifested By:}
 ItemDisplay[dcma STAT185=0]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%DARK_GREEN%Easy Difficulty%NL%%GOLD%Cube %WHITE%this item alone %WHITE%to increase the difficulty level.%NL%%NL%%WHITE%Alas, %ORANGE%Uber Diablo %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
-ItemDisplay[dcma STAT185=1]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %RED%+%ORANGE%%NAME%%RED%+      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%TAN%Moderate Difficulty%NL%%GOLD%Cube %WHITE%this item alone %WHITE%to toggle the difficulty level.%NL%%NL%%WHITE%Alas, %ORANGE%Uber Diablo %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
-ItemDisplay[dcma STAT185=2]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %RED%+%ORANGE%%NAME%%RED%+      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%RED%Extreme Difficulty%NL%%GOLD%Cube %WHITE%this item alone %WHITE%to toggle the difficulty level.%NL%%NL%%WHITE%Alas, %ORANGE%Uber Diablo %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
+ItemDisplay[dcma STAT185=1]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %RED%+%ORANGE%%NAME%%RED%+      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%TAN%Moderate Difficulty%NL%%NL%%WHITE%Alas, %ORANGE%Uber Diablo %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
+ItemDisplay[dcma STAT185=2]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %RED%++%ORANGE%%NAME%%RED%++      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%RED%Extreme Difficulty%NL%%NL%%WHITE%Alas, %ORANGE%Uber Diablo %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
 
 //Annihilus
 ItemDisplay[cm1 UNI ID STAT360=0]: %MAP-62%%NAME%
 ItemDisplay[cm1 UNI ID STAT360>0]: %MAP-62%%RED%%NAME%%CONTINUE%
-ItemDisplay[cm1 UNI ID ALLSK>1]: %MAP-62%%ORANGE%+%RED%%NAME%%ORANGE%+
+ItemDisplay[cm1 UNI ID ALLSK>1]: %MAP-62%%ORANGE%+%RED%%NAME%
 
 //The Void
 ItemDisplay[rtmf]: %MAP-90%%BLUE%|%PURPLE%:   %ORANGE%%NAME%   %PURPLE%:%BLUE%|%ORANGE%{%WHITE%to create a %ORANGE%Trang-Oul's Jawbone%NL%%WHITE%with %ORANGE%Hellfire Ashes%NL%Cube %WHITE%two %ORANGE%Ancient Bone Fragments}
@@ -658,8 +658,8 @@ ItemDisplay[rtmv]: %BORDER-90%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%      %
 ItemDisplay[cwss]: %BORDER-9B%%WHITE%:%BLUE%|%PURPLE%:      %RED%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%RED%{%RED%Warning%WHITE%: This can brick your %GOLD%Anni%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
 ItemDisplay[cm2f]: %BLUE%|%PURPLE%:   %ORANGE%%NAME%   %PURPLE%:%BLUE%|%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Splinter of the Void %WHITE%& %ORANGE%Trang-Oul's Jawbone%NL%%GOLD%Cube %WHITE%this item with the following:}
 ItemDisplay[rtma STAT185=0]: %BORDER-97%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%DARK_GREEN%Easy Difficulty%NL%%GOLD%Cube %WHITE%this item alone %WHITE%to increase the difficulty level.%NL%%NL%%WHITE%Alas, %ORANGE%Uber Rathma %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
-ItemDisplay[rtma STAT185=1]: %BORDER-97%%WHITE%:%BLUE%|%PURPLE%:      %RED%+%ORANGE%%NAME%%RED%+      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%TAN%Moderate Difficulty%NL%%GOLD%Cube %WHITE%this item alone %WHITE%to toggle the difficulty level.%NL%%NL%%WHITE%Alas, %ORANGE%Uber Rathma %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
-ItemDisplay[rtma STAT185=2]: %BORDER-97%%WHITE%:%BLUE%|%PURPLE%:      %RED%+%ORANGE%%NAME%%RED%+      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%RED%Extreme Difficulty%NL%%GOLD%Cube %WHITE%this item alone %WHITE%to toggle the difficulty level.%NL%%NL%%WHITE%Alas, %ORANGE%Uber Rathma %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
+ItemDisplay[rtma STAT185=1]: %BORDER-97%%WHITE%:%BLUE%|%PURPLE%:      %RED%+%ORANGE%%NAME%%RED%+      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%TAN%Moderate Difficulty%NL%%NL%%WHITE%Alas, %ORANGE%Uber Rathma %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
+ItemDisplay[rtma STAT185=2]: %BORDER-97%%WHITE%:%BLUE%|%PURPLE%:      %RED%++%ORANGE%%NAME%%RED%++      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%RED%Extreme Difficulty%NL%%NL%%WHITE%Alas, %ORANGE%Uber Rathma %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singular attempt to those who congregate:}
 
 //Uber Ancients
 ItemDisplay[ubaa]: %MAP-73%%DOT-57%%WHITE%:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%WHITE%:%ORANGE%{%TAN%He whom had visions many followed.%NL%Madawac the Guardian from Val Narian.%NL%%NL%%WHITE%To create a %GOLD%Relic of the Ancients%NL%Cube %WHITE%one of each sigil%NL%%GRAY%Found in Tier 1 Maps}
@@ -1641,7 +1641,7 @@ ItemDisplay[NMAG !RW TABSK2=2]: %DARK_GREEN%+2 Jav %WHITE%%NAME%{%NAME%}%CONTINU
 ItemDisplay[NMAG !RW TABSK2=3]: %DARK_GREEN%+3 Jav %WHITE%%NAME%{%NAME%}%CONTINUE%
 
 // --- // --- Assassin --- \\ --- \\
-ItemDisplay[NMAG !RW (SK251>0 OR SK252>0 OR SK253>0 OR SK254>0 OR SK255>0 OR SK256>0 OR SK257>0 OR SK258>0 OR SK259>0 OR SK260>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %NAME%%DARK_GREEN%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK251>0 OR SK252>0 OR SK253>0 OR SK254>0 OR SK255>0 OR SK256>0 OR SK257>0 OR SK258>0 OR SK259>0 OR SK260>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %NAME%%NL%%DARK_GREEN%{%NAME%}%CONTINUE%
 
 //+3
 ItemDisplay[NMAG !RW SK366=3]: %NAME% +3 L.Sen{%NAME%}%CONTINUE%
@@ -1743,7 +1743,7 @@ ItemDisplay[NMAG !RW SK252=1 CLVL<21]: %NAME% +1 CDMas{%NAME%}%CONTINUE%
 ItemDisplay[NMAG !RW SK251=1 CLVL<21]: %NAME% +1 FrBls{%NAME%}%CONTINUE%
 
 // --- // --- Barbarian --- \\ --- \\
-ItemDisplay[NMAG !RW (SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK134>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK368>0)]: %NAME%%DARK_GREEN%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK134>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK368>0)]: %NAME%%NL%%DARK_GREEN%{%NAME%}%CONTINUE%
 
 //+3
 ItemDisplay[NMAG !RW SK368=3]: %NAME% +3 D.Wnd{%NAME%}%CONTINUE%
@@ -1836,7 +1836,7 @@ ItemDisplay[NMAG !RW SK128=1 CLVL<21]: %NAME% +1 GnMas{%NAME%}%CONTINUE%
 ItemDisplay[NMAG !RW SK126=1 CLVL<21]: %NAME% +1 Bash{%NAME%}%CONTINUE%
 
 // --- // --- Druid --- \\ --- \\
-ItemDisplay[NMAG !RW (SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0)]: %NAME%%DARK_GREEN%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0)]: %NAME%%NL%%DARK_GREEN%{%NAME%}%CONTINUE%
 
 //+3
 ItemDisplay[NMAG !RW SK370=3]: %NAME% +3 Gust{%NAME%}%CONTINUE%
@@ -1938,7 +1938,7 @@ ItemDisplay[NMAG !RW SK222=1 CLVL<21]: %NAME% +1 PsnCr{%NAME%}%CONTINUE%
 ItemDisplay[NMAG !RW SK221=1 CLVL<21]: %NAME% +1 Raven{%NAME%}%CONTINUE%
 
 // --- // --- Necromancer --- \\ --- \\
-ItemDisplay[NMAG !RW (SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0)]: %NAME%%DARK_GREEN%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0)]: %NAME%%NL%%DARK_GREEN%{%NAME%}%CONTINUE%
 
 //+3
 ItemDisplay[NMAG !RW SK381=3]: %NAME% +3 DkPct{%NAME%}%CONTINUE%
@@ -2049,7 +2049,7 @@ ItemDisplay[NMAG !RW SK66=1 CLVL<21]: %NAME% +1 AmpDm{%NAME%}%CONTINUE%
 
 
 // --- // --- Paladin --- \\ --- \\
-ItemDisplay[NMAG !RW (SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0)]: %NAME%%DARK_GREEN%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0)]: %NAME%%NL%%DARK_GREEN%{%NAME%}%CONTINUE%
 
 //+3
 ItemDisplay[NMAG !RW SK378=3]: %NAME% +3 Joust{%NAME%}%CONTINUE%
@@ -2157,7 +2157,7 @@ ItemDisplay[NMAG !RW SK97=1 CLVL<21]: %NAME% +1 Smite{%NAME%}%CONTINUE%
 ItemDisplay[NMAG !RW SK96=1 CLVL<21]: %NAME% +1 Sacrfc{%NAME%}%CONTINUE%
 
 // --- // --- Sorceress --- \\ --- \\
-ItemDisplay[NMAG !RW (SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0)]: %NAME%%DARK_GREEN%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0)]: %NAME%%NL%%DARK_GREEN%{%NAME%}%CONTINUE%
 
 //+3
 ItemDisplay[NMAG !RW SK383=3]: %NAME% +3 LHydr{%NAME%}%CONTINUE%
