@@ -120,7 +120,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 \~: NAME :\~ (Gold/Yellow) = Low Tier of Notable Unique Item<br>
 \~:\~ NAME \~:\~ (Purple/Green) = High Tier of Notable Set Item<br>
 \~: NAME :\~ (Purple/Green) = Low Tier of Notable Set Item<br>
-: NAME : (Purple) = LLD Corruptible Unique or Set Item<br>
+\~: NAME :\~ (Purple/Yellow) = LLD Corruptible Unique Item<br>
 
 ## Levels 
 
