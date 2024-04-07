@@ -11,175 +11,167 @@ ItemDisplayFilterName[]:ShowRecipes
 //----------------------------------------- Utilities -----------------------------------------
 
 //Show Item Names When Gambling
+//Show Item Names When Gambling
 ItemDisplay[NMAG !ID SHOP !(MAPID>132)]: %NAME%
-ItemDisplay[NMAG !ID SHOP amu]: %NAME%%NL%%GOLD%Rising Sun%NL%Mahim-Oak Curio%NL%Eye of Etlich%NL%Cat's Eye%NL%Seraph's Hymn%NL%Saracen's Chance%NL%Nokozan Relic%NL%Metalgrid%NL%Mara's Kaleidoscope%NL%Highlord's Wrath%NL%Crescent Moon%NL%Atma's Scarab
-ItemDisplay[NMAG !ID SHOP jew]: %NAME%%NL%%GOLD%Rainbow Facet
-ItemDisplay[NMAG !ID SHOP ci0]: %NAME%%NL%%GOLD%Kira's Guardian
-ItemDisplay[NMAG !ID SHOP ci1]: %NAME%%NL%%GOLD%Griffon's Eye
-ItemDisplay[NMAG !ID SHOP rin]: %NAME%%NL%%GOLD%Wisp Projector%NL%Stone of Jordan%NL%Raven Frost%NL%Nature's Peace%NL%Nagelring%NL%Manald Heal%NL%Dwarf Star%NL%Carrion Wind%NL%Bul-Kathos' Wedding Band
-ItemDisplay[NMAG !ID SHOP am1]: %NAME%%NL%%GOLD%Blood Raven's Charge
-ItemDisplay[NMAG !ID SHOP am2]: %NAME%%NL%%GOLD%Lycander's Aim
-ItemDisplay[NMAG !ID SHOP am5]: %NAME%%NL%%GOLD%Thunderstroke%NL%Titan's Revenge%NL%True Silver
-ItemDisplay[NMAG !ID SHOP am3]: %NAME%%NL%%GOLD%Stoneraven
-ItemDisplay[NMAG !ID SHOP am4]: %NAME%%NL%%GOLD%Zerae's Resolve%NL%Lycander's Flank
-ItemDisplay[NMAG !ID SHOP ktr]: %NAME%%NL%%GOLD%Mage Slayer
-ItemDisplay[NMAG !ID SHOP wrb]: %NAME%%NL%%GOLD%Jade Talon
-//ItemDisplay[NMAG !ID SHOP axf]: %NAME%
-ItemDisplay[NMAG !ID SHOP ces]: %NAME%%NL%%GOLD%Shadow Killer
-ItemDisplay[NMAG !ID SHOP clw]: %NAME%%NL%%GOLD%Firelizard's Talons
-ItemDisplay[NMAG !ID SHOP btl]: %NAME%%NL%%GOLD%Stalker's Cull%NL%Bartuc's Cut-Throat
-//ItemDisplay[NMAG !ID SHOP skr]: %NAME%
-ItemDisplay[NMAG !ID SHOP ba1]: %NAME%%NL%%GOLD%Cyclopean Roar
-ItemDisplay[NMAG !ID SHOP ba2]: %NAME%%NL%%GOLD%Wolfhowl
-ItemDisplay[NMAG !ID SHOP ba3]: %NAME%%NL%%GOLD%Demonhorn's Edge
-ItemDisplay[NMAG !ID SHOP ba4]: %NAME%%NL%%GOLD%Halaberd's Reign
-ItemDisplay[NMAG !ID SHOP ba5]: %NAME%%NL%%GOLD%Raekor's Virtue%NL%Arreat's Face
-ItemDisplay[NMAG !ID SHOP dr1]: %NAME%%NL%%GOLD%Cerebus' Bite
-ItemDisplay[NMAG !ID SHOP dr2]: %NAME%%NL%%GOLD%Quetzalcoatl
-ItemDisplay[NMAG !ID SHOP dr3]: %NAME%%NL%%GOLD%Spirit Keeper
-ItemDisplay[NMAG !ID SHOP dr4]: %NAME%%NL%%GOLD%Ravenlore
-ItemDisplay[NMAG !ID SHOP dr5]: %NAME%%NL%%GOLD%Ursa's Nightmare%NL%Jalal's Mane
-ItemDisplay[NMAG !ID SHOP ne1]: %NAME%%NL%%GOLD%Kalan's Legacy
-//ItemDisplay[NMAG !ID SHOP ne2]: %NAME%
-ItemDisplay[NMAG !ID SHOP ne3]: %NAME%%NL%%GOLD%Martyrdom
-ItemDisplay[NMAG !ID SHOP ne4]: %NAME%%NL%%GOLD%Boneflame
-ItemDisplay[NMAG !ID SHOP ne5]: %NAME%%NL%%GOLD%Darkforce Spawn%NL%Homunculus
-// ItemDisplay[NMAG !ID SHOP pa1]: %NAME%
-ItemDisplay[NMAG !ID SHOP pa2]: %NAME%%NL%%GOLD%Alma Negra
-ItemDisplay[NMAG !ID SHOP pa3]: %NAME%%NL%%GOLD%Sankekur's Fall
-ItemDisplay[NMAG !ID SHOP pa4]: %NAME%%NL%%GOLD%Dragonscale%NL%Herald of Zakarum
-//ItemDisplay[NMAG !ID SHOP pa5]: %NAME%
-ItemDisplay[NMAG !ID SHOP ob1]: %NAME%%NL%%GOLD%Tempest
-ItemDisplay[NMAG !ID SHOP ob2]: %NAME%%NL%%GOLD%Eschuta's Temper
-// ItemDisplay[NMAG !ID SHOP ob3]: %NAME%
-// ItemDisplay[NMAG !ID SHOP ob4]: %NAME%
-ItemDisplay[NMAG !ID SHOP ob5]: %NAME%%NL%%GOLD%Death's Fathom%NL%The Oculus
-ItemDisplay[NMAG !ID SHOP qui]: %NAME%%NL%%GOLD%Ormus' Robes%NL%Spirit Shroud%NL%Greyform
-ItemDisplay[NMAG !ID SHOP lea]: %NAME%%NL%%GOLD%Skin of the Vipermagi%NL%Blinkbat's Form
-ItemDisplay[NMAG !ID SHOP hla]: %NAME%%NL%%GOLD%Skin of the Flayed One%NL%The Centurion
-ItemDisplay[NMAG !ID SHOP stu]: %NAME%%NL%%GOLD%The Gladiator's Bane%NL%Iron Pelt%NL%Twitchthroe
-ItemDisplay[NMAG !ID SHOP rng]: %NAME%%NL%%GOLD%Spirit Forge%NL%Darkglow
-ItemDisplay[NMAG !ID SHOP scl]: %NAME%%NL%%GOLD%Crow Caw%NL%Hawkmail
-ItemDisplay[NMAG !ID SHOP brs]: %NAME%%NL%%GOLD%Duriel's Shell%NL%Venom Ward
-ItemDisplay[NMAG !ID SHOP chn]: %NAME%%NL%%GOLD%Shaftstop%NL%Sparking Mail
-ItemDisplay[NMAG !ID SHOP spl]: %NAME%%NL%%GOLD%Arkaine's Valor%NL%Skullder's Ire%NL%Iceblink
-ItemDisplay[NMAG !ID SHOP ltp]: %NAME%%NL%%GOLD%Purgatory%NL%Que-Hegan's Wisdom%NL%Heavenly Garb
-ItemDisplay[NMAG !ID SHOP fld]: %NAME%%NL%%GOLD%Leviathan%NL%Toothrow%NL%Rockfleece
-ItemDisplay[NMAG !ID SHOP plt]: %NAME%%NL%%GOLD%Guardian Angel%NL%Boneflesh
-ItemDisplay[NMAG !ID SHOP gth]: %NAME%%NL%%GOLD%Atma's Wail%NL%Rattlecage
-ItemDisplay[NMAG !ID SHOP ful]: %NAME%%NL%%GOLD%Steel Carapace%NL%Black Hades%NL%Goldskin
-ItemDisplay[NMAG !ID SHOP aar]: %NAME%%NL%%GOLD%Tyrael's Might%NL%Templar's Might%NL%Corpsemourn%NL%Silks of the Victor
-ItemDisplay[NMAG !ID SHOP lbl]: %NAME%%NL%%GOLD%Arachnid Mesh%NL%String of Ears%NL%Lenymo
-ItemDisplay[NMAG !ID SHOP vbl]: %NAME%%NL%%GOLD%Nosferatu's Coil%NL%Razortail%NL%Snakecord
-ItemDisplay[NMAG !ID SHOP mbl]: %NAME%%NL%%GOLD%Verdungo's Hearty Cord%NL%Gloom's Trap%NL%Nightsmoke
-ItemDisplay[NMAG !ID SHOP tbl]: %NAME%%NL%%GOLD%Snowclash%NL%Goldwrap
-ItemDisplay[NMAG !ID SHOP hbl]: %NAME%%NL%%GOLD%Thundergod's Vigor%NL%Bladebuckle
-ItemDisplay[NMAG !ID SHOP lbt]: %NAME%%NL%%GOLD%Merman's Sprocket%NL%Infernostride%NL%Hotspur
-ItemDisplay[NMAG !ID SHOP vbt]: %NAME%%NL%%GOLD%Sandstorm Trek%NL%Waterwalk%NL%Gorefoot
-ItemDisplay[NMAG !ID SHOP mbt]: %NAME%%NL%%GOLD%Marrowwalk%NL%Silkweave%NL%Treads of Cthon
-ItemDisplay[NMAG !ID SHOP tbt]: %NAME%%NL%%GOLD%War Traveler%NL%Goblin Toe
-ItemDisplay[NMAG !ID SHOP hbt]: %NAME%%NL%%GOLD%Shadow Dancer%NL%Gore Rider%NL%Tearhaunch
-ItemDisplay[NMAG !ID SHOP lgl]: %NAME%%NL%%GOLD%Venom Grip%NL%The Hand of Broc
-ItemDisplay[NMAG !ID SHOP vgl]: %NAME%%NL%%GOLD%Dracul's Grasp%NL%Gravepalm%NL%Bloodfist
-ItemDisplay[NMAG !ID SHOP mgl]: %NAME%%NL%%GOLD%Soul Drainer%NL%Ghoulhide%NL%Chance Guards
-ItemDisplay[NMAG !ID SHOP tgl]: %NAME%%NL%%GOLD%Occultist%NL%Lava Gout%NL%Magefist
-ItemDisplay[NMAG !ID SHOP hgl]: %NAME%%NL%%GOLD%Steelrend%NL%Hellmouth%NL%Frostburn
-ItemDisplay[NMAG !ID SHOP cap]: %NAME%%NL%%GOLD%Harlequin Crest%NL%Peasant Crown%NL%Biggin's Bonnet
-ItemDisplay[NMAG !ID SHOP skp]: %NAME%%NL%%GOLD%Rockstopper%NL%Tarnhelm
-ItemDisplay[NMAG !ID SHOP hlm]: %NAME%%NL%%GOLD%Steel Shade%NL%Stealskull%NL%Coif of Glory
-ItemDisplay[NMAG !ID SHOP fhl]: %NAME%%NL%%GOLD%Darksight Helm%NL%Duskdeep
-ItemDisplay[NMAG !ID SHOP ghm]: %NAME%%NL%%GOLD%Nightwing's Veil%NL%Veil of Steel%NL%Valkyrie Wing%NL%Howltusk
-ItemDisplay[NMAG !ID SHOP msk]: %NAME%%NL%%GOLD%Andariel's Visage%NL%Blackhorn's Face%NL%The Face of Horror
-ItemDisplay[NMAG !ID SHOP crn]: %NAME%%NL%%GOLD%Crown of Ages%NL%Crown of Thieves%NL%Undead Crown
-ItemDisplay[NMAG !ID SHOP bhm]: %NAME%%NL%%GOLD%Giant Skull%NL%Vampire Gaze%NL%Wormskull
-ItemDisplay[NMAG !ID SHOP buc]: %NAME%%NL%%GOLD%Visceratuant%NL%Pelta Lunata
-ItemDisplay[NMAG !ID SHOP sml]: %NAME%%NL%%GOLD%Blackoak Shield%NL%Moser's Blessed Circle%NL%Umbral Disk
-ItemDisplay[NMAG !ID SHOP lrg]: %NAME%%NL%%GOLD%Stormchaser%NL%Stormguild
-ItemDisplay[NMAG !ID SHOP kit]: %NAME%%NL%%GOLD%Stormshield%NL%Tiamat's Rebuke%NL%Steelclash
-ItemDisplay[NMAG !ID SHOP spk]: %NAME%%NL%%GOLD%Spike Thorn%NL%Lance Guard%NL%Swordback Hold
-ItemDisplay[NMAG !ID SHOP tow]: %NAME%%NL%%GOLD%Medusa's Gaze%NL%Gerke's Sanctuary%NL%Bverrit Keep
-ItemDisplay[NMAG !ID SHOP bsh]: %NAME%%NL%%GOLD%Head Hunter's Glory%NL%Lidless Wall%NL%Wall of the Eyeless
-ItemDisplay[NMAG !ID SHOP gts]: %NAME%%NL%%GOLD%Spirit Ward%NL%Radament's Sphere%NL%The Ward
-ItemDisplay[NMAG !ID SHOP hax]: %NAME%%NL%%GOLD%Razor's Edge%NL%Coldkill%NL%The Gnasher
-ItemDisplay[NMAG !ID SHOP axe]: %NAME%%NL%%GOLD%Butcher's Pupil%NL%Deathspade
-ItemDisplay[NMAG !ID SHOP 2ax]: %NAME%%NL%%GOLD%Rune Master%NL%Islestrike%NL%Bladebone
-ItemDisplay[NMAG !ID SHOP mpi]: %NAME%%NL%%GOLD%Cranebeak%NL%Pompeii's Wrath%NL%Skull Splitter
-ItemDisplay[NMAG !ID SHOP wax]: %NAME%%NL%%GOLD%Death Cleaver%NL%Guardian Naga%NL%Rakescar
-ItemDisplay[NMAG !ID SHOP lax]: %NAME%%NL%%GOLD%Warlord's Trust%NL%Axe of Fechmar
-ItemDisplay[NMAG !ID SHOP bax]: %NAME%%NL%%GOLD%Ethereal Edge%NL%Spellsteel%NL%Goreshovel
-ItemDisplay[NMAG !ID SHOP btx]: %NAME%%NL%%GOLD%Hellslayer%NL%Stormrider%NL%The Chieftain
-ItemDisplay[NMAG !ID SHOP gax]: %NAME%%NL%%GOLD%Messerschmidt's Reaver%NL%Boneslayer Blade%NL%Brainhew
-ItemDisplay[NMAG !ID SHOP gix]: %NAME%%NL%%GOLD%Executioner's Justice%NL%The Minotaur%NL%Humongous
-ItemDisplay[NMAG !ID SHOP sbw]: %NAME%%NL%%GOLD%Skystrike%NL%Pluckeye
-ItemDisplay[NMAG !ID SHOP hbw]: %NAME%%NL%%GOLD%Riphook%NL%Witherstring
-ItemDisplay[NMAG !ID SHOP lbw]: %NAME%%NL%%GOLD%Kuko Shakaku%NL%Raven Claw
-ItemDisplay[NMAG !ID SHOP cbw]: %NAME%%NL%%GOLD%Endlesshail%NL%Rogue's Bow
-ItemDisplay[NMAG !ID SHOP sbb]: %NAME%%NL%%GOLD%Witchwild String%NL%Stormstrike
-ItemDisplay[NMAG !ID SHOP lbb]: %NAME%%NL%%GOLD%Eaglehorn%NL%Cliffkiller%NL%Wizendraw
-ItemDisplay[NMAG !ID SHOP swb]: %NAME%%NL%%GOLD%Widowmaker%NL%Magewrath%NL%Hellclap
-ItemDisplay[NMAG !ID SHOP lwb]: %NAME%%NL%%GOLD%Windforce%NL%Goldstrike Arch%NL%Blastbark
-ItemDisplay[NMAG !ID SHOP lxb]: %NAME%%NL%%GOLD%Langer Briser%NL%Leadcrow
-ItemDisplay[NMAG !ID SHOP mxb]: %NAME%%NL%%GOLD%Pus Spitter%NL%Ichorsting
-ItemDisplay[NMAG !ID SHOP hxb]: %NAME%%NL%%GOLD%Hellrack%NL%Buriza-Do Kyanon%NL%Hellcast
-ItemDisplay[NMAG !ID SHOP rxb]: %NAME%%NL%%GOLD%Gut Siphon%NL%Demon Machine%NL%Doomslinger
-ItemDisplay[NMAG !ID SHOP dgr]: %NAME%%NL%%GOLD%Wizardspike%NL%Spineripper%NL%Gull
-ItemDisplay[NMAG !ID SHOP dir]: %NAME%%NL%%GOLD%Heart Carver%NL%The Diggler
-ItemDisplay[NMAG !ID SHOP kri]: %NAME%%NL%%GOLD%Fleshripper%NL%Blackbog's Sharp%NL%The Jade Tan Do
-ItemDisplay[NMAG !ID SHOP bld]: %NAME%%NL%%GOLD%Ghostflame%NL%Stormspike%NL%Spectral Shard
-// ItemDisplay[NMAG !ID SHOP jav]: %NAME%
-// ItemDisplay[NMAG !ID SHOP pil]: %NAME%
-ItemDisplay[NMAG !ID SHOP ssp]: %NAME%%NL%%GOLD%Demon's Arch
-ItemDisplay[NMAG !ID SHOP glv]: %NAME%%NL%%GOLD%Wraith Flight
-ItemDisplay[NMAG !ID SHOP tsp]: %NAME%%NL%%GOLD%Gargoyle's Bite
-ItemDisplay[NMAG !ID SHOP clb]: %NAME%%NL%%GOLD%Nord's Tenderizer%NL%Dark Clan Crusher%NL%Felloak
-ItemDisplay[NMAG !ID SHOP spc]: %NAME%%NL%%GOLD%Demon Limb%NL%Fleshrender%NL%Stoutnail
-ItemDisplay[NMAG !ID SHOP mac]: %NAME%%NL%%GOLD%Sureshrill Frost%NL%Crushflange
-ItemDisplay[NMAG !ID SHOP mst]: %NAME%%NL%%GOLD%Baranar's Star%NL%Moonfall%NL%Bloodrise
-ItemDisplay[NMAG !ID SHOP fla]: %NAME%%NL%%GOLD%Stormlash%NL%Horizon's Tornado%NL%Baezil's Vortex%NL%The General's Tan Do Li Ga
-ItemDisplay[NMAG !ID SHOP whm]: %NAME%%NL%%GOLD%Schaefer's Hammer%NL%Stone Crusher%NL%Earthshaker%NL%Ironstone
-ItemDisplay[NMAG !ID SHOP mau]: %NAME%%NL%%GOLD%Windhammer%NL%Bloodtree Stump%NL%Bonesnap
-ItemDisplay[NMAG !ID SHOP gma]: %NAME%%NL%%GOLD%The Cranium Basher%NL%Earth Shifter%NL%The Gavel of Pain%NL%Steeldriver
-ItemDisplay[NMAG !ID SHOP bar]: %NAME%%NL%%GOLD%Bonehew%NL%The Meat Scraper%NL%Dimoak's Hew
-ItemDisplay[NMAG !ID SHOP vou]: %NAME%%NL%%GOLD%Blackleach Blade%NL%Steelgoad
-ItemDisplay[NMAG !ID SHOP scy]: %NAME%%NL%%GOLD%The Reaper's Toll%NL%Athena's Wrath%NL%Soul Harvest
-ItemDisplay[NMAG !ID SHOP pax]: %NAME%%NL%%GOLD%Tomb Reaver%NL%Pierre Tombale Couant%NL%The Battlebranch
-ItemDisplay[NMAG !ID SHOP hal]: %NAME%%NL%%GOLD%Husoldal Evo%NL%Woestave
-ItemDisplay[NMAG !ID SHOP wsc]: %NAME%%NL%%GOLD%Stormspire%NL%Grim's Burning Dead%NL%The Grim Reaper
-ItemDisplay[NMAG !ID SHOP scp]: %NAME%%NL%%GOLD%The Redeemer%NL%Heaven's Light%NL%Zakarum's Hand%NL%Knell Striker
-ItemDisplay[NMAG !ID SHOP gsc]: %NAME%%NL%%GOLD%Akarat's Devotion%NL%The Fetid Sprinkler%NL%Rusthandle
-ItemDisplay[NMAG !ID SHOP wsp]: %NAME%%NL%%GOLD%Astreon's Iron Ward%NL%Hand of Blessed Light%NL%Stormeye
-ItemDisplay[NMAG !ID SHOP spr]: %NAME%%NL%%GOLD%Arioc's Needle%NL%The Impaler%NL%The Dragon Chang
-ItemDisplay[NMAG !ID SHOP tri]: %NAME%%NL%%GOLD%Kelpie Snare%NL%Razortine
-ItemDisplay[NMAG !ID SHOP brn]: %NAME%%NL%%GOLD%Viperfork%NL%Soulfeast Tine%NL%Bloodthief
-ItemDisplay[NMAG !ID SHOP spt]: %NAME%%NL%%GOLD%Uldyssian's Awakening%NL%Hone Sundan%NL%Lance of Yaggai
-ItemDisplay[NMAG !ID SHOP pik]: %NAME%%NL%%GOLD%Steel Pillar%NL%Spire of Honor%NL%The Tannr Gorerod
-ItemDisplay[NMAG !ID SHOP sst]: %NAME%%NL%%GOLD%Razorswitch%NL%Bane Ash
-ItemDisplay[NMAG !ID SHOP lst]: %NAME%%NL%%GOLD%Ribcracker%NL%Serpent Lord
-ItemDisplay[NMAG !ID SHOP cst]: %NAME%%NL%%GOLD%Ondal's Wisdom%NL%Chromatic Ire%NL%Spire of Lazarus
-ItemDisplay[NMAG !ID SHOP bst]: %NAME%%NL%%GOLD%Brimstone Rain%NL%Warpspear%NL%The Salamander
-ItemDisplay[NMAG !ID SHOP wst]: %NAME%%NL%%GOLD%Mang Song's Lesson%NL%Skull Collector%NL%The Iron Jang Bong
-ItemDisplay[NMAG !ID SHOP ssd]: %NAME%%NL%%GOLD%Bloodletter%NL%Rixot's Keen
-ItemDisplay[NMAG !ID SHOP scm]: %NAME%%NL%%GOLD%Djinn Slayer%NL%Coldsteel Eye%NL%Blood Crescent
-ItemDisplay[NMAG !ID SHOP sbr]: %NAME%%NL%%GOLD%Bloodmoon%NL%Hexfire%NL%Skewer of Krintiz
-ItemDisplay[NMAG !ID SHOP flc]: %NAME%%NL%%GOLD%Blade of Ali Baba%NL%Gleamscythe
-ItemDisplay[NMAG !ID SHOP crs]: %NAME%%NL%%GOLD%Lightsabre%NL%Azurewrath%NL%Ginther's Rift
-ItemDisplay[NMAG !ID SHOP bsd]: %NAME%%NL%%GOLD%Headstriker%NL%Griswold's Edge
-ItemDisplay[NMAG !ID SHOP lsd]: %NAME%%NL%%GOLD%Frostwind%NL%Plague Bearer%NL%Hellplague
-ItemDisplay[NMAG !ID SHOP wsd]: %NAME%%NL%%GOLD%The Atlantean%NL%Culwen's Point
-ItemDisplay[NMAG !ID SHOP 2hs]: %NAME%%NL%%GOLD%Crainte Vomir%NL%Shadowfang
-ItemDisplay[NMAG !ID SHOP clm]: %NAME%%NL%%GOLD%Leoric's Mithril Bane%NL%Bing Sz Wang%NL%Soulflay
-ItemDisplay[NMAG !ID SHOP gis]: %NAME%%NL%%GOLD%Flamebellow%NL%The Vile Husk%NL%Kinemil's Awl
-ItemDisplay[NMAG !ID SHOP bsw]: %NAME%%NL%%GOLD%Doombringer%NL%Cloudcrack%NL%Blacktongue
-ItemDisplay[NMAG !ID SHOP flb]: %NAME%%NL%%GOLD%Odium%NL%Todesfaelle Flamme%NL%Ripsaw
-ItemDisplay[NMAG !ID SHOP gsd]: %NAME%%NL%%GOLD%The Grandfather%NL%Swordguard%NL%The Patriarch
-ItemDisplay[NMAG !ID SHOP tkf]: %NAME%%NL%%GOLD%Deathbit
-ItemDisplay[NMAG !ID SHOP bkf]: %NAME%%NL%%GOLD%Warshrike
-ItemDisplay[NMAG !ID SHOP tax]: %NAME%%NL%%GOLD%Gimmershred%NL%The Scalper
-ItemDisplay[NMAG !ID SHOP bal]: %NAME%%NL%%GOLD%Lacerator
-ItemDisplay[NMAG !ID SHOP wnd]: %NAME%%NL%%GOLD%Suicide Branch%NL%Torch of Iro
-ItemDisplay[NMAG !ID SHOP ywn]: %NAME%%NL%%GOLD%Carin Shard%NL%Maelstrom
-ItemDisplay[NMAG !ID SHOP bwn]: %NAME%%NL%%GOLD%Boneshade%NL%Arm of King Leoric%NL%Gravenspine
-ItemDisplay[NMAG !ID SHOP gwn]: %NAME%%NL%%GOLD%Death's Web%NL%Blackhand Key%NL%Ume's Lament
+ItemDisplay[NMAG !ID SHOP amu]: %GOLD%Rising Sun%NL%Mahim-Oak Curio%NL%Eye of Etlich%NL%Cat's Eye%NL%Seraph's Hymn%NL%Saracen's Chance%NL%Nokozan Relic%NL%Metalgrid%NL%Mara's Kaleidoscope%NL%Highlord's Wrath%NL%Crescent Moon%NL%Atma's Scarab%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP jew]: %GOLD%Rainbow Facet%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ci0]: %GOLD%Kira's Guardian%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ci1]: %GOLD%Griffon's Eye%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP rin]: %GOLD%Wisp Projector%NL%Stone of Jordan%NL%Raven Frost%NL%Nature's Peace%NL%Nagelring%NL%Manald Heal%NL%Dwarf Star%NL%Carrion Wind%NL%Bul-Kathos' Wedding Band%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP am1]: %GOLD%Blood Raven's Charge%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP am2]: %GOLD%Lycander's Aim%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP am5]: %GOLD%Thunderstroke%NL%Titan's Revenge%NL%True Silver%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP am3]: %GOLD%Stoneraven%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP am4]: %GOLD%Zerae's Resolve%NL%Lycander's Flank%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ktr]: %GOLD%Mage Slayer%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP wrb]: %GOLD%Jade Talon%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ces]: %GOLD%Shadow Killer%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP clw]: %GOLD%Firelizard's Talons%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP btl]: %GOLD%Stalker's Cull%NL%Bartuc's Cut-Throat%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ba1]: %GOLD%Cyclopean Roar%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ba2]: %GOLD%Wolfhowl%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ba3]: %GOLD%Demonhorn's Edge%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ba4]: %GOLD%Halaberd's Reign%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ba5]: %GOLD%Raekor's Virtue%NL%Arreat's Face%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP dr1]: %GOLD%Cerebus' Bite%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP dr2]: %GOLD%Quetzalcoatl%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP dr3]: %GOLD%Spirit Keeper%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP dr4]: %GOLD%Ravenlore%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP dr5]: %GOLD%Ursa's Nightmare%NL%Jalal's Mane%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ne1]: %GOLD%Kalan's Legacy%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ne3]: %GOLD%Martyrdom%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ne4]: %GOLD%Boneflame%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ne5]: %GOLD%Darkforce Spawn%NL%Homunculus%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP pa2]: %GOLD%Alma Negra%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP pa3]: %GOLD%Sankekur's Fall%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP pa4]: %GOLD%Dragonscale%NL%Herald of Zakarum%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ob1]: %GOLD%Tempest%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ob2]: %GOLD%Eschuta's Temper%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ob5]: %GOLD%Death's Fathom%NL%The Oculus%NL%%WHITE%%NAME%%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP qui]: %GOLD%Ormus' Robes%NL%Spirit Shroud%NL%Greyform%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP lea]: %GOLD%Skin of the Vipermagi%NL%Blinkbat's Form%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP hla]: %GOLD%Skin of the Flayed One%NL%The Centurion%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP stu]: %GOLD%The Gladiator's Bane%NL%Iron Pelt%NL%Twitchthroe%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP rng]: %GOLD%Spirit Forge%NL%Darkglow%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP scl]: %GOLD%Crow Caw%NL%Hawkmail%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP brs]: %GOLD%Duriel's Shell%NL%Venom Ward%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP chn]: %GOLD%Shaftstop%NL%Sparking Mail%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP spl]: %GOLD%Arkaine's Valor%NL%Skullder's Ire%NL%Iceblink%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ltp]: %GOLD%Purgatory%NL%Que-Hegan's Wisdom%NL%Heavenly Garb%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP fld]: %GOLD%Leviathan%NL%Toothrow%NL%Rockfleece%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP plt]: %GOLD%Guardian Angel%NL%Boneflesh%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP gth]: %GOLD%Atma's Wail%NL%Rattlecage%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ful]: %GOLD%Steel Carapace%NL%Black Hades%NL%Goldskin%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP aar]: %GOLD%Tyrael's Might%NL%Templar's Might%NL%Corpsemourn%NL%Silks of the Victor%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP lbl]: %GOLD%Arachnid Mesh%NL%String of Ears%NL%Lenymo%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP vbl]: %GOLD%Nosferatu's Coil%NL%Razortail%NL%Snakecord%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP mbl]: %GOLD%Verdungo's Hearty Cord%NL%Gloom's Trap%NL%Nightsmoke%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP tbl]: %GOLD%Snowclash%NL%Goldwrap%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP hbl]: %GOLD%Thundergod's Vigor%NL%Bladebuckle%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP lbt]: %GOLD%Merman's Sprocket%NL%Infernostride%NL%Hotspur%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP vbt]: %GOLD%Sandstorm Trek%NL%Waterwalk%NL%Gorefoot%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP mbt]: %GOLD%Marrowwalk%NL%Silkweave%NL%Treads of Cthon%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP tbt]: %GOLD%War Traveler%NL%Goblin Toe%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP hbt]: %GOLD%Shadow Dancer%NL%Gore Rider%NL%Tearhaunch%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP lgl]: %GOLD%Venom Grip%NL%The Hand of Broc%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP vgl]: %GOLD%Dracul's Grasp%NL%Gravepalm%NL%Bloodfist%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP mgl]: %GOLD%Soul Drainer%NL%Ghoulhide%NL%Chance Guards%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP tgl]: %GOLD%Occultist%NL%Lava Gout%NL%Magefist%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP hgl]: %GOLD%Steelrend%NL%Hellmouth%NL%Frostburn%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP cap]: %GOLD%Harlequin Crest%NL%Peasant Crown%NL%Biggin's Bonnet%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP skp]: %GOLD%Rockstopper%NL%Tarnhelm%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP hlm]: %GOLD%Steel Shade%NL%Stealskull%NL%Coif of Glory%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP fhl]: %GOLD%Darksight Helm%NL%Duskdeep%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ghm]: %GOLD%Nightwing's Veil%NL%Veil of Steel%NL%Valkyrie Wing%NL%Howltusk%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP msk]: %GOLD%Andariel's Visage%NL%Blackhorn's Face%NL%The Face of Horror%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP crn]: %GOLD%Crown of Ages%NL%Crown of Thieves%NL%Undead Crown%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP bhm]: %GOLD%Giant Skull%NL%Vampire Gaze%NL%Wormskull%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP buc]: %GOLD%Visceratuant%NL%Pelta Lunata%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP sml]: %GOLD%Blackoak Shield%NL%Moser's Blessed Circle%NL%Umbral Disk%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP lrg]: %GOLD%Stormchaser%NL%Stormguild%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP kit]: %GOLD%Stormshield%NL%Tiamat's Rebuke%NL%Steelclash%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP spk]: %GOLD%Spike Thorn%NL%Lance Guard%NL%Swordback Hold%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP tow]: %GOLD%Medusa's Gaze%NL%Gerke's Sanctuary%NL%Bverrit Keep%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP bsh]: %GOLD%Head Hunter's Glory%NL%Lidless Wall%NL%Wall of the Eyeless%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP gts]: %GOLD%Spirit Ward%NL%Radament's Sphere%NL%The Ward%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP hax]: %GOLD%Razor's Edge%NL%Coldkill%NL%The Gnasher%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP axe]: %GOLD%Butcher's Pupil%NL%Deathspade%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP 2ax]: %GOLD%Rune Master%NL%Islestrike%NL%Bladebone%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP mpi]: %GOLD%Cranebeak%NL%Pompeii's Wrath%NL%Skull Splitter%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP wax]: %GOLD%Death Cleaver%NL%Guardian Naga%NL%Rakescar%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP lax]: %GOLD%Warlord's Trust%NL%Axe of Fechmar%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP bax]: %GOLD%Ethereal Edge%NL%Spellsteel%NL%Goreshovel%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP btx]: %GOLD%Hellslayer%NL%Stormrider%NL%The Chieftain%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP gax]: %GOLD%Messerschmidt's Reaver%NL%Boneslayer Blade%NL%Brainhew%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP gix]: %GOLD%Executioner's Justice%NL%The Minotaur%NL%Humongous%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP sbw]: %GOLD%Skystrike%NL%Pluckeye%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP hbw]: %GOLD%Riphook%NL%Witherstring%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP lbw]: %GOLD%Kuko Shakaku%NL%Raven Claw%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP cbw]: %GOLD%Endlesshail%NL%Rogue's Bow%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP sbb]: %GOLD%Witchwild String%NL%Stormstrike%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP lbb]: %GOLD%Eaglehorn%NL%Cliffkiller%NL%Wizendraw%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP swb]: %GOLD%Widowmaker%NL%Magewrath%NL%Hellclap%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP lwb]: %GOLD%Windforce%NL%Goldstrike Arch%NL%Blastbark%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP lxb]: %GOLD%Langer Briser%NL%Leadcrow%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP mxb]: %GOLD%Pus Spitter%NL%Ichorsting%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP hxb]: %GOLD%Hellrack%NL%Buriza-Do Kyanon%NL%Hellcast%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP rxb]: %GOLD%Gut Siphon%NL%Demon Machine%NL%Doomslinger%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP dgr]: %GOLD%Wizardspike%NL%Spineripper%NL%Gull%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP dir]: %GOLD%Heart Carver%NL%The Diggler%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP kri]: %GOLD%Fleshripper%NL%Blackbog's Sharp%NL%The Jade Tan Do%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP bld]: %GOLD%Ghostflame%NL%Stormspike%NL%Spectral Shard%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ssp]: %GOLD%Demon's Arch%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP glv]: %GOLD%Wraith Flight%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP tsp]: %GOLD%Gargoyle's Bite%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP clb]: %GOLD%Nord's Tenderizer%NL%Dark Clan Crusher%NL%Felloak%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP spc]: %GOLD%Demon Limb%NL%Fleshrender%NL%Stoutnail%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP mac]: %GOLD%Sureshrill Frost%NL%Crushflange%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP mst]: %GOLD%Baranar's Star%NL%Moonfall%NL%Bloodrise%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP fla]: %GOLD%Stormlash%NL%Horizon's Tornado%NL%Baezil's Vortex%NL%The General's Tan Do Li Ga%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP whm]: %GOLD%Schaefer's Hammer%NL%Stone Crusher%NL%Earthshaker%NL%Ironstone%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP mau]: %GOLD%Windhammer%NL%Bloodtree Stump%NL%Bonesnap%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP gma]: %GOLD%The Cranium Basher%NL%Earth Shifter%NL%The Gavel of Pain%NL%Steeldriver%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP bar]: %GOLD%Bonehew%NL%The Meat Scraper%NL%Dimoak's Hew%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP vou]: %GOLD%Blackleach Blade%NL%Steelgoad%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP scy]: %GOLD%The Reaper's Toll%NL%Athena's Wrath%NL%Soul Harvest%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP pax]: %GOLD%Tomb Reaver%NL%Pierre Tombale Couant%NL%The Battlebranch%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP hal]: %GOLD%Husoldal Evo%NL%Woestave%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP wsc]: %GOLD%Stormspire%NL%Grim's Burning Dead%NL%The Grim Reaper%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP scp]: %GOLD%The Redeemer%NL%Heaven's Light%NL%Zakarum's Hand%NL%Knell Striker%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP gsc]: %GOLD%Akarat's Devotion%NL%The Fetid Sprinkler%NL%Rusthandle%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP wsp]: %GOLD%Astreon's Iron Ward%NL%Hand of Blessed Light%NL%Stormeye%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP spr]: %GOLD%Arioc's Needle%NL%The Impaler%NL%The Dragon Chang%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP tri]: %GOLD%Kelpie Snare%NL%Razortine%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP brn]: %GOLD%Viperfork%NL%Soulfeast Tine%NL%Bloodthief%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP spt]: %GOLD%Uldyssian's Awakening%NL%Hone Sundan%NL%Lance of Yaggai%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP pik]: %GOLD%Steel Pillar%NL%Spire of Honor%NL%The Tannr Gorerod%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP sst]: %GOLD%Razorswitch%NL%Bane Ash%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP lst]: %GOLD%Ribcracker%NL%Serpent Lord%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP cst]: %GOLD%Ondal's Wisdom%NL%Chromatic Ire%NL%Spire of Lazarus%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP bst]: %GOLD%Brimstone Rain%NL%Warpspear%NL%The Salamander%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP wst]: %GOLD%Mang Song's Lesson%NL%Skull Collector%NL%The Iron Jang Bong%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ssd]: %GOLD%Bloodletter%NL%Rixot's Keen%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP scm]: %GOLD%Djinn Slayer%NL%Coldsteel Eye%NL%Blood Crescent%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP sbr]: %GOLD%Bloodmoon%NL%Hexfire%NL%Skewer of Krintiz%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP flc]: %GOLD%Blade of Ali Baba%NL%Gleamscythe%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP crs]: %GOLD%Lightsabre%NL%Azurewrath%NL%Ginther's Rift%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP bsd]: %GOLD%Headstriker%NL%Griswold's Edge%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP lsd]: %GOLD%Frostwind%NL%Plague Bearer%NL%Hellplague%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP wsd]: %GOLD%The Atlantean%NL%Culwen's Point%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP 2hs]: %GOLD%Crainte Vomir%NL%Shadowfang%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP clm]: %GOLD%Leoric's Mithril Bane%NL%Bing Sz Wang%NL%Soulflay%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP gis]: %GOLD%Flamebellow%NL%The Vile Husk%NL%Kinemil's Awl%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP bsw]: %GOLD%Doombringer%NL%Cloudcrack%NL%Blacktongue%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP flb]: %GOLD%Odium%NL%Todesfaelle Flamme%NL%Ripsaw%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP gsd]: %GOLD%The Grandfather%NL%Swordguard%NL%The Patriarch%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP tkf]: %GOLD%Deathbit%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP bkf]: %GOLD%Warshrike%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP tax]: %GOLD%Gimmershred%NL%The Scalper%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP bal]: %GOLD%Lacerator%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP wnd]: %GOLD%Suicide Branch%NL%Torch of Iro%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ywn]: %GOLD%Carin Shard%NL%Maelstrom%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP bwn]: %GOLD%Boneshade%NL%Arm of King Leoric%NL%Gravenspine%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP gwn]: %GOLD%Death's Web%NL%Blackhand Key%NL%Ume's Lament%NL%%WHITE%%NAME%
 
 //Quest Items
 ItemDisplay[bks]: %NAME%{%TAN%Now rests Treehead Woodfist%NL%Ageless, protected by Wilds%NL%Torn bark of the Sacred Tree}
@@ -1641,628 +1633,634 @@ ItemDisplay[NMAG !RW TABSK2=2]: %DARK_GREEN%+2 Jav %WHITE%%NAME%{%NAME%}%CONTINU
 ItemDisplay[NMAG !RW TABSK2=3]: %DARK_GREEN%+3 Jav %WHITE%%NAME%{%NAME%}%CONTINUE%
 
 // --- // --- Assassin --- \\ --- \\
-ItemDisplay[NMAG !RW (SK251>0 OR SK252>0 OR SK253>0 OR SK254>0 OR SK255>0 OR SK256>0 OR SK257>0 OR SK258>0 OR SK259>0 OR SK260>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %NAME%%NL%%DARK_GREEN%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK251>0 OR SK252>0 OR SK253>0 OR SK254>0 OR SK255>0 OR SK256>0 OR SK257>0 OR SK258>0 OR SK259>0 OR SK260>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0) CLVL<21]: %NL%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK251>1 OR SK252>1 OR SK253>1 OR SK254>1 OR SK255>1 OR SK256>1 OR SK257>1 OR SK258>1 OR SK259>1 OR SK260>1 OR SK261>1 OR SK262>1 OR SK263>1 OR SK264>1 OR SK265>1 OR SK266>1 OR SK267>1 OR SK268>1 OR SK269>1 OR SK270>1 OR SK271>1 OR SK272>1 OR SK273>1 OR SK274>1 OR SK275>1 OR SK276>1 OR SK277>1 OR SK278>1 OR SK279>1 OR SK280>1 OR SK366>1) CLVL>20]: %NL%%NAME%{%NAME%}%CONTINUE%
 
 //+3
-ItemDisplay[NMAG !RW SK366=3]: %NAME% +3 L.Sen{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK280=3]: %NAME% +3 Phnx{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK279=3]: %NAME% +3 S.Mas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK278=3]: %NAME% +3 Venom{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK277=3]: %NAME% +3 BShld{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK276=3]: %NAME% +3 D.Sen{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK275=3]: %NAME% +3 D.Fli{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK274=3]: %NAME% +3 B.Ice{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK273=3]: %NAME% +3 MindB{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK272=3]: %NAME% +3 WakeI{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK271=3]: %NAME% +3 CLSen{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK270=3]: %NAME% +3 DTail{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK269=3]: %NAME% +3 ClwTh{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK268=3]: %NAME% +3 S.War{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK267=3]: %NAME% +3 Fade{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK266=3]: %NAME% +3 BFury{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK265=3]: %NAME% +3 Cobra{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK264=3]: %NAME% +3 Cloak{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK263=3]: %NAME% +3 WpBlk{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK262=3]: %NAME% +3 WakeF{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK261=3]: %NAME% +3 CBSen{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK260=3]: %NAME% +3 D.Clw{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK259=3]: %NAME% +3 FstFr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK258=3]: %NAME% +3 B.Spd{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK257=3]: %NAME% +3 BSent{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK256=3]: %NAME% +3 ShWeb{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK255=3]: %NAME% +3 D.Tal{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK254=3]: %NAME% +3 TgStr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK253=3]: %NAME% +3 PsyHm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK252=3]: %NAME% +3 CDMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK251=3]: %NAME% +3 FrBls{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK366=3]: %DARK_GREEN%+3 L.Sen %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK280=3]: %DARK_GREEN%+3 Phnx %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK279=3]: %DARK_GREEN%+3 S.Mas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK278=3]: %DARK_GREEN%+3 Venom %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK277=3]: %DARK_GREEN%+3 BShld %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK276=3]: %DARK_GREEN%+3 D.Sen %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK275=3]: %DARK_GREEN%+3 D.Fli %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK274=3]: %DARK_GREEN%+3 B.Ice %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK273=3]: %DARK_GREEN%+3 MindB %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK272=3]: %DARK_GREEN%+3 WakeI %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK271=3]: %DARK_GREEN%+3 CLSen %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK270=3]: %DARK_GREEN%+3 DTail %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK269=3]: %DARK_GREEN%+3 ClwTh %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK268=3]: %DARK_GREEN%+3 S.War %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK267=3]: %DARK_GREEN%+3 Fade %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK266=3]: %DARK_GREEN%+3 BFury %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK265=3]: %DARK_GREEN%+3 Cobra %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK264=3]: %DARK_GREEN%+3 Cloak %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK263=3]: %DARK_GREEN%+3 WpBlk %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK262=3]: %DARK_GREEN%+3 WakeF %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK261=3]: %DARK_GREEN%+3 CBSen %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK260=3]: %DARK_GREEN%+3 D.Clw %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK259=3]: %DARK_GREEN%+3 FstFr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK258=3]: %DARK_GREEN%+3 B.Spd %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK257=3]: %DARK_GREEN%+3 BSent %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK256=3]: %DARK_GREEN%+3 ShWeb %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK255=3]: %DARK_GREEN%+3 D.Tal %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK254=3]: %DARK_GREEN%+3 TgStr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK253=3]: %DARK_GREEN%+3 PsyHm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK252=3]: %DARK_GREEN%+3 CDMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK251=3]: %DARK_GREEN%+3 FrBls %NAME%{%NAME%}%CONTINUE%
 
 //+2
-ItemDisplay[NMAG !RW SK366=2]: %NAME% +2 L.Sen{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK280=2]: %NAME% +2 Phnx{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK279=2]: %NAME% +2 S.Mas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK278=2]: %NAME% +2 Venom{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK277=2]: %NAME% +2 BShld{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK276=2]: %NAME% +2 D.Sen{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK275=2]: %NAME% +2 D.Fli{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK274=2]: %NAME% +2 B.Ice{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK273=2]: %NAME% +2 MindB{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK272=2]: %NAME% +2 WakeI{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK271=2]: %NAME% +2 CLSen{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK270=2]: %NAME% +2 DTail{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK269=2]: %NAME% +2 ClwTh{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK268=2]: %NAME% +2 S.War{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK267=2]: %NAME% +2 Fade{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK266=2]: %NAME% +2 BFury{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK265=2]: %NAME% +2 Cobra{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK264=2]: %NAME% +2 Cloak{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK263=2]: %NAME% +2 WpBlk{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK262=2]: %NAME% +2 WakeF{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK261=2]: %NAME% +2 CBSen{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK260=2]: %NAME% +2 D.Clw{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK259=2]: %NAME% +2 FstFr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK258=2]: %NAME% +2 B.Spd{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK257=2]: %NAME% +2 BSent{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK256=2]: %NAME% +2 ShWeb{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK255=2]: %NAME% +2 D.Tal{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK254=2]: %NAME% +2 TgStr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK253=2]: %NAME% +2 PsyHm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK252=2]: %NAME% +2 CDMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK251=2]: %NAME% +2 FrBls{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK366=2]: %DARK_GREEN%+2 L.Sen %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK280=2]: %DARK_GREEN%+2 Phnx %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK279=2]: %DARK_GREEN%+2 S.Mas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK278=2]: %DARK_GREEN%+2 Venom %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK277=2]: %DARK_GREEN%+2 BShld %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK276=2]: %DARK_GREEN%+2 D.Sen %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK275=2]: %DARK_GREEN%+2 D.Fli %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK274=2]: %DARK_GREEN%+2 B.Ice %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK273=2]: %DARK_GREEN%+2 MindB %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK272=2]: %DARK_GREEN%+2 WakeI %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK271=2]: %DARK_GREEN%+2 CLSen %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK270=2]: %DARK_GREEN%+2 DTail %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK269=2]: %DARK_GREEN%+2 ClwTh %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK268=2]: %DARK_GREEN%+2 S.War %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK267=2]: %DARK_GREEN%+2 Fade %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK266=2]: %DARK_GREEN%+2 BFury %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK265=2]: %DARK_GREEN%+2 Cobra %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK264=2]: %DARK_GREEN%+2 Cloak %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK263=2]: %DARK_GREEN%+2 WpBlk %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK262=2]: %DARK_GREEN%+2 WakeF %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK261=2]: %DARK_GREEN%+2 CBSen %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK260=2]: %DARK_GREEN%+2 D.Clw %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK259=2]: %DARK_GREEN%+2 FstFr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK258=2]: %DARK_GREEN%+2 B.Spd %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK257=2]: %DARK_GREEN%+2 BSent %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK256=2]: %DARK_GREEN%+2 ShWeb %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK255=2]: %DARK_GREEN%+2 D.Tal %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK254=2]: %DARK_GREEN%+2 TgStr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK253=2]: %DARK_GREEN%+2 PsyHm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK252=2]: %DARK_GREEN%+2 CDMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK251=2]: %DARK_GREEN%+2 FrBls %NAME%{%NAME%}%CONTINUE%
 
 //+1
-ItemDisplay[NMAG !RW SK366=1 CLVL<21]: %NAME% +1 L.Sen{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK280=1 CLVL<21]: %NAME% +1 Phnx{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK279=1 CLVL<21]: %NAME% +1 S.Mas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK278=1 CLVL<21]: %NAME% +1 Venom{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK277=1 CLVL<21]: %NAME% +1 BShld{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK276=1 CLVL<21]: %NAME% +1 D.Sen{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK275=1 CLVL<21]: %NAME% +1 D.Fli{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK274=1 CLVL<21]: %NAME% +1 B.Ice{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK273=1 CLVL<21]: %NAME% +1 MindB{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK272=1 CLVL<21]: %NAME% +1 WakeI{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK271=1 CLVL<21]: %NAME% +1 CLSen{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK270=1 CLVL<21]: %NAME% +1 DTail{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK269=1 CLVL<21]: %NAME% +1 ClwTh{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK268=1 CLVL<21]: %NAME% +1 S.War{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK267=1 CLVL<21]: %NAME% +1 Fade{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK266=1 CLVL<21]: %NAME% +1 BFury{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK265=1 CLVL<21]: %NAME% +1 Cobra{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK264=1 CLVL<21]: %NAME% +1 Cloak{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK263=1 CLVL<21]: %NAME% +1 WpBlk{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK262=1 CLVL<21]: %NAME% +1 WakeF{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK261=1 CLVL<21]: %NAME% +1 CBSen{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK260=1 CLVL<21]: %NAME% +1 D.Clw{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK259=1 CLVL<21]: %NAME% +1 FstFr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK258=1 CLVL<21]: %NAME% +1 B.Spd{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK257=1 CLVL<21]: %NAME% +1 BSent{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK256=1 CLVL<21]: %NAME% +1 ShWeb{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK255=1 CLVL<21]: %NAME% +1 D.Tal{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK254=1 CLVL<21]: %NAME% +1 TgStr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK253=1 CLVL<21]: %NAME% +1 PsyHm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK252=1 CLVL<21]: %NAME% +1 CDMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK251=1 CLVL<21]: %NAME% +1 FrBls{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK366=1 CLVL<21]: %DARK_GREEN%+1 L.Sen %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK280=1 CLVL<21]: %DARK_GREEN%+1 Phnx %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK279=1 CLVL<21]: %DARK_GREEN%+1 S.Mas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK278=1 CLVL<21]: %DARK_GREEN%+1 Venom %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK277=1 CLVL<21]: %DARK_GREEN%+1 BShld %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK276=1 CLVL<21]: %DARK_GREEN%+1 D.Sen %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK275=1 CLVL<21]: %DARK_GREEN%+1 D.Fli %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK274=1 CLVL<21]: %DARK_GREEN%+1 B.Ice %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK273=1 CLVL<21]: %DARK_GREEN%+1 MindB %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK272=1 CLVL<21]: %DARK_GREEN%+1 WakeI %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK271=1 CLVL<21]: %DARK_GREEN%+1 CLSen %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK270=1 CLVL<21]: %DARK_GREEN%+1 DTail %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK269=1 CLVL<21]: %DARK_GREEN%+1 ClwTh %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK268=1 CLVL<21]: %DARK_GREEN%+1 S.War %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK267=1 CLVL<21]: %DARK_GREEN%+1 Fade %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK266=1 CLVL<21]: %DARK_GREEN%+1 BFury %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK265=1 CLVL<21]: %DARK_GREEN%+1 Cobra %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK264=1 CLVL<21]: %DARK_GREEN%+1 Cloak %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK263=1 CLVL<21]: %DARK_GREEN%+1 WpBlk %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK262=1 CLVL<21]: %DARK_GREEN%+1 WakeF %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK261=1 CLVL<21]: %DARK_GREEN%+1 CBSen %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK260=1 CLVL<21]: %DARK_GREEN%+1 D.Clw %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK259=1 CLVL<21]: %DARK_GREEN%+1 FstFr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK258=1 CLVL<21]: %DARK_GREEN%+1 B.Spd %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK257=1 CLVL<21]: %DARK_GREEN%+1 BSent %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK256=1 CLVL<21]: %DARK_GREEN%+1 ShWeb %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK255=1 CLVL<21]: %DARK_GREEN%+1 D.Tal %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK254=1 CLVL<21]: %DARK_GREEN%+1 TgStr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK253=1 CLVL<21]: %DARK_GREEN%+1 PsyHm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK252=1 CLVL<21]: %DARK_GREEN%+1 CDMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK251=1 CLVL<21]: %DARK_GREEN%+1 FrBls %NAME%{%NAME%}%CONTINUE%
 
 // --- // --- Barbarian --- \\ --- \\
-ItemDisplay[NMAG !RW (SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK134>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK368>0)]: %NAME%%NL%%DARK_GREEN%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK134>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK368>0) CLVL<21]: %NL%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK126>1 OR SK128>1 OR SK130>1 OR SK131>1 OR SK132>1 OR SK133>1 OR SK135>1 OR SK134>1 OR SK137>1 OR SK138>1 OR SK139>1 OR SK140>1 OR SK141>1 OR SK142>1 OR SK143>1 OR SK144>1 OR SK145>1 OR SK146>1 OR SK147>1 OR SK148>1 OR SK149>1 OR SK150>1 OR SK151>1 OR SK152>1 OR SK153>1 OR SK154>1 OR SK155>1 OR SK368>1) CLVL>20]: %NL%%NAME%{%NAME%}%CONTINUE%
 
 //+3
-ItemDisplay[NMAG !RW SK368=3]: %NAME% +3 D.Wnd{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK155=3]: %NAME% +3 B.Cmd{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK154=3]: %NAME% +3 WrCry{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK153=3]: %NAME% +3 NtRes{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK152=3]: %NAME% +3 Bersk{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK151=3]: %NAME% +3 WWind{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK150=3]: %NAME% +3 GWard{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK149=3]: %NAME% +3 B.Ord{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK148=3]: %NAME% +3 IncSp{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK147=3]: %NAME% +3 Frnzy{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK146=3]: %NAME% +3 B.Cry{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK145=3]: %NAME% +3 IrSkn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK144=3]: %NAME% +3 Conct{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK143=3]: %NAME% +3 LeapA{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK142=3]: %NAME% +3 FindI{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK141=3]: %NAME% +3 Reflx{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK140=3]: %NAME% +3 DbThw{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK139=3]: %NAME% +3 Stun{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK138=3]: %NAME% +3 Shout{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK137=3]: %NAME% +3 Taunt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK135=3]: %NAME% +3 ThMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK134=3]: %NAME% +3 PSMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK133=3]: %NAME% +3 DbSwg{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK132=3]: %NAME% +3 Leap{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK131=3]: %NAME% +3 FindP{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK130=3]: %NAME% +3 Howl{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK128=3]: %NAME% +3 GnMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK126=3]: %NAME% +3 Bash{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK368=3]: %DARK_GREEN%+3 D.Wnd %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK155=3]: %DARK_GREEN%+3 B.Cmd %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK154=3]: %DARK_GREEN%+3 WrCry %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK153=3]: %DARK_GREEN%+3 NtRes %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK152=3]: %DARK_GREEN%+3 Bersk %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK151=3]: %DARK_GREEN%+3 WWind %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK150=3]: %DARK_GREEN%+3 GWard %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK149=3]: %DARK_GREEN%+3 B.Ord %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK148=3]: %DARK_GREEN%+3 IncSp %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK147=3]: %DARK_GREEN%+3 Frnzy %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK146=3]: %DARK_GREEN%+3 B.Cry %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK145=3]: %DARK_GREEN%+3 IrSkn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK144=3]: %DARK_GREEN%+3 Conct %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK143=3]: %DARK_GREEN%+3 LeapA %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK142=3]: %DARK_GREEN%+3 FindI %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK141=3]: %DARK_GREEN%+3 Reflx %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK140=3]: %DARK_GREEN%+3 DbThw %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK139=3]: %DARK_GREEN%+3 Stun %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK138=3]: %DARK_GREEN%+3 Shout %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK137=3]: %DARK_GREEN%+3 Taunt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK135=3]: %DARK_GREEN%+3 ThMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK134=3]: %DARK_GREEN%+3 PSMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK133=3]: %DARK_GREEN%+3 DbSwg %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK132=3]: %DARK_GREEN%+3 Leap %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK131=3]: %DARK_GREEN%+3 FindP %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK130=3]: %DARK_GREEN%+3 Howl %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK128=3]: %DARK_GREEN%+3 GnMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK126=3]: %DARK_GREEN%+3 Bash %NAME%{%NAME%}%CONTINUE%
 
 //+2
-ItemDisplay[NMAG !RW SK368=2]: %NAME% +2 D.Wnd{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK155=2]: %NAME% +2 B.Cmd{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK154=2]: %NAME% +2 WrCry{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK153=2]: %NAME% +2 NtRes{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK152=2]: %NAME% +2 Bersk{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK151=2]: %NAME% +2 WWind{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK150=2]: %NAME% +2 GWard{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK149=2]: %NAME% +2 B.Ord{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK148=2]: %NAME% +2 IncSp{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK147=2]: %NAME% +2 Frnzy{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK146=2]: %NAME% +2 B.Cry{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK145=2]: %NAME% +2 IrSkn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK144=2]: %NAME% +2 Conct{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK143=2]: %NAME% +2 LeapA{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK142=2]: %NAME% +2 FindI{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK141=2]: %NAME% +2 Reflx{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK140=2]: %NAME% +2 DbThw{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK139=2]: %NAME% +2 Stun{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK138=2]: %NAME% +2 Shout{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK137=2]: %NAME% +2 Taunt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK135=2]: %NAME% +2 ThMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK134=2]: %NAME% +2 PSMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK133=2]: %NAME% +2 DbSwg{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK132=2]: %NAME% +2 Leap{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK131=2]: %NAME% +2 FindP{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK130=2]: %NAME% +2 Howl{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK128=2]: %NAME% +2 GnMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK126=2]: %NAME% +2 Bash{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK368=2]: %DARK_GREEN%+2 D.Wnd %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK155=2]: %DARK_GREEN%+2 B.Cmd %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK154=2]: %DARK_GREEN%+2 WrCry %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK153=2]: %DARK_GREEN%+2 NtRes %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK152=2]: %DARK_GREEN%+2 Bersk %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK151=2]: %DARK_GREEN%+2 WWind %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK150=2]: %DARK_GREEN%+2 GWard %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK149=2]: %DARK_GREEN%+2 B.Ord %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK148=2]: %DARK_GREEN%+2 IncSp %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK147=2]: %DARK_GREEN%+2 Frnzy %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK146=2]: %DARK_GREEN%+2 B.Cry %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK145=2]: %DARK_GREEN%+2 IrSkn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK144=2]: %DARK_GREEN%+2 Conct %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK143=2]: %DARK_GREEN%+2 LeapA %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK142=2]: %DARK_GREEN%+2 FindI %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK141=2]: %DARK_GREEN%+2 Reflx %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK140=2]: %DARK_GREEN%+2 DbThw %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK139=2]: %DARK_GREEN%+2 Stun %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK138=2]: %DARK_GREEN%+2 Shout %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK137=2]: %DARK_GREEN%+2 Taunt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK135=2]: %DARK_GREEN%+2 ThMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK134=2]: %DARK_GREEN%+2 PSMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK133=2]: %DARK_GREEN%+2 DbSwg %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK132=2]: %DARK_GREEN%+2 Leap %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK131=2]: %DARK_GREEN%+2 FindP %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK130=2]: %DARK_GREEN%+2 Howl %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK128=2]: %DARK_GREEN%+2 GnMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK126=2]: %DARK_GREEN%+2 Bash %NAME%{%NAME%}%CONTINUE%
 
 //+1
-ItemDisplay[NMAG !RW SK368=1 CLVL<21]: %NAME% +1 D.Wnd{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK155=1 CLVL<21]: %NAME% +1 B.Cmd{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK154=1 CLVL<21]: %NAME% +1 WrCry{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK153=1 CLVL<21]: %NAME% +1 NtRes{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK152=1 CLVL<21]: %NAME% +1 Bersk{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK151=1 CLVL<21]: %NAME% +1 WWind{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK150=1 CLVL<21]: %NAME% +1 GWard{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK149=1 CLVL<21]: %NAME% +1 B.Ord{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK148=1 CLVL<21]: %NAME% +1 IncSp{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK147=1 CLVL<21]: %NAME% +1 Frnzy{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK146=1 CLVL<21]: %NAME% +1 B.Cry{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK145=1 CLVL<21]: %NAME% +1 IrSkn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK144=1 CLVL<21]: %NAME% +1 Conct{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK143=1 CLVL<21]: %NAME% +1 LeapA{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK142=1 CLVL<21]: %NAME% +1 FindI{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK141=1 CLVL<21]: %NAME% +1 Reflx{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK140=1 CLVL<21]: %NAME% +1 DbThw{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK139=1 CLVL<21]: %NAME% +1 Stun{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK138=1 CLVL<21]: %NAME% +1 Shout{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK137=1 CLVL<21]: %NAME% +1 Taunt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK135=1 CLVL<21]: %NAME% +1 ThMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK134=1 CLVL<21]: %NAME% +1 PSMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK133=1 CLVL<21]: %NAME% +1 DbSwg{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK132=1 CLVL<21]: %NAME% +1 Leap{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK131=1 CLVL<21]: %NAME% +1 FindP{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK130=1 CLVL<21]: %NAME% +1 Howl{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK128=1 CLVL<21]: %NAME% +1 GnMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK126=1 CLVL<21]: %NAME% +1 Bash{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK368=1 CLVL<21]: %DARK_GREEN%+1 D.Wnd %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK155=1 CLVL<21]: %DARK_GREEN%+1 B.Cmd %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK154=1 CLVL<21]: %DARK_GREEN%+1 WrCry %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK153=1 CLVL<21]: %DARK_GREEN%+1 NtRes %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK152=1 CLVL<21]: %DARK_GREEN%+1 Bersk %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK151=1 CLVL<21]: %DARK_GREEN%+1 WWind %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK150=1 CLVL<21]: %DARK_GREEN%+1 GWard %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK149=1 CLVL<21]: %DARK_GREEN%+1 B.Ord %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK148=1 CLVL<21]: %DARK_GREEN%+1 IncSp %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK147=1 CLVL<21]: %DARK_GREEN%+1 Frnzy %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK146=1 CLVL<21]: %DARK_GREEN%+1 B.Cry %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK145=1 CLVL<21]: %DARK_GREEN%+1 IrSkn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK144=1 CLVL<21]: %DARK_GREEN%+1 Conct %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK143=1 CLVL<21]: %DARK_GREEN%+1 LeapA %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK142=1 CLVL<21]: %DARK_GREEN%+1 FindI %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK141=1 CLVL<21]: %DARK_GREEN%+1 Reflx %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK140=1 CLVL<21]: %DARK_GREEN%+1 DbThw %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK139=1 CLVL<21]: %DARK_GREEN%+1 Stun %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK138=1 CLVL<21]: %DARK_GREEN%+1 Shout %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK137=1 CLVL<21]: %DARK_GREEN%+1 Taunt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK135=1 CLVL<21]: %DARK_GREEN%+1 ThMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK134=1 CLVL<21]: %DARK_GREEN%+1 PSMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK133=1 CLVL<21]: %DARK_GREEN%+1 DbSwg %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK132=1 CLVL<21]: %DARK_GREEN%+1 Leap %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK131=1 CLVL<21]: %DARK_GREEN%+1 FindP %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK130=1 CLVL<21]: %DARK_GREEN%+1 Howl %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK128=1 CLVL<21]: %DARK_GREEN%+1 GnMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK126=1 CLVL<21]: %DARK_GREEN%+1 Bash %NAME%{%NAME%}%CONTINUE%
 
 // --- // --- Druid --- \\ --- \\
-ItemDisplay[NMAG !RW (SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0)]: %NAME%%NL%%DARK_GREEN%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0) CLVL<21]: %NL%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK221>1 OR SK222>1 OR SK223>1 OR SK224>1 OR SK225>1 OR SK226>1 OR SK227>1 OR SK228>1 OR SK229>1 OR SK230>1 OR SK231>1 OR SK232>1 OR SK233>1 OR SK234>1 OR SK235>1 OR SK236>1 OR SK237>1 OR SK238>1 OR SK239>1 OR SK240>1 OR SK241>1 OR SK242>1 OR SK243>1 OR SK244>1 OR SK245>1 OR SK246>1 OR SK247>1 OR SK248>1 OR SK249>1 OR SK250>1 OR SK370>1) CLVL>20]: %NL%%NAME%{%NAME%}%CONTINUE%
 
 //+3
-ItemDisplay[NMAG !RW SK370=3]: %NAME% +3 Gust{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK250=3]: %NAME% +3 Hrrcn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK249=3]: %NAME% +3 Argdn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK248=3]: %NAME% +3 Fury{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK247=3]: %NAME% +3 Grizz{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK246=3]: %NAME% +3 SpBrb{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK245=3]: %NAME% +3 Trndo{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK244=3]: %NAME% +3 Vlcno{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK243=3]: %NAME% +3 ShkWv{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK242=3]: %NAME% +3 Hungr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK241=3]: %NAME% +3 SlrCr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK240=3]: %NAME% +3 Twstr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK239=3]: %NAME% +3 FrClw{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK238=3]: %NAME% +3 Rbies{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK237=3]: %NAME% +3 DrWlf{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK236=3]: %NAME% +3 HrtWv{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK235=3]: %NAME% +3 CycAr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK234=3]: %NAME% +3 Fssre{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK233=3]: %NAME% +3 Maul{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK232=3]: %NAME% +3 FrlRg{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK231=3]: %NAME% +3 CarVi{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK230=3]: %NAME% +3 ArcBl{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK229=3]: %NAME% +3 Bldr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK228=3]: %NAME% +3 Werbr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK227=3]: %NAME% +3 SpWlf{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK226=3]: %NAME% +3 OakSa{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK225=3]: %NAME% +3 Frstm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK224=3]: %NAME% +3 Lycan{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK223=3]: %NAME% +3 Werwf{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK222=3]: %NAME% +3 PsnCr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK221=3]: %NAME% +3 Raven{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK370=3]: %DARK_GREEN%+3 Gust %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK250=3]: %DARK_GREEN%+3 Hrrcn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK249=3]: %DARK_GREEN%+3 Argdn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK248=3]: %DARK_GREEN%+3 Fury %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK247=3]: %DARK_GREEN%+3 Grizz %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK246=3]: %DARK_GREEN%+3 SpBrb %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK245=3]: %DARK_GREEN%+3 Trndo %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK244=3]: %DARK_GREEN%+3 Vlcno %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK243=3]: %DARK_GREEN%+3 ShkWv %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK242=3]: %DARK_GREEN%+3 Hungr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK241=3]: %DARK_GREEN%+3 SlrCr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK240=3]: %DARK_GREEN%+3 Twstr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK239=3]: %DARK_GREEN%+3 FrClw %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK238=3]: %DARK_GREEN%+3 Rbies %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK237=3]: %DARK_GREEN%+3 DrWlf %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK236=3]: %DARK_GREEN%+3 HrtWv %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK235=3]: %DARK_GREEN%+3 CycAr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK234=3]: %DARK_GREEN%+3 Fssre %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK233=3]: %DARK_GREEN%+3 Maul %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK232=3]: %DARK_GREEN%+3 FrlRg %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK231=3]: %DARK_GREEN%+3 CarVi %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK230=3]: %DARK_GREEN%+3 ArcBl %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK229=3]: %DARK_GREEN%+3 Bldr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK228=3]: %DARK_GREEN%+3 Werbr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK227=3]: %DARK_GREEN%+3 SpWlf %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK226=3]: %DARK_GREEN%+3 OakSa %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK225=3]: %DARK_GREEN%+3 Frstm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK224=3]: %DARK_GREEN%+3 Lycan %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK223=3]: %DARK_GREEN%+3 Werwf %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK222=3]: %DARK_GREEN%+3 PsnCr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK221=3]: %DARK_GREEN%+3 Raven %NAME%{%NAME%}%CONTINUE%
 
 //+2
-ItemDisplay[NMAG !RW SK370=2]: %NAME% +2 Gust{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK250=2]: %NAME% +2 Hrrcn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK249=2]: %NAME% +2 Argdn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK248=2]: %NAME% +2 Fury{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK247=2]: %NAME% +2 Grizz{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK246=2]: %NAME% +2 SpBrb{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK245=2]: %NAME% +2 Trndo{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK244=2]: %NAME% +2 Vlcno{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK243=2]: %NAME% +2 ShkWv{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK242=2]: %NAME% +2 Hungr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK241=2]: %NAME% +2 SlrCr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK240=2]: %NAME% +2 Twstr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK239=2]: %NAME% +2 FrClw{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK238=2]: %NAME% +2 Rbies{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK237=2]: %NAME% +2 DrWlf{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK236=2]: %NAME% +2 HrtWv{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK235=2]: %NAME% +2 CycAr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK234=2]: %NAME% +2 Fssre{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK233=2]: %NAME% +2 Maul{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK232=2]: %NAME% +2 FrlRg{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK231=2]: %NAME% +2 CarVi{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK230=2]: %NAME% +2 ArcBl{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK229=2]: %NAME% +2 Bldr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK228=2]: %NAME% +2 Werbr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK227=2]: %NAME% +2 SpWlf{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK226=2]: %NAME% +2 OakSa{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK225=2]: %NAME% +2 Frstm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK224=2]: %NAME% +2 Lycan{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK223=2]: %NAME% +2 Werwf{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK222=2]: %NAME% +2 PsnCr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK221=2]: %NAME% +2 Raven{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK370=2]: %DARK_GREEN%+2 Gust %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK250=2]: %DARK_GREEN%+2 Hrrcn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK249=2]: %DARK_GREEN%+2 Argdn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK248=2]: %DARK_GREEN%+2 Fury %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK247=2]: %DARK_GREEN%+2 Grizz %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK246=2]: %DARK_GREEN%+2 SpBrb %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK245=2]: %DARK_GREEN%+2 Trndo %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK244=2]: %DARK_GREEN%+2 Vlcno %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK243=2]: %DARK_GREEN%+2 ShkWv %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK242=2]: %DARK_GREEN%+2 Hungr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK241=2]: %DARK_GREEN%+2 SlrCr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK240=2]: %DARK_GREEN%+2 Twstr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK239=2]: %DARK_GREEN%+2 FrClw %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK238=2]: %DARK_GREEN%+2 Rbies %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK237=2]: %DARK_GREEN%+2 DrWlf %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK236=2]: %DARK_GREEN%+2 HrtWv %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK235=2]: %DARK_GREEN%+2 CycAr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK234=2]: %DARK_GREEN%+2 Fssre %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK233=2]: %DARK_GREEN%+2 Maul %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK232=2]: %DARK_GREEN%+2 FrlRg %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK231=2]: %DARK_GREEN%+2 CarVi %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK230=2]: %DARK_GREEN%+2 ArcBl %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK229=2]: %DARK_GREEN%+2 Bldr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK228=2]: %DARK_GREEN%+2 Werbr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK227=2]: %DARK_GREEN%+2 SpWlf %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK226=2]: %DARK_GREEN%+2 OakSa %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK225=2]: %DARK_GREEN%+2 Frstm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK224=2]: %DARK_GREEN%+2 Lycan %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK223=2]: %DARK_GREEN%+2 Werwf %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK222=2]: %DARK_GREEN%+2 PsnCr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK221=2]: %DARK_GREEN%+2 Raven %NAME%{%NAME%}%CONTINUE%
 
 //+1
-ItemDisplay[NMAG !RW SK370=1 CLVL<21]: %NAME% +1 Gust{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK250=1 CLVL<21]: %NAME% +1 Hrrcn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK249=1 CLVL<21]: %NAME% +1 Argdn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK248=1 CLVL<21]: %NAME% +1 Fury{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK247=1 CLVL<21]: %NAME% +1 Grizz{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK246=1 CLVL<21]: %NAME% +1 SpBrb{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK245=1 CLVL<21]: %NAME% +1 Trndo{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK244=1 CLVL<21]: %NAME% +1 Vlcno{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK243=1 CLVL<21]: %NAME% +1 ShkWv{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK242=1 CLVL<21]: %NAME% +1 Hungr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK241=1 CLVL<21]: %NAME% +1 SlrCr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK240=1 CLVL<21]: %NAME% +1 Twstr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK239=1 CLVL<21]: %NAME% +1 FrClw{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK238=1 CLVL<21]: %NAME% +1 Rbies{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK237=1 CLVL<21]: %NAME% +1 DrWlf{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK236=1 CLVL<21]: %NAME% +1 HrtWv{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK235=1 CLVL<21]: %NAME% +1 CycAr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK234=1 CLVL<21]: %NAME% +1 Fssre{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK233=1 CLVL<21]: %NAME% +1 Maul{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK232=1 CLVL<21]: %NAME% +1 FrlRg{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK231=1 CLVL<21]: %NAME% +1 CarVi{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK230=1 CLVL<21]: %NAME% +1 ArcBl{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK229=1 CLVL<21]: %NAME% +1 Bldr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK228=1 CLVL<21]: %NAME% +1 Werbr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK227=1 CLVL<21]: %NAME% +1 SpWlf{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK226=1 CLVL<21]: %NAME% +1 OakSa{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK225=1 CLVL<21]: %NAME% +1 Frstm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK224=1 CLVL<21]: %NAME% +1 Lycan{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK223=1 CLVL<21]: %NAME% +1 Werwf{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK222=1 CLVL<21]: %NAME% +1 PsnCr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK221=1 CLVL<21]: %NAME% +1 Raven{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK370=1 CLVL<21]: %DARK_GREEN%+1 Gust %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK250=1 CLVL<21]: %DARK_GREEN%+1 Hrrcn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK249=1 CLVL<21]: %DARK_GREEN%+1 Argdn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK248=1 CLVL<21]: %DARK_GREEN%+1 Fury %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK247=1 CLVL<21]: %DARK_GREEN%+1 Grizz %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK246=1 CLVL<21]: %DARK_GREEN%+1 SpBrb %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK245=1 CLVL<21]: %DARK_GREEN%+1 Trndo %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK244=1 CLVL<21]: %DARK_GREEN%+1 Vlcno %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK243=1 CLVL<21]: %DARK_GREEN%+1 ShkWv %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK242=1 CLVL<21]: %DARK_GREEN%+1 Hungr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK241=1 CLVL<21]: %DARK_GREEN%+1 SlrCr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK240=1 CLVL<21]: %DARK_GREEN%+1 Twstr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK239=1 CLVL<21]: %DARK_GREEN%+1 FrClw %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK238=1 CLVL<21]: %DARK_GREEN%+1 Rbies %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK237=1 CLVL<21]: %DARK_GREEN%+1 DrWlf %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK236=1 CLVL<21]: %DARK_GREEN%+1 HrtWv %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK235=1 CLVL<21]: %DARK_GREEN%+1 CycAr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK234=1 CLVL<21]: %DARK_GREEN%+1 Fssre %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK233=1 CLVL<21]: %DARK_GREEN%+1 Maul %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK232=1 CLVL<21]: %DARK_GREEN%+1 FrlRg %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK231=1 CLVL<21]: %DARK_GREEN%+1 CarVi %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK230=1 CLVL<21]: %DARK_GREEN%+1 ArcBl %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK229=1 CLVL<21]: %DARK_GREEN%+1 Bldr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK228=1 CLVL<21]: %DARK_GREEN%+1 Werbr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK227=1 CLVL<21]: %DARK_GREEN%+1 SpWlf %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK226=1 CLVL<21]: %DARK_GREEN%+1 OakSa %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK225=1 CLVL<21]: %DARK_GREEN%+1 Frstm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK224=1 CLVL<21]: %DARK_GREEN%+1 Lycan %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK223=1 CLVL<21]: %DARK_GREEN%+1 Werwf %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK222=1 CLVL<21]: %DARK_GREEN%+1 PsnCr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK221=1 CLVL<21]: %DARK_GREEN%+1 Raven %NAME%{%NAME%}%CONTINUE%
 
 // --- // --- Necromancer --- \\ --- \\
-ItemDisplay[NMAG !RW (SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0)]: %NAME%%NL%%DARK_GREEN%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0) CLVL<21]: %NL%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK66>1 OR SK67>1 OR SK68>1 OR SK69>1 OR SK70>1 OR SK71>1 OR SK72>1 OR SK73>1 OR SK74>1 OR SK75>1 OR SK76>1 OR SK77>1 OR SK78>1 OR SK79>1 OR SK80>1 OR SK81>1 OR SK82>1 OR SK83>1 OR SK84>1 OR SK85>1 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>1 OR SK90>1 OR SK91>1 OR SK92>1 OR SK93>1 OR SK94>1 OR SK95>1 OR SK367>1 OR SK381>1 OR SK374>1) CLVL>20]: %NL%%NAME%{%NAME%}%CONTINUE%
 
 //+3
-ItemDisplay[NMAG !RW SK381=3]: %NAME% +3 DkPct{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK374=3]: %NAME% +3 CrMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK367=3]: %NAME% +3 BlWrp{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK95=3]: %NAME% +3 Rvive{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK94=3]: %NAME% +3 FrGol{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK93=3]: %NAME% +3 BnSpt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK92=3]: %NAME% +3 PsNva{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK91=3]: %NAME% +3 LwRes{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK90=3]: %NAME% +3 IrnGl{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK89=3]: %NAME% +3 SkArc{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK88=3]: %NAME% +3 BnPrs{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK87=3]: %NAME% +3 Dcrep{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK86=3]: %NAME% +3 Atrct{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK85=3]: %NAME% +3 BldGl{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK84=3]: %NAME% +3 BnSpr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK83=3]: %NAME% +3 Dscrt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK82=3]: %NAME% +3 LfTap{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK81=3]: %NAME% +3 Cnfus{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK80=3]: %NAME% +3 SkMge{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK79=3]: %NAME% +3 GlMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK78=3]: %NAME% +3 BnWll{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK77=3]: %NAME% +3 Trror{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK76=3]: %NAME% +3 IrnMd{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK75=3]: %NAME% +3 ClayG{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK74=3]: %NAME% +3 CrpEx{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK73=3]: %NAME% +3 PsStr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK72=3]: %NAME% +3 Weakn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK71=3]: %NAME% +3 DmVsn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK70=3]: %NAME% +3 SkWar{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK69=3]: %NAME% +3 SkMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK68=3]: %NAME% +3 BnArm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK67=3]: %NAME% +3 Teeth{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK66=3]: %NAME% +3 AmpDm{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK381=3]: %DARK_GREEN%+3 DkPct %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK374=3]: %DARK_GREEN%+3 CrMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK367=3]: %DARK_GREEN%+3 BlWrp %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK95=3]: %DARK_GREEN%+3 Rvive %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK94=3]: %DARK_GREEN%+3 FrGol %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK93=3]: %DARK_GREEN%+3 BnSpt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK92=3]: %DARK_GREEN%+3 PsNva %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK91=3]: %DARK_GREEN%+3 LwRes %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK90=3]: %DARK_GREEN%+3 IrnGl %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK89=3]: %DARK_GREEN%+3 SkArc %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK88=3]: %DARK_GREEN%+3 BnPrs %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK87=3]: %DARK_GREEN%+3 Dcrep %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK86=3]: %DARK_GREEN%+3 Atrct %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK85=3]: %DARK_GREEN%+3 BldGl %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK84=3]: %DARK_GREEN%+3 BnSpr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK83=3]: %DARK_GREEN%+3 Dscrt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK82=3]: %DARK_GREEN%+3 LfTap %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK81=3]: %DARK_GREEN%+3 Cnfus %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK80=3]: %DARK_GREEN%+3 SkMge %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK79=3]: %DARK_GREEN%+3 GlMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK78=3]: %DARK_GREEN%+3 BnWll %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK77=3]: %DARK_GREEN%+3 Trror %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK76=3]: %DARK_GREEN%+3 IrnMd %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK75=3]: %DARK_GREEN%+3 ClayG %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK74=3]: %DARK_GREEN%+3 CrpEx %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK73=3]: %DARK_GREEN%+3 PsStr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK72=3]: %DARK_GREEN%+3 Weakn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK71=3]: %DARK_GREEN%+3 DmVsn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK70=3]: %DARK_GREEN%+3 SkWar %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK69=3]: %DARK_GREEN%+3 SkMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK68=3]: %DARK_GREEN%+3 BnArm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK67=3]: %DARK_GREEN%+3 Teeth %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK66=3]: %DARK_GREEN%+3 AmpDm %NAME%{%NAME%}%CONTINUE%
 
 
 //+2
-ItemDisplay[NMAG !RW SK381=2]: %NAME% +2 DkPct{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK374=2]: %NAME% +2 CrMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK367=2]: %NAME% +2 BlWrp{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK95=2]: %NAME% +2 Rvive{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK94=2]: %NAME% +2 FrGol{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK93=2]: %NAME% +2 BnSpt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK92=2]: %NAME% +2 PsNva{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK91=2]: %NAME% +2 LwRes{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK90=2]: %NAME% +2 IrnGl{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK89=2]: %NAME% +2 SkArc{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK88=2]: %NAME% +2 BnPrs{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK87=2]: %NAME% +2 Dcrep{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK86=2]: %NAME% +2 Atrct{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK85=2]: %NAME% +2 BldGl{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK84=2]: %NAME% +2 BnSpr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK83=2]: %NAME% +2 Dscrt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK82=2]: %NAME% +2 LfTap{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK81=2]: %NAME% +2 Cnfus{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK80=2]: %NAME% +2 SkMge{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK79=2]: %NAME% +2 GlMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK78=2]: %NAME% +2 BnWll{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK77=2]: %NAME% +2 Trror{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK76=2]: %NAME% +2 IrnMd{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK75=2]: %NAME% +2 ClayG{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK74=2]: %NAME% +2 CrpEx{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK73=2]: %NAME% +2 PsStr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK72=2]: %NAME% +2 Weakn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK71=2]: %NAME% +2 DmVsn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK70=2]: %NAME% +2 SkWar{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK69=2]: %NAME% +2 SkMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK68=2]: %NAME% +2 BnArm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK67=2]: %NAME% +2 Teeth{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK66=2]: %NAME% +2 AmpDm{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK381=2]: %DARK_GREEN%+2 DkPct %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK374=2]: %DARK_GREEN%+2 CrMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK367=2]: %DARK_GREEN%+2 BlWrp %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK95=2]: %DARK_GREEN%+2 Rvive %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK94=2]: %DARK_GREEN%+2 FrGol %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK93=2]: %DARK_GREEN%+2 BnSpt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK92=2]: %DARK_GREEN%+2 PsNva %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK91=2]: %DARK_GREEN%+2 LwRes %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK90=2]: %DARK_GREEN%+2 IrnGl %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK89=2]: %DARK_GREEN%+2 SkArc %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK88=2]: %DARK_GREEN%+2 BnPrs %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK87=2]: %DARK_GREEN%+2 Dcrep %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK86=2]: %DARK_GREEN%+2 Atrct %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK85=2]: %DARK_GREEN%+2 BldGl %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK84=2]: %DARK_GREEN%+2 BnSpr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK83=2]: %DARK_GREEN%+2 Dscrt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK82=2]: %DARK_GREEN%+2 LfTap %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK81=2]: %DARK_GREEN%+2 Cnfus %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK80=2]: %DARK_GREEN%+2 SkMge %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK79=2]: %DARK_GREEN%+2 GlMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK78=2]: %DARK_GREEN%+2 BnWll %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK77=2]: %DARK_GREEN%+2 Trror %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK76=2]: %DARK_GREEN%+2 IrnMd %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK75=2]: %DARK_GREEN%+2 ClayG %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK74=2]: %DARK_GREEN%+2 CrpEx %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK73=2]: %DARK_GREEN%+2 PsStr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK72=2]: %DARK_GREEN%+2 Weakn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK71=2]: %DARK_GREEN%+2 DmVsn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK70=2]: %DARK_GREEN%+2 SkWar %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK69=2]: %DARK_GREEN%+2 SkMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK68=2]: %DARK_GREEN%+2 BnArm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK67=2]: %DARK_GREEN%+2 Teeth %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK66=2]: %DARK_GREEN%+2 AmpDm %NAME%{%NAME%}%CONTINUE%
 
 
 //+1
-ItemDisplay[NMAG !RW SK381=1 CLVL<21]: %NAME% +1 DkPct{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK374=1 CLVL<21]: %NAME% +1 CrMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK367=1 CLVL<21]: %NAME% +1 BlWrp{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK95=1 CLVL<21]: %NAME% +1 Rvive{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK94=1 CLVL<21]: %NAME% +1 FrGol{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK93=1 CLVL<21]: %NAME% +1 BnSpt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK92=1 CLVL<21]: %NAME% +1 PsNva{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK91=1 CLVL<21]: %NAME% +1 LwRes{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK90=1 CLVL<21]: %NAME% +1 IrnGl{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK89=1 CLVL<21]: %NAME% +1 SkArc{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK88=1 CLVL<21]: %NAME% +1 BnPrs{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK87=1 CLVL<21]: %NAME% +1 Dcrep{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK86=1 CLVL<21]: %NAME% +1 Atrct{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK85=1 CLVL<21]: %NAME% +1 BldGl{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK84=1 CLVL<21]: %NAME% +1 BnSpr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK83=1 CLVL<21]: %NAME% +1 Dscrt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK82=1 CLVL<21]: %NAME% +1 LfTap{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK81=1 CLVL<21]: %NAME% +1 Cnfus{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK80=1 CLVL<21]: %NAME% +1 SkMge{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK79=1 CLVL<21]: %NAME% +1 GlMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK78=1 CLVL<21]: %NAME% +1 BnWll{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK77=1 CLVL<21]: %NAME% +1 Trror{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK76=1 CLVL<21]: %NAME% +1 IrnMd{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK75=1 CLVL<21]: %NAME% +1 ClayG{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK74=1 CLVL<21]: %NAME% +1 CrpEx{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK73=1 CLVL<21]: %NAME% +1 PsStr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK72=1 CLVL<21]: %NAME% +1 Weakn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK71=1 CLVL<21]: %NAME% +1 DmVsn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK70=1 CLVL<21]: %NAME% +1 SkWar{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK69=1 CLVL<21]: %NAME% +1 SkMas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK68=1 CLVL<21]: %NAME% +1 BnArm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK67=1 CLVL<21]: %NAME% +1 Teeth{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK66=1 CLVL<21]: %NAME% +1 AmpDm{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK381=1 CLVL<21]: %DARK_GREEN%+1 DkPct %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK374=1 CLVL<21]: %DARK_GREEN%+1 CrMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK367=1 CLVL<21]: %DARK_GREEN%+1 BlWrp %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK95=1 CLVL<21]: %DARK_GREEN%+1 Rvive %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK94=1 CLVL<21]: %DARK_GREEN%+1 FrGol %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK93=1 CLVL<21]: %DARK_GREEN%+1 BnSpt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK92=1 CLVL<21]: %DARK_GREEN%+1 PsNva %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK91=1 CLVL<21]: %DARK_GREEN%+1 LwRes %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK90=1 CLVL<21]: %DARK_GREEN%+1 IrnGl %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK89=1 CLVL<21]: %DARK_GREEN%+1 SkArc %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK88=1 CLVL<21]: %DARK_GREEN%+1 BnPrs %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK87=1 CLVL<21]: %DARK_GREEN%+1 Dcrep %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK86=1 CLVL<21]: %DARK_GREEN%+1 Atrct %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK85=1 CLVL<21]: %DARK_GREEN%+1 BldGl %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK84=1 CLVL<21]: %DARK_GREEN%+1 BnSpr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK83=1 CLVL<21]: %DARK_GREEN%+1 Dscrt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK82=1 CLVL<21]: %DARK_GREEN%+1 LfTap %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK81=1 CLVL<21]: %DARK_GREEN%+1 Cnfus %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK80=1 CLVL<21]: %DARK_GREEN%+1 SkMge %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK79=1 CLVL<21]: %DARK_GREEN%+1 GlMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK78=1 CLVL<21]: %DARK_GREEN%+1 BnWll %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK77=1 CLVL<21]: %DARK_GREEN%+1 Trror %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK76=1 CLVL<21]: %DARK_GREEN%+1 IrnMd %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK75=1 CLVL<21]: %DARK_GREEN%+1 ClayG %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK74=1 CLVL<21]: %DARK_GREEN%+1 CrpEx %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK73=1 CLVL<21]: %DARK_GREEN%+1 PsStr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK72=1 CLVL<21]: %DARK_GREEN%+1 Weakn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK71=1 CLVL<21]: %DARK_GREEN%+1 DmVsn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK70=1 CLVL<21]: %DARK_GREEN%+1 SkWar %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK69=1 CLVL<21]: %DARK_GREEN%+1 SkMas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK68=1 CLVL<21]: %DARK_GREEN%+1 BnArm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK67=1 CLVL<21]: %DARK_GREEN%+1 Teeth %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK66=1 CLVL<21]: %DARK_GREEN%+1 AmpDm %NAME%{%NAME%}%CONTINUE%
 
 
 // --- // --- Paladin --- \\ --- \\
-ItemDisplay[NMAG !RW (SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0)]: %NAME%%NL%%DARK_GREEN%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0) CLVL<21]: %NL%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK96>1 OR SK97>1 OR SK98>1 OR SK99>1 OR SK100>1 OR SK101>1 OR SK102>1 OR SK103>1 OR SK104>1 OR SK105>1 OR SK106>1 OR SK107>1 OR SK108>1 OR SK109>1 OR SK110>1 OR SK111>1 OR SK112>1 OR SK113>1 OR SK114>1 OR SK115>1 OR SK116>1 OR SK117>1 OR SK118>1 OR SK119>1 OR SK120>1 OR SK121>1 OR SK122>1 OR SK123>1 OR SK124>1 OR SK125>1 OR SK364>1 OR SK371>1 OR SK378>1) CLVL>20]: %NL%%NAME%{%NAME%}%CONTINUE%
 
 //+3
-ItemDisplay[NMAG !RW SK378=3]: %NAME% +3 Joust{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK371=3]: %NAME% +3 HLight{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK364=3]: %NAME% +3 H.Nova{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK125=3]: %NAME% +3 Slvtn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK124=3]: %NAME% +3 Rdmptn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK123=3]: %NAME% +3 Cnvctn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK122=3]: %NAME% +3 Fntcsm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK121=3]: %NAME% +3 FotH{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK120=3]: %NAME% +3 Medtn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK119=3]: %NAME% +3 Snctry{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK118=3]: %NAME% +3 HShock{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK117=3]: %NAME% +3 H.Shld{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK116=3]: %NAME% +3 H.Swrd{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK115=3]: %NAME% +3 Vigor{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK114=3]: %NAME% +3 H.Frz{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK113=3]: %NAME% +3 Concnt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK112=3]: %NAME% +3 BlssHm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK111=3]: %NAME% +3 Vngnc{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK110=3]: %NAME% +3 ResLit{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK109=3]: %NAME% +3 Clnsng{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK108=3]: %NAME% +3 BlsAim{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK107=3]: %NAME% +3 Charge{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK106=3]: %NAME% +3 Zeal{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK105=3]: %NAME% +3 ResCld{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK104=3]: %NAME% +3 Defnc{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK103=3]: %NAME% +3 Thorns{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK102=3]: %NAME% +3 H.Fire{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK101=3]: %NAME% +3 H.Bolt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK100=3]: %NAME% +3 ResFi{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK99=3]: %NAME% +3 Prayer{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK98=3]: %NAME% +3 Might{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK97=3]: %NAME% +3 Smite{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK96=3]: %NAME% +3 Sacrfc{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK378=3]: %DARK_GREEN%+3 Joust %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK371=3]: %DARK_GREEN%+3 HLight %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK364=3]: %DARK_GREEN%+3 H.Nova %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK125=3]: %DARK_GREEN%+3 Slvtn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK124=3]: %DARK_GREEN%+3 Rdmptn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK123=3]: %DARK_GREEN%+3 Cnvctn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK122=3]: %DARK_GREEN%+3 Fntcsm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK121=3]: %DARK_GREEN%+3 FotH %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK120=3]: %DARK_GREEN%+3 Medtn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK119=3]: %DARK_GREEN%+3 Snctry %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK118=3]: %DARK_GREEN%+3 HShock %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK117=3]: %DARK_GREEN%+3 H.Shld %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK116=3]: %DARK_GREEN%+3 H.Swrd %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK115=3]: %DARK_GREEN%+3 Vigor %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK114=3]: %DARK_GREEN%+3 H.Frz %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK113=3]: %DARK_GREEN%+3 Concnt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK112=3]: %DARK_GREEN%+3 BlssHm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK111=3]: %DARK_GREEN%+3 Vngnc %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK110=3]: %DARK_GREEN%+3 ResLit %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK109=3]: %DARK_GREEN%+3 Clnsng %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK108=3]: %DARK_GREEN%+3 BlsAim %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK107=3]: %DARK_GREEN%+3 Charge %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK106=3]: %DARK_GREEN%+3 Zeal %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK105=3]: %DARK_GREEN%+3 ResCld %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK104=3]: %DARK_GREEN%+3 Defnc %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK103=3]: %DARK_GREEN%+3 Thorns %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK102=3]: %DARK_GREEN%+3 H.Fire %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK101=3]: %DARK_GREEN%+3 H.Bolt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK100=3]: %DARK_GREEN%+3 ResFi %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK99=3]: %DARK_GREEN%+3 Prayer %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK98=3]: %DARK_GREEN%+3 Might %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK97=3]: %DARK_GREEN%+3 Smite %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK96=3]: %DARK_GREEN%+3 Sacrfc %NAME%{%NAME%}%CONTINUE%
 
 //+2
-ItemDisplay[NMAG !RW SK378=2]: %NAME% +2 Joust{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK371=2]: %NAME% +2 HLight{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK364=2]: %NAME% +2 H.Nova{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK125=2]: %NAME% +2 Slvtn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK124=2]: %NAME% +2 Rdmptn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK123=2]: %NAME% +2 Cnvctn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK122=2]: %NAME% +2 Fntcsm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK121=2]: %NAME% +2 FotH{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK120=2]: %NAME% +2 Medtn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK119=2]: %NAME% +2 Snctry{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK118=2]: %NAME% +2 HShock{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK117=2]: %NAME% +2 H.Shld{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK116=2]: %NAME% +2 H.Swrd{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK115=2]: %NAME% +2 Vigor{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK114=2]: %NAME% +2 H.Frz{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK113=2]: %NAME% +2 Concnt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK112=2]: %NAME% +2 BlssHm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK111=2]: %NAME% +2 Vngnc{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK110=2]: %NAME% +2 ResLit{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK109=2]: %NAME% +2 Clnsng{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK108=2]: %NAME% +2 BlsAim{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK107=2]: %NAME% +2 Charge{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK106=2]: %NAME% +2 Zeal{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK105=2]: %NAME% +2 ResCld{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK104=2]: %NAME% +2 Defnc{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK103=2]: %NAME% +2 Thorns{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK102=2]: %NAME% +2 H.Fire{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK101=2]: %NAME% +2 H.Bolt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK100=2]: %NAME% +2 ResFi{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK99=2]: %NAME% +2 Prayer{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK98=2]: %NAME% +2 Might{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK97=2]: %NAME% +2 Smite{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK96=2]: %NAME% +2 Sacrfc{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK378=2]: %DARK_GREEN%+2 Joust %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK371=2]: %DARK_GREEN%+2 HLight %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK364=2]: %DARK_GREEN%+2 H.Nova %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK125=2]: %DARK_GREEN%+2 Slvtn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK124=2]: %DARK_GREEN%+2 Rdmptn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK123=2]: %DARK_GREEN%+2 Cnvctn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK122=2]: %DARK_GREEN%+2 Fntcsm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK121=2]: %DARK_GREEN%+2 FotH %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK120=2]: %DARK_GREEN%+2 Medtn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK119=2]: %DARK_GREEN%+2 Snctry %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK118=2]: %DARK_GREEN%+2 HShock %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK117=2]: %DARK_GREEN%+2 H.Shld %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK116=2]: %DARK_GREEN%+2 H.Swrd %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK115=2]: %DARK_GREEN%+2 Vigor %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK114=2]: %DARK_GREEN%+2 H.Frz %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK113=2]: %DARK_GREEN%+2 Concnt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK112=2]: %DARK_GREEN%+2 BlssHm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK111=2]: %DARK_GREEN%+2 Vngnc %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK110=2]: %DARK_GREEN%+2 ResLit %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK109=2]: %DARK_GREEN%+2 Clnsng %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK108=2]: %DARK_GREEN%+2 BlsAim %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK107=2]: %DARK_GREEN%+2 Charge %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK106=2]: %DARK_GREEN%+2 Zeal %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK105=2]: %DARK_GREEN%+2 ResCld %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK104=2]: %DARK_GREEN%+2 Defnc %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK103=2]: %DARK_GREEN%+2 Thorns %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK102=2]: %DARK_GREEN%+2 H.Fire %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK101=2]: %DARK_GREEN%+2 H.Bolt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK100=2]: %DARK_GREEN%+2 ResFi %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK99=2]: %DARK_GREEN%+2 Prayer %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK98=2]: %DARK_GREEN%+2 Might %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK97=2]: %DARK_GREEN%+2 Smite %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK96=2]: %DARK_GREEN%+2 Sacrfc %NAME%{%NAME%}%CONTINUE%
 
 //+1
-ItemDisplay[NMAG !RW SK378=1 CLVL<21]: %NAME% +1 Joust{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK371=1 CLVL<21]: %NAME% +1 HLight{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK364=1 CLVL<21]: %NAME% +1 H.Nova{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK125=1 CLVL<21]: %NAME% +1 Slvtn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK124=1 CLVL<21]: %NAME% +1 Rdmptn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK123=1 CLVL<21]: %NAME% +1 Cnvctn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK122=1 CLVL<21]: %NAME% +1 Fntcsm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK121=1 CLVL<21]: %NAME% +1 FotH{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK120=1 CLVL<21]: %NAME% +1 Medtn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK119=1 CLVL<21]: %NAME% +1 Snctry{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK118=1 CLVL<21]: %NAME% +1 HShock{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK117=1 CLVL<21]: %NAME% +1 H.Shld{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK116=1 CLVL<21]: %NAME% +1 H.Swrd{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK115=1 CLVL<21]: %NAME% +1 Vigor{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK114=1 CLVL<21]: %NAME% +1 H.Frz{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK113=1 CLVL<21]: %NAME% +1 Concnt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK112=1 CLVL<21]: %NAME% +1 BlssHm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK111=1 CLVL<21]: %NAME% +1 Vngnc{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK110=1 CLVL<21]: %NAME% +1 ResLit{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK109=1 CLVL<21]: %NAME% +1 Clnsng{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK108=1 CLVL<21]: %NAME% +1 BlsAim{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK107=1 CLVL<21]: %NAME% +1 Charge{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK106=1 CLVL<21]: %NAME% +1 Zeal{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK105=1 CLVL<21]: %NAME% +1 ResCld{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK104=1 CLVL<21]: %NAME% +1 Defnc{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK103=1 CLVL<21]: %NAME% +1 Thorns{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK102=1 CLVL<21]: %NAME% +1 H.Fire{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK101=1 CLVL<21]: %NAME% +1 H.Bolt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK100=1 CLVL<21]: %NAME% +1 ResFi{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK99=1 CLVL<21]: %NAME% +1 Prayer{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK98=1 CLVL<21]: %NAME% +1 Might{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK97=1 CLVL<21]: %NAME% +1 Smite{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK96=1 CLVL<21]: %NAME% +1 Sacrfc{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK378=1 CLVL<21]: %DARK_GREEN%+1 Joust %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK371=1 CLVL<21]: %DARK_GREEN%+1 HLight %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK364=1 CLVL<21]: %DARK_GREEN%+1 H.Nova %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK125=1 CLVL<21]: %DARK_GREEN%+1 Slvtn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK124=1 CLVL<21]: %DARK_GREEN%+1 Rdmptn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK123=1 CLVL<21]: %DARK_GREEN%+1 Cnvctn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK122=1 CLVL<21]: %DARK_GREEN%+1 Fntcsm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK121=1 CLVL<21]: %DARK_GREEN%+1 FotH %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK120=1 CLVL<21]: %DARK_GREEN%+1 Medtn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK119=1 CLVL<21]: %DARK_GREEN%+1 Snctry %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK118=1 CLVL<21]: %DARK_GREEN%+1 HShock %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK117=1 CLVL<21]: %DARK_GREEN%+1 H.Shld %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK116=1 CLVL<21]: %DARK_GREEN%+1 H.Swrd %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK115=1 CLVL<21]: %DARK_GREEN%+1 Vigor %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK114=1 CLVL<21]: %DARK_GREEN%+1 H.Frz %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK113=1 CLVL<21]: %DARK_GREEN%+1 Concnt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK112=1 CLVL<21]: %DARK_GREEN%+1 BlssHm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK111=1 CLVL<21]: %DARK_GREEN%+1 Vngnc %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK110=1 CLVL<21]: %DARK_GREEN%+1 ResLit %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK109=1 CLVL<21]: %DARK_GREEN%+1 Clnsng %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK108=1 CLVL<21]: %DARK_GREEN%+1 BlsAim %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK107=1 CLVL<21]: %DARK_GREEN%+1 Charge %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK106=1 CLVL<21]: %DARK_GREEN%+1 Zeal %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK105=1 CLVL<21]: %DARK_GREEN%+1 ResCld %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK104=1 CLVL<21]: %DARK_GREEN%+1 Defnc %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK103=1 CLVL<21]: %DARK_GREEN%+1 Thorns %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK102=1 CLVL<21]: %DARK_GREEN%+1 H.Fire %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK101=1 CLVL<21]: %DARK_GREEN%+1 H.Bolt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK100=1 CLVL<21]: %DARK_GREEN%+1 ResFi %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK99=1 CLVL<21]: %DARK_GREEN%+1 Prayer %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK98=1 CLVL<21]: %DARK_GREEN%+1 Might %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK97=1 CLVL<21]: %DARK_GREEN%+1 Smite %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK96=1 CLVL<21]: %DARK_GREEN%+1 Sacrfc %NAME%{%NAME%}%CONTINUE%
 
 // --- // --- Sorceress --- \\ --- \\
-ItemDisplay[NMAG !RW (SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0)]: %NAME%%NL%%DARK_GREEN%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0) CLVL<21]: %NL%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW (SK36>1 OR SK37>1 OR SK38>1 OR SK39>1 OR SK40>1 OR SK41>1 OR SK42>1 OR SK43>1 OR SK44>1 OR SK45>1 OR SK46>1 OR SK47>1 OR SK48>1 OR SK49>1 OR SK50>1 OR SK51>1 OR SK52>1 OR SK53>1 OR SK54>1 OR SK55>1 OR SK56>1 OR SK57>1 OR SK58>1 OR SK59>1 OR SK60>1 OR SK61>1 OR SK62>1 OR SK63>1 OR SK64>1 OR SK65>1 OR SK369>1 OR SK383>1 OR SK376>1) CLVL>20]: %NL%%NAME%{%NAME%}%CONTINUE%
 
 //+3
-ItemDisplay[NMAG !RW SK383=3]: %NAME% +3 LHydr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK376=3]: %NAME% +3 Cmbst{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK369=3]: %NAME% +3 IceBr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK65=3]: %NAME% +3 C.Mas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK64=3]: %NAME% +3 F.Orb{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK63=3]: %NAME% +3 L.Mas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK62=3]: %NAME% +3 Hydra{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK61=3]: %NAME% +3 F.Mas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK60=3]: %NAME% +3 ChlAr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK59=3]: %NAME% +3 Blizz{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK58=3]: %NAME% +3 EShld{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK57=3]: %NAME% +3 Storm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK56=3]: %NAME% +3 Mteor{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK55=3]: %NAME% +3 GcSpk{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK54=3]: %NAME% +3 Tlprt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK53=3]: %NAME% +3 Chain{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK52=3]: %NAME% +3 ChntF{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK51=3]: %NAME% +3 FWall{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK50=3]: %NAME% +3 ShvAr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK49=3]: %NAME% +3 Light{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK48=3]: %NAME% +3 Nova{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK47=3]: %NAME% +3 FBall{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK46=3]: %NAME% +3 Blaze{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK45=3]: %NAME% +3 IcBls{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK44=3]: %NAME% +3 FNova{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK43=3]: %NAME% +3 Telkn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK42=3]: %NAME% +3 Stc.F{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK41=3]: %NAME% +3 Infer{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK40=3]: %NAME% +3 CChnt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK39=3]: %NAME% +3 IBolt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK38=3]: %NAME% +3 CBolt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK37=3]: %NAME% +3 Wrmth{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK36=3]: %NAME% +3 FBolt{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK383=3]: %DARK_GREEN%+3 LHydr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK376=3]: %DARK_GREEN%+3 Cmbst %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK369=3]: %DARK_GREEN%+3 IceBr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK65=3]: %DARK_GREEN%+3 C.Mas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK64=3]: %DARK_GREEN%+3 F.Orb %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK63=3]: %DARK_GREEN%+3 L.Mas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK62=3]: %DARK_GREEN%+3 Hydra %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK61=3]: %DARK_GREEN%+3 F.Mas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK60=3]: %DARK_GREEN%+3 ChlAr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK59=3]: %DARK_GREEN%+3 Blizz %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK58=3]: %DARK_GREEN%+3 EShld %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK57=3]: %DARK_GREEN%+3 Storm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK56=3]: %DARK_GREEN%+3 Mteor %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK55=3]: %DARK_GREEN%+3 GcSpk %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK54=3]: %DARK_GREEN%+3 Tlprt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK53=3]: %DARK_GREEN%+3 Chain %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK52=3]: %DARK_GREEN%+3 ChntF %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK51=3]: %DARK_GREEN%+3 FWall %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK50=3]: %DARK_GREEN%+3 ShvAr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK49=3]: %DARK_GREEN%+3 Light %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK48=3]: %DARK_GREEN%+3 Nova %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK47=3]: %DARK_GREEN%+3 FBall %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK46=3]: %DARK_GREEN%+3 Blaze %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK45=3]: %DARK_GREEN%+3 IcBls %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK44=3]: %DARK_GREEN%+3 FNova %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK43=3]: %DARK_GREEN%+3 Telkn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK42=3]: %DARK_GREEN%+3 Stc.F %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK41=3]: %DARK_GREEN%+3 Infer %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK40=3]: %DARK_GREEN%+3 CChnt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK39=3]: %DARK_GREEN%+3 IBolt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK38=3]: %DARK_GREEN%+3 CBolt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK37=3]: %DARK_GREEN%+3 Wrmth %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK36=3]: %DARK_GREEN%+3 FBolt %NAME%{%NAME%}%CONTINUE%
 
 //+2
-ItemDisplay[NMAG !RW SK383=2]: %NAME% +2 LHydr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK376=2]: %NAME% +2 Cmbst{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK369=2]: %NAME% +2 IceBr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK65=2]: %NAME% +2 C.Mas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK64=2]: %NAME% +2 F.Orb{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK63=2]: %NAME% +2 L.Mas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK62=2]: %NAME% +2 Hydra{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK61=2]: %NAME% +2 F.Mas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK60=2]: %NAME% +2 ChlAr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK59=2]: %NAME% +2 Blizz{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK58=2]: %NAME% +2 EShld{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK57=2]: %NAME% +2 Storm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK56=2]: %NAME% +2 Mteor{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK55=2]: %NAME% +2 GcSpk{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK54=2]: %NAME% +2 Tlprt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK53=2]: %NAME% +2 Chain{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK52=2]: %NAME% +2 ChntF{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK51=2]: %NAME% +2 FWall{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK50=2]: %NAME% +2 ShvAr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK49=2]: %NAME% +2 Light{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK48=2]: %NAME% +2 Nova{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK47=2]: %NAME% +2 FBall{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK46=2]: %NAME% +2 Blaze{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK45=2]: %NAME% +2 IcBls{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK44=2]: %NAME% +2 FNova{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK43=2]: %NAME% +2 Telkn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK42=2]: %NAME% +2 Stc.F{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK41=2]: %NAME% +2 Infer{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK40=2]: %NAME% +2 CChnt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK39=2]: %NAME% +2 IBolt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK38=2]: %NAME% +2 CBolt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK37=2]: %NAME% +2 Wrmth{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK36=2]: %NAME% +2 FBolt{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK383=2]: %DARK_GREEN%+2 LHydr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK376=2]: %DARK_GREEN%+2 Cmbst %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK369=2]: %DARK_GREEN%+2 IceBr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK65=2]: %DARK_GREEN%+2 C.Mas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK64=2]: %DARK_GREEN%+2 F.Orb %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK63=2]: %DARK_GREEN%+2 L.Mas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK62=2]: %DARK_GREEN%+2 Hydra %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK61=2]: %DARK_GREEN%+2 F.Mas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK60=2]: %DARK_GREEN%+2 ChlAr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK59=2]: %DARK_GREEN%+2 Blizz %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK58=2]: %DARK_GREEN%+2 EShld %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK57=2]: %DARK_GREEN%+2 Storm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK56=2]: %DARK_GREEN%+2 Mteor %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK55=2]: %DARK_GREEN%+2 GcSpk %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK54=2]: %DARK_GREEN%+2 Tlprt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK53=2]: %DARK_GREEN%+2 Chain %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK52=2]: %DARK_GREEN%+2 ChntF %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK51=2]: %DARK_GREEN%+2 FWall %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK50=2]: %DARK_GREEN%+2 ShvAr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK49=2]: %DARK_GREEN%+2 Light %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK48=2]: %DARK_GREEN%+2 Nova %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK47=2]: %DARK_GREEN%+2 FBall %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK46=2]: %DARK_GREEN%+2 Blaze %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK45=2]: %DARK_GREEN%+2 IcBls %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK44=2]: %DARK_GREEN%+2 FNova %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK43=2]: %DARK_GREEN%+2 Telkn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK42=2]: %DARK_GREEN%+2 Stc.F %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK41=2]: %DARK_GREEN%+2 Infer %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK40=2]: %DARK_GREEN%+2 CChnt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK39=2]: %DARK_GREEN%+2 IBolt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK38=2]: %DARK_GREEN%+2 CBolt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK37=2]: %DARK_GREEN%+2 Wrmth %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK36=2]: %DARK_GREEN%+2 FBolt %NAME%{%NAME%}%CONTINUE%
 
 //+1
-ItemDisplay[NMAG !RW SK383=1 CLVL<21]: %NAME% +1 LHydr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK376=1 CLVL<21]: %NAME% +1 Cmbst{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK369=1 CLVL<21]: %NAME% +1 IceBr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK65=1 CLVL<21]: %NAME% +1 C.Mas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK64=1 CLVL<21]: %NAME% +1 F.Orb{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK63=1 CLVL<21]: %NAME% +1 L.Mas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK62=1 CLVL<21]: %NAME% +1 Hydra{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK61=1 CLVL<21]: %NAME% +1 F.Mas{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK60=1 CLVL<21]: %NAME% +1 ChlAr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK59=1 CLVL<21]: %NAME% +1 Blizz{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK58=1 CLVL<21]: %NAME% +1 EShld{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK57=1 CLVL<21]: %NAME% +1 Storm{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK56=1 CLVL<21]: %NAME% +1 Mteor{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK55=1 CLVL<21]: %NAME% +1 GcSpk{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK54=1 CLVL<21]: %NAME% +1 Tlprt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK53=1 CLVL<21]: %NAME% +1 Chain{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK52=1 CLVL<21]: %NAME% +1 ChntF{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK51=1 CLVL<21]: %NAME% +1 FWall{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK50=1 CLVL<21]: %NAME% +1 ShvAr{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK49=1 CLVL<21]: %NAME% +1 Light{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK48=1 CLVL<21]: %NAME% +1 Nova{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK47=1 CLVL<21]: %NAME% +1 FBall{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK46=1 CLVL<21]: %NAME% +1 Blaze{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK45=1 CLVL<21]: %NAME% +1 IcBls{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK44=1 CLVL<21]: %NAME% +1 FNova{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK43=1 CLVL<21]: %NAME% +1 Telkn{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK42=1 CLVL<21]: %NAME% +1 Stc.F{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK41=1 CLVL<21]: %NAME% +1 Infer{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK40=1 CLVL<21]: %NAME% +1 CChnt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK39=1 CLVL<21]: %NAME% +1 IBolt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK38=1 CLVL<21]: %NAME% +1 CBolt{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK37=1 CLVL<21]: %NAME% +1 Wrmth{%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SK36=1 CLVL<21]: %NAME% +1 FBolt{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK383=1 CLVL<21]: %DARK_GREEN%+1 LHydr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK376=1 CLVL<21]: %DARK_GREEN%+1 Cmbst %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK369=1 CLVL<21]: %DARK_GREEN%+1 IceBr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK65=1 CLVL<21]: %DARK_GREEN%+1 C.Mas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK64=1 CLVL<21]: %DARK_GREEN%+1 F.Orb %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK63=1 CLVL<21]: %DARK_GREEN%+1 L.Mas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK62=1 CLVL<21]: %DARK_GREEN%+1 Hydra %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK61=1 CLVL<21]: %DARK_GREEN%+1 F.Mas %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK60=1 CLVL<21]: %DARK_GREEN%+1 ChlAr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK59=1 CLVL<21]: %DARK_GREEN%+1 Blizz %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK58=1 CLVL<21]: %DARK_GREEN%+1 EShld %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK57=1 CLVL<21]: %DARK_GREEN%+1 Storm %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK56=1 CLVL<21]: %DARK_GREEN%+1 Mteor %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK55=1 CLVL<21]: %DARK_GREEN%+1 GcSpk %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK54=1 CLVL<21]: %DARK_GREEN%+1 Tlprt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK53=1 CLVL<21]: %DARK_GREEN%+1 Chain %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK52=1 CLVL<21]: %DARK_GREEN%+1 ChntF %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK51=1 CLVL<21]: %DARK_GREEN%+1 FWall %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK50=1 CLVL<21]: %DARK_GREEN%+1 ShvAr %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK49=1 CLVL<21]: %DARK_GREEN%+1 Light %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK48=1 CLVL<21]: %DARK_GREEN%+1 Nova %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK47=1 CLVL<21]: %DARK_GREEN%+1 FBall %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK46=1 CLVL<21]: %DARK_GREEN%+1 Blaze %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK45=1 CLVL<21]: %DARK_GREEN%+1 IcBls %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK44=1 CLVL<21]: %DARK_GREEN%+1 FNova %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK43=1 CLVL<21]: %DARK_GREEN%+1 Telkn %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK42=1 CLVL<21]: %DARK_GREEN%+1 Stc.F %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK41=1 CLVL<21]: %DARK_GREEN%+1 Infer %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK40=1 CLVL<21]: %DARK_GREEN%+1 CChnt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK39=1 CLVL<21]: %DARK_GREEN%+1 IBolt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK38=1 CLVL<21]: %DARK_GREEN%+1 CBolt %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK37=1 CLVL<21]: %DARK_GREEN%+1 Wrmth %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK36=1 CLVL<21]: %DARK_GREEN%+1 FBolt %NAME%{%NAME%}%CONTINUE%
 
 //----------------------------------------- PD2 Wiki Details (Defense and Sockets) -----------------------------------------
 
