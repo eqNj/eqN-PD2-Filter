@@ -497,6 +497,8 @@ Updated Vision of Terror and Voidstone descriptions with new difficulty toggle c
 
 Updated 'High IAS Low Level Weapon' tags to account for the new Brilliant crafts.
 
+Updated all relevant crafting info on crafting bases and materials.
+
 Adjusted staffmod items so they will have their +skills listed on a second line. (Thank you devs for this long awaited feature!)
 
 Ensured items for Ice Bolt, Inferno, Arctic Blast, Poison Creeper, Poison Strike, and various other skills were all showing appropriately useful drops and/or description highlights.
