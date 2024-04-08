@@ -447,7 +447,7 @@ Added a note about adding difficulty tier to a Vision of Terror or a Voidstone w
 
 ## 1.7.0 - (Season 8)
 
-Added an indicator [»] to the beginning of NMAG class item names if they sell for a decent amount of gold. The exact price will show in their descriptions and in the description of magic and rare items of similar value(s). Values indicated: 10k+ until level 30. 20k+ until level 60. 30k+ until level 75 or permanently on the 'Relaxed' filter level. This is an experimental feature so please feel free to give feedback on it and report any issues.
+Added an indicator [»] to the beginning of NMAG class item names if they sell for a decent amount of gold. The exact price will show in their descriptions and in the description of magic and rare items of similar value(s). Values indicated: 10k+ until level 20. 20k+ until level 40. 30k+ until level 75 or permanently on the 'Relaxed' filter level. This is an experimental feature so please feel free to give feedback on it and report any issues.
 
 Added new leveling notifications (before level 75) for high defense Mage Plates, Grim Shields, and Grim Helmets as well as notifications on these (and all Elite) perfect Superior (15% ED) chest, shield, and helmet runeword bases at all levels. Elite weapons that were perfect Superior (15% ED) were already notifying, and as always all moderately useful runeword bases, Superior or having good Staffmods, were already showing and sometimes notifying.
 
@@ -489,24 +489,30 @@ Continued optimizations for use with the new HD text introduced last season.
 
 ## 1.7.0 - (Season 9)
 
-Updated Defense Range information on armor bases.
+Updated map tiering and immunities.
 
-Further refined the 'green dot' added to the end of high defense, non-superior non-magic (white) runeword bases that signifies a good roll.
+Updated Defense Range information on armor bases.
 
 Updated Vision of Terror and Voidstone descriptions with new difficulty toggle capability.
 
-Added details about crafting results to Infusion descriptions, but only in town.
-
-Added new Diamond recipes to applicable magic crafting base and stacked Diamond descriptions when using the 'ShowRecipes' filter level.
-
-Made it so crafting recipes show on P Gems on all filter levels, but only in town.
-
 Updated 'High IAS Low Level Weapon' tags to account for the new Brilliant crafts.
 
+Adjusted staffmod items so they will have their +skills listed on a second line. (Thank you devs for this long awaited feature!)
+
 Ensured items for Ice Bolt, Inferno, Arctic Blast, Poison Creeper, Poison Strike, and various other skills were all showing appropriately useful drops and/or description highlights.
+
+Further refined the 'green dot' added to the end of high defense, non-superior non-magic (white) runeword bases that signifies a good roll.
+
+Added new Diamond recipes to applicable magic crafting base and stacked Diamond descriptions when using the 'ShowRecipes' filter level.
 
 Added new LLD tags for daggers that would be good for Kick/MA Assassin and Poison Strike Necromancer.
 
 Added new high level tags for daggers that would be good for all kinds of Assassins as well as Poison Strike Necromancer.
 
 Added Half Freeze Duration / Cannot Be Frozen status to player cubes.
+
+Added improved drop highlights for applicable ethereal set items.
+
+Added details about crafting results to Infusion descriptions, but only in town.
+
+Made it so crafting recipes show on P Gems on all filter levels, but only in town.
