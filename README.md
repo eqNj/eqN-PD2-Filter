@@ -499,6 +499,8 @@ Updated 'High IAS Low Level Weapon' tags to account for the new Brilliant crafts
 
 Updated all relevant crafting info on crafting bases and materials.
 
+Updated PvP Mana Potions with latest PvP damage modifiers.
+
 Adjusted staffmod items so they will have their +skills listed on a second line. (Thank you devs for this long awaited feature!)
 
 Ensured items for Ice Bolt, Inferno, Arctic Blast, Poison Creeper, Poison Strike, and various other skills were all showing appropriately useful drops and/or description highlights.
@@ -518,3 +520,5 @@ Added improved drop highlights for applicable ethereal set items.
 Added details about crafting results to Infusion descriptions, but only in town.
 
 Made it so crafting recipes show on P Gems on all filter levels, but only in town.
+
+Did a cursory pass on all staffmod runeword bases.
