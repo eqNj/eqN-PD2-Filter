@@ -140,9 +140,9 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ### The 'Medium' filter level has the following changes (after character level 75):
 
-Gold piles less than 1200 are hidden.
+Gold piles less than 1200 are hidden. Gold piles less than 2500 are hidden at level 90+.
 
-High gold value items stop being indicated at level 75.
+High gold value items stop being indicated.
 
 Flawless gems no longer notify. (Perfect gems still do.)
 
@@ -165,7 +165,7 @@ Magic rings and amulets are hidden, unless item level 86+ rings or item level 90
 
 ### The 'Strict' filter level has the following changes (after character level 75):
 
-Gold piles less than 2500 are hidden.
+Gold piles less than 2500 are hidden. Gold piles less than 4000 are hidden at level 90+.
 
 High gold value items stop being indicated at level 75.
 
@@ -520,5 +520,7 @@ Added improved drop highlights for applicable ethereal set items.
 Added details about crafting results to Infusion descriptions, but only in town.
 
 Made it so crafting recipes show on P Gems on all filter levels, but only in town.
+
+Made so slightly larger gold piles are hidden when hitting level 90 on Medium and higher strictness.
 
 Did a cursory pass on all staffmod runeword bases.
