@@ -4869,9 +4869,9 @@ ItemDisplay[rid]: %BORDER-60%   %GOLD%%NAME%   {%NAME%} // Tome of Identify
 ItemDisplay[jew UNI !ID]: %BORDER-60%%RED%:%ORANGE%:%YELLOW%:%GREEN%:%BLUE%:%PURPLE%:     %GOLD%%NAME%     %PURPLE%:%BLUE%:%GREEN%:%YELLOW%:%ORANGE%:%RED%:%GOLD%
 
 //High-Tier Uniques
-ItemDisplay[(rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR 6lw OR 7gw OR 7gd OR obf OR uhm) UNI !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[(rin OR amu OR 6ws OR uar OR uui OR ulc OR urn OR uap OR ci3 OR xtb OR 6lw OR 7gw OR 7gd OR obf OR uhm) UNI !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 //Only Eth
-ItemDisplay[((ELT SPEAR) OR (ELT 2H SWORD) OR 7ha OR 9la OR 7lw OR 7tw OR 7sc OR 7ws OR amd OR am9 OR am5 OR ame OR uvb OR 7bt OR 9gm OR 7gm OR 7s8 OR 7tw OR utp) UNI ETH !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[((ELT SPEAR) OR (ELT 2H SWORD) OR 7ha OR 9la OR 7lw OR 7tw OR 7sc OR 7ws OR amd OR am9 OR am5 OR ame OR uvb OR 7bt OR 9gm OR 7gm OR 7s8 OR 7tw OR utp OR 7wh) UNI ETH !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 
 //Mid-Tier Uniques
 //Belts
@@ -4895,7 +4895,7 @@ ItemDisplay[((ELT (POLEARM OR DAGGER)) OR THROWING OR 7ga OR 7bk OR 9s8 OR 9sr O
 //Belts
 ItemDisplay[(zvb OR tbl) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Armors 
-ItemDisplay[(uui OR tbt OR utu OR lea OR hla OR fld) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
+ItemDisplay[(tbt OR utu OR lea OR hla OR fld OR uth) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Gloves
 ItemDisplay[(tgl OR xmg) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Helmets
@@ -4905,7 +4905,7 @@ ItemDisplay[(lbt OR umb OR xmb) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME
 //Shields
 ItemDisplay[(ush OR upk OR pae) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Weapons
-ItemDisplay[((ELT 2H MACE) OR 7p7 OR oba OR dgr OR 9fc OR 9gs OR 8ws OR 6l7 OR 7ha OR 9gm OR 7fl OR 7ga OR 9wn) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
+ItemDisplay[((ELT 2H MACE) OR 7p7 OR oba OR dgr OR 9fc OR 9gs OR 8ws OR 6l7 OR 7ha OR 9gm OR 7fl OR 7ga OR 9wn OR 7br OR 6hx) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Only Eth
 ItemDisplay[(9b7 OR 92h OR 9gd) UNI ETH !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //PD2 Exclusive (Season 3)
@@ -4933,7 +4933,7 @@ ItemDisplay[(FILTLVL=4 OR FILTLVL=5) (cap OR dgr OR mbl OR mbt OR lsd OR lbl OR 
 //Armors
 ItemDisplay[(ghm OR brs OR pa3 OR xkp OR xul OR xlm OR drb OR 9sp OR mbt OR xcl OR chn OR uul OR xng OR xui OR spl OR pac OR xsk OR xml OR xlb OR xpl OR xap OR xld OR xrs OR gth OR aar OR BELT OR skp OR xhl OR xrn OR vbt OR xmb OR uvb OR lgl OR vgl OR mgl OR hgl OR xlg OR xvg OR xtg OR xhg OR uml OR xts OR xrg OR xuc OR kit OR gts) UNI !ID]: %PX-60%%NAME%
 //Weapons
-ItemDisplay[((lbb OR 7fb OR scy OR 9s8 OR 8cb OR am5 OR 6sw OR 8cs OR xcl OR 9wc OR 9b7 OR bac OR 6rx OR 6hx OR 7m7 OR 9cl OR mau OR 7ls OR 9ls OR 7br OR 7sr OR 9ba OR 7wa OR 7gi OR 7pa OR 8ls OR 72a OR 7o7 OR 9yw OR 9fc OR 7bw OR 9kr OR amb OR 7sc OR 7mp OR 6sw OR 8hx OR dgr OR 7dg OR 7bl OR 9ma OR 9wh OR 9gm OR 7s8 OR 7wc OR 9ws OR 7b7 OR 7gs OR 9sb) OR (ELT (WP5 OR WP6)) OR ywn OR 7wb OR 7sp) UNI !ID]: %PX-60%%NAME%
+ItemDisplay[((lbb OR 7fb OR scy OR 9s8 OR 8cb OR am5 OR 6sw OR 8cs OR xcl OR 9wc OR 9b7 OR bac OR 6rx OR 7m7 OR 9cl OR mau OR 7ls OR 9ls OR 7sr OR 9ba OR 7wa OR 7gi OR 7pa OR 8ls OR 72a OR 7o7 OR 9yw OR 9fc OR 7bw OR 9kr OR amb OR 7sc OR 7mp OR 6sw OR 8hx OR dgr OR 7dg OR 7bl OR 9ma OR 9wh OR 9gm OR 7s8 OR 7wc OR 9ws OR 7b7 OR 7gs OR 9sb) OR (ELT (WP5 OR WP6)) OR ywn OR 7wb OR 7sp) UNI !ID]: %PX-60%%NAME%
 //Sets
 ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0 OR ba5 OR lbt) !(9vo OR xcl OR xrn)) SET !ID]: %PX-84%%NAME%
 
