@@ -523,4 +523,6 @@ Made it so crafting recipes show on P Gems on all filter levels, but only in tow
 
 Made so slightly larger gold piles are hidden when hitting level 90 on Medium and higher strictness.
 
+Improved the aesthetics of various highlighted items.
+
 Did a cursory pass on all staffmod runeword bases.
