@@ -499,6 +499,8 @@ Updated 'High IAS Low Level Weapon' tags to account for the new Brilliant crafts
 
 Updated all relevant crafting info on crafting bases and materials.
 
+Updated "Upgraded Requirements" as necessary.
+
 Updated PvP Mana Potions with latest PvP damage modifiers.
 
 Adjusted staffmod items so they will have their +skills listed on a second line. (Thank you devs for this long awaited feature!)
