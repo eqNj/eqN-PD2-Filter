@@ -154,7 +154,7 @@ Normal and exceptional magic items are hidden unless they are ethereal or specif
 
 Most exceptional and elite magic non-class items for crafting, except for elite chest armors, are hidden once you reach character level 80.
 
-Normal, exceptional, and elite rare weapons are hidden, unless ethereal, a bow/crossbow, and/or a class item.
+Normal, exceptional, and elite rare weapons are hidden, unless ethereal, a bow/crossbow, a dagger, and/or a class item.
 
 Only high/mid-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
@@ -177,7 +177,7 @@ Non-magic (white) items are almost all hidden, unless highly sought after bases 
 
 Normal, exceptional, and elite magic items are hidden unless ethereal items for crafting and/or specifically useful for the class you are playing.
 
-Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, an amazon bow, a class helm, necro shield, gloves, boots, belts, rings, amulets, circlets, or arrows.
+Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, an amazon bow, a dagger, a class item, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level chest/shield.
 
 Only high-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
