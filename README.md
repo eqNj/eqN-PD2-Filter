@@ -99,9 +99,9 @@ Descriptions have been added to almost every quest item and/or utility item in t
 **Accent Symbol(s) (Accent Color) = Signified Value(s)**
 
 ### Prefixes
+[¢] (Sage) = High Vendor Sell Price<br>
 [%#] (Red) = Superior Weapon Enhanced Damage<br>
 [%#] (Blue) = Superior Armor Enhanced Defense<br>
-[»] (Green) = High Vendor Sell Price<br>
 [e] (White) = Ethereal<br>
 \+ (Orange) = Superior<br>
 \- (Blue) = Inferior<br>
@@ -109,8 +109,11 @@ Descriptions have been added to almost every quest item and/or utility item in t
 ### Suffixes
 [#r] (Scaling Colors) = Paladin Shield Resistances<br>
 [#ed] (Red) = Paladin Shield Enhanced Damage<br>
+<#> (White) = Number of Sockets<br>
 +# XXXXX (Green) = Staffmod Skills<br>
-<#> (White) = Sockets<br>
+
+### Prefix or Suffix
+» (Purple) = Good for Low Level Dueling (LLD)<br>
 
 ### Unidentified
 ·NAME· (Teal) = Ideal Crafting Base @ Character Level Rare or Magic Item<br>
@@ -447,7 +450,7 @@ Added a note about adding difficulty tier to a Vision of Terror or a Voidstone w
 
 ## 1.7.0 - (Season 8)
 
-Added an indicator [»] to the beginning of NMAG class item names if they sell for a decent amount of gold. The exact price will show in their descriptions and in the description of magic and rare items of similar value(s). Values indicated: 10k+ until level 20. 20k+ until level 40. 30k+ until level 75 or permanently on the 'Relaxed' filter level. This is an experimental feature so please feel free to give feedback on it and report any issues.
+Added an indicator [¢] to the beginning of NMAG class item names if they sell for a decent amount of gold. The exact price will show in their descriptions and in the description of magic and rare items of similar value(s). Values indicated: 10k+ until level 20. 20k+ until level 40. 30k+ until level 75 or permanently on the 'Relaxed' filter level. This is an experimental feature so please feel free to give feedback on it and report any issues.
 
 Added new leveling notifications (before level 75) for high defense Mage Plates, Grim Shields, and Grim Helmets as well as notifications on these (and all Elite) perfect Superior (15% ED) chest, shield, and helmet runeword bases at all levels. Elite weapons that were perfect Superior (15% ED) were already notifying, and as always all moderately useful runeword bases, Superior or having good Staffmods, were already showing and sometimes notifying.
 
@@ -504,6 +507,8 @@ Updated "Upgraded Requirements" as necessary.
 Updated PvP Mana Potions with latest PvP damage modifiers.
 
 Adjusted staffmod items so they will have their +skills listed on a second line. (Thank you devs for this long awaited feature!)
+
+Changed the purple "LLD" text on LLD item names to a purple chevron symbol (») when using the All-In-One or Potionless filter versions.
 
 Ensured items for Ice Bolt, Inferno, Arctic Blast, Poison Creeper, Poison Strike, and various other skills were all showing appropriately useful drops and/or description highlights.
 
