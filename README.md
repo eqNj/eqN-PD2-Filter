@@ -113,7 +113,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 +# XXXXX (Green) = Staffmod Skills<br>
 
 ### Prefix or Suffix
-» (Purple) = Good for Low Level Dueling (LLD)<br>
+« (Purple) = Good for Low Level Dueling (LLD)<br>
 
 ### Unidentified
 ·NAME· (Teal) = Ideal Crafting Base @ Character Level Rare or Magic Item<br>
