@@ -381,7 +381,7 @@ ItemDisplay[yps (MAPID=37 OR MAPID=133 OR MAPID=161 OR MAPID=162 OR MAPID=163 OR
 ItemDisplay[(vps OR wms OR yps OR tsc OR isc) FILTLVL=0]: %NAME%{%NAME%}
 ItemDisplay[(vps OR wms OR yps OR tsc OR isc) CLVL>14]: {%NAME%}
 ItemDisplay[rkey]: %BORDER-0A%%GOLD%|%TAN%:    %GOLD%%NAME%    %TAN%:%GOLD%|{%TAN%will open a very heavy door.%NL%A very little key}
-ItemDisplay[key CLVL>29 SHOP]: {%WHITE%Item%DARK_GREEN%· %WHITE%= %TAN%High Defense Roll White Item%NL%%PURPLE%·%BLUE%Item%WHITE%/%YELLOW%Item%PURPLE%· %WHITE%= %TAN%Ideal Low Level Crafting Base%NL%%TEAL%·%BLUE%Item%WHITE%/%YELLOW%Item%TEAL%· %WHITE%= %TAN%Ideal Crafting Base for Current Character Level%NL%%PURPLE%« %WHITE%= %TAN%Useful Item for Low Level Dueling%NL%%LIGHT_GRAY%[%SAGE%¢%LIGHT_GRAY%] %WHITE%= %TAN%High Vendor Sell Price%NL%%GRAY%Any unintuitive filter symbology is explained here.%NL%%DARK_GREEN%Advanced Filter Key}
+ItemDisplay[key CLVL>29 SHOP]: {%WHITE%Item%DARK_GREEN%· %WHITE%= %TAN%High Defense Roll White Item%NL%%PURPLE%·%BLUE%Item%WHITE%/%YELLOW%Item%PURPLE%· %WHITE%= %TAN%Ideal Low Level Crafting Base%NL%%TEAL%·%BLUE%Item%WHITE%/%YELLOW%Item%TEAL%· %WHITE%= %TAN%Ideal Crafting Base for Current CLVL%NL%%PURPLE%« %WHITE%= %TAN%Useful Item for Low Level Dueling%NL%%LIGHT_GRAY%[%SAGE%¢%LIGHT_GRAY%] %WHITE%= %TAN%High Vendor Sell Price%NL%%GRAY%Any unintuitive filter symbology is explained here.%NL%%DARK_GREEN%Advanced Filter Key}
 ItemDisplay[key (CLVL<10 OR FILTLVL=0)]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
 ItemDisplay[key CLVL>10 FILTLVL>0]: {%TAN%The key is in the craft.}
 ItemDisplay[ear]: {%NAME%}
