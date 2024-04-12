@@ -387,10 +387,10 @@ ItemDisplay[key CLVL>9 FILTLVL>0]: {%TAN%The key is in the craft.}
 ItemDisplay[ear]: {%NAME%}
 
 //NMAG Arrows & Bolts
-ItemDisplay[(cqv) NMAG CLVL<7]: %NAME%{%TAN%you only hit what you aim at.%NL%In the long run,}
-ItemDisplay[(cqv) NMAG CLVL>6]: {%TAN%you only hit what you aim at.%NL%In the long run,}
-ItemDisplay[(aqv) NMAG CLVL<7]: %NAME%{%TAN%you must aim a little above it.%NL%If you would hit the mark,}
-ItemDisplay[(aqv) NMAG CLVL>6]: {%TAN%you must aim a little above it.%NL%If you would hit the mark,}
+ItemDisplay[(cqv) NMAG CLVL<4]: %NAME%{%TAN%you only hit what you aim at.%NL%In the long run,}
+ItemDisplay[(cqv) NMAG CLVL>3]: {%TAN%you only hit what you aim at.%NL%In the long run,}
+ItemDisplay[(aqv) NMAG CLVL<4]: %NAME%{%TAN%you must aim a little above it.%NL%If you would hit the mark,}
+ItemDisplay[(aqv) NMAG CLVL>3]: {%TAN%you must aim a little above it.%NL%If you would hit the mark,}
 
 //Ye Olde Throwing Potions
 ItemDisplay[opl (CLVL<10 OR FILTLVL=0)]: %RED%:%GRAY%f¹%WHITE%{%WHITE%Ye Olde Fulminating Potion}
@@ -5536,8 +5536,14 @@ ItemDisplay[NEC NECROMANCER MAG !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL
 ItemDisplay[DIN PALADIN MAG !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
 ItemDisplay[SOR SORCERESS MAG !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
 ItemDisplay[BAR BARBARIAN MAG !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[(DRU OR (spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl)) DRUID MAG !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[(ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR ces OR 9cs OR 7cs) ASSASSIN MAG !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // (Leveling)
+ItemDisplay[(DRU OR CLUB) DRUID MAG !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[(ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR ces OR 9cs OR 7cs) ASSASSIN MAG !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[NEC NECROMANCER RARE !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[DIN PALADIN RARE !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[SOR SORCERESS RARE !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[BAR BARBARIAN RARE !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[(DRU OR CLUB) RARE !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[(SIN OR DAGGER) ASSASSIN RARE !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
 ItemDisplay[(SOR OR (am4 OR am9 OR ame OR am3 OR am8 OR amd) OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR (DRU !ETH) OR (spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl) OR (BAR !ETH) OR (NEC !ETH) OR (DIN !ETH)) MAG !ID ((FILTLVL<2 OR FILTLVL=5) OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // (Leveling)
 ItemDisplay[(SOR OR WAND OR SIN OR SCEPTER OR (am4 OR am9 OR ame OR am3 OR am8 OR amd) OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) OR DRU OR BAR OR NEC OR DIN) RARE !ID]: %NAME%{%NAME%}
 
