@@ -107,6 +107,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 \- (Blue) = Inferior<br>
 
 ### Suffixes
+· (Green) = High Defense Roll White Items<br>
 [#r] (Scaling Colors) = Paladin Shield Resistances<br>
 [#ed] (Red) = Paladin Shield Enhanced Damage<br>
 <#> (White) = Number of Sockets<br>
@@ -492,6 +493,12 @@ Continued optimizations for use with the new HD text introduced last season.
 
 ## 1.7.0 - (Season 9)
 
+Added an 'Advanced Filter Key' to keys in vendors.
+
+Moved the 'Filter Details' from keys to ID scrolls in vendors.
+
+Moved the 'Crafting Tips' from ID scrolls to stamina potions in vendors.
+
 Updated map tiering and immunities.
 
 Updated Defense Range information on armor bases.
@@ -516,11 +523,9 @@ Further refined the 'green dot' added to the end of high defense, non-superior n
 
 Added new Diamond recipes to applicable magic crafting base and stacked Diamond descriptions when using the 'ShowRecipes' filter level.
 
-Added new LLD tags for daggers that would be good for Kick/MA Assassin and Poison Strike Necromancer.
+Added new LLD tags abd high level tags for daggers that would be good for Blade/Kick/MA Assassin and Poison Strike Necromancer.
 
-Added new high level tags for daggers that would be good for all kinds of Assassins as well as Poison Strike Necromancer.
-
-Added Half Freeze Duration / Cannot Be Frozen status to player cubes.
+Added Half Freeze Duration / Cannot Be Frozen status to the Horadric Cube.
 
 Added improved drop highlights for applicable ethereal set items.
 
