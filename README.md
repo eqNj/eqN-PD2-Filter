@@ -337,7 +337,7 @@ Renamed the old 'Strict' filter level to 'Medium'.
 
 Added a new 'StrictLLD' filter level that uses the 'late season' / 'high speed mapping' strictness of the Strict filter level while still showing and notifying for all non-shoppable LLD crafting bases that drop.
 
-Added a new 'ShowRecipes' filter level that shows all crafting and upgrading recipes that previously would always show on items in your stash, inventory, or when equipped. These recipes show on all magic items and on perfect gems. These recipes are now hidden on all other filter levels. This filter level also shows the runes necessary for runewords on runeword bases in their sequential order of necessary socketing.
+Added a new 'ShowRecipes' filter level that shows all crafting and upgrading recipes that previously would always show on items in your stash, inventory, or when equipped. These recipes show on all magic items and on perfect gems. These recipes are now hidden on all other filter levels. This filter version also shows the runes necessary for runewords on runeword bases in their sequential order of necessary socketing.
 
 Socketing recipes will still show at all filter levels.
 
@@ -345,7 +345,7 @@ Visually remastered nearly every aspect of item drop names and/or descriptons to
 
 Crafting, upgrading, and socketing recipes will no longer show on items while they are in a vendor's inventory (all filter levels) to help make items worth shopping for easier to see at a glance.
 
-Gold that is hidden is no longer able to be auto-looted as of Season 5. I've adopted the scaling gold drop system designed by BetweenWalls as a solution to allow much more gold to be seen and thus auto-looted. This scaling applies at all levels on the Relaxed filter. Currently, at level 75+, gold piles less than 1600 are hidden on the Medium filter level and less than 3000 are hidden on the Strict & StrictLLD filter levels.
+Gold that is hidden is no longer able to be auto-looted as of Season 5. I've adopted the scaling gold drop system designed by BetweenWalls as a solution to allow much more gold to be seen and thus auto-looted. This scaling applies at all levels on the Relaxed filter. Currently, at level 75+, gold piles less than 1200 are hidden on the Medium filter level and less than 2500 are hidden on the Strict & StrictLLD filter levels.
 
 Added a new "Potionless" filter version to the launcher, "eqN-Potionless", which functions identically to "eqN-All-In-One" except it hides Super Potions after character level 75. (Intended for characters who do not need them.)
 
@@ -365,9 +365,9 @@ Made it so items that gain +1 potential maximum sockets from being upgraded indi
 
 A corrupted Annihilus will now always have a red name and a corrupted Annihilus with the +1 All Skills corruption will have an orange + in front of it's red name. Useful for drop trading.
 
-Thoroughly refined the unique items that notify on drop to further accomidate any possible niche use cases.
+Thoroughly refined the unique items that notify on drop to further accommodate any possible niche use cases.
 
-Thoroughly refined the runeword bases that show and/or notify on drop to further accomidate any possible niche use cases.
+Thoroughly refined the runeword bases that show and/or notify on drop to further accommodate any possible niche use cases.
 
 Ensured all new unique items added to the game in Season 5 will notify on drop and have a specialized aesthetic.
 
@@ -397,7 +397,7 @@ Added pertinent information for the new runewords (Asylum and Shattered Wall) to
 
 Added new description lines for class skill and/or high ED armors and shields with other useful affixes. (Applicable for LLD and high level items.)
 
-Added new existing runeword possibilites introduced this season to applicable runewords bases. (This includes rune listing/order provided in the ShowRecipes filter level.)
+Added newly existing runeword possibilites introduced this season to applicable runewords bases. (This includes rune listing/order provided in the ShowRecipes filter level.)
 
 Reworked how and when rare and magic arrows and bolts show depending on filter level.
 
