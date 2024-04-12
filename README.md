@@ -523,7 +523,7 @@ Further refined the 'green dot' added to the end of high defense, non-superior n
 
 Added new Diamond recipes to applicable magic crafting base and stacked Diamond descriptions when using the 'ShowRecipes' filter level.
 
-Added new LLD tags abd high level tags for daggers that would be good for Blade/Kick/MA Assassin and Poison Strike Necromancer.
+Added new LLD tags and high level tags for daggers that would be good for Blade/Kick/MA Assassin and Poison Strike Necromancer.
 
 Added Half Freeze Duration / Cannot Be Frozen status to the Horadric Cube.
 
