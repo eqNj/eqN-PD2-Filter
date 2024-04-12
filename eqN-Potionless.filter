@@ -702,9 +702,9 @@ ItemDisplay[t38]: %NAME%{%RED%130% %GRAY%|| %YELLOW%75% %GRAY%|| %BLUE%80% %GRAY
 ItemDisplay[t39]: %NAME%{%RED%125% %GRAY%|| %YELLOW%90% %GRAY%|| %BLUE%130% %GRAY%|| %GREEN%105% %GRAY%|| %ORANGE%50% %GRAY%|| %TAN%40%%NL%%RED%Fire %GRAY%|| %YELLOW%Light %GRAY%|| %BLUE%Cold %GRAY%|| %GREEN%Poison %GRAY%|| %ORANGE%Magic %GRAY%|| %TAN%Phys%NL%%WHITE%Highest Monster Immunities:%NL%%NAME%}%CONTINUE% // Kehjistan Marketplace
 ItemDisplay[t3a]: %NAME%{%RED%75% %GRAY%|| %YELLOW%80% %GRAY%|| %BLUE%130% %GRAY%|| %GREEN%130% %GRAY%|| %ORANGE%120% %GRAY%|| %TAN%50%%NL%%RED%Fire %GRAY%|| %YELLOW%Light %GRAY%|| %BLUE%Cold %GRAY%|| %GREEN%Poison %GRAY%|| %ORANGE%Magic %GRAY%|| %TAN%Phys%NL%%WHITE%Highest Monster Immunities:%NL%%NAME%}%CONTINUE% // Ashen Plains
 //Tier 4 Immunes
-ItemDisplay[t41]: %NAME%{%TAN%150% All Types%NL%%WHITE%Highest Monster Immunities:}%CONTINUE% // Cathedral of Light
-ItemDisplay[t42]: %NAME%{%TAN%150% All Types%NL%%WHITE%Highest Monster Immunities:}%CONTINUE% // Plains of Torment
-ItemDisplay[t43]: %NAME%{%TAN%150% All Types%NL%%WHITE%Highest Monster Immunities:}%CONTINUE% // Sanctuary of Sin
+ItemDisplay[t41]: %NAME%{%TAN%165% All Types%NL%%WHITE%Highest Monster Immunities:}%CONTINUE% // Cathedral of Light
+ItemDisplay[t42]: %NAME%{%TAN%165% All Types%NL%%WHITE%Highest Monster Immunities:}%CONTINUE% // Plains of Torment
+ItemDisplay[t43]: %NAME%{%TAN%165% All Types%NL%%WHITE%Highest Monster Immunities:}%CONTINUE% // Sanctuary of Sin
 //Unique Map Immunes
 ItemDisplay[t51]: %NAME%{%RED%85% %GRAY%|| %YELLOW%85% %GRAY%|| %BLUE%85% %GRAY%|| %GREEN%95% %GRAY%|| %ORANGE%40% %GRAY%|| %TAN%65%%NL%%RED%Fire %GRAY%|| %YELLOW%Light %GRAY%|| %BLUE%Cold %GRAY%|| %GREEN%Poison %GRAY%|| %ORANGE%Magic %GRAY%|| %TAN%Phys%NL%%WHITE%Highest Monster Immunities:}%CONTINUE% // Zhar's Sanctum
 ItemDisplay[t52]: %NAME%{%RED%65% %GRAY%|| %YELLOW%60% %GRAY%|| %BLUE%65% %GRAY%|| %GREEN%75% %GRAY%|| %ORANGE%50% %GRAY%|| %TAN%50%%NL%%RED%Fire %GRAY%|| %YELLOW%Light %GRAY%|| %BLUE%Cold %GRAY%|| %GREEN%Poison %GRAY%|| %ORANGE%Magic %GRAY%|| %TAN%Phys%NL%%WHITE%Highest Monster Immunities:}%CONTINUE% // Stygian Caverns
@@ -5173,14 +5173,18 @@ ItemDisplay[6rx NMAG !INF !RW (SOCK=0 OR SOCK=3) (FILTLVL<3 OR FILTLVL=5 OR (ED>
 ItemDisplay[(6rx OR 6lx OR 6mx) NMAG !INF !RW (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5) (FILTLVL<3 OR FILTLVL=5 OR (ED>7 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // Other Elite Crossbows
 
 //Daggers
-ItemDisplay[7kr (SK73>2 OR SK265>2) !ETH NMAG !INF (SOCK=0 OR SOCK=3)]: %DOT-D6%%NAME%{%NAME%} // Fanged Knife For Poison Strike or Cobra Strike
-ItemDisplay[(7bl OR 7dg OR 7di) (SK255>2 OR SK270>2) NMAG !INF !SOCK=1]: %DOT-D6%%NAME%{%NAME%} // Legend Spike, Bone Knife, or Mithril Point For Kick Assassin
-ItemDisplay[(7bl OR 7dg OR 7di) SK254>2 SK275>0 !ETH NMAG !INF !SOCK=1]: %DOT-D6%%NAME%{%NAME%} // Legend Spike, Bone Knife, or Mithril Point For Tiger Assassin
-ItemDisplay[(7bl OR 7dg OR 7di) ETH NMAG !INF !SOCK=1 ED>7]: %DOT-D6%%NAME%{%NAME%} // Ethereal and Superior Legend Spike, Bone Knife, or Mithril Point For Blade Assassin
-ItemDisplay[(kri OR 9kr) SK73>2 !ETH NMAG !INF (SOCK=0 OR SOCK=3) NECROMANCER CLVL<70]: %DOT-D6%%NAME%{%NAME%} // Fanged Knife For Poison Strike (Leveling)
-ItemDisplay[(kri OR 9kr) SK265>2 !ETH NMAG !INF (SOCK=0 OR SOCK=3) ASSASSIN CLVL<70]: %DOT-D6%%NAME%{%NAME%} // Fanged Knife For Cobra Strike (Leveling)
-ItemDisplay[(bld OR 9dg OR 9di OR 9bl OR 9kr OR 7dg OR 7di OR 7bl OR 7kr) (SK255>2 OR SK259>2 OR SK265>2 OR SK269>2 OR SK270>2 OR SK274>2 OR SK280>2) !ETH NMAG !INF !SOCK=1 ASSASSIN CLVL<70]: %NAME%{%NAME%} // +3 Martial Art Daggers (Leveling)
-ItemDisplay[(bld OR 9dg OR 9di OR 9bl OR 9kr OR 7dg OR 7di OR 7bl OR kri OR 9kr OR 7kr) SK73>2 !ETH NMAG !INF !SOCK=1 NECROMANCER CLVL<70]: %NAME%{%NAME%} // +3 Poison Strike Daggers (Leveling)
+ItemDisplay[(7bl OR 7dg OR 7di) ((SK257>2 (SK266>0 OR SK275>0)) OR (SK266>2 (SK257>0 OR SK275>0))) ETH NMAG !INF !SOCK=1]: %DOT-D6%%NAME%{%NAME%} // Ethereal Legend Spike, Bone Knife, or Mithril Point For Blade Assassin
+ItemDisplay[(7bl OR 7dg OR 7di) (SK257>2 OR SK266>2) ETH NMAG !INF !SOCK=1]: %NAME%{%NAME%} // Ethereal Legend Spike, Bone Knife, or Mithril Point For Blade Assassin
+ItemDisplay[7kr SK73>2 !ETH NMAG !INF (SOCK=0 OR SOCK=3) NECROMANCER]: %DOT-D6%%NAME%{%NAME%} // Fanged Knife For Poison Strike
+ItemDisplay[7kr SK265>2 !ETH NMAG !INF (SOCK=0 OR SOCK=3) ASSASSIN]: %DOT-D6%%NAME%{%NAME%} // Fanged Knife For Cobra Strike
+ItemDisplay[7kr (SK73>2 OR SK265>2) !ETH NMAG !INF (SOCK=0 OR SOCK=3)]: %NAME%{%NAME%} // Fanged Knife For Poison Strike or Cobra Strike
+ItemDisplay[(7bl OR 7dg OR 7di) (SK255>2 OR SK270>2) NMAG !INF !SOCK=1]: %NAME%{%NAME%} // Legend Spike, Bone Knife, or Mithril Point For Kick Assassin
+ItemDisplay[(7bl OR 7dg OR 7di) SK254>2 SK275>0 !ETH NMAG !INF !SOCK=1 (FILTLVL<3 OR FILTLVL=5 OR (ED>3 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // Legend Spike, Bone Knife, or Mithril Point For Tiger Assassin
+ItemDisplay[((kri CLVL<50) OR 9kr) SK73>2 !ETH NMAG !INF (SOCK=0 OR SOCK=3) NECROMANCER CLVL<70]: %DOT-D6%%NAME%{%NAME%} // Kris or Cinquedeas For Poison Strike (Leveling)
+ItemDisplay[((kri CLVL<50) OR 9kr) SK265>2 !ETH NMAG !INF (SOCK=0 OR SOCK=3) ASSASSIN CLVL<70]: %DOT-D6%%NAME%{%NAME%} // Kris or Cinquedeas For Cobra Strike (Leveling)
+ItemDisplay[(9dg OR 9di OR 9bl) (SK257>2 OR SK266>2) ETH NMAG !INF !SOCK=1 ASSASSIN CLVL<70]:  %DOT-D6%%NAME%{%NAME%} // Ethereal Exceptional Daggers for Blade Assassin (Leveling)
+ItemDisplay[(bld OR 9dg OR 9di OR 9bl OR 9kr OR 7dg OR 7di OR 7bl OR 7kr) (SK255>2 OR SK259>2 OR SK265>2 OR SK269>2 OR SK270>2 OR SK274>2 OR SK280>2) !ETH NMAG !INF !SOCK=1 ASSASSIN CLVL<70]: %NAME%{%NAME%} // Martial Arts Daggers for Assassin (Leveling)
+ItemDisplay[(bld OR 9dg OR 9di OR 9bl OR 9kr OR 7dg OR 7di OR 7bl OR kri OR 9kr OR 7kr) SK73>2 !ETH NMAG !INF !SOCK=1 NECROMANCER CLVL<70]: %NAME%{%NAME%} // Poison Strike Daggers for Necromancer (Leveling)
 
 //Axes
 ItemDisplay[(7wa OR 72a OR 7mp) ETH NMAG !INF !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%} // Ethereal One Handed Elite Axes
@@ -5653,9 +5657,9 @@ ItemDisplay[SHOP xtp MAG (FILTLVL=4 OR FILTLVL=5)]: %GREEN%Mage Plate%NL%%BLUE%%
 
 //High Level Shop Hunting
 ItemDisplay[SHOP WEAPON MAG ED>299]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%High ED Weapon   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
-ItemDisplay[SHOP SIN MAG (TABSK48>2 OR ((TABSK48>1 OR CLSK6>1) (SK366>1 OR SK276>1 OR SK272>1 OR SK256>1 OR SK257>1 OR SK262>1)))]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Traps Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
-ItemDisplay[SHOP DAGGER MAG (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) (SK280>1 OR SK274>1 OR SK269>1 OR SK265>1 OR SK259>1)))]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Martial Arts Dagger   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
-ItemDisplay[SHOP SIN MAG (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) (SK280>1 OR SK274>1 OR SK269>1 OR SK265>1 OR SK259>1)))]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Martial Arts Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[SHOP SIN MAG (((TABSK48>2 OR (CLSK6>1 ALLSK>0) OR (ALLSK>0 TABSK48>1)) (SK366>1 OR SK276>1 OR SK272>1 OR SK256>1 OR SK257>1 OR SK262>1)) OR ((CLSK6>1 OR ALLSK>1 OR TABSK48>1) (SK366>2 OR SK276>2 OR SK272>2 OR SK256>2 OR SK257>2 OR SK262>2)))]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Traps Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[SHOP DAGGER MAG (((TABSK50>2 OR (CLSK6>1 ALLSK>0) OR (ALLSK>0 TABSK50>1)) (SK280>1 OR SK274>1 OR SK269>1 OR SK265>1 OR SK259>1)) OR ((CLSK6>1 OR ALLSK>1 OR TABSK50>1) (SK280>2 OR SK274>2 OR SK269>2 OR SK265>2 OR SK259>2)))]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Martial Arts Dagger   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[SHOP SIN MAG (((TABSK50>2 OR (CLSK6>1 ALLSK>0) OR (ALLSK>0 TABSK50>1)) (SK280>1 OR SK274>1 OR SK269>1 OR SK265>1 OR SK259>1)) OR ((CLSK6>1 OR ALLSK>1 OR TABSK50>1) (SK280>2 OR SK274>2 OR SK269>2 OR SK265>2 OR SK259>2)))]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Martial Arts Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[SHOP SIN MAG ((TABSK49>1 OR CLSK6>1) SK278>1)]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Venom Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[SHOP SIN MAG ((TABSK49>1 OR CLSK6>1) SK273>1)]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Mind Blast Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[SHOP GLOVES MAG ((TABSK0>2) OR (TABSK1>2) OR (TABSK2>2) OR (TABSK50>2)) (IAS>9 OR FCR>9)]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%+3 Skill Gloves   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
@@ -5747,9 +5751,9 @@ ItemDisplay[!SHOP WEAPON MAG (TABSK2>4 OR (CLSK0>0 TABSK2>2)) LVLREQ<31]: %DOT-9
 
 //High Level, "Out of the Shop"
 ItemDisplay[!SHOP WEAPON MAG ED>299]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%High ED Weapon   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
-ItemDisplay[!SHOP SIN MAG (TABSK48>2 OR ((TABSK48>1 OR CLSK6>1) (SK366>1 OR SK276>1 OR SK272>1 OR SK256>1 OR SK257>1 OR SK262>1)))]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Traps Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
-ItemDisplay[!SHOP DAGGER MAG (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) (SK280>1 OR SK274>1 OR SK269>1 OR SK265>1 OR SK259>1)))]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Martial Arts Dagger   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
-ItemDisplay[!SHOP SIN MAG (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) (SK280>1 OR SK274>1 OR SK269>1 OR SK265>1 OR SK259>1)))]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Martial Arts Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[!SHOP SIN MAG (((TABSK48>2 OR (CLSK6>1 ALLSK>0) OR (ALLSK>0 TABSK48>1)) (SK366>1 OR SK276>1 OR SK272>1 OR SK256>1 OR SK257>1 OR SK262>1)) OR ((CLSK6>1 OR ALLSK>1 OR TABSK48>1) (SK366>2 OR SK276>2 OR SK272>2 OR SK256>2 OR SK257>2 OR SK262>2)))]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Traps Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[!SHOP DAGGER MAG (((TABSK50>2 OR (CLSK6>1 ALLSK>0) OR (ALLSK>0 TABSK50>1)) (SK280>1 OR SK274>1 OR SK269>1 OR SK265>1 OR SK259>1)) OR ((CLSK6>1 OR ALLSK>1 OR TABSK50>1) (SK280>2 OR SK274>2 OR SK269>2 OR SK265>2 OR SK259>2)))]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Martial Arts Dagger   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[!SHOP SIN MAG (((TABSK50>2 OR (CLSK6>1 ALLSK>0) OR (ALLSK>0 TABSK50>1)) (SK280>1 OR SK274>1 OR SK269>1 OR SK265>1 OR SK259>1)) OR ((CLSK6>1 OR ALLSK>1 OR TABSK50>1) (SK280>2 OR SK274>2 OR SK269>2 OR SK265>2 OR SK259>2)))]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Martial Arts Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[!SHOP SIN MAG ((TABSK49>1 OR CLSK6>1) SK278>1)]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Venom Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[!SHOP SIN MAG ((TABSK49>1 OR CLSK6>1) SK273>1)]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Mind Blast Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[!SHOP GLOVES MAG ((TABSK0>2) OR (TABSK1>2) OR (TABSK2>2) OR (TABSK50>2)) (IAS>9 OR FCR>9)]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%+3 Skill Gloves   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
@@ -6340,9 +6344,9 @@ ItemDisplay[((ELT SOCK>0) OR !FILTLVL=5) SHIELD (RARE OR CRAFT) EDAM>99 (LIFE>39
 
 //High Level Rare and Crafted Description Highlighting Part 2
 ItemDisplay[WEAPON (RARE OR CRAFT) ED>349]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%High ED Weapon   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
-ItemDisplay[SIN (RARE OR CRAFT) (TABSK48>2 OR ((TABSK48>1 OR CLSK6>1) (SK366>1 OR SK276>1 OR SK272>1 OR SK256>1 OR SK257>1 OR SK262>1)))]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Traps Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
-ItemDisplay[DAGGER (RARE OR CRAFT) (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) (SK280>1 OR SK274>1 OR SK269>1 OR SK265>1 OR SK259>1)))]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Martial Arts Dagger   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
-ItemDisplay[SIN (RARE OR CRAFT) (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) (SK280>1 OR SK274>1 OR SK269>1 OR SK265>1 OR SK259>1)))]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Martial Arts Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[SIN (RARE OR CRAFT) (((TABSK48>2 OR (CLSK6>1 ALLSK>0) OR (ALLSK>0 TABSK48>1)) (SK366>1 OR SK276>1 OR SK272>1 OR SK256>1 OR SK257>1 OR SK262>1)) OR ((CLSK6>1 OR ALLSK>1 OR TABSK48>1) (SK366>2 OR SK276>2 OR SK272>2 OR SK256>2 OR SK257>2 OR SK262>2)))]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Traps Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[DAGGER (RARE OR CRAFT) (((TABSK50>2 OR (CLSK6>1 ALLSK>0) OR (ALLSK>0 TABSK50>1)) (SK280>1 OR SK274>1 OR SK269>1 OR SK265>1 OR SK259>1)) OR ((CLSK6>1 OR ALLSK>1 OR TABSK50>1) (SK280>2 OR SK274>2 OR SK269>2 OR SK265>2 OR SK259>2)))]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Martial Arts Dagger   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[SIN (RARE OR CRAFT) (((TABSK50>2 OR (CLSK6>1 ALLSK>0) OR (ALLSK>0 TABSK50>1)) (SK280>1 OR SK274>1 OR SK269>1 OR SK265>1 OR SK259>1)) OR ((CLSK6>1 OR ALLSK>1 OR TABSK50>1) (SK280>2 OR SK274>2 OR SK269>2 OR SK265>2 OR SK259>2)))]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Martial Arts Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[SIN (RARE OR CRAFT) ((TABSK49>1 OR CLSK6>1) SK278>1)]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Venom Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[SIN (RARE OR CRAFT) ((TABSK49>1 OR CLSK6>1) SK273>1)]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Mind Blast Claw   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[GLOVES FILTLVL=5 EQUIPPED (RARE OR CRAFT) ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) IAS>9]: %NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%+2 Skill IAS Gloves   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
