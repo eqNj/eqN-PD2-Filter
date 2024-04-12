@@ -399,30 +399,30 @@ ItemDisplay[gps]: {%WHITE%Ye Olde Rancid Potion}
 //New Throwing Potions
 ItemDisplay[tpfs (CLVL<15 OR FILTLVL=0)]: %ORANGE%#%GRAY%f¹%WHITE%{%WHITE%Fulminating Potion}
 ItemDisplay[tpfs]: {%WHITE%Fulminating Potion}
-ItemDisplay[tpfm (CLVL<30 OR FILTLVL=0)]: %ORANGE%#%GRAY%f²%WHITE%{%WHITE%Exploding Potion}
+ItemDisplay[tpfm ((CLVL<30 MAPID<103 DIFF=0) OR FILTLVL=0)]: %ORANGE%#%GRAY%f²%WHITE%{%WHITE%Exploding Potion}
 ItemDisplay[tpfm]: {%WHITE%Exploding Potion}
-ItemDisplay[tpfl (CLVL<60 OR FILTLVL=0 OR DIFF=0)]: %ORANGE%#%GRAY%f³%WHITE%{%WHITE%Oil Potion}
+ItemDisplay[tpfl (CLVL<45 OR FILTLVL=0 OR DIFF=0) !(MAPID>127 FILTLVL>0)]: %ORANGE%#%GRAY%f³%WHITE%{%WHITE%Oil Potion}
 ItemDisplay[tpfl]: {%WHITE%Oil Potion}
 
 ItemDisplay[tpgs (CLVL<15 OR FILTLVL=0)]: %DARK_GREEN%#%GRAY%p¹%WHITE%{%WHITE%Strangling Potion}
 ItemDisplay[tpgs]: {%WHITE%Strangling Potion}
-ItemDisplay[tpgm (CLVL<30 OR FILTLVL=0)]: %DARK_GREEN%#%GRAY%p²%WHITE%{%WHITE%Choking Potion}
+ItemDisplay[tpgm ((CLVL<30 MAPID<103 DIFF=0) OR FILTLVL=0)]: %DARK_GREEN%#%GRAY%p²%WHITE%{%WHITE%Choking Potion}
 ItemDisplay[tpgm]: {%WHITE%Choking Potion}
-ItemDisplay[tpgl (CLVL<60 OR FILTLVL=0 OR DIFF=0)]: %DARK_GREEN%#%GRAY%p³%WHITE%{%WHITE%Rancid Potion}
+ItemDisplay[tpgl (CLVL<45 OR FILTLVL=0 OR DIFF=0) !(MAPID>127 FILTLVL>0)]: %DARK_GREEN%#%GRAY%p³%WHITE%{%WHITE%Rancid Potion}
 ItemDisplay[tpgl]: {%WHITE%Rancid Potion}
  
 ItemDisplay[tpcs (CLVL<15 OR FILTLVL=0)]: %TEAL%#%GRAY%c¹%WHITE%{%WHITE%Chilling Potion}
 ItemDisplay[tpcs]: {%WHITE%Chilling Potion}
-ItemDisplay[tpcm (CLVL<30 OR FILTLVL=0)]: %TEAL%#%GRAY%c²%WHITE%{%WHITE%Frost Potion}
+ItemDisplay[tpcm ((CLVL<30 MAPID<103 DIFF=0) OR FILTLVL=0)]: %TEAL%#%GRAY%c²%WHITE%{%WHITE%Frost Potion}
 ItemDisplay[tpcm]: {%WHITE%Frost Potion}
-ItemDisplay[tpcl (CLVL<60 OR FILTLVL=0 OR DIFF=0)]: %TEAL%#%GRAY%c³%WHITE%{%WHITE%Freezing Potion}
+ItemDisplay[tpcl (CLVL<45 OR FILTLVL=0 OR DIFF=0) !(MAPID>127 FILTLVL>0)]: %TEAL%#%GRAY%c³%WHITE%{%WHITE%Freezing Potion}
 ItemDisplay[tpcl]: {%WHITE%Freezing Potion}
 
 ItemDisplay[tpls (CLVL<15 OR FILTLVL=0)]: %YELLOW%#%GRAY%l¹%WHITE%{%WHITE%Charged Potion}
 ItemDisplay[tpls]: {%WHITE%Charged Potion}
-ItemDisplay[tplm (CLVL<30 OR FILTLVL=0)]: %YELLOW%#%GRAY%l²%WHITE%{%WHITE%Static Potion}
+ItemDisplay[tplm ((CLVL<30 MAPID<103 DIFF=0) OR FILTLVL=0)]: %YELLOW%#%GRAY%l²%WHITE%{%WHITE%Static Potion}
 ItemDisplay[tplm]: {%WHITE%Static Potion}
-ItemDisplay[tpll (CLVL<60 OR FILTLVL=0 OR DIFF=0)]: %YELLOW%#%GRAY%l³%WHITE%{%WHITE%Shock Potion}
+ItemDisplay[tpll (CLVL<45 OR FILTLVL=0 OR DIFF=0) !(MAPID>127 FILTLVL>0)]: %YELLOW%#%GRAY%l³%WHITE%{%WHITE%Shock Potion}
 ItemDisplay[tpll]: {%WHITE%Shock Potion}
 
 //----------------------------------------- Charms -----------------------------------------
