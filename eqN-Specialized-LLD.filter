@@ -578,17 +578,17 @@ ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk OR aqv OR cqv OR RUNE>14) QTY>1]: %N
 ItemDisplay[jewf]: %PURPLE%~ %BLUE%%NAME% %PURPLE%~%BLUE%{%WHITE%Functions identical to %BLUE%Jewels %WHITE%for %ORANGE%Recipes%NL%%NL%%TAN%Shatter to soot, component of creation.}
 
 //Standard of Heroes
-ItemDisplay[std]: %PX-62%%YELLOW%|%GRAY%:%TAN%>     %GOLD%%NAME%     %YELLOW%<%GRAY%:%TAN%|%GOLD%{%GRAY%+10% Experience%NL%+20% Magic & Gold Find%NL%+20% Monster Density%NL%%TAN%Heroic Maps have the following properties:%NL%%NL%%WHITE%Map + %GOLD%Standard %WHITE%= Heroic Map}
+ItemDisplay[std]: %PX-62%%YELLOW%|%GRAY%:%TAN%>     %GOLD%%NAME%     %YELLOW%<%GRAY%:%TAN%|%GOLD%{%TAN%Invigorating a Heroic Age%NL%Banners of Eternal Conflict}
 
 //Project Diablo 2 Items
-ItemDisplay[wss]: %MAP-4B%%NAME%{%RED%Warning%WHITE%: This can brick your item%NL%%WHITE%Use this to %RED%Corrupt %WHITE%items or maps%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
-ItemDisplay[scrb]: %BORDER-62%%TAN%%LBRACE%%BLUE%·%TAN%%RBRACE%     %GOLD%%NAME%     %TAN%%LBRACE%%BLUE%·%TAN%%RBRACE%%GOLD%{%WHITE%Create a %RED%Dungeon%NL%%GOLD%Cube %WHITE%this with a %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Map:}
-ItemDisplay[lmal]: %GRAY%:  %GOLD%%NAME%  %GRAY%:%GOLD%{%RED%Corruption %WHITE%and/or %GOLD%Puzzlepieces %WHITE%could result higher.%NL%%NL%%WHITE%to add a single %TAN%socket %WHITE%to the item.%NL%%GOLD%Cube %WHITE%this item with %DARK_GREEN%any %WHITE%applicable weapon or armor}
-ItemDisplay[lpp]: %BORDER-0B%%YELLOW%|%GRAY%:    %GOLD%%NAME%    %GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%to add a variable amount of %TAN%sockets %WHITE%to it.%NL%%GOLD%Cube %WHITE%this item with %DARK_GREEN%any %WHITE%applicable weapon or armor%NL%%WHITE%Not usable with %GOLD%Unique %WHITE%or %GREEN%Set %WHITE%items.}
-ItemDisplay[lbox]: %BORDER-0C%%YELLOW%|%GRAY%::%YELLOW%|      %GOLD%%NAME%      %YELLOW%|%GRAY%::%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%to add a variable amount of %TAN%sockets %WHITE%to it.%NL%%GOLD%Cube %WHITE%this item with %DARK_GREEN%any %WHITE%applicable weapon or armor}
+ItemDisplay[wss]: %MAP-4B%%NAME%{%RED%Warning%WHITE%: This can brick your item%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
+ItemDisplay[scrb]: %BORDER-62%%TAN%%LBRACE%%BLUE%o%TAN%%RBRACE%     %GOLD%%NAME%     %TAN%%LBRACE%%BLUE%o%TAN%%RBRACE%%GOLD%{%TAN%Shuffle the Deserts of Aranoch%NL%The Lineage of Great Mages}
+ItemDisplay[lmal]: %GRAY%:  %GOLD%%NAME%  %GRAY%:%GOLD%{%RED%Corruption %WHITE%and/or %GOLD%Puzzlepieces %WHITE%could result higher.%NL%}
+ItemDisplay[lpp]: %BORDER-0B%%YELLOW%|%GRAY%:    %GOLD%%NAME%    %GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
+ItemDisplay[lbox]: %BORDER-0C%%YELLOW%|%GRAY%:%YELLOW%|      %GOLD%%NAME%      %YELLOW%|%GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
 ItemDisplay[lsvl]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%%RBRACE%          %PURPLE%%NAME%          %BLUE%%LBRACE%%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%GOLD%Indestructible %WHITE%items cannot be made ethereal.}
 ItemDisplay[llmr]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%%RBRACE%          %PURPLE%%NAME%          %BLUE%%LBRACE%%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Once an item is %PURPLE%Mirrored %WHITE%it cannot be %GOLD%Cubed%WHITE%.%NL%Not usable on jewels of any kind.%NL%Usable on %BLUE%Magic %WHITE%/ %YELLOW%Rare %WHITE%/ %ORANGE%Crafted %WHITE%items.}
-ItemDisplay[iwss]: %GOLD%|  %PURPLE%%NAME%  %GOLD%|%PURPLE%{%TAN%Catalyzed Maps have a guaranteed map event.%NL%%NL%%WHITE%Map + %PURPLE%Shard %WHITE%= Catalyzed Map}
+ItemDisplay[iwss]: %GOLD%|  %PURPLE%%NAME%  %GOLD%|%PURPLE%{%TAN%What does it matter, the source of the catalyst?%NL%A series of vibrations.}
 
 // Crafting Orbs
 ItemDisplay[crfb (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]:%ORANGE%Blood Infusion%CONTINUE%{%LIGHT_GRAY%Amulet: 10% FRW [3-6] LPK [10-20] Life%NL%Ring: [5-10] Str [1-3]% LL [10-20] Life%NL%Belt: [10-20]% Open Wounds [3-6]% LL [10-20] Life%NL%Gloves: [5-10]% Crushing Blow [2-4]% LL [10-20] Life%NL%Boots: [15-30] Rep Life [2-4]% LL[10-20] Life%NL%Helm: [10-20]% Crushing Blow [2-4]% LL [10-20] Life%NL%Chest: [3-6] LPK [3-6]% LL [20-40] Life%NL%Shield: [10-20]% Block [3-6]% LL [10-20] Life%NL%Weapon: [50-80]% ED [3-6]% LL [10-20] Life}
