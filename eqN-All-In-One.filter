@@ -855,13 +855,6 @@ ItemDisplay[RARE (CRES>24 OR FRES>24 OR LRES>24 OR PRES>24) (STAT31>49 OR RES>9 
 
 //----------------------------------------- Base Renaming and Formatting -----------------------------------------
 
-//Indicate Corrupted Items
-//ItemDisplay[(ARMOR OR WEAPON OR rin OR amu) STAT360>0 (MAPID=181 OR MAPID=182) !EQUIPPED MAG]: %RED%·%BLUE%%NAME%%CONTINUE%
-//ItemDisplay[(ARMOR OR WEAPON OR rin OR amu) STAT360>0 (MAPID=181 OR MAPID=182) !EQUIPPED RARE]: %RED%·%YELLOW%%NAME%%CONTINUE%
-//ItemDisplay[(ARMOR OR WEAPON OR rin OR amu) STAT360>0 (MAPID=181 OR MAPID=182) !EQUIPPED CRAFT]: %RED%·%ORANGE%%NAME%%CONTINUE%
-//ItemDisplay[(ARMOR OR WEAPON OR rin OR amu) STAT360>0 (MAPID=181 OR MAPID=182) !EQUIPPED UNI]: %RED%·%GOLD%%NAME%%CONTINUE%
-//ItemDisplay[(ARMOR OR WEAPON OR rin OR amu) STAT360>0 (MAPID=181 OR MAPID=182) !EQUIPPED SET]: %RED%·%GREEN%%NAME%%CONTINUE%
-
 //Label Ethereal Items
 ItemDisplay[ETH UNI]: %GRAY%[%WHITE%e%GRAY%] %GOLD%%NAME%%CONTINUE%
 ItemDisplay[ETH SET]: %GRAY%[%WHITE%e%GRAY%] %GREEN%%NAME%%CONTINUE%
