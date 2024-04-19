@@ -6050,8 +6050,8 @@ ItemDisplay[(9bw OR 7bw) UNI TABSK17>0 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%D
 ItemDisplay[(9bw OR 7bw) UNI TABSK17>0 SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[(ba6 OR bab) UNI STAT425>0 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[(ba6 OR bab) UNI STAT425>0 SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
-ItemDisplay[bac UNI OS232>0 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
-ItemDisplay[bac UNI OS232>0 SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
+ItemDisplay[bac UNI OS248>0 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
+ItemDisplay[bac UNI OS248>0 SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[uhl UNI STAT425>15 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
 ItemDisplay[uhl UNI STAT425>15 SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>}
 ItemDisplay[ulm UNI FBR>20 SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%Legacy Item   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
