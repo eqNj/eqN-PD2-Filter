@@ -6422,8 +6422,6 @@ ItemDisplay[RARE (9pi OR 9s9 OR 9gl OR 9ts OR ama) ((ED>169) OR (ED>149 ((IAS>19
 ItemDisplay[RARE (lwb OR 8lw OR rxb OR 8rx OR am1 OR am6 OR swb OR 8sw OR hxb OR 8hx) ((ED>199 STAT360>0 ((IAS>19) OR (MAXDMG>19))) OR (ED>199 STAT360>0 IAS<20 SOCK>2) OR (ED>229 STAT360>0 IAS<20 SOCK<3) OR (STAT360>0 (TABSK0>2 OR (CLSK0>0 TABSK0>1)) ((IAS>19 OR FRW>0) SOCK>1))) LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level Dueling Usable%NL%%NAME%}
 ItemDisplay[RARE (lwb OR 8lw OR rxb OR 8rx OR am1 OR am6 OR swb OR 8sw OR hxb OR 8hx) ((ED>169 STAT360=0) OR (STAT360=0 (TABSK0>2 OR (CLSK0>0 TABSK0>1)) (IAS>19 OR FRW>0)) OR (STAT360=0 (TABSK0>3 OR (CLSK0>0 TABSK0>2)) IAS<20)) LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}
 
-//----------------------------------------- Low level Dueling (Phys / IAS Weapons) -----------------------------------------
-
 //Low Level Dueling Crafts (Normal) (Phys / IAS Weapons)
 ItemDisplay[CRAFT (mpi OR clb OR fla OR sbr OR lsd OR bld OR wsp OR wrb OR ces) ((SOCK=2 IAS>39 STAT360=0) OR (SOCK=2 ((ED>109) OR (MAXDMG>30)) IAS>39 STAT360>0) OR (SOCK=2 IAS>59 STAT360>0) OR (SOCK=3 IAS>39)) LVLREQ<31]: %NAME%%ORANGE%{%TAN%Low Level High IAS Weapon%NL%%NAME%}
 ItemDisplay[CRAFT (clw OR ktr OR skr) ((SOCK=2 IAS>49 STAT360=0) OR (SOCK=2 IAS>69 STAT360>0) OR (SOCK=3 IAS>49)) LVLREQ<31]: %NAME%%ORANGE%{%TAN%Low Level High IAS Weapon%NL%%NAME%}
