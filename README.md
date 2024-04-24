@@ -30,7 +30,7 @@ When using any filter level the following applies. All flawless and perfect gems
 
 When using the default, 'Relaxed', filter level the above and the following apply. All elite non-magic (white) items always show. All rare items always show. All useful magic crafting bases always show. 
 
-The 'Relaxed' level of this filter is the basis upon which all levels of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. All levels of this filter share an similar, highly optimized leveling experience before reaching character level 75. 
+The 'Relaxed' level of this filter is the basis upon which all levels of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. All levels of this filter share a similar, highly optimized leveling experience before reaching character level 75. 
 
 **For more details about all of the different filter levels please read the [levels](https://github.com/eqNj/eqN-PD2-Filter#levels) section of this readme.**
 
