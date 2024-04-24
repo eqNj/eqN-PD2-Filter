@@ -5,13 +5,19 @@
 ItemDisplayFilterName[]:Relaxed
 ItemDisplayFilterName[]:Medium
 ItemDisplayFilterName[]:Strict
-ItemDisplayFilterName[]:StrictLLD
+ItemDisplayFilterName[]:Potionless
 ItemDisplayFilterName[]:ShowRecipes
 
 //Specialized Filter Key
-//ItemDisplay[mp5 CLVL>75 FILTLVL>1 !FILTLVL=5]: {%WHITE%Super Mana Potion}
-//ItemDisplay[hp5 CLVL>75 FILTLVL>1 !FILTLVL=5]: {%WHITE%Super Healing Potion}
-//ItemDisplay[mp4 CLVL>75 FILTLVL>1 !FILTLVL=5]: {%WHITE%Greater Mana Potion}
+//Potionless
+//ItemDisplay[mp5 CLVL>75 FILTLVL>3 !FILTLVL=5]: {%WHITE%Super Mana Potion}
+//ItemDisplay[hp5 CLVL>75 FILTLVL>3 !FILTLVL=5]: {%WHITE%Super Healing Potion}
+//ItemDisplay[mp4 CLVL>75 FILTLVL>3 !FILTLVL=5]: {%WHITE%Greater Mana Potion}
+//ItemDisplay[hp4 CLVL>59 FILTLVL>3 !FILTLVL=5]: {%WHITE%Greater Healing Potion}
+//ItemDisplay[mp3 CLVL>39 FILTLVL>3 !FILTLVL=5]: {%WHITE%Mana Potion}
+//ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=4]: %NAME%{%SAGE%Potionless%NL%%TAN%As above, so below.%NL%%NAME%}
+//ItemDisplay[box FILTLVL=4]: %NAME%{%SAGE%Potionless%NL%%TAN%As above, so below.}
+
 
 //----------------------------------------- Utilities -----------------------------------------
 
@@ -207,13 +213,13 @@ ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=0]: %NAME%{%SAGE%Show A
 ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=1]: %NAME%{%SAGE%Relaxed%NL%%TAN%As above, so below.%NL%%NAME%}
 ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=2]: %NAME%{%SAGE%Medium%NL%%TAN%As above, so below.%NL%%NAME%}
 ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=3]: %NAME%{%SAGE%Strict%NL%%TAN%As above, so below.%NL%%NAME%}
-ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=4]: %NAME%{%SAGE%StrictLLD%NL%%TAN%As above, so below.%NL%%NAME%}
+ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=4]: %NAME%{%SAGE%Potionless%NL%%TAN%As above, so below.%NL%%NAME%}
 ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=5]: %NAME%{%SAGE%ShowRecipes%NL%%TAN%As above, so below.%NL%%NAME%}
 ItemDisplay[box FILTLVL=0]: %NAME%{%SAGE%Show All Items%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=1]: %NAME%{%SAGE%Relaxed%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=2]: %NAME%{%SAGE%Medium%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=3]: %NAME%{%SAGE%Strict%NL%%TAN%As above, so below.}
-ItemDisplay[box FILTLVL=4]: %NAME%{%SAGE%StrictLLD%NL%%TAN%As above, so below.}
+ItemDisplay[box FILTLVL=4]: %NAME%{%SAGE%Potionless%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=5]: %NAME%{%SAGE%ShowRecipes%NL%%TAN%As above, so below.}
 
 //Gold (Big thanks to BetweenWalls for their work on this section!)
@@ -312,9 +318,11 @@ ItemDisplay[FILTLVL>0 GOLD>0 GOLD<988 DIFF=2 (MAPID=136 OR MAPID=137 OR MAPID=16
 ItemDisplay[GOLD>0]: %NAME%
 
 //Potionless
-ItemDisplay[mp5 CLVL>75 FILTLVL>1 !FILTLVL=5]: {%WHITE%Super Mana Potion}
-ItemDisplay[hp5 CLVL>75 FILTLVL>1 !FILTLVL=5]: {%WHITE%Super Healing Potion}
-ItemDisplay[mp4 CLVL>75 FILTLVL>1 !FILTLVL=5]: {%WHITE%Greater Mana Potion}
+ItemDisplay[mp5 CLVL>75 FILTLVL>3 !FILTLVL=5]: {%WHITE%Super Mana Potion}
+ItemDisplay[hp5 CLVL>75 FILTLVL>3 !FILTLVL=5]: {%WHITE%Super Healing Potion}
+ItemDisplay[mp4 CLVL>75 FILTLVL>3 !FILTLVL=5]: {%WHITE%Greater Mana Potion}
+ItemDisplay[hp4 CLVL>59 FILTLVL>3 !FILTLVL=5]: {%WHITE%Greater Healing Potion}
+ItemDisplay[mp3 CLVL>39 FILTLVL>3 !FILTLVL=5]: {%WHITE%Mana Potion}
 
 //Health & Mana Potions
 ItemDisplay[rvl]: %BLACK%* %PURPLE%JV %BLACK%*%WHITE%{%WHITE%Full Rejuvenation Potion}
@@ -453,7 +461,7 @@ ItemDisplay[cm1 !UNI (LIFE>11 OR FRW>0 OR FHR>0) MAXDMG>1 LVLREQ<31]: %DOT-A0%%N
 ItemDisplay[cm1 !UNI LIFE>11 (MANA>4 OR STAT31>4 OR FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
 ItemDisplay[cm1 !UNI (DEX>1 OR STR>1) (MANA>6 OR STAT31>7 OR FRES>6 OR CRES>6 OR LRES>6 OR PRES>6) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
 ItemDisplay[cm1 !UNI (FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) STR>0 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
-ItemDisplay[cm1 !UNI ((MANA>9 OR RES>0 OR STAT31>9 OR MAXDMG>1 OR CRES>6 OR FRES>6 OR LRES>6 OR PRES>6) (LIFE>11 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0) OR LIFE>14) LVLREQ<31 FILTLVL=4]: %PURPLE%LLD%NL%%BLUE%%NAME%{%NAME%}
+ItemDisplay[cm1 !UNI ((MANA>9 OR RES>0 OR STAT31>9 OR MAXDMG>1 OR CRES>6 OR FRES>6 OR LRES>6 OR PRES>6) (LIFE>11 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0) OR LIFE>14) LVLREQ<31]: %PURPLE%LLD%NL%%BLUE%%NAME%{%NAME%}
 
 //Large Charms
 ItemDisplay[cm2 !UNI ALVL<41 ALVL>37]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%%TAN%Low Level Dueling Reroll Charm}%CONTINUE%
@@ -4915,13 +4923,10 @@ ItemDisplay[(amu OR uar OR ci3 OR (ETH (7m7 OR 7qr OR 7ws OR 7gd OR 7fb))) SET !
 ItemDisplay[(rin OR uhm OR dr8 OR 7qr OR uth OR paf OR lbt OR lbl OR lgl OR ulg OR xmg) SET !ID]: %MAP-84%%PURPLE%~%DARK_GREEN%:   %GREEN%%NAME%   %DARK_GREEN%:%PURPLE%~%GREEN%
 
 //Low Level Dueling
-ItemDisplay[!FILTLVL=4 !FILTLVL=5 (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xui OR xuc OR kit OR vgl OR mbt OR gth) !ETH UNI !ID]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}%CONTINUE%
-ItemDisplay[!FILTLVL=4 !FILTLVL=5 (lgl OR vbt OR vgl OR bwn OR xap) SET !ETH !ID]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}%CONTINUE%
-//StrictLLD
-ItemDisplay[(FILTLVL=4 OR FILTLVL=5) (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xui OR xuc OR kit OR vgl OR mbt OR vbt OR (flb ILVL>40) OR gth OR hbt) !ETH UNI !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
-ItemDisplay[(FILTLVL=4 OR FILTLVL=5) (lea OR hla OR chn OR ssd) UNI !ETH !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%vLLD%GRAY%){%NAME%}
-ItemDisplay[(FILTLVL=4 OR FILTLVL=5) (lgl OR vbt OR vgl OR bwn OR xap) SET !ETH !ID]: %DOT-84%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
-ItemDisplay[(FILTLVL=4 OR FILTLVL=5) (cap OR dgr OR mbl OR mbt OR lsd OR lbl OR ghm OR hbt OR hgl OR tow OR wsd) SET !ETH !ID]: %NAME% %GRAY%(%PURPLE%vLLD%GRAY%){%NAME%}
+ItemDisplay[(cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xui OR xuc OR kit OR vgl OR mbt OR vbt OR (flb ILVL>40) OR gth OR hbt) !ETH UNI !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
+ItemDisplay[(lea OR hla OR chn OR ssd) UNI !ETH !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%vLLD%GRAY%){%NAME%}
+ItemDisplay[(lgl OR vbt OR vgl OR bwn OR xap) SET !ETH !ID]: %DOT-84%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
+ItemDisplay[(cap OR dgr OR mbl OR mbt OR lsd OR lbl OR ghm OR hbt OR hgl OR tow OR wsd) SET !ETH !ID]: %NAME% %GRAY%(%PURPLE%vLLD%GRAY%){%NAME%}
 
 //Specific Unique and Set Alerts (Only Relevant if "All Unique and Set Alerts" are disabled)
 //Armors
@@ -4951,8 +4956,8 @@ ItemDisplay[(aqv OR cqv) MAG !ID CLVL>59]:
 //Magic Craftables\\
 
 //StrictLLD & ShowRecipes
-ItemDisplay[(ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) MAG ETH !ID (FILTLVL=4 OR FILTLVL=5) CLVL>74]: %DOT-4B%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) MAG !ID (FILTLVL=4 OR FILTLVL=5) CLVL>74]: %PX-4B%%TIER-0%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
+ItemDisplay[(ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) MAG ETH !ID CLVL>74]: %DOT-4B%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) MAG !ID CLVL>74]: %PX-4B%%TIER-0%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
 
 //Notified
 ItemDisplay[(SHIELD OR CHEST) !NEC MAG ETH !ID (CRAFTALVL>84 OR ((DIFF<2 OR CLVL<90) CRAFTALVL>74))]: %DOT-97%%TEAL%·%BLUE%%NAME%%TEAL%·
@@ -5013,8 +5018,8 @@ ItemDisplay[(am5 OR ama OR amf) MAG !ID]: %NAME%
 //Rare Craftables\\
 
 //StrictLLD & ShowRecipes
-ItemDisplay[(ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) RARE ETH !ID (FILTLVL=4 OR FILTLVL=5) CLVL>74]: %DOT-4B%%PURPLE%·%YELLOW%%NAME%%PURPLE%·%GRAY%{%NAME%}
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) RARE !ID (FILTLVL=4 OR FILTLVL=5) CLVL>74]: %DOT-4B%%PURPLE%·%YELLOW%%NAME%%PURPLE%·%GRAY%{%NAME%}
+ItemDisplay[(ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) RARE ETH !ID CLVL>74]: %DOT-4B%%PURPLE%·%YELLOW%%NAME%%PURPLE%·%GRAY%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) RARE !ID CLVL>74]: %DOT-4B%%PURPLE%·%YELLOW%%NAME%%PURPLE%·%GRAY%{%NAME%}
 
 //Notified
 ItemDisplay[(SHIELD OR CHEST) !NEC RARE ETH !ID (CRAFTALVL>84 OR ((DIFF<2 OR CLVL<90) CRAFTALVL>74))]: %DOT-A8%%TEAL%·%YELLOW%%NAME%%TEAL%·
@@ -5206,8 +5211,8 @@ ItemDisplay[9ws NMAG !INF !RW ((SOCK=4 (SK106>2 OR SK107>0 OR SK112>2 OR SK113>2
 ItemDisplay[9ws NMAG !INF !RW SOCK=0 (SK106>2 OR SK107>0 OR SK112>2 OR SK113>2 OR SK115>1 OR SK122>0 OR SK378>0 OR SK119>2) !FILTLVL=4]: %NAME%{%NAME%} // 0 Socket Zeal or Liberator Divine Scepters
 ItemDisplay[9ws NMAG !INF !RW ((SOCK=4 (SK106>2 OR SK107>0 OR SK112>2 OR SK113>2 OR SK115>1 OR SK122>0 OR SK378>0 OR SK119>2)) OR (SOCK=5 (SK106>2 OR SK107>0 OR SK115>0 OR SK122>0 OR SK378>0)))]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // 4 or 5 Socket Zeal or Liberator Divine Scepters
 ItemDisplay[9ws NMAG !INF !RW SOCK=0 (SK106>2 OR SK107>0 OR SK112>2 OR SK113>2 OR SK115>1 OR SK122>0 OR SK378>0 OR SK119>2)]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // 0 Socket Zeal or Liberator Divine Scepters
-ItemDisplay[wsp NMAG !INF !RW SOCK=4 (SK112>2 OR (SK113>2 SK115>2)) FILTLVL>3]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // 4 Socket Hammer War Scepter
-ItemDisplay[wsp NMAG !INF !RW SOCK=0 (SK112>2 OR (SK113>2 SK115>2)) FILTLVL>3]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%GRAY%Must be 4 sockets to be LLD usable.%NL%%NAME%} // 0 Socket Hammer War Scepter
+ItemDisplay[wsp NMAG !INF !RW SOCK=4 (SK112>2 OR (SK113>2 SK115>2))]: %DOT-D6%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%} // 4 Socket Hammer War Scepter
+ItemDisplay[wsp NMAG !INF !RW SOCK=0 (SK112>2 OR (SK113>2 SK115>2))]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%GRAY%Must be 4 sockets to be LLD usable.%NL%%NAME%} // 0 Socket Hammer War Scepter
 ItemDisplay[wsp NMAG !INF !RW SOCK=0 (SK112>2 OR (SK113>2 SK115>2)) FILTLVL<4]: %NAME% {%GRAY%Must be 4 sockets to be LLD usable.%NL%%NAME%} // 0 Socket Hammer War Scepter
 ItemDisplay[(SCEPTER !scp) NMAG !INF !RW SK112>2 SK113>1 !SOCK=1 (FILTLVL>1 !SOCK=2) !(SOCK=5 !7ws)]: %DOT-D6%%NAME%{%NAME%} // +3 Hammer + Concentration Scepters
 ItemDisplay[(SCEPTER !scp) NMAG !INF !RW ((SK101>2 (SK121>2 OR SK119>2 OR SK125>2 OR SK364>2)) OR ((SK121>2 (SK101>2 OR SK125>2 OR SK364>2)))) !SOCK=1 (CLVL>79 !SOCK=2) !(SOCK=5 !7ws)]: %DOT-D6%%NAME%{%NAME%} // +3 Holy Spell Scepters
@@ -5582,10 +5587,10 @@ ItemDisplay[utp !ETH NMAG !INF !SOCK=1 DEF>394]: %NAME%{%NAME%}
 ItemDisplay[uit !ETH NMAG !INF !RW SOCK=4]: %NAME%{%NAME%}
 
 //StrictLLD-Specific Failsafes
-ItemDisplay[(STAFF OR ltp OR xtp OR bhm OR xh9 OR bsh OR xsh OR lrg OR xrg OR spk OR xpk OR wsp OR 9ws OR wax OR 9wa OR gsd OR 9gd OR whm OR 9wh OR gma OR 9gm OR kri OR 9kr OR lwb OR 8lw OR pik OR 9p9) RARE !ID FILTLVL>3 CLVL>74]: %NAME%{%NAME%}
-ItemDisplay[((EXC STAFF) OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) MAG !ID FILTLVL>3 CLVL>74]: %NAME%{%NAME%}
-ItemDisplay[(amu OR rin) MAG !ID FILTLVL>3 (DIFF<2 OR MAPID=83) CLVL>74]: %NAME%{%NAME%}
-ItemDisplay[ci0 MAG !ID FILTLVL>3 CLVL>74]: %NAME%{%NAME%}
+ItemDisplay[(STAFF OR ltp OR xtp OR bhm OR xh9 OR bsh OR xsh OR lrg OR xrg OR spk OR xpk OR wsp OR 9ws OR wax OR 9wa OR gsd OR 9gd OR whm OR 9wh OR gma OR 9gm OR kri OR 9kr OR lwb OR 8lw OR pik OR 9p9) RARE !ID CLVL>74]: %NAME%{%NAME%}
+ItemDisplay[((EXC STAFF) OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) MAG !ID CLVL>74]: %NAME%{%NAME%}
+ItemDisplay[(amu OR rin) MAG !ID (DIFF<2 OR MAPID=83) CLVL>74]: %NAME%{%NAME%}
+ItemDisplay[ci0 MAG !ID CLVL>74]: %NAME%{%NAME%}
 
 //ShowRecipes-Specific Failsafes
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs) MAG !ID FILTLVL=5 CLVL>74]: %TEAL%·%BLUE%%NAME%%TEAL%·%BLUE%{%NAME%}
@@ -5645,9 +5650,9 @@ ItemDisplay[SHOP BAR MAG (((TABSK34>1 OR (CLSK4>0 ALLSK>0) OR (CLSK4>0 TABSK40>0
 ItemDisplay[SHOP WEAPON MAG TABSK34>1 LVLREQ<31]: %DOT-9B%%GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%PURPLE%»   %TAN%Warcries Weapon   %PURPLE%«}
 ItemDisplay[SHOP STAFF MAG FCR>19 CHSK54>0 LVLREQ<31]: %DOT-9B%%GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%PURPLE%»   %TAN%Teleport Charges   %PURPLE%«}
 ItemDisplay[SHOP WEAPON MAG (TABSK2>4 OR (CLSK0>0 TABSK2>2)) LVLREQ<31]: %DOT-9B%%GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%PURPLE%»   %TAN%High Skill Javelin   %PURPLE%«}
-ItemDisplay[SHOP xsh MAG (FILTLVL=4 OR FILTLVL=5)]: %DARK_GREEN%Grim Shield%NL%%BLUE%%NAME%{%NAME%}
-ItemDisplay[SHOP xh9 MAG (FILTLVL=4 OR FILTLVL=5)]: %DARK_GREEN%Grim Helm%NL%%BLUE%%NAME%{%NAME%}
-ItemDisplay[SHOP xtp MAG (FILTLVL=4 OR FILTLVL=5)]: %DARK_GREEN%Mage Plate%NL%%BLUE%%NAME%{%NAME%}
+ItemDisplay[SHOP xsh MAG]: %DARK_GREEN%Grim Shield%NL%%BLUE%%NAME%{%NAME%}
+ItemDisplay[SHOP xh9 MAG]: %DARK_GREEN%Grim Helm%NL%%BLUE%%NAME%{%NAME%}
+ItemDisplay[SHOP xtp MAG]: %DARK_GREEN%Mage Plate%NL%%BLUE%%NAME%{%NAME%}
 
 //High Level Shop Hunting
 ItemDisplay[SHOP WEAPON MAG ED>299]: %GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%DARK_GREEN%<%RED%::%DARK_GREEN%>   %TAN%High ED Weapon   %DARK_GREEN%<%RED%::%DARK_GREEN%>%NL%%NAME%}
@@ -6019,7 +6024,7 @@ ItemDisplay[!EQUIPPED SET ID (cap OR tbl OR dgr OR mbl OR mbt OR lsd OR lbl OR l
 ItemDisplay[!EQUIPPED SET ID (vbt OR vgl OR bwn OR xap OR xml OR lbt) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}%CONTINUE%
 ItemDisplay[!EQUIPPED SET ID rin REPLIFE>5 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
 ItemDisplay[!EQUIPPED SET ID amu DTM>19 STAT89>2 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
-ItemDisplay[!EQUIPPED SET ID amu STAT156>0 STAT360=0 (FILTLVL=4 OR FILTLVL=5)]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
+ItemDisplay[!EQUIPPED SET ID amu STAT156>0 STAT360=0]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
 
 //----------------------------------------- Spraynard's Giga LLD Crafting Level Guides -----------------------------------------
 
@@ -16421,7 +16426,6 @@ ItemDisplay[WEAPON RARE !ETH !ID !leg CLVL>74 FILTLVL>1]: {%NAME%}
 //Strict FINAL
 ItemDisplay[ARMOR !(BAR OR DRU OR DIN OR NEC) (NORM OR EXC) RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
 ItemDisplay[(CHEST OR HELM OR SHIELD) !(BAR OR DRU OR DIN OR NEC) ELT RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
-ItemDisplay[cqv RARE !ID !AMAZON CLVL>74 FILTLVL=3]: {%NAME%}
 ItemDisplay[(rvs OR mp4) CLVL>74 FILTLVL>2]: {%NAME%}
 
 //Shoutout to the following community members for their contributions to loot filters: Wolfie, TheIrateSeagoer, Mark, Kassahi, BetweenWalls, and Cy!

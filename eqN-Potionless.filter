@@ -12,6 +12,8 @@ ItemDisplayFilterName[]:ShowRecipes
 //ItemDisplay[mp5 CLVL>75 FILTLVL>0]: {%WHITE%Super Mana Potion}
 //ItemDisplay[hp5 CLVL>75 FILTLVL>0]: {%WHITE%Super Healing Potion}
 //ItemDisplay[mp4 CLVL>75 FILTLVL>0]: {%WHITE%Greater Mana Potion}
+//ItemDisplay[hp4 CLVL>59 FILTLVL>0]: {%WHITE%Greater Healing Potion}
+//ItemDisplay[mp3 CLVL>39 FILTLVL>0]: {%WHITE%Mana Potion}
 
 //----------------------------------------- Utilities -----------------------------------------
 
@@ -315,6 +317,8 @@ ItemDisplay[GOLD>0]: %NAME%
 ItemDisplay[mp5 CLVL>75 FILTLVL>0]: {%WHITE%Super Mana Potion}
 ItemDisplay[hp5 CLVL>75 FILTLVL>0]: {%WHITE%Super Healing Potion}
 ItemDisplay[mp4 CLVL>75 FILTLVL>0]: {%WHITE%Greater Mana Potion}
+ItemDisplay[hp4 CLVL>59 FILTLVL>0]: {%WHITE%Greater Healing Potion}
+ItemDisplay[mp3 CLVL>39 FILTLVL>0]: {%WHITE%Mana Potion}
 
 //Health & Mana Potions
 ItemDisplay[rvl]: %BLACK%* %PURPLE%JV %BLACK%*%WHITE%{%WHITE%Full Rejuvenation Potion}
