@@ -30,7 +30,7 @@ When using any filter level the following applies. All flawless and perfect gems
 
 When using the default, 'Relaxed', filter level the above and the following apply. All elite non-magic (white) items always show. All rare items always show. All useful magic crafting bases always show. 
 
-The 'Relaxed' level of this filter is the basis upon which all levels of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. All levels of this filter share an identical, highly optimized leveling experience before reaching character level 75. 
+The 'Relaxed' level of this filter is the basis upon which all levels of this filter derive. It is generally less strict than other filters in the launcher but still focused on only showing potentially useful items. All levels of this filter share an similar, highly optimized leveling experience before reaching character level 75. 
 
 **For more details about all of the different filter levels please read the [levels](https://github.com/eqNj/eqN-PD2-Filter#levels) section of this readme.**
 
@@ -138,9 +138,13 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ##### ShowRecipes - This filter level shows all crafting and upgrading recipes on any applicable items. The crafting recipes can be found on magic items and on perfect gems. The upgrade recipes include information about the requirements for upgraded items. This level will also show all runes necessary for runewords on any socketed non-magic (white) items. This level is not recommended for use while item finding as it can be a bit visually noisy. Though, if item finding with this filter level it will never hide anything important. This filter level uses Strict as a baseline but it still shows all LLD crafting bases, as well as any and all non-magic (white) items that would otherwise show on the Relaxed filter. This filter level will show the recommended level for LLD crafting on most LLD-applicable crafting bases when using the 'eqN-Specialized-LLD' filter specifically.
 
-###### The differences between these filter levels, relative to the Relaxed filter level as a baseline, are further described below. All of these filter levels share the same leveling experience prior to character level 75.
+###### The differences between these filter levels, relative to the Relaxed filter level as a baseline, are further described below. All of these filter levels share a similar leveling experience prior to character level 75.
 
 ## 'Relaxed' / 'Medium' / 'Strict' Filter Level Differences
+
+The 'Medium' filter level hides normal and exceptional tier white and magic items 10 levels earlier than the Relaxed filter level.
+
+The 'Strict' filter level hides normal and exceptional tier white and magic items 20 levels earlier than the Relaxed filter level.
 
 ### The 'Medium' filter level has the following changes (after character level 75):
 
@@ -171,7 +175,7 @@ Magic rings and amulets are hidden, unless item level 86+ rings or item level 90
 
 Gold piles less than 2500 are hidden. Gold piles less than 4000 are hidden at level 90+.
 
-High gold value items stop being indicated at level 75.
+High gold value items stop being indicated.
 
 Flawless gems no longer notify. (Perfect gems still do.)
 
@@ -492,6 +496,8 @@ Made an up-to-date copy of all of the LLD lines in my filter available separatel
 Continued optimizations for use with the new HD text introduced last season.
 
 ## 1.7.0 - (Season 9)
+
+Introduced the functionality for filter levels to effect drops shown before character level 75.
 
 Added an 'Advanced Filter Key' to keys in vendors.
 
