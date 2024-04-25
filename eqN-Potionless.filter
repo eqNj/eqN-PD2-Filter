@@ -8,13 +8,6 @@ ItemDisplayFilterName[]:Strict
 ItemDisplayFilterName[]:StrictLLD
 ItemDisplayFilterName[]:ShowRecipes
 
-//Potionless Filter Key
-//ItemDisplay[mp5 CLVL>75 FILTLVL>0]: {%WHITE%Super Mana Potion}
-//ItemDisplay[hp5 CLVL>75 FILTLVL>0]: {%WHITE%Super Healing Potion}
-//ItemDisplay[mp4 CLVL>75 FILTLVL>0]: {%WHITE%Greater Mana Potion}
-//ItemDisplay[hp4 CLVL>59 FILTLVL>0]: {%WHITE%Greater Healing Potion}
-//ItemDisplay[mp3 CLVL>39 FILTLVL>0]: {%WHITE%Mana Potion}
-
 //----------------------------------------- Utilities -----------------------------------------
 
 //Show Item Names When Gambling
@@ -314,11 +307,40 @@ ItemDisplay[FILTLVL>0 GOLD>0 GOLD<988 DIFF=2 (MAPID=136 OR MAPID=137 OR MAPID=16
 ItemDisplay[GOLD>0]: %NAME%
 
 //Potionless
-ItemDisplay[mp5 CLVL>75 FILTLVL>0]: {%WHITE%Super Mana Potion}
-ItemDisplay[hp5 CLVL>75 FILTLVL>0]: {%WHITE%Super Healing Potion}
-ItemDisplay[mp4 CLVL>75 FILTLVL>0]: {%WHITE%Greater Mana Potion}
-ItemDisplay[hp4 CLVL>59 FILTLVL>0]: {%WHITE%Greater Healing Potion}
-ItemDisplay[mp3 CLVL>39 FILTLVL>0]: {%WHITE%Mana Potion}
+
+//Relaxed
+ItemDisplay[mp5 CLVL>75 (FILTLVL=1 OR FILTLVL=5)]: {%WHITE%Super Mana Potion}
+ItemDisplay[hp5 CLVL>75 (FILTLVL=1 OR FILTLVL=5)]: {%WHITE%Super Healing Potion}
+ItemDisplay[mp4 CLVL>75 (FILTLVL=1 OR FILTLVL=5)]: {%WHITE%Greater Mana Potion}
+ItemDisplay[hp4 CLVL>59 (FILTLVL=1 OR FILTLVL=5)]: {%WHITE%Greater Healing Potion}
+ItemDisplay[mp3 CLVL>39 (FILTLVL=1 OR FILTLVL=5)]: {%WHITE%Mana Potion}
+ItemDisplay[hp3 CLVL>39 (FILTLVL=1 OR FILTLVL=5)]: {%WHITE%Healing Potion}
+ItemDisplay[mp2 CLVL>19 (FILTLVL=1 OR FILTLVL=5)]: {%WHITE%Lesser Mana Potion}
+ItemDisplay[hp2 CLVL>19 (FILTLVL=1 OR FILTLVL=5)]: {%WHITE%Lesser Healing Potion}
+ItemDisplay[mp1 CLVL>9 (FILTLVL=1 OR FILTLVL=5)]: {%WHITE%Minor Mana Potion}
+ItemDisplay[hp1 CLVL>9 (FILTLVL=1 OR FILTLVL=5)]: {%WHITE%Minor Healing Potion}
+//Medium
+ItemDisplay[mp5 CLVL>65 FILTLVL=2]: {%WHITE%Super Mana Potion}
+ItemDisplay[hp5 CLVL>65 FILTLVL=2]: {%WHITE%Super Healing Potion}
+ItemDisplay[mp4 CLVL>65 FILTLVL=2]: {%WHITE%Greater Mana Potion}
+ItemDisplay[hp4 CLVL>49 FILTLVL=2]: {%WHITE%Greater Healing Potion}
+ItemDisplay[mp3 CLVL>29 FILTLVL=2]: {%WHITE%Mana Potion}
+ItemDisplay[hp3 CLVL>29 FILTLVL=2]: {%WHITE%Healing Potion}
+ItemDisplay[mp2 CLVL>9 FILTLVL=2]: {%WHITE%Lesser Mana Potion}
+ItemDisplay[hp2 CLVL>9 FILTLVL=2]: {%WHITE%Lesser Healing Potion}
+ItemDisplay[mp1 FILTLVL=2]: {%WHITE%Minor Mana Potion}
+ItemDisplay[hp1 FILTLVL=2]: {%WHITE%Minor Healing Potion}
+//Strict
+ItemDisplay[mp5 CLVL>55 (FILTLVL=3 OR FILTLVL=4)]: {%WHITE%Super Mana Potion}
+ItemDisplay[hp5 CLVL>55 (FILTLVL=3 OR FILTLVL=4)]: {%WHITE%Super Healing Potion}
+ItemDisplay[mp4 CLVL>55 (FILTLVL=3 OR FILTLVL=4)]: {%WHITE%Greater Mana Potion}
+ItemDisplay[hp4 CLVL>39 (FILTLVL=3 OR FILTLVL=4)]: {%WHITE%Greater Healing Potion}
+ItemDisplay[mp3 CLVL>19 (FILTLVL=3 OR FILTLVL=4)]: {%WHITE%Mana Potion}
+ItemDisplay[hp3 CLVL>19 (FILTLVL=3 OR FILTLVL=4)]: {%WHITE%Healing Potion}
+ItemDisplay[mp2 (FILTLVL=3 OR FILTLVL=4)]: {%WHITE%Lesser Mana Potion}
+ItemDisplay[hp2 (FILTLVL=3 OR FILTLVL=4)]: {%WHITE%Lesser Healing Potion}
+ItemDisplay[mp1 (FILTLVL=3 OR FILTLVL=4)]: {%WHITE%Minor Mana Potion}
+ItemDisplay[hp1 (FILTLVL=3 OR FILTLVL=4)]: {%WHITE%Minor Healing Potion}
 
 //Health & Mana Potions
 ItemDisplay[rvl]: %BLACK%* %PURPLE%JV %BLACK%*%WHITE%{%WHITE%Full Rejuvenation Potion}
@@ -5166,6 +5188,7 @@ ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=2 OR SOCK=3 OR SOCK=6) (FI
 ItemDisplay[6rx NMAG !INF !RW (SOCK=4 OR SOCK=5) (FILTLVL<3 OR FILTLVL=5 OR (ED>3 (FILTLVL=3 OR FILTLVL=4)))]: %DOT-D6%%NAME%{%NAME%} // 4 or 5 Socket Demon Crossbow
 ItemDisplay[6rx NMAG !INF !RW (SOCK=0 OR SOCK=3) (FILTLVL<3 OR FILTLVL=5 OR (ED>3 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // 0 or 3 Socket Demon Crossbow
 ItemDisplay[(6rx OR 6lx OR 6mx) NMAG !INF !RW (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5) (FILTLVL<3 OR FILTLVL=5 OR (ED>7 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // Other Elite Crossbows
+ItemDisplay[8rx NMAG !INF !RW !SOCK=1 CLVL<60 DIFF<2]: %NAME%{%NAME%} // Chu-Ko-Nu (Leveling)
 
 //Daggers
 ItemDisplay[(7bl OR 7dg OR 7di) ((SK257>2 (SK266>0 OR SK275>0)) OR (SK266>2 (SK257>0 OR SK275>0))) ETH NMAG !INF !SOCK=1]: %DOT-D6%%NAME%{%NAME%} // Ethereal Legend Spike, Bone Knife, or Mithril Point For Blade Assassin
@@ -5244,6 +5267,7 @@ ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !RW SOCK=4 CLVL<60 DIFF<2]: %DOT-D6%%N
 ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !RW SOCK=4 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // Spirit Swords
 ItemDisplay[crs NMAG !INF SOCK=0 (ILVL>25 ILVL<41) CLVL<80]: %NAME%{%NAME%} // 0 Socket Crystal Sword
 ItemDisplay[(bsd OR lsd) NMAG !INF SOCK=0 ILVL>25 CLVL<80]: %NAME%{%NAME%} // 0 Socket Broad and Long Sword 
+ItemDisplay[9sm NMAG !INF !RW (SOCK=0 OR SOCK=3) CLVL<60 DIFF<2]: %NAME%{%NAME%} // Cutlass (Leveling)
 
 //Wands
 ItemDisplay[WAND !(wnd OR ywn OR 9wn) ((SK75>2 OR SK85>2 OR SK94>2) OR ((SK75>1 OR SK85>1 OR SK90>1 OR SK94>1) SK79>1)) !SOCK=1 NMAG !INF !RW]: %DOT-D6%%NAME%{%NAME%} // Dominion Wands
