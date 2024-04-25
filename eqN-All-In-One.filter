@@ -371,7 +371,7 @@ ItemDisplay[yps (MAPID=37 OR MAPID=133 OR MAPID=161 OR MAPID=162 OR MAPID=163 OR
 ItemDisplay[(vps OR wms OR yps OR tsc OR isc) FILTLVL=0]: %NAME%{%NAME%}
 ItemDisplay[(vps OR wms OR yps OR tsc OR isc) CLVL>14]: {%NAME%}
 ItemDisplay[rkey]: %BORDER-0A%%GOLD%|%TAN%:    %GOLD%%NAME%    %TAN%:%GOLD%|{%TAN%will open a very heavy door.%NL%A very little key}
-ItemDisplay[key CLVL>9 SHOP]: {%WHITE%Item%DARK_GREEN%· %WHITE%= %TAN%High Defense Roll White Item%NL%%PURPLE%·%BLUE%Item%WHITE%/%YELLOW%Item%PURPLE%· %WHITE%= %TAN%Ideal Low Level Crafting Base%NL%%TEAL%·%BLUE%Item%WHITE%/%YELLOW%Item%TEAL%· %WHITE%= %TAN%Ideal Crafting Base for Current CLVL%NL%%PURPLE%« %WHITE%= %TAN%Useful Item for Low Level Dueling%NL%%LIGHT_GRAY%(%SAGE%¢%LIGHT_GRAY%) %WHITE%= %TAN%High Vendor Sell Price%NL%%GRAY%Any unintuitive filter symbology is explained here.%NL%%DARK_GREEN%Advanced Filter Key}
+ItemDisplay[key CLVL>9 SHOP]: {%WHITE%Item%DARK_GREEN%· %WHITE%= %TAN%High Defense Roll White Item%NL%%PURPLE%·%BLUE%Item%PURPLE%· %WHITE%= %TAN%Ideal Low Level Crafting Base%NL%%TEAL%·%BLUE%Item%TEAL%· %WHITE%= %TAN%Ideal Crafting Base for Current CLVL%NL%%PURPLE%« %WHITE%= %TAN%Useful Item for Low Level Dueling%NL%%LIGHT_GRAY%(%SAGE%¢%LIGHT_GRAY%) %WHITE%= %TAN%High Vendor Sell Price%NL%%GRAY%Any unintuitive filter symbology is explained here.%NL%%DARK_GREEN%Advanced Filter Key}
 ItemDisplay[key (CLVL<10 OR FILTLVL=0)]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
 ItemDisplay[key CLVL>9 FILTLVL>0]: {%TAN%The key is in the craft.}
 ItemDisplay[ear]: {%NAME%}
@@ -543,7 +543,7 @@ ItemDisplay[GEMTYPE=7 GEM=5]: %DOT-66%%NAME% %ORANGE%(%GRAY%@%ORANGE%)%WHITE%%CO
 
 //Hiding Low Gems
 ItemDisplay[GEM<4 (DIFF>1 OR (DIFF=1 MAPID>102))]: %NAME%%WHITE%{%NAME%}%CONTINUE%
-ItemDisplay[GEM<4 (DIFF>1 OR (DIFF=1 MAPID>102)) !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) !FILTLVL=0]:
+ItemDisplay[GEM<4 (DIFF>1 OR (DIFF=1 MAPID>102) OR (DIFF=0 MAPID>102 FILTLVL>1 !FILTLVL=5)) !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) !FILTLVL=0]:
 ItemDisplay[GEM<3 (DIFF>0 OR (DIFF=0 MAPID>102))]: %NAME%%WHITE%{%NAME%}%CONTINUE%
 ItemDisplay[GEM<3 (DIFF>0 OR (DIFF=0 MAPID>102)) !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) !FILTLVL=0]:
 
