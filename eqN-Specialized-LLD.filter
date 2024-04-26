@@ -5197,6 +5197,7 @@ ItemDisplay[7wh NMAG !INF !RW !SOCK=1 (FILTLVL<3 OR FILTLVL=5 OR ((ED>3 OR ETH) 
 //Maces
 ItemDisplay[7fl NMAG !INF !RW !SOCK=1 (ETH OR ED>7)]: %DOT-D6%%NAME%{%NAME%} // Ethereal or Superior Scourge
 ItemDisplay[(7ma OR 7mt) NMAG !INF !RW !SOCK=1 (ETH OR ED>7)]: %NAME%{%NAME%} // Ethereal or Superior Reinforced Mace or Devil Star
+ItemDisplay[9fl NMAG !INF !RW !SOCK>4 CLVL<60 DIFF<2]: %NAME%{%NAME%} // Knout (Leveling)
 ItemDisplay[fla NMAG !INF !SUP !RW SOCK=0 ILVL>25 CLVL<50 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // 0 Socket Flail (Leveling)
 ItemDisplay[fla NMAG !INF !RW (SOCK=4 OR SOCK=5) CLVL<60 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // 4 or 5 Socket Flail (Leveling)
 ItemDisplay[fla NMAG !INF !SUP !RW SOCK=0 ILVL>25 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // 0 Socket Flail
@@ -5238,7 +5239,8 @@ ItemDisplay[crs NMAG !INF !RW SOCK=5 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLV
 ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !RW SOCK=4 CLVL<60 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // Spirit Swords (Leveling)
 ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !RW SOCK=4 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%{%NAME%} // Spirit Swords
 ItemDisplay[crs NMAG !INF SOCK=0 (ILVL>25 ILVL<41) CLVL<80]: %NAME%{%NAME%} // 0 Socket Crystal Sword
-ItemDisplay[(bsd OR lsd) NMAG !INF SOCK=0 ILVL>25 CLVL<80]: %NAME%{%NAME%} // 0 Socket Broad and Long Sword 
+ItemDisplay[(bsd OR lsd) NMAG !INF SOCK=0 ILVL>25 CLVL<80]: %NAME%{%NAME%} // 0 Socket Broad and Long Sword
+ItemDisplay[9ls NMAG !INF !RW (SOCK=0 OR SOCK=4) CLVL<60 DIFF<2]: %NAME%{%NAME%} // Rune Sword (Leveling)
 ItemDisplay[9sm NMAG !INF !RW (SOCK=0 OR SOCK=3) CLVL<60 DIFF<2]: %NAME%{%NAME%} // Cutlass (Leveling)
 
 //Wands
