@@ -495,9 +495,7 @@ Made an up-to-date copy of all of the LLD lines in my filter available separatel
 
 Continued optimizations for use with the new HD text introduced last season.
 
-## 1.7.0 - (Season 9)
-
-Introduced the functionality for filter levels to effect drops shown before character level 75.
+## 1.8.0 - (Season 9)
 
 Added an 'Advanced Filter Key' to keys in vendors.
 
@@ -544,3 +542,7 @@ Made so slightly larger gold piles are hidden when hitting level 90 on Medium an
 Improved the aesthetics of various highlighted items.
 
 Did a cursory pass on all staffmod runeword bases.
+
+Tidied up filter levels on the 'Specialized-LLD' filter and made sure to include all LLD filter features at all levels. [1.8.1]
+
+Introduced the functionality for filter levels to effect drops shown before character level 75. [1.8.1]
