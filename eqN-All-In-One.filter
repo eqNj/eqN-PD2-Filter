@@ -309,8 +309,8 @@ ItemDisplay[GOLD>0]: %NAME%
 //Health & Mana Potions
 ItemDisplay[rvl]: %BLACK%* %PURPLE%JV %BLACK%*%WHITE%{%WHITE%Full Rejuvenation Potion}
 ItemDisplay[rvs (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %PURPLE% rj %WHITE%{%WHITE%Rejuvenation Potion}
-ItemDisplay[mp5]: %BLUE%#%WHITE%M%WHITE%{%WHITE%Super Mana Potion}
-ItemDisplay[hp5]: %RED%#%WHITE%H%WHITE%{%WHITE%Super Healing Potion}
+ItemDisplay[mp5]: %BLUE% #%WHITE%M %WHITE%{%WHITE%Super Mana Potion}
+ItemDisplay[hp5]: %RED% #%WHITE%H %WHITE%{%WHITE%Super Healing Potion}
 ItemDisplay[mp4 (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %BLUE%#%WHITE%m%WHITE%{%WHITE%Greater Mana Potion}
 ItemDisplay[mp4]: {%WHITE%Greater Mana Potion}
 ItemDisplay[hp4 (CLVL>69 OR (MAPID>108 DIFF>1 (FILTLVL=3 OR FILTLVL=4))) FILTLVL>0]: {%WHITE%Greater Healing Potion}
