@@ -5551,7 +5551,7 @@ ItemDisplay[THROWING !(tkf OR 9tk OR 7tk) NMAG !INF ETH ILVL>39 ((FILTLVL<2 OR F
 ItemDisplay[CHEST !ETH NMAG !INF !RW SOCK=4 CLVL<90 ((FILTLVL<2 OR FILTLVL=5) OR (CLVL<80 FILTLVL>1))]: %NAME%{%NAME%} // 4 Socket Chests for early progression MF (Leveling)
 ItemDisplay[HELM !ETH NMAG !INF !RW SOCK=3 CLVL<90 ((FILTLVL<2 OR FILTLVL=5) OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // 3 Socket Helms for early progression MF (Leveling)
 ItemDisplay[((POLEARM OR SPEAR) !(ZON OR THROWING)) NMAG ETH !INF !RW SOCK=4 CLVL<60 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // Act 2 Merc Low Level Bases (Leveling)
-ItemDisplay[((POLEARM OR SPEAR) !(ZON OR THROWING)) NMAG ETH !INF !RW (SOCK=0 OR SOCK=4) FILTLVL<2]: %NAME%{%NAME%} // Act 2 Merc Low Level Bases
+ItemDisplay[((POLEARM OR SPEAR) !(ZON OR THROWING)) NMAG ETH !INF !RW (SOCK=0 OR SOCK=4) (FILTLVL<2 OR FILTLVL=5)]: %NAME%{%NAME%} // Act 2 Merc Low Level Bases
 ItemDisplay[(9p9 OR 9wa) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=5 OR (SOCK=4 !9wa)) ED>9 FILTLVL=4]: %DOT-D6%%NAME% %GRAY%(%PURPLE%«%GRAY%){%NAME%} // High ED Honor/Insight Bases for LLD
 ItemDisplay[(9p9 OR 9wa) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=5 OR (SOCK=4 !9wa)) CLVL>74 DIFF<2]: %NAME%{%NAME%} // Honor/Insight Bases (Leveling)
 ItemDisplay[(xtp OR xsk OR xh9 OR xsh) !ETH NMAG !INF !RW !SOCK=1 (DIFF<2 OR CLVL<75)]: %NAME%{%NAME%} // General Runeword Bases (Leveling)
