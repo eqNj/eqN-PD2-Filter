@@ -1317,7 +1317,8 @@ ItemDisplay[(INF OR SUP) NMAG !RW scp]: Scepter%CONTINUE%
 ItemDisplay[(INF OR SUP) NMAG !RW 9sc]: Rune Scepter%CONTINUE%
 ItemDisplay[(INF OR SUP) NMAG !RW 7sc]: Mighty Scepter%CONTINUE%
 ItemDisplay[(INF OR SUP) NMAG !RW gsc]: Grand Scepter%CONTINUE%
-ItemDisplay[9qs !RW NMAG]: Holy Sprinkler%CONTINUE%
+ItemDisplay[9qs (INF OR SUP) !RW NMAG]: Holy Sprinkler%CONTINUE%
+ItemDisplay[9qs !(INF OR SUP) !RW NMAG]: %WHITE%Holy Sprinkler%CONTINUE%
 ItemDisplay[(INF OR SUP) NMAG !RW 7qs]: Seraph Rod%CONTINUE%
 ItemDisplay[(INF OR SUP) NMAG !RW wsp]: War Scepter%CONTINUE%
 ItemDisplay[(INF OR SUP) NMAG !RW 9ws]: Divine Scepter%CONTINUE%
