@@ -548,3 +548,5 @@ Tidied up filter levels on the 'Specialized-LLD' filter and made sure to include
 Introduced the functionality for filter levels to effect drops shown before character level 75. [1.8.1]
 
 Added tags for staves with matching Chance to Cast spells and automod skill roll elements.  [1.8.1]
+
+Countless revisions to LLD and leveling tags.  [1.8.2]
