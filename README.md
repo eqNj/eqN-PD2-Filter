@@ -546,3 +546,5 @@ Did a cursory pass on all staffmod runeword bases.
 Tidied up filter levels on the 'Specialized-LLD' filter and made sure to include all LLD filter features at all levels. [1.8.1]
 
 Introduced the functionality for filter levels to effect drops shown before character level 75. [1.8.1]
+
+Added tags for staves with matching Chance to Cast spells and automod skill roll elements.  [1.8.1]
