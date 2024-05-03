@@ -550,3 +550,5 @@ Introduced the functionality for filter levels to effect drops shown before char
 Added tags for staves with matching Chance to Cast spells and automod skill roll elements.  [1.8.1]
 
 Countless revisions to LLD and leveling tags.  [1.8.2]
+
+Further in depth revisions to LLD tags.  [1.8.3]

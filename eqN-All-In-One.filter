@@ -1,4 +1,4 @@
-//eqN's Project Diablo 2 Filter - 1.8.2 (Season 9)
+//eqN's Project Diablo 2 Filter - 1.8.3 (Season 9)
 //Every Edition
 
 //Versions
@@ -361,8 +361,8 @@ ItemDisplay[tsc CLVL<15]: %BLUE%>%GRAY%tp%WHITE%{%TAN%Items/Recipes shown will a
 ItemDisplay[tsc CLVL>14 FILTLVL=0]: %BLUE%>%GRAY%tp%WHITE%{%RED%Warning%WHITE%: Destroys socketed gems/runes.%NL%%NL%Socketed Item + This Scroll + %ORANGE%Hel%NL%%DARK_GREEN%Un-socketing Recipe%WHITE%:%NL%%WHITE%Scroll of Town Portal}
 ItemDisplay[tsc CLVL>14]: {%RED%Warning%WHITE%: Destroys socketed gems/runes.%NL%%NL%Socketed Item + This Scroll + %ORANGE%Hel%NL%%DARK_GREEN%Un-socketing Recipe%WHITE%:%NL%%WHITE%Scroll of Town Portal}
 ItemDisplay[isc CLVL<15]: %RED%>%GRAY%id%WHITE%{%TAN%Craft Recipes, Always%NL%Socket Recipes, ILVL 21+%NL%Upgrade Recipes, ILVL 13+%NL%%DARK_GREEN%Recipes Shown:%NL%Use the 'Filter Level' setting to see all recipes.%NL%%WHITE%Scroll of Identify}%CONTINUE%
-ItemDisplay[isc CLVL>14 FILTLVL=0]: %RED%>%GRAY%id%WHITE%{%TAN%You can also see exact rune order for runewords and item upgrading info.%NL%Use the 'ShowRecipes' filter level to see detailed crafting info on items.%NL%You can set binds for cycling through these filter levels in the settings.%NL%There are several filter strictness level settings available.%NL%%GRAY%(Season 9)%NL%%DARK_GREEN%Filter Version 1.8.2%NL%%WHITE%Scroll of Identify}
-ItemDisplay[isc CLVL>14]: {%TAN%You can also see exact rune order for runewords and item upgrading info.%NL%Use the 'ShowRecipes' filter level to see detailed crafting info on items.%NL%You can set binds for cycling through these filter levels in the settings.%NL%There are several filter strictness level settings available.%NL%%GRAY%(Season 9)%NL%%DARK_GREEN%Filter Version 1.8.2%NL%%WHITE%Scroll of Identify}
+ItemDisplay[isc CLVL>14 FILTLVL=0]: %RED%>%GRAY%id%WHITE%{%TAN%You can also see exact rune order for runewords and item upgrading info.%NL%Use the 'ShowRecipes' filter level to see detailed crafting info on items.%NL%You can set binds for cycling through these filter levels in the settings.%NL%There are several filter strictness level settings available.%NL%%GRAY%(Season 9)%NL%%DARK_GREEN%Filter Version 1.8.3%NL%%WHITE%Scroll of Identify}
+ItemDisplay[isc CLVL>14]: {%TAN%You can also see exact rune order for runewords and item upgrading info.%NL%Use the 'ShowRecipes' filter level to see detailed crafting info on items.%NL%You can set binds for cycling through these filter levels in the settings.%NL%There are several filter strictness level settings available.%NL%%GRAY%(Season 9)%NL%%DARK_GREEN%Filter Version 1.8.3%NL%%WHITE%Scroll of Identify}
 ItemDisplay[vps SHOP CLVL>24]: {%ORANGE%Crafted ILVL %WHITE%51+ = 3+ Affixes & %ORANGE%Crafted ILVL %WHITE%71+ = 4 Affixes%NL%%ORANGE%Crafted Item Level %WHITE%= Character LVL/2 + Base ILVL/2%NL%%YELLOW%Rare %WHITE%and %BLUE%Magic %WHITE%items can be used as crafting bases.%NL%%DARK_GREEN%Crafting Tip%GRAY%(s)%WHITE%:%NL%Stamina Potion}
 ItemDisplay[vps]: %WHITE%#%GRAY%s%WHITE%{%TAN%We are what we repeatedly do.%NL%%WHITE%Stamina Potion}%CONTINUE%
 ItemDisplay[wms]: %YELLOW%#%GRAY%t%WHITE%{%TAN%whom it touches.%NL%a soft white damn%NL%The snow doesn't give%NL%%WHITE%Thawing Potion}%CONTINUE%
