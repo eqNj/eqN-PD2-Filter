@@ -434,7 +434,7 @@ ItemDisplay[STAFF (RARE OR CRAFT) (((SUFFIXID=877 OR SUFFIXID=878 OR SUFFIXID=87
 //
 
 //Low Level Dueling Class Item Crafting Bases
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR (ces OR 9cs)) MAG !ID ILVL>50]: %NAME%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR (ces OR 9cs) OR (am5 OR ama)) MAG !ID ILVL>50]: %NAME%{%NAME%}
 //Low Level Dueling Ideal Ethereal Crafting Bases
 ItemDisplay[((gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) OR (pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama)) ETH MAG !ID ILVL>65]: %DOT-9A%%BLUE%%NAME%{%TAN%Low Level Dueling Base}
 //Low Level Dueling Ideal Ethereal Crafting Bases (Lower Difficulties / Item Levels)
@@ -442,6 +442,7 @@ ItemDisplay[(pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama)
 ItemDisplay[(wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces OR 9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) MAG ETH !ID CLVL>69 DIFF<2]: %DOT-9A%%NAME%
 ItemDisplay[(gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) MAG ETH !ID CLVL>69 DIFF<2]: %DOT-9A%%NAME%
 //Low Level Dueling Misc. Crafting Bases
+ItemDisplay[(jav OR 9ja OR tsp OR 9ts OR glv OR 9gl OR am5 OR ama) NMAG !INF ETH]: %NAME%%PURPLE%·{%WHITE%Once %YELLOW%Rare%WHITE%, this item is a valuable base for %ORANGE%Crafting%WHITE%.%NL%%RED%Corrupt %WHITE%or %DARK_GREEN%Imbue %WHITE%this item to make it %YELLOW%Rare%WHITE%.%NL%%NAME%
 ItemDisplay[((STAFF !ELT) OR ltp OR xtp OR bhm OR xh9 OR bsh OR xsh OR lrg OR xrg OR spk OR xpk OR wsp OR 9ws OR wax OR 9wa OR gsd OR 9gd OR whm OR 9wh OR gma OR 9gm OR kri OR 9kr OR lwb OR 8lw OR pik OR 9p9) RARE !ID CLVL>74]: %NAME%{%NAME%}
 ItemDisplay[((EXC STAFF) OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) MAG !ID CLVL>74]: %NAME%{%NAME%}
 ItemDisplay[(amu OR rin) MAG !ID (DIFF<2 OR MAPID=83) CLVL>74]: %NAME%{%NAME%}
