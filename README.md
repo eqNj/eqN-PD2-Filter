@@ -551,4 +551,4 @@ Added tags for staves with matching Chance to Cast spells and automod skill roll
 
 Countless revisions to LLD and leveling tags.  [1.8.2]
 
-Further in depth revisions to LLD tags.  [1.8.3]
+Further in-depth revisions to LLD tags.  [1.8.3]
