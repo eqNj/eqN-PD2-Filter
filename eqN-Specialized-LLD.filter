@@ -4956,7 +4956,7 @@ ItemDisplay[aqv MAG !ID CLVL<12 (FILTLVL=3 OR FILTLVL=4)]: %BLUE%%NAME%
 
 //LLD Bases
 ItemDisplay[(ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) MAG ETH !ID CLVL>49]: %DOT-4B%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) MAG !ID CLVL>49]: %PX-4B%%TIER-0%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws OR am5 OR ama) MAG !ID CLVL>49]: %PX-4B%%TIER-0%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
 
 //Notified
 ItemDisplay[(SHIELD OR CHEST) !NEC MAG ETH !ID (CRAFTALVL>84 OR ((DIFF<2 OR CLVL<90) CRAFTALVL>74))]: %DOT-97%%TEAL%·%BLUE%%NAME%%TEAL%·
@@ -5018,7 +5018,7 @@ ItemDisplay[(am5 OR ama OR amf) MAG !ID]: %NAME%
 
 //LLD Bases
 ItemDisplay[(ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) RARE ETH !ID CLVL>59]: %DOT-4B%%PURPLE%·%YELLOW%%NAME%%PURPLE%·%GRAY%{%NAME%}
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws) RARE !ID CLVL>59]: %DOT-4B%%PURPLE%·%YELLOW%%NAME%%PURPLE%·%GRAY%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws OR am5 OR ama) RARE !ID CLVL>59]: %DOT-4B%%PURPLE%·%YELLOW%%NAME%%PURPLE%·%GRAY%{%NAME%}
 
 //Notified
 ItemDisplay[(SHIELD OR CHEST) !NEC RARE ETH !ID (CRAFTALVL>84 OR ((DIFF<2 OR CLVL<90) CRAFTALVL>74))]: %DOT-A8%%TEAL%·%YELLOW%%NAME%%TEAL%·
@@ -5551,12 +5551,12 @@ ItemDisplay[(SOR OR (am4 OR am9 OR ame OR am3 OR am8 OR amd) OR (am5 OR ama OR a
 ItemDisplay[(SOR OR WAND OR SIN OR SCEPTER OR (am4 OR am9 OR ame OR am3 OR am8 OR amd) OR (am5 OR ama OR amf) OR (am2 OR am7 OR amc OR am1 OR am6 OR amb) OR (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) OR DRU OR BAR OR NEC OR DIN) RARE !ID]: %NAME%{%NAME%}
 
 //Specific Class Item Failsafe
-ItemDisplay[(ame OR amd) AMAZON TABSK2=2 ED>9 NMAG ((FILTLVL<2 OR FILTLVL=5) OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // High ED +2 ELT Spears (Leveling)
-ItemDisplay[(amb OR amc) AMAZON TABSK0=2 ED>9 NMAG ((FILTLVL<2 OR FILTLVL=5) OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // High ED +2 ELT Bows (Leveling)
-ItemDisplay[(am5 OR ama OR amf) AMAZON NMAG !INF CLVL<75]: %NAME%{%NAME%} // Amazon Javelins (Leveling)
+ItemDisplay[(jav OR 9ja OR tsp OR 9ts OR glv OR 9gl OR am5 OR ama) NMAG !INF ETH]: %NAME%%PURPLE%·{%WHITE%Once %YELLOW%Rare%WHITE%, this item is a valuable base for %ORANGE%Crafting%WHITE%.%NL%%RED%Corrupt %WHITE%or %DARK_GREEN%Imbue %WHITE%this item to make it %YELLOW%Rare%WHITE%.%NL%%NAME%
 ItemDisplay[(am5 OR ama OR amf) NMAG !INF ETH ILVL>39 ((FILTLVL<2 OR FILTLVL=5) OR (AMAZON FILTLVL=2) OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%%TEAL%·{%WHITE%Once %YELLOW%Rare%WHITE%, this item is a valuable base for %ORANGE%Crafting%WHITE%.%NL%%RED%Corrupt %WHITE%or %DARK_GREEN%Imbue %WHITE%this item to make it %YELLOW%Rare%WHITE%.%NL%%NAME%} // Eth Javelins for Imbuing
 ItemDisplay[THROWING !(tkf OR 9tk OR 7tk) NMAG !INF ETH ILVL>39 ((FILTLVL<2 OR FILTLVL=5) OR (BARBARIAN (glv OR 9gl OR ELT) FILTLVL=2) OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4)))]: %NAME%%TEAL%·{%WHITE%Once %YELLOW%Rare%WHITE%, this item is a valuable base for %ORANGE%Crafting%WHITE%.%NL%%RED%Corrupt %WHITE%or %DARK_GREEN%Imbue %WHITE%this item to make it %YELLOW%Rare%WHITE%.%NL%%NAME%} // Eth Glaives for Imbuing
-//ItemDisplay[SOR SORCERESS SOCK=3 NMAG !INF !RW ((FILTLVL<2 OR FILTLVL=5) OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // 3 Socket Sorceress Orbs
+ItemDisplay[(am5 OR ama OR amf) AMAZON NMAG !INF CLVL<75]: %NAME%{%NAME%} // Amazon Javelins (Leveling)
+ItemDisplay[(ame OR amd) AMAZON TABSK2=2 ED>9 NMAG ((FILTLVL<2 OR FILTLVL=5) OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // High ED +2 ELT Spears (Leveling)
+ItemDisplay[(amb OR amc) AMAZON TABSK0=2 ED>9 NMAG ((FILTLVL<2 OR FILTLVL=5) OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // High ED +2 ELT Bows (Leveling)
 
 //Specific Item Failsafe
 ItemDisplay[CHEST !ETH NMAG !INF !RW SOCK=4 CLVL<90 ((FILTLVL<2 OR FILTLVL=5) OR (CLVL<80 FILTLVL>1))]: %NAME%{%NAME%} // 4 Socket Chests for early progression MF (Leveling)
