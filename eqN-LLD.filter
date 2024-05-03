@@ -82,11 +82,11 @@ ItemDisplay[RARE LVLREQ<31 STAT91=-15 (STAT31>34 OR RES>7 OR ED>14 OR MAXDMG>7 O
 //
 
 //Low Level Dueling (Class Item & Weapon) Crafting Bases
-ItemDisplay[(am1 OR am5 OR clb OR spc) MAG ID !FILTLVL=5 CLVL>29 ((MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) OR CLVL>59)]: %NAME%{%TAN%Low Level Crafting Base%NL%%NAME%}%CONTINUE%
-ItemDisplay[((wax OR mpi OR fla OR whm OR lsd OR kri OR bld OR wsp OR wrb OR ces) OR (gix OR mau OR gma OR gsd OR pik OR wsc) OR (jav OR pil OR ssp OR glv OR tsp)) MAG ETH ID !FILTLVL=5 CLVL>29 ((MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) OR CLVL>59)]: %NAME%{%TAN%Low Level Crafting Base%NL%%NAME%}%CONTINUE%
-ItemDisplay[(am6 OR ama OR 9cl OR 9sp) MAG ID !FILTLVL=5 CLVL>29 ((MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) OR CLVL>59)]: %NAME%{%TAN%Low Level Crafting Base%NL%%NAME%}%CONTINUE%
-ItemDisplay[((9wa OR 9pm OR 9fl OR 9wh OR 9ls OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) OR (9ga OR 9m9 OR 9gm OR 9gd OR 9p9 OR 9wc) OR (9ja OR 9pi OR 9s9 OR 9gl OR 9ts)) MAG ETH ID !FILTLVL=5 CLVL>29 ((MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) OR CLVL>59)]: %NAME%{%TAN%Low Level Crafting Base%NL%%NAME%}%CONTINUE%
-ItemDisplay[((BAR !ELT !(ba9 OR baa)) OR (DRU !ELT !(dr9 OR dra)) OR (NEC !ELT !(ne3 OR ne4 OR ne8 OR ne9 OR nea)) OR (DIN !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba))) MAG !ETH ID !FILTLVL=5 CLVL>29 ((MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) OR CLVL>59)]: %NAME%{%TAN%Low Level Crafting Base}%CONTINUE%
+ItemDisplay[(am1 OR am5 OR clb OR spc) MAG ID CLVL>29 ((MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) OR CLVL>59)]: %NAME%{%TAN%Low Level Crafting Base%NL%%NAME%}%CONTINUE%
+ItemDisplay[((wax OR mpi OR fla OR whm OR lsd OR kri OR bld OR wsp OR wrb OR ces) OR (gix OR mau OR gma OR gsd OR pik OR wsc) OR (jav OR pil OR ssp OR glv OR tsp)) MAG ETH ID CLVL>29 ((MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) OR CLVL>59)]: %NAME%{%TAN%Low Level Crafting Base%NL%%NAME%}%CONTINUE%
+ItemDisplay[(am6 OR ama OR 9cl OR 9sp) MAG ID CLVL>29 ((MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) OR CLVL>59)]: %NAME%{%TAN%Low Level Crafting Base%NL%%NAME%}%CONTINUE%
+ItemDisplay[((9wa OR 9pm OR 9fl OR 9wh OR 9ls OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) OR (9ga OR 9m9 OR 9gm OR 9gd OR 9p9 OR 9wc) OR (9ja OR 9pi OR 9s9 OR 9gl OR 9ts)) MAG ETH ID CLVL>29 ((MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) OR CLVL>59)]: %NAME%{%TAN%Low Level Crafting Base%NL%%NAME%}%CONTINUE%
+ItemDisplay[((BAR !ELT !(ba9 OR baa)) OR (DRU !ELT !(dr9 OR dra)) OR (NEC !ELT !(ne3 OR ne4 OR ne8 OR ne9 OR nea)) OR (DIN !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba))) MAG !ETH ID CLVL>29 ((MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) OR CLVL>59)]: %NAME%{%TAN%Low Level Crafting Base}%CONTINUE%
 
 //Low Level Dueling Rares (Normal) (Phys / IAS Weapons)
 ItemDisplay[RARE (mpi OR clb OR fla OR sbr OR lsd OR bld OR wsp OR wrb OR ces) ((SOCK=2 IAS>39 STAT360=0) OR (SOCK=2 ((ED>109) OR (MAXDMG>30)) IAS>39 STAT360>0) OR (SOCK=2 IAS>59 STAT360>0) OR (SOCK=3 IAS>39)) LVLREQ<31]: %NAME%%YELLOW%{%TAN%Low Level High IAS Weapon%NL%%NAME%}
