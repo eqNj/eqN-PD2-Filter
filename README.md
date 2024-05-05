@@ -114,7 +114,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 +# XXXXX (Green) = Staffmod Skills<br>
 
 ### Prefix or Suffix
-« (Purple) = Good for Low Level Dueling (LLD)<br>
+« (Purple) = Possibly Good for Low Level Dueling (LLD)<br>
 
 ### Unidentified
 ·NAME· (Teal) = Ideal Crafting Base @ Character Level Rare or Magic Item<br>
@@ -521,7 +521,7 @@ Updated PvP Mana Potions with latest PvP damage modifiers.
 
 Adjusted staffmod items so they will have their +skills listed on a second line. (Thank you devs for this long awaited feature!)
 
-Changed the purple "LLD" text on LLD item names to a purple chevron symbol (») when using the All-In-One or Potionless filter versions.
+Changed the purple "LLD" text on LLD item names to a purple chevron symbol («) when using the All-In-One or Potionless filter versions.
 
 Ensured items for Ice Bolt, Inferno, Arctic Blast, Poison Creeper, Poison Strike, and various other skills were all showing appropriately useful drops and/or description highlights.
 
