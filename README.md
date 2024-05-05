@@ -134,6 +134,8 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ##### Strict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons when they are likely to have a reasonably high value in trading. Even at this level, all unique and set items will still show. Crafting bases shown are only those which are highly sought after. High gold value items stop being indicated at level 75. This filter level is useful for those who regularly run high density maps and dungeons and are mostly only looking for items that are easy to trade. 
 
+##### Potionless - This is essentially a copy of the Strict filter level, however it hides all potions at all levels except for Full Rejuvenation Potions.
+
 ##### StrictLLD - This is essentially a copy of the Strict filter level, however it will continue to show & sometimes notify when a LLD crafting base drops after level 60. This level is designed for late ladder and/or targeted LLD item farming. LLD crafting bases are marked with purple dots.
 
 ##### ShowRecipes - This filter level shows all crafting and upgrading recipes on any applicable items. The crafting recipes can be found on magic items and on perfect gems. The upgrade recipes include information about the requirements for upgraded items. This level will also show all runes necessary for runewords on any socketed non-magic (white) items. This level is not recommended for use while item finding as it can be a bit visually noisy. Though, if item finding with this filter level it will never hide anything important. This filter level uses Strict as a baseline but it still shows all LLD crafting bases, as well as any and all non-magic (white) items that would otherwise show on the Relaxed filter. This filter level will show the recommended level for LLD crafting on most LLD-applicable crafting bases when using the 'eqN-Specialized-LLD' filter specifically.
@@ -552,3 +554,7 @@ Added tags for staves with matching Chance to Cast spells and automod skill roll
 Countless revisions to LLD and leveling tags.  [1.8.2]
 
 Further in-depth revisions to LLD tags.  [1.8.3]
+
+Added a Potionless filter level to All-In-One.  [1.8.4]
+
+Changed the Diamond color from White to Light Gray to help distinquish it from regular text.  [1.8.4]
