@@ -6,8 +6,8 @@ ItemDisplayFilterName[]:Relaxed
 ItemDisplayFilterName[]:Medium
 ItemDisplayFilterName[]:Strict
 ItemDisplayFilterName[]:Potionless
-ItemDisplayFilterName[]:StrictLLD
-ItemDisplayFilterName[]:ShowRecipes
+ItemDisplayFilterName[]:Strict LLD
+ItemDisplayFilterName[]:Show Recipes
 
 //----------------------------------------- Utilities -----------------------------------------
 
@@ -204,15 +204,15 @@ ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=1]: %NAME%{%SAGE%Relaxe
 ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=2]: %NAME%{%SAGE%Medium%NL%%TAN%As above, so below.%NL%%NAME%}
 ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=3]: %NAME%{%SAGE%Strict%NL%%TAN%As above, so below.%NL%%NAME%}
 ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=4]: %NAME%{%SAGE%Potionless%NL%%TAN%As above, so below.%NL%%NAME%}
-ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=5]: %NAME%{%SAGE%StrictLLD%NL%%TAN%As above, so below.%NL%%NAME%}
-ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=6]: %NAME%{%SAGE%ShowRecipes%NL%%TAN%As above, so below.%NL%%NAME%}
+ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=5]: %NAME%{%SAGE%Strict LLD%NL%%TAN%As above, so below.%NL%%NAME%}
+ItemDisplay[box (CHARSTAT118>0 OR CHARSTAT153=1) FILTLVL=6]: %NAME%{%SAGE%Show Recipes%NL%%TAN%As above, so below.%NL%%NAME%}
 ItemDisplay[box FILTLVL=0]: %NAME%{%SAGE%Show All Items%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=1]: %NAME%{%SAGE%Relaxed%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=2]: %NAME%{%SAGE%Medium%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=3]: %NAME%{%SAGE%Strict%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=4]: %NAME%{%SAGE%Potionless%NL%%TAN%As above, so below.}
-ItemDisplay[box FILTLVL=5]: %NAME%{%SAGE%StrictLLD%NL%%TAN%As above, so below.}
-ItemDisplay[box FILTLVL=6]: %NAME%{%SAGE%ShowRecipes%NL%%TAN%As above, so below.}
+ItemDisplay[box FILTLVL=5]: %NAME%{%SAGE%Strict LLD%NL%%TAN%As above, so below.}
+ItemDisplay[box FILTLVL=6]: %NAME%{%SAGE%Show Recipes%NL%%TAN%As above, so below.}
 
 //Gold (Big thanks to BetweenWalls for their work on this section!)
 ItemDisplay[GOLD<500 (MAPID=25 OR MAPID=37 OR MAPID=38 OR MAPID=73 OR MAPID=102 OR MAPID=132)]: %NAME%
@@ -376,8 +376,8 @@ ItemDisplay[tsc CLVL<15]: %BLUE%>%GRAY%tp%WHITE%{%TAN%Items/Recipes shown will a
 ItemDisplay[tsc CLVL>14 FILTLVL=0]: %BLUE%>%GRAY%tp%WHITE%{%RED%Warning%WHITE%: Destroys socketed gems/runes.%NL%%NL%Socketed Item + This Scroll + %ORANGE%Hel%NL%%DARK_GREEN%Un-socketing Recipe%WHITE%:%NL%%WHITE%Scroll of Town Portal}
 ItemDisplay[tsc CLVL>14]: {%RED%Warning%WHITE%: Destroys socketed gems/runes.%NL%%NL%Socketed Item + This Scroll + %ORANGE%Hel%NL%%DARK_GREEN%Un-socketing Recipe%WHITE%:%NL%%WHITE%Scroll of Town Portal}
 ItemDisplay[isc CLVL<15]: %RED%>%GRAY%id%WHITE%{%TAN%Craft Recipes, Always%NL%Socket Recipes, ILVL 21+%NL%Upgrade Recipes, ILVL 13+%NL%%DARK_GREEN%Recipes Shown:%NL%Use the 'Filter Level' setting to see all recipes.%NL%%WHITE%Scroll of Identify}%CONTINUE%
-ItemDisplay[isc CLVL>14 FILTLVL=0]: %RED%>%GRAY%id%WHITE%{%TAN%You can also see exact rune order for runewords and item upgrading info.%NL%Use the 'ShowRecipes' filter level to see detailed crafting info on items.%NL%You can set binds for cycling through these filter levels in the settings.%NL%There are several filter strictness level settings available.%NL%%GRAY%(Season 9)%NL%%DARK_GREEN%Filter Version 1.8.4%NL%%WHITE%Scroll of Identify}
-ItemDisplay[isc CLVL>14]: {%TAN%You can also see exact rune order for runewords and item upgrading info.%NL%Use the 'ShowRecipes' filter level to see detailed crafting info on items.%NL%You can set binds for cycling through these filter levels in the settings.%NL%There are several filter strictness level settings available.%NL%%GRAY%(Season 9)%NL%%DARK_GREEN%Filter Version 1.8.4%NL%%WHITE%Scroll of Identify}
+ItemDisplay[isc CLVL>14 FILTLVL=0]: %RED%>%GRAY%id%WHITE%{%TAN%You can also see exact rune order for runewords and item upgrading info.%NL%Use the 'Show Recipes' filter level to see detailed crafting info on items.%NL%You can set binds for cycling through these filter levels in the settings.%NL%There are several filter strictness level settings available.%NL%%GRAY%(Season 9)%NL%%DARK_GREEN%Filter Version 1.8.4%NL%%WHITE%Scroll of Identify}
+ItemDisplay[isc CLVL>14]: {%TAN%You can also see exact rune order for runewords and item upgrading info.%NL%Use the 'Show Recipes' filter level to see detailed crafting info on items.%NL%You can set binds for cycling through these filter levels in the settings.%NL%There are several filter strictness level settings available.%NL%%GRAY%(Season 9)%NL%%DARK_GREEN%Filter Version 1.8.4%NL%%WHITE%Scroll of Identify}
 ItemDisplay[vps SHOP CLVL>24]: {%ORANGE%Crafted ILVL %WHITE%51+ = 3+ Affixes & %ORANGE%Crafted ILVL %WHITE%71+ = 4 Affixes%NL%%ORANGE%Crafted Item Level %WHITE%= Character LVL/2 + Base ILVL/2%NL%%YELLOW%Rare %WHITE%and %BLUE%Magic %WHITE%items can be used as crafting bases.%NL%%DARK_GREEN%Crafting Tip%GRAY%(s)%WHITE%:%NL%Stamina Potion}
 ItemDisplay[vps]: %WHITE%#%GRAY%s%WHITE%{%TAN%We are what we repeatedly do.%NL%%WHITE%Stamina Potion}%CONTINUE%
 ItemDisplay[wms]: %YELLOW%#%GRAY%t%WHITE%{%TAN%whom it touches.%NL%a soft white damn%NL%The snow doesn't give%NL%%WHITE%Thawing Potion}%CONTINUE%
@@ -4925,7 +4925,7 @@ ItemDisplay[(rin OR uhm OR dr8 OR 7qr OR uth OR paf OR lbt OR lbl OR lgl OR ulg 
 //Low Level Dueling
 ItemDisplay[!FILTLVL=5 (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xui OR xuc OR kit OR vgl OR mbt OR gth) !ETH UNI !ID]: %YELLOW%~%PURPLE%: %GOLD%%NAME% %PURPLE%:%YELLOW%~{%NAME%}%CONTINUE%
 ItemDisplay[!FILTLVL=5 (lgl OR vbt OR vgl OR bwn OR xap) SET !ETH !ID]: %GREEN%~%PURPLE%: %GREEN%%NAME%  %PURPLE%:%GREEN%~{%NAME%}%CONTINUE%
-//StrictLLD
+//Strict LLD
 ItemDisplay[FILTLVL=5 (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xui OR xuc OR kit OR vgl OR mbt OR vbt OR (flb ILVL>40) OR gth OR hbt) !ETH UNI !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
 ItemDisplay[FILTLVL=5 (lea OR hla OR chn OR ssd) UNI !ETH !ID]: %DOT-60%%NAME% %GRAY%(%PURPLE%vLLD%GRAY%){%NAME%}
 ItemDisplay[FILTLVL=5 (lgl OR vbt OR vgl OR bwn OR xap) SET !ETH !ID]: %DOT-84%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%}
@@ -4960,7 +4960,7 @@ ItemDisplay[aqv MAG !ID CLVL<12 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: %BLUE%%N
 
 //Magic Craftables\\
 
-//StrictLLD
+//Strict LLD
 ItemDisplay[(wax OR 9wa OR mpi OR 9mp OR fla OR 7fl OR whm OR 9wh OR lsd OR 9ls OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR pik OR 9p9 OR wsc OR 9wc OR glv OR 9gl OR tsp OR 9ts OR ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9bl OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) MAG ETH !ID FILTLVL=5 CLVL>59]: %DOT-4B%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws OR am5 OR ama) MAG !ID FILTLVL=5 CLVL>59]: %PX-4B%%TIER-0%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
 
@@ -5021,7 +5021,7 @@ ItemDisplay[(am5 OR ama OR amf) MAG !ID]: %NAME%
 
 //Rare Craftables\\
 
-//StrictLLD
+//Strict LLD
 ItemDisplay[(wax OR 9wa OR mpi OR 9mp OR fla OR 7fl OR whm OR 9wh OR lsd OR 9ls OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR pik OR 9p9 OR wsc OR 9wc OR glv OR 9gl OR tsp OR 9ts OR ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9bl OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs OR wsp OR 9ws) RARE ETH !ID FILTLVL=5 CLVL>59]: %DOT-4B%%PURPLE%·%YELLOW%%NAME%%PURPLE%·%GRAY%{%NAME%}
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws OR am5 OR ama) RARE !ID FILTLVL=5 CLVL>59]: %DOT-4B%%PURPLE%·%YELLOW%%NAME%%PURPLE%·%GRAY%{%NAME%}
 
@@ -5596,13 +5596,13 @@ ItemDisplay[(CHEST OR SHIELD) RARE !ID ALVL>74]: %NAME%{%NAME%}
 ItemDisplay[utp !ETH NMAG !INF !SOCK=1 DEF>394]: %NAME%{%NAME%}
 ItemDisplay[uit !ETH NMAG !INF !RW SOCK=4]: %NAME%{%NAME%}
 
-//StrictLLD-Specific Failsafes
+//Strict LLD-Specific Failsafes
 ItemDisplay[(STAFF OR ltp OR xtp OR bhm OR xh9 OR bsh OR xsh OR lrg OR xrg OR spk OR xpk OR wsp OR 9ws OR wax OR 9wa OR gsd OR 9gd OR whm OR 9wh OR gma OR 9gm OR kri OR 9kr OR lwb OR 8lw OR pik OR 9p9) RARE !ID FILTLVL>4 CLVL>74]: %NAME%{%NAME%}
 ItemDisplay[((EXC STAFF) OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) MAG !ID FILTLVL>4 CLVL>74]: %NAME%{%NAME%}
 ItemDisplay[(amu OR rin) MAG !ID FILTLVL>4 (DIFF<2 OR MAPID=83) CLVL>74]: %NAME%{%NAME%}
 ItemDisplay[ci0 MAG !ID FILTLVL>4 CLVL>74]: %NAME%{%NAME%}
 
-//ShowRecipes-Specific Failsafes
+//Show Recipes-Specific Failsafes
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs) MAG !ID FILTLVL=6 CLVL>74]: %TEAL%·%BLUE%%NAME%%TEAL%·%BLUE%{%NAME%}
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs) RARE !ID FILTLVL=6 CLVL>74]: %NAME%{%NAME%}
 ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR 9wb OR 9cs) MAG !ID FILTLVL=6 CLVL>74]: %TEAL%·%BLUE%%NAME%%TEAL%·%BLUE%{%NAME%}
@@ -6638,7 +6638,7 @@ ItemDisplay[GOLD<1000 CLVL<31 DIFF>0 FILTLVL>0]: {%NAME%}
 ItemDisplay[BELT NMAG (CLVL>29 OR (CLVL<31 DIFF>0)) FILTLVL>0]: {%NAME%}
 ItemDisplay[(ARMOR OR WEAPON) !leg INF FILTLVL>0]: {%NAME%}
 
-//ShowRecipes Relaxed Filter Congruency
+//Show Recipes Relaxed Filter Congruency
 ItemDisplay[(ARMOR OR WEAPON) NMAG !SOCK=1 !(GLOVES OR BOOTS OR BELT OR THROWING) !INF FILTLVL=6]: %NAME%{%NAME%}
 ItemDisplay[RARE !ID FILTLVL=6]: %NAME%{%NAME%}
 

@@ -14,7 +14,7 @@ The version known as 'eqN-All-In-One' in the game launcher includes all other pa
 
 The version known as 'eqN-Potionless' is the same as 'eqN-All-In-One', however it hides Super/Greater Health and Mana potions after character level 75 at all filter levels.
 
-The version known as 'eqN-Specialized-LLD' is the same as 'eqN-All-In-One', however it hides Super/Greater Health and Mana potions after character level 75 at filter levels above 'Relaxed' and it shows details for LLD crafting on applicable base items on the 'ShowRecipes' filter level.
+The version known as 'eqN-Specialized-LLD' is the same as 'eqN-All-In-One', however it hides Super/Greater Health and Mana potions after character level 75 at filter levels above 'Relaxed' and it shows details for LLD crafting on applicable base items on the 'Show Recipes' filter level.
 
 **<ins>Currently these filters are stylized in such a way as to require the use of the new in-game setting 'HD Text' (enabled by default) introduced with Season 7 of Project Diablo 2. This is to allow for more text colors.</ins>**
 
@@ -22,7 +22,7 @@ The version known as 'eqN-Specialized-LLD' is the same as 'eqN-All-In-One', howe
 
 ![Filter Levels](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/FiltLevel.jpg)
 
-**You can toggle the filter strictness level, or switch to the 'ShowRecipes' filter level, by holding CTRL + clicking on the PD2 in-game 'Settings' button, then adjusting your filter level under the 'Item' tab. These filters use this functionality heavily.**
+**You can toggle the filter strictness level, or switch to the 'Show Recipes' filter level, by holding CTRL + clicking on the PD2 in-game 'Settings' button, then adjusting your filter level under the 'Item' tab. These filters use this functionality heavily.**
 
 ## Brief Summary
 
@@ -54,7 +54,7 @@ All unsocketed, but socketable, items of any kind will show their potential maxi
 
 If an item is non-magic (white) and unsocketed it will show its maximum potential sockets possible through the Larzuk quest or Cube socket recipe. 
 
-If an item is non-magic (white) and socketed it will show its possible runewords by name on all filter levels and will include the runes in the approrpriate order on the 'ShowRecipes' filter level. 
+If an item is non-magic (white) and socketed it will show its possible runewords by name on all filter levels and will include the runes in the approrpriate order on the 'Show Recipes' filter level. 
 
 ![Runewords](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Runes.jpg)
 
@@ -66,11 +66,11 @@ Once an item is socketed in any fashion the maximum potential socket information
 
 ![Crafting Ring](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Crafting.jpg)
 
-All items will show recipes possible, as applicable, when using the 'ShowRecipes' filter level. They will use a color-coded symbol (@) matching their respective perfect gem color within the recipe, as seen above.
+All items will show recipes possible, as applicable, when using the 'Show Recipes' filter level. They will use a color-coded symbol (@) matching their respective perfect gem color within the recipe, as seen above.
 
-Recipes will begin to be available once relevant as your character progresses or when using the appropriate filter level. I.E.: Non-magic (white) items will show their socketing recipe. Magic items and perfect gems will show crafting recipes on the 'ShowRecipes' filter level. Rare, crafted, set, and unique items will show possible upgrade recipes if any are available.
+Recipes will begin to be available once relevant as your character progresses or when using the appropriate filter level. I.E.: Non-magic (white) items will show their socketing recipe. Magic items and perfect gems will show crafting recipes on the 'Show Recipes' filter level. Rare, crafted, set, and unique items will show possible upgrade recipes if any are available.
 
-Specifically, socketing recipes will show at item level 21+ (or earlier on any +3 skills items) on all filter levels. Upgrading recipes will show at item level 13+ and crafting recipes will show at all item levels (when on the 'ShowRecipes' filter level).
+Specifically, socketing recipes will show at item level 21+ (or earlier on any +3 skills items) on all filter levels. Upgrading recipes will show at item level 13+ and crafting recipes will show at all item levels (when on the 'Show Recipes' filter level).
 
 ![Upgrading Weapon](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Upgrading.jpg)
 
@@ -136,9 +136,9 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ##### Potionless - This is essentially a copy of the Strict filter level, however it hides all potions at all levels except for Full Rejuvenation Potions.
 
-##### StrictLLD - This is essentially a copy of the Strict filter level, however it will continue to show & sometimes notify when a LLD crafting base drops after level 60. This level is designed for late ladder and/or targeted LLD item farming. LLD crafting bases are marked with purple dots.
+##### Strict LLD - This is essentially a copy of the Strict filter level, however it will continue to show & sometimes notify when a LLD crafting base drops after level 60. This level is designed for late ladder and/or targeted LLD item farming. LLD crafting bases are marked with purple dots.
 
-##### ShowRecipes - This filter level shows all crafting and upgrading recipes on any applicable items. The crafting recipes can be found on magic items and on perfect gems. The upgrade recipes include information about the requirements for upgraded items. This level will also show all runes necessary for runewords on any socketed non-magic (white) items. This level is not recommended for use while item finding as it can be a bit visually noisy. Though, if item finding with this filter level it will never hide anything important. This filter level uses Strict as a baseline but it still shows all LLD crafting bases, as well as any and all non-magic (white) items that would otherwise show on the Relaxed filter. This filter level will show the recommended level for LLD crafting on most LLD-applicable crafting bases when using the 'eqN-Specialized-LLD' filter specifically.
+##### Show Recipes - This filter level shows all crafting and upgrading recipes on any applicable items. The crafting recipes can be found on magic items and on perfect gems. The upgrade recipes include information about the requirements for upgraded items. This level will also show all runes necessary for runewords on any socketed non-magic (white) items. This level is not recommended for use while item finding as it can be a bit visually noisy. Though, if item finding with this filter level it will never hide anything important. This filter level uses Strict as a baseline but it still shows all LLD crafting bases, as well as any and all non-magic (white) items that would otherwise show on the Relaxed filter. This filter level will show the recommended level for LLD crafting on most LLD-applicable crafting bases when using the 'eqN-Specialized-LLD' filter specifically.
 
 ###### The differences between these filter levels, relative to the Relaxed filter level as a baseline, are further described below. All of these filter levels share a similar leveling experience prior to character level 75.
 
@@ -341,9 +341,9 @@ Created a new "default" version of the filter, available in the launcher, simply
 
 Renamed the old 'Strict' filter level to 'Medium'.
 
-Added a new 'StrictLLD' filter level that uses the 'late season' / 'high speed mapping' strictness of the Strict filter level while still showing and notifying for all non-shoppable LLD crafting bases that drop.
+Added a new 'Strict LLD' filter level that uses the 'late season' / 'high speed mapping' strictness of the Strict filter level while still showing and notifying for all non-shoppable LLD crafting bases that drop.
 
-Added a new 'ShowRecipes' filter level that shows all crafting and upgrading recipes that previously would always show on items in your stash, inventory, or when equipped. These recipes show on all magic items and on perfect gems. These recipes are now hidden on all other filter levels. This filter version also shows the runes necessary for runewords on runeword bases in their sequential order of necessary socketing.
+Added a new 'Show Recipes' filter level that shows all crafting and upgrading recipes that previously would always show on items in your stash, inventory, or when equipped. These recipes show on all magic items and on perfect gems. These recipes are now hidden on all other filter levels. This filter version also shows the runes necessary for runewords on runeword bases in their sequential order of necessary socketing.
 
 Socketing recipes will still show at all filter levels.
 
@@ -351,7 +351,7 @@ Visually remastered nearly every aspect of item drop names and/or descriptons to
 
 Crafting, upgrading, and socketing recipes will no longer show on items while they are in a vendor's inventory (all filter levels) to help make items worth shopping for easier to see at a glance.
 
-Gold that is hidden is no longer able to be auto-looted as of Season 5. I've adopted the scaling gold drop system designed by BetweenWalls as a solution to allow much more gold to be seen and thus auto-looted. This scaling applies at all levels on the Relaxed filter. Currently, at level 75+, gold piles less than 1200 are hidden on the Medium filter level and less than 2500 are hidden on the Strict & StrictLLD filter levels.
+Gold that is hidden is no longer able to be auto-looted as of Season 5. I've adopted the scaling gold drop system designed by BetweenWalls as a solution to allow much more gold to be seen and thus auto-looted. This scaling applies at all levels on the Relaxed filter. Currently, at level 75+, gold piles less than 1200 are hidden on the Medium filter level and less than 2500 are hidden on the Strict & Strict LLD filter levels.
 
 Added a new "Potionless" filter version to the launcher, "eqN-Potionless", which functions identically to "eqN-All-In-One" except it hides Super Potions after character level 75. (Intended for characters who do not need them.)
 
@@ -399,11 +399,11 @@ Updated the descriptions for changed rune socketing effects for Jah, Ber, Ohm, I
 
 Made sure ideal Wand runeword bases for the improved White runeword will notify on drop as a Necromancer. (They were already showing.)
 
-Added pertinent information for the new runewords (Asylum and Shattered Wall) to applicable runeword bases. (This includes rune listing/order provided in the ShowRecipes filter level.)
+Added pertinent information for the new runewords (Asylum and Shattered Wall) to applicable runeword bases. (This includes rune listing/order provided in the Show Recipes filter level.)
 
 Added new description lines for class skill and/or high ED armors and shields with other useful affixes. (Applicable for LLD and high level items.)
 
-Added newly existing runeword possibilites introduced this season to applicable runewords bases. (This includes rune listing/order provided in the ShowRecipes filter level.)
+Added newly existing runeword possibilites introduced this season to applicable runewords bases. (This includes rune listing/order provided in the Show Recipes filter level.)
 
 Reworked how and when rare and magic arrows and bolts show depending on filter level.
 
@@ -421,7 +421,7 @@ Made it so ideal affix level (38) jewels for LLD rerolling are highlighted on dr
 
 Renamed the SuperStrict filter level to Strict.
 
-Refined the ShowRecipes filter level to ensure it always shows non-magic (white) item names that would show on the Relaxed filter level.
+Refined the Show Recipes filter level to ensure it always shows non-magic (white) item names that would show on the Relaxed filter level.
 
 Refined the overall filter aesthetic with the new HD text in mind. This includes the use of new colors and characters.
 
@@ -441,7 +441,7 @@ Improved "Upgraded Requirements", "Upgrade Recipe", and "LLD Armor/Shield" descr
 
 Overhauled filter in-line formatting on non-magic items for consistency in editing.
 
-Made is so equipped items no longer show recipes on the ShowRecipes filter level, as always intended, now that it has been fixed to not include the shared stash tabs. Non-equipped items still show recipes as intended.
+Made is so equipped items no longer show recipes on the Show Recipes filter level, as always intended, now that it has been fixed to not include the shared stash tabs. Non-equipped items still show recipes as intended.
 
 Added LLD tags for good crafted/rare LLD rings and rare quivers.
 
@@ -465,7 +465,7 @@ Added the two new uniques for Season 8 with accented notifications, as with all 
 
 Added the newly introduced throwing potions of all elements, useful during leveling, to the filter with a discreet aesthetic to help minimalize visual clutter.
 
-Added all of the new runewords (and their runes, listed on the ShowRecipes filter level) introduced this season to applicable base items.
+Added all of the new runewords (and their runes, listed on the Show Recipes filter level) introduced this season to applicable base items.
 
 Added all of the "highest immunity" information to the new unique map's description.
 
@@ -473,7 +473,7 @@ Added a new description note for the filter version to keys when in the shop.
 
 Added a list of possible unique items when buying from Gheed within maps.
 
-Added a note for the resulting ILVL of high ILVL rerolled jewels on the 'ShowRecipes' filter level.
+Added a note for the resulting ILVL of high ILVL rerolled jewels on the 'Show Recipes' filter level.
 
 Added a new shop hunting highlight style that utilizes the fact that %NL% within identified item names is now usable.
 
@@ -527,7 +527,7 @@ Ensured items for Ice Bolt, Inferno, Arctic Blast, Poison Creeper, Poison Strike
 
 Further refined the 'green dot' added to the end of high defense, non-superior non-magic (white) runeword bases that signifies a good roll.
 
-Added new Diamond recipes to applicable magic crafting base and stacked Diamond descriptions when using the 'ShowRecipes' filter level.
+Added new Diamond recipes to applicable magic crafting base and stacked Diamond descriptions when using the 'Show Recipes' filter level.
 
 Added new LLD tags and high level tags for daggers that would be good for Blade/Kick/MA Assassin and Poison Strike Necromancer.
 
