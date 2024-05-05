@@ -511,7 +511,7 @@ ItemDisplay[cm3 MAG ID ILVL>90 FILTLVL=5]: %NAME%{%GOLD%Cube %WHITE%with 3x Perf
 //Gems
 ItemDisplay[(gzv OR glw OR glg OR glr OR glb OR gly OR skl) CLVL<75]: %DOT-66%%NAME%%CONTINUE%
 ItemDisplay[gzv]: %PX-66%%TIER-1%%NAME% %ORANGE%(%PURPLE%ö%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[glw]: %PX-66%%TIER-1%%NAME% %ORANGE%(%LIGHT_GRAY%ö%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[glw]: %PX-66%%TIER-1%%NAME% %ORANGE%(%WHITE%ö%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[glg]: %PX-66%%TIER-1%%NAME% %ORANGE%(%GREEN%ö%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[glr]: %PX-66%%TIER-1%%NAME% %ORANGE%(%RED%ö%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[glb]: %PX-66%%TIER-1%%NAME% %ORANGE%(%BLUE%ö%ORANGE%)%WHITE%%CONTINUE%
@@ -519,7 +519,7 @@ ItemDisplay[gly]: %PX-66%%TIER-1%%NAME% %ORANGE%(%YELLOW%ö%ORANGE%)%WHITE%%CONTI
 ItemDisplay[skl]: %PX-66%%TIER-1%%NAME% %ORANGE%(%GRAY%ö%ORANGE%)%WHITE%%CONTINUE%
 
 ItemDisplay[gpv]: %DOT-66%%NAME% %ORANGE%(%PURPLE%@%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[gpw]: %DOT-66%%NAME% %ORANGE%(%LIGHT_GRAY%@%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[gpw]: %DOT-66%%NAME% %ORANGE%(%WHITE%@%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[gpg]: %DOT-66%%NAME% %ORANGE%(%GREEN%@%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[gpr]: %DOT-66%%NAME% %ORANGE%(%RED%@%ORANGE%)%WHITE%%CONTINUE%
 ItemDisplay[gpb]: %DOT-66%%NAME% %ORANGE%(%BLUE%@%ORANGE%)%WHITE%%CONTINUE%
@@ -536,11 +536,11 @@ ItemDisplay[GEMTYPE=1 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%PURPLE%ö%ORANGE%)
 ItemDisplay[GEMTYPE=1 GEM=5]: %DOT-66%%NAME% %ORANGE%(%PURPLE%@%ORANGE%)%WHITE%%CONTINUE%
 
 //Diamond
-ItemDisplay[GEMTYPE=2 GEM=1]: %NAME% %ORANGE%(%LIGHT_GRAY%ø%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=2 GEM=2]: %NAME% %ORANGE%(%LIGHT_GRAY%o%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=2 GEM=3]: %NAME% %ORANGE%(%LIGHT_GRAY%õ%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=2 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%LIGHT_GRAY%ö%ORANGE%)%WHITE%%CONTINUE%
-ItemDisplay[GEMTYPE=2 GEM=5]: %DOT-66%%NAME% %ORANGE%(%LIGHT_GRAY%@%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=2 GEM=1]: %NAME% %ORANGE%(%WHITE%ø%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=2 GEM=2]: %NAME% %ORANGE%(%WHITE%o%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=2 GEM=3]: %NAME% %ORANGE%(%WHITE%õ%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=2 GEM=4]: %DOT-66%%TIER-1%%NAME% %ORANGE%(%WHITE%ö%ORANGE%)%WHITE%%CONTINUE%
+ItemDisplay[GEMTYPE=2 GEM=5]: %DOT-66%%NAME% %ORANGE%(%WHITE%@%ORANGE%)%WHITE%%CONTINUE%
 
 //Emerald
 ItemDisplay[GEMTYPE=3 GEM=1]: %NAME% %ORANGE%(%GREEN%ø%ORANGE%)%WHITE%%CONTINUE%
@@ -787,7 +787,7 @@ ItemDisplay[glys]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %
 ItemDisplay[glbs]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%BLUE%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Cold Resist%NL%Armor/Helm: +31 to Mana%NL%Weapon: 6-10 Cold Dmg%NL%}%CONTINUE%
 ItemDisplay[glgs]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%GREEN%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Psn Resist%NL%Armor/Helm: +8 Dexterity%NL%Weapon: +60 Psn Dmg over 6 Sec%NL%}%CONTINUE%
 ItemDisplay[glrs]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%RED%@%ORANGE%)%NL%%NL%%WHITE%Shield: 28% Fire Resist%NL%Armor/Helm: +31 to Life%NL%Weapon: 10-16 Fire Dmg%NL%}%CONTINUE%
-ItemDisplay[glws]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%LIGHT_GRAY%@%ORANGE%)%NL%%NL%%WHITE%Shield: 14% All Resist%NL%Armor/Helm: +80 Attack Rating%NL%Weapon: +54% Dmg vs Undead%NL%}%CONTINUE%
+ItemDisplay[glws]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%WHITE%@%ORANGE%)%NL%%NL%%WHITE%Shield: 14% All Resist%NL%Armor/Helm: +80 Attack Rating%NL%Weapon: +54% Dmg vs Undead%NL%}%CONTINUE%
 ItemDisplay[skls]: %PX-66%%TIER-1%%NAME%%WHITE%{%WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect %ORANGE%(%GRAY%@%ORANGE%)%NL%%NL%%WHITE%Shield: Attacker Takes 16 Dmg%NL%Armor/Helm: Regenerate Mana +12%, Replenish Life +4%NL%Weapon: 3% Life Leech, 3% Mana Leech%NL%}%CONTINUE%
 ItemDisplay[gpvs]: %DOT-66%%NAME%%WHITE%{%WHITE%Shield: +30 Defense%NL%Armor/Helm: +10 to Strength%NL%Weapon: +150 Attack Rating%NL%}%CONTINUE%
 ItemDisplay[gpys]: %DOT-66%%NAME%%WHITE%{%WHITE%Shield: 40% Light Resist%NL%Armor/Helm: 24% Magic Find%NL%Weapon: 1-40 Light Dmg%NL%}%CONTINUE%
