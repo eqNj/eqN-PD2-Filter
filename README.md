@@ -556,3 +556,5 @@ Countless revisions to LLD and leveling tags.  [1.8.2]
 Further in-depth revisions to LLD tags.  [1.8.3]
 
 Added a Potionless filter level to All-In-One.  [1.8.4]
+
+Massive runeword base overhaul.  [1.8.5]
