@@ -5239,7 +5239,7 @@ ItemDisplay[(wsp OR 9ws OR 7ws) !ETH NMAG !INF !RW (SK111>2 OR SK125>2) (SOCK=0 
 ItemDisplay[(wsp OR 9ws OR 7ws) SK117>2 NMAG !INF !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%} // Call to Arms with Holy Shield Scepters
 ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !INF !RW SOCK=4 CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Insight Scepters (Leveling)
 ItemDisplay[(SCEPTER !scp) NMAG !INF !RW ((SK109>2 !SOCK=3 (wsp OR 9ws OR 7ws)) OR SK99>2) !SOCK=1 (FILTLVL>1 !SOCK=2) !(SOCK=5 !7ws)]: %DOT-D6%%TIER-3%%NAME%{%NAME%} // +3 Cleansing/Prayer Mercenary Scepters
-ItemDisplay[ELT SCEPTER (SK96>2 OR SK102>2 OR SK106>2 OR SK107>2 OR SK111>2 OR SK114>2 OR SK118>2 OR SK122>2 OR SK123>2 OR SK378>2) NMAG !INF !RW !SOCK=1 !(SOCK=3 !ETH)]: %DOT-D6%%%TIER-2%%NAME%{%NAME%} // +3 Melee Elite Scepters
+ItemDisplay[ELT SCEPTER (SK96>2 OR SK102>2 OR SK106>2 OR SK107>2 OR SK111>2 OR SK114>2 OR SK118>2 OR SK122>2 OR SK123>2 OR SK378>2) NMAG !INF !RW !SOCK=1 !(SOCK=3 !ETH)]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // +3 Melee Elite Scepters
 ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !INF !RW SOCK=4]: %NAME%{%NAME%} // Insight Scepters
 ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !INF !RW !SUP SOCK=0 (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // 0 Socket Insight Scepters (Leveling)
 ItemDisplay[(wsp OR 9ws OR 7ws) SK117>1 NMAG !INF !RW (SOCK=0 OR SOCK=5) (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // Low Tier Call to Arms with Holy Shield Scepters
