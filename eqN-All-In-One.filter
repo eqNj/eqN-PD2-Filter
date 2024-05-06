@@ -1323,7 +1323,7 @@ ItemDisplay[(INF OR SUP) NMAG !RW ywn]: Yew Wand%CONTINUE%
 ItemDisplay[(INF OR SUP) NMAG !RW 9yw]: Petrified Wand%CONTINUE%
 ItemDisplay[(INF OR SUP) NMAG !RW 7yw]: Ghost Wand%CONTINUE%
 ItemDisplay[(INF OR SUP) NMAG !RW bwn]: Bone Wand%CONTINUE%
-ItemDisplay[(INF OR SUP) NMAG !RW 9bw]: Tomb Wand%CONTINUE%1    
+ItemDisplay[(INF OR SUP) NMAG !RW 9bw]: Tomb Wand%CONTINUE%    
 ItemDisplay[(INF OR SUP) NMAG !RW 7bw]: Lich Wand%CONTINUE%
 ItemDisplay[(INF OR SUP) NMAG !RW gwn]: Grim Wand%CONTINUE%
 ItemDisplay[(INF OR SUP) NMAG !RW 9gw]: Grave Wand%CONTINUE%
