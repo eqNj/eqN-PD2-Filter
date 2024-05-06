@@ -4964,7 +4964,7 @@ ItemDisplay[(wax OR 9wa OR mpi OR 9mp OR fla OR 7fl OR whm OR 9wh OR lsd OR 9ls 
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws OR am5 OR ama) MAG !ID CLVL>49]: %PX-4B%%TIER-0%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
 
 //Notified
-ItemDisplay[(SHIELD OR CHEST) !NEC MAG ETH !ID (CRAFTALVL>84 OR ((DIFF<2 OR CLVL<90) CRAFTALVL>74))]: %DOT-97%%TEAL%·%BLUE%%NAME%%TEAL%·
+ItemDisplay[(SHIELD OR CHEST) !NEC MAG ETH !ID (CRAFTALVL>84 OR ((DIFF<2 OR (CLVL<90 FILTLVL<3)) CRAFTALVL>74))]: %DOT-97%%TEAL%·%BLUE%%NAME%%TEAL%·
 ItemDisplay[((wsp OR 9ws OR 7ws OR wax OR 9wa OR 7wa OR whm OR 9wh OR 7wh OR lsd OR 9ls OR 7ls OR wsd OR 9wd OR 7wd OR kri OR 9kr OR 7kr OR bld OR 9bl OR 7bl) OR (am5 OR ama OR amf)) MAG ETH !ID (CLVL>49 OR ILVL>59)]: %DOT-97%%TEAL%·%BLUE%%NAME%%TEAL%·
 ItemDisplay[((gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) OR (pil OR 9pi OR 7pi OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)) MAG ETH !ID (CLVL>49 OR ILVL>59)]: %DOT-97%%TEAL%·%BLUE%%NAME%%TEAL%·
 ItemDisplay[(SCEPTER OR SIN OR (am3 OR am8 OR amd OR am4 OR am9 OR ame) OR (spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl)) MAG ETH !ID CRAFTALVL>57 (FILTLVL<3 OR FILTLVL=5)]: %DOT-97%%TEAL%·%BLUE%%NAME%%TEAL%·
@@ -5025,7 +5025,7 @@ ItemDisplay[(wax OR 9wa OR mpi OR 9mp OR fla OR 7fl OR whm OR 9wh OR lsd OR 9ls 
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9ws OR am5 OR ama) RARE !ID CLVL>59]: %DOT-4B%%PURPLE%·%YELLOW%%NAME%%PURPLE%·%GRAY%{%NAME%}
 
 //Notified
-ItemDisplay[(SHIELD OR CHEST) !NEC RARE ETH !ID (CRAFTALVL>84 OR ((DIFF<2 OR CLVL<90) CRAFTALVL>74))]: %DOT-A8%%TEAL%·%YELLOW%%NAME%%TEAL%·
+ItemDisplay[(SHIELD OR CHEST) !NEC RARE ETH !ID (CRAFTALVL>84 OR ((DIFF<2 OR (CLVL<90 FILTLVL<3)) CRAFTALVL>74))]: %DOT-A8%%TEAL%·%YELLOW%%NAME%%TEAL%·
 ItemDisplay[((wsp OR 9ws OR 7ws OR wax OR 9wa OR 7wa OR whm OR 9wh OR 7wh OR lsd OR 9ls OR 7ls OR wsd OR 9wd OR 7wd OR kri OR 9kr OR 7kr OR bld OR 9bl OR 7bl) OR (am5 OR ama OR amf)) RARE ETH !ID (CLVL>49 OR ILVL>59)]: %DOT-A8%%TEAL%·%YELLOW%%NAME%%TEAL%·
 ItemDisplay[((gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) OR (pil OR 9pi OR 7pi OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)) RARE ETH !ID (CLVL>49 OR ILVL>59)]: %DOT-A8%%TEAL%·%YELLOW%%NAME%%TEAL%·
 ItemDisplay[(SCEPTER OR SIN OR (am3 OR am8 OR amd OR am4 OR am9 OR ame) OR (spc OR 9sp OR 7sp OR clb OR 9cl OR 7cl)) RARE ETH !ID CRAFTALVL>57 (FILTLVL<3 OR FILTLVL=5)]: %DOT-A8%%TEAL%·%YELLOW%%NAME%%TEAL%·
