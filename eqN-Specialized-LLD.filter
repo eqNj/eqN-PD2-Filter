@@ -4846,6 +4846,9 @@ ItemDisplay[NMAG !RW (SOR OR WAND OR (SCEPTER !(wsp OR 9ws OR 7ws)) OR SIN OR NE
 
 // --- // --- Unique, Set, Rare, and Magic Alerts --- \\ --- \\
 
+//Highlight Magic Jewels
+ItemDisplay[jew MAG !ID]: %DOT-97%%BLUE%~%TAN%:%BLUE%~  %NAME%  ~%TAN%:%BLUE%~
+
 //Highlight Various Rares
 ItemDisplay[jew RARE !ID (ALVL=38 OR ILVL=38)]: %DOT-A8%%WHITE%~%YELLOW%:%WHITE%~ %PURPLE%: %YELLOW%%NAME% %PURPLE%: %WHITE%~%YELLOW%:%WHITE%~%YELLOW%
 ItemDisplay[(jew OR rin OR amu OR CIRC) RARE !ID]: %DOT-A8%%WHITE%~%YELLOW%:%WHITE%~  %YELLOW%%NAME%  %WHITE%~%YELLOW%:%WHITE%~%YELLOW%
@@ -16905,7 +16908,7 @@ ItemDisplay[WEAPON RARE !ETH !ID !leg CLVL>74 FILTLVL>1]: {%NAME%}
 
 //Strict FINAL
 ItemDisplay[ARMOR !(BAR OR DRU OR DIN OR NEC) (NORM OR EXC) RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
-ItemDisplay[(CHEST OR HELM OR SHIELD) !(BAR OR DRU OR DIN OR NEC) (ALVL<75 OR HELM) RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
+ItemDisplay[((ALVL<75 (CHEST OR SHIELD)) OR HELM) !(BAR OR DRU OR DIN OR NEC) RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
 ItemDisplay[(rvs OR mp4) CLVL>74 FILTLVL>2]: {%NAME%}
 
 //Shoutout to the following community members for their contributions to loot filters: Wolfie, TheIrateSeagoer, Mark, Kassahi, BetweenWalls, and Cy!
