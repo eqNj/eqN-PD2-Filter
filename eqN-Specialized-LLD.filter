@@ -16899,12 +16899,13 @@ ItemDisplay[(ARMOR OR WEAPON) !leg INF FILTLVL>0]: {%NAME%}
 
 //Show Recipes Relaxed Filter Congruency
 ItemDisplay[(ARMOR OR WEAPON) NMAG !SOCK=1 !(GLOVES OR BOOTS OR BELT OR THROWING) !INF FILTLVL=5]: %NAME%{%NAME%}
+ItemDisplay[(rin OR amu) MAG !ID FILTLVL=5]: {%NAME%}
 ItemDisplay[RARE !ID FILTLVL=5]: %NAME%{%NAME%}
 
 //Medium FINAL
 ItemDisplay[(ARMOR OR WEAPON) NMAG !leg CLVL>74 FILTLVL>1]: {%NAME%}
 ItemDisplay[(rin OR amu) MAG !ID CLVL>74 FILTLVL>1]: {%NAME%}
-ItemDisplay[WEAPON RARE !ETH !ID !leg CLVL>74 FILTLVL>1]: {%NAME%}
+ItemDisplay[WEAPON RARE !ETH !ID !leg ALVL<75 CLVL>74 FILTLVL>1]: {%NAME%}
 
 //Strict FINAL
 ItemDisplay[ARMOR !(BAR OR DRU OR DIN OR NEC) (NORM OR EXC) RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
