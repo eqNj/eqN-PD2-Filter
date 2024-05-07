@@ -4855,6 +4855,7 @@ ItemDisplay[(jew OR rin OR amu OR CIRC) RARE !ID]: %DOT-A8%%WHITE%~%YELLOW%:%WHI
 ItemDisplay[(cqv OR aqv) AMAZON RARE !ID CLVL<75]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
 ItemDisplay[(cqv OR aqv) AMAZON RARE !ID FILTLVL<2]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
 ItemDisplay[aqv AMAZON RARE !ID (FILTLVL=2 OR FILTLVL=5)]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
+ItemDisplay[cqv AMAZON RARE !ID (FILTLVL=2 OR FILTLVL=5)]: %WHITE%~%YELLOW%: %NAME% :%WHITE%~%YELLOW%
 ItemDisplay[aqv AMAZON RARE !ID FILTLVL=3]: %WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
 ItemDisplay[cqv AMAZON RARE !ID FILTLVL=3]: %YELLOW%%NAME%
 ItemDisplay[cqv !AMAZON RARE !ID CLVL<75]: %YELLOW%%NAME%
@@ -16824,6 +16825,14 @@ ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg CLVL>69 FIL
 ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(9cl OR 9sp)) EXC MAG !ETH !ID !leg CLVL>69 FILTLVL=2]: {%NAME%}
 ItemDisplay[(GLOVES OR BOOTS OR BELT) EXC MAG !ETH !ID !leg CLVL>84 FILTLVL=2]: {%NAME%}
 
+//Hiding ELT Tier Items
+//Hell
+ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(clb OR spc)) ELT MAG !ETH !ID !leg CLVL>79 FILTLVL=2]: {%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) ELT MAG !ETH !ID !leg CLVL>84 FILTLVL=2]: {%NAME%}
+//Nightmare and Normal
+ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(clb OR spc)) ELT MAG !ETH !ID !leg CLVL>89 FILTLVL=2]: {%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) ELT MAG !ETH !ID !leg CLVL>94 FILTLVL=2]: {%NAME%}
+
 // --- // --- Strict --- \\ --- \\
 
 //Hiding NORM Tier Items
@@ -16852,6 +16861,14 @@ ItemDisplay[(WEAPON !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg SOCK<2 CLVL>49 (FILTLV
 ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg CLVL>59 (FILTLVL=3 OR FILTLVL=4)]: {%NAME%}
 ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(9cl OR 9sp)) EXC MAG !ETH !ID !leg CLVL>59 (FILTLVL=3 OR FILTLVL=4)]: {%NAME%}
 ItemDisplay[(GLOVES OR BOOTS OR BELT) EXC MAG !ETH !ID !leg CLVL>74 (FILTLVL=3 OR FILTLVL=4)]: {%NAME%}
+
+//Hiding ELT Tier Items
+//Hell
+ItemDisplay[(CHEST OR HELM OR SHIELD OR WEAPON) ELT MAG !ETH !ID !leg CLVL>69 (FILTLVL=3 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) ELT MAG !ETH !ID !leg CLVL>74 (FILTLVL=3 OR FILTLVL=4)]: {%NAME%}
+//Nightmare and Normal
+ItemDisplay[(CHEST OR HELM OR SHIELD OR WEAPON) ELT MAG !ETH !ID !leg CLVL>79 (FILTLVL=3 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) ELT MAG !ETH !ID !leg CLVL>84 (FILTLVL=3 OR FILTLVL=4)]: {%NAME%}
 
 // --- // --- Completion --- \\ --- \\
 
@@ -16905,11 +16922,12 @@ ItemDisplay[RARE !ID FILTLVL=5]: %NAME%{%NAME%}
 //Medium FINAL
 ItemDisplay[(ARMOR OR WEAPON) NMAG !leg CLVL>74 FILTLVL>1]: {%NAME%}
 ItemDisplay[(rin OR amu) MAG !ID CLVL>74 FILTLVL>1]: {%NAME%}
-ItemDisplay[WEAPON RARE !ETH !ID !leg ALVL<75 CLVL>74 FILTLVL>1]: {%NAME%}
+ItemDisplay[(((CHEST OR SHIELD) ALVL<75) OR (HELM ALVL<81)) RARE !ETH !ID CLVL>74 FILTLVL>1]: {%NAME%}
+ItemDisplay[WEAPON !(STAFF ALVL>75) !(TMACE ALVL>74) !(THROWING (AXE OR DAGGER) ALVL>74) !(((XBOW !(lxb OR 8lx OR 6lx)) OR BOW) ALVL>74) !ALVL>76 RARE !ETH !ID !leg CLVL>74 FILTLVL>1]: {%NAME%}
 
 //Strict FINAL
-ItemDisplay[ARMOR !(BAR OR DRU OR DIN OR NEC) (NORM OR EXC) RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
-ItemDisplay[(((CHEST OR SHIELD) ALVL<75) OR HELM) !(BAR OR DRU OR DIN OR NEC) RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
+ItemDisplay[(((CHEST OR SHIELD) ALVL<85) OR HELM) RARE !ETH !ID CLVL>74 FILTLVL>2]: {%NAME%}
+ItemDisplay[WEAPON !(STAFF ALVL>75) !(TMACE ALVL>74) RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
 ItemDisplay[(rvs OR mp4) CLVL>74 FILTLVL>2]: {%NAME%}
 
-//Shoutout to the following community members for their contributions to loot filters: Wolfie, TheIrateSeagoer, Mark, Kassahi, BetweenWalls, and Cy!
+//Shoutout to the following community members for their contributions to loot filters: Wolfie, TheIrateSeagoer, Mark, Kassahi, BetweenWalls, Cy, and Kanzeon!
