@@ -4849,14 +4849,19 @@ ItemDisplay[NMAG !RW (SOR OR WAND OR (SCEPTER !(wsp OR 9ws OR 7ws)) OR SIN OR NE
 
 // --- // --- Unique, Set, Rare, and Magic Alerts --- \\ --- \\
 
-//Highlight Good Magic Items
+//Highlight Magic Jewels
 ItemDisplay[jew MAG !ID]: %DOT-97%%BLUE%~%TAN%:%BLUE%~  %NAME%  ~%TAN%:%BLUE%~
 
-//Highlight Good Rare Items
+//Highlight Various Rares
 ItemDisplay[jew RARE !ID (ALVL=38 OR ILVL=38)]: %DOT-A8%%WHITE%~%YELLOW%:%WHITE%~ %PURPLE%: %YELLOW%%NAME% %PURPLE%: %WHITE%~%YELLOW%:%WHITE%~%YELLOW%
 ItemDisplay[(jew OR rin OR amu OR CIRC) RARE !ID]: %DOT-A8%%WHITE%~%YELLOW%:%WHITE%~  %YELLOW%%NAME%  %WHITE%~%YELLOW%:%WHITE%~%YELLOW%
-ItemDisplay[(cqv OR aqv) !AMAZON RARE !ID CLVL<75]: %YELLOW%%NAME%%YELLOW%
 ItemDisplay[(cqv OR aqv) AMAZON RARE !ID CLVL<75]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
+ItemDisplay[(cqv OR aqv) AMAZON RARE !ID FILTLVL<2]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
+ItemDisplay[aqv AMAZON RARE !ID (FILTLVL=2 OR FILTLVL=6)]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
+ItemDisplay[aqv AMAZON RARE !ID FILTLVL=3]: %WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
+ItemDisplay[cqv AMAZON RARE !ID FILVLVL=2]: %YELLOW%%NAME%
+ItemDisplay[cqv !AMAZON RARE !ID CLVL<75]: %YELLOW%%NAME%
+ItemDisplay[aqv !AMAZON RARE !ID]: %YELLOW%%NAME%
 
 //Diablo Clone Uniques
 ItemDisplay[UNI !ID utb]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Mirrored Boots
@@ -5583,12 +5588,9 @@ ItemDisplay[(xtp OR xsk OR xh9 OR xsh) !ETH NMAG !INF !RW !SOCK=1 (DIFF<2 OR CLV
 ItemDisplay[(ltp OR msk OR bhm OR bsh) !ETH NMAG !INF !RW !SOCK=1 (DIFF<1 OR CLVL<60)]: %NAME%{%NAME%} // General Runeword Bases (Leveling)
 
 //Rare Item Failsafe
-ItemDisplay[(CHEST OR HELM OR SHIELD OR STAFF) RARE !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%}
-ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%{%NAME%}
-ItemDisplay[(BOW OR XBOW) RARE !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%}
+ItemDisplay[(CHEST OR HELM OR SHIELD OR STAFF OR BOW OR XBOW) RARE !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%}
 ItemDisplay[RARE ETH (WEAPON OR ARMOR) !SOR !WAND !ID]: %NAME%{%NAME%}
-ItemDisplay[aqv !AMAZON RARE !ID]: %YELLOW%%NAME%
-ItemDisplay[aqv AMAZON RARE !ID]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~
+ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%{%NAME%}
 
 //Circlets
 ItemDisplay[CIRC MAG !ID (FILTLVL<3 OR FILTLVL=6)]: %TAN%:: %BLUE%%NAME% %TAN%::{%NAME%}
@@ -6658,7 +6660,7 @@ ItemDisplay[WEAPON RARE !ETH !ID !leg CLVL>74 FILTLVL>1]: {%NAME%}
 
 //Strict FINAL
 ItemDisplay[ARMOR !(BAR OR DRU OR DIN OR NEC) (NORM OR EXC) RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
-ItemDisplay[(CHEST OR HELM OR SHIELD) !(BAR OR DRU OR DIN OR NEC) ELT RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
+ItemDisplay[(CHEST OR HELM OR SHIELD) !(BAR OR DRU OR DIN OR NEC) (ALVL<75 OR HELM) RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
 ItemDisplay[cqv RARE !ID !AMAZON CLVL>74 FILTLVL=3]: {%NAME%}
 ItemDisplay[(rvs OR mp4) CLVL>74 FILTLVL>2]: {%NAME%}
 
