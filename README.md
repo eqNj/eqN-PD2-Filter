@@ -558,3 +558,5 @@ Further in-depth revisions to LLD tags.  [1.8.3]
 Added a Potionless filter level to All-In-One.  [1.8.4]
 
 Massive runeword base overhaul.  [1.8.5]
+
+Added extremely in-depth infortmation about crafting and LLD jewel assessment to Stamina Potions, Antidote Potions, and Thawing Potions when in the shop and on either the 'Strict LLD' or 'Show Recipes' filter level. [1.8.6]
