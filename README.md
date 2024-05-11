@@ -134,7 +134,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ##### Strict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons when they are likely to have a reasonably high value in trading. Even at this level, all unique and set items will still show. Crafting bases shown are only those which are highly sought after. High gold value items stop being indicated at level 75. This filter level is useful for those who regularly run high density maps and dungeons and are mostly only looking for items that are easy to trade. 
 
-##### Potionless - This is essentially a copy of the Strict filter level, however it hides all potions at all levels except for Full Rejuvenation Potions.
+##### Potionless/Potions - 'Potionless' is essentially a copy of the Strict filter level, however it hides all potions at all levels except for Full Rejuvenation Potions if using the 'eqN-All-In-One' filter. 'Potions' is essentially a copy of the Strict filter level, however it shows potions as normal when using the 'eqN-Potionless' filter.
 
 ##### Strict LLD - This is essentially a copy of the Strict filter level, however it will continue to show & sometimes notify when a LLD crafting base drops after level 60. This level is designed for late ladder and/or targeted LLD item farming. LLD crafting bases are marked with purple dots.
 
@@ -170,8 +170,9 @@ Only high/mid-value unique and set items will notify on drop, but all unique and
 
 Magic arrows are hidden for all classes. Rare arrows and bolts will still show.
 
-Magic rings and amulets are hidden, unless item level 86+ rings or item level 90+ amulets.
+Greater Mana Potions (not Super, unless 'Potionless') are hidden.
 
+Magic rings and amulets are hidden, unless item level 86+ rings or item level 90+ amulets.
 
 ### The 'Strict' filter level has the following changes (after character level 75):
 
@@ -521,7 +522,7 @@ Updated PvP Mana Potions with latest PvP damage modifiers.
 
 Adjusted staffmod items so they will have their +skills listed on a second line. (Thank you devs for this long awaited feature!)
 
-Changed the purple "LLD" text on LLD item names to a purple chevron symbol («) when using the All-In-One or Potionless filter versions.
+Changed the purple "LLD" text on LLD item names to a purple chevron symbol («) when using the 'eqN-All-In-One' or 'eqN-Potionless' filter versions.
 
 Ensured items for Ice Bolt, Inferno, Arctic Blast, Poison Creeper, Poison Strike, and various other skills were all showing appropriately useful drops and/or description highlights.
 
@@ -555,7 +556,7 @@ Countless revisions to LLD and leveling tags.  [1.8.2]
 
 Further in-depth revisions to LLD tags.  [1.8.3]
 
-Added a Potionless filter level to All-In-One.  [1.8.4]
+Added a Potionless filter level to 'eqN-All-In-One'.  [1.8.4]
 
 Massive runeword base overhaul.  [1.8.5]
 
@@ -564,3 +565,7 @@ Added extremely in-depth infortmation about crafting and LLD jewel assessment to
 Refined highlighting tags for Amazon weapons. [1.8.6]
 
 Added correct defense range for when a runeword base is ethereal. [1.8.6]
+
+Added a Potions filter level to 'eqN-Potionless'. [1.8.7]
+
+Massive LLD refinements, as always. [1.8.7]
