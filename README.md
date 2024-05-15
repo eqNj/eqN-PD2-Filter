@@ -160,11 +160,11 @@ Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are 
 
 Non-magic (white) elite items are sometimes hidden, unless specifically useful for runewords or if they have +3 to a valuable skill.
 
-Normal and eNormal, exceptional, and elite magic items are hidden unless ethereal items for crafting and/or specifically useful for the class you are playing or for LLD.
+Normal, exceptional, and elite magic items are hidden unless ethereal items for crafting and/or specifically useful for the class you are playing or for LLD.
 
 Most exceptional and elite magic non-class items for crafting, except for elite chest armors, are hidden once you reach character level 80.
 
-Normal, exceptional, and elite rare weapons are hidden, unless ethereal, a bow/crossbow, a dagger, a staff, a tipped mace, and/or a class item.
+Normal, exceptional, and elite rare chests & shields/helmets/weapons are hidden unless ethereal or affix level 75/81/76+.
 
 Only high/mid-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
@@ -188,7 +188,7 @@ Non-magic (white) items are almost all hidden, unless highly sought after bases 
 
 Normal, exceptional, and elite magic items are hidden unless ethereal items for crafting and/or specifically useful for the class you are playing.
 
-Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, an amazon bow, a dagger, a staff, a tipped mace, a class item, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level chest/shield.
+Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, a class item, a dagger, a staff, a tipped mace, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level chest/shield.
 
 Only high-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
