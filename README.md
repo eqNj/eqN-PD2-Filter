@@ -150,7 +150,7 @@ The 'Strict' filter level hides normal and exceptional tier white and magic item
 
 ### The 'Medium' filter level has the following changes (after character level 75):
 
-Gold piles less than 1200 are hidden. Gold piles less than 2500 are hidden at level 90+.
+Gold piles less than 2500 are hidden. Gold piles less than 5000 are hidden at level 90+.
 
 High gold value items stop being indicated.
 
@@ -176,7 +176,7 @@ Magic rings and amulets are hidden, unless item level 86+ rings or item level 90
 
 ### The 'Strict' filter level has the following changes (after character level 75):
 
-Gold piles less than 2500 are hidden. Gold piles less than 4000 are hidden at level 90+.
+Gold piles less than 5000 are hidden. Gold piles less than 7500 are hidden at level 90+.
 
 High gold value items stop being indicated.
 
