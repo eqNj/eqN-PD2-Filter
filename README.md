@@ -569,3 +569,5 @@ Added correct defense range for when a runeword base is ethereal. [1.8.6]
 Added a Potions filter level to 'eqN-Potionless'. [1.8.7]
 
 Massive LLD refinements, as always. [1.8.7]
+
+Mostly more LLD refinements. [1.8.8]
