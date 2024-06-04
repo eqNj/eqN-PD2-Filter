@@ -6702,8 +6702,8 @@ ItemDisplay[CRAFT (8lw OR 8rx OR am6 OR 8sw OR 8hx OR 8sb) ((ED>169 STAT360=0) O
 
 //----------------------------------------- Rare & Crafted Utility Item Description Highlighting -----------------------------------------
 //Low Level
-ItemDisplay[(SOR OR STAFF) RARE ((SK50>0 OR SK60>0) ((SK40>0 SK52>0) OR (SK40>0 SK46>0) OR (SK52>0 SK46>0)))]: %DOT-9B%%PURPLE%« %YELLOW%%NAME%{%PURPLE%»   %TAN%Utility Swap   %PURPLE%«}
-ItemDisplay[(SOR OR STAFF) CRAFT ((SK50>0 OR SK60>0) ((SK40>0 SK52>0) OR (SK40>0 SK46>0) OR (SK52>0 SK46>0)))]: %DOT-9B%%PURPLE%« %ORANGE%%NAME%{%PURPLE%»   %TAN%Utility Swap   %PURPLE%«}
+ItemDisplay[(SOR OR STAFF) RARE ((SK50>0 OR SK60>0) ((SK40>0 SK52>0) OR (SK40>0 SK46>0) OR (SK52>0 SK46>0))) LVLREQ<31]: %DOT-9B%%PURPLE%« %YELLOW%%NAME%{%PURPLE%»   %TAN%Utility Swap   %PURPLE%«}
+ItemDisplay[(SOR OR STAFF) CRAFT ((SK50>0 OR SK60>0) ((SK40>0 SK52>0) OR (SK40>0 SK46>0) OR (SK52>0 SK46>0))) LVLREQ<31]: %DOT-9B%%PURPLE%« %ORANGE%%NAME%{%PURPLE%»   %TAN%Utility Swap   %PURPLE%«}
 ItemDisplay[WEAPON RARE (ALLSK>0 OR CLSK4>0) TABSK34>1 LVLREQ<31]: %DOT-9B%%PURPLE%« %YELLOW%%NAME%{%PURPLE%»   %TAN%Warcries Weapon   %PURPLE%«%NL%%NAME%}
 ItemDisplay[WEAPON CRAFT (ALLSK>0 OR CLSK4>0) TABSK34>1 LVLREQ<31]: %DOT-9B%%PURPLE%« %ORANGE%%NAME%{%PURPLE%»   %TAN%Warcries Weapon   %PURPLE%«%NL%%NAME%}
 ItemDisplay[STAFF RARE CHSK54>0 LVLREQ<31]:%DOT-9B%%PURPLE%« %YELLOW%%NAME%{%PURPLE%»   %TAN%Teleport Charges   %PURPLE%«%NL%%NAME%}
