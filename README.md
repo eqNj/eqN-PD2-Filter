@@ -2,7 +2,7 @@
 
 ![Den](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Header.jpg)
 
-These filters are up-to-date for Season 9 of Project Diablo 2!
+These filters are up-to-date for Season 10 of Project Diablo 2!
 
 You can find these loot filters either here (on GitHub) or through the Project Diablo 2 game launcher.
 
@@ -540,7 +540,7 @@ Added details about crafting results to Infusion descriptions, but only in town.
 
 Made it so crafting recipes show on P Gems on all filter levels, but only in town.
 
-Made so slightly larger gold piles are hidden when hitting level 90 on Medium and higher strictness.
+Made it so slightly larger gold piles are hidden when hitting level 90 on Medium and higher strictness.
 
 Improved the aesthetics of various highlighted items.
 
@@ -571,3 +571,35 @@ Added a Potions filter level to 'eqN-Potionless'. [1.8.7]
 Massive LLD refinements, as always. [1.8.7]
 
 Mostly more LLD refinements... [1.8.8]
+
+## 1.8.0 - (Season 9)
+
+Added a 'Specialized-SSF' filter version.
+
+I've removed all of the 'LLD' information from the SSF filter version. It will still include any prevalent lines for leveling.
+
+Made it so the Gold pile rules for the Medium filter level also apply to the Relaxed filter level after character level 75.
+
+Made it so Full Rejuv potions are easier to pick up in boss arenas and/or in between arenas for the Rathma fight.
+
+Added highlights to new uniques.
+
+Added resistance information to new maps.
+
+Added new Runeword information to applicable bases.
+
+Ensured Runeword Bases were showing for leveling and endgame for new Runewords.
+
+Made Rejuvs and Antidote Potion names larger when in applicable boss arenas.
+
+Updated Legacy item tags for some nerfed uber items.
+
+Ensured PvP charms are easily to distinquish outside of the PvP arena.
+
+Made it so Ears only show in the PvP Arenas when on the 'Strict LLD' filter level (or on 'Show Recipes' for the 'Specialized-LLD' filter). Ears will always show outside of the PvP Arenas.
+
+Moved the LLD crafting and Jewel info to the 'Strict LLD' and 'Show Recipes' filter levels on the 'All-in-One' and 'Potionless' filters.
+
+Added a 'Mag Notify' filter level to the 'Specialized-LLD' filter. This filter level is the same as 'Strict' but will give a chat notification when a Magic LLD crafting base drops.
+
+Removed HFD/CBF character status from the cube now that it shows in advanced stats.
