@@ -344,25 +344,9 @@ ItemDisplay[hp1 CLVL>14 FILTLVL=0]: %RED%·%GRAY%h¹{%WHITE%Minor Healing Potion}
 ItemDisplay[hp1 (CLVL<15 OR FILTLVL=0)]: %RED%#%WHITE%mnr%WHITE%{%WHITE%Minor Healing Potion}
 
 //PvP Mana Potions
-ItemDisplay[DIFF<2 pvpp SHOP BARBARIAN]: %CONTINUE%{Open Wounds: 10% (Normal)%NL%Deep Wounds: 50%%NL%Whirlwind: 75%%NL%Warcry: 135%%NL%Stun: 100%%NL%Frenzy: 200%%NL%Double Swing: 200%%NL%Double Throw: 114%%NL%Concentrate: 50% (Magic)%NL%Berserk: 125%%NL%Bash: 100%%NL%%TAN%~Barbarian~}
-ItemDisplay[DIFF<2 pvpp SHOP ASSASSIN]: %CONTINUE%{Wake of Fire: 60%%NL%Chain Lightning: Sentry: 35%%NL%Lightning: Sentry: 35%%NL%Psychic Hammer: 20%%NL%Mind Blast: 30%%NL%Blade Sentinel: 80%%NL%Blade Fury: 80%%NL%%TAN%~Assassin~}
-ItemDisplay[DIFF<2 pvpp SHOP PALADIN]: %CONTINUE%{Zeal: 75%%NL%Vengeance: 200% (Ele)%NL%Smite: 85%%NL%Sacrifice: 150%%NL%Joust: 20%%NL%Holy Nova: 50%%NL%Holy Fire: 125%%NL%Holy Bolt: 65%%NL%Fist of the Heavens: 55%%NL%Charge: 70%%NL%Blessed Hammer: 60%%NL%%TAN%~Paladin~}
-ItemDisplay[DIFF<2 pvpp SHOP DRUID]: %CONTINUE%{Volcano: 45%%NL%Tornado: 60%%NL%Shockwave: 175%%NL%Raven: 60%%NL%Rabies: 150% (Psn)%NL%Molten Boulder: 90%%NL%Maul: 150%%NL%Firestorm: 150%%NL%Fire Claws: 300% (Fire)%NL%Hurricane: 150%%NL%Arctic Blast: 200%%NL%Armageddon: 30%%NL%%TAN%~Druid~}
-ItemDisplay[DIFF<2 pvpp SHOP NECROMANCER]: %CONTINUE%{Teeth: 40%%NL%Poison Nova: 150%%NL%Poison Strike: 150%%NL%Desecrate: 85%%NL%Dark Pact: 50%%NL%Corpse Explosion: 65%%NL%Bone Spear: 55%%NL%Bone Spirit: 30%%NL%%TAN%~Necromancer~}
-ItemDisplay[DIFF<2 pvpp SHOP AMAZON]: %CONTINUE%{Valkyrie: 70%%NL%Strafe: 65%%NL%Power Strike: 17% (Phys)%NL%Poison Javelin: 85%%NL%Plague Javelin: 85% (Psn)%NL%Magic Arrow: 100%%NL%Lightning: Bolt: 85%%NL%Lightning: Fury: 100%%NL%Jab: 80%%NL%Ice Arrow: 175%%NL%Immolation Arrow: 200%%NL%Guided Arrow: 115%%NL%Freezing Arrow: 175%%NL%Decoy: 50%%NL%Charged Strike: 130% (Light)%NL%%TAN%~Amazon~}
-ItemDisplay[DIFF<2 pvpp SHOP SORCERESS]: %CONTINUE%{Telekinesis: 10%%NL%Thunder Storm: 30%%NL%Nova: 150%%NL%Meteor: 65%%NL%Lesser Hydra: 40%%NL%Lightning: 200%%NL%Ice Barrage: 175%%NL%Ice Bolt: 135%%NL%Ice Blast: 150%%NL%Inferno: 114%%NL%Hydra: 30%%NL%Glacial Spike: 150%%NL%Frost Nova: 165%%NL%Frozen Orb: 150%%NL%Fire Wall: 90%%NL%Fire Bolt: 95%%NL%Fire Ball: 95%%NL%Charged Bolt: 185%%NL%Chain Lightning: 120%%NL%Combustion: 80%%NL%Blizzard: 145%%NL%Blaze: 130%%NL%%TAN%~Sorceress~}
-
-ItemDisplay[DIFF=2 pvpp SHOP BARBARIAN]: %CONTINUE%{Open Wounds: 6% (Hell)%NL%Deep Wounds: 50%%NL%Whirlwind: 110%%NL%Warcry: 125%%NL%Stun: 100%%NL%Frenzy: 125%%NL%Double Swing: 200%%NL%Double Throw: 114%%NL%Concentrate: 100% (Magic)%NL%Berserk: 125%%NL%Bash: 100%%NL%%TAN%~Barbarian~}
-ItemDisplay[DIFF=2 pvpp SHOP ASSASSIN]: %CONTINUE%{Wake of Fire: 60%%NL%Chain Lightning: Sentry: 40%%NL%Lightning: Sentry: 40%%NL%Psychic Hammer: 10%%NL%Mind Blast: 35%%NL%Blade Sentinel: 60%%NL%Blade Fury: 60%%NL%%TAN%~Assassin~}
-ItemDisplay[DIFF=2 pvpp SHOP PALADIN]: %CONTINUE%{Zeal: 75%%NL%Vengeance: 100%%NL%Smite: 75%%NL%Sacrifice: 100%%NL%Joust: 20%%NL%Holy Nova: 50%%NL%Holy Fire: 50%%NL%Holy Bolt: 65%%NL%Fist of the Heavens: 65%%NL%Charge: 70%%NL%Blessed Hammer: 40%%NL%%TAN%~Paladin~}
-ItemDisplay[DIFF=2 pvpp SHOP DRUID]: %CONTINUE%{Volcano: 45%%NL%Tornado: 50%%NL%Shockwave: 175%%NL%Raven: 60%%NL%Rabies: 125% (Psn)%NL%Molten Boulder: 80%%NL%Maul: 150%%NL%Firestorm: 120%%NL%Fire Claws: 100%%NL%Hurricane: 150%%NL%Arctic Blast: 200%%NL%Armageddon: 35%%NL%%TAN%~Druid~}
-ItemDisplay[DIFF=2 pvpp SHOP NECROMANCER]: %CONTINUE%{Teeth: 35%%NL%Poison Nova: 125%%NL%Poison Strike: 125%%NL%Desecrate: 60%%NL%Dark Pact: 50%%NL%Corpse Explosion: 65%%NL%Bone Spear: 45%%NL%Bone Spirit: 15%%NL%%TAN%~Necromancer~}
-ItemDisplay[DIFF=2 pvpp SHOP AMAZON]: %CONTINUE%{Valkyrie: 70%%NL%Strafe: 65%%NL%Power Strike: 17% (Phys)%NL%Poison Javelin: 80%%NL%Plague Javelin: 40(Psn)%NL%Plague Javelin: All: 100% (Phys)%NL%Magic Arrow: 100%%NL%Lightning: Bolt: 100%%NL%Lightning: Fury: 100%%NL%Jab: 80%%NL%Ice Arrow: 120%%NL%Immolation Arrow: 1350%%NL%Guided Arrow: 120%%NL%Freezing Arrow: 130%%NL%Decoy: 100%%NL%Charged Strike: 100%%NL%%TAN%~Amazon~}
-ItemDisplay[DIFF=2 pvpp SHOP SORCERESS]: %CONTINUE%{Telekinesis: 10%%NL%Thunder Storm: 35%%NL%Nova: 140%%NL%Meteor: 90%%NL%Lesser Hydra: 80%%NL%Lightning: 180%%NL%Ice Barrage: 140%%NL%Ice Bolt: 135%%NL%Ice Blast: 135%%NL%Inferno: 100%%NL%Hydra: 80%%NL%Glacial Spike: 135%%NL%Frost Nova: 125%%NL%Frozen Orb: 114%%NL%Fire Wall: 90%%NL%Fire Bolt: 114%%NL%Fire Bolt: 135%%NL%Fire Ball: 130%%NL%Charged Bolt: 75%%NL%Chain Lightning: 120%%NL%Combustion: 90%%NL%Blizzard: 130%%NL%Blaze: 100%%NL%%TAN%~Sorceress~}
-
-ItemDisplay[pvpp SHOP DIFF=0]: %CONTINUE%{%NAME%%NL%PvP Modifiers (Normal)%NL%Last updated April 3rd}
-ItemDisplay[pvpp SHOP DIFF=1]: %CONTINUE%{%NAME%%NL%PvP Modifiers (Nightmare)%NL%Last updated April 3rd)}
-ItemDisplay[pvpp SHOP DIFF=2]: %CONTINUE%{%NAME%%NL%PvP Modifiers (Hell)%NL%Last updated April 3rd}
+ItemDisplay[pvpp SHOP DIFF=0]: %CONTINUE%{%GRAY%Only PvP Mana Potions can be used in the arena.%NL%%TAN%Additional PvP Notes (Normal)%NL%%BLUE%Slow, Absorb, ATD, Life Leech, and Melee Splash: Disabled%NL%Weapon Block, Holy Sword, Dodge, Evade: ½ Parry Chance%NL%Passive Pierce (Sorc Mastery, Gear, Facets, Etc.): Disabled%NL%Skill Pierce (Lower Resist, Conviction, Etc.): Functional%NL%Life Replenish: Capped to 30%%NL%Open Wounds: 8% PvP Modifier%NL%Energy Shield: Potions Disabled$%NL%Oak Sage: Replenish Disabled%NL%Mind Blast: Only stuns with 1/0 Hard Point(s)}
+ItemDisplay[pvpp SHOP DIFF=1]: %CONTINUE%{%GRAY%Only PvP Mana Potions can be used in the arena.%NL%%TAN%Additional PvP Notes (Nightmare)%NL%%BLUE%Slow, Absorb, ATD, Life Leech, and Melee Splash: Disabled%NL%Weapon Block, Holy Sword, Dodge, Evade: ½ Parry Chance%NL%Passive Pierce (Sorc Mastery, Gear, Facets, Etc.): Disabled%NL%Skill Pierce (Lower Resist, Conviction, Etc.): Functional%NL%Life Replenish: Capped to 30%%NL%Open Wounds: 6% PvP Modifier%NL%Energy Shield: Potions Disabled$%NL%Oak Sage: Replenish Disabled%NL%Mind Blast: Only stuns with 1/0 Hard Point(s)}
+ItemDisplay[pvpp SHOP DIFF=2]: %CONTINUE%{%GRAY%Only PvP Mana Potions can be used in the arena.%NL%%TAN%Additional PvP Notes (Hell)%NL%%BLUE%Slow, Absorb, ATD, Life Leech, and Melee Splash: Disabled%NL%Weapon Block, Holy Sword, Dodge, Evade: ½ Parry Chance%NL%Passive Pierce (Sorc Mastery, Gear, Facets, Etc.): Disabled%NL%Skill Pierce (Lower Resist, Conviction, Etc.): Functional%NL%Life Replenish: Capped to 30%%NL%Open Wounds: 4% PvP Modifier%NL%Energy Shield: Potions Disabled$%NL%Oak Sage: Replenish Disabled%NL%Mind Blast: Only stuns with 1/0 Hard Point(s)}
 ItemDisplay[pvpp]: %BLUE%PvP Mana Potion{%NAME%}
 
 //Utilities
@@ -2465,11 +2449,11 @@ ItemDisplay[drc !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defens
 ItemDisplay[drd !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 107 - 152}%CONTINUE%//
 ItemDisplay[dre !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 103 - 155}%CONTINUE%//
 ItemDisplay[drf !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 109 - 159}%CONTINUE%//
-ItemDisplay[pab !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 126 - 158}%CONTINUE%//
-ItemDisplay[pac !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 138 - 164}%CONTINUE%//
-ItemDisplay[pad !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 154 - 172}%CONTINUE%//
-ItemDisplay[pae !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 169 - 193}%CONTINUE%//
-ItemDisplay[paf !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 182 - 225}%CONTINUE%//
+ItemDisplay[pab !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 109 - 136}%CONTINUE%//
+ItemDisplay[pac !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 130 - 155}%CONTINUE%//
+ItemDisplay[pad !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 166 - 185}%CONTINUE%//
+ItemDisplay[pae !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 185 - 214}%CONTINUE%//
+ItemDisplay[paf !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 205 - 243}%CONTINUE%//
 ItemDisplay[neb !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 95 - 139}%CONTINUE%//
 ItemDisplay[neg !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 96 - 141}%CONTINUE%//
 ItemDisplay[ned !ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 98 - 142}%CONTINUE%//
@@ -2625,17 +2609,16 @@ ItemDisplay[drc ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense
 ItemDisplay[drd ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 133 - 190}%CONTINUE%//
 ItemDisplay[dre ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 128 - 193}%CONTINUE%//
 ItemDisplay[drf ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 136 - 198}%CONTINUE%//
-ItemDisplay[pab ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 157 - 197}%CONTINUE%//
-ItemDisplay[pac ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 172 - 205}%CONTINUE%//
-ItemDisplay[pad ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 192 - 215}%CONTINUE%//
-ItemDisplay[pae ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 211 - 241}%CONTINUE%//
-ItemDisplay[paf ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 227 - 281}%CONTINUE%//
+ItemDisplay[pab ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 136 - 170}%CONTINUE%//
+ItemDisplay[pac ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 130 - 155}%CONTINUE%//
+ItemDisplay[pad ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 166 - 185}%CONTINUE%//
+ItemDisplay[pae ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 185 - 214}%CONTINUE%//
+ItemDisplay[paf ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 205 - 243}%CONTINUE%//
 ItemDisplay[neb ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 118 - 173}%CONTINUE%//
 ItemDisplay[neg ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 120 - 176}%CONTINUE%//
 ItemDisplay[ned ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 122 - 177}%CONTINUE%//
 ItemDisplay[nee ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 125 - 182}%CONTINUE%//
 ItemDisplay[nef ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense: 128 - 185}%CONTINUE%//
-
 
 // --- // Non-Magic Items \\ --- \\
 
@@ -3137,7 +3120,7 @@ ItemDisplay[9sc ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 
 ItemDisplay[9qs ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9ws ILVL<26 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9ws ILVL>25 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 5%NL%%NAME%}%CONTINUE%//
-ItemDisplay[9sr ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9sr ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9tr ILVL<26 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9tr ILVL>25 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9br ILVL<26 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
@@ -3165,7 +3148,7 @@ ItemDisplay[9cr ILVL>40 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max S
 ItemDisplay[9bs ILVL<26 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9bs ILVL>25 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9ls ILVL<26 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
-ItemDisplay[9ls ILVL>25 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9ls ILVL>25 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 5%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9wd ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[92h ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9cm ILVL<26 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
@@ -3302,7 +3285,7 @@ ItemDisplay[7sc ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 
 ItemDisplay[7qs ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7ws ILVL<26 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7ws ILVL>25 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 5%NL%%NAME%}%CONTINUE%//
-ItemDisplay[7sr ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7sr ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 6%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7tr ILVL<26 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7tr ILVL>25 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7br ILVL<26 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
@@ -3330,7 +3313,7 @@ ItemDisplay[7cr ILVL>40 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max S
 ItemDisplay[7bs ILVL<26 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7bs ILVL>25 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7ls ILVL<26 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
-ItemDisplay[7ls ILVL>25 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7ls ILVL>25 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 5%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7wd ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[72h ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7cm ILVL<26 ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
@@ -4128,7 +4111,7 @@ ItemDisplay[9sc (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%M
 ItemDisplay[9qs (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9ws ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9ws ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
-ItemDisplay[9sr (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9sr (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9tr ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9tr ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9br ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
@@ -4293,7 +4276,7 @@ ItemDisplay[7sc (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%M
 ItemDisplay[7qs (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7ws ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7ws ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
-ItemDisplay[7sr (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7sr (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%Max Sockets: 6%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7tr ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7tr ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7br ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360=0]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
@@ -4625,7 +4608,7 @@ ItemDisplay[9sc (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%M
 ItemDisplay[9qs (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9ws ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9ws ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
-ItemDisplay[9sr (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[9sr (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9tr ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9tr ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[9br ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
@@ -4790,7 +4773,7 @@ ItemDisplay[7sc (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%M
 ItemDisplay[7qs (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7ws ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7ws ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
-ItemDisplay[7sr (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
+ItemDisplay[7sr (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7tr ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7tr ILVL>25 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
 ItemDisplay[7br ILVL<26 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
@@ -5776,8 +5759,8 @@ ItemDisplay[CHEST !ETH NMAG !INF !RW SOCK=4 CLVL<90 ((FILTLVL<2 OR FILTLVL=6) OR
 ItemDisplay[HELM !ETH NMAG !INF !RW SOCK=3 CLVL<90 ((FILTLVL<2 OR FILTLVL=6) OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // 3 Socket Helms for early progression MF (Leveling)
 ItemDisplay[((POLEARM OR SPEAR) !(ZON OR THROWING)) NMAG ETH !INF !RW SOCK=4 CLVL<60 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // Act 2 Merc Low Level Bases (Leveling)
 ItemDisplay[((POLEARM OR SPEAR) !(ZON OR THROWING)) NMAG ETH !INF !RW (SOCK=0 OR SOCK=4) (FILTLVL<2 OR FILTLVL=6)]: %NAME%{%NAME%} // Act 2 Merc Low Level Bases
-ItemDisplay[(9p9 OR 9wa) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=5 OR (SOCK=4 !9wa)) ED>9]: %DOT-D6%%NAME% %GRAY%|%PURPLE%LLD%GRAY%|{%NAME%} // High ED Honor/Insight Bases for LLD
-ItemDisplay[(9p9 OR 9wa) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=5 OR (SOCK=4 !9wa)) CLVL>74 DIFF<2]: %NAME%{%NAME%} // Honor/Insight Bases (Leveling)
+ItemDisplay[(9p9 OR 9wa OR 9ls) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=5 OR (SOCK=4 !9wa !9ls)) ED>9]: %DOT-D6%%NAME% %GRAY%|%PURPLE%LLD%GRAY%|{%NAME%} // High ED Honor/Insight Bases for LLD
+ItemDisplay[(9p9 OR 9wa OR 9ls) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=5 OR (SOCK=4 !9wa !9ls)) CLVL>74 DIFF<2]: %NAME%{%NAME%} // Honor/Insight Bases (Leveling)
 ItemDisplay[(xtp OR xsk OR xh9 OR xsh) !ETH NMAG !INF !RW !SOCK=1 (DIFF<2 OR CLVL<75)]: %NAME%{%NAME%} // General Runeword Bases (Leveling)
 ItemDisplay[(ltp OR msk OR bhm OR bsh) !ETH NMAG !INF !RW !SOCK=1 (DIFF<1 OR CLVL<60)]: %NAME%{%NAME%} // General Runeword Bases (Leveling)
 
