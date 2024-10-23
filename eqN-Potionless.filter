@@ -450,9 +450,12 @@ ItemDisplay[tpll]: {%WHITE%Shock Potion}
 //----------------------------------------- Charms -----------------------------------------
 
 //PvP Charms
-ItemDisplay[cm1p !(MAPID=157 OR MAPID=159)]: %GRAY%Dueling Small Charm
-ItemDisplay[cm2p !(MAPID=157 OR MAPID=159)]: %GRAY%Dueling Large Charm
-ItemDisplay[cm3p !(MAPID=157 OR MAPID=159)]: %GRAY%Dueling Grand Charm
+ItemDisplay[cm1p (MAPID=157 OR MAPID=159) !SHOP]:
+ItemDisplay[cm2p (MAPID=157 OR MAPID=159) !SHOP]:
+ItemDisplay[cm3p (MAPID=157 OR MAPID=159) !SHOP]:
+ItemDisplay[cm1p !(MAPID=157 OR MAPID=159)]: %GRAY%Dueling Charm
+ItemDisplay[cm2p !(MAPID=157 OR MAPID=159)]: %GRAY%Dueling Charm
+ItemDisplay[cm3p !(MAPID=157 OR MAPID=159)]: %GRAY%Dueling Charm
 
 //Unidentified Charms
 ItemDisplay[cm1 MAG !ID ALVL<39 ALVL>36]: %DOT-A0%%TAN%( %GRAY%~ %PURPLE%: %BLUE%%NAME% %PURPLE%: %GRAY%~ %TAN%)%BLUE%
@@ -467,8 +470,8 @@ ItemDisplay[cm1 !UNI ((MANA>9 OR RES>0 OR STAT31>9 OR MAXDMG>1 OR CRES>6 OR FRES
 ItemDisplay[cm1 !UNI (LIFE>11 OR FRW>0 OR FHR>0) (FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm1 !UNI (LIFE>11 OR FRW>0 OR FHR>0) MAXDMG>1 LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm1 !UNI LIFE>7 (MAXDMG>2 OR RES>3) LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm1 !UNI LIFE>11 (MANA>4 OR STAT31>4 OR FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
-ItemDisplay[cm1 !UNI (DEX>1 OR STR>1) (MANA>6 OR STAT31>7 OR FRES>6 OR CRES>6 OR LRES>6 OR PRES>6) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI LIFE>11 (MANA>4 OR STAT31>4 OR FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) LVLREQ<19]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm1 !UNI (DEX>1 OR STR>1) (MANA>6 OR STAT31>7 OR FRES>6 OR CRES>6 OR LRES>6 OR PRES>6) LVLREQ<19]: %NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm1 !UNI (((FRES>4 OR CRES>4 OR LRES>4 OR PRES>4) STR>0) OR (STAT54>0 (STR>0 OR DEX>0))) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 ItemDisplay[cm1 !UNI (MANA>9 OR RES>0 OR STAT31>9 OR MAXDMG>1 OR CRES>6 OR FRES>6 OR LRES>6 OR PRES>6 OR STAT54>0) (LIFE>11 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0) LVLREQ<31]: %PURPLE%« %BLUE%%NAME% %PURPLE%»%BLUE%{%NAME%}
 
@@ -477,9 +480,9 @@ ItemDisplay[cm2 !UNI ALVL<41 ALVL>37]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect 
 ItemDisplay[cm2 !UNI ((RES>5 OR MAXDMG>4) (LIFE>15 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm2 !UNI MANA>19 (LIFE>19 OR DEX>4 OR STR>4 OR FRW>0 OR FHR>0) LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm2 !UNI ((STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2) (LIFE>11 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm2 !UNI ((STAT329>1 OR STAT330>1 OR STAT331>1 OR STAT332>1 OR STAT357>1) (LIFE>9 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
+ItemDisplay[cm2 !UNI ((STAT329>1 OR STAT330>1 OR STAT331>1 OR STAT332>1 OR STAT357>1) (DEX>4 OR STR>4 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
 ItemDisplay[cm2 !UNI ((AR>29 OR MAXDMG>1 OR RES>4) (LIFE>11 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
-ItemDisplay[cm2 !UNI MANA>14 (DEX>3 OR STR>3 OR FRW>0 OR FHR>0) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
+ItemDisplay[cm2 !UNI MANA>14 (DEX>4 OR STR>4 OR FRW>0 OR FHR>0) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
 ItemDisplay[cm2 !UNI LIFE=15 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 ItemDisplay[cm2 !UNI LIFE>11 (CRES>3 OR FRES>3 OR LRES>3 OR PRES>3 OR AR>9 OR MANA>0 OR STAT11>0 OR STAT54>0) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 ItemDisplay[cm2 !UNI ((RES>5 OR MAXDMG>4) (LIFE>15 OR DEX>4 OR STR>4 OR FRW>0 OR FHR>0)) LVLREQ<31]: %PURPLE%« %BLUE%%NAME% %PURPLE%»%BLUE%{%NAME%}
