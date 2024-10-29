@@ -572,7 +572,7 @@ Massive LLD refinements, as always. [1.8.7]
 
 Mostly more LLD refinements... [1.8.8]
 
-## 1.8.0 - (Season 9)
+## 1.8.0 - (Season 10)
 
 Added a 'Specialized-SSF' filter version.
 
@@ -592,9 +592,11 @@ Ensured Runeword Bases were showing for leveling and endgame for new Runewords.
 
 Made Rejuvs and Antidote Potion names larger when in applicable boss arenas.
 
-Updated Legacy item tags for some nerfed uber items.
+Updated Legacy item tags for some nerfed items.
 
-Ensured PvP charms are easily to distinquish outside of the PvP arena.
+Updated defense ranges on changed shields.
+
+Ensured PvP charms are easy to distinquish outside of the PvP arena.
 
 Made it so Ears only show in the PvP Arenas when on the 'Strict LLD' filter level (or on 'Show Recipes' for the 'Specialized-LLD' filter). Ears will always show outside of the PvP Arenas.
 
