@@ -5,9 +5,9 @@
 ItemDisplayFilterName[]:Relaxed
 ItemDisplayFilterName[]:Medium
 ItemDisplayFilterName[]:Strict
-ItemDisplayFilterName[]:Potionless
+ItemDisplayFilterName[]:Potionless (Strict)
 ItemDisplayFilterName[]:Strict LLD
-ItemDisplayFilterName[]:Show Recipes
+ItemDisplayFilterName[]:Show Recipes (Relaxed)
 
 //----------------------------------------- Utilities -----------------------------------------
 
