@@ -5,9 +5,9 @@
 ItemDisplayFilterName[]:Relaxed
 ItemDisplayFilterName[]:Medium
 ItemDisplayFilterName[]:Strict
-ItemDisplayFilterName[]:Mag Notify
-ItemDisplayFilterName[]:Potionless
-ItemDisplayFilterName[]:Show Recipes
+ItemDisplayFilterName[]:Potionless + Rares
+ItemDisplayFilterName[]:Potionless (Strict)
+ItemDisplayFilterName[]:Show Recipes (Relaxed)
 
 //----------------------------------------- Utilities -----------------------------------------
 
@@ -201,9 +201,9 @@ ItemDisplay[box FILTLVL=0]: %NAME%{%SAGE%Show All Items%NL%%TAN%As above, so bel
 ItemDisplay[box FILTLVL=1]: %NAME%{%SAGE%Relaxed%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=2]: %NAME%{%SAGE%Medium%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=3]: %NAME%{%SAGE%Strict%NL%%TAN%As above, so below.}
-ItemDisplay[box FILTLVL=4]: %NAME%{%SAGE%Mag Notify%NL%%TAN%As above, so below.}
-ItemDisplay[box FILTLVL=5]: %NAME%{%SAGE%Potionless%NL%%TAN%As above, so below.}
-ItemDisplay[box FILTLVL=6]: %NAME%{%SAGE%Show Recipes%NL%%TAN%As above, so below.}
+ItemDisplay[box FILTLVL=4]: %NAME%{%SAGE%Potionless + Rares%NL%%TAN%As above, so below.}
+ItemDisplay[box FILTLVL=5]: %NAME%{%SAGE%Potionless (Strict)%NL%%TAN%As above, so below.}
+ItemDisplay[box FILTLVL=6]: %NAME%{%SAGE%Show Recipes (Relaxed)%NL%%TAN%As above, so below.}
 
 //Gold (Big thanks to BetweenWalls for their work on this section!)
 ItemDisplay[GOLD<500 (MAPID=25 OR MAPID=37 OR MAPID=38 OR MAPID=73 OR MAPID=102 OR MAPID=132)]: %NAME%
@@ -303,16 +303,16 @@ ItemDisplay[FILTLVL>0 GOLD>0 GOLD<988 DIFF=2 (MAPID=136 OR MAPID=137 OR MAPID=16
 ItemDisplay[GOLD>0]: %NAME%
 
 //Potionless
-ItemDisplay[mp5 FILTLVL=5]: {%WHITE%Super Mana Potion}
-ItemDisplay[hp5 FILTLVL=5]: {%WHITE%Super Healing Potion}
-ItemDisplay[mp4 FILTLVL=5]: {%WHITE%Greater Mana Potion}
-ItemDisplay[hp4 FILTLVL=5]: {%WHITE%Greater Healing Potion}
-ItemDisplay[mp3 FILTLVL=5]: {%WHITE%Mana Potion}
-ItemDisplay[hp3 FILTLVL=5]: {%WHITE%Healing Potion}
-ItemDisplay[mp2 FILTLVL=5]: {%WHITE%Lesser Mana Potion}
-ItemDisplay[hp2 FILTLVL=5]: {%WHITE%Lesser Healing Potion}
-ItemDisplay[mp1 FILTLVL=5]: {%WHITE%Minor Mana Potion}
-ItemDisplay[hp1 FILTLVL=5]: {%WHITE%Minor Healing Potion}
+ItemDisplay[mp5 (FILTLVL=5 OR FILTLVL=4)]: {%WHITE%Super Mana Potion}
+ItemDisplay[hp5 (FILTLVL=5 OR FILTLVL=4)]: {%WHITE%Super Healing Potion}
+ItemDisplay[mp4 (FILTLVL=5 OR FILTLVL=4)]: {%WHITE%Greater Mana Potion}
+ItemDisplay[hp4 (FILTLVL=5 OR FILTLVL=4)]: {%WHITE%Greater Healing Potion}
+ItemDisplay[mp3 (FILTLVL=5 OR FILTLVL=4)]: {%WHITE%Mana Potion}
+ItemDisplay[hp3 (FILTLVL=5 OR FILTLVL=4)]: {%WHITE%Healing Potion}
+ItemDisplay[mp2 (FILTLVL=5 OR FILTLVL=4)]: {%WHITE%Lesser Mana Potion}
+ItemDisplay[hp2 (FILTLVL=5 OR FILTLVL=4)]: {%WHITE%Lesser Healing Potion}
+ItemDisplay[mp1 (FILTLVL=5 OR FILTLVL=4)]: {%WHITE%Minor Mana Potion}
+ItemDisplay[hp1 (FILTLVL=5 OR FILTLVL=4)]: {%WHITE%Minor Healing Potion}
 
 //Health & Mana Potions
 ItemDisplay[rvl (MAPID=136 OR MAPID=137 OR MAPID=153 OR MAPID=161 OR MAPID=162 OR MAPID=163 OR MAPID=168)]: %BLACK%* %PURPLE%REJUV %BLACK%*%WHITE%{%WHITE%Full Rejuvenation Potion}
@@ -5151,7 +5151,6 @@ ItemDisplay[aqv MAG !ID CLVL<12 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: %BLUE%%N
 
 //LLD Bases
 ItemDisplay[(wax OR 9wa OR mpi OR 9mp OR fla OR 7fl OR whm OR 9wh OR lsd OR 9ls OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR pik OR 9p9 OR wsc OR 9wc OR glv OR 9gl OR tsp OR 9ts OR ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9bl OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR axf OR 9wb OR 9cs OR 9xf OR wsp OR 9ws) MAG ETH !ID CLVL>49]: %DOT-4B%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9xf OR 9ws OR am5 OR ama) MAG !ID CLVL>49 FILTLVL=4]: %PX-4B%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9xf OR 9ws OR am5 OR ama) MAG !ID CLVL>49]: %PX-4B%%TIER-0%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
 
 //Notified
@@ -17025,7 +17024,7 @@ ItemDisplay[(MAG OR (RARE SOCK>0) OR (RARE (GLOVES OR BELT OR BOOTS))) (ARMOR OR
 
 ItemDisplay[(SET OR UNI OR CRAFT OR RW OR (NMAG GEMMED))]: %NAME%{%NAME%}
 ItemDisplay[(MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%{%NAME%}
-ItemDisplay[RARE !ID (MAPID=181 OR MAPID=182)]: %NAME%{%NAME%}
+ItemDisplay[RARE !ID (MAPID=181 OR MAPID=182 OR MAPID=109)]: %NAME%{%NAME%}
 ItemDisplay[(EQUIPPED OR SHOP)]: %NAME%{%NAME%}
 ItemDisplay[ETH !NMAG]: %NAME%{%NAME%}
 
@@ -17178,20 +17177,20 @@ ItemDisplay[GOLD<1000 CLVL<31 DIFF>0 FILTLVL>0]: {%NAME%}
 ItemDisplay[BELT NMAG (CLVL>29 OR (CLVL<31 DIFF>0)) FILTLVL>0]: {%NAME%}
 ItemDisplay[(ARMOR OR WEAPON) !leg INF FILTLVL>0]: {%NAME%}
 
-//Show Recipes Relaxed Filter Congruency
+//Filter Level Congruency
 ItemDisplay[(ARMOR OR WEAPON) NMAG !SOCK=1 !(GLOVES OR BOOTS OR BELT OR THROWING) !INF FILTLVL=6]: %NAME%{%NAME%}
 ItemDisplay[(rin OR amu) MAG !ID FILTLVL=6]: {%NAME%}
-ItemDisplay[RARE !ID FILTLVL=6]: %NAME%{%NAME%}
+ItemDisplay[RARE !ID (FILTLVL=6 OR FILTLVL=4)]: %NAME%{%NAME%}
 
 //Medium FINAL
 ItemDisplay[(ARMOR OR WEAPON) NMAG !leg CLVL>74 FILTLVL>1]: {%NAME%}
 ItemDisplay[(rin OR amu) MAG !ID CLVL>74 FILTLVL>1]: {%NAME%}
 ItemDisplay[(((CHEST OR SHIELD) ALVL<75) OR (HELM ALVL<81)) RARE !ETH !ID CLVL>74 FILTLVL>1]: {%NAME%}
-ItemDisplay[WEAPON !(STAFF ALVL>75) !(TMACE ALVL>74) !(THROWING (AXE OR DAGGER) ALVL>74) !(((XBOW !(lxb OR 8lx OR 6lx)) OR BOW) ALVL>74) !ALVL>76 RARE !ETH !ID !leg CLVL>74 FILTLVL>1]: {%NAME%}
+ItemDisplay[WEAPON !(STAFF ALVL>75) !(TMACE ALVL>74) !(THROWING ALVL>74) !(((XBOW !(lxb OR 8lx OR 6lx)) OR (BOW (ZON OR lwb OR 8lw OR 6lw OR lbb OR 8l8 OR 6l7))) ALVL>74) !ALVL>76 RARE !ETH !ID !leg CLVL>74 FILTLVL>1]: {%NAME%}
 ItemDisplay[mp4 CLVL>74 FILTLVL>1]: {%NAME%}
 
 //Strict FINAL
-ItemDisplay[(((CHEST OR SHIELD) ALVL<85) OR HELM) RARE !ETH !ID CLVL>74 FILTLVL>2]: {%NAME%}
+ItemDisplay[(((CHEST OR SHIELD) ALVL<75) OR HELM) RARE !ETH !ID CLVL>74 FILTLVL>2]: {%NAME%}
 ItemDisplay[WEAPON !(STAFF ALVL>75) !(TMACE ALVL>74) RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
 ItemDisplay[rvs CLVL>74 FILTLVL>2]: {%NAME%}
 
