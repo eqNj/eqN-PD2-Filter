@@ -6,7 +6,7 @@ ItemDisplayFilterName[]:Relaxed
 ItemDisplayFilterName[]:Medium
 ItemDisplayFilterName[]:Strict
 ItemDisplayFilterName[]:Potions (Strict)
-ItemDisplayFilterName[]: Strict LLD
+ItemDisplayFilterName[]:Strict LLD
 ItemDisplayFilterName[]:Show Recipes (Relaxed)
 
 //----------------------------------------- Utilities -----------------------------------------
