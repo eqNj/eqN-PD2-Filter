@@ -572,7 +572,7 @@ Massive LLD refinements, as always. [1.8.7]
 
 Mostly more LLD refinements... [1.8.8]
 
-## 1.8.0 - (Season 10)
+## 1.9.0 - (Season 10)
 
 Added a 'Specialized-SSF' filter version.
 
@@ -605,3 +605,11 @@ Moved the LLD crafting and Jewel info to the 'Strict LLD' and 'Show Recipes' fil
 Added a 'Mag Notify' filter level to the 'Specialized-LLD' filter. This filter level is the same as 'Strict' but will give a chat notification when a Magic LLD crafting base drops.
 
 Removed HFD/CBF character status from the cube now that it shows in advanced stats.
+
+Changed 'Strict LLD' to 'LLD Bases' [1.9.1]
+
+Added a (Level) to the end of filter levels 4-6 to make their strictness more clear on the cube. [1.9.1]
+
+Fixed too many Rares showing on Strict filter levels using the 'Potionless' filter version. [1.9.1]
+
+Much more to come... [1.9.1]

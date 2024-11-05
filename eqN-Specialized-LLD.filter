@@ -1,11 +1,11 @@
-//eqN's Project Diablo 2 Filter - 1.9.0 (Season 10)
+//eqN's Project Diablo 2 Filter - 1.9.1 (Season 10)
 //Every Edition (with LLD crafting info)
 
 //Versions
 ItemDisplayFilterName[]:Relaxed
 ItemDisplayFilterName[]:Medium
 ItemDisplayFilterName[]:Strict
-ItemDisplayFilterName[]:Potionless + Rares
+ItemDisplayFilterName[]:Potionless (Medium)
 ItemDisplayFilterName[]:Potionless (Strict)
 ItemDisplayFilterName[]:Show Recipes (Relaxed)
 
@@ -201,7 +201,7 @@ ItemDisplay[box FILTLVL=0]: %NAME%{%SAGE%Show All Items%NL%%TAN%As above, so bel
 ItemDisplay[box FILTLVL=1]: %NAME%{%SAGE%Relaxed%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=2]: %NAME%{%SAGE%Medium%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=3]: %NAME%{%SAGE%Strict%NL%%TAN%As above, so below.}
-ItemDisplay[box FILTLVL=4]: %NAME%{%SAGE%Potionless + Rares%NL%%TAN%As above, so below.}
+ItemDisplay[box FILTLVL=4]: %NAME%{%SAGE%Potionless (Medium)%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=5]: %NAME%{%SAGE%Potionless (Strict)%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=6]: %NAME%{%SAGE%Show Recipes (Relaxed)%NL%%TAN%As above, so below.}
 
@@ -317,10 +317,10 @@ ItemDisplay[hp1 (FILTLVL=5 OR FILTLVL=4)]: {%WHITE%Minor Healing Potion}
 //Health & Mana Potions
 ItemDisplay[rvl (MAPID=136 OR MAPID=137 OR MAPID=153 OR MAPID=161 OR MAPID=162 OR MAPID=163 OR MAPID=168)]: %BLACK%* %PURPLE%REJUV %BLACK%*%WHITE%{%WHITE%Full Rejuvenation Potion}
 ItemDisplay[rvl]: %BLACK%* %PURPLE%JV %BLACK%*%WHITE%{%WHITE%Full Rejuvenation Potion}
-ItemDisplay[rvs (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %PURPLE% rj %WHITE%{%WHITE%Rejuvenation Potion}
+ItemDisplay[rvs (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %PURPLE% rj %WHITE%{%WHITE%Rejuvenation Potion}
 ItemDisplay[mp5]: %BLUE% #%WHITE%M %WHITE%{%WHITE%Super Mana Potion}
 ItemDisplay[hp5]: %RED% #%WHITE%H %WHITE%{%WHITE%Super Healing Potion}
-ItemDisplay[mp4 (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %BLUE%#%WHITE%m%WHITE%{%WHITE%Greater Mana Potion}
+ItemDisplay[mp4 (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %BLUE%#%WHITE%m%WHITE%{%WHITE%Greater Mana Potion}
 ItemDisplay[mp4]: {%WHITE%Greater Mana Potion}
 ItemDisplay[hp4 (CLVL>69 OR (MAPID>108 DIFF>1 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5))) FILTLVL>0]: {%WHITE%Greater Healing Potion}
 ItemDisplay[hp4 (CLVL<70 OR FILTLVL=0)]: %RED%#%WHITE%h%WHITE%{%WHITE%Greater Healing Potion}
@@ -354,8 +354,8 @@ ItemDisplay[tsc CLVL<15]: %BLUE%>%GRAY%tp%WHITE%{%TAN%Items/Recipes shown will a
 ItemDisplay[tsc CLVL>14 FILTLVL=0]: %BLUE%>%GRAY%tp%WHITE%{%RED%Warning%WHITE%: Destroys socketed gems/runes.%NL%%NL%Socketed Item + This Scroll + %ORANGE%Hel%NL%%DARK_GREEN%Un-socketing Recipe%NL%%WHITE%Scroll of Town Portal}
 ItemDisplay[tsc CLVL>14]: {%RED%Warning%WHITE%: Destroys socketed gems/runes.%NL%%NL%Socketed Item + This Scroll + %ORANGE%Hel%NL%%DARK_GREEN%Un-socketing Recipe%NL%%WHITE%Scroll of Town Portal}
 ItemDisplay[isc CLVL<15]: %RED%>%GRAY%id%WHITE%{%TAN%Craft Recipes, Always%NL%Socket Recipes, ILVL 21+%NL%Upgrade Recipes, ILVL 13+%NL%%DARK_GREEN%Recipes Shown:%NL%Use the 'Filter Level' setting to see all recipes.%NL%%WHITE%Scroll of Identify}%CONTINUE%
-ItemDisplay[isc CLVL>14 FILTLVL=0]: %RED%>%GRAY%id%WHITE%{%TAN%You can also see exact rune order for runewords and item upgrading info.%NL%Use the 'Show Recipes' filter level to see detailed crafting info on items.%NL%You can set binds for cycling through these filter levels in the settings.%NL%There are several filter strictness level settings available.%NL%%GRAY%(Season 10)%NL%%DARK_GREEN%Filter Version 1.9.0%NL%%WHITE%Scroll of Identify}
-ItemDisplay[isc CLVL>14]: {%TAN%You can also see exact rune order for runewords and item upgrading info.%NL%Use the 'Show Recipes' filter level to see detailed crafting info on items.%NL%You can set binds for cycling through these filter levels in the settings.%NL%There are several filter strictness level settings available.%NL%%GRAY%(Season 10)%NL%%DARK_GREEN%Filter Version 1.9.0%NL%%WHITE%Scroll of Identify}
+ItemDisplay[isc CLVL>14 FILTLVL=0]: %RED%>%GRAY%id%WHITE%{%TAN%You can also see exact rune order for runewords and item upgrading info.%NL%Use the 'Show Recipes' filter level to see detailed crafting info on items.%NL%You can set binds for cycling through these filter levels in the settings.%NL%There are several filter strictness level settings available.%NL%%GRAY%(Season 10)%NL%%DARK_GREEN%Filter Version 1.9.1%NL%%WHITE%Scroll of Identify}
+ItemDisplay[isc CLVL>14]: {%TAN%You can also see exact rune order for runewords and item upgrading info.%NL%Use the 'Show Recipes' filter level to see detailed crafting info on items.%NL%You can set binds for cycling through these filter levels in the settings.%NL%There are several filter strictness level settings available.%NL%%GRAY%(Season 10)%NL%%DARK_GREEN%Filter Version 1.9.1%NL%%WHITE%Scroll of Identify}
 ItemDisplay[vps SHOP CLVL>24]: {%GRAY%LLD: Target ALVL 45 for Chests/Shields, otherwise ALVL 40%NL%Rings/Helms: 81 | Weapons: 76 | Sorc Orbs: 51%NL%Chests/Shields: 85 | Gloves: 59 | Boots/Belts: 71 | Amulets: 90%NL%%TAN%Recommended minimum target Affix Level:%NL%%ORANGE%Crafted ILVL %WHITE%51+ = 3+ Affixes %GRAY%| %ORANGE%Crafted ILVL %WHITE%71+ = 4 Affixes%NL%%ORANGE%Crafted ILVL %WHITE%= Character LVL/2 + Base ILVL/2%NL%%YELLOW%Rare %WHITE%and %BLUE%Magic %WHITE%items can be used as crafting bases.%NL%%DARK_GREEN%General Crafting Tips%NL%%WHITE%Stamina Potion}
 ItemDisplay[vps]: %WHITE%#%GRAY%s%WHITE%{%TAN%We are what we repeatedly do.%NL%%WHITE%Stamina Potion}%CONTINUE%
 ItemDisplay[yps SHOP CLVL>24]: {%WHITE%Helms: %GRAY%Vampiric %GREEN%Safety%NL%%WHITE%Belts: %PURPLE%Caster %LIGHT_GRAY%Brilliant %RED%Blood%NL%%WHITE%Gloves: %GRAY%Vampiric %LIGHT_GRAY%Brilliant %RED%Blood%NL%%WHITE%Rings/Boots: %GREEN%Safety %BLUE%Hitpower %RED%Blood%NL%%WHITE%Amulets: %TAN%All recipes except %GRAY%Vampiric%NL%%WHITE%Shields/Chests: %GREEN%Safety %BLUE%Hitpower%NL%%WHITE%Weapons: %BLUE%Hitpower %PURPLE%Caster %LIGHT_GRAY%Brilliant %NL%%TAN%Below are the optimal crafts for Low Level Dueling.%NL%%DARK_GREEN%LLD Crafting Guide%NL%%WHITE%Antidote Potion}
@@ -2160,7 +2160,7 @@ ItemDisplay[NMAG !RW SK97=2]: %DARK_GREEN%+2 Smite %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[NMAG !RW SK96=2]: %DARK_GREEN%+2 Sacrfc %NAME%{%NAME%}%CONTINUE%
 
 //+1
-ItemDisplay[NMAG !RW SK378=1 ((CLVL<21 (FILTLVL<2 OR FILTLVL=6)) OR (CLVL<11 FILTLVL=2)) !(FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: %DARK_GREEN%+1 Joust %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK378=1]: %DARK_GREEN%+1 Joust %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[NMAG !RW SK371=1 ((CLVL<21 (FILTLVL<2 OR FILTLVL=6)) OR (CLVL<11 FILTLVL=2)) !(FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: %DARK_GREEN%+1 HLight %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[NMAG !RW SK364=1 ((CLVL<21 (FILTLVL<2 OR FILTLVL=6)) OR (CLVL<11 FILTLVL=2)) !(FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: %DARK_GREEN%+1 H.Nova %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[NMAG !RW SK125=1 ((CLVL<21 (FILTLVL<2 OR FILTLVL=6)) OR (CLVL<11 FILTLVL=2)) !(FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: %DARK_GREEN%+1 Slvtn %NAME%{%NAME%}%CONTINUE%
@@ -5401,7 +5401,7 @@ ItemDisplay[9fl NMAG !INF !RW !SOCK>4 CLVL<60 DIFF<2]: %NAME%{%NAME%} // Knout (
 ItemDisplay[fla NMAG !INF !SUP !RW SOCK=0 ILVL>25 CLVL<50 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // 0 Socket Flail (Leveling)
 ItemDisplay[fla NMAG !INF !RW (SOCK=4 OR SOCK=5) CLVL<60 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // 4 or 5 Socket Flail (Leveling)
 ItemDisplay[fla NMAG !INF !SUP !RW SOCK=0 ILVL>25 (FILTLVL<2 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=2 OR FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // 0 Socket Flail
-ItemDisplay[fla NMAG !INF !RW (SOCK=4 OR SOCK=5) (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // 4 or 5 Socket Flail
+ItemDisplay[fla NMAG !INF !RW (SOCK=4 OR SOCK=5) (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // 4 or 5 Socket Flail
 
 //Scepters
 ItemDisplay[SCEPTER NMAG !INF !RW (SK101>2 OR SK112>2 OR SK121>2) SOCK=2 PALADIN CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Neophyte Scepters (Leveling)
@@ -5422,8 +5422,8 @@ ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !INF !RW SOCK=4 CLVL<75]: %DOT-D6%%NAME%{%N
 ItemDisplay[(SCEPTER !scp) NMAG !INF !RW ((SK109>2 !SOCK=3 (wsp OR 9ws OR 7ws)) OR SK99>2) !SOCK=1 (FILTLVL>1 !SOCK=2) !(SOCK=5 !7ws)]: %DOT-D6%%TIER-3%%NAME%{%NAME%} // +3 Cleansing/Prayer Mercenary Scepters
 ItemDisplay[ELT SCEPTER (SK96>2 OR SK102>2 OR SK106>2 OR SK107>2 OR SK111>2 OR SK114>2 OR SK118>2 OR SK122>2 OR SK123>2 OR SK378>2) NMAG !INF !RW !SOCK=1 !(SOCK=3 !ETH)]: %DOT-D6%%TIER-2%%NAME%{%NAME%} // +3 Melee Elite Scepters
 ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !INF !RW SOCK=4]: %NAME%{%NAME%} // Insight Scepters
-ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !INF !RW !SUP SOCK=0 (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // 0 Socket Insight Scepters (Leveling)
-ItemDisplay[(wsp OR 9ws OR 7ws) SK117>1 NMAG !INF !RW (SOCK=0 OR SOCK=5) (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // Low Tier Call to Arms with Holy Shield Scepters
+ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !INF !RW !SUP SOCK=0 (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // 0 Socket Insight Scepters (Leveling)
+ItemDisplay[(wsp OR 9ws OR 7ws) SK117>1 NMAG !INF !RW (SOCK=0 OR SOCK=5) (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // Low Tier Call to Arms with Holy Shield Scepters
 ItemDisplay[7ws (SK102>1 OR SK106>1 OR SK107>2 OR SK111>1 OR SK114>1 OR SK118>1 OR SK122>1 OR SK123>1) NMAG !INF !RW !SOCK=1 !(SOCK=3 !ETH)]: %NAME%{%NAME%} // +2 Melee Caduceus
 
 //Swords
@@ -5432,9 +5432,9 @@ ItemDisplay[ELT SWORD !ETH NMAG !INF !RW !SOCK=1 ED>7]: %DOT-D6%%TIER-2%%NAME%{%
 ItemDisplay[7cr NMAG !INF !RW (SOCK=4 OR SOCK=5) (FILTLVL<4 OR FILTLVL=6 OR (ED>7 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-D6%%NAME%{%NAME%} // 4 or 5 Socket Phase Blade
 ItemDisplay[7cr NMAG !INF !RW (SOCK=0 OR SOCK>1) (FILTLVL<4 OR FILTLVL=6 OR (ED>3 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // 0 or >2 Socket Phase Blade
 ItemDisplay[7gd NMAG !INF !RW (SOCK=0 OR SOCK=6) (FILTLVL<4 OR FILTLVL=6 OR (CLVL<80 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // Unbending Will Colossus Blade
-ItemDisplay[crs NMAG !INF !RW SOCK=5 (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // Call to Arms Crystal Sword
+ItemDisplay[crs NMAG !INF !RW SOCK=5 (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // Call to Arms Crystal Sword
 ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !RW SOCK=4 CLVL<60 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // Spirit Swords (Leveling)
-ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !RW SOCK=4 (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // Spirit Swords
+ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !RW SOCK=4 (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // Spirit Swords
 ItemDisplay[crs NMAG !INF SOCK=0 (ILVL>25 ILVL<41) CLVL<80]: %NAME%{%NAME%} // 0 Socket Crystal Sword
 ItemDisplay[(bsd OR lsd) NMAG !INF SOCK=0 ILVL>25 CLVL<80]: %NAME%{%NAME%} // 0 Socket Broad and Long Sword
 ItemDisplay[9ls NMAG !INF !RW (SOCK=0 OR SOCK=4) CLVL<60 DIFF<2]: %NAME%{%NAME%} // Rune Sword (Leveling)
@@ -5735,20 +5735,20 @@ ItemDisplay[DAGGER ASSASSIN MAG !ID CLVL<75]: %NAME%{%NAME%} // (Leveling)
 ItemDisplay[WAND NECROMANCER MAG !ID CLVL<75]: %NAME%{%NAME%} // (Leveling)
 ItemDisplay[STAFF SORCERESS MAG !ID CLVL<75]: %NAME%{%NAME%} // (Leveling)
 ItemDisplay[CLUB DRUID MAG !ID CLVL<75]: %NAME%{%NAME%} // (Leveling)
-ItemDisplay[ZON AMAZON MAG !ID (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[NEC NECROMANCER MAG !ID (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[DIN PALADIN MAG !ID (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[SOR SORCERESS MAG !ID (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[BAR BARBARIAN MAG !ID (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[DRU DRUID MAG !ID (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[(ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR ces OR 9cs OR 7cs) ASSASSIN MAG !ID (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[ZON AMAZON RARE !ID (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[(NEC OR WAND) NECROMANCER RARE !ID (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[DIN PALADIN RARE !ID (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[(SOR OR STAFF) SORCERESS RARE !ID (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[BAR BARBARIAN RARE !ID (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[(DRU OR CLUB) RARE !ID (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[(SIN OR DAGGER) ASSASSIN RARE !ID (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[ZON AMAZON MAG !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[NEC NECROMANCER MAG !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[DIN PALADIN MAG !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[SOR SORCERESS MAG !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[BAR BARBARIAN MAG !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[DRU DRUID MAG !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[(ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR ces OR 9cs OR 7cs) ASSASSIN MAG !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[ZON AMAZON RARE !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[(NEC OR WAND) NECROMANCER RARE !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[DIN PALADIN RARE !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[(SOR OR STAFF) SORCERESS RARE !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[BAR BARBARIAN RARE !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[(DRU OR CLUB) RARE !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[(SIN OR DAGGER) ASSASSIN RARE !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
 ItemDisplay[(SOR OR ZON OR (DRU !ETH) OR (BAR !ETH) OR (NEC !ETH) OR (DIN !ETH)) MAG !ID ((FILTLVL<2 OR FILTLVL=6) OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // (Leveling)
 ItemDisplay[(SOR OR WAND OR SIN OR SCEPTER OR ZON OR CLUB OR DRU OR BAR OR NEC OR DIN) RARE !ID]: %NAME%{%NAME%}
 
@@ -5771,18 +5771,18 @@ ItemDisplay[(xtp OR xsk OR xh9 OR xsh) !ETH NMAG !INF !RW !SOCK=1 (DIFF<2 OR CLV
 ItemDisplay[(ltp OR msk OR bhm OR bsh) !ETH NMAG !INF !RW !SOCK=1 (DIFF<1 OR CLVL<60)]: %NAME%{%NAME%} // General Runeword Bases (Leveling)
 
 //Rare Item Failsafe
-ItemDisplay[(CHEST OR HELM OR SHIELD OR STAFF OR BOW OR XBOW) RARE !ID (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%}
+ItemDisplay[(CHEST OR HELM OR SHIELD OR STAFF OR BOW OR XBOW) RARE !ID (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%}
 ItemDisplay[RARE ETH (WEAPON OR ARMOR) !SOR !WAND !ID]: %NAME%{%NAME%}
 ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%{%NAME%}
 
 //Circlets
 ItemDisplay[CIRC MAG !ID (FILTLVL<4 OR FILTLVL=6)]: %TAN%:: %BLUE%%NAME% %TAN%::{%NAME%}
 ItemDisplay[CIRC MAG !ID FILTLVL>2]: %NAME%{%NAME%}
-ItemDisplay[CIRC NMAG !INF !SUP !ETH SOCK=0 (FILTLVL<4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%}
+ItemDisplay[CIRC NMAG !INF !SUP !ETH SOCK=0 (FILTLVL<2 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=2 OR FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%}
 ItemDisplay[ci3 NMAG !INF !SUP !ETH SOCK=0]: %NAME%{%NAME%}
 
 //Medium-Specific Failsafes
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9xf) MAG !ID (FILTLVL<4 OR FILTLVL=6)]: %NAME%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9xf) MAG !ID]: %NAME%{%NAME%}
 
 //Strict-Specific Failsafes
 ItemDisplay[(rxb OR 8rx OR 6rx OR DAGGER OR STAFF) RARE !ID]: %NAME%{%NAME%}
@@ -17063,80 +17063,80 @@ ItemDisplay[(GLOVES OR BOOTS OR BELT) EXC MAG !ETH !ID !leg CLVL>84 (FILTLVL=1 O
 
 //Hiding NORM Tier Items
 //Hell and Nightmare
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG !RW !leg SOCK<2 CLVL>19 DIFF>0 FILTLVL=2]: {%NAME%}
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG !RW !leg CLVL>34 DIFF>0 FILTLVL=2]: {%NAME%}
-ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(clb OR spc)) NORM MAG !ETH !ID !leg CLVL>24 DIFF>0 FILTLVL=2]: {%NAME%}
-ItemDisplay[(GLOVES OR BOOTS OR BELT) NORM MAG !ETH !ID !leg CLVL>34 DIFF>0 FILTLVL=2]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG !RW !leg SOCK<2 CLVL>19 DIFF>0 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG !RW !leg CLVL>34 DIFF>0 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(clb OR spc)) NORM MAG !ETH !ID !leg CLVL>24 DIFF>0 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) NORM MAG !ETH !ID !leg CLVL>34 DIFF>0 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
 //Normal
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG SUP !RW !leg SOCK=0 ED<8 CLVL>14 FILTLVL=2]: {%NAME%}
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG !RW !leg SOCK<2 CLVL>29 FILTLVL=2]: {%NAME%}
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG !RW !leg CLVL>39 FILTLVL=2]: {%NAME%}
-ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(clb OR spc)) NORM MAG !ETH !ID !leg CLVL>29 FILTLVL=2]: {%NAME%}
-ItemDisplay[(GLOVES OR BOOTS OR BELT) NORM MAG !ETH !ID !leg CLVL>39 FILTLVL=2]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG SUP !RW !leg SOCK=0 ED<8 CLVL>14 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG !RW !leg SOCK<2 CLVL>29 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG !RW !leg CLVL>39 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(clb OR spc)) NORM MAG !ETH !ID !leg CLVL>29 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) NORM MAG !ETH !ID !leg CLVL>39 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
 
 //Hiding EXC Tier Items
 //Hell
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG SUP !RW !leg SOCK=0 ED<8 CLVL>44 DIFF=2 FILTLVL=2]: {%NAME%}
-ItemDisplay[(WEAPON !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg SOCK<2 CLVL>49 DIFF=2 FILTLVL=2]: {%NAME%}
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg CLVL>59 DIFF=2 FILTLVL=2]: {%NAME%}
-ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(9cl OR 9sp)) EXC MAG !ETH !ID !leg CLVL>59 DIFF=2 FILTLVL=2]: {%NAME%}
-ItemDisplay[(GLOVES OR BOOTS OR BELT) EXC MAG !ETH !ID !leg CLVL>74 DIFF=2 FILTLVL=2]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG SUP !RW !leg SOCK=0 ED<8 CLVL>44 DIFF=2 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[(WEAPON !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg SOCK<2 CLVL>49 DIFF=2 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg CLVL>59 DIFF=2 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(9cl OR 9sp)) EXC MAG !ETH !ID !leg CLVL>59 DIFF=2 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) EXC MAG !ETH !ID !leg CLVL>74 DIFF=2 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
 //Nightmare and Normal
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG SUP !RW !leg SOCK=0 ED<8 CLVL>54 FILTLVL=2]: {%NAME%}
-ItemDisplay[(WEAPON !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg SOCK<2 CLVL>59 FILTLVL=2]: {%NAME%}
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg CLVL>69 FILTLVL=2]: {%NAME%}
-ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(9cl OR 9sp)) EXC MAG !ETH !ID !leg CLVL>69 FILTLVL=2]: {%NAME%}
-ItemDisplay[(GLOVES OR BOOTS OR BELT) EXC MAG !ETH !ID !leg CLVL>84 FILTLVL=2]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG SUP !RW !leg SOCK=0 ED<8 CLVL>54 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[(WEAPON !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg SOCK<2 CLVL>59 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg CLVL>69 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(9cl OR 9sp)) EXC MAG !ETH !ID !leg CLVL>69 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) EXC MAG !ETH !ID !leg CLVL>84 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
 
 //Hiding ELT Tier Items
 //Hell
-ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(clb OR spc)) ELT MAG !ETH !ID !leg CLVL>79 FILTLVL=2]: {%NAME%}
-ItemDisplay[(GLOVES OR BOOTS OR BELT) ELT MAG !ETH !ID !leg CLVL>84 FILTLVL=2]: {%NAME%}
+ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(clb OR spc)) ELT MAG !ETH !ID !leg CLVL>79 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) ELT MAG !ETH !ID !leg CLVL>84 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
 //Nightmare and Normal
-ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(clb OR spc)) ELT MAG !ETH !ID !leg CLVL>89 FILTLVL=2]: {%NAME%}
-ItemDisplay[(GLOVES OR BOOTS OR BELT) ELT MAG !ETH !ID !leg CLVL>94 FILTLVL=2]: {%NAME%}
+ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(clb OR spc)) ELT MAG !ETH !ID !leg CLVL>89 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) ELT MAG !ETH !ID !leg CLVL>94 (FILTLVL=2 OR FILTLVL=4)]: {%NAME%}
 
 // --- // --- Strict --- \\ --- \\
 
 //Hiding NORM Tier Items
 //Hell and Nightmare
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG !RW !leg SOCK<2 CLVL>9 DIFF>0 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG !RW !leg CLVL>24 DIFF>0 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(clb OR spc)) NORM MAG !ETH !ID !leg CLVL>14 DIFF>0 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[(GLOVES OR BOOTS OR BELT) NORM MAG !ETH !ID !leg CLVL>14 DIFF>0 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG !RW !leg SOCK<2 CLVL>9 DIFF>0 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG !RW !leg CLVL>24 DIFF>0 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(clb OR spc)) NORM MAG !ETH !ID !leg CLVL>14 DIFF>0 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) NORM MAG !ETH !ID !leg CLVL>14 DIFF>0 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
 //Normal
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG SUP !RW !leg SOCK=0 ED<8 CLVL>4 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG !RW !leg SOCK<2 CLVL>19 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG !RW !leg CLVL>29 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(clb OR spc)) NORM MAG !ETH !ID !leg CLVL>19 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[(GLOVES OR BOOTS OR BELT) NORM MAG !ETH !ID !leg CLVL>29 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG SUP !RW !leg SOCK=0 ED<8 CLVL>4 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG !RW !leg SOCK<2 CLVL>19 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(clb OR spc)) NORM NMAG !RW !leg CLVL>29 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(clb OR spc)) NORM MAG !ETH !ID !leg CLVL>19 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) NORM MAG !ETH !ID !leg CLVL>29 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
 
 //Hiding EXC Tier Items
 //Hell
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG SUP !RW !leg SOCK=0 ED<8 CLVL>34 DIFF=2 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[(WEAPON !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg SOCK<2 CLVL>39 DIFF=2 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg CLVL>49 DIFF=2 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(9cl OR 9sp)) EXC MAG !ETH !ID !leg CLVL>49 DIFF=2 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[(GLOVES OR BOOTS OR BELT) EXC MAG !ETH !ID !leg CLVL>64 DIFF=2 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG SUP !RW !leg SOCK=0 ED<8 CLVL>34 DIFF=2 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[(WEAPON !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg SOCK<2 CLVL>39 DIFF=2 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg CLVL>49 DIFF=2 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(9cl OR 9sp)) EXC MAG !ETH !ID !leg CLVL>49 DIFF=2 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) EXC MAG !ETH !ID !leg CLVL>64 DIFF=2 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
 //Nightmare and Normal
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG SUP !RW !leg SOCK=0 ED<8 CLVL>44 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[(WEAPON !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg SOCK<2 CLVL>49 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg CLVL>59 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(9cl OR 9sp)) EXC MAG !ETH !ID !leg CLVL>59 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[(GLOVES OR BOOTS OR BELT) EXC MAG !ETH !ID !leg CLVL>74 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG SUP !RW !leg SOCK=0 ED<8 CLVL>44 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[(WEAPON !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg SOCK<2 CLVL>49 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[((ARMOR OR WEAPON) !ZON !(9cl OR 9sp)) EXC NMAG !RW !leg CLVL>59 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) !ZON !(9cl OR 9sp)) EXC MAG !ETH !ID !leg CLVL>59 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) EXC MAG !ETH !ID !leg CLVL>74 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
 
 //Hiding ELT Tier Items
 //Hell
-ItemDisplay[(CHEST OR HELM OR SHIELD OR WEAPON) ELT MAG !ETH !ID !leg CLVL>69 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[(GLOVES OR BOOTS OR BELT) ELT MAG !ETH !ID !leg CLVL>74 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[(CHEST OR HELM OR SHIELD OR WEAPON) ELT MAG !ETH !ID !leg CLVL>69 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) ELT MAG !ETH !ID !leg CLVL>74 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
 //Nightmare and Normal
-ItemDisplay[(CHEST OR HELM OR SHIELD OR WEAPON) ELT MAG !ETH !ID !leg CLVL>79 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
-ItemDisplay[(GLOVES OR BOOTS OR BELT) ELT MAG !ETH !ID !leg CLVL>84 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[(CHEST OR HELM OR SHIELD OR WEAPON) ELT MAG !ETH !ID !leg CLVL>79 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
+ItemDisplay[(GLOVES OR BOOTS OR BELT) ELT MAG !ETH !ID !leg CLVL>84 (FILTLVL=3 OR FILTLVL=5)]: {%NAME%}
 
 // --- // --- Completion --- \\ --- \\
 
 //Arrows & Bolts
-ItemDisplay[(aqv OR cqv) MAG !ID (((FILTLVL=1 OR FILTLVL=6) CLVL>59) OR (FILTLVL=2 CLVL>29) OR (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5))]: {%NAME%}
+ItemDisplay[(aqv OR cqv) MAG !ID (((FILTLVL=1 OR FILTLVL=6) CLVL>59) OR ((FILTLVL=2 OR FILTLVL=4) CLVL>29) OR (FILTLVL=3 OR FILTLVL=5))]: {%NAME%}
 
 //Hiding NMAG Class Items (Low +Skill Items and/or Unrepairable Bases)
 ItemDisplay[(SOR OR WAND) ELT NMAG CLVL>79 FILTLVL>0]: {%NAME%}
@@ -17179,7 +17179,6 @@ ItemDisplay[(ARMOR OR WEAPON) !leg INF FILTLVL>0]: {%NAME%}
 
 //Filter Level Congruency
 ItemDisplay[(ARMOR OR WEAPON) NMAG !SOCK=1 !(GLOVES OR BOOTS OR BELT OR THROWING) !INF FILTLVL=6]: %NAME%{%NAME%}
-ItemDisplay[(rin OR amu) MAG !ID FILTLVL=6]: {%NAME%}
 ItemDisplay[RARE !ID (FILTLVL=6 OR FILTLVL=4)]: %NAME%{%NAME%}
 
 //Medium FINAL
@@ -17188,6 +17187,9 @@ ItemDisplay[(rin OR amu) MAG !ID CLVL>74 FILTLVL>1]: {%NAME%}
 ItemDisplay[(((CHEST OR SHIELD) ALVL<75) OR (HELM ALVL<81)) RARE !ETH !ID CLVL>74 FILTLVL>1]: {%NAME%}
 ItemDisplay[WEAPON !(STAFF ALVL>75) !(TMACE ALVL>74) !(THROWING (AXE OR DAGGER) ALVL>74) !(((XBOW !(lxb OR 8lx OR 6lx)) OR BOW) ALVL>74) !ALVL>76 RARE !ETH !ID !leg CLVL>74 FILTLVL>1]: {%NAME%}
 ItemDisplay[mp4 CLVL>74 FILTLVL>1]: {%NAME%}
+
+//Filter Level Congruency
+ItemDisplay[(ARMOR OR WEAPON) NMAG !SOCK=1 !(GLOVES OR BOOTS OR BELT OR THROWING) !INF FILTLVL=4]: %NAME%{%NAME%}
 
 //Strict FINAL
 ItemDisplay[(((CHEST OR SHIELD) ALVL<75) OR HELM) RARE !ETH !ID CLVL>74 FILTLVL>2]: {%NAME%}

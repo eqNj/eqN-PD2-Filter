@@ -1,4 +1,4 @@
-//eqN's Project Diablo 2 Filter - 1.9.0 (Season 10)
+//eqN's Project Diablo 2 Filter - 1.9.1 (Season 10)
 //Every Edition
 
 //Versions
@@ -6,7 +6,7 @@ ItemDisplayFilterName[]:Relaxed
 ItemDisplayFilterName[]:Medium
 ItemDisplayFilterName[]:Strict
 ItemDisplayFilterName[]:Potionless (Strict)
-ItemDisplayFilterName[]:Strict LLD
+ItemDisplayFilterName[]:LLD Bases (Strict)
 ItemDisplayFilterName[]:Show Recipes (Relaxed)
 
 //----------------------------------------- Utilities -----------------------------------------
@@ -201,9 +201,9 @@ ItemDisplay[box FILTLVL=0]: %NAME%{%SAGE%Show All Items%NL%%TAN%As above, so bel
 ItemDisplay[box FILTLVL=1]: %NAME%{%SAGE%Relaxed%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=2]: %NAME%{%SAGE%Medium%NL%%TAN%As above, so below.}
 ItemDisplay[box FILTLVL=3]: %NAME%{%SAGE%Strict%NL%%TAN%As above, so below.}
-ItemDisplay[box FILTLVL=4]: %NAME%{%SAGE%Potionless%NL%%TAN%As above, so below.}
-ItemDisplay[box FILTLVL=5]: %NAME%{%SAGE%Strict LLD%NL%%TAN%As above, so below.}
-ItemDisplay[box FILTLVL=6]: %NAME%{%SAGE%Show Recipes%NL%%TAN%As above, so below.}
+ItemDisplay[box FILTLVL=4]: %NAME%{%SAGE%Potionless (Strict)%NL%%TAN%As above, so below.}
+ItemDisplay[box FILTLVL=5]: %NAME%{%SAGE%LLD Bases (Strict)%NL%%TAN%As above, so below.}
+ItemDisplay[box FILTLVL=6]: %NAME%{%SAGE%Show Recipes (Relaxed)%NL%%TAN%As above, so below.}
 
 //Gold (Big thanks to BetweenWalls for their work on this section!)
 ItemDisplay[GOLD<500 (MAPID=25 OR MAPID=37 OR MAPID=38 OR MAPID=73 OR MAPID=102 OR MAPID=132)]: %NAME%
@@ -354,8 +354,8 @@ ItemDisplay[tsc CLVL<15]: %BLUE%>%GRAY%tp%WHITE%{%TAN%Items/Recipes shown will a
 ItemDisplay[tsc CLVL>14 FILTLVL=0]: %BLUE%>%GRAY%tp%WHITE%{%RED%Warning%WHITE%: Destroys socketed gems/runes.%NL%%NL%Socketed Item + This Scroll + %ORANGE%Hel%NL%%DARK_GREEN%Un-socketing Recipe%NL%%WHITE%Scroll of Town Portal}
 ItemDisplay[tsc CLVL>14]: {%RED%Warning%WHITE%: Destroys socketed gems/runes.%NL%%NL%Socketed Item + This Scroll + %ORANGE%Hel%NL%%DARK_GREEN%Un-socketing Recipe%NL%%WHITE%Scroll of Town Portal}
 ItemDisplay[isc CLVL<15]: %RED%>%GRAY%id%WHITE%{%TAN%Craft Recipes, Always%NL%Socket Recipes, ILVL 21+%NL%Upgrade Recipes, ILVL 13+%NL%%DARK_GREEN%Recipes Shown:%NL%Use the 'Filter Level' setting to see all recipes.%NL%%WHITE%Scroll of Identify}%CONTINUE%
-ItemDisplay[isc CLVL>14 FILTLVL=0]: %RED%>%GRAY%id%WHITE%{%TAN%You can also see exact rune order for runewords and item upgrading info.%NL%Use the 'Show Recipes' filter level to see detailed crafting info on items.%NL%You can set binds for cycling through these filter levels in the settings.%NL%There are several filter strictness level settings available.%NL%%GRAY%(Season 10)%NL%%DARK_GREEN%Filter Version 1.9.0%NL%%WHITE%Scroll of Identify}
-ItemDisplay[isc CLVL>14]: {%TAN%You can also see exact rune order for runewords and item upgrading info.%NL%Use the 'Show Recipes' filter level to see detailed crafting info on items.%NL%You can set binds for cycling through these filter levels in the settings.%NL%There are several filter strictness level settings available.%NL%%GRAY%(Season 10)%NL%%DARK_GREEN%Filter Version 1.9.0%NL%%WHITE%Scroll of Identify}
+ItemDisplay[isc CLVL>14 FILTLVL=0]: %RED%>%GRAY%id%WHITE%{%TAN%You can also see exact rune order for runewords and item upgrading info.%NL%Use the 'Show Recipes' filter level to see detailed crafting info on items.%NL%You can set binds for cycling through these filter levels in the settings.%NL%There are several filter strictness level settings available.%NL%%GRAY%(Season 10)%NL%%DARK_GREEN%Filter Version 1.9.1%NL%%WHITE%Scroll of Identify}
+ItemDisplay[isc CLVL>14]: {%TAN%You can also see exact rune order for runewords and item upgrading info.%NL%Use the 'Show Recipes' filter level to see detailed crafting info on items.%NL%You can set binds for cycling through these filter levels in the settings.%NL%There are several filter strictness level settings available.%NL%%GRAY%(Season 10)%NL%%DARK_GREEN%Filter Version 1.9.1%NL%%WHITE%Scroll of Identify}
 ItemDisplay[vps SHOP CLVL>24 FILTLVL>4]: {%GRAY%LLD: Target ALVL 45 for Chests/Shields, otherwise ALVL 40%NL%Rings/Helms: 81 | Weapons: 76 | Sorc Orbs: 51%NL%Chests/Shields: 85 | Gloves: 59 | Boots/Belts: 71 | Amulets: 90%NL%%TAN%Recommended minimum target Affix Level:%NL%%ORANGE%Crafted ILVL %WHITE%51+ = 3+ Affixes %GRAY%| %ORANGE%Crafted ILVL %WHITE%71+ = 4 Affixes%NL%%ORANGE%Crafted ILVL %WHITE%= Character LVL/2 + Base ILVL/2%NL%%YELLOW%Rare %WHITE%and %BLUE%Magic %WHITE%items can be used as crafting bases.%NL%%DARK_GREEN%General Crafting Tips%NL%%WHITE%Stamina Potion}
 ItemDisplay[vps]: %WHITE%#%GRAY%s%WHITE%{%TAN%We are what we repeatedly do.%NL%%WHITE%Stamina Potion}%CONTINUE%
 ItemDisplay[yps SHOP CLVL>24 FILTLVL>4]: {%WHITE%Helms: %GRAY%Vampiric %GREEN%Safety%NL%%WHITE%Belts: %PURPLE%Caster %LIGHT_GRAY%Brilliant %RED%Blood%NL%%WHITE%Gloves: %GRAY%Vampiric %LIGHT_GRAY%Brilliant %RED%Blood%NL%%WHITE%Rings/Boots: %GREEN%Safety %BLUE%Hitpower %RED%Blood%NL%%WHITE%Amulets: %TAN%All recipes except %GRAY%Vampiric%NL%%WHITE%Shields/Chests: %GREEN%Safety %BLUE%Hitpower%NL%%WHITE%Weapons: %BLUE%Hitpower %PURPLE%Caster %LIGHT_GRAY%Brilliant %NL%%TAN%Below are the optimal crafts for Low Level Dueling.%NL%%DARK_GREEN%LLD Crafting Guide%NL%%WHITE%Antidote Potion}
@@ -2160,7 +2160,7 @@ ItemDisplay[NMAG !RW SK97=2]: %DARK_GREEN%+2 Smite %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[NMAG !RW SK96=2]: %DARK_GREEN%+2 Sacrfc %NAME%{%NAME%}%CONTINUE%
 
 //+1
-ItemDisplay[NMAG !RW SK378=1 ((CLVL<21 (FILTLVL<2 OR FILTLVL=6)) OR (CLVL<11 FILTLVL=2)) !(FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: %DARK_GREEN%+1 Joust %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SK378=1]: %DARK_GREEN%+1 Joust %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[NMAG !RW SK371=1 ((CLVL<21 (FILTLVL<2 OR FILTLVL=6)) OR (CLVL<11 FILTLVL=2)) !(FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: %DARK_GREEN%+1 HLight %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[NMAG !RW SK364=1 ((CLVL<21 (FILTLVL<2 OR FILTLVL=6)) OR (CLVL<11 FILTLVL=2)) !(FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: %DARK_GREEN%+1 H.Nova %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[NMAG !RW SK125=1 ((CLVL<21 (FILTLVL<2 OR FILTLVL=6)) OR (CLVL<11 FILTLVL=2)) !(FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: %DARK_GREEN%+1 Slvtn %NAME%{%NAME%}%CONTINUE%
@@ -5788,7 +5788,7 @@ ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%{%NAME%}
 //Circlets
 ItemDisplay[CIRC MAG !ID (FILTLVL<3 OR FILTLVL=6)]: %TAN%:: %BLUE%%NAME% %TAN%::{%NAME%}
 ItemDisplay[CIRC MAG !ID FILTLVL>2]: %NAME%{%NAME%}
-ItemDisplay[CIRC NMAG !INF !SUP !ETH SOCK=0 (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%}
+ItemDisplay[CIRC NMAG !INF !SUP !ETH SOCK=0 (FILTLVL<2 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=2 OR FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%}
 ItemDisplay[ci3 NMAG !INF !SUP !ETH SOCK=0]: %NAME%{%NAME%}
 
 //Medium-Specific Failsafes
