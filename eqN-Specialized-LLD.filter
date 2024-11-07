@@ -5031,6 +5031,7 @@ ItemDisplay[NMAG !RW (SOR OR WAND OR (SCEPTER !(wsp OR 9ws OR 7ws)) OR SIN OR NE
 // --- // --- Unique, Set, Rare, and Magic Alerts --- \\ --- \\
 
 //Highlight Magic Jewels
+//Highlight Magic Jewels
 ItemDisplay[jew MAG !ID]: %DOT-97%%BLUE%~%TAN%:%BLUE%~  %NAME%  ~%TAN%:%BLUE%~
 
 //Highlight Various Rares
@@ -16581,7 +16582,7 @@ ItemDisplay[uth UNI ((ALLSK>1 !STAT360=50) OR (ALLSK>2 STAT360=50)) SOCK=0]: %BO
 ItemDisplay[uth UNI ((ALLSK>1 !STAT360=50) OR (ALLSK>2 STAT360=50)) SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
 ItemDisplay[utp UNI ((ALLSK>1 !STAT360=50) OR (ALLSK>2 STAT360=50)) SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|%NL%%NAME%}
 ItemDisplay[utp UNI ((ALLSK>1 !STAT360=50) OR (ALLSK>2 STAT360=50)) SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
-ItemDisplay[cm2 (STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2) LVLREQ<31]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
+ItemDisplay[cm2 (STAT329>3 OR STAT330>3 OR STAT331>3 OR STAT332>3 OR STAT357>3) LVLREQ<31]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
 ItemDisplay[lgl SET STAT110>69]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
 
 //----------------------------------------- Desecrated Amulets -----------------------------------------
