@@ -6358,7 +6358,7 @@ ItemDisplay[uth UNI ((ALLSK>1 !STAT360=50) OR (ALLSK>2 STAT360=50)) SOCK=0]: %BO
 ItemDisplay[uth UNI ((ALLSK>1 !STAT360=50) OR (ALLSK>2 STAT360=50)) SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
 ItemDisplay[utp UNI ((ALLSK>1 !STAT360=50) OR (ALLSK>2 STAT360=50)) SOCK=0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|%NL%%NAME%}
 ItemDisplay[utp UNI ((ALLSK>1 !STAT360=50) OR (ALLSK>2 STAT360=50)) SOCK>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
-ItemDisplay[cm2 (STAT329>3 OR STAT330>3 OR STAT331>3 OR STAT332>3 OR STAT357>3) LVLREQ<31]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
+ItemDisplay[cm2 (STAT329>3 OR STAT330>3 OR STAT331>3 OR STAT332>3 OR STAT357>3)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
 ItemDisplay[lgl SET STAT110>69]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
 
 //----------------------------------------- Desecrated Amulets -----------------------------------------
