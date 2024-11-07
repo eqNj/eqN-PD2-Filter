@@ -612,4 +612,22 @@ Added a (Level) to the end of filter levels 4-6 to make their strictness more cl
 
 Fixed too many Rares showing on Strict filter levels using the 'Potionless' filter version. [1.9.1]
 
-Much more to come... [1.9.1]
+Updated Legacy Item Tags for Non-Ladder. [1.9.1]
+
+Added a 'high price' warning for shopping crafting bases to prevent accidentally spending all of your gold.  [1.9.1]
+
+Made certain +1 Staffmods still show at all levels if they're useful as +1. [1.9.1]
+
+Added crafting info to corrupted items so they can be reused as crafting bases when applicable.  [1.9.1]
+
+Added detailed for Lucion materials to their descriptions.  [1.9.1]
+
+Fixed ELT ETH Paladin shield defense ranges for their updated values  [1.9.1]
+
+Improved more unique drop highlighting based on the season changes.  [1.9.1]
+
+Added more Elite Magic crafting bases showing on melee characters while leveling.  [1.9.1]
+
+Reduced the number of notifications on the Strict filter level for runeword bases that aren't super valuable.  [1.9.1]
+
+Updated Gheed event with new uniques on applicable items.  [1.9.1]
