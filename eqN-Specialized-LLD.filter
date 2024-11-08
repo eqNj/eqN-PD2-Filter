@@ -5035,9 +5035,9 @@ ItemDisplay[NMAG !RW (SOR OR WAND OR (SCEPTER !(wsp OR 9ws OR 7ws)) OR SIN OR NE
 ItemDisplay[jew MAG !ID]: %DOT-97%%BLUE%~%TAN%:%BLUE%~  %NAME%  ~%TAN%:%BLUE%~
 
 //Highlight Various Rares
-ItemDisplay[(CHEST OR SHIELD) RARE !ID ALVL>84]: %WHITE%~%YELLOW%: %NAME% :%WHITE%~%YELLOW%
+ItemDisplay[(CHEST OR SHIELD) RARE !NEC !ID ALVL>84]: %WHITE%~%YELLOW% %NAME% %WHITE%~%YELLOW%
 ItemDisplay[jew RARE !ID (ALVL=38 OR ILVL=38)]: %DOT-A8%%WHITE%~%YELLOW%:%WHITE%~ %PURPLE%: %YELLOW%%NAME% %PURPLE%: %WHITE%~%YELLOW%:%WHITE%~%YELLOW%
-ItemDisplay[amu ALVL>89 RARE !ID]: %DOT-A8%%WHITE%~%YELLOW%:::%WHITE%~  %YELLOW%%NAME%  %WHITE%: %WHITE%~%YELLOW%:::%WHITE%~%YELLOW%
+ItemDisplay[amu ALVL>89 RARE !ID]: %DOT-A8%%WHITE%~%YELLOW%::%WHITE%~  %YELLOW%%NAME%  %WHITE%: %WHITE%~%YELLOW%::%WHITE%~%YELLOW%
 ItemDisplay[(jew OR rin OR amu OR CIRC) RARE !ID]: %DOT-A8%%WHITE%~%YELLOW%:%WHITE%~  %YELLOW%%NAME%  %WHITE%~%YELLOW%:%WHITE%~%YELLOW%
 ItemDisplay[(cqv OR aqv) AMAZON RARE !ID CLVL<75]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
 ItemDisplay[(cqv OR aqv) AMAZON RARE !ID FILTLVL<2]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
@@ -5059,8 +5059,8 @@ ItemDisplay[UNI !ID uhl]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>    
 ItemDisplay[!ID ram]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Amulet
 ItemDisplay[!ID rar]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Boneweave
 ItemDisplay[!ID rbe]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Troll Belt
-ItemDisplay[rtp]: %BORDER-60%  %GOLD%%NAME%  {%NAME%} // Tome of Town Portal
-ItemDisplay[rid]: %BORDER-60%   %GOLD%%NAME%   {%NAME%} // Tome of Identify
+ItemDisplay[rtp]: %BORDER-60%%GOLD%|%YELLOW%:     %GOLD%%NAME%     %YELLOW%:%GOLD%|{%NAME%} // Tome of Town Portal
+ItemDisplay[rid]: %BORDER-60%%GOLD%|%YELLOW%:     %GOLD%%NAME%     %YELLOW%:%GOLD%|{%NAME%} // Tome of Identify
 
 //Rainbow Facets
 ItemDisplay[jew UNI !ID]: %BORDER-60%%RED%:%ORANGE%:%YELLOW%:%GREEN%:%BLUE%:%PURPLE%:     %GOLD%%NAME%     %PURPLE%:%BLUE%:%GREEN%:%YELLOW%:%ORANGE%:%RED%:%GOLD%
