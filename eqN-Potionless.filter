@@ -5831,11 +5831,12 @@ ItemDisplay[(rxb OR 8rx OR 6rx OR hxb OR 9hx OR 6hx) RARE !ID]: %NAME%{%NAME%}
 ItemDisplay[utp !ETH NMAG !INF !SOCK=1 DEF>394]: %NAME%{%NAME%}
 ItemDisplay[uit !ETH NMAG !INF !RW SOCK=4]: %NAME%{%NAME%}
 
-//Strict LLD-Specific Failsafes
-ItemDisplay[(STAFF OR ltp OR xtp OR bhm OR xh9 OR bsh OR xsh OR lrg OR xrg OR spk OR xpk OR wsp OR 9ws OR wax OR 9wa OR gsd OR 9gd OR whm OR 9wh OR gma OR 9gm OR kri OR 9kr OR lwb OR 8lw OR pik OR 9p9) RARE !ID FILTLVL>3 CLVL>74]: %NAME%{%NAME%}
-ItemDisplay[((EXC STAFF) OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) MAG !ID FILTLVL>3 CLVL>74]: %NAME%{%NAME%}
-ItemDisplay[(amu OR rin) MAG !ID FILTLVL>3 (DIFF<2 OR MAPID=83) CLVL>74]: %NAME%{%NAME%}
-ItemDisplay[ci0 MAG !ID FILTLVL>3 CLVL>74]: %NAME%{%NAME%}
+/Strict LLD-Specific Failsafes
+ItemDisplay[(STAFF OR ltp OR xtp OR bhm OR xh9 OR bsh OR xsh OR lrg OR xrg OR spk OR xpk OR wsp OR 9ws OR wax OR 9wa OR gsd OR 9gd OR whm OR 9wh OR gma OR 9gm OR kri OR 9kr OR lwb OR 8lw OR pik OR 9p9) RARE !ID FILTLVL>4 CLVL>74]: %NAME%{%NAME%}
+//ItemDisplay[((EXC STAFF) OR xar OR xtp OR xh9 OR xsh OR xrg OR xpk OR zvb OR xvg OR xvb OR zlb OR xlg OR xlb OR xhb OR 9ws OR 9wa OR 9gd OR 9wh OR 9gm OR 9kr OR 8lw OR 9p9) MAG !ID FILTLVL>4 CLVL>74]: %NAME%{%NAME%}
+ItemDisplay[EXC STAFF MAG !ID FILTLVL>4 CLVL>74]: %NAME%{%NAME%}
+ItemDisplay[(amu OR rin) MAG !ID FILTLVL>4 (DIFF<2 OR MAPID=83) CLVL>74]: %NAME%{%NAME%}
+ItemDisplay[ci0 MAG !ID FILTLVL>4 CLVL>74]: %NAME%{%NAME%}
 
 //Show Recipes-Specific Failsafes
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9xf) MAG !ID FILTLVL=6 CLVL>74]: %TEAL%·%BLUE%%NAME%%TEAL%·%BLUE%{%NAME%}
