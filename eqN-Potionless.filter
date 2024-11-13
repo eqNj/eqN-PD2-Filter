@@ -4965,7 +4965,7 @@ ItemDisplay[NMAG !RW !SHOP FILTLVL=6 DIN SOCK=4]: %NAME%{%GOLD%Spirit %GRAY%Tal 
 ItemDisplay[NMAG !RW !SHOP FILTLVL=6 WAND SOCK=2]: %NAME%{%GOLD%Wind %GRAY%Sur + El%NL%%GOLD%White %GRAY%Dol + Io%NL%%GOLD%Strength %GRAY%Amn + Tir%NL%%GOLD%Dominion %GRAY%Cham + Ohm%NL%%GOLD%Runewords:}%CONTINUE%																																											// Wand
 ItemDisplay[NMAG !RW !SHOP FILTLVL=6 SOR SOCK=2]: %NAME%{%GOLD%Neophyte %GRAY%Thul + Tir%NL%%GOLD%Runewords:}%CONTINUE%																																																						// Orb 2s
 ItemDisplay[NMAG !RW !SHOP FILTLVL=6 SOR SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%GOLD%Plague %GRAY%Cham + Fal + Um%NL%%GOLD%Runewords:}%CONTINUE%																																																	// Orb 3s
-ItemDisplay[NMAG !RW !SHOP FILTLVL=6 SIN SOCK=2]: %NAME%{%GOLD%Wind %GRAY%Sur + El%NL%%GOLD%Strength %GRAY%Amn + Tir%NL%%GOLD%Steel %GRAY%Tir + El%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%																																															// Claw 2s
+ItemDisplay[NMAG !RW !SHOP FILTLVL=6 SIN SOCK=2]: %NAME%{%GOLD%Wind %GRAY%Sur + El%NL%%GOLD%Strength %GRAY%Amn + Tir%NL%%GOLD%Steel %GRAY%Tir + El%NL%%GOLD%Neophyte %GRAY%Thul + Tir%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%																																															// Claw 2s
 ItemDisplay[NMAG !RW !SHOP FILTLVL=6 SIN SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%GOLD%Plague %GRAY%Cham + Fal + Um%NL%%GOLD%Pattern %GRAY%Tal + Ort + Tir%NL%%GOLD%Malice %GRAY%Ith + El + Eth%NL%%GOLD%Lawbringer %GRAY%Amn + Lem + Ko%NL%%GOLD%King's Grace %GRAY%Amn + Ral + Thul%NL%%GOLD%Fury %GRAY%Jah + Gul + Eth%NL%%GOLD%Crescent Moon %GRAY%Shael + Um + Tir%NL%%GOLD%Chaos %GRAY%Fal + Ohm + Um%NL%%GOLD%Black %GRAY%Thul + Io + Nef%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%														// Claw 3s
 ItemDisplay[NMAG !RW !SHOP FILTLVL=6 SCEPTER SOCK=2]: %NAME%{%GOLD%Wind %GRAY%Sur + El%NL%%GOLD%Strength %GRAY%Amn + Tir%NL%%GOLD%Neophyte %GRAY%Thul + Tir%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%																																														// Scepter 2s
 ItemDisplay[NMAG !RW !SHOP FILTLVL=6 SCEPTER SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%GOLD%Plague %GRAY%Cham + Fal + Um%NL%%GOLD%Malice %GRAY%Ith + El + Eth%NL%%GOLD%Lawbringer %GRAY%Amn + Lem + Ko%NL%%GOLD%King's Grace %GRAY%Amn + Ral + Thul%NL%%GOLD%Fury %GRAY%Jah + Gul + Eth%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%																															// Scepter 3s
@@ -5771,7 +5771,7 @@ ItemDisplay[NMAG (9ws OR ELT) !INF !RW SK97>2 SCEPTER ((!SOCK=1 !(SOCK=2 !ELT) !
 
 //General Class Item Failsafe
 ItemDisplay[WEAPON THROWING ELT MAG BARBARIAN !ID CLVL<80]: %NAME%{%NAME%} // (Leveling)
-ItemDisplay[WEAPON !THROWING !BOW !CROSSBOW ELT MAG (BARBARIAN OR DRUID OR PALADIN) !ID CLVL<80]: %NAME%{%NAME%} // (Leveling)
+ItemDisplay[WEAPON !THROWING !BOW !CROSSBOW !SOR !SIN !ZON !WAND !STAFF ELT MAG (BARBARIAN OR DRUID OR PALADIN) !ID CLVL<80]: %NAME%{%NAME%} // (Leveling)
 ItemDisplay[DAGGER ASSASSIN MAG !ID CLVL<75]: %NAME%{%NAME%} // (Leveling)
 ItemDisplay[WAND NECROMANCER MAG !ID CLVL<75]: %NAME%{%NAME%} // (Leveling)
 ItemDisplay[STAFF SORCERESS MAG !ID CLVL<75]: %NAME%{%NAME%} // (Leveling)
