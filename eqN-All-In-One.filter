@@ -5802,7 +5802,7 @@ ItemDisplay[ci3 NMAG !INF !SUP !ETH SOCK=0]: %NAME%{%NAME%}
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9xf) MAG !ID (FILTLVL<3 OR FILTLVL=6)]: %NAME%{%NAME%}
 
 //Strict-Specific Failsafes
-ItemDisplay[(rxb OR 8rx OR 6rx OR hxb OR 9hx OR 6hx) RARE !ID]: %NAME%{%NAME%}
+ItemDisplay[(rxb OR 8rx OR 6rx OR hxb OR 8hx OR 6hx) RARE !ID]: %NAME%{%NAME%}
 ItemDisplay[utp !ETH NMAG !INF !SOCK=1 DEF>394]: %NAME%{%NAME%}
 ItemDisplay[uit !ETH NMAG !INF !RW SOCK=4]: %NAME%{%NAME%}
 
