@@ -47,7 +47,7 @@ ItemDisplay[NMAG !ID SHOP pa3]: %GOLD%Sankekur's Fall%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP pa4]: %GOLD%Dragonscale%NL%Herald of Zakarum%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP ob1]: %GOLD%Tempest%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP ob2]: %GOLD%Eschuta's Temper%NL%%WHITE%%NAME%
-ItemDisplay[NMAG !ID SHOP ob5]: %GOLD%Death's Fathom%NL%The Oculus%NL%%WHITE%%NAME%%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP ob5]: %GOLD%Death's Fathom%NL%The Oculus%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP qui]: %GOLD%Ormus' Robes%NL%Spirit Shroud%NL%Greyform%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP lea]: %GOLD%Skin of the Vipermagi%NL%Blinkbat's Form%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP hla]: %GOLD%Skin of the Flayed One%NL%The Centurion%NL%%WHITE%%NAME%
