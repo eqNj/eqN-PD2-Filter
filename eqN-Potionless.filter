@@ -6360,7 +6360,7 @@ ItemDisplay[amu UNI STAT206>0]: %BORDER-9B%%GOLD%Desecrated %NAME%
 ItemDisplay[amu SET STAT206>0]: %BORDER-9B%%GOLD%Desecrated %GREEN%%NAME%
 ItemDisplay[amu CRAFT STAT206>0]: %BORDER-9B%%GOLD%Desecrated %ORANGE%%NAME%
 ItemDisplay[amu RARE STAT206>0]: %BORDER-9B%%GOLD%Desecrated %YELLOW%%NAME%
-ItemDisplay[amu MAG STAT206>0]: %BORDER-9B%%GOLD%Desecrated %BLUE%%NAME%
+ItemDisplay[amu MAG STAT206>0]: %BORDER-9B%%GOLD%Desecrated%NL%%BLUE%%NAME%
 
 //----------------------------------------- Rare & Crafted Item Description Highlighting -----------------------------------------
 
