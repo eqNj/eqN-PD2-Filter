@@ -4917,7 +4917,7 @@ ItemDisplay[SCEPTER !INF SOCK=3 NMAG !RW !FILTLVL=6]: %NAME%{%GRAY%Malice, Plagu
 ItemDisplay[STAFF !INF SOCK=3 NMAG !RW !FILTLVL=6]: %NAME%{%GRAY%Plague, Purity, Venom%NL%%GRAY%Fury, Malice%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
 ItemDisplay[(clb OR spc OR mac OR mst OR fla OR 9cl OR 9sp OR 9ma OR 9mt OR 9fl OR 7cl OR 7sp OR 7ma OR 7mt OR 7fl) !INF SOCK=3 NMAG !RW !FILTLVL=6]: %NAME%{%GRAY%Plague, Venom%NL%Black, Fury, Malice%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
 ItemDisplay[(whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm) !INF SOCK=3 NMAG !RW !FILTLVL=6]: %NAME%{%GRAY%Malice, Plague, Venom%NL%Black, Fury, Lawbringer%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
-ItemDisplay[WEAPON !(BOW OR XBOW OR SOR OR leg OR SIN OR AXE OR POLEARM OR SPEAR OR SWORD OR SCEPTER OR STAFF OR clb OR spc OR mac OR mst OR fla OR 9cl OR 9sp OR 9ma OR 9mt OR 9fl OR 7cl OR 7sp OR 7ma OR 7mt OR 7fl OR whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm) !INF SOCK=3 NMAG !RW !FILTLVL=5]: %NAME%{%GRAY%Plague, Venom%NL%%GRAY%Fury, Malice%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
+ItemDisplay[WEAPON !(BOW OR XBOW OR SOR OR leg OR SIN OR AXE OR POLEARM OR SPEAR OR SWORD OR SCEPTER OR STAFF OR clb OR spc OR mac OR mst OR fla OR 9cl OR 9sp OR 9ma OR 9mt OR 9fl OR 7cl OR 7sp OR 7ma OR 7mt OR 7fl OR whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm) !INF SOCK=3 NMAG !RW !FILTLVL=6]: %NAME%{%GRAY%Plague, Venom%NL%%GRAY%Fury, Malice%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
 
 //Weapons: 4 Sockets
 ItemDisplay[(BOW OR XBOW) !INF SOCK=4 NMAG !RW !FILTLVL=6]: %NAME%{%GRAY%Passion, Phoenix, Voice of Reason, Wrath%NL%Fortitude, Hand of Justice, Harmony, Ice%NL%%GOLD%Runewords: %GRAY%Brand, Faith%NL%%NAME%}%CONTINUE%
@@ -5354,7 +5354,6 @@ ItemDisplay[(ghm OR xsk) !INF !RW !(SOCK=1 OR SOCK=2) NMAG ((FILTLVL<2 CLVL<90 E
 ItemDisplay[DIN !ETH NMAG !INF !RW !SOCK=1 (RES>11 OR AR>59) PALADIN CLVL<30 MAPID<113 DIFF=0]: %DOT-D6%%NAME%{%NAME%} // (Leveling)
 ItemDisplay[DIN !ETH NMAG !INF !RW !SOCK=1 (RES>14 OR AR>79) PALADIN CLVL<35 DIFF=0]: %DOT-D6%%NAME%{%NAME%} // (Leveling)
 ItemDisplay[DIN !ETH NMAG !INF !RW !SOCK=1 (RES>24 OR AR>99) PALADIN CLVL<75]: %DOT-D6%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[DIN (pa5 OR pa6 OR pa7) !ETH NMAG !INF !RW !SOCK=1 !SOCK=3 (RES>24 OR AR>99) !FILTLVL=5]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[DIN (pa5 OR pa6 OR pa7) !ETH NMAG !INF !RW !SOCK=1 !SOCK=3 (RES>24 OR AR>99)]: %DOT-D6%%NAME% %GRAY%|%PURPLE%«%GRAY%|{%NAME%}
 ItemDisplay[DIN (ELT OR paa) ETH NMAG !INF !RW (SOCK=0 OR SOCK=4) AR>80 (FILTLVL<3 OR FILTLVL=6 OR (AR>99 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[DIN (ELT OR paa) ETH NMAG !INF !RW (SOCK=0 OR SOCK=4) RES>19 (FILTLVL<3 OR FILTLVL=6 OR (RES>24 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-D6%%NAME%{%NAME%}
