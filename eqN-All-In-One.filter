@@ -5157,7 +5157,7 @@ ItemDisplay[aqv MAG !ID CLVL<12 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)]: %BLUE%%N
 //Magic Craftables\\
 
 //Strict LLD
-ItemDisplay[(bhm OR xh9 OR wax OR 9wa OR mpi OR 9mp OR fla OR 7fl OR whm OR 9wh OR lsd OR 9ls OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR pik OR 9p9 OR wsc OR 9wc OR glv OR 9gl OR tsp OR 9ts OR ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9bl OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR axf OR 9wb OR 9cs OR 9xf OR wsp OR 9ws) MAG ETH !ID FILTLVL=5 CLVL>59]: %DOT-4B%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
+ItemDisplay[(dr3 OR dr8 OR ba3 OR ba8 OR pa2 OR pa7 OR crn OR xrn OR bsh OR xsh OR bhm OR xh9 OR wax OR 9wa OR mpi OR 9mp OR fla OR 7fl OR whm OR 9wh OR lsd OR 9ls OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR pik OR 9p9 OR wsc OR 9wc OR glv OR 9gl OR tsp OR 9ts OR ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9bl OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR axf OR 9wb OR 9cs OR 9xf OR wsp OR 9ws) MAG ETH !ID FILTLVL=5 CLVL>59]: %DOT-4B%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9xf OR 9ws OR am5 OR ama) MAG !ID FILTLVL=5 CLVL>59]: %PX-4B%%TIER-0%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
 
 //Notified
@@ -5218,7 +5218,7 @@ ItemDisplay[(am5 OR ama OR amf) MAG !ID]: %NAME%
 //Rare Craftables\\
 
 //Strict LLD
-ItemDisplay[(bhm OR xh9 OR wax OR 9wa OR mpi OR 9mp OR fla OR 7fl OR whm OR 9wh OR lsd OR 9ls OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR pik OR 9p9 OR wsc OR 9wc OR glv OR 9gl OR tsp OR 9ts OR ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9bl OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR axf OR 9wb OR 9cs OR 9xf OR wsp OR 9ws) RARE ETH !ID FILTLVL=5 CLVL>59]: %DOT-4B%%PURPLE%·%YELLOW%%NAME%%PURPLE%·%GRAY%{%NAME%}
+ItemDisplay[(dr3 OR dr8 OR ba3 OR ba8 OR pa2 OR pa7 OR crn OR xrn OR bsh OR xsh OR bhm OR xh9 OR wax OR 9wa OR mpi OR 9mp OR fla OR 7fl OR whm OR 9wh OR lsd OR 9ls OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR pik OR 9p9 OR wsc OR 9wc OR glv OR 9gl OR tsp OR 9ts OR ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9bl OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR axf OR 9wb OR 9cs OR 9xf OR wsp OR 9ws) RARE ETH !ID FILTLVL=5 CLVL>59]: %DOT-4B%%PURPLE%·%YELLOW%%NAME%%PURPLE%·%GRAY%{%NAME%}
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9xf OR 9ws OR am5 OR ama) RARE !ID FILTLVL=5 CLVL>59]: %DOT-4B%%PURPLE%·%YELLOW%%NAME%%PURPLE%·%GRAY%{%NAME%}
 
 //Notified
