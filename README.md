@@ -652,4 +652,4 @@ Cleaned up some Legacy tags due to item changes.
 
 Updated "Max Sockets" information for Bone/Grim/Spiked/Barbed shields.
 
-Added "Max Sockets" information to throwing weapons. --- WIP
+Added "Max Sockets" information to throwing weapons.
