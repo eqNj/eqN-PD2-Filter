@@ -2,7 +2,7 @@
 
 ![Den](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Header.jpg)
 
-These filters are up-to-date for Season 10 of Project Diablo 2!
+These filters are up-to-date for Season 11 of Project Diablo 2!
 
 You can find these loot filters either here (on GitHub) or through the Project Diablo 2 game launcher.
 
@@ -136,7 +136,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ##### Potionless/Potions - 'Potionless' is essentially a copy of the Strict filter level, however it hides all potions at all levels except for Full Rejuvenation Potions if using the 'eqN-All-In-One' filter. 'Potions' is essentially a copy of the Strict filter level, however it shows potions as normal when using the 'eqN-Potionless' filter.
 
-##### Strict LLD - This is essentially a copy of the Strict filter level, however it will continue to show & sometimes notify when a LLD crafting base drops after level 60. This level is designed for late ladder and/or targeted LLD item farming. LLD crafting bases are marked with purple dots.
+##### LLD Bases - This is essentially a copy of the Strict filter level, however it will continue to show & sometimes notify when a LLD crafting base drops after level 60. This level is designed for late ladder and/or targeted LLD item farming. LLD crafting bases are marked with purple dots.
 
 ##### Show Recipes - This filter level shows all crafting and upgrading recipes on any applicable items. The crafting recipes can be found on magic items and on perfect gems. The upgrade recipes include information about the requirements for upgraded items. This level will also show all runes necessary for runewords on any socketed non-magic (white) items. This level is not recommended for use while item finding as it can be a bit visually noisy. Though, if item finding with this filter level it will never hide anything important. This filter level uses Strict as a baseline but it still shows all LLD crafting bases, as well as any and all non-magic (white) items that would otherwise show on the Relaxed filter. This filter level will show the recommended level for LLD crafting on most LLD-applicable crafting bases when using the 'eqN-Specialized-LLD' filter specifically.
 
@@ -342,7 +342,7 @@ Created a new "default" version of the filter, available in the launcher, simply
 
 Renamed the old 'Strict' filter level to 'Medium'.
 
-Added a new 'Strict LLD' filter level that uses the 'late season' / 'high speed mapping' strictness of the Strict filter level while still showing and notifying for all non-shoppable LLD crafting bases that drop.
+Added a new 'Strict LLD' (Now 'LLD Bases') filter level that uses the 'late season' / 'high speed mapping' strictness of the Strict filter level while still showing and notifying for all non-shoppable LLD crafting bases that drop.
 
 Added a new 'Show Recipes' filter level that shows all crafting and upgrading recipes that previously would always show on items in your stash, inventory, or when equipped. These recipes show on all magic items and on perfect gems. These recipes are now hidden on all other filter levels. This filter version also shows the runes necessary for runewords on runeword bases in their sequential order of necessary socketing.
 
@@ -352,7 +352,7 @@ Visually remastered nearly every aspect of item drop names and/or descriptons to
 
 Crafting, upgrading, and socketing recipes will no longer show on items while they are in a vendor's inventory (all filter levels) to help make items worth shopping for easier to see at a glance.
 
-Gold that is hidden is no longer able to be auto-looted as of Season 5. I've adopted the scaling gold drop system designed by BetweenWalls as a solution to allow much more gold to be seen and thus auto-looted. This scaling applies at all levels on the Relaxed filter. Currently, at level 75+, gold piles less than 1200 are hidden on the Medium filter level and less than 2500 are hidden on the Strict & Strict LLD filter levels.
+Gold that is hidden is no longer able to be auto-looted as of Season 5. I've adopted the scaling gold drop system designed by BetweenWalls as a solution to allow much more gold to be seen and thus auto-looted. This scaling applies at all levels on the Relaxed filter. Currently, at level 75+, gold piles less than 1200 are hidden on the Medium filter level and less than 2500 are hidden on the Strict & LLD Bases filter levels.
 
 Added a new "Potionless" filter version to the launcher, "eqN-Potionless", which functions identically to "eqN-All-In-One" except it hides Super Potions after character level 75. (Intended for characters who do not need them.)
 
@@ -560,7 +560,7 @@ Added a Potionless filter level to 'eqN-All-In-One'.  [1.8.4]
 
 Massive runeword base overhaul.  [1.8.5]
 
-Added extremely in-depth infortmation about crafting and LLD jewel assessment to Stamina Potions, Antidote Potions, and Thawing Potions when in the shop and on either the 'Strict LLD' or 'Show Recipes' filter level. [1.8.6]
+Added extremely in-depth infortmation about crafting and LLD jewel assessment to Stamina Potions, Antidote Potions, and Thawing Potions when in the shop and on either the 'Strict LLD' (Now 'LLD Bases') or 'Show Recipes' filter level. [1.8.6]
 
 Refined highlighting tags for Amazon weapons. [1.8.6]
 
@@ -573,10 +573,6 @@ Massive LLD refinements, as always. [1.8.7]
 Mostly more LLD refinements... [1.8.8]
 
 ## 1.9.0 - (Season 10)
-
-Added a 'Specialized-SSF' filter version.
-
-I've removed all of the 'LLD' information from the SSF filter version. It will still include any prevalent lines for leveling.
 
 Made it so the Gold pile rules for the Medium filter level also apply to the Relaxed filter level after character level 75.
 
@@ -598,9 +594,9 @@ Updated defense ranges on changed shields.
 
 Ensured PvP charms are easy to distinquish outside of the PvP arena.
 
-Made it so Ears only show in the PvP Arenas when on the 'Strict LLD' filter level (or on 'Show Recipes' for the 'Specialized-LLD' filter). Ears will always show outside of the PvP Arenas.
+Made it so Ears only show in the PvP Arenas when on the 'Strict LLD' (Now 'LLD Bases') filter level (or on 'Show Recipes' for the 'Specialized-LLD' filter). Ears will always show outside of the PvP Arenas.
 
-Moved the LLD crafting and Jewel info to the 'Strict LLD' and 'Show Recipes' filter levels on the 'All-in-One' and 'Potionless' filters.
+Moved the LLD crafting and Jewel info to the 'Strict LLD' (Now 'LLD Bases') and 'Show Recipes' filter levels on the 'All-in-One' and 'Potionless' filters.
 
 Added a 'Mag Notify' filter level to the 'Specialized-LLD' filter. This filter level is the same as 'Strict' but will give a chat notification when a Magic LLD crafting base drops.
 
@@ -633,3 +629,27 @@ Reduced the number of notifications on the Strict filter level for runeword base
 Updated Gheed event with new uniques on applicable items. [1.9.1]
 
 Added extra highlights to Rare ALVL 85+ Chests/Shields and ALVL 90+ Amulets. [1.9.1]
+
+## 1.10.0 - (Season 11)
+
+Added description lines to all of the new maps in Season 11 with their potential monster immunities.
+
+Added highlighting for Runeword bases for throwing weapons, including during leveling as an Amazon or Barbarian.
+
+Further refined the Runeword bases shown and/or highlighted based on changes to possible Runewords.
+
+Updated all Runeword base descriptions with changes to possible Runewords and their necessary Runes (on the 'Show Recipes' filter level).
+
+Added highlighting for all of the new Unique items introduced.
+
+Improved highlighting to some Unique and Set items based on balance changes.
+
+Added special highlighting for the new material "Demonic Cube".
+
+Cleaned up stacked Rune and Gem descriptions.
+
+Cleaned up some Legacy tags due to item changes.
+
+Updated "Max Sockets" information for Bone/Grim/Spiked/Barbed shields.
+
+Added "Max Sockets" information to throwing weapons. --- WIP
