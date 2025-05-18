@@ -6395,9 +6395,9 @@ ItemDisplay[!EQUIPPED SET ID amu DTM>19 STAT89>2 STAT360=0]: %NAME%%GREEN%{%TAN%
 ItemDisplay[!EQUIPPED SET ID amu STAT156>0 STAT360=0 (FILTLVL=5 OR FILTLVL=6)]: %NAME%%GREEN%{%TAN%Low Level Dueling Corruptible}%CONTINUE%
 
 //----------------------------------------- Legacy Item Highlighting -----------------------------------------
-//ItemDisplay[((BELT (SET OR UNI)) OR (amu !CRAFT) OR (BOOTS !STAT33>0)) (FHR=11 OR FHR=12 OR FHR=13 OR FHR=14)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy FHR Corrupt   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
-//ItemDisplay[(rin OR (BELT (FRW<20 OR FRW>30)) OR (amu !(CRAFT FRW<21) !FRW>29)) FRW>10]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy FRW Corrupt   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
-//ItemDisplay[(rin OR BOOTS) STAT153>0 !STAT148>0 !((xlb OR ulb) SET STAT11>0) !(umb UNI SK69>0) !(rin SET EDAM>19)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy CBF Corrupt   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
+ItemDisplay[((BELT (SET OR UNI)) OR (amu !CRAFT) OR (BOOTS !STAT33>0)) (FHR=11 OR FHR=12 OR FHR=13 OR FHR=14)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy FHR Corrupt   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
+ItemDisplay[((rin !(UNI STAT32>0 FRW>19)) OR (BELT (FRW<20 OR FRW>30)) OR (amu !(CRAFT FRW<21) !FRW>29)) FRW>10]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy FRW Corrupt   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
+ItemDisplay[(rin OR BOOTS) STAT153>0 !STAT148>0 !((xlb OR ulb) SET STAT11>0) !(umb UNI SK69>0) !(rin SET EDAM>19)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy CBF Corrupt   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
 ItemDisplay[rin UNI (OS236>0 OR OS226>0)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
 ItemDisplay[rin UNI FRW>9 CHSK222=21]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
 ItemDisplay[rin UNI (STAT148>5 OR STAT142>6)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
