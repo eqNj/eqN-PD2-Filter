@@ -6923,6 +6923,7 @@ ItemDisplay[(MAG OR (RARE SOCK>0) OR (RARE (GLOVES OR BELT OR BOOTS))) (ARMOR OR
 
 //----------------------------------------- Always Show These -----------------------------------------
 
+ItemDisplay[7cr2]: %BORDER-73%%MAP-40%%WHITE%·:%GOLD%|%WHITE%:·      %ORANGE%%NAME%     %WHITE%·:%GOLD%|%WHITE%:·%ORANGE%
 ItemDisplay[(SET OR UNI OR CRAFT OR RW OR (NMAG GEMMED))]: %NAME%{%NAME%}
 ItemDisplay[(MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%{%NAME%}
 ItemDisplay[RARE !ID (MAPID=181 OR MAPID=182 OR MAPID=109)]: %NAME%{%NAME%}
