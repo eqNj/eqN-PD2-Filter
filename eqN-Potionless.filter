@@ -344,7 +344,7 @@ ItemDisplay[hp1 (FILTLVL=3 OR FILTLVL=5)]: {%WHITE%Minor Healing Potion}
 //Health & Mana Potions
 ItemDisplay[rvl (MAPID=136 OR MAPID=137 OR MAPID=153 OR MAPID=161 OR MAPID=162 OR MAPID=163 OR MAPID=168)]: %BLACK%* %PURPLE%REJUV %BLACK%*%WHITE%{%WHITE%Full Rejuvenation Potion}
 ItemDisplay[rvl]: %BLACK%* %PURPLE%JV %BLACK%*%WHITE%{%WHITE%Full Rejuvenation Potion}
-ItemDisplay[rvs (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %PURPLE% rj %WHITE%{%WHITE%Rejuvenation Potion}
+ItemDisplay[rvs (FILTLVL<3 OR FILTLVL=4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=5)))]: %PURPLE% rj %WHITE%{%WHITE%Rejuvenation Potion}
 ItemDisplay[mp5]: %BLUE% #%WHITE%M %WHITE%{%WHITE%Super Mana Potion}
 ItemDisplay[hp5]: %RED% #%WHITE%H %WHITE%{%WHITE%Super Healing Potion}
 ItemDisplay[mp4 (FILTLVL<3 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %BLUE%#%WHITE%m%WHITE%{%WHITE%Greater Mana Potion}
@@ -7093,6 +7093,6 @@ ItemDisplay[mp4 CLVL>74 FILTLVL>1]: {%NAME%}
 //Strict FINAL
 ItemDisplay[(((CHEST OR SHIELD) ALVL<85) OR (HELM ALVL<81)) RARE !ETH !ID CLVL>74 FILTLVL>2]: {%NAME%}
 ItemDisplay[WEAPON !(STAFF ALVL>75) !(TMACE ALVL>74) RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
-ItemDisplay[rvs CLVL>74 FILTLVL>2 !FILTLVL=4]: {%NAME%}
+ItemDisplay[rvs CLVL>74 FILTLVL>2]: {%NAME%}
 
 //Shoutout to the following community members for their contributions to loot filters: Wolfie, TheIrateSeagoer, Mark, Kassahi, BetweenWalls, Cy, and Kanzeon!
