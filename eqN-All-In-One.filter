@@ -7064,8 +7064,7 @@ ItemDisplay[WEAPON !(STAFF ALVL>75) !(TMACE ALVL>74) !(THROWING (AXE OR DAGGER) 
 ItemDisplay[mp4 CLVL>74 FILTLVL>1]: {%NAME%}
 
 //Strict FINAL
-ItemDisplay[ARMOR (((CHEST OR SHIELD) ALVL<85) OR (HELM ALVL<81)) RARE !ETH !ID CLVL>74 FILTLVL>2]: {%NAME%}
-ItemDisplay[WEAPON !(STAFF ALVL>75) !(TMACE ALVL>74) RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
+ItemDisplay[ARMOR (((CHEST OR SHIELD) ALVL<75) OR (HELM ALVL<81)) RARE !ETH !ID CLVL>74 FILTLVL>2]: {%NAME%}
 ItemDisplay[rvs CLVL>74 FILTLVL>2]: {%NAME%}
 
 //Shoutout to the following community members for their contributions to loot filters: Wolfie, TheIrateSeagoer, Mark, Kassahi, BetweenWalls, Cy, and Kanzeon!
