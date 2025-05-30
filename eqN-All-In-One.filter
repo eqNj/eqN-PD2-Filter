@@ -6896,7 +6896,7 @@ ItemDisplay[(MAG OR (RARE SOCK>0) OR (RARE (GLOVES OR BELT OR BOOTS))) (ARMOR OR
 
 //----------------------------------------- Always Show These -----------------------------------------
 
-ItemDisplay[7cr2]: %BORDER-73%%MAP-40%%WHITE%·:%GOLD%|%WHITE%:·      %ORANGE%%NAME%     %WHITE%·:%GOLD%|%WHITE%:·%ORANGE%
+ItemDisplay[7cr2]: %BORDER-73%%MAP-40%%NAME%{%NAME%}
 ItemDisplay[(SET OR UNI OR CRAFT OR RW OR (NMAG GEMMED))]: %NAME%{%NAME%}
 ItemDisplay[(MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%{%NAME%}
 ItemDisplay[RARE !ID (MAPID=181 OR MAPID=182 OR MAPID=109)]: %NAME%{%NAME%}
@@ -7064,7 +7064,7 @@ ItemDisplay[WEAPON !(STAFF ALVL>75) !(TMACE ALVL>74) !(THROWING (AXE OR DAGGER) 
 ItemDisplay[mp4 CLVL>74 FILTLVL>1]: {%NAME%}
 
 //Strict FINAL
-ItemDisplay[(((CHEST OR SHIELD) ALVL<85) OR (HELM ALVL<81)) RARE !ETH !ID CLVL>74 FILTLVL>2]: {%NAME%}
+ItemDisplay[ARMOR (((CHEST OR SHIELD) ALVL<85) OR (HELM ALVL<81)) RARE !ETH !ID CLVL>74 FILTLVL>2]: {%NAME%}
 ItemDisplay[WEAPON !(STAFF ALVL>75) !(TMACE ALVL>74) RARE !ETH !ID !leg CLVL>74 FILTLVL>2]: {%NAME%}
 ItemDisplay[rvs CLVL>74 FILTLVL>2]: {%NAME%}
 
