@@ -437,6 +437,7 @@ ItemDisplay[cm2p !(MAPID=157 OR MAPID=159)]: %GRAY%Dueling Charm
 ItemDisplay[cm3p !(MAPID=157 OR MAPID=159)]: %GRAY%Dueling Charm
 
 //Unidentified Charms
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !ID ILVL>89]: %DOT-A0%%TAN%( %GRAY%~ %DARK_GREEN%: %BLUE%%NAME% %DARK_GREEN%: %GRAY%~ %TAN%)%BLUE%
 ItemDisplay[cm1 MAG !ID ALVL<39 ALVL>36]: %DOT-A0%%TAN%( %GRAY%~ %PURPLE%: %BLUE%%NAME% %PURPLE%: %GRAY%~ %TAN%)%BLUE%
 ItemDisplay[cm2 MAG !ID ALVL<41 ALVL>37]: %DOT-A0%%TAN%( %PURPLE%: %BLUE%%NAME% %PURPLE%: %TAN%)%BLUE%
 ItemDisplay[(cm1 OR cm3) MAG !ID]: %DOT-A0%%TAN%( %GRAY%~ %BLUE%%NAME% %GRAY%~ %TAN%)%BLUE%
@@ -478,9 +479,15 @@ ItemDisplay[cm3 !UNI ((RES>7 OR MAXDMG>3 OR AR>49) (LIFE>14 OR DEX>4 OR STR>4 OR
 ItemDisplay[cm3 !UNI ((FHR>0 OR LIFE>14) (AR>29 OR STAT31>9 OR MANA>13 OR CRES>11 OR FRES>11 OR LRES>11 OR PRES>11 OR RES>4)) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 ItemDisplay[cm3 !UNI ((MANA>30 OR RES>9 OR MAXDMG>7 OR AR>79) (LIFE>17 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<31]: %PURPLE%« %BLUE%%NAME% %PURPLE%»%BLUE%{%NAME%}
 
-//Note on High ILVL Grand Charms
+//Note on High ILVL Charms
+ItemDisplay[cm1 MAG ID ILVL>89 !FILTLVL=6]: %NAME%{%TAN%ILVL 90+ Small Charm}
+ItemDisplay[cm1 MAG ID ILVL>89 FILTLVL=6]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%ILVL %DARK_GREEN%90+ %BLUE%Small Charm%WHITE% Reroll:%NL%%GRAY%Ideal ILVL.}
+ItemDisplay[cm2 MAG ID ILVL>89 !FILTLVL=6]: %NAME%{%TAN%ILVL 90+ Large Charm}
+ItemDisplay[cm2 MAG ID ILVL>89 FILTLVL=6]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%ILVL %DARK_GREEN%90+ %BLUE%Large Charm%WHITE% Reroll:%NL%%GRAY%Ideal ILVL.}
+ItemDisplay[cm3 MAG ID ILVL>89 !FILTLVL=6]: %NAME%{%TAN%ILVL 90~ Grand Charm}
+ItemDisplay[cm3 MAG ID ILVL>89 FILTLVL=6]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%ILVL %DARK_GREEN%90~ %BLUE%Grand Charm%WHITE% Reroll:%NL%%GRAY%Cannot Roll 41 - 45 Life.}
 ItemDisplay[cm3 MAG ID ILVL>90 !FILTLVL=6]: %NAME%{%TAN%ILVL 91+ Grand Charm}
-ItemDisplay[cm3 MAG ID ILVL>90 FILTLVL=6]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%ILVL %GREEN%91+ %BLUE%Grand Charm%WHITE% Reroll:}
+ItemDisplay[cm3 MAG ID ILVL>90 FILTLVL=6]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%ILVL %DARK_GREEN%91+ %BLUE%Grand Charm%WHITE% Reroll:%NL%%GRAY%Ideal ILVL.}
 
 //----------------------------------------- Socketables --------------------------------------------
 
