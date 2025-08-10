@@ -480,13 +480,9 @@ ItemDisplay[cm3 !UNI ((FHR>0 OR LIFE>14) (AR>29 OR STAT31>9 OR MANA>13 OR CRES>1
 ItemDisplay[cm3 !UNI ((MANA>30 OR RES>9 OR MAXDMG>7 OR AR>79) (LIFE>17 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<31]: %PURPLE%« %BLUE%%NAME% %PURPLE%»%BLUE%{%NAME%}
 
 //Note on High ILVL Charms
-ItemDisplay[cm1 MAG ID ILVL>89 !FILTLVL=6]: %NAME%{%TAN%ILVL 90+ Small Charm}
 ItemDisplay[cm1 MAG ID ILVL>89 FILTLVL=6]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%ILVL %DARK_GREEN%90+ %BLUE%Small Charm%WHITE% Reroll:%NL%%GRAY%Ideal ILVL.}
-ItemDisplay[cm2 MAG ID ILVL>89 !FILTLVL=6]: %NAME%{%TAN%ILVL 90+ Large Charm}
 ItemDisplay[cm2 MAG ID ILVL>89 FILTLVL=6]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%ILVL %DARK_GREEN%90+ %BLUE%Large Charm%WHITE% Reroll:%NL%%GRAY%Ideal ILVL.}
-ItemDisplay[cm3 MAG ID ILVL>89 !FILTLVL=6]: %NAME%{%TAN%ILVL 90~ Grand Charm}
-ItemDisplay[cm3 MAG ID ILVL>89 FILTLVL=6]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%ILVL %DARK_GREEN%90~ %BLUE%Grand Charm%WHITE% Reroll:%NL%%GRAY%Cannot Roll 41 - 45 Life.}
-ItemDisplay[cm3 MAG ID ILVL>90 !FILTLVL=6]: %NAME%{%TAN%ILVL 91+ Grand Charm}
+ItemDisplay[cm3 MAG ID ILVL=90 FILTLVL=6]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%ILVL %DARK_GREEN%90 %BLUE%Grand Charm%WHITE% Reroll:%NL%%GRAY%Cannot Roll 41 - 45 Life.}
 ItemDisplay[cm3 MAG ID ILVL>90 FILTLVL=6]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%ILVL %DARK_GREEN%91+ %BLUE%Grand Charm%WHITE% Reroll:%NL%%GRAY%Ideal ILVL.}
 
 //----------------------------------------- Socketables --------------------------------------------
