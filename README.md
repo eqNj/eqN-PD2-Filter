@@ -16,7 +16,7 @@ The version known as 'eqN-Potionless' is the same as 'eqN-All-In-One', however i
 
 The version known as 'eqN-Specialized-LLD' is the same as 'eqN-All-In-One', however it hides Super/Greater Health and Mana potions after character level 75 at filter levels above 'Relaxed' and it shows details for LLD crafting on applicable base items on the 'Show Recipes' filter level.
 
-The version known as 'eqN-SSF' is the same as 'eqN-All-In-One', however it does not have any LLD-specific highlights, instead simply maintaining a 'Low Level Base' filter level (particularly for when farming similarly useful crafting bases for leveling characters).
+The version known as 'eqN-Specialized-SSF' is the same as 'eqN-All-In-One', however it does not have any LLD-specific highlights, instead simply maintaining a 'Low Level Base' filter level (particularly for when farming similarly useful crafting bases for leveling characters).
 
 **<ins>Currently these filters are stylized in such a way as to require the use of the new in-game setting 'HD Text' (enabled by default) introduced with Season 7 of Project Diablo 2. This is to allow for more text colors.</ins>**
 
@@ -656,4 +656,4 @@ Updated "Max Sockets" information for Bone/Grim/Spiked/Barbed shields.
 
 Added "Max Sockets" information to throwing weapons.
 
-Introduced a new filter version, 'eqN-SSF'. This version is particularly for those whom have no interest in special highlights being added to any LLD items. Otherwise, this version functions identically to the 'eqN-All-In-One' filter version.
+Introduced a new filter version, 'eqN-Specialized-SSF'. This version is particularly for those whom have no interest in special highlights being added to any LLD items. Otherwise, this version functions identically to the 'eqN-All-In-One' filter version.
