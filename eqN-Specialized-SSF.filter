@@ -5922,11 +5922,17 @@ ItemDisplay[EXC STAFF MAG !ID FILTLVL>4 CLVL>74]: %NAME%{%NAME%}
 ItemDisplay[(amu OR rin) MAG !ID FILTLVL>4 (DIFF<2 OR MAPID=83) CLVL>74]: %NAME%{%NAME%}
 ItemDisplay[ci0 MAG !ID FILTLVL>4 CLVL>74]: %NAME%{%NAME%}
 
-//Show Recipes-Specific Failsafes
+//-Specific Show Recipes Failsafes
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9xf) MAG !ID FILTLVL=6 CLVL>74]: %TEAL%·%BLUE%%NAME%%TEAL%·%BLUE%{%NAME%}
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9xf) RARE !ID FILTLVL=6 CLVL>74]: %NAME%{%NAME%}
 ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR axf OR 9wb OR 9cs OR 9xf) MAG !ID FILTLVL=6 CLVL>74]: %TEAL%·%BLUE%%NAME%%TEAL%·%BLUE%{%NAME%}
 ItemDisplay[(amu OR rin) MAG !ID FILTLVL=6 DIFF<2 CLVL>74]: %NAME%{%NAME%}
+
+//-Specific Potionless Failsafes
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9xf) MAG !ID FILTLVL=4 CLVL>74]: %TEAL%·%BLUE%%NAME%%TEAL%·%BLUE%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9xf) RARE !ID FILTLVL=4 CLVL>74]: %NAME%{%NAME%}
+ItemDisplay[ETH (9kr OR 9bl OR kri OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR axf OR 9wb OR 9cs OR 9xf) MAG !ID FILTLVL=4 CLVL>74]: %TEAL%·%BLUE%%NAME%%TEAL%·%BLUE%{%NAME%}
+ItemDisplay[(amu OR rin) MAG !ID FILTLVL=4]: %NAME%{%NAME%}
 
 //Filter Level 0 - Inferior Note
 ItemDisplay[(ARMOR OR WEAPON) INF FILTLVL=0]: %NAME%{%GRAY%This is an inferior item.}
