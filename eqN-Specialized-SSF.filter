@@ -7123,4 +7123,4 @@ ItemDisplay[mp4 CLVL>74 FILTLVL>1]: {%NAME%}
 ItemDisplay[(((CHEST OR SHIELD) ALVL<75) OR (HELM ALVL<81)) RARE !ETH !ID CLVL>74 FILTLVL>2]: {%NAME%}
 ItemDisplay[rvs CLVL>74 FILTLVL>2]: {%NAME%}
 
-//Shoutout to the following community members for their contributions to loot filters: Wolfie, TheIrateSeagoer, Mark, Kassahi, BetweenWalls, Cy, and Kanzeon!
+//Shoutout to the following community members for their contributions to loot filters: Wolfie, Mark, Kassahi, BetweenWalls, Cy, and Kanzeon!

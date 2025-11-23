@@ -2,7 +2,7 @@
 
 ![Den](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Header.jpg)
 
-These filters are up-to-date for Season 12 of Project Diablo 2!
+These filters are up-to-date for Season 11 of Project Diablo 2!
 
 You can find these loot filters either here (on GitHub) or through the Project Diablo 2 game launcher.
 
