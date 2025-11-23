@@ -657,3 +657,21 @@ Updated "Max Sockets" information for Bone/Grim/Spiked/Barbed shields.
 Added "Max Sockets" information to throwing weapons.
 
 Introduced a new filter version, 'eqN-Specialized-SSF'. This version is particularly for those whom have no interest in special highlights being added to any LLD items. Otherwise, this version functions identically to the 'eqN-All-In-One' filter version.
+
+## 1.11.0 - (Season 12)
+
+Added Runeword and max socket details to quivers.
+
+Added slighty special highlighting to the uniques capable of being a 5 Year Anniversary re-color.
+
+Added highlighting for all of the new Unique items introduced.
+
+Ensured Magic and Rare quivers of all tiers show a bit more leniently in lieu of their ability to now be crafted.
+
+Added crafting, socketing, and runeword information where relevant for quivers.
+
+Added LLD tags for 5% IAS / FCR Large Charms.
+
+Updated socketing infortmation for superior items.
+
+Added slight highlighting to chests and class weapons, when shopping for crafting bases, if those bases are a low vendor price (Less that 60k Gold) on the Show Recipes filter level.
