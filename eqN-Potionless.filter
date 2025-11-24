@@ -108,7 +108,7 @@ ItemDisplay[NMAG !ID SHOP btx]: %GOLD%Hellslayer%NL%Stormrider%NL%The Chieftain%
 ItemDisplay[NMAG !ID SHOP gax]: %GOLD%Messerschmidt's Reaver%NL%Boneslayer Blade%NL%Brainhew%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP gix]: %GOLD%Executioner's Justice%NL%The Minotaur%NL%Humongous%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP sbw]: %GOLD%Skystrike%NL%Pluckeye%NL%%WHITE%%NAME%
-ItemDisplay[NMAG !ID SHOP hbw]: %GOLD%Riphook%NL%Witherstring%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP hbw]: %GOLD%Crackleshot%NL%Riphook%NL%Witherstring%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP lbw]: %GOLD%Kuko Shakaku%NL%Raven Claw%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP cbw]: %GOLD%Endlesshail%NL%Rogue's Bow%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP sbb]: %GOLD%Witchwild String%NL%Stormstrike%NL%%WHITE%%NAME%
@@ -645,7 +645,7 @@ ItemDisplay[urma]: %ORANGE%~  %GOLD%%NAME%  %ORANGE%~{%NAME%}
 ItemDisplay[irma]: %ORANGE%~  %GOLD%%NAME%  %ORANGE%~{%NAME%}
 
 //Essences
-ItemDisplay[tes]: %PX-82%%NAME%{%BLUE%Andariel, Maiden of Anguish %WHITE%& %BLUE%Duriel, Lord of Pain%NL%%GRAY%Manifested By:}
+ItemDisplay[tes]: %PX-82%%NAME%{%BLUE%Duriel, Lord of Pain%NL%Andariel, Maiden of Anguish%NL%%GRAY%Manifested By:}
 ItemDisplay[ceh]: %PX-82%%NAME%{%TAN%Mephisto, Lord of Hatred%NL%%GRAY%Manifested By:}
 ItemDisplay[bet]: %PX-82%%NAME%{%RED%Diablo, Lord of Terror%NL%%GRAY%Manifested By:}
 ItemDisplay[fed]: %PX-82%%NAME%{%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Manifested By:}
@@ -5294,7 +5294,7 @@ ItemDisplay[SET !ID CLVL<75 FILTLVL>1]: %PX-84%%NAME%%GREEN%
 
 //Arrows & Bolts
 ItemDisplay[(aqv OR aqv2 OR aqv3) MAG !ID CLVL>69 DIFF<2 (FILTLVL=1 OR FILTLVL=6)]: %BLUE%%NAME%
-ItemDisplay[(cqv OR cqv2 OR cqv3) MAG !ID CLVL>59 DIFF<2 (FILTLVL=1 OR FILTLVL=6)]: %BLUE%%NAME%
+ItemDisplay[(cqv OR cqv2 OR cqv3) MAG !ID CLVL>74 DIFF<2 (FILTLVL=1 OR FILTLVL=6)]: %BLUE%%NAME%
 ItemDisplay[(aqv OR aqv2) MAG !ID CLVL<70 (FILTLVL=1 OR FILTLVL=6)]: %BLUE%%NAME%
 ItemDisplay[(cqv OR cqv2) MAG !ID CLVL<60 (FILTLVL=1 OR FILTLVL=6)]: %BLUE%%NAME%
 ItemDisplay[aqv3 MAG !ID CLVL<80 (FILTLVL=1 OR FILTLVL=6)]: %BLUE%%NAME%
@@ -5992,8 +5992,8 @@ ItemDisplay[(ARMOR OR WEAPON) INF FILTLVL=0]: %NAME%{%GRAY%This is an inferior i
 
 //----------------------------------------- Shop Hunting Flags -----------------------------------------
 
-//Low Price Crafting Bases
-ItemDisplay[SHOP (CHEST OR STAFF OR SCEPTER OR WAND) MAG BUYPRICE<60000 FILTLVL=6]: %NAME%%SAGE%{%SAGE%Affordable Crafting Base%CL%%NAME%}%CONTINUE%
+//Low Price Crafting Bases - Part 1
+ItemDisplay[SHOP (CHEST OR STAFF OR SCEPTER OR WAND OR SIN) MAG BUYPRICE<60000 FILTLVL=6]: %NAME%{%SAGE%Affordable Crafting Base%CL%%NAME%}%CONTINUE%
 
 //Low Level Shop Hunting
 ItemDisplay[SHOP WEAPON MAG ED>149 STAT360=0 ((am1 OR am5) OR (wax OR mpi OR fla OR whm OR lsd OR bld OR wsp OR wrb OR ces OR axf) OR (gix OR mau OR gma OR gsd OR pik OR wsc OR am4) OR (pil OR ssp OR glv OR tsp) OR (am6 OR ama) OR (9wa OR 9mp OR 9fl OR 9wh OR 9ls OR 9bl OR 9ws OR 9wb OR 9cs OR 9xf) OR (9gi OR 9m9 OR 9gm OR 9gd OR 9p9 OR 9wc) OR (9pi OR 9s9 OR 9gl OR 9ts) OR (am6 OR ama)) LVLREQ<31]: %DOT-9B%%GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%PURPLE%»   %TAN%High ED Corruptible   %PURPLE%«%NL%%NAME%}
@@ -6243,6 +6243,9 @@ ItemDisplay[!SHOP CHEST MAG SOCK=4]: %NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   
 ItemDisplay[!SHOP SHIELD MAG SOCK=4]: %NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Jeweler's Shield   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
 ItemDisplay[!SHOP WEAPON 1H MAG SOCK=4 !STAT360=32]: %NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Jeweler's Weapon   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
 ItemDisplay[!SHOP HELM MAG SOCK=3 !STAT360=32]: %NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Artisan's Helm   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
+
+//Low Price Crafting Bases - Part 2
+ItemDisplay[SHOP (CHEST OR STAFF OR SCEPTER OR WAND OR SIN) MAG BUYPRICE<60000 FILTLVL=6]: %NAME%%SAGE%
 
 //----------------------------------------- Vendor Colors -----------------------------------------
 
