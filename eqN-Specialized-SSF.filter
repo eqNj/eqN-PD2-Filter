@@ -5181,9 +5181,9 @@ ItemDisplay[rid]: %BORDER-60%%GOLD%|%YELLOW%:     %GOLD%%NAME%     %YELLOW%:%GOL
 ItemDisplay[jew UNI !ID]: %BORDER-60%%RED%:%ORANGE%:%YELLOW%:%GREEN%:%BLUE%:%PURPLE%:     %GOLD%%NAME%     %PURPLE%:%BLUE%:%GREEN%:%YELLOW%:%ORANGE%:%RED%:%GOLD%
 
 //High-Tier Uniques
-ItemDisplay[(rin OR amu OR uar OR uui OR ulc OR urn OR ci3 OR xtb OR 6lw OR 7gw OR 7gd OR obf OR uhm) UNI !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[(rin OR amu OR uar OR uui OR ulc OR urn OR ci3 OR xtb OR 6lw OR 7gw OR obf OR uhm) UNI !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 //Only Eth
-ItemDisplay[((ELT SPEAR) OR (ELT 2H SWORD) OR 7ha OR 9la OR 7lw OR 7tw OR 7sc OR 7ws OR amd OR am9 OR am5 OR ame OR uvb OR 7bt OR 9gm OR 7gm OR 7s8 OR 7tw OR 7wh OR uul OR uhc) UNI ETH !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[((ELT SPEAR) OR (ELT POLEARM) OR (ELT 2H SWORD) OR 7ha OR 9la OR 7lw OR 7tw OR 7sc OR 7ws OR amd OR am9 OR am5 OR ame OR uvb OR 7bt OR 9gm OR 7gm OR 7s8 OR 7tw OR 7wh OR uul OR uhc) UNI ETH !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 
 //Anniversary Uniques
 ItemDisplay[(6ws OR uap OR xhn OR dr6 OR uit) UNI !ID]: %BORDER-60%%GOLD%<%ORANGE%~%GOLD%:%ORANGE%~%GOLD%>     %NAME%     <%ORANGE%~%GOLD%:%ORANGE%~%GOLD%>
@@ -5202,9 +5202,9 @@ ItemDisplay[(xhb OR uhb OR xvb) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     
 //Shields
 ItemDisplay[(nee OR nea OR nef OR pa9 OR uts OR uow OR xsh OR xow) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Weapons
-ItemDisplay[(7b8 OR 9la OR 7sc OR 9ws OR 7lw OR 8mx OR 7bl OR 8s8 OR amb OR 9gw OR 7bw OR 7cs OR 7ws OR 7kr OR 7cr OR 7gm OR 9tw OR ama OR obc OR 7lw OR amf OR 7wh OR 8rx OR 9bw OR 6cs) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
+ItemDisplay[(7pa OR 7b8 OR 9la OR 7sc OR 9ws OR 7lw OR 8mx OR 7bl OR 8s8 OR amb OR 9gw OR 7bw OR 7cs OR 7ws OR 7kr OR 7cr OR 7gm OR 9tw OR ama OR obc OR 7lw OR amf OR 7wh OR 8rx OR 9bw OR 6cs) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Only Eth
-ItemDisplay[((ELT (POLEARM OR DAGGER)) OR THROWING OR 7ga OR 7bk OR 9s8 OR 9sr OR xcl OR 9cr OR 9m9 OR 7pa OR 7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7bk OR xpl OR utu) UNI ETH !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
+ItemDisplay[((ELT DAGGER) OR THROWING OR 7ga OR 7bk OR 9s8 OR 9sr OR xcl OR 9cr OR 9m9 OR 7pa OR 7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7bk OR xpl OR utu) UNI ETH !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 
 //Lower-Tier Uniques
 //Belts
@@ -5220,21 +5220,22 @@ ItemDisplay[(lbt OR umb OR xmb) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME
 //Shields
 ItemDisplay[(ush OR upk OR pae) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Weapons
-ItemDisplay[((ELT 2H MACE) OR 7p7 OR oba OR dgr OR 9fc OR 9gs OR 8ws OR 6l7 OR 7ha OR 9gm OR 7fl OR 7ga OR 9wn OR 7br OR 6hx OR 7bt OR 8sw) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
+ItemDisplay[((ELT 2H MACE) OR (ELT SPEAR) OR (ELT POLEARM) OR 7gd OR 7p7 OR oba OR dgr OR 9fc OR 9gs OR 8ws OR 6l7 OR 7ha OR 9gm OR 7fl OR 7ga OR 9wn OR 7br OR 6hx OR 7bt OR 8sw) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Only Eth
 ItemDisplay[(9b7 OR 92h OR 9gd) UNI ETH !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
+
 //PD2 Exclusive (Season 3)
-ItemDisplay[(ne6 OR ob6 OR dr2 OR ba6 OR 9ar) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
+ItemDisplay[(ne6 OR ob6 OR dr2 OR ba6 OR 9ar) UNI !ID]: %DOT-60%%TAN%~%YELLOW%:    %GOLD%%NAME%    %YELLOW%:%TAN%~
 //PD2 Exclusive (Season 5)
-ItemDisplay[(ame OR ned OR ulb OR utg OR 7tw OR 7qs OR 6bs OR baf OR utp OR drf) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
+ItemDisplay[(ame OR ned OR ulb OR utg OR 7tw OR 7qs OR 6bs OR baf OR utp OR drf) UNI !ID]: %DOT-60%%TAN%~%YELLOW%:    %GOLD%%NAME%    %YELLOW%:%TAN%~
 //PD2 Exclusive (Season 8)
-ItemDisplay[(7st OR 7cm) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
+ItemDisplay[(7st OR 7cm) UNI !ID]: %DOT-60%%TAN%~%YELLOW%:    %GOLD%%NAME%    %YELLOW%:%TAN%~
 //PD2 Exclusive (Season 10)
-ItemDisplay[(7di OR drc OR urg OR ung OR ulg OR pae OR amc) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
+ItemDisplay[(7di OR drc OR urg OR ung OR ulg OR pae OR amc) UNI !ID]: %DOT-60%%TAN%~%YELLOW%:    %GOLD%%NAME%    %YELLOW%:%TAN%~
 //PD2 Exclusive (Season 11)
-ItemDisplay[(ob7 OR 7xf OR paf OR dr6 OR ba7 OR 9b8 OR uhc OR neg) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
+ItemDisplay[(ob7 OR 7xf OR paf OR dr6 OR ba7 OR 9b8 OR uhc OR neg) UNI !ID]: %DOT-60%%TAN%~%YELLOW%:    %GOLD%%NAME%    %YELLOW%:%TAN%~
 //PD2 Exclusive (Season 12)
-ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3 OR 6hb) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
+ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3 OR 6hb) UNI !ID]: %DOT-60%%TAN%~%YELLOW%:    %GOLD%%NAME%    %YELLOW%:%TAN%~
 
 //High-Tier Set Items
 ItemDisplay[(amu OR uar OR ci3 OR (ETH (7m7 OR 7qr OR 7ws OR 7gd OR 7fb))) SET !ID]: %MAP-84%%PURPLE%~%DARK_GREEN%:%PURPLE%~    %GREEN%%NAME%    %PURPLE%~%DARK_GREEN%:%PURPLE%~%GREEN%

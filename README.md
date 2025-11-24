@@ -121,9 +121,10 @@ Descriptions have been added to almost every quest item and/or utility item in t
 ### Unidentified
 ·NAME· (Teal) = Ideal Crafting Base @ Character Level Rare or Magic Item<br>
 ·NAME· (Purple) = Ideal LLD Crafting Base Rare or Magic Item<br>
-<\~:\~> NAME <\~:\~> (Gold/Yellow) = High Tier of Notable Unique Item<br>
-\~:\~ NAME \~:\~ (Gold/Yellow) = Mid Tier of Notable Unique Item<br>
-\~: NAME :\~ (Gold/Yellow) = Low Tier of Notable Unique Item<br>
+<\~:\~> NAME <\~:\~> (Yellow/Gold) = High Tier of Notable Unique Item<br>
+\~:\~ NAME \~:\~ (Yellow/Gold) = Mid Tier of Notable Unique Item<br>
+\~: NAME :\~ (Yellow/Gold) = Low Tier of Notable Unique Item<br>
+\~: NAME :\~ (Gold/Yellow) = PD2 Exclusive Unique Item<br>
 \~:\~ NAME \~:\~ (Purple/Green) = High Tier of Notable Set Item<br>
 \~: NAME :\~ (Purple/Green) = Low Tier of Notable Set Item<br>
 \~: NAME :\~ (Purple/Yellow) = LLD Corruptible Unique Item<br>
@@ -675,3 +676,5 @@ Added LLD tags for 5% IAS / FCR Large Charms.
 Updated socketing infortmation for superior items.
 
 Added slight highlighting to chests and class weapons, when shopping for crafting bases, if those bases are a low vendor price (Less that 60k Gold) on the Show Recipes filter level.
+
+Slightly altered unique item accenting colors on PD2 Exclusive uniques to distinquish them from "low tier uniques".
