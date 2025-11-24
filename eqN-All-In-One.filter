@@ -6220,7 +6220,7 @@ ItemDisplay[!SHOP WEAPON 1H MAG SOCK=4 !STAT360=32]: %NAME%{%DARK_GREEN%|%RED%::
 ItemDisplay[!SHOP HELM MAG SOCK=3 !STAT360=32]: %NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Artisan's Helm   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
 
 //Low Price Crafting Bases - Part 2
-ItemDisplay[SHOP (CHEST OR STAFF OR SCEPTER OR WAND OR SIN) MAG BUYPRICE<60000 FILTLVL=6]: %NAME%%SAGE%
+ItemDisplay[SHOP (CHEST OR STAFF OR SCEPTER OR WAND OR SIN) MAG BUYPRICE<60000 FILTLVL=6]: %NAME%%SAGE%{%NAME%}
 
 //----------------------------------------- Vendor Colors -----------------------------------------
 
