@@ -5508,7 +5508,7 @@ ItemDisplay[(aqv3 OR cqv3) NMAG !INF !RW SOCK=2 CLVL<70]: %NAME%{%NAME%}
 // --- // --- NMAG WEAPONS (Runeword Bases) --- \\ --- \\
 
 //Wirt's Leg
-ItemDisplay[leg NMAG !MAPID=38]: %SOUNDID-1354%%NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
+ItemDisplay[leg NMAG MAPID=38]: %SOUNDID-1351%%NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
 ItemDisplay[leg NMAG]: %NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
 
 //Superior + Ethereal Failsafe
