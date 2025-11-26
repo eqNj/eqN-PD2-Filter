@@ -369,13 +369,13 @@ ItemDisplay[yps (MAPID=37 OR MAPID=133)]: %GREEN%%%GRAY%a%WHITE%{%TAN%Thy drugs 
 ItemDisplay[yps (MAPID=161 OR MAPID=162 OR MAPID=163)]: %BLACK%* %GREEN%%%GRAY%Anti%WHITE% %BLACK%*{%TAN%Thy drugs art quick.%NL%O true apothecary,%NL%%WHITE%Antidote Potion}
 ItemDisplay[(vps OR wms OR yps OR tsc OR isc) FILTLVL=0]: %NAME%{%NAME%}
 ItemDisplay[(vps OR wms OR yps OR tsc OR isc) CLVL>14]: {%NAME%}
-ItemDisplay[rkey]: %BORDER-0A%%GOLD%|%TAN%:    %GOLD%%NAME%    %TAN%:%GOLD%|{%TAN%will open a very heavy door.%NL%A very little key}
+ItemDisplay[rkey]: %SOUNDID-2585%%BORDER-0A%%GOLD%|%TAN%:    %GOLD%%NAME%    %TAN%:%GOLD%|{%TAN%will open a very heavy door.%NL%A very little key}
 ItemDisplay[key CLVL>9 SHOP]: {%WHITE%Item%DARK_GREEN%· %WHITE%= %TAN%High Defense Roll White Item%NL%%PURPLE%·%BLUE%Item%PURPLE%· %WHITE%= %TAN%Ideal Low Level Crafting Base%NL%%TEAL%·%BLUE%Item%TEAL%· %WHITE%= %TAN%Ideal Crafting Base for Current CLVL%NL%%PURPLE%« %WHITE%= %TAN%Useful Item for Low Level Dueling%NL%%LIGHT_GRAY%(%SAGE%¢%LIGHT_GRAY%) %WHITE%= %TAN%High Vendor Sell Price%NL%%GRAY%Any unintuitive filter symbology is explained here.%NL%%DARK_GREEN%Advanced Filter Key}
 ItemDisplay[key (CLVL<10 OR FILTLVL=0)]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
 ItemDisplay[key CLVL>9 FILTLVL>0]: {%TAN%The key is in the craft.}
 ItemDisplay[ear (MAPID=157 OR MAPID=159) FILTLVL=6]: %NAME%{%NAME%}
 ItemDisplay[ear (MAPID=157 OR MAPID=159)]: {%NAME%}
-ItemDisplay[ear]: %NAME%{%NAME%}
+ItemDisplay[ear]: %SOUNDID-233%%NAME%{%NAME%}
 
 //NMAG Arrows & Bolts - Part 1
 ItemDisplay[(cqv OR cqv2 OR cqv3) NMAG SOCK<2 CLVL<4]: %NAME%{%TAN%you only hit what you aim at.%NL%In the long run,}
@@ -442,7 +442,8 @@ ItemDisplay[cm1 MAG !ID ALVL<39 ALVL>36]: %DOT-A0%%TAN%( %GRAY%~ %PURPLE%: %BLUE
 ItemDisplay[cm2 MAG !ID ALVL<41 ALVL>37]: %DOT-A0%%TAN%( %PURPLE%: %BLUE%%NAME% %PURPLE%: %TAN%)%BLUE%
 ItemDisplay[(cm1 OR cm3) MAG !ID]: %DOT-A0%%TAN%( %GRAY%~ %BLUE%%NAME% %GRAY%~ %TAN%)%BLUE%
 ItemDisplay[cm2 MAG !ID]: %DOT-A0%%TAN%(  %BLUE%%NAME%  %TAN%)%BLUE%
-ItemDisplay[(cm1 OR cm2 OR cm3) UNI !ID]: %BORDER-62%%RED%(%GOLD%~%RED%:%GOLD%~     %GOLD%%NAME%     %GOLD%~%RED%:%GOLD%~%RED%)%GOLD%
+ItemDisplay[(cm1 OR cm2) UNI !ID]: %BORDER-62%%RED%(%GOLD%~%RED%:%GOLD%~     %GOLD%%NAME%     %GOLD%~%RED%:%GOLD%~%RED%)%GOLD%
+ItemDisplay[cm3 UNI !ID]: %SOUNDID-3912%%BORDER-62%%RED%(%GOLD%~%RED%:%GOLD%~     %GOLD%%NAME%     %GOLD%~%RED%:%GOLD%~%RED%)%GOLD%
 
 //Small Charms
 ItemDisplay[cm1 !UNI ALVL<39 ALVL>36]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%%TAN%Low Level Dueling Reroll Charm}%CONTINUE%
@@ -462,7 +463,7 @@ ItemDisplay[cm1 !UNI (MANA>9 OR RES>0 OR STAT31>9 OR MAXDMG>1 OR CRES>6 OR FRES>
 ItemDisplay[cm2 !UNI ALVL<41 ALVL>37]: %NAME%{%GOLD%Cube %WHITE%with 3x Perfect Gems%NL%%TAN%Low Level Dueling Reroll Charm}%CONTINUE%
 ItemDisplay[cm2 !UNI ((RES>5 OR MAXDMG>4) (LIFE>15 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm2 !UNI MANA>19 (LIFE>19 OR DEX>4 OR STR>4 OR FRW>0 OR FHR>0) LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
-ItemDisplay[cm2 !UNI ((STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2 OR IAS=5 OR FCR=5) (LIFE>11 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
+ItemDisplay[cm2 !UNI ((STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2 OR IAS>3 OR FCR>2) (LIFE>11 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
 ItemDisplay[cm2 !UNI ((STAT329>1 OR STAT330>1 OR STAT331>1 OR STAT332>1 OR STAT357>1) (DEX>4 OR STR>4 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
 ItemDisplay[cm2 !UNI ((AR>29 OR MAXDMG>1 OR RES>4) (LIFE>11 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE%
 ItemDisplay[cm2 !UNI MANA>14 (DEX>4 OR STR>4 OR FRW>0 OR FHR>0) LVLREQ<19]: %NAME%{%TAN%Level 18 Dueling Usable}%CONTINUE% 
@@ -470,7 +471,7 @@ ItemDisplay[cm2 !UNI LIFE=15 LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CON
 ItemDisplay[cm2 !UNI LIFE>11 (CRES>3 OR FRES>3 OR LRES>3 OR PRES>3 OR AR>9 OR MANA>0 OR STAT11>0 OR STAT54>0) LVLREQ<10]: %NAME%{%TAN%Level 9 Dueling Usable}%CONTINUE%
 ItemDisplay[cm2 !UNI ((RES>5 OR MAXDMG>4) (LIFE>15 OR DEX>4 OR STR>4 OR FRW>0 OR FHR>0)) LVLREQ<31]: %PURPLE%« %BLUE%%NAME% %PURPLE%»%BLUE%{%NAME%}
 ItemDisplay[cm2 !UNI MANA>19 (LIFE>19 OR DEX>4 OR STR>4 OR FRW>0 OR FHR>0) LVLREQ<31]: %PURPLE%« %BLUE%%NAME% %PURPLE%»%BLUE%{%NAME%}
-ItemDisplay[cm2 !UNI ((STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2 OR IAS=5 OR FCR=5) (LIFE>11 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %PURPLE%« %BLUE%%NAME% %PURPLE%»%BLUE%{%NAME%}
+ItemDisplay[cm2 !UNI ((STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2 OR IAS>3 OR FCR>2) (LIFE>11 OR DEX>3 OR STR>3 OR FRW>0 OR FHR>0)) LVLREQ<31]: %PURPLE%« %BLUE%%NAME% %PURPLE%»%BLUE%{%NAME%}
 
 //Grand Charms
 ItemDisplay[cm3 !UNI ((RES>9 OR MAXDMG>7 OR AR>89) (LIFE>19 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<31]: %DOT-A0%%NAME%{%TAN%Low Level Dueling Usable}%CONTINUE%
@@ -567,7 +568,8 @@ ItemDisplay[RUNE<15 CLVL>1]: %PX-68%%ORANGE%%RUNENAME% Rune %GRAY%[%WHITE%%RUNEN
 ItemDisplay[RUNE<15 CLVL=1]: %ORANGE%%RUNENAME% Rune %GRAY%[%WHITE%%RUNENUM%%GRAY%]%CONTINUE%
 ItemDisplay[RUNE>14 RUNE<20 QTY<2]: %PX-68%%TAN%]  %ORANGE%%RUNENAME% Rune %GRAY%[%TAN%%RUNENUM%%GRAY%]  %TAN%[%CONTINUE%
 ItemDisplay[RUNE>19 RUNE<26 QTY<2]: %DOT-62%%RED%]     %ORANGE%%RUNENAME% Rune %GRAY%[%RED%%RUNENUM%%GRAY%]     %RED%[%CONTINUE%
-ItemDisplay[RUNE>25 QTY<2]: %BORDER-68%%ORANGE%]%DARK_GREEN%:%ORANGE%[          %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %ORANGE%]%DARK_GREEN%:%ORANGE%[%CONTINUE%
+ItemDisplay[RUNE>25 QTY<2 !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-2555%%BORDER-68%%ORANGE%]%DARK_GREEN%:%ORANGE%[          %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %ORANGE%]%DARK_GREEN%:%ORANGE%[%CONTINUE%
+ItemDisplay[RUNE>25 QTY<2 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-68%%ORANGE%]%DARK_GREEN%:%ORANGE%[          %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %ORANGE%]%DARK_GREEN%:%ORANGE%[%CONTINUE%
 ItemDisplay[RUNE>14 RUNE<20 QTY>1]: %PX-68%%TAN%]  %ORANGE%%RUNENAME% Rune %GRAY%[%TAN%%RUNENUM%%GRAY%] %TAN%x %WHITE%%QTY%  %TAN%[%CONTINUE%
 ItemDisplay[RUNE>19 RUNE<26 QTY>1]: %DOT-68%%RED%]     %ORANGE%%RUNENAME% Rune %GRAY%[%RED%%RUNENUM%%GRAY%] %TAN%x %WHITE%%QTY%     %RED%[%CONTINUE%
 ItemDisplay[RUNE>25 QTY>1]: %BORDER-68%%ORANGE%]%DARK_GREEN%:%ORANGE%[          %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%] %TAN%x %WHITE%%QTY%          %ORANGE%]%DARK_GREEN%:%ORANGE%[%CONTINUE%
@@ -590,10 +592,11 @@ ItemDisplay[wss]: %MAP-4B%%NAME%{%RED%Warning%WHITE%: This can brick your item%N
 ItemDisplay[scrb]: %BORDER-62%%TAN%%LBRACE%%BLUE%O%TAN%%RBRACE%     %GOLD%%NAME%     %TAN%%LBRACE%%BLUE%O%TAN%%RBRACE%%GOLD%{%TAN%Shuffle the Deserts of Aranoch%NL%The Lineage of Great Mages}
 ItemDisplay[lmal]: %GRAY%:  %GOLD%%NAME%  %GRAY%:%GOLD%{%RED%Corruption %WHITE%and/or %GOLD%Puzzlepieces %WHITE%could result higher.%NL%}
 ItemDisplay[lpp]: %BORDER-0B%%YELLOW%|%GRAY%:    %GOLD%%NAME%    %GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
+ItemDisplay[lbox !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-2594%%BORDER-0C%%YELLOW%|%GRAY%:%YELLOW%|      %GOLD%%NAME%      %YELLOW%|%GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
 ItemDisplay[lbox]: %BORDER-0C%%YELLOW%|%GRAY%:%YELLOW%|      %GOLD%%NAME%      %YELLOW%|%GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
-ItemDisplay[imrn]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:          %PURPLE%%NAME%          %GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is very rare.%NL%%NL%%WHITE%Cannot be used on %RED%Corrupted %WHITE%items.}
-ItemDisplay[lsvl]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%-          %PURPLE%%NAME%          %BLUE%-%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%GOLD%Indestructible %WHITE%items cannot be made ethereal.}
-ItemDisplay[llmr]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%-          %PURPLE%%NAME%          %BLUE%-%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Once an item is %PURPLE%Mirrored %WHITE%it cannot be %GOLD%Cubed%WHITE%.%NL%Not usable on jewels of any kind.%NL%Usable on %BLUE%Magic %WHITE%/ %YELLOW%Rare %WHITE%/ %ORANGE%Crafted %WHITE%items.}
+ItemDisplay[imrn]: %SOUNDID-10%%BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:          %PURPLE%%NAME%          %GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is very rare.%NL%%NL%%WHITE%Cannot be used on %RED%Corrupted %WHITE%items.}
+ItemDisplay[lsvl]: %SOUNDID-2678%%BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%-          %PURPLE%%NAME%          %BLUE%-%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%GOLD%Indestructible %WHITE%items cannot be made ethereal.}
+ItemDisplay[llmr]: %SOUNDID-418%%BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%-          %PURPLE%%NAME%          %BLUE%-%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Once an item is %PURPLE%Mirrored %WHITE%it cannot be %GOLD%Cubed%WHITE%.%NL%Not usable on jewels of any kind.%NL%Usable on %BLUE%Magic %WHITE%/ %YELLOW%Rare %WHITE%/ %ORANGE%Crafted %WHITE%items.}
 ItemDisplay[iwss]: %MAP-4B%%GOLD%|  %PURPLE%%NAME%  %GOLD%|%PURPLE%{%TAN%What does it matter, the source of the catalyst?%NL%A series of vibrations.}
 
 //Crafting Orbs
@@ -654,7 +657,7 @@ ItemDisplay[cm1 UNI ID ALLSK>1]: %MAP-62%%ORANGE%+%RED%%NAME%
 
 //The Void
 ItemDisplay[rtmf]: %MAP-90%%BLUE%|%PURPLE%:   %ORANGE%%NAME%   %PURPLE%:%BLUE%|%ORANGE%{%WHITE%to create a %ORANGE%Trang-Oul's Jawbone%NL%%WHITE%with %ORANGE%Hellfire Ashes%NL%Cube %WHITE%two %ORANGE%Ancient Bone Fragments}
-ItemDisplay[rtmo]: %BORDER-90%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Splinter of the Void %WHITE%& %ORANGE%Hellfire Ashes%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[rtmo]: %SOUNDID-232%%BORDER-90%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Splinter of the Void %WHITE%& %ORANGE%Hellfire Ashes%NL%%GOLD%Cube %WHITE%this item with the following:}
 ItemDisplay[rtmv]: %BORDER-90%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Trang-Oul's Jawbone %WHITE%& %ORANGE%Hellfire Ashes%NL%%GOLD%Cube %WHITE%this item with the following:}
 ItemDisplay[cwss]: %BORDER-9B%%WHITE%:%BLUE%|%PURPLE%:      %RED%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%RED%{%RED%Warning%WHITE%: This can brick your %GOLD%Anni%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
 ItemDisplay[cm2f]: %BLUE%|%PURPLE%:   %ORANGE%%NAME%   %PURPLE%:%BLUE%|%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Splinter of the Void %WHITE%& %ORANGE%Trang-Oul's Jawbone%NL%%GOLD%Cube %WHITE%this item with the following:}
@@ -669,9 +672,9 @@ ItemDisplay[ubac]: %MAP-73%%DOT-57%%WHITE%·:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%W
 ItemDisplay[uba]: %BORDER-73%%MAP-40%%WHITE%·:%GOLD%|%WHITE%:·      %ORANGE%%NAME%     %WHITE%·:%GOLD%|%WHITE%:·%ORANGE%{%TAN%whom are to forever watch over the Worldstone.%NL%Come to meet the spirits of mighty barbarians%NL%%NL%%WHITE%Find your courage upon %ORANGE%The Arreat Summit%GRAY%...}
 
 //Lucion
-ItemDisplay[lucb]: %BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%WHITE%to create a %RED%Shadow of Hatred%NL%%ORANGE%Talisman of Transgression %WHITE%& %ORANGE%Flesh of Malic%NL%%GOLD%Cube %WHITE%this item with the following:}
-ItemDisplay[lucc]: %BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%WHITE%to create a %RED%Shadow of Hatred%NL%%ORANGE%Demonic Insignia %WHITE%& %ORANGE%Flesh of Malic%NL%%GOLD%Cube %WHITE%this item with the following:}
-ItemDisplay[lucd]: %BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%WHITE%to create a %RED%Shadow of Hatred%NL%%ORANGE%Demonic Insignia %WHITE%& %ORANGE%Talisman of Transgression%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[lucb]: %SOUNDID-2604%%BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%WHITE%to create a %RED%Shadow of Hatred%NL%%ORANGE%Talisman of Transgression %WHITE%& %ORANGE%Flesh of Malic%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[lucc]: %SOUNDID-2604%%BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%WHITE%to create a %RED%Shadow of Hatred%NL%%ORANGE%Demonic Insignia %WHITE%& %ORANGE%Flesh of Malic%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[lucd]: %SOUNDID-2604%%BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%WHITE%to create a %RED%Shadow of Hatred%NL%%ORANGE%Demonic Insignia %WHITE%& %ORANGE%Talisman of Transgression%NL%%GOLD%Cube %WHITE%this item with the following:}
 ItemDisplay[luca STAT185=0]: %BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%TAN%Easy Difficulty%NL%%NL%%WHITE%Alas, %ORANGE%Lucion %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A trinity of entry to whomst congregate:}
 ItemDisplay[luca STAT185=1]: %BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%TAN%Moderate Difficulty%NL%%NL%%WHITE%Alas, %ORANGE%Lucion %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singularity of entry to whomst congregate:}
 ItemDisplay[luca STAT185=2]: %BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%TAN%Extreme Difficulty%NL%%NL%%WHITE%Alas, %ORANGE%Lucion %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singularity of entry to whomst congregate:}
@@ -686,7 +689,7 @@ ItemDisplay[MAPTIER=3]: %NAME% %GRAY%[%ORANGE%T3%GRAY%]%CONTINUE%
 ItemDisplay[MAPTIER=4]: %NAME% %GRAY%[%RED%Dungeon%GRAY%]%CONTINUE%
 ItemDisplay[(t61 OR t62)]: %WHITE%%NAME% %GRAY%[%PURPLE%PvP%GRAY%]%CONTINUE%
 ItemDisplay[(t22 OR t12 OR t13 OR t23 OR t21 OR t33 OR t16 OR t15 OR t11 OR t14 OR t34 OR t36 OR t26 OR t31 OR t32 OR t25 OR t24 OR t35 OR t37 OR t38 OR t39 OR t3a OR t41 OR t42 OR t43 OR t44 OR t28 OR t27 OR t17) (!ID OR NMAG)]: %MAP-73%%DOT-57%%NAME%%CONTINUE%
-ItemDisplay[(t51 OR t52 OR t53 OR t54 OR t55) !ID]: %MAP-73%%DOT-57%%ORANGE%|%WHITE%:%YELLOW%|      %GOLD%%NAME%      %YELLOW%|%WHITE%:%ORANGE%|%GOLD%{%NAME%}
+ItemDisplay[(t51 OR t52 OR t53 OR t54 OR t55 OR t56) !ID]: %SOUNDID-2603%%MAP-73%%DOT-57%%ORANGE%|%WHITE%:%YELLOW%|      %GOLD%%NAME%      %YELLOW%|%WHITE%:%ORANGE%|%GOLD%{%NAME%}
 
 //Notes
 ItemDisplay[MAPTIER>0 MAG]: %NAME%{%WHITE%Visit %DARK_GREEN%Anya %WHITE%to %BLUE%Augment %WHITE%Maps}%CONTINUE%
@@ -5162,29 +5165,47 @@ ItemDisplay[(cqv OR cqv2 OR cqv3) !AMAZON RARE !ID CLVL<75]: %YELLOW%%NAME%
 ItemDisplay[(aqv OR aqv2 OR aqv3) !AMAZON RARE !ID]: %YELLOW%%NAME%
 
 //Diablo Clone Uniques
-ItemDisplay[UNI !ID utb]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Mirrored Boots
-ItemDisplay[UNI !ID uth]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Lacqueured Plate
-ItemDisplay[UNI !ID 7bs]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Conquest Sword
-ItemDisplay[UNI !ID 7qr]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Scissors Suwayyah
-ItemDisplay[UNI !ID uhl]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Giant Conch
-
+ItemDisplay[UNI !ID utb]: %SOUNDID-204%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Mirrored Boots
+ItemDisplay[UNI !ID uth]: %SOUNDID-204%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Lacqueured Plate
+ItemDisplay[UNI !ID 7bs]: %SOUNDID-204%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Conquest Sword
+ItemDisplay[UNI !ID 7qr]: %SOUNDID-204%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Scissors Suwayyah
+ItemDisplay[UNI !ID uhl]: %SOUNDID-204%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Giant Conch
+ItemDisplay[UNI utb]: %SOUNDID-204%%NAME%{%NAME%}
+ItemDisplay[UNI uth]: %SOUNDID-204%%NAME%{%NAME%}
+ItemDisplay[UNI 7bs]: %SOUNDID-204%%NAME%{%NAME%}
+ItemDisplay[UNI 7qr]: %SOUNDID-204%%NAME%{%NAME%}
+ItemDisplay[UNI uhl]: %SOUNDID-204%%NAME%{%NAME%}
 //The Void Uniques
-ItemDisplay[!ID ram]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Amulet
-ItemDisplay[!ID rar]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Boneweave
-ItemDisplay[!ID rbe]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Troll Belt
-ItemDisplay[rtp]: %BORDER-60%%GOLD%|%YELLOW%:     %GOLD%%NAME%     %YELLOW%:%GOLD%|{%NAME%} // Tome of Town Portal
-ItemDisplay[rid]: %BORDER-60%%GOLD%|%YELLOW%:     %GOLD%%NAME%     %YELLOW%:%GOLD%|{%NAME%} // Tome of Identify
+ItemDisplay[!ID ram]: %SOUNDID-2608%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Amulet
+ItemDisplay[!ID rar]: %SOUNDID-2608%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Boneweave
+ItemDisplay[!ID rbe]: %SOUNDID-2608%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Troll Belt
+ItemDisplay[ram]: %SOUNDID-2608%%NAME%{%NAME%}
+ItemDisplay[rar]: %SOUNDID-2608%%NAME%{%NAME%}
+ItemDisplay[rbe]: %SOUNDID-2608%%NAME%{%NAME%}
+
+ItemDisplay[rtp]: %SOUNDID-3650%%BORDER-60%%GOLD%|%YELLOW%:     %GOLD%%NAME%     %YELLOW%:%GOLD%|{%NAME%} // Infinite Tome of Town Portal
+ItemDisplay[rid]: %SOUNDID-3648%%BORDER-60%%GOLD%|%YELLOW%:     %GOLD%%NAME%     %YELLOW%:%GOLD%|{%NAME%} // Infinite Tome of Identify
 
 //Rainbow Facets
-ItemDisplay[jew UNI !ID]: %BORDER-60%%RED%:%ORANGE%:%YELLOW%:%GREEN%:%BLUE%:%PURPLE%:     %GOLD%%NAME%     %PURPLE%:%BLUE%:%GREEN%:%YELLOW%:%ORANGE%:%RED%:%GOLD%
+ItemDisplay[jew UNI !ID]: %SOUNDID-226%%BORDER-60%%RED%:%ORANGE%:%YELLOW%:%GREEN%:%BLUE%:%PURPLE%:     %GOLD%%NAME%     %PURPLE%:%BLUE%:%GREEN%:%YELLOW%:%ORANGE%:%RED%:%GOLD%
 
-//High-Tier Uniques
-ItemDisplay[(rin OR amu OR uar OR uui OR ulc OR urn OR ci3 OR xtb OR 6lw OR 7gw OR obf OR uhm) UNI !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
-//Only Eth
-ItemDisplay[((ELT SPEAR) OR (ELT POLEARM) OR (ELT 2H SWORD) OR 7ha OR 9la OR 7lw OR 7tw OR 7sc OR 7ws OR amd OR am9 OR am5 OR ame OR uvb OR 7bt OR 9gm OR 7gm OR 7s8 OR 7tw OR 7wh OR uul OR uhc) UNI ETH !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+//Audible Uniques
+ItemDisplay[rin UNI !ID]: %SOUNDID-205%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[amu UNI !ID]: %SOUNDID-241%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[ETH ELT (SPEAR OR POLEARM) UNI !ID]: %SOUNDID-250%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[ETH ELT 2H SWORD UNI !ID]: %SOUNDID-229%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[ETH ELT SCEPTER UNI !ID]: %SOUNDID-246%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[((ETH uul) OR uar) UNI !ID]: %SOUNDID-236%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[ETH uhc UNI !ID]: %SOUNDID-206%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[ETH uvb UNI !ID]: %SOUNDID-208%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 
 //Anniversary Uniques
 ItemDisplay[(6ws OR uap OR xhn OR dr6 OR uit) UNI !ID]: %BORDER-60%%GOLD%<%ORANGE%~%GOLD%:%ORANGE%~%GOLD%>     %NAME%     <%ORANGE%~%GOLD%:%ORANGE%~%GOLD%>
+
+//High-Tier Uniques
+ItemDisplay[(uui OR ulc OR urn OR ci3 OR xtb OR 6lw OR 7gw OR obf OR uhm) UNI !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+//Only Eth
+ItemDisplay[(7ha OR 9la OR 7lw OR 7qs OR amd OR am9 OR am5 OR ame OR ama OR amf OR 7bt OR 9gm OR 7gm OR 7s8 OR 7xf OR 7wb OR 9tw OR 7tw OR 7wh) UNI ETH !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 
 //Mid-Tier Uniques
 //Belts
@@ -5235,8 +5256,10 @@ ItemDisplay[(ob7 OR 7xf OR paf OR dr6 OR ba7 OR 9b8 OR uhc OR neg) UNI !ID]: %DO
 //PD2 Exclusive (Season 12)
 ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3 OR 6hb) UNI !ID]: %DOT-60%%TAN%~%YELLOW%:    %GOLD%%NAME%    %YELLOW%:%TAN%~
 
+//Cow King Set Items
+ItemDisplay[(xap OR stu OR vbt) (MAPID=39 OR MAPID=154) SET !ID]: %SOUNDID-1346%DOT-84%%PURPLE%~%DARK_GREEN%:   %GREEN%%NAME%   %DARK_GREEN%:%PURPLE%~%GREEN%
 //High-Tier Set Items
-ItemDisplay[(amu OR uar OR ci3 OR (ETH (7m7 OR 7qr OR 7ws OR 7gd OR 7fb))) SET !ID]: %MAP-84%%PURPLE%~%DARK_GREEN%:%PURPLE%~    %GREEN%%NAME%    %PURPLE%~%DARK_GREEN%:%PURPLE%~%GREEN%
+ItemDisplay[(amu OR uar OR ci3 OR (ETH (7m7 OR 7qr OR 7ws OR 7gd OR 7fb OR 7ls OR 6cs OR xul OR xhm))) SET !ID]: %MAP-84%%PURPLE%~%DARK_GREEN%:%PURPLE%~    %GREEN%%NAME%    %PURPLE%~%DARK_GREEN%:%PURPLE%~%GREEN%
 //Mid-Tier Set Items
 ItemDisplay[(rin OR uhm OR dr8 OR 7qr OR uth OR paf OR lbt OR lbl OR lgl OR ulg OR xmg OR uh9 OR 6cs) SET !ID]: %DOT-84%%PURPLE%~%DARK_GREEN%:   %GREEN%%NAME%   %DARK_GREEN%:%PURPLE%~%GREEN%
 
@@ -5258,8 +5281,8 @@ ItemDisplay[((lbb OR 7fb OR scy OR 9s8 OR 8cb OR am5 OR 6sw OR 8cs OR xcl OR 9wc
 ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0 OR ba5 OR lbt) !(9vo OR xcl OR xrn)) SET !ID]: %PX-84%%NAME%
 
 //Forces All Unique and Set Alerts (Relaxed)
-ItemDisplay[UNI !ID FILTLVL<2]: %PX-60%%NAME%%GOLD%
-ItemDisplay[SET !ID CLVL<80 FILTLVL<2]: %PX-84%%NAME%%GREEN%
+ItemDisplay[UNI !ID (FILTLVL<2 OR FILTLVL=6)]: %PX-60%%NAME%%GOLD%
+ItemDisplay[SET !ID CLVL<80 (FILTLVL<2 OR FILTLVL=6)]: %PX-84%%NAME%%GREEN%
 
 //Forces All Unique and Set Alerts (Medium+)
 ItemDisplay[UNI !ID CLVL<75 FILTLVL>1]: %PX-60%%NAME%%GOLD%
@@ -5483,6 +5506,7 @@ ItemDisplay[(aqv3 OR cqv3) NMAG !INF !RW SOCK=2 CLVL<70]: %NAME%{%NAME%}
 // --- // --- NMAG WEAPONS (Runeword Bases) --- \\ --- \\
 
 //Wirt's Leg
+ItemDisplay[leg NMAG !MAPID=38]: %SOUNDID-1354%%NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
 ItemDisplay[leg NMAG]: %NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
 
 //Superior + Ethereal Failsafe
@@ -6486,6 +6510,8 @@ ItemDisplay[utp UNI ((ALLSK>1 !STAT360=50) OR (ALLSK>2 STAT360=50)) SOCK>0]: %BO
 ItemDisplay[cm2 (STAT329>3 OR STAT330>3 OR STAT331>3 OR STAT332>3 OR STAT357>3)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
 ItemDisplay[lgl SET STAT110>69]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
 ItemDisplay[(9ar OR 7ar) UNI MULTI151,113>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
+ItemDisplay[7gd UNI REPAIR]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
+ItemDisplay[bae UNI TABSK33>2]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
 
 //----------------------------------------- Desecrated Amulets -----------------------------------------
 
