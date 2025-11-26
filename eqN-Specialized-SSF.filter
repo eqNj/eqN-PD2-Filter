@@ -12,7 +12,6 @@ ItemDisplayFilterName[]:Show Recipes (Relaxed)
 //----------------------------------------- Utilities -----------------------------------------
 
 //Show Item Names When Gambling
-ItemDisplay[NMAG !ID SHOP !(MAPID>132)]: %NAME%
 ItemDisplay[NMAG !ID SHOP amu]: %GOLD%Rising Sun%NL%Seraph's Hymn%NL%Saracen's Chance%NL%Nokozan Relic%NL%Metalgrid%NL%Mara's Kaleidoscope%NL%Mahim-Oak Curio%NL%Highlord's Wrath%NL%Eye of Etlich%NL%Crescent Moon%NL%Cat's Eye%NL%Atma's Scarab%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP jew]: %GOLD%Rainbow Facet%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP ci0]: %GOLD%Kira's Guardian%NL%%GOLD%Griffon's Eye%NL%%WHITE%%NAME%
@@ -175,6 +174,9 @@ ItemDisplay[NMAG !ID SHOP wnd]: %GOLD%Suicide Branch%NL%Torch of Iro%NL%%WHITE%%
 ItemDisplay[NMAG !ID SHOP ywn]: %GOLD%Carin Shard%NL%Maelstrom%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP bwn]: %GOLD%Boneshade%NL%Arm of King Leoric%NL%Gravenspine%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP gwn]: %GOLD%Death's Web%NL%Blackhand Key%NL%Ume's Lament%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP cqv]: %GOLD%Frozen Sorrow%NL%Bannerlord's Call%NL%Abyssal Ward%NL%Shatterhead%NL%Anvilguard Strap%NL%Ramfodder%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP aqv]: %GOLD%Doom's Finger%NL%Basilisk's Quill%NL%Aetherwing%NL%Tombsong%NL%Swiftwind Needle%NL%Balefire%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP]: %NAME%
 
 //Quest Items
 ItemDisplay[bks]: %NAME%{%TAN%Now rests Treehead Woodfist%NL%Ageless, protected by Wilds%NL%Torn bark of the Sacred Tree}

@@ -175,6 +175,8 @@ ItemDisplay[NMAG !ID SHOP wnd]: %GOLD%Suicide Branch%NL%Torch of Iro%NL%%WHITE%%
 ItemDisplay[NMAG !ID SHOP ywn]: %GOLD%Carin Shard%NL%Maelstrom%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP bwn]: %GOLD%Boneshade%NL%Arm of King Leoric%NL%Gravenspine%NL%%WHITE%%NAME%
 ItemDisplay[NMAG !ID SHOP gwn]: %GOLD%Death's Web%NL%Blackhand Key%NL%Ume's Lament%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP cqv]: %GOLD%Frozen Sorrow%NL%Bannerlord's Call%NL%Abyssal Ward%NL%Shatterhead%NL%Anvilguard Strap%NL%Ramfodder%NL%%WHITE%%NAME%
+ItemDisplay[NMAG !ID SHOP aqv]: %GOLD%Doom's Finger%NL%Basilisk's Quill%NL%Aetherwing%NL%Tombsong%NL%Swiftwind Needle%NL%Balefire%NL%%WHITE%%NAME%
 
 //Quest Items
 ItemDisplay[bks]: %NAME%{%TAN%Now rests Treehead Woodfist%NL%Ageless, protected by Wilds%NL%Torn bark of the Sacred Tree}
