@@ -656,7 +656,7 @@ ItemDisplay[ubtm]: %MAP-62%%BLACK%|%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%
 //Diablo Clone
 ItemDisplay[dcbl !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-759%%BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Black Soul Stone %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%WHITE%Found throughout %BLUE%Maps of Sanctuary%NL%%WHITE%Those wrought in %RED%Supreme Maleficence%NL%%GRAY%Manifested By:}
 ItemDisplay[dcbl (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Black Soul Stone %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%WHITE%Found throughout %BLUE%Maps of Sanctuary%NL%%WHITE%Those wrought in %RED%Supreme Maleficence%NL%%GRAY%Manifested By:}
-ItemDisplay[dcho !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-34%%BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%The Pandemonium Event%NL%%GRAY%Manifested By:}
+ItemDisplay[dcho !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-1190%%BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%The Pandemonium Event%NL%%GRAY%Manifested By:}
 ItemDisplay[dcho (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%The Pandemonium Event%NL%%GRAY%Manifested By:}
 ItemDisplay[dcso !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-746%%BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Black Soul Stone%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%BLUE%Mephisto, Lord of Hatred%NL%%RED%Diablo, Lord of Terror%NL%%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Manifested By:}
 ItemDisplay[dcso (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Black Soul Stone%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%BLUE%Mephisto, Lord of Hatred%NL%%RED%Diablo, Lord of Terror%NL%%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Manifested By:}
@@ -5194,6 +5194,7 @@ ItemDisplay[UNI uth]: %SOUNDID-4638%%NAME%{%NAME%}
 ItemDisplay[UNI 7bs]: %SOUNDID-4638%%NAME%{%NAME%}
 ItemDisplay[UNI 7qr]: %SOUNDID-4638%%NAME%{%NAME%}
 ItemDisplay[UNI uhl]: %SOUNDID-4638%%NAME%{%NAME%}
+
 //The Void Uniques
 ItemDisplay[!ID ram]: %SOUNDID-2608%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Amulet
 ItemDisplay[!ID rar]: %SOUNDID-2608%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Boneweave
@@ -5276,7 +5277,7 @@ ItemDisplay[(ob7 OR 7xf OR paf OR dr6 OR ba7 OR 9b8 OR uhc OR neg) UNI !ID]: %DO
 ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3 OR 6hb) UNI !ID]: %DOT-60%%TAN%~%YELLOW%:    %GOLD%%NAME%    %YELLOW%:%TAN%~
 
 //Cow King Set Items
-ItemDisplay[(xap OR stu OR vbt) (MAPID=39 OR MAPID=154) SET !ID]: %SOUNDID-1346%DOT-84%%PURPLE%~%DARK_GREEN%:   %GREEN%%NAME%   %DARK_GREEN%:%PURPLE%~%GREEN%
+ItemDisplay[(xap OR stu OR vbt) (MAPID=39 OR MAPID=154) SET !ID]: %SOUNDID-1346%%DOT-84%%PURPLE%~%DARK_GREEN%:   %GREEN%%NAME%   %DARK_GREEN%:%PURPLE%~%GREEN%
 //High-Tier Set Items
 ItemDisplay[(amu OR uar OR ci3 OR (ETH (7m7 OR 7qr OR 7ws OR 7gd OR 7fb OR 7ls OR 6cs OR xul OR xhm))) SET !ID]: %MAP-84%%PURPLE%~%DARK_GREEN%:%PURPLE%~    %GREEN%%NAME%    %PURPLE%~%DARK_GREEN%:%PURPLE%~%GREEN%
 //Mid-Tier Set Items
