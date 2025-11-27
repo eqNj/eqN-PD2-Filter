@@ -5227,7 +5227,7 @@ ItemDisplay[(6ws OR uap OR xhn OR dr6 OR uit) UNI !ID]: %BORDER-60%%GOLD%<%ORANG
 //High-Tier Uniques
 ItemDisplay[(uui OR ulc OR urn OR ci3 OR xtb OR 6lw OR 7gw OR obf OR uhm) UNI !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 //Only Eth
-ItemDisplay[(7ha OR 9la OR 7lw OR 7qs OR amd OR am9 OR am5 OR ame OR ama OR amf OR 7bt OR 9gm OR 7gm OR 7s8 OR 7xf OR 7wb OR 9tw OR 7tw OR 7wh) UNI ETH !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[(7ha OR 9la OR 7lw OR 7qs OR amd OR am9 OR am5 OR ame OR ama OR amf OR 7bt OR 9gm OR 7gm OR 7s8 OR 7xf OR 7wb OR 9tw OR 7tw OR 7wh OR 7kr) UNI ETH !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 
 //Mid-Tier Uniques
 //Belts
