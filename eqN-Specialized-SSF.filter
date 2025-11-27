@@ -179,15 +179,18 @@ ItemDisplay[NMAG !ID SHOP aqv]: %GOLD%Doom's Finger%NL%Basilisk's Quill%NL%Aethe
 ItemDisplay[NMAG !ID SHOP]: %NAME%
 
 //Quest Items
-ItemDisplay[bks]: %SOUNDID-2542%%NAME%{%TAN%Now rests Treehead Woodfist%NL%Ageless, protected by Wilds%NL%Torn bark of the Sacred Tree}
+ItemDisplay[bks !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-2542%%NAME%{%TAN%Now rests Treehead Woodfist%NL%Ageless, protected by Wilds%NL%Torn bark of the Sacred Tree}
+ItemDisplay[bks (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%{%TAN%Now rests Treehead Woodfist%NL%Ageless, protected by Wilds%NL%Torn bark of the Sacred Tree}
 ItemDisplay[bkd]: %NAME%{%TAN%Find the sage Deckard Cain%NL%Behest a Demigod imp, Rakanishu%NL%A portal to Tristram awaits}
-ItemDisplay[hdm]: %SOUNDID-940%%NAME%{%TAN%Bestowed to the Sisters of the Sightless Eye%NL%Enchanted by ancient Horadric Mages%NL%Crafted in necessity of the Sin War} 
+ItemDisplay[hdm !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-940%%NAME%{%TAN%Bestowed to the Sisters of the Sightless Eye%NL%Enchanted by ancient Horadric Mages%NL%Crafted in necessity of the Sin War}
+ItemDisplay[hdm (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%{%TAN%Bestowed to the Sisters of the Sightless Eye%NL%Enchanted by ancient Horadric Mages%NL%Crafted in necessity of the Sin War}
 ItemDisplay[tr1]: %NAME%{%TAN%Onward, the Tomb of Tal Rasha%NL%Found, the details of the binding of Baal%NL%Slain, Radament the Fallen, mummified Horadrim}
 ItemDisplay[ass]: %GOLD%Book of Skill{%GOLD%Right click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned are those who stay awhile and listen.}
 ItemDisplay[msf]: %NAME%{%TAN%A relic of royalty, withered of dust%NL%Beneath the tunnels woven of Arthropods}
 ItemDisplay[vip]: %NAME%{%TAN%Fangskin the Salamander abides%NL%An endless eclipse, buried in scales%NL%Amidst the darkness, an amulet unworn}
 ItemDisplay[hst]: %NAME%{%TAN%The Mage Clans united%NL%In Archangel Tyrael confided%NL%The Dark Exile provided}
-ItemDisplay[j34]: %SOUNDID-204%%NAME%{%TAN%As shaped of Man%NL%Smelted by Lightning%NL%A stone of Music}
+ItemDisplay[j34 !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-202%%NAME%{%TAN%As shaped of Man%NL%Smelted by Lightning%NL%A stone of Music}
+ItemDisplay[j34 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%{%TAN%As shaped of Man%NL%Smelted by Lightning%NL%A stone of Music}
 ItemDisplay[g34]: %NAME%{%TAN%Death is the life After%NL%The ashes of Ku Y'leh%NL%An urn of Immortality}
 ItemDisplay[xyz]: %GOLD%Potion of Life{%GOLD%Right click to Drink%NL%%GRAY%(Grants +20 to Maximum Life Permanently)%NL%%NL%%TAN%Forever is composed of nows.}
 ItemDisplay[g33]: %NAME%{%TAN%Lost in fervor of Zakarum%NL%Furnished by Skatsimi%NL%Point edged of Sorcery}
