@@ -179,15 +179,15 @@ ItemDisplay[NMAG !ID SHOP cqv]: %GOLD%Frozen Sorrow%NL%Bannerlord's Call%NL%Abys
 ItemDisplay[NMAG !ID SHOP aqv]: %GOLD%Doom's Finger%NL%Basilisk's Quill%NL%Aetherwing%NL%Tombsong%NL%Swiftwind Needle%NL%Balefire%NL%%WHITE%%NAME%
 
 //Quest Items
-ItemDisplay[bks]: %NAME%{%TAN%Now rests Treehead Woodfist%NL%Ageless, protected by Wilds%NL%Torn bark of the Sacred Tree}
+ItemDisplay[bks]: %SOUNDID-2542%%NAME%{%TAN%Now rests Treehead Woodfist%NL%Ageless, protected by Wilds%NL%Torn bark of the Sacred Tree}
 ItemDisplay[bkd]: %NAME%{%TAN%Find the sage Deckard Cain%NL%Behest a Demigod imp, Rakanishu%NL%A portal to Tristram awaits}
-ItemDisplay[hdm]: %NAME%{%TAN%Bestowed to the Sisters of the Sightless Eye%NL%Enchanted by ancient Horadric Mages%NL%Crafted in necessity of the Sin War} 
+ItemDisplay[hdm]: %SOUNDID-940%%NAME%{%TAN%Bestowed to the Sisters of the Sightless Eye%NL%Enchanted by ancient Horadric Mages%NL%Crafted in necessity of the Sin War} 
 ItemDisplay[tr1]: %NAME%{%TAN%Onward, the Tomb of Tal Rasha%NL%Found, the details of the binding of Baal%NL%Slain, Radament the Fallen, mummified Horadrim}
 ItemDisplay[ass]: %GOLD%Book of Skill{%GOLD%Right click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned are those who stay awhile and listen.}
 ItemDisplay[msf]: %NAME%{%TAN%A relic of royalty, withered of dust%NL%Beneath the tunnels woven of Arthropods}
 ItemDisplay[vip]: %NAME%{%TAN%Fangskin the Salamander abides%NL%An endless eclipse, buried in scales%NL%Amidst the darkness, an amulet unworn}
 ItemDisplay[hst]: %NAME%{%TAN%The Mage Clans united%NL%In Archangel Tyrael confided%NL%The Dark Exile provided}
-ItemDisplay[j34]: %NAME%{%TAN%As shaped of Man%NL%Smelted by Lightning%NL%A stone of Music}
+ItemDisplay[j34]: %SOUNDID-204%%NAME%{%TAN%As shaped of Man%NL%Smelted by Lightning%NL%A stone of Music}
 ItemDisplay[g34]: %NAME%{%TAN%Death is the life After%NL%The ashes of Ku Y'leh%NL%An urn of Immortality}
 ItemDisplay[xyz]: %GOLD%Potion of Life{%GOLD%Right click to Drink%NL%%GRAY%(Grants +20 to Maximum Life Permanently)%NL%%NL%%TAN%Forever is composed of nows.}
 ItemDisplay[g33]: %NAME%{%TAN%Lost in fervor of Zakarum%NL%Furnished by Skatsimi%NL%Point edged of Sorcery}
@@ -617,14 +617,18 @@ ItemDisplay[std]: %PX-62%%YELLOW%|%GRAY%:%TAN%>     %GOLD%%NAME%     %YELLOW%<%G
 
 //Project Diablo 2 Items
 ItemDisplay[wss]: %MAP-4B%%NAME%{%RED%Warning%WHITE%: This can brick your item%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
-ItemDisplay[scrb]: %BORDER-62%%TAN%%LBRACE%%BLUE%O%TAN%%RBRACE%     %GOLD%%NAME%     %TAN%%LBRACE%%BLUE%O%TAN%%RBRACE%%GOLD%{%TAN%Shuffle the Deserts of Aranoch%NL%The Lineage of Great Mages}
+ItemDisplay[scrb !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-585%%BORDER-62%%TAN%%LBRACE%%BLUE%O%TAN%%RBRACE%     %GOLD%%NAME%     %TAN%%LBRACE%%BLUE%O%TAN%%RBRACE%%GOLD%{%TAN%Shuffle the Deserts of Aranoch%NL%The Lineage of Great Mages}
+ItemDisplay[scrb (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-62%%TAN%%LBRACE%%BLUE%O%TAN%%RBRACE%     %GOLD%%NAME%     %TAN%%LBRACE%%BLUE%O%TAN%%RBRACE%%GOLD%{%TAN%Shuffle the Deserts of Aranoch%NL%The Lineage of Great Mages}
 ItemDisplay[lmal]: %GRAY%:  %GOLD%%NAME%  %GRAY%:%GOLD%{%RED%Corruption %WHITE%and/or %GOLD%Puzzlepieces %WHITE%could result higher.%NL%}
 ItemDisplay[lpp]: %BORDER-0B%%YELLOW%|%GRAY%:    %GOLD%%NAME%    %GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
 ItemDisplay[lbox !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-2594%%BORDER-0C%%YELLOW%|%GRAY%:%YELLOW%|      %GOLD%%NAME%      %YELLOW%|%GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
-ItemDisplay[lbox]: %BORDER-0C%%YELLOW%|%GRAY%:%YELLOW%|      %GOLD%%NAME%      %YELLOW%|%GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
-ItemDisplay[imrn]: %SOUNDID-10%%BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:          %PURPLE%%NAME%          %GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is very rare.%NL%%NL%%WHITE%Cannot be used on %RED%Corrupted %WHITE%items.}
-ItemDisplay[lsvl]: %SOUNDID-2678%%BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%-          %PURPLE%%NAME%          %BLUE%-%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%GOLD%Indestructible %WHITE%items cannot be made ethereal.}
-ItemDisplay[llmr]: %SOUNDID-418%%BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%-          %PURPLE%%NAME%          %BLUE%-%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Once an item is %PURPLE%Mirrored %WHITE%it cannot be %GOLD%Cubed%WHITE%.%NL%Not usable on jewels of any kind.%NL%Usable on %BLUE%Magic %WHITE%/ %YELLOW%Rare %WHITE%/ %ORANGE%Crafted %WHITE%items.}
+ItemDisplay[lbox (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-0C%%YELLOW%|%GRAY%:%YELLOW%|      %GOLD%%NAME%      %YELLOW%|%GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
+ItemDisplay[imrn !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-10%%BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:          %PURPLE%%NAME%          %GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is very rare.%NL%%NL%%WHITE%Cannot be used on %RED%Corrupted %WHITE%items.}
+ItemDisplay[lsvl !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-2678%%BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%-          %PURPLE%%NAME%          %BLUE%-%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%GOLD%Indestructible %WHITE%items cannot be made ethereal.}
+ItemDisplay[llmr !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-418%%BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%-          %PURPLE%%NAME%          %BLUE%-%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Once an item is %PURPLE%Mirrored %WHITE%it cannot be %GOLD%Cubed%WHITE%.%NL%Not usable on jewels of any kind.%NL%Usable on %BLUE%Magic %WHITE%/ %YELLOW%Rare %WHITE%/ %ORANGE%Crafted %WHITE%items.}
+ItemDisplay[imrn (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:          %PURPLE%%NAME%          %GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is very rare.%NL%%NL%%WHITE%Cannot be used on %RED%Corrupted %WHITE%items.}
+ItemDisplay[lsvl (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%-          %PURPLE%%NAME%          %BLUE%-%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%GOLD%Indestructible %WHITE%items cannot be made ethereal.}
+ItemDisplay[llmr (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%-          %PURPLE%%NAME%          %BLUE%-%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Once an item is %PURPLE%Mirrored %WHITE%it cannot be %GOLD%Cubed%WHITE%.%NL%Not usable on jewels of any kind.%NL%Usable on %BLUE%Magic %WHITE%/ %YELLOW%Rare %WHITE%/ %ORANGE%Crafted %WHITE%items.}
 ItemDisplay[iwss]: %MAP-4B%%GOLD%|  %PURPLE%%NAME%  %GOLD%|%PURPLE%{%TAN%What does it matter, the source of the catalyst?%NL%A series of vibrations.}
 
 //Crafting Orbs
@@ -671,9 +675,12 @@ ItemDisplay[dhn]: %MAP-08%%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%ORANGE%
 ItemDisplay[ubtm]: %MAP-62%%BLACK%|%GRAY%:%RED%|   %ORANGE%%NAME%   %RED%|%GRAY%:%BLACK%|%ORANGE%{%WHITE%Alas, %ORANGE%Uber Tristram %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A quaternity of entry to whomst congregate:}
 
 //Diablo Clone
-ItemDisplay[dcbl]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Black Soul Stone %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%WHITE%Found throughout %BLUE%Maps of Sanctuary%NL%%WHITE%Those wrought in %RED%Supreme Maleficence%NL%%GRAY%Manifested By:}
-ItemDisplay[dcho]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%The Pandemonium Event%NL%%GRAY%Manifested By:}
-ItemDisplay[dcso]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Black Soul Stone%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%BLUE%Mephisto, Lord of Hatred%NL%%RED%Diablo, Lord of Terror%NL%%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Manifested By:}
+ItemDisplay[dcbl !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-759%%BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Black Soul Stone %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%WHITE%Found throughout %BLUE%Maps of Sanctuary%NL%%WHITE%Those wrought in %RED%Supreme Maleficence%NL%%GRAY%Manifested By:}
+ItemDisplay[dcbl (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Black Soul Stone %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%WHITE%Found throughout %BLUE%Maps of Sanctuary%NL%%WHITE%Those wrought in %RED%Supreme Maleficence%NL%%GRAY%Manifested By:}
+ItemDisplay[dcho !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-34%%BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%The Pandemonium Event%NL%%GRAY%Manifested By:}
+ItemDisplay[dcho (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Prime Evil Soul%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%The Pandemonium Event%NL%%GRAY%Manifested By:}
+ItemDisplay[dcso !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-746%%BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Black Soul Stone%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%BLUE%Mephisto, Lord of Hatred%NL%%RED%Diablo, Lord of Terror%NL%%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Manifested By:}
+ItemDisplay[dcso (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%WHITE%To create a %RED%Vision of Terror%NL%%ORANGE%Pure Demonic Essence %WHITE%& %ORANGE%Black Soul Stone%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%BLUE%Mephisto, Lord of Hatred%NL%%RED%Diablo, Lord of Terror%NL%%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Manifested By:}
 ItemDisplay[dcma STAT185=0]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %ORANGE%%NAME%      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%BLUE%TIer: 0%NL%%DARK_GREEN%Easy Difficulty%NL%%NL%%WHITE%Alas, %ORANGE%Diablo %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A trinity of entry to whomst congregate:}
 ItemDisplay[dcma STAT185=1]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %RED%+%ORANGE%%NAME%%RED%+      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%TAN%Moderate Difficulty%NL%%NL%%WHITE%Alas, %ORANGE%Diablo %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singularity of entry to whomst congregate:}
 ItemDisplay[dcma STAT185=2]: %BORDER-0A%%RED%:%BLACK%|%GRAY%:%RED%|      %RED%++%ORANGE%%NAME%%RED%++      %RED%|%GRAY%:%BLACK%|%RED%:%ORANGE%{%RED%Extreme Difficulty%NL%%NL%%WHITE%Alas, %ORANGE%Diablo %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singularity of entry to whomst congregate:}
@@ -685,8 +692,10 @@ ItemDisplay[cm1 UNI ID ALLSK>1]: %MAP-62%%ORANGE%+%RED%%NAME%
 
 //The Void
 ItemDisplay[rtmf]: %MAP-90%%BLUE%|%PURPLE%:   %ORANGE%%NAME%   %PURPLE%:%BLUE%|%ORANGE%{%WHITE%to create a %ORANGE%Trang-Oul's Jawbone%NL%%WHITE%with %ORANGE%Hellfire Ashes%NL%Cube %WHITE%two %ORANGE%Ancient Bone Fragments}
-ItemDisplay[rtmo]: %SOUNDID-232%%BORDER-90%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Splinter of the Void %WHITE%& %ORANGE%Hellfire Ashes%NL%%GOLD%Cube %WHITE%this item with the following:}
-ItemDisplay[rtmv]: %BORDER-90%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Trang-Oul's Jawbone %WHITE%& %ORANGE%Hellfire Ashes%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[rtmo !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-232%%BORDER-90%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Splinter of the Void %WHITE%& %ORANGE%Hellfire Ashes%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[rtmv !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-2610%%BORDER-90%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Trang-Oul's Jawbone %WHITE%& %ORANGE%Hellfire Ashes%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[rtmo (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-90%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Splinter of the Void %WHITE%& %ORANGE%Hellfire Ashes%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[rtmv (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-90%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Trang-Oul's Jawbone %WHITE%& %ORANGE%Hellfire Ashes%NL%%GOLD%Cube %WHITE%this item with the following:}
 ItemDisplay[cwss]: %BORDER-9B%%WHITE%:%BLUE%|%PURPLE%:      %RED%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%RED%{%RED%Warning%WHITE%: This can brick your %GOLD%Anni%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
 ItemDisplay[cm2f]: %BLUE%|%PURPLE%:   %ORANGE%%NAME%   %PURPLE%:%BLUE%|%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Splinter of the Void %WHITE%& %ORANGE%Trang-Oul's Jawbone%NL%%GOLD%Cube %WHITE%this item with the following:}
 ItemDisplay[rtma STAT185=0]: %BORDER-97%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%BLUE%TIer: 0%NL%%DARK_GREEN%Easy Difficulty%NL%%NL%%WHITE%Alas, %ORANGE%Rathma %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A trinity of entry to whomst congregate:}
@@ -700,9 +709,12 @@ ItemDisplay[ubac]: %MAP-73%%DOT-57%%WHITE%·:%GOLD%|   %ORANGE%%NAME%   %GOLD%|%W
 ItemDisplay[uba]: %BORDER-73%%MAP-40%%WHITE%·:%GOLD%|%WHITE%:·      %ORANGE%%NAME%     %WHITE%·:%GOLD%|%WHITE%:·%ORANGE%{%TAN%whom are to forever watch over the Worldstone.%NL%Come to meet the spirits of mighty barbarians%NL%%NL%%WHITE%Find your courage upon %ORANGE%The Arreat Summit%GRAY%...}
 
 //Lucion
-ItemDisplay[lucb]: %SOUNDID-2604%%BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%WHITE%to create a %RED%Shadow of Hatred%NL%%ORANGE%Talisman of Transgression %WHITE%& %ORANGE%Flesh of Malic%NL%%GOLD%Cube %WHITE%this item with the following:}
-ItemDisplay[lucc]: %SOUNDID-2604%%BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%WHITE%to create a %RED%Shadow of Hatred%NL%%ORANGE%Demonic Insignia %WHITE%& %ORANGE%Flesh of Malic%NL%%GOLD%Cube %WHITE%this item with the following:}
-ItemDisplay[lucd]: %SOUNDID-2604%%BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%WHITE%to create a %RED%Shadow of Hatred%NL%%ORANGE%Demonic Insignia %WHITE%& %ORANGE%Talisman of Transgression%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[lucb !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-2604%%BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%WHITE%to create a %RED%Shadow of Hatred%NL%%ORANGE%Talisman of Transgression %WHITE%& %ORANGE%Flesh of Malic%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[lucc !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-2604%%BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%WHITE%to create a %RED%Shadow of Hatred%NL%%ORANGE%Demonic Insignia %WHITE%& %ORANGE%Flesh of Malic%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[lucd !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %SOUNDID-2604%%BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%WHITE%to create a %RED%Shadow of Hatred%NL%%ORANGE%Demonic Insignia %WHITE%& %ORANGE%Talisman of Transgression%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[lucb (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%WHITE%to create a %RED%Shadow of Hatred%NL%%ORANGE%Talisman of Transgression %WHITE%& %ORANGE%Flesh of Malic%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[lucc (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%WHITE%to create a %RED%Shadow of Hatred%NL%%ORANGE%Demonic Insignia %WHITE%& %ORANGE%Flesh of Malic%NL%%GOLD%Cube %WHITE%this item with the following:}
+ItemDisplay[lucd (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%WHITE%to create a %RED%Shadow of Hatred%NL%%ORANGE%Demonic Insignia %WHITE%& %ORANGE%Talisman of Transgression%NL%%GOLD%Cube %WHITE%this item with the following:}
 ItemDisplay[luca STAT185=0]: %BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%TAN%Easy Difficulty%NL%%NL%%WHITE%Alas, %ORANGE%Lucion %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A trinity of entry to whomst congregate:}
 ItemDisplay[luca STAT185=1]: %BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%TAN%Moderate Difficulty%NL%%NL%%WHITE%Alas, %ORANGE%Lucion %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singularity of entry to whomst congregate:}
 ItemDisplay[luca STAT185=2]: %BORDER-0A%%DARK_GREEN%:%GRAY%|%SAGE%:%LIGHT_GRAY%|      %ORANGE%%NAME%      %LIGHT_GRAY%|%SAGE%:%GRAY%|%DARK_GREEN%:%ORANGE%{%TAN%Extreme Difficulty%NL%%NL%%WHITE%Alas, %ORANGE%Lucion %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singularity of entry to whomst congregate:}
@@ -5194,16 +5206,16 @@ ItemDisplay[(cqv OR cqv2 OR cqv3) !AMAZON RARE !ID CLVL<75]: %YELLOW%%NAME%
 ItemDisplay[(aqv OR aqv2 OR aqv3) !AMAZON RARE !ID]: %YELLOW%%NAME%
 
 //Diablo Clone Uniques
-ItemDisplay[UNI !ID utb]: %SOUNDID-204%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Mirrored Boots
-ItemDisplay[UNI !ID uth]: %SOUNDID-204%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Lacqueured Plate
-ItemDisplay[UNI !ID 7bs]: %SOUNDID-204%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Conquest Sword
-ItemDisplay[UNI !ID 7qr]: %SOUNDID-204%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Scissors Suwayyah
-ItemDisplay[UNI !ID uhl]: %SOUNDID-204%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Giant Conch
-ItemDisplay[UNI utb]: %SOUNDID-204%%NAME%{%NAME%}
-ItemDisplay[UNI uth]: %SOUNDID-204%%NAME%{%NAME%}
-ItemDisplay[UNI 7bs]: %SOUNDID-204%%NAME%{%NAME%}
-ItemDisplay[UNI 7qr]: %SOUNDID-204%%NAME%{%NAME%}
-ItemDisplay[UNI uhl]: %SOUNDID-204%%NAME%{%NAME%}
+ItemDisplay[UNI !ID utb]: %SOUNDID-34%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Mirrored Boots
+ItemDisplay[UNI !ID uth]: %SOUNDID-34%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Lacqueured Plate
+ItemDisplay[UNI !ID 7bs]: %SOUNDID-34%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Conquest Sword
+ItemDisplay[UNI !ID 7qr]: %SOUNDID-34%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Scissors Suwayyah
+ItemDisplay[UNI !ID uhl]: %SOUNDID-34%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Giant Conch
+ItemDisplay[UNI utb]: %SOUNDID-34%%NAME%{%NAME%}
+ItemDisplay[UNI uth]: %SOUNDID-34%%NAME%{%NAME%}
+ItemDisplay[UNI 7bs]: %SOUNDID-34%%NAME%{%NAME%}
+ItemDisplay[UNI 7qr]: %SOUNDID-34%%NAME%{%NAME%}
+ItemDisplay[UNI uhl]: %SOUNDID-34%%NAME%{%NAME%}
 //The Void Uniques
 ItemDisplay[!ID ram]: %SOUNDID-2608%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Amulet
 ItemDisplay[!ID rar]: %SOUNDID-2608%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Boneweave
