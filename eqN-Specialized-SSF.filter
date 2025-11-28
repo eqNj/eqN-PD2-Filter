@@ -4990,7 +4990,7 @@ ItemDisplay[7cr2 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%
 //----------------------------------------- Notes about Runewords and Socketing -----------------------------------------
 
 //Chest, Head, Shield, Quiver
-ItemDisplay[QUIVER !INF SOCK=2 NMAG !RW !FILTLVL=6]: %NAME%{%GRAY%Echo%NL%Ancient's Foresight, Ancient's Scripture%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
+ItemDisplay[QUIVER !INF SOCK=2 NMAG !RW !FILTLVL=6]: %NAME%{%GRAY%Echo%NL%Ancient's Foresight, Ancient's Scripture%NL%%GOLD%Runewords:}%CONTINUE%
 ItemDisplay[CHEST !INF SOCK=2 NMAG !RW !FILTLVL=6]: %NAME%{%GRAY%Prudence, Smoke, Stealth%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
 ItemDisplay[CHEST !INF SOCK=3 NMAG !RW !FILTLVL=6]: %NAME%{%GRAY%Principle, Rain, Treachery, Wealth%NL%Hustle, Lionheart, Myth, Peace%NL%Enigma, Enlightenment, Gloom%NL%%GOLD%Runewords: %GRAY%Bone, Dragon, Duress%NL%%NAME%}%CONTINUE%
 ItemDisplay[CHEST !INF SOCK=4 NMAG !RW !FILTLVL=6]: %NAME%{%GRAY%Innocence, Stone%NL%Chains of Honor, Fortitude%NL%%GOLD%Runewords: %GRAY%Bramble%NL%%NAME%}%CONTINUE%
@@ -5124,7 +5124,7 @@ ItemDisplay[NMAG !RW !SHOP FILTLVL=6 MACE !(whm OR 9wh OR 7wh OR mau OR 9m9 OR 7
 ItemDisplay[NMAG !RW !SHOP FILTLVL=6 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) SOCK=6]: %NAME%{%GOLD%Rapture %GRAY%Vex + Jah + Lo + Ral + Ko + Mal%NL%%GOLD%Silence %GRAY%Dol + Eld + Hel + Ist + Tir + Vex%NL%%GOLD%Last Wish %GRAY%Jah + Mal + Jah + Sur + Jah + Ber%NL%%GOLD%Breath of the Dying %GRAY%Vex + Hel + El + Eld + Zod + Eth%NL%%GOLD%Asylum %GRAY%Gul + Cham + Hel + Jah + Dol + Um%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%																																						// Mace (Hammer) 6s
 ItemDisplay[NMAG !RW !SHOP FILTLVL=6 THROWING SOCK=2]: %NAME%{%GOLD%Zephyr %GRAY%Ort + Eth%NL%%GOLD%Wind %GRAY%Sur + El%NL%%GOLD%Strength %GRAY%Amn + Tir%NL%%GOLD%Steel %GRAY%Tir + El%NL%%GOLD%Echo %GRAY%Sol + Dol%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%																																															// Sword 2s
 ItemDisplay[NMAG !RW !SHOP FILTLVL=6 THROWING SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%GOLD%Plague %GRAY%Cham + Fal + Um%NL%%GOLD%Malice %GRAY%Ith + El + Eth%NL%%GOLD%Lawbringer %GRAY%Amn + Lem + Ko%NL%%GOLD%King's Grace %GRAY%Amn + Ral + Thul%NL%%GOLD%Fury %GRAY%Jah + Gul + Eth%NL%%GOLD%Crescent Moon %GRAY%Shael + Um + Tir%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%																										// Sword 3s
-ItemDisplay[NMAG !RW !SHOP FILTLVL=6 QUIVER SOCK=2]: %NAME%{%GOLD%Echo %GRAY%Sol + Dol%NL%%GOLD%Ancient's Scripture %GRAY%Tal + Ort%NL%%GOLD%Ancient's Foresight %GRAY%Ral + Thul%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%																																															// Sword 2s
+ItemDisplay[NMAG !RW !SHOP FILTLVL=6 QUIVER SOCK=2]: %NAME%{%GOLD%Echo %GRAY%Sol + Dol%NL%%GOLD%Ancient's Scripture %GRAY%Tal + Ort%NL%%GOLD%Ancient's Foresight %GRAY%Ral + Thul%NL%%GOLD%Runewords:}%CONTINUE%																																															// Sword 2s
 
 //Note for Cube Socketing
 ItemDisplay[CHEST !INF SOCK=0 NMAG ILVL>20 !SHOP]: %NAME%{%WHITE%Socket: %ORANGE%Tal %WHITE%+ %ORANGE%Thul %WHITE%+ %YELLOW%@%NL%%NAME%}%CONTINUE%
@@ -5315,15 +5315,17 @@ ItemDisplay[SET !ID CLVL<75 FILTLVL>1]: %PX-84%%NAME%%GREEN%
 
 //Arrows & Bolts
 ItemDisplay[(aqv OR aqv2 OR aqv3) MAG !ID CLVL>69 DIFF<2 (FILTLVL<2 OR FILTLVL=4 OR FILTLVL=6)]: %BLUE%%NAME%
-ItemDisplay[(cqv OR cqv2 OR cqv3) MAG !ID CLVL>74 DIFF<2 (FILTLVL<2 OR FILTLVL=4 OR FILTLVL=6)]: %BLUE%%NAME%
-ItemDisplay[(aqv OR aqv2) MAG !ID CLVL<70 (FILTLVL<2 OR FILTLVL=4 OR FILTLVL=6)]: %BLUE%%NAME%
-ItemDisplay[(cqv OR cqv2) MAG !ID CLVL<60 (FILTLVL<2 OR FILTLVL=4 OR FILTLVL=6)]: %BLUE%%NAME%
-ItemDisplay[aqv3 MAG !ID CLVL<80 (FILTLVL<2 OR FILTLVL=4 OR FILTLVL=6)]: %BLUE%%NAME%
-ItemDisplay[cqv3 MAG !ID CLVL<70 (FILTLVL<2 OR FILTLVL=4 OR FILTLVL=6)]: %BLUE%%NAME%
-ItemDisplay[(aqv3 OR cqv3) MAG !ID AMAZON ((CLVL>69 FILTLVL<2) OR (CLVL<70 FILTLVL>1))]: %BLUE%%NAME%
-ItemDisplay[(aqv OR aqv2 OR aqv3) MAG !ID CLVL<35 FILTLVL=2]: %BLUE%%NAME%
-ItemDisplay[(cqv OR cqv2 OR cqv3) MAG !ID CLVL<30 FILTLVL=2]: %BLUE%%NAME%
-ItemDisplay[(aqv OR aqv2 OR aqv3) MAG !ID CLVL<12 (FILTLVL=3 OR FILTLVL=5)]: %BLUE%%NAME%
+ItemDisplay[(cqv OR cqv2 OR cqv3) MAG !ID CLVL>69 DIFF<2 (FILTLVL<2 OR FILTLVL=4 OR FILTLVL=6)]: %BLUE%%NAME%
+ItemDisplay[(aqv OR aqv2) MAG !ID CLVL<80 (FILTLVL<2 OR FILTLVL=4 OR FILTLVL=6)]: %BLUE%%NAME%
+ItemDisplay[(cqv OR cqv2) MAG !ID CLVL<70 (FILTLVL<2 OR FILTLVL=4 OR FILTLVL=6)]: %BLUE%%NAME%
+ItemDisplay[aqv3 MAG !ID CLVL<85 (FILTLVL<2 OR FILTLVL=4 OR FILTLVL=6)]: %BLUE%%NAME%
+ItemDisplay[cqv3 MAG !ID CLVL<75 (FILTLVL<2 OR FILTLVL=4 OR FILTLVL=6)]: %BLUE%%NAME%
+ItemDisplay[(aqv OR cqv) MAG !ID AMAZON ((FILTLVL<2 OR FILTLVL=4 OR FILTLVL=6) OR (CLVL<60 FILTLVL>1))]: %BLUE%%NAME%
+ItemDisplay[(aqv2 OR cqv2) MAG !ID AMAZON ((FILTLVL<2 OR FILTLVL=4 OR FILTLVL=6) OR (CLVL<70 FILTLVL>1))]: %BLUE%%NAME%
+ItemDisplay[(aqv2 OR aqv3 OR cqv3) MAG !ID AMAZON ((FILTLVL<2 OR FILTLVL=4 OR FILTLVL=6) OR (CLVL<80 FILTLVL>1))]: %BLUE%%NAME%
+ItemDisplay[(aqv OR aqv2 OR aqv3) MAG !ID CLVL<60 FILTLVL=2]: %BLUE%%NAME%
+ItemDisplay[(cqv OR cqv2 OR cqv3) MAG !ID CLVL<60 FILTLVL=2]: %BLUE%%NAME%
+ItemDisplay[(aqv OR aqv2 OR aqv3) MAG !ID CLVL<20 (FILTLVL=3 OR FILTLVL=5)]: %BLUE%%NAME%
 
 //Magic Craftables\\
 
@@ -5948,7 +5950,7 @@ ItemDisplay[SOR SORCERESS MAG !ID (FILTLVL<3 OR FILTLVL=4 OR FILTLVL=6 OR (CLVL<
 ItemDisplay[BAR BARBARIAN MAG !ID (FILTLVL<3 OR FILTLVL=4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
 ItemDisplay[DRU DRUID MAG !ID (FILTLVL<3 OR FILTLVL=4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
 ItemDisplay[(ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR skr OR 7qr OR 9qr) ASSASSIN MAG !ID (FILTLVL<3 OR FILTLVL=4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=5)))]: %DOT-97%%TIER-1%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[ZON AMAZON RARE !ID (FILTLVL<3 OR FILTLVL=4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
+ItemDisplay[(ZON OR QUIVER) AMAZON RARE !ID (FILTLVL<3 OR FILTLVL=4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
 ItemDisplay[(NEC OR WAND) NECROMANCER RARE !ID (FILTLVL<3 OR FILTLVL=4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
 ItemDisplay[(DIN OR SCEPTER) PALADIN RARE !ID (FILTLVL<3 OR FILTLVL=4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
 ItemDisplay[(SOR OR STAFF) SORCERESS RARE !ID (FILTLVL<3 OR FILTLVL=4 OR FILTLVL=6 OR (CLVL<75 (FILTLVL=3 OR FILTLVL=5)))]:  %DOT-A8%%NAME%{%NAME%} // (Leveling)
