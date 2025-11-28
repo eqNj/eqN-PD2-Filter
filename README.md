@@ -661,6 +661,8 @@ Introduced a new filter version, 'eqN-Specialized-SSF'. This version is particul
 
 ## 1.11.0 - (Season 12)
 
+Perfected the Specialized-SSF filter and its "Potionless - Relaxed" filter level.
+
 Added flavorful drop sounds to certain high rarity items.
 
 Added notes to the most relevant of now-legacy items due to Unique item changes.
@@ -672,6 +674,8 @@ Added slighty special highlighting to the uniques capable of being a 5 Year Anni
 Added highlighting for all of the new Unique items introduced.
 
 Added highlighting for LLD IAS and FCR charms.
+
+Updated relevant filter lines for the newly improved 4 socket elite staff base.
 
 Ensured Magic and Rare quivers of all tiers show a bit more leniently in lieu of their ability to now be crafted.
 
