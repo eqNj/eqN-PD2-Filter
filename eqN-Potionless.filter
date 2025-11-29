@@ -5572,7 +5572,9 @@ ItemDisplay[EXC THROWING !(ZON TABSK2<3) NMAG !INF !RW ETH BARBARIAN !SOCK<2 CLV
 ItemDisplay[NORM THROWING !(ZON TABSK2<3) NMAG !INF !RW ETH BARBARIAN !SOCK<2 CLVL<50]: %NAME%{%NAME%} // Normal Throwing Weapons for Barbarians (Leveling)
 
 //Bows/Crossbows
-ItemDisplay[BOW NMAG !INF !RW TABSK0>2 !SOCK=1 !(SOCK=2 CLVL>29) (!NORM CLVL>59) AMAZON CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Amazon Bows (Leveling)
+ItemDisplay[BOW NMAG !INF !RW TABSK0>2 !SOCK=1 !(SOCK=2 CLVL>29) AMAZON CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Amazon Bows (Leveling)
+ItemDisplay[BOW NMAG !INF !RW TABSK0>2 !SOCK=1 !(SOCK=2 CLVL>59) AMAZON]: %NAME%{%NAME%} // Amazon Bows
+ItemDisplay[BOW NMAG !INF !RW TABSK0>2 !SOCK=1 !(SOCK=2 CLVL>29) (FILTLVL<2 OR FILTLVL=6)]: %NAME%{%NAME%} // Amazon Bows
 ItemDisplay[(6l7 OR 6lw OR 6hx) NMAG !INF !RW (SOCK=0 OR SOCK=6) ED>7]: %DOT-D6%%NAME%{%NAME%} // Superior Asylum Bows & Crossbow
 ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=0 OR SOCK=4 OR SOCK=5) (FILTLVL<3 OR FILTLVL=6 OR (ED>3 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %DOT-D6%%NAME%{%NAME%} // 0 / 4 / 5 Socket Elite Amazon Bows
 ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=2 OR SOCK=3 OR SOCK=6) (FILTLVL<3 OR FILTLVL=6 OR (ED>3 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // 2 / 3 / 6 Socket Elite Amazon Bows
