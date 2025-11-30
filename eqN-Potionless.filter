@@ -2928,8 +2928,9 @@ ItemDisplay[neg ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 
 ItemDisplay[ned ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[nee ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
 ItemDisplay[nef ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 3%NL%%NAME%}%CONTINUE%//
-ItemDisplay[(aqv OR cqv) ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 1%NL%%NAME%}%CONTINUE%//
-ItemDisplay[(aqv2 OR aqv3 OR cqv2 OR cqv3) ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
+ItemDisplay[(aqv OR cqv) ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 1}%CONTINUE%//
+ItemDisplay[(aqv2 OR aqv3 OR cqv2 OR cqv3) ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 2}%CONTINUE%//
+
 //Weapon 0 Sockets
 ItemDisplay[hax ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 2%NL%%NAME%}%CONTINUE%//
 ItemDisplay[axe ((NMAG SOCK=0) OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: 4%NL%%NAME%}%CONTINUE%//
@@ -5013,7 +5014,7 @@ ItemDisplay[7cr2 (UNI OR SET OR RARE OR CRAFT) SOCK=0 STAT360>0]: %NAME%{%WHITE%
 //----------------------------------------- Notes about Runewords and Socketing -----------------------------------------
 
 //Chest, Head, Shield, Quiver
-ItemDisplay[QUIVER !INF SOCK=2 NMAG !RW !FILTLVL=6]: %NAME%{%GRAY%Echo%NL%Ancient's Foresight, Ancient's Scripture%NL%%GOLD%Runewords:}%CONTINUE%
+ItemDisplay[QUIVER !INF SOCK=2 NMAG !RW !FILTLVL=6]: %NAME%{%GRAY%Echo%NL%Ancient's Scripture%NL%Ancient's Foresight%NL%%GOLD%Runewords:}%CONTINUE%
 ItemDisplay[CHEST !INF SOCK=2 NMAG !RW !FILTLVL=6]: %NAME%{%GRAY%Prudence, Smoke, Stealth%NL%%GOLD%Runewords:%NL%%NAME%}%CONTINUE%
 ItemDisplay[CHEST !INF SOCK=3 NMAG !RW !FILTLVL=6]: %NAME%{%GRAY%Principle, Rain, Treachery, Wealth%NL%Hustle, Lionheart, Myth, Peace%NL%Enigma, Enlightenment, Gloom%NL%%GOLD%Runewords: %GRAY%Bone, Dragon, Duress%NL%%NAME%}%CONTINUE%
 ItemDisplay[CHEST !INF SOCK=4 NMAG !RW !FILTLVL=6]: %NAME%{%GRAY%Innocence, Stone%NL%Chains of Honor, Fortitude%NL%%GOLD%Runewords: %GRAY%Bramble%NL%%NAME%}%CONTINUE%
@@ -5209,16 +5210,16 @@ ItemDisplay[(cqv OR cqv2 OR cqv3) !AMAZON RARE !ID CLVL<75]: %YELLOW%%NAME%
 ItemDisplay[(aqv OR aqv2 OR aqv3) !AMAZON RARE !ID]: %YELLOW%%NAME%
 
 //Diablo Clone Uniques
-ItemDisplay[UNI !ID utb]: %SOUNDID-4638%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Mirrored Boots
-ItemDisplay[UNI !ID uth]: %SOUNDID-4638%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Lacqueured Plate
-ItemDisplay[UNI !ID 7bs]: %SOUNDID-4638%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Conquest Sword
-ItemDisplay[UNI !ID 7qr]: %SOUNDID-4638%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Scissors Suwayyah
-ItemDisplay[UNI !ID uhl]: %SOUNDID-4638%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Giant Conch
-ItemDisplay[UNI utb]: %SOUNDID-4638%%NAME%{%NAME%}
-ItemDisplay[UNI uth]: %SOUNDID-4638%%NAME%{%NAME%}
-ItemDisplay[UNI 7bs]: %SOUNDID-4638%%NAME%{%NAME%}
-ItemDisplay[UNI 7qr]: %SOUNDID-4638%%NAME%{%NAME%}
-ItemDisplay[UNI uhl]: %SOUNDID-4638%%NAME%{%NAME%}
+ItemDisplay[UNI !ID utb]: %SOUNDID-4639%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Mirrored Boots
+ItemDisplay[UNI !ID uth]: %SOUNDID-4639%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Lacqueured Plate
+ItemDisplay[UNI !ID 7bs]: %SOUNDID-4639%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Conquest Sword
+ItemDisplay[UNI !ID 7qr]: %SOUNDID-4639%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Scissors Suwayyah
+ItemDisplay[UNI !ID uhl]: %SOUNDID-4639%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Giant Conch
+ItemDisplay[UNI utb]: %SOUNDID-4639%%NAME%{%NAME%}
+ItemDisplay[UNI uth]: %SOUNDID-4639%%NAME%{%NAME%}
+ItemDisplay[UNI 7bs]: %SOUNDID-4639%%NAME%{%NAME%}
+ItemDisplay[UNI 7qr]: %SOUNDID-4639%%NAME%{%NAME%}
+ItemDisplay[UNI uhl]: %SOUNDID-4639%%NAME%{%NAME%}
 
 //The Void Uniques
 ItemDisplay[!ID ram]: %SOUNDID-2608%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Amulet
@@ -5235,8 +5236,8 @@ ItemDisplay[rid]: %SOUNDID-3648%%BORDER-60%%GOLD%|%YELLOW%:     %GOLD%%NAME%    
 ItemDisplay[jew UNI !ID]: %SOUNDID-226%%BORDER-60%%RED%:%ORANGE%:%YELLOW%:%GREEN%:%BLUE%:%PURPLE%:     %GOLD%%NAME%     %PURPLE%:%BLUE%:%GREEN%:%YELLOW%:%ORANGE%:%RED%:%GOLD%
 
 //Audible Uniques
-ItemDisplay[rin UNI !ID]: %SOUNDID-205%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
-ItemDisplay[amu UNI !ID]: %SOUNDID-241%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[rin UNI !ID]: %SOUNDID-241%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[amu UNI !ID]: %SOUNDID-205%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 ItemDisplay[ETH ELT (SPEAR OR POLEARM) UNI !ID]: %SOUNDID-250%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 ItemDisplay[ETH ELT 2H SWORD UNI !ID]: %SOUNDID-229%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 ItemDisplay[ETH ELT SCEPTER UNI !ID]: %SOUNDID-246%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
@@ -5962,9 +5963,10 @@ ItemDisplay[NMAG (9ws OR ELT) !INF !RW SK97>2 SCEPTER ((!SOCK=1 !(SOCK=2 !ELT) !
 //----------------------------------------- MISC Failsafes -----------------------------------------
 
 //General Class Item Failsafe
+ItemDisplay[GLOVES MAG (ASSASSIN OR AMAZON) !ID CLVL<80]: %NAME%{%NAME%} // (Leveling)
 ItemDisplay[WEAPON THROWING ELT MAG BARBARIAN !ID CLVL<80]: %NAME%{%NAME%} // (Leveling)
 ItemDisplay[WEAPON !BOW !SOR !SIN !ZON !WAND !STAFF ELT MAG (BARBARIAN OR DRUID OR PALADIN) !ID CLVL<80]: %NAME%{%NAME%} // (Leveling)
-ItemDisplay[(DAGGER OR SIN) ELT ASSASSIN MAG !ID CLVL<75]: %NAME%{%NAME%} // (Leveling)
+ItemDisplay[(DAGGER OR SIN) !(7ar OR 7xf OR 7qr) ELT ASSASSIN MAG !ID CLVL<75]: %NAME%{%NAME%} // (Leveling)
 ItemDisplay[WAND NECROMANCER MAG !ID CLVL<75]: %NAME%{%NAME%} // (Leveling)
 ItemDisplay[STAFF ELT SORCERESS MAG !ID CLVL<75]: %NAME%{%NAME%} // (Leveling)
 ItemDisplay[CLUB DRUID MAG !ID CLVL<75]: %NAME%{%NAME%} // (Leveling)
