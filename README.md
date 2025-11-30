@@ -8,7 +8,7 @@ You can find these loot filters either here (on GitHub) or through the Project D
 
 If you would like to contact me, find me in the official PD2 Discord with the name eqN.
 
-If ever so inclined, you can support my efforts by donating on [PayPal](https://www.paypal.com/donate/?business=65YT5QXDEURW8&no_recurring=0&currency_code=USD).
+If ever so inclined, you can support my efforts by donating on [PayPal](https://www.paypal.com/donate/?business=65YT5QXDEURW8&no_recurring=0&item_name=Loot+Filter+Designer&currency_code=USD).
 
 The version known as 'eqN-All-In-One' in the game launcher includes all other past versions of the filter, adjustable using the in-game settings for "filter level". 
 
