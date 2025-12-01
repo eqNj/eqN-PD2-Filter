@@ -5533,8 +5533,7 @@ ItemDisplay[(aqv3 OR cqv3) NMAG !INF !RW SOCK=2 CLVL<70]: %NAME%{%NAME%}
 // --- // --- NMAG WEAPONS (Runeword Bases) --- \\ --- \\
 
 //Wirt's Leg
-ItemDisplay[leg NMAG MAPID=38]: %SOUNDID-1351%%NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
-ItemDisplay[leg NMAG]: %NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
+ItemDisplay[leg NMAG]: %SOUNDID-1351%%NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
 
 //Superior + Ethereal Failsafe
 ItemDisplay[WEAPON !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !DAGGER !(TABSK2<3 (amd OR ame OR amf)) ELT NMAG !INF !RW !SOCK=1 !(SOCK=2 2H) ETH ED>9]: %DOT-D6%%NAME%{%NAME%} // All Useful Ethereal Weapons With 10%+ Enhanced Damage
