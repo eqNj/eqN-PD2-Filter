@@ -6046,7 +6046,7 @@ ItemDisplay[(ARMOR OR WEAPON) INF FILTLVL=0]: %NAME%{%GRAY%This is an inferior i
 //----------------------------------------- Shop Hunting Flags -----------------------------------------
 
 //Low Price Crafting Bases - Part 1
-ItemDisplay[SHOP (CHEST OR STAFF OR SCEPTER OR WAND OR SIN) MAG BUYPRICE<60000 FILTLVL=6]: %NAME%{%SAGE%Affordable Crafting Base%CL%%NAME%}%CONTINUE%
+ItemDisplay[SHOP (CHEST OR STAFF OR SCEPTER OR WAND OR SIN OR CLUB) MAG BUYPRICE<60000 FILTLVL=6]: %NAME%{%SAGE%Affordable Crafting Base%CL%%NAME%}%CONTINUE%
 
 //Low Level Shop Hunting
 ItemDisplay[SHOP WEAPON MAG ED>149 STAT360=0 ((am1 OR am5) OR (wax OR mpi OR fla OR whm OR lsd OR bld OR wsp OR wrb OR ces OR axf) OR (gix OR mau OR gma OR gsd OR pik OR wsc OR am4) OR (pil OR ssp OR glv OR tsp) OR (am6 OR ama) OR (9wa OR 9mp OR 9fl OR 9wh OR 9ls OR 9bl OR 9ws OR 9wb OR 9cs OR 9xf) OR (9gi OR 9m9 OR 9gm OR 9gd OR 9p9 OR 9wc) OR (9pi OR 9s9 OR 9gl OR 9ts) OR (am6 OR ama)) LVLREQ<31]: %DOT-9B%%GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%PURPLE%»   %TAN%High ED Corruptible   %PURPLE%«%NL%%NAME%}
@@ -6298,7 +6298,7 @@ ItemDisplay[!SHOP WEAPON 1H MAG SOCK=4 !STAT360=32]: %NAME%{%DARK_GREEN%|%RED%::
 ItemDisplay[!SHOP HELM MAG SOCK=3 !STAT360=32]: %NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Artisan's Helm   %DARK_GREEN%|%RED%::%DARK_GREEN%|}
 
 //Low Price Crafting Bases - Part 2
-ItemDisplay[SHOP (CHEST OR STAFF OR SCEPTER OR WAND OR SIN) MAG BUYPRICE<60000 FILTLVL=6]: %NAME%%SAGE%{%NAME%}
+ItemDisplay[SHOP (CHEST OR STAFF OR SCEPTER OR WAND OR SIN OR CLUB) MAG BUYPRICE<60000 FILTLVL=6]: %NAME%%SAGE%{%NAME%}
 
 //----------------------------------------- Vendor Colors -----------------------------------------
 
