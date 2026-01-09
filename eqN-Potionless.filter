@@ -5585,6 +5585,7 @@ ItemDisplay[6rx NMAG !INF !RW (SOCK=4 OR SOCK=5) (FILTLVL<3 OR FILTLVL=6 OR (ED>
 ItemDisplay[6rx NMAG !INF !RW (SOCK=0 OR SOCK=3) (FILTLVL<3 OR FILTLVL=6 OR (ED>3 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // 0 or 3 Socket Demon Crossbow
 ItemDisplay[(6rx OR 6lx OR 6mx) NMAG !INF !RW (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5) (FILTLVL<3 OR FILTLVL=6 OR (ED>7 (FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5)))]: %NAME%{%NAME%} // Other Elite Crossbows
 ItemDisplay[(BOW OR XBOW) NMAG !INF !RW SOCK=3 (!NORM CLVL>39) (CLVL<75 OR (FILTLVL>1 !FILTLVL=6 CLVL<60))]: %NAME%{%NAME%} // Purity Bows and Crossbows (Leveling)
+ItemDisplay[hxb NMAG !INF !RW SOCK=5 (FILTLVL=1 OR FILTLVL=6 OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // Call to Arms Crossbows
 ItemDisplay[8rx NMAG !INF !RW !SOCK=1 CLVL<60 DIFF<2]: %NAME%{%NAME%} // Chu-Ko-Nu (Leveling)
 
 //Daggers
