@@ -5561,7 +5561,6 @@ ItemDisplay[(BOW OR XBOW) NMAG !INF !RW SOCK=3 (!NORM CLVL>39) (CLVL<75 OR (FILT
 ItemDisplay[hxb NMAG !INF !RW SOCK=5 (FILTLVL=1 OR FILTLVL=6 OR (CLVL<75 FILTLVL>1))]: %NAME%{%NAME%} // Call to Arms Crossbows
 ItemDisplay[8rx NMAG !INF !RW !SOCK=1 CLVL<60 DIFF<2]: %NAME%{%NAME%} // Chu-Ko-Nu (Leveling)
 
-
 //Daggers
 ItemDisplay[(7bl OR 7dg OR 7di) ((SK257>2 (SK266>0 OR SK275>0)) OR (SK266>2 (SK257>0 OR SK275>0))) ETH NMAG !INF !SOCK=1]: %DOT-D6%%NAME%{%NAME%} // Ethereal Legend Spike, Bone Knife, or Mithril Point For Blade Assassin
 ItemDisplay[(7bl OR 7dg OR 7di) (SK257>2 OR SK266>2) ETH NMAG !INF !SOCK=1]: %NAME%{%NAME%} // Ethereal Legend Spike, Bone Knife, or Mithril Point For Blade Assassin
