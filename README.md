@@ -688,3 +688,5 @@ Updated socketing infortmation for superior items.
 Added slight highlighting to chests and class weapons, when shopping for crafting bases, if those bases are a low vendor price (Less that 60k Gold) on the Show Recipes filter level.
 
 Slightly altered unique item accenting colors on PD2 Exclusive uniques to distinquish them from "low tier uniques".
+
+Added subtle highlights for Exceptional and Elite items when shopping.
