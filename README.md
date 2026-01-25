@@ -690,3 +690,9 @@ Added slight highlighting to chests and class weapons, when shopping for craftin
 Slightly altered unique item accenting colors on PD2 Exclusive uniques to distinquish them from "low tier uniques".
 
 Added subtle highlights for Exceptional and Elite items when shopping.
+
+Muted some of the highlighting for Amp Damage and Lower Resist proc weapons (particularly those with low level procs) when shopping.
+
+Muted some of highlighting for Life Tap charges on Axes and Lower Resist Charges on Staves when shopping.
+
+Added highlighting for +3 Shadow Disciplines helmets when shopping.
