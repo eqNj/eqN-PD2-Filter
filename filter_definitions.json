@@ -1,0 +1,28 @@
+{
+    "filter_info": {
+        "1": {
+            "display_name": "eqN - All-In-One Filter",
+            "description": "A filter designed with a Vanilla+ aesthetic approach that doesn't overly editorialize.",
+            "file_name": "eqN-All-In-One.filter",
+            "file_name_beta": "eqN-All-In-One.filter"
+        },
+        "2": {
+            "display_name": "eqN - Potionless Filter",
+            "description": "A version of the eqN Filter that makes it so potions are always hidden at all filter levels.",
+            "file_name": "eqN-Potionless.filter",
+            "file_name_beta": "eqN-Potionless.filter"
+        },
+        "3": {
+            "display_name": "eqN - Specialized LLD Filter",
+            "description": "A specialized version of the eqN Filter that adds a massive amount of LLD (Low Level Dueling) features.",
+            "file_name": "eqN-Specialized-LLD.filter",
+            "file_name_beta": "eqN-Specialized-LLD.filter"
+        },
+        "4": {
+            "display_name": "eqN - Specialized SSF Filter",
+            "description": "A specialized version of the eqN Filter that removes all LLD (Low Level Dueling) features.",
+            "file_name": "eqN-Specialized-SSF.filter",
+            "file_name_beta": "eqN-Specialized-SSF.filter"
+        }
+    }
+}
