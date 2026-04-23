@@ -2039,7 +2039,7 @@ ItemDisplay[nef ETH (RW OR NMAG OR (MAG FILTLVL=6))]: %NAME%{%WHITE%Base Defense
 // --- // Non-Magic Items \\ --- \\
 
 //Armor 0 Sockets
-ItemDisplay[(WEAPON OR ARMOR) ((NMAG SOCK=0) OR (MAG SOCK=0 FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: %MAXSOCKETS%%NL%%NAME%}%CONTINUE%//
+ItemDisplay[(WEAPON OR ARMOR) ((NMAG SOCK=0) OR (MAG SOCK=0 FILTLVL=6))]: %NAME%{%WHITE%Max Sockets: %MAXSOCKETS%%CL%%NAME%}%CONTINUE%//
 
 // --- // Unique, Set, Rare, or Crafted Items \\ --- \\
 
@@ -4616,7 +4616,7 @@ ItemDisplay[(ARMOR OR WEAPON) INF FILTLVL=0]: %NAME%{%GRAY%This is an inferior i
 //----------------------------------------- Shop Hunting Flags -----------------------------------------
 
 //Low Price Crafting Bases - Part 1
-ItemDisplay[SHOP (CHEST OR STAFF OR SCEPTER OR WAND OR SIN OR CLUB) MAG BUYPRICE<60000 FILTLVL=6]: %NAME%{%SAGE%Affordable Crafting Base%CL%%NAME%}%CONTINUE%
+ItemDisplay[SHOP (CHEST OR STAFF OR SCEPTER OR WAND OR SIN OR CLUB) MAG CLVL>59 DIFF>0 BUYPRICE<60000 FILTLVL=6]: %NAME%{%SAGE%Affordable Crafting Base%CL%%NAME%}%CONTINUE%
 
 //Low Level Shop Hunting
 ItemDisplay[SHOP WEAPON MAG ED>149 STAT360=0 (!ETH OR (ETH REPAIR) OR (ETH (THROWING OR DAGGER OR SIN OR (2H !ZON)))) ((am1 OR am5) OR (wax OR mpi OR fla OR whm OR lsd OR bld OR wsp OR wrb OR ces OR axf) OR (gix OR mau OR gma OR gsd OR pik OR wsc OR am4) OR (pil OR ssp OR glv OR tsp) OR (am6 OR ama) OR (9wa OR 9mp OR 9fl OR 9wh OR 9ls OR 9bl OR 9ws OR 9wb OR 9cs OR 9xf) OR (9gi OR 9m9 OR 9gm OR 9gd OR 9p9 OR 9wc) OR (9pi OR 9s9 OR 9gl OR 9ts) OR (am6 OR ama)) LVLREQ<31]: %DOT-9B%%GREEN%--/--\--%NL%%BLUE%%NAME%%NL%%GREEN%--\--/--%BLUE%{%PURPLE%»   %TAN%High ED Corruptible   %PURPLE%«%NL%%NAME%}
@@ -4756,7 +4756,7 @@ ItemDisplay[SHOP EXC MAG]: %DARK_GREEN%%BASENAME%%CL%%BLUE%%NAME%%BLUE%{%NAME%}%
 ItemDisplay[SHOP ELT MAG]: %GREEN%%BASENAME%%CL%%BLUE%%NAME%%BLUE%{%NAME%}%CONTINUE%
 
 //Low Price Crafting Bases - Part 2
-ItemDisplay[SHOP (CHEST OR STAFF OR SCEPTER OR WAND OR SIN OR CLUB) MAG BUYPRICE<60000 FILTLVL=6]: %NAME%%SAGE%{%NAME%}
+ItemDisplay[SHOP (CHEST OR STAFF OR SCEPTER OR WAND OR SIN OR CLUB) MAG CLVL>59 DIFF>0 BUYPRICE<60000 FILTLVL=6]: %NAME%%SAGE%{%NAME%}
 
 //Low Level, "Out of the Shop"
 ItemDisplay[!SHOP WEAPON MAG ED>149 STAT360=0 (!ETH OR (ETH REPAIR) OR (ETH (THROWING OR DAGGER OR SIN OR (2H !ZON)))) ((am1 OR am5) OR (wax OR mpi OR fla OR whm OR lsd OR bld OR wsp OR wrb OR ces OR axf) OR (gix OR mau OR gma OR gsd OR pik OR wsc OR am4) OR (pil OR ssp OR glv OR tsp) OR (am6 OR ama) OR (9wa OR 9mp OR 9fl OR 9wh OR 9ls OR 9bl OR 9ws OR 9wb OR 9cs OR 9xf) OR (9gi OR 9m9 OR 9gm OR 9gd OR 9p9 OR 9wc) OR (9pi OR 9s9 OR 9gl OR 9ts) OR (am6 OR ama)) LVLREQ<31]: %DOT-9B%%BLUE%%NAME%{%PURPLE%»   %TAN%High ED Corruptible   %PURPLE%«%NL%%NAME%}
