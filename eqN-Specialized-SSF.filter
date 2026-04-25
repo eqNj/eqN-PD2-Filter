@@ -220,7 +220,7 @@ ItemDisplay[box FILTLVL=5]: %NAME%{%SAGE%Low Level Bases (Strict)%NL%%TAN%As abo
 ItemDisplay[box FILTLVL=6]: %NAME%{%SAGE%Show Recipes (Relaxed)%NL%%TAN%As above, so below.}
 
 //Gold (Special Thanks to BetweenWalls)
-ItemDisplay[GOLD<500 (MAPID=25 OR MAPID=37 OR MAPID=38 OR MAPID=73 OR MAPID=102 OR MAPID=132)]: %NAME%
+ItemDisplay[GOLD<500 (MAPID=25 OR MAPID=37 OR (MAPID=38 (FILTLVL<3 OR FILTLVL=6)) OR MAPID=73 OR MAPID=102 OR MAPID=132)]: %NAME%
 ItemDisplay[GOLD=42]: %NAME%
 ItemDisplay[GOLD=67]: %NAME%
 ItemDisplay[GOLD=69]: %NAME%
