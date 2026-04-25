@@ -4294,7 +4294,7 @@ ItemDisplay[SIN !(ktr OR wrb OR axf OR ces) (SK278>1 SK265>1) NMAG !INF !RW (SOC
 ItemDisplay[SIN ELT (((SK254>0 OR SK255>0 OR SK260>0) (SK275>0 SK278>0)) OR ((SK254>1 OR SK255>1 OR SK260>1) (SK252>0 OR SK275>0 OR SK278>0))) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=2)]: %NAME%{%NAME%} // Wind Claws with Utility
 
 //Superior Failsafe Part 2
-ItemDisplay[WEAPON !THROWING !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !DAGGER !(TABSK2<3 (amd OR ame)) ELT NMAG !INF !RW !SOCK=1 ED>11]: %NAME%{%NAME%} // All Useful Weapons With 12%+ Enhanced Damage
+ItemDisplay[WEAPON !THROWING !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !DAGGER !(TABSK2<3 (amd OR ame)) ELT NMAG !INF !RW !SOCK=1 ED>9]: %NAME%{%NAME%} // All Useful Weapons With 10%+ Enhanced Damage
 
 //Superior + Ethereal Failsafe Part 2
 ItemDisplay[WEAPON !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !DAGGER !(TABSK2<3 (amd OR ame OR amf)) ELT NMAG !INF !RW !SOCK=1 !(SOCK=2 2H ED<14) ETH (ED>3 OR ARPER>9)]: %NAME%{%NAME%} // All Useful Ethereal Weapons With Any Enhanced Damage or %AR
