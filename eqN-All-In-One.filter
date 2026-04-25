@@ -4271,7 +4271,7 @@ ItemDisplay[SIN ELT (((SK254>0 OR SK255>0 OR SK260>0) (SK275>0 SK278>0)) OR ((SK
 ItemDisplay[WEAPON !THROWING !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !DAGGER !(TABSK2<3 (amd OR ame)) ELT NMAG !INF !RW !SOCK=1 ED>9]: %NAME%{%NAME%} // All Useful Weapons With 10%+ Enhanced Damage
 
 //Superior + Ethereal Failsafe Part 2
-ItemDisplay[WEAPON !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !DAGGER !(TABSK2<3 (amd OR ame OR amf)) ELT NMAG !INF !RW !SOCK=1 !(SOCK=2 2H ED<14) ETH (ED>3 OR ARPER>9)]: %NAME%{%NAME%} // All Useful Ethereal Weapons With Any Enhanced Damage or %AR
+ItemDisplay[WEAPON !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !DAGGER !(TABSK2<3 (amd OR ame OR amf)) ELT NMAG !INF !RW !SOCK=1 !(SOCK=2 2H ED<14) ETH ED>3]: %NAME%{%NAME%} // All Useful Ethereal Weapons With Any Enhanced Damage
 
 //----------------------------------------- (+3) Class Specific Failsafes -----------------------------------------
 
