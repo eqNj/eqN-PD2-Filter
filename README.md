@@ -2,7 +2,7 @@
 
 ![Den](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Header.jpg)
 
-These filters are up-to-date for Season 12 of Project Diablo 2!
+These filters are up-to-date for Season 13 of Project Diablo 2!
 
 You can find these loot filters either here (on GitHub) or through the Project Diablo 2 game launcher.
 
@@ -28,7 +28,7 @@ The version known as 'eqN-Specialized-SSF' is the same as 'eqN-All-In-One', howe
 
 ## Brief Summary
 
-When using any filter level the following applies. All flawless and perfect gems always show. All runes always show. All charms always show. Unique and set items always show. Ethereal rare, magic, or elite non-magic (white) items always show. All non-magic (white) items with +3 to a useful skill always show. All elite non-magic superior items with 10%+ ED always show.
+When using any filter level the following applies. All flawless and perfect gems always show. All runes always show. All charms always show. Unique and set items always show. Ethereal rare, magic, or elite non-magic (white) items always show. All non-magic (white) items with +3 to a useful skill always show. All elite non-magic superior items with 12%+ ED always show.
 
 When using the default, 'Relaxed', filter level the above and the following apply. All elite non-magic (white) items always show. All rare items always show. All useful magic crafting bases always show. 
 
@@ -696,3 +696,5 @@ Muted some of the highlighting for Amp Damage and Lower Resist proc weapons (par
 Muted some of highlighting for Life Tap charges on Axes and Lower Resist Charges on Staves when shopping.
 
 Added highlighting for +3 Shadow Disciplines helmets when shopping.
+
+## 1.11.0 - (Season 13)
