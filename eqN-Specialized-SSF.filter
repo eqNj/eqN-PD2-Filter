@@ -3832,7 +3832,7 @@ ItemDisplay[((ELT DAGGER) OR THROWING OR 7ga OR 7bk OR 9s8 OR 9sr OR xcl OR 9cr 
 //Belts
 ItemDisplay[(zvb OR tbl) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Armors 
-ItemDisplay[(tbt OR utu OR lea OR hla OR fld OR uth) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
+ItemDisplay[(tbt OR utu OR lea OR hla OR uth) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Gloves
 ItemDisplay[(tgl OR xmg) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Helmets
@@ -3840,7 +3840,7 @@ ItemDisplay[(xsk OR xlm) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %T
 //Boots
 ItemDisplay[(lbt OR umb OR xmb) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Shields
-ItemDisplay[(ush OR upk OR pae) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
+ItemDisplay[(ush OR upk OR pae OR uml) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Weapons
 ItemDisplay[((ELT 2H MACE) OR (ELT SPEAR) OR (ELT POLEARM) OR 7gd OR 7p7 OR oba OR dgr OR 9fc OR 9gs OR 8ws OR 6l7 OR 7ha OR 9gm OR 7fl OR 7ga OR 9wn OR 7br OR 6hx OR 7bt OR 8sw) UNI !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 //Only Eth
@@ -3869,10 +3869,10 @@ ItemDisplay[(amu OR uar OR ci3 OR (ETH (7m7 OR 7qr OR 7ws OR 7gd OR 7fb OR 7ls O
 ItemDisplay[(rin OR uhm OR dr8 OR 7qr OR uth OR paf OR lbt OR lbl OR lgl OR ulg OR xmg OR uh9 OR 6cs) SET !ID]: %DOT-84%%PURPLE%~%DARK_GREEN%:   %GREEN%%NAME%   %DARK_GREEN%:%PURPLE%~%GREEN%
 
 //Low Level Dueling
-//ItemDisplay[!FILTLVL=5 (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xuc OR kit OR vgl OR mbt OR gth OR rxb) !ETH UNI !ID]: %YELLOW%~%PURPLE%: %GOLD%%NAME% %PURPLE%:%YELLOW%~{%NAME%}%CONTINUE%
+//ItemDisplay[!FILTLVL=5 (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR stu OR scl OR spl OR xuc OR kit OR vgl OR mbt OR gth OR rxb) !ETH UNI !ID]: %YELLOW%~%PURPLE%: %GOLD%%NAME% %PURPLE%:%YELLOW%~{%NAME%}%CONTINUE%
 //ItemDisplay[!FILTLVL=5 (lgl OR vbt OR vgl OR bwn OR xap) SET !ETH !ID]: %GREEN%~%PURPLE%: %GREEN%%NAME%  %PURPLE%:%GREEN%~{%NAME%}%CONTINUE%
 //Strict LLD
-//ItemDisplay[FILTLVL=5 (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xuc OR kit OR vgl OR mbt OR vbt OR (flb ILVL>40) OR gth OR hbt OR rxb) !ETH UNI !ID]: %DOT-60%%NAME% %GRAY%|%PURPLE%LLD%GRAY%|{%NAME%}
+//ItemDisplay[FILTLVL=5 (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR stu OR scl OR spl OR xuc OR kit OR vgl OR mbt OR vbt OR (flb ILVL>40) OR gth OR hbt OR rxb) !ETH UNI !ID]: %DOT-60%%NAME% %GRAY%|%PURPLE%LLD%GRAY%|{%NAME%}
 //ItemDisplay[FILTLVL=5 (lea OR hla OR ssd) UNI !ETH !ID]: %DOT-60%%NAME% %GRAY%|%PURPLE%vLLD%GRAY%|{%NAME%}
 //ItemDisplay[FILTLVL=5 (lgl OR vbt OR vgl OR bwn OR xap) SET !ETH !ID]: %DOT-84%%NAME% %GRAY%|%PURPLE%LLD%GRAY%|{%NAME%}
 //ItemDisplay[FILTLVL=5 (cap OR dgr OR mbl OR mbt OR lsd OR lbl OR hbt OR hgl OR tow) SET !ETH !ID]: %NAME% %GRAY%|%PURPLE%vLLD%GRAY%|{%NAME%}
@@ -5621,6 +5621,7 @@ ItemDisplay[(GLOVES OR BOOTS OR BELT) ELT MAG !ETH !ID !leg CLVL>84 (FILTLVL=3 O
 
 //Arrows & Bolts
 ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) MAG !ID (((FILTLVL<2 OR FILTLVL=4 OR FILTLVL=6) CLVL>59) OR (FILTLVL=2 CLVL>29) OR (FILTLVL=3 OR FILTLVL=5))]: {%NAME%}
+ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) NMAG (((FILTLVL<2 OR FILTLVL=4 OR FILTLVL=6) CLVL>49) OR (FILTLVL=2 CLVL>29) OR (FILTLVL=3 OR FILTLVL=5))]: {%NAME%}
 
 //Hiding NMAG Class Items (Low +Skill Items and/or Unrepairable Bases)
 ItemDisplay[(SOR OR WAND) ELT NMAG CLVL>79 FILTLVL>0]: {%NAME%}
