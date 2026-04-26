@@ -386,11 +386,15 @@ ItemDisplay[key CLVL>9 SHOP]: {%WHITE%Item%DARK_GREEN%· %WHITE%= %TAN%High Defe
 ItemDisplay[key (CLVL<10 OR FILTLVL=0)]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
 ItemDisplay[key CLVL>9 FILTLVL>0]: {%TAN%The key is in the craft.}
 
-//NMAG Arrows & Bolts - Part 1
-ItemDisplay[(cqv OR cqv2 OR cqv3) NMAG SOCK<2 CLVL<4]: %NAME%{%TAN%you only hit what you aim at.%NL%In the long run,}
-ItemDisplay[(cqv OR cqv2 OR cqv3) NMAG SOCK<2 CLVL>3]: {%TAN%you only hit what you aim at.%NL%In the long run,}
-ItemDisplay[(aqv OR aqv2 OR aqv3) NMAG SOCK<2 CLVL<4]: %NAME%{%TAN%you must aim a little above it.%NL%If you would hit the mark,}
-ItemDisplay[(aqv OR aqv2 OR aqv3) NMAG SOCK<2 CLVL>3]: {%TAN%you must aim a little above it.%NL%If you would hit the mark,}
+//NMAG Arrows & Bolts
+ItemDisplay[(cqv OR cqv2 OR cqv3) NMAG SOCK=0 (CLVL<4 OR SHOP)]: %NAME%{%TAN%you only hit what you aim at.%NL%In the long run,}
+ItemDisplay[(cqv OR cqv2 OR cqv3) NMAG SOCK=0 CLVL>3]: {%TAN%you only hit what you aim at.%NL%In the long run,}
+ItemDisplay[(aqv OR aqv2 OR aqv3) NMAG SOCK=0 (CLVL<4 OR SHOP)]: %NAME%{%TAN%you must aim a little above it.%NL%If you would hit the mark,}
+ItemDisplay[(aqv OR aqv2 OR aqv3) NMAG SOCK=0 CLVL>3]: {%TAN%you must aim a little above it.%NL%If you would hit the mark,}
+ItemDisplay[(cqv OR cqv2 OR cqv3) NMAG SOCK=1 CLVL<4 (CLVL<4 OR SHOP OR FILTLVL=0)]: %GRAY%%NAME% %TAN%<%WHITE%%SOCKETS%%TAN%>%GRAY%{%TAN%you only hit what you aim at.%NL%In the long run,}
+ItemDisplay[(cqv OR cqv2 OR cqv3) NMAG SOCK=1 CLVL>3]: {%TAN%you only hit what you aim at.%NL%In the long run,}
+ItemDisplay[(aqv OR aqv2 OR aqv3) NMAG SOCK=1 (CLVL<4 OR SHOP OR FILTLVL=0)]: %GRAY%%NAME% %TAN%<%WHITE%%SOCKETS%%TAN%>%GRAY%{%TAN%you must aim a little above it.%NL%If you would hit the mark,}
+ItemDisplay[(aqv OR aqv2 OR aqv3) NMAG SOCK=1 CLVL>3]: {%TAN%you must aim a little above it.%NL%If you would hit the mark,}
 
 //Ye Olde Throwing Potions
 ItemDisplay[opl (CLVL<10 OR FILTLVL=0)]: %RED%:%GRAY%f¹%WHITE%{%WHITE%Ye Olde Fulminating Potion}
