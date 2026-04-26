@@ -229,7 +229,6 @@ ItemDisplay[GOLD=666]: %NAME%
 ItemDisplay[GOLD=1337]: %NAME%
 ItemDisplay[GOLD=8008]: %NAME%
 ItemDisplay[GOLD=80085]: %NAME%
-ItemDisplay[GOLD=80085]: %DOT-0B%%NAME%
 ItemDisplay[GOLD<750 FILTLVL=2 CLVL>59]:
 ItemDisplay[GOLD<2500 FILTLVL<3 CLVL>74]:
 ItemDisplay[GOLD<5000 FILTLVL<3 CLVL>89]:
