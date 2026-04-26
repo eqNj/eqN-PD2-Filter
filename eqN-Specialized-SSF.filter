@@ -4923,9 +4923,9 @@ ItemDisplay[(WAND OR SOR) SOCK>0 EXC SET ID STAT486=0 STAT206=0 !SHOP !EQUIPPED 
 //Upgrades That Give +1 Socket
 ItemDisplay[!NMAG !MAG ID SOCK=0 !SHOP !EQUIPPED !MERC STAT486=0 STAT206=0 (8ls OR aqv OR cqv OR qui OR lea OR hla OR stu OR scl OR chn OR spl OR plt OR fld OR xui OR xea OR xla OR xtu OR buc OR xuc OR spk OR xpk OR bsh OR xsh OR hax OR clb OR mac OR ssd OR scm OR sbr OR flc OR dgr OR dir OR sst OR wnd OR ywn OR 9wn OR scp OR (ILVL>25 ((NEC NORM) OR lax OR bar OR sbw OR lxb OR ktr OR wrb OR axf OR ces)) OR (ILVL>40 (bhm OR xh9 OR ci0 OR ci1)))]: %NAME%{%GRAY%(Upgrade For +1 Max Socket)%CL%%NAME%}%CONTINUE%
 
-///Upgraded Requirements
+//Upgraded Requirements
 ItemDisplay[FILTLVL=6 STAT486=0 STAT206=0 !SHOP !EQUIPPED !MERC !NMAG !MAG !CIRC !SOR ID !ELT (ARMOR OR WEAPON)]: %NAME%{%NL%%WHITE%Upgraded Requirements:%NL%%NAME%}%CONTINUE% // Requirements Begin
-ItemDisplay[FILTLVL=6 STAT486=0 STAT206=0 !SHOP !EQUIPPED !MERC !NMAG !MAG !CIRC !SOR ID !ELT (aqv OR cqv OR aqv2 OR cqv2)]: %NAME%{%WHITE%Upgraded Level Required: %UPLVL%%NL%%NAME%}%CONTINUE% // Requirements Begin
+ItemDisplay[FILTLVL=6 STAT486=0 STAT206=0 !SHOP !EQUIPPED !MERC !NMAG !MAG !SOR ID !ELT (CIRC OR aqv OR cqv OR aqv2 OR cqv2)]: %NAME%{%WHITE%Upgraded Level Required: %UPLVL%%NL%%NAME%}%CONTINUE% // Requirements Begin
 
 //Upgraded Lvl Requirements
 ItemDisplay[FILTLVL=6 STAT486=0 STAT206=0 !SHOP !EQUIPPED !MERC !NMAG !MAG !CIRC !SOR ID !ELT (ARMOR OR WEAPON) UPLVL>0]: %NAME%{%UPLVL%%NAME%}%CONTINUE%  // Lvl Value
