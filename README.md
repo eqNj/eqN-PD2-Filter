@@ -697,6 +697,6 @@ Muted some of highlighting for Life Tap charges on Axes and Lower Resist Charges
 
 Added highlighting for +3 Shadow Disciplines helmets when shopping.
 
-## 1.11.0 - (Season 13)
+## 1.12.0 - (Season 13)
 
 Notes coming soon... Rest assured all bases covered. (Busy playing! :P)
