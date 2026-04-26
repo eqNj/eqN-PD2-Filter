@@ -699,4 +699,24 @@ Added highlighting for +3 Shadow Disciplines helmets when shopping.
 
 ## 1.12.0 - (Season 13)
 
-Notes coming soon... Rest assured all bases covered. (Busy playing! :P)
+Updated the maximum monster resistances for all old and new maps.
+
+Added notifications for all new maps.
+
+Added notifications for all new unique items and the new 'Corrupted Hero Ears'.
+
+Updated the minimum requirements for ensuring superior items show based on the updated superior item values, variable depending on filter strictness.
+
+Adjusted runeword base highlighting to ensure accounting for the changed runewords this season.
+
+Included new affixes in various item tags (skill gloves, deadly/crushing/pdr helms, etc).
+
+Updated several Legacy item highlights.
+
+Added small accents for LLD flat elemental damage charms.
+
+Adjusted the descriptions on Infusion Orbs to match the changed crafting results.
+
+Updated Gheed event with new uniques on applicable items.
+
+Refactored and condensed large portions of the filter code to improve optimization.
