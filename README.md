@@ -133,7 +133,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ##### Strict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons when they are likely to have a reasonable value in trading. Even at this level, all unique and set items will still show. Crafting bases shown are only those which are highly sought after. High gold value items stop being indicated at level 75. This filter level is useful for those who regularly run high density maps and are mostly only looking for items that are moderately easy to trade. 
 
-##### Super Strict - Ideal for those who perfer not picking up nor identifying many items. This is the only filter level that hides any unique or set items and flawless gems. Rest assured, however, that unique and set items are still never hidden at this filter level in the LLD or SSF filter versions. Designed to only show items universally considered worth picking up and/or identifying. Crafting bases shown are only those which drop rare. High gold value items stop being indicated at level 75. This filter level is useful for speed running maps and/or group dungeons and limits shown drops to only those with the highest potential trade value. 
+##### Super Strict - Ideal for those who perfer not picking up nor identifying many items. This is the only filter level that ever hides any unique or set items (normal tier) and flawless gems. Rest assured, however, that unique and set items are still never hidden at this filter level in the LLD or SSF filter versions. Designed to only show items universally considered worth picking up and/or identifying. Crafting bases shown are only those which drop rare. High gold value items stop being indicated at level 75. This filter level is useful for speed running maps and/or group dungeons and limits shown drops to only those with the highest potential trade value. 
 
 ##### Potionless - '(Potionless)' filter levels are essentially a copy of their respective filter level, however they hide all potions except for Full Rejuvenation Potions.
 
@@ -217,9 +217,9 @@ Non-magic (white) items are almost all hidden, unless highly sought after bases 
 
 Normal, exceptional, and elite magic items are hidden unless specifically useful for the class you are playing.
 
-Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, a class item, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level (85+) chest/shield.
+Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, a class item, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level (75+ 4 socket capable chest, or 85+) chest/shield.
 
-Only high-value unique and set items will notify on drop and most low-value leveling unique and set items are hidden.
+Only high-value unique and set items will notify on drop and most normal tier/low level unique and set items are hidden.
 (If using the 'Specialized LLD' or 'Specialized SSF' filter version then all unique and set items will still always show on the ground.)
 
 Magic arrows are hidden for all classes. Rare bolts are hidden for all classes except Amazons. Rare arrows will still show.
@@ -755,3 +755,5 @@ Updated Gheed event with new uniques on applicable items.
 Refactored and condensed large portions of the filter code to improve optimization.
 
 Completely refactored the filter level structure. Consolidated the "Potionless" filter version into ALL filter versions. Added a new "Super Strict" filter level for those whom are exceptionally stingy about their drops. [1.12.1]
+
+Improved jewel reroll information and added circlet reroll information on the 'Show Recipes' filter level. [1.12.1]
