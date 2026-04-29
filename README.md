@@ -10,11 +10,11 @@ If you would like to contact me, find me in the official PD2 Discord with the na
 
 If ever so inclined, you can support my efforts by donating on [PayPal](https://www.paypal.com/donate/?business=65YT5QXDEURW8&no_recurring=0&item_name=Loot+Filter+Designer&currency_code=USD).
 
-The version known as 'eqN-All-In-One' in the game launcher includes all other past versions of the filter, adjustable using the in-game settings for "filter level". 
+The version known as 'eqN - All-In-One' in the game launcher includes all other past versions of the filter, adjustable using the in-game settings for "filter level". 
 
-The version known as 'eqN-Specialized-LLD' is the same as 'eqN-All-In-One', however it hides Super/Greater Health and Mana potions after character level 75 at filter levels above 'Relaxed' and it shows details for LLD crafting on applicable base items on the 'Show Recipes' filter level.
+The version known as 'eqN - Specialized LLD' is the same as 'eqN - All-In-One', however it always shows LLD crafting bases with special highlights and has advanced details for LLD crafting on applicable base items on the 'Show Recipes' filter level.
 
-The version known as 'eqN-Specialized-SSF' is the same as 'eqN-All-In-One', however it does not have any LLD-specific highlights, instead simply maintaining a 'Low Level Base' filter level (particularly for when farming similarly useful crafting bases for leveling characters).
+The version known as 'eqN - Specialized SSF' is the same as 'eqN - All-In-One', however it does not have any of the LLD specific features or information.
 
 **<ins>Currently these filters are stylized in such a way as to require the use of the new in-game setting 'HD Text' (enabled by default) introduced with Season 7 of Project Diablo 2. This is to allow for more text colors.</ins>**
 
@@ -26,7 +26,7 @@ The version known as 'eqN-Specialized-SSF' is the same as 'eqN-All-In-One', howe
 
 ## Brief Summary
 
-When using any filter level the following applies. All flawless and perfect gems always show. All runes always show. All charms always show. Unique and set items always show. Ethereal rare, magic, or elite non-magic (white) items always show. All non-magic (white) items with +3 to a useful skill always show. All elite non-magic superior items with 12%+ ED always show.
+When using any filter level, except for 'Super Strict', the following applies. All flawless and perfect gems always show. All runes always show. All charms always show. Unique and set items always show. Ethereal rare, magic, or elite non-magic (white) items always show. All non-magic (white) items with +3 to a useful skill always show. All elite non-magic superior items with 12%+ ED always show.
 
 When using the default, 'Relaxed', filter level the above and the following apply. All elite non-magic (white) items always show. All rare items always show. All useful magic crafting bases always show. 
 
@@ -36,7 +36,7 @@ The 'Relaxed' level of this filter is the basis upon which all levels of this fi
 
 This filter doesn't try to make all the decisions for you. It is highly focused on optimizations as you level and slightly more lenient in the endgame by comparison. You will occasionally see things that you may not be inclined to pick up, but it is always reasonable why you're seeing these items if you understand the nuances of itemization in Diablo 2.
 
-**<ins>If you intend to use a locally edited version of this filter do note that the file will be encoded as 'ISO 8859-1'. Whenever saved the file needs to be saved with that encoding. This is due to the use of special characters not originally available in the default encoding of 'UTF-8'.</ins>**
+**<ins>If you intend to use a locally edited version of this filter do note that the file will be encoded as 'UTF-8'. Whenever saved the file needs to be saved with that encoding.</ins>**
 
 ## Features
 
@@ -84,9 +84,9 @@ Four socket, ethereal polearm/spear weapons of all tiers, for use with the Insig
 
 All rare items will still show at all levels. This includes all class items (wands, orbs, helms, scepters/maces, staves, claws) and any rare bows or crossbows of all tiers aswell. (Relaxed filter level)
 
-Select magic and rare items from all tiers, those that are best for crafting based on your character level or general rarity, will always show, and they will be indicated by two teal dots, one on each side of their unidentified name. (All filter levels)
+Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed favoring exceptional/elite items), as well as any elite class items that could be used for runewords. (Relaxed and Medium filter levels)
 
-Any class items with +3 to at least one of any useful skill will always show, regardless of item tier (unless a staff, due to tier-scaling cast speed favoring exceptional/elite items), as well as any elite class items that could be used for runewords. (All filter levels)
+Select magic and rare items from all tiers, those that are best for crafting based on your character level or general rarity, will always show, and they will be indicated by two teal dots, one on each side of their unidentified name. (All filter levels)
 
 The following items will have added descriptions when they appear to be good for LLD (Low Level Dueling) or for high level PvE, and/or are in a state in which corruption would potentially yield a good LLD item: Charms, Jewels (Magic and Rare), certain Magic class item & weapon bases (ideal for crafting or usage as is), Rare and Crafted weapons, chest armors, shields, and class items, and certain Unique and Set items popular for LLD. (All filter levels)
 
@@ -135,11 +135,11 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ##### Strict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons when they are likely to have a reasonable value in trading. Even at this level, all unique and set items will still show. Crafting bases shown are only those which are highly sought after. High gold value items stop being indicated at level 75. This filter level is useful for those who regularly run high density maps and are mostly only looking for items that are moderately easy to trade. 
 
-##### Super Strict - Ideal for those who perfer not picking up nor identifying many items. This is the only filter level that hides any unique or set items and flawless gems. Designed to only show items universally considered worth picking up or identifying. Crafting bases shown are only those which drop rare. High gold value items stop being indicated at level 75. This filter level is useful for speed running maps and/or group dungeons and limits shown drops to only those with the highest potential trade value. 
+##### Super Strict - Ideal for those who perfer not picking up nor identifying many items. This is the only filter level that hides any unique or set items and flawless gems. Rest assured, however, that unique and set items are still never hidden at this filter level in the LLD or SSF filter versions. Designed to only show items universally considered worth picking up and/or identifying. Crafting bases shown are only those which drop rare. High gold value items stop being indicated at level 75. This filter level is useful for speed running maps and/or group dungeons and limits shown drops to only those with the highest potential trade value. 
 
 ##### Potionless - '(Potionless)' filter levels are essentially a copy of their respective filter level, however it hides all potions at all levels except for Full Rejuvenation Potions.
 
-##### Show Recipes - This filter level shows all crafting and upgrading recipes on any applicable items. The crafting recipes can be found on magic items and on perfect gems. The upgrade recipes include information about the requirements for upgraded items. This level will also show all runes necessary for runewords on any socketed non-magic (white) items. This level is not recommended for use while item finding as it can be a bit visually noisy, though no more so than most other filters by default. If item finding with this filter level it will never hide anything important. This filter level uses Relaxed as a baseline but it also includes several LLD specific highlights and details. This filter level will show ideal character levels for LLD crafting on most LLD-applicable crafting bases when using the 'eqN-Specialized-LLD' filter specifically.
+##### Show Recipes - This filter level shows all crafting and upgrading recipes on any applicable items. The crafting recipes can be found on magic items and on perfect gems. The upgrade recipes include information about the requirements for upgraded items. This level will also show all runes necessary for runewords on any socketed non-magic (white) items. This level is not recommended for use while item finding as it can be a bit visually noisy, though no more so than most other filters by default. If item finding with this filter level it will never hide anything important. This filter level uses Relaxed as a baseline but it also includes several LLD specific highlights and details. This filter level will show ideal character levels for LLD crafting on most LLD-applicable crafting bases when using the 'eqN - Specialized LLD' filter specifically.
 
 ###### The differences between these filter levels, relative to the Relaxed filter level as a baseline, are further described below. All of these filter levels share a similar leveling experience prior to character level 75.
 
@@ -200,6 +200,10 @@ Non-magic (for imbuing) and magic circlets of all kinds are hidden.
 Regular Rejuvenation Potions (not Full) and Greater Mana Potions (not Super, unless 'Potionless') are hidden.
 
 Magic rings and amulets are hidden.
+
+### The 'Super Strict' filter level has the following changes (after character level 75):
+
+To be elaborated...
 
 # Changelog:
 
@@ -339,7 +343,7 @@ Big thanks to Hastmannen for their help with all the Low Level Dueling informati
 
 ## 1.4.0 - (Season 5)
 
-Created a new "default" version of the filter, available in the launcher, simply with the name "eqN-All-In-One". All of my filters use the new "filter level" settings available as of Season 5 to essentially combine the different strictness levels I've made publicly available of my filter in to a single filter. All filter versions are designed to fully accommodate "filter level 0/Show All Items".
+Created a new "default" version of the filter, available in the launcher, simply with the name "eqN - All-In-One". All of my filters use the new "filter level" settings available as of Season 5 to essentially combine the different strictness levels I've made publicly available of my filter in to a single filter. All filter versions are designed to fully accommodate "filter level 0/Show All Items".
 
 Renamed the old 'Strict' filter level to 'Medium'.
 
@@ -355,9 +359,9 @@ Crafting, upgrading, and socketing recipes will no longer show on items while th
 
 Gold that is hidden is no longer able to be auto-looted as of Season 5. I've adopted the scaling gold drop system designed by BetweenWalls as a solution to allow much more gold to be seen and thus auto-looted. This scaling applies at all levels on the Relaxed filter. Currently, at level 75+, gold piles less than 1200 are hidden on the Medium filter level and less than 2500 are hidden on the Strict & LLD Bases filter levels.
 
-Added a new "Potionless" filter version to the launcher, "eqN-Potionless", which functions identically to "eqN-All-In-One" except it hides Super Potions after character level 75. (Intended for characters who do not need them.)
+Added a new "Potionless" filter version to the launcher, "eqN-Potionless", which functions identically to "eqN - All-In-One" except it hides Super Potions after character level 75. (Intended for characters who do not need them.)
 
-Added a new "Specialized LLD" filter version to the launcher, "eqN-Specialized-LLD", which functions identically to "eqN-All-In-One" except it hides Super Potions after character level 75 on Medium or higher strictness. This filter level also adds details about ideal character levels to craft with to LLD crafting bases.
+Added a new "Specialized LLD" filter version to the launcher, "eqN - Specialized LLD", which functions identically to "eqN - All-In-One" except it hides Super Potions after character level 75 on Medium or higher strictness. This filter level also adds details about ideal character levels to craft with to LLD crafting bases.
 
 Added detailed descriptions and drop notifications/aesthetics for all of the new 'recipe' items in Season 5: Larzuk's Puzzlepiece, Lilith's Mirror, and Vial of Lightsong.
 
@@ -523,7 +527,7 @@ Updated PvP Mana Potions with latest PvP damage modifiers.
 
 Adjusted staffmod items so they will have their +skills listed on a second line. (Thank you devs for this long awaited feature!)
 
-Changed the purple "LLD" text on LLD item names to a purple chevron symbol («) when using the 'eqN-All-In-One' or 'eqN-Potionless' filter versions.
+Changed the purple "LLD" text on LLD item names to a purple chevron symbol («) when using the 'eqN - All-In-One' or 'eqN-Potionless' filter versions.
 
 Ensured items for Ice Bolt, Inferno, Arctic Blast, Poison Creeper, Poison Strike, and various other skills were all showing appropriately useful drops and/or description highlights.
 
@@ -547,7 +551,7 @@ Improved the aesthetics of various highlighted items.
 
 Did a cursory pass on all staffmod runeword bases.
 
-Tidied up filter levels on the 'Specialized-LLD' filter and made sure to include all LLD filter features at all levels. [1.8.1]
+Tidied up filter levels on the 'Specialized LLD' filter and made sure to include all LLD filter features at all levels. [1.8.1]
 
 Introduced the functionality for filter levels to effect drops shown before character level 75. [1.8.1]
 
@@ -557,7 +561,7 @@ Countless revisions to LLD and leveling tags.  [1.8.2]
 
 Further in-depth revisions to LLD tags.  [1.8.3]
 
-Added a Potionless filter level to 'eqN-All-In-One'.  [1.8.4]
+Added a Potionless filter level to 'eqN - All-In-One'.  [1.8.4]
 
 Massive runeword base overhaul.  [1.8.5]
 
@@ -595,11 +599,11 @@ Updated defense ranges on changed shields.
 
 Ensured PvP charms are easy to distinquish outside of the PvP arena.
 
-Made it so Ears only show in the PvP Arenas when on the 'Strict LLD' (Now 'LLD Bases') filter level (or on 'Show Recipes' for the 'Specialized-LLD' filter). Ears will always show outside of the PvP Arenas.
+Made it so Ears only show in the PvP Arenas when on the 'Strict LLD' (Now 'LLD Bases') filter level (or on 'Show Recipes' for the 'Specialized LLD' filter). Ears will always show outside of the PvP Arenas.
 
 Moved the LLD crafting and Jewel info to the 'Strict LLD' (Now 'LLD Bases') and 'Show Recipes' filter levels on the 'All-in-One' and 'Potionless' filters.
 
-Added a 'Mag Notify' filter level to the 'Specialized-LLD' filter. This filter level is the same as 'Strict' but will give a chat notification when a Magic LLD crafting base drops.
+Added a 'Mag Notify' filter level to the 'Specialized LLD' filter. This filter level is the same as 'Strict' but will give a chat notification when a Magic LLD crafting base drops.
 
 Removed HFD/CBF character status from the cube now that it shows in advanced stats.
 
@@ -655,11 +659,11 @@ Updated "Max Sockets" information for Bone/Grim/Spiked/Barbed shields.
 
 Added "Max Sockets" information to throwing weapons.
 
-Introduced a new filter version, 'eqN-Specialized-SSF'. This version is particularly for those whom have no interest in special highlights being added to any LLD items. Otherwise, this version functions identically to the 'eqN-All-In-One' filter version.
+Introduced a new filter version, 'eqN - Specialized SSF'. This version is particularly for those whom have no interest in special highlights being added to any LLD items. Otherwise, this version functions identically to the 'eqN - All-In-One' filter version.
 
 ## 1.11.0 - (Season 12)
 
-Perfected the Specialized-SSF filter and its "Potionless - Relaxed" filter level.
+Perfected the Specialized SSF filter and its "Potionless - Relaxed" filter level.
 
 Added flavorful drop sounds to certain high rarity items.
 
@@ -725,4 +729,4 @@ Updated Gheed event with new uniques on applicable items.
 
 Refactored and condensed large portions of the filter code to improve optimization.
 
-Completely refactored the filter level structure. Consolidated the "Potionless" filter version into the "All-In-One" filter version. Added a new "Super Strict" filter level for those whom are exceptionally stingy about their drops. [1.12.1]
+Completely refactored the filter level structure. Consolidated the "Potionless" filter version into ALL filter versions. Added a new "Super Strict" filter level for those whom are exceptionally stingy about their drops. [1.12.1]
