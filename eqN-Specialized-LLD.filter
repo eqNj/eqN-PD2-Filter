@@ -5430,9 +5430,9 @@ ItemDisplay[(MAG OR (RARE SOCK>0) OR (RARE (GLOVES OR BELT OR BOOTS))) (ARMOR OR
 
 //----------------------------------------- Always Show These -----------------------------------------
 
-//Hides all non-specified Unique or Set items (Super Strict)  (Hiding disabled in SSF and LLD filter versions.)
-ItemDisplay[UNI !ID CLVL>74 NORM (FILTLVL=7 OR FILTLVL=8)]: {%NAME%}
-ItemDisplay[SET !ID CLVL>74 NORM (FILTLVL=7 OR FILTLVL=8)]: {%NAME%}
+//Hides all normal tier Unique or Set items (Super Strict)
+//ItemDisplay[UNI (ARMOR OR WEAPON) !ID CLVL>74 NORM (FILTLVL=7 OR FILTLVL=8)]: {%NAME%}
+//ItemDisplay[SET (ARMOR OR WEAPON) !ID CLVL>74 NORM (FILTLVL=7 OR FILTLVL=8)]: {%NAME%}
 
 //Always Show These
 ItemDisplay[(SET OR UNI OR CRAFT OR RW OR (NMAG GEMMED))]: %NAME%{%NAME%}
