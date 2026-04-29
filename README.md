@@ -185,11 +185,11 @@ Flawless gems no longer notify. (Perfect gems still do.)
 
 Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden. (Elite tier will still show.)
 
-Non-magic (white) items are almost all hidden, unless highly sought after bases for runewords (mostly requiring 5%+ ED) or if they have +3 to a valuable skill.
+Non-magic (white) items are almost all hidden, unless superior elite bases for runewords (mostly requiring 5%+ ED) or if they have +3 to a valuable skill.
 
 Normal, exceptional, and elite magic items are hidden unless ethereal items for crafting and/or specifically useful for the class you are playing.
 
-Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, a class item, a dagger, a staff, a tipped mace, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level chest/shield.
+Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, a class item, a dagger, a staff, a tipped mace, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level (75+) chest/shield.
 
 Only high-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
@@ -203,7 +203,32 @@ Magic rings and amulets are hidden.
 
 ### The 'Super Strict' filter level has the following changes (after character level 75):
 
-To be elaborated...
+Gold piles less than 7500 are hidden. Gold piles less than 7500 are hidden at level 90+.
+
+High gold value items stop being indicated.
+
+Low runes (<15) no longer notify.
+
+Flawless gems no longer show. Perfect gems no longer notify.
+
+Four socket, ethereal polearm/spear weapons of elite tier will only show with 8%+ Enhanced Damage.
+
+Non-magic (white) items are almost all hidden, unless highly sought after bases for runewords (mostly requiring 8%+ ED) or if they have +3 to a valueable two+ skill combination.
+
+Normal, exceptional, and elite magic items are hidden unless specifically useful for the class you are playing.
+
+Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, a class item, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level (85+) chest/shield.
+
+Only high-value unique and set items will notify on drop and most low-value leveling unique and set items are hidden.
+(If using the 'Specialized LLD' or 'Specialized SSF' filter version then all unique and set items will still always show on the ground.)
+
+Magic arrows are hidden for all classes. Rare bolts are hidden for all classes except Amazons. Rare arrows will still show.
+
+Non-magic (for imbuing) and magic circlets of all kinds are hidden.
+
+Regular Rejuvenation Potions (not Full) and Greater Mana Potions (not Super, unless 'Potionless') are hidden.
+
+Magic rings and amulets are hidden.
 
 # Changelog:
 
