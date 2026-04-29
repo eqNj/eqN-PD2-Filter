@@ -208,6 +208,7 @@ High gold value items stop being indicated.
 Low runes (<15) no longer notify.
 
 Flawless gems no longer show. Perfect gems no longer notify.
+(If using the 'Specialized LLD' or 'Specialized SSF' filter version then flawless gems will still always show on the ground.)
 
 Four socket, ethereal polearm/spear weapons of elite tier will only show with 8%+ Enhanced Damage.
 
