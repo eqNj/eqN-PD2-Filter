@@ -877,7 +877,7 @@ ItemDisplay[jew MAG ID]: %NAME%{%GOLD%Cube %WHITE%+ %GRAY%Key %WHITE%to create a
 ItemDisplay[jew RARE ID]: %NAME%{%GOLD%Cube %WHITE%+ %GRAY%Key %WHITE%to create a %BLUE%Jewel Fragment}%CONTINUE%
 
 //Reroll Jewels
-ItemDisplay[FILTLVL=9 RARE jew ID RARE STAT486=0 STAT206=0 !STAT477=21 !STAT477=4]: %NAME%{%GRAY%ALVL %REROLLALVL% if rerolled with current CLVL}%CONTINUE%
+ItemDisplay[FILTLVL=9 jew ID RARE STAT486=0 STAT206=0 !STAT477=21 !STAT477=4]: %NAME%{%GRAY%ALVL %REROLLALVL% if rerolled with current CLVL}%CONTINUE%
 
 //Mirrored Jewels (Legacy)
 ItemDisplay[jew STAT477=21]: %MAP-9B%%PURPLE%Mirrored %NAME%{%TAN%White Transmogrifying Jewel}
