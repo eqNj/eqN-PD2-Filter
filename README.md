@@ -212,6 +212,7 @@ Flawless gems no longer show. Perfect gems no longer notify.
 Four socket, ethereal polearm/spear weapons of elite tier will only show with 8%+ Enhanced Damage.
 
 Non-magic (white) items are almost all hidden, unless highly sought after bases for runewords (mostly requiring 8%+ ED) or if they have +3 to a valueable two+ skill combination.
+(If using the 'Specialized LLD' filter version then all LLD crafting bases will still always show on the ground.)
 
 Normal, exceptional, and elite magic items are hidden unless specifically useful for the class you are playing.
 
