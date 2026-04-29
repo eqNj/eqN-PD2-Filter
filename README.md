@@ -16,11 +16,9 @@ The version known as 'eqN - Specialized LLD' is the same as 'eqN - All-In-One', 
 
 The version known as 'eqN - Specialized SSF' is the same as 'eqN - All-In-One', however it does not have any of the LLD specific features or information.
 
-**<ins>Currently these filters are stylized in such a way as to require the use of the new in-game setting 'HD Text' (enabled by default) introduced with Season 7 of Project Diablo 2. This is to allow for more text colors.</ins>**
+**<ins>Currently these filters are stylized in such a way as to require the use of the in-game setting 'HD Text' (enabled by default) introduced with Season 7 of Project Diablo 2. This is to allow for more text colors and symbols.</ins>**
 
 **To those interested: these filters are specially designed to be 100% functional with the in-game filter level setting 'Show All Items' and will apply all filter aesthetic (item name and description) effects to every item.**
-
-![Filter Levels](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/FiltLevel.jpg)
 
 **You can toggle the filter strictness level, and/or switch to the 'Show Recipes' filter level, by pressing 'Escape' and going through the in-game 'Settings'. These filters use this functionality heavily and so it is recommended that you set binds to quickly and easily cycle through your filter levels at will.**
 
@@ -203,7 +201,7 @@ Magic rings and amulets are hidden.
 
 ### The 'Super Strict' filter level has the following changes (after character level 75):
 
-Gold piles less than 7500 are hidden. Gold piles less than 7500 are hidden at level 90+.
+Gold piles less than 7500 are hidden.
 
 High gold value items stop being indicated.
 
