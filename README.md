@@ -120,7 +120,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 <\~:\~> NAME <\~:\~> (Yellow/Gold) = High Tier of Notable Unique Item<br>
 \~:\~ NAME \~:\~ (Yellow/Gold) = Mid Tier of Notable Unique Item<br>
 \~: NAME :\~ (Yellow/Gold) = Low Tier of Notable Unique Item<br>
-: NAME : (Gold/Yellow) = PD2 Exclusive Unique Item<br>
+·: NAME :· (Gold/Yellow) = PD2 Exclusive Unique Item<br>
 \~:\~ NAME \~:\~ (Purple/Green) = High Tier of Notable Set Item<br>
 \~: NAME :\~ (Purple/Green) = Low Tier of Notable Set Item<br>
 \~: NAME :\~ (Purple/Yellow) = LLD Corruptible Unique Item<br>
