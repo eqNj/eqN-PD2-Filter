@@ -3870,19 +3870,19 @@ ItemDisplay[((ELT 2H MACE) OR (ELT SPEAR) OR (ELT POLEARM) OR 7gd OR 7p7 OR oba 
 ItemDisplay[(9b7 OR 92h OR 9gd) UNI ETH !ID]: %DOT-60%%YELLOW%~%TAN%:    %GOLD%%NAME%    %TAN%:%YELLOW%~
 
 //PD2 Exclusive (Season 3)
-ItemDisplay[(ne6 OR ob6 OR dr2 OR ba6 OR 9ar OR am5) UNI !ID]: %DOT-60%%YELLOW%:  %GOLD%%NAME%  %YELLOW%:
+ItemDisplay[(ne6 OR ob6 OR dr2 OR ba6 OR 9ar OR am5) UNI !ID]: %DOT-60%%GOLD%·%YELLOW%:  %GOLD%%NAME%  %YELLOW%:%GOLD%·
 //PD2 Exclusive (Season 5)
-ItemDisplay[(ame OR ned OR ulb OR utg OR 7tw OR 7qs OR 6bs OR baf OR utp OR drf) UNI !ID]: %DOT-60%%YELLOW%:  %GOLD%%NAME%  %YELLOW%:
+ItemDisplay[(ame OR ned OR ulb OR utg OR 7tw OR 7qs OR 6bs OR baf OR utp OR drf) UNI !ID]: %DOT-60%%GOLD%·%YELLOW%:  %GOLD%%NAME%  %YELLOW%:%GOLD%·
 //PD2 Exclusive (Season 8)
-ItemDisplay[(7st OR 7cm) UNI !ID]: %DOT-60%%YELLOW%:  %GOLD%%NAME%  %YELLOW%:
+ItemDisplay[(7st OR 7cm) UNI !ID]: %DOT-60%%GOLD%·%YELLOW%:  %GOLD%%NAME%  %YELLOW%:%GOLD%·
 //PD2 Exclusive (Season 10)
-ItemDisplay[(7di OR drc OR urg OR ung OR ulg OR pae OR amc) UNI !ID]: %DOT-60%%YELLOW%:  %GOLD%%NAME%  %YELLOW%:
+ItemDisplay[(7di OR drc OR urg OR ung OR ulg OR pae OR amc) UNI !ID]: %DOT-60%%GOLD%·%YELLOW%:  %GOLD%%NAME%  %YELLOW%:%GOLD%·
 //PD2 Exclusive (Season 11)
-ItemDisplay[(ob7 OR 7xf OR paf OR dr6 OR ba7 OR 9b8 OR uhc OR neg) UNI !ID]: %DOT-60%%YELLOW%:  %GOLD%%NAME%  %YELLOW%:
+ItemDisplay[(ob7 OR 7xf OR paf OR dr6 OR ba7 OR 9b8 OR uhc OR neg) UNI !ID]: %DOT-60%%GOLD%·%YELLOW%:  %GOLD%%NAME%  %YELLOW%:%GOLD%·
 //PD2 Exclusive (Season 12)
-ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3 OR 6hb) UNI !ID]: %DOT-60%%YELLOW%:  %GOLD%%NAME%  %YELLOW%:
+ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3 OR 6hb) UNI !ID]: %DOT-60%%GOLD%·%YELLOW%:  %GOLD%%NAME%  %YELLOW%:%GOLD%·
 //PD2 Exclusive (Season 13)
-ItemDisplay[(7yw OR pab OR 7vo OR uhl OR obe OR obd) UNI !ID]: %DOT-60%%YELLOW%:  %GOLD%%NAME%  %YELLOW%:
+ItemDisplay[(7yw OR pab OR 7vo OR uhl OR obe OR obd) UNI !ID]: %DOT-60%%GOLD%·%YELLOW%:  %GOLD%%NAME%  %YELLOW%:%GOLD%·
 
 //Cow King Set Items
 ItemDisplay[(xap OR stu OR vbt) (MAPID=39 OR MAPID=154) SET !ID]: %SOUNDID-1346%%DOT-84%%PURPLE%~%DARK_GREEN%:   %GREEN%%NAME%   %DARK_GREEN%:%PURPLE%~%GREEN%
