@@ -4068,14 +4068,14 @@ ItemDisplay[(ARMOR OR WEAPON) NMAG !RW (SOCK>0 OR ETH)]: %NAME%%GRAY%{%NAME%}%CO
 
 //Chests
 ItemDisplay[xtp NMAG !INF !RW !SOCK=1 ((CLVL<75 ((!ETH DEF>180) OR (ETH DEF>225))) OR ED=20)]: %DOT-D6%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[xtp !ETH NMAG !INF !RW !SOCK=1 ((FILTLVL<3 OR FILTLVL=9) OR (DEF>180 FILTLVL~3-4) OR (ED>7 FILTLVL~5-8))]: %NAME%{%NAME%}
-ItemDisplay[xtp ETH NMAG !INF !RW !SOCK=1 ((FILTLVL<3 OR FILTLVL=9) OR (DEF>225 FILTLVL~3-4) OR (ED>7 FILTLVL~5-8))]: %NAME%{%NAME%}
+ItemDisplay[xtp !ETH NMAG !INF !RW !SOCK=1 ((FILTLVL<3 OR FILTLVL=9) OR (DEF>180 FILTLVL~3-4) OR (ED>7 FILTLVL~5-6) OR (ED>9 FILTLVL~7-8))]: %NAME%{%NAME%}
+ItemDisplay[xtp ETH NMAG !INF !RW !SOCK=1 ((FILTLVL<3 OR FILTLVL=9) OR (DEF>225 FILTLVL~3-4) OR (ED>7 FILTLVL~5-6) OR (ED>9 FILTLVL~7-8))]: %NAME%{%NAME%}
 ItemDisplay[CHEST ELT NMAG !INF !RW !SOCK=1 ED>14]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[CHEST ELT NMAG !INF !RW !SOCK=1 ED>7 (FILTLVL<3 OR FILTLVL=9)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[CHEST ELT NMAG !INF !RW !SOCK=1 ED>9 FILTLVL~3-4]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[CHEST ELT !ETH NMAG !INF !RW !SOCK=1 ((FILTLVL<3 OR FILTLVL=9) OR ((ED>3 OR DEF>599) FILTLVL~3-4) OR (ED>7 FILTLVL~5-8))]: %NAME%{%NAME%}
-ItemDisplay[CHEST ELT ETH NMAG !INF !RW !SOCK=1 ((FILTLVL<3 OR FILTLVL=9) OR ((ED>3 OR DEF>899) FILTLVL~3-4) OR (ED>7 FILTLVL~5-8))]: %NAME%{%NAME%}
-ItemDisplay[CHEST ((EXC !(xui OR xea OR xla OR xtu)) OR aar OR ful OR gth) NMAG !INF !RW !SOCK=1 ED>14]: %DOT-D6%%TIER-4%%NAME%{%NAME%}
+ItemDisplay[CHEST ELT !ETH NMAG !INF !RW !SOCK=1 ((FILTLVL<3 OR FILTLVL=9) OR ((ED>3 OR DEF>599) FILTLVL~3-4) OR (ED>7 FILTLVL~5-6) OR (ED>9 FILTLVL~7-8))]: %NAME%{%NAME%}
+ItemDisplay[CHEST ELT ETH NMAG !INF !RW !SOCK=1 ((FILTLVL<3 OR FILTLVL=9) OR ((ED>3 OR DEF>899) FILTLVL~3-4) OR (ED>7 FILTLVL~5-6) OR (ED>9 FILTLVL~7-8))]: %NAME%{%NAME%}
+ItemDisplay[CHEST ((EXC !(xui OR xea OR xla OR xtu)) OR aar OR ful OR gth) NMAG !INF !RW !SOCK=1 ((ED>14 (FILTLVL<5 OR FILTLVL=9)) OR (ED=20 FILTLVL>4))]: %DOT-D6%%TIER-4%%NAME%{%NAME%}
 ItemDisplay[ltp NMAG !INF !RW !SOCK=1 ED=20 (FILTLVL<5 OR FILTLVL=9)]: %NAME%{%NAME%}
 
 //Barbarian Helmets
@@ -4096,12 +4096,12 @@ ItemDisplay[DRU ((SK221>1 (SK227>1 OR SK237>1 OR SK247>1) !(NORM ILVL<26)) OR (S
 //Helmets
 ItemDisplay[xsk ETH NMAG !INF !RW !(SOCK=1 OR SOCK=2) ED=20]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[xh9 !ETH NMAG !INF !RW !SOCK=1 ((CLVL<75 DEF>119) OR ED=20)]: %DOT-D6%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[(usk OR uh9 OR uhm OR urn) ETH !INF !RW SOCK=0 NMAG (FILTLVL<5 OR FILTLVL=9 OR ((ED>3 (FILTLVL~5-6) OR (ED>9 FILTLVL~7-8))))]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[HELM ELT ETH !BAR !DRU !INF !RW SOCK=3 NMAG (FILTLVL<5 OR FILTLVL=9 OR ((ED>3 (FILTLVL~5-6) OR (ED>9 FILTLVL~7-8))))]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(usk OR uh9 OR uhm OR urn) ETH !INF !RW SOCK=0 NMAG (FILTLVL<5 OR FILTLVL=9 OR ((ED>7 (FILTLVL~5-6) OR (ED>14 FILTLVL~7-8))))]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[HELM ELT ETH !BAR !DRU !INF !RW SOCK=3 NMAG (FILTLVL<5 OR FILTLVL=9 OR ((ED>7 (FILTLVL~5-6) OR (ED=20 FILTLVL~7-8))))]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(usk OR uh9 OR uhm OR urn) !INF !RW !SOCK=1 NMAG ED=20]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(usk OR uh9 OR uhm OR urn) !INF !RW !SOCK=1 NMAG (FILTLVL<5 OR FILTLVL=9 OR (ETH ((FILTLVL~5-6) OR (ED>9 FILTLVL~7-8))))]: %NAME%{%NAME%}
-ItemDisplay[HELM ELT !BAR !DRU !INF !RW (SOCK=3 OR SOCK=2) NMAG (FILTLVL<5 OR FILTLVL=9 OR (SOCK=3 ((FILTLVL~5-6) OR (ED>9 FILTLVL~7-8))))]: %NAME%{%NAME%}
-ItemDisplay[(ghm OR xsk) !INF !RW !(SOCK=1 OR SOCK=2) NMAG ((FILTLVL<3 CLVL<90 ED>3) OR ED=20)]: %NAME%{%NAME%}
+ItemDisplay[(usk OR uh9 OR uhm OR urn) !INF !RW !SOCK=1 NMAG (FILTLVL<5 OR FILTLVL=9 OR (ETH ((FILTLVL~5-6) OR (ED>15 FILTLVL~7-8))))]: %NAME%{%NAME%}
+ItemDisplay[HELM ELT !BAR !DRU !INF !RW (SOCK=3 OR SOCK=2) NMAG (FILTLVL<5 OR FILTLVL=9 OR (SOCK=3 ((FILTLVL~5-6) OR (ED>17 FILTLVL~7-8))))]: %NAME%{%NAME%}
+ItemDisplay[(ghm OR xsk) !INF !RW !(SOCK=1 OR SOCK=2) NMAG ((FILTLVL<3 CLVL<90 ED>9) OR ED=20)]: %NAME%{%NAME%}
 
 //Paladin Shields
 ItemDisplay[DIN !ETH NMAG !INF !RW !SOCK=1 (RES>11 OR AR>59) PALADIN CLVL<30 MAPID<113 DIFF=0]: %DOT-D6%%NAME%{%NAME%} // (Leveling)
@@ -4119,17 +4119,17 @@ ItemDisplay[NEC (((SK75>2 OR SK85>2 OR SK94>2) (SK79>1 OR SK90>1)) OR ((SK69>1 O
 
 //Shields
 ItemDisplay[xsh NMAG !INF !RW !SOCK=1 ((CLVL<75 ((!ETH DEF>119) OR (ETH DEF>148))) OR ED=20)]: %DOT-D6%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[(uit OR uow OR uts OR urg) ETH NMAG !INF !RW (SOCK=0 OR SOCK=4) (FILTLVL<5 OR FILTLVL=9 OR ((ED>3 (FILTLVL~5-6) OR (ED>9 FILTLVL~7-8))))]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(uit OR uow OR uts OR urg) ETH NMAG !INF !RW (SOCK=0 OR SOCK=4) (FILTLVL<5 OR FILTLVL=9 OR ((ED>7 (FILTLVL~5-6) OR (ED>14 FILTLVL~7-8))))]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(uit OR uow OR uts OR urg OR ush) NMAG !INF !RW !SOCK=1 ED=20]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(uit OR (xsh DEF>119) OR ush OR uow OR uts OR urg) NMAG !INF !RW !SOCK=1 (uit OR uow OR uts OR urg) (FILTLVL<5 OR FILTLVL=9 OR ((uit OR uow OR uts OR urg) ((ED>3 (FILTLVL~5-6) OR (ED>9 FILTLVL~7-8)))))]: %NAME%{%NAME%}
+ItemDisplay[(uit OR (xsh DEF>119) OR ush OR uow OR uts OR urg) NMAG !INF !RW !SOCK=1 (uit OR uow OR uts OR urg) (FILTLVL<5 OR FILTLVL=9 OR ((uit OR uow OR uts OR urg) ((ED>7 (FILTLVL~5-6) OR (ED>14 FILTLVL~7-8)))))]: %NAME%{%NAME%}
 ItemDisplay[(tow OR (xsh DEF>119) OR ush) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=3) ED=20]: %NAME%{%NAME%}
 
 //Arrows & Bolts - Part 2
 ItemDisplay[(aqv OR cqv) NMAG !INF !RW SOCK=2 CLVL<10]: %NAME%{%NAME%} // (Leveling)
-ItemDisplay[(aqv2 OR cqv2) NMAG !INF !RW SOCK=2 CLVL<40]: %NAME%{%NAME%} // (Leveling)
+ItemDisplay[(aqv2 OR cqv2) NMAG !INF !RW SOCK=2 CLVL<20]: %NAME%{%NAME%} // (Leveling)
 ItemDisplay[(aqv OR cqv) NMAG !INF !RW SOCK=2 AMAZON CLVL<15]: %NAME%{%NAME%} // (Leveling)
-ItemDisplay[(aqv2 OR cqv2) NMAG !INF !RW SOCK=2 AMAZON CLVL<50]: %NAME%{%NAME%} // (Leveling)
-ItemDisplay[(aqv3 OR cqv3) NMAG !INF !RW SOCK=2 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[(aqv2 OR cqv2) NMAG !INF !RW SOCK=2 AMAZON CLVL<40]: %NAME%{%NAME%} // (Leveling)
+ItemDisplay[(aqv3 OR cqv3) NMAG !INF !RW SOCK=2 CLVL<60]: %NAME%{%NAME%}
 
 // --- // --- NMAG WEAPONS (Runeword Bases) --- \\ --- \\
 
@@ -4137,17 +4137,17 @@ ItemDisplay[(aqv3 OR cqv3) NMAG !INF !RW SOCK=2 CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[leg NMAG]: %SOUNDID-1351%%NAME% {%TAN%God Rest His Soul%NL%Smuggler and Peddler%NL%Wirt the Peg-Legged Boy%NL%%NAME%}
 
 //Superior + Ethereal Failsafe
-ItemDisplay[WEAPON !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !DAGGER !(TABSK2<3 (amd OR ame OR amf)) ELT NMAG !INF !RW !SOCK=1 !(SOCK=2 2H ED<14) ETH ED>9]: %DOT-D6%%NAME%{%NAME%} // All Useful Ethereal Weapons With 10%+ Enhanced Damage
+ItemDisplay[WEAPON !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !DAGGER !(TABSK2<3 (amd OR ame OR amf)) ELT NMAG !INF !RW !SOCK=1 !(SOCK=2 2H ED<14) ETH ((ED>9 (FILTLVL<5 OR FILTLVL=9)) OR (ED>14 FILTLVL>4))]: %DOT-D6%%NAME%{%NAME%} // All Useful Ethereal Weapons With 10%+ Enhanced Damage
 
 //Superior Failsafe
-ItemDisplay[WEAPON !THROWING !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !7kr !(TABSK2<3 (amd OR ame)) ELT NMAG !INF !RW !SOCK=1 ED>14]: %DOT-D6%%NAME%{%NAME%} // All Useful Weapons With 20% Enhanced Damage
+ItemDisplay[WEAPON !THROWING !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !7kr !(TABSK2<3 (amd OR ame)) ELT NMAG !INF !RW !SOCK=1 ((ED>14 (FILTLVL<5 OR FILTLVL=9)) OR (ED=20 FILTLVL>4))]: %DOT-D6%%NAME%{%NAME%} // All Useful Weapons With 20% Enhanced Damage
 
 //Throwing Weapons
 ItemDisplay[(am5 OR ama OR amf) NMAG !INF !RW TABSK0>2 !SOCK=1 (!NORM CLVL>59) AMAZON CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Amazon Javelins (Leveling)
 ItemDisplay[am5 NMAG !INF !RW TABSK2>2 !SOCK=1 AMAZON CLVL<75]: %NAME%{%NAME%} // Etheral Maiden Javelins (Leveling)
 ItemDisplay[ama NMAG !INF !RW TABSK2>2 !SOCK=1 AMAZON CLVL<75]: %NAME%{%NAME%} // Etheral Ceremonial Javelins (Leveling)
 ItemDisplay[amf NMAG !INF !RW TABSK2>2 !SOCK=1 AMAZON]: %DOT-D6%%NAME%{%NAME%} // Etheral Matriarchal Javelins (Amazon)
-ItemDisplay[ELT THROWING !(ZON TABSK2<3) NMAG !INF !RW ETH !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL~5-8))]: %NAME%{%NAME%} // Ethereal Elite Throwing Weapons
+ItemDisplay[ELT THROWING !(ZON TABSK2<3) NMAG !INF !RW ETH !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL~5-6) OR (ED>14 FILTLVL~7-8))]: %NAME%{%NAME%} // Ethereal Elite Throwing Weapons
 ItemDisplay[EXC THROWING !(ZON TABSK2<3) NMAG !INF !RW ETH BARBARIAN !SOCK<2 CLVL<85]: %NAME%{%NAME%} // Exceptional Throwing Weapons for Barbarians (Leveling)
 ItemDisplay[NORM THROWING !(ZON TABSK2<3) NMAG !INF !RW ETH BARBARIAN !SOCK<2 CLVL<65]: %NAME%{%NAME%} // Normal Throwing Weapons for Barbarians (Leveling)
 
@@ -4156,11 +4156,11 @@ ItemDisplay[BOW NMAG !INF !RW TABSK0>2 !SOCK=1 !(SOCK=2 CLVL>29) AMAZON CLVL<75]
 ItemDisplay[BOW NMAG !INF !RW TABSK0>2 !SOCK=1 !(SOCK=2 CLVL>59) AMAZON]: %NAME%{%NAME%} // Amazon Bows
 ItemDisplay[BOW NMAG !INF !RW TABSK0>2 !SOCK=1 !(SOCK=2 CLVL>29) (FILTLVL<3 OR FILTLVL=9)]: %NAME%{%NAME%} // Amazon Bows
 ItemDisplay[(6l7 OR 6lw OR 6hx) NMAG !INF !RW (SOCK=0 OR SOCK=6) ((ED>7 ARPER>9) OR ED>11)]: %DOT-D6%%NAME%{%NAME%} // Superior Asylum Bows & Crossbow
-ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=0 OR SOCK=4 OR SOCK=5) (FILTLVL<5 OR FILTLVL=9 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL~5-8))]: %DOT-D6%%NAME%{%NAME%} // 0 / 4 / 5 Socket Elite Amazon Bows
-ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=2 OR SOCK=3 OR SOCK=6) (FILTLVL<5 OR FILTLVL=9 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL~5-8))]: %NAME%{%NAME%} // 2 / 3 / 6 Socket Elite Amazon Bows
-ItemDisplay[6rx NMAG !INF !RW (SOCK=4 OR SOCK=5) (FILTLVL<5 OR FILTLVL=9 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL~5-8))]: %DOT-D6%%NAME%{%NAME%} // 4 or 5 Socket Demon Crossbow
-ItemDisplay[6rx NMAG !INF !RW (SOCK=0 OR SOCK=3) (FILTLVL<5 OR FILTLVL=9 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL~5-8))]: %NAME%{%NAME%} // 0 or 3 Socket Demon Crossbow
-ItemDisplay[(6rx OR 6lx OR 6mx) NMAG !INF !RW (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5) (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-8))]: %NAME%{%NAME%} // Other Elite Crossbows
+ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=0 OR SOCK=4 OR SOCK=5) (FILTLVL<5 OR FILTLVL=9 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL~5-6) OR (ED>14 FILTLVL~7-8))]: %DOT-D6%%NAME%{%NAME%} // 0 / 4 / 5 Socket Elite Amazon Bows
+ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=2 OR SOCK=3 OR SOCK=6) (FILTLVL<5 OR FILTLVL=9 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL~5-6) OR (ED>14 FILTLVL~7-8))]: %NAME%{%NAME%} // 2 / 3 / 6 Socket Elite Amazon Bows
+ItemDisplay[6rx NMAG !INF !RW (SOCK=4 OR SOCK=5) (FILTLVL<5 OR FILTLVL=9 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL~5-6) OR (ED>14 FILTLVL~7-8))]: %DOT-D6%%NAME%{%NAME%} // 4 or 5 Socket Demon Crossbow
+ItemDisplay[6rx NMAG !INF !RW (SOCK=0 OR SOCK=3) (FILTLVL<5 OR FILTLVL=9 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL~5-6) OR (ED>14 FILTLVL~7-8))]: %NAME%{%NAME%} // 0 or 3 Socket Demon Crossbow
+ItemDisplay[(6rx OR 6lx OR 6mx) NMAG !INF !RW (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5) (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-6) OR (ED>17 FILTLVL~7-8))]: %NAME%{%NAME%} // Other Elite Crossbows
 ItemDisplay[(BOW OR XBOW) NMAG !INF !RW SOCK=3 (!NORM CLVL>39) (CLVL<75 OR (FILTLVL>2 !FILTLVL=9 CLVL<60))]: %NAME%{%NAME%} // Purity Bows and Crossbows (Leveling)
 ItemDisplay[8rx NMAG !INF !RW !SOCK=1 CLVL<60 DIFF<2]: %NAME%{%NAME%} // Chu-Ko-Nu (Leveling)
 
@@ -4169,9 +4169,9 @@ ItemDisplay[(7bl OR 7dg OR 7di) ((SK257>2 (SK266>0 OR SK275>0)) OR (SK266>2 (SK2
 ItemDisplay[(7bl OR 7dg OR 7di) (SK257>2 OR SK266>2) ETH NMAG !INF !SOCK=1]: %NAME%{%NAME%} // Ethereal Legend Spike, Bone Knife, or Mithril Point For Blade Assassin
 ItemDisplay[7kr SK73>2 !ETH NMAG !INF (SOCK=0 OR SOCK=3) NECROMANCER]: %DOT-D6%%NAME%{%NAME%} // Fanged Knife For Poison Strike
 ItemDisplay[7kr SK265>2 !ETH NMAG !INF (SOCK=0 OR SOCK=3) ASSASSIN]: %DOT-D6%%NAME%{%NAME%} // Fanged Knife For Cobra Strike
-ItemDisplay[7kr (SK73>2 OR SK265>2) !ETH NMAG !INF (SOCK=0 OR SOCK=3)]:  %DOT-D6%%TIER-4%%NAME%{%NAME%} // Fanged Knife For Poison Strike or Cobra Strike
+ItemDisplay[7kr (SK73>2 OR SK265>2) !ETH NMAG !INF (SOCK=0 OR SOCK=3)]:  %DOT-D6%%TIER-6%%NAME%{%NAME%} // Fanged Knife For Poison Strike or Cobra Strike
 ItemDisplay[(7bl OR 7dg OR 7di) (SK255>2 OR SK270>2) NMAG !INF !SOCK=1]: %NAME%{%NAME%} // Legend Spike, Bone Knife, or Mithril Point For Kick Assassin
-ItemDisplay[(7bl OR 7dg OR 7di) SK254>2 SK275>0 !ETH NMAG !INF !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL~5-8))]: %NAME%{%NAME%} // Legend Spike, Bone Knife, or Mithril Point For Tiger Assassin
+ItemDisplay[(7bl OR 7dg OR 7di) SK254>2 SK275>0 !ETH NMAG !INF !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL~5-6) OR (ED>14 FILTLVL~7-8))]: %NAME%{%NAME%} // Legend Spike, Bone Knife, or Mithril Point For Tiger Assassin
 ItemDisplay[((kri CLVL<50) OR 9kr) SK73>2 !ETH NMAG !INF (SOCK=0 OR SOCK=3) NECROMANCER CLVL<70 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // Kris or Cinquedeas For Poison Strike (Leveling)
 ItemDisplay[((kri CLVL<50) OR 9kr) SK265>2 !ETH NMAG !INF (SOCK=0 OR SOCK=3) ASSASSIN CLVL<70 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // Kris or Cinquedeas For Cobra Strike (Leveling)
 ItemDisplay[(9dg OR 9di OR 9bl) (SK257>2 OR SK266>2) ETH NMAG !INF !SOCK=1 ASSASSIN CLVL<70 DIFF<2]:  %DOT-D6%%NAME%{%NAME%} // Ethereal Exceptional Daggers for Blade Assassin (Leveling)
@@ -4181,10 +4181,10 @@ ItemDisplay[9kr SK73>2 !ETH NMAG !INF (SOCK=0 OR SOCK=3) NECROMANCER (FILTLVL<3 
 ItemDisplay[9kr SK265>2 !ETH NMAG !INF (SOCK=0 OR SOCK=3) ASSASSIN (FILTLVL<3 OR FILTLVL=9)]: %NAME%{%NAME%} // Cinquedeas For Cobra Strike
 
 //Axes
-ItemDisplay[(7wa OR 72a OR 7mp) ETH NMAG !INF !RW !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-8))]: %DOT-D6%%TIER-4%%NAME%{%NAME%} // Ethereal One Handed Elite Axes
-ItemDisplay[(7bt OR 7ba OR 7ga OR 7gi OR 7la) ETH NMAG !INF !RW !(SOCK=1 OR SOCK=2) (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-8))]: %DOT-D6%%TIER-4%%NAME%{%NAME%} // Ethereal Two Handed Elite Axes
-ItemDisplay[(7wa OR 72a OR 7mp) NMAG !INF !RW !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-8))]: %NAME%{%NAME%} // One Handed Elite Axes
-ItemDisplay[(7bt OR 7ba OR 7ga OR 7gi OR 7la) NMAG !INF !RW !(SOCK=1 OR SOCK=2) (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-8))]: %NAME%{%NAME%} // Two Handed Elite Axes
+ItemDisplay[(7wa OR 72a OR 7mp) ETH NMAG !INF !RW !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-6) OR (ED>17 FILTLVL~7-8))]: %DOT-D6%%TIER-4%%NAME%{%NAME%} // Ethereal One Handed Elite Axes
+ItemDisplay[(7bt OR 7ba OR 7ga OR 7gi OR 7la) ETH NMAG !INF !RW !(SOCK=1 OR SOCK=2) (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-6) OR (ED>17 FILTLVL~7-8))]: %DOT-D6%%TIER-4%%NAME%{%NAME%} // Ethereal Two Handed Elite Axes
+ItemDisplay[(7wa OR 72a OR 7mp) NMAG !INF !RW !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-6) OR (ED>17 FILTLVL~7-8))]: %NAME%{%NAME%} // One Handed Elite Axes
+ItemDisplay[(7bt OR 7ba OR 7ga OR 7gi OR 7la) NMAG !INF !RW !(SOCK=1 OR SOCK=2) (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-6) OR (ED>17 FILTLVL~7-8))]: %NAME%{%NAME%} // Two Handed Elite Axes
 
 //Clubs
 ItemDisplay[(7sp OR 7cl) ((SK224>1 (SK223>1 OR SK226>1 OR SK228>1 OR SK232>1 OR SK233>1 OR SK236>1 OR SK238>1 OR SK239>1 OR SK242>1)) OR (SK223>1 (SK226>1 OR SK232>1 OR SK236>1 OR SK238>1 OR SK239>1 OR SK248>1)) OR (SK232>1 (SK223>1 OR SK226>1 OR SK236>1 OR SK238>1 OR SK239>1 OR SK248>1)) OR (SK248>1 (SK223>1 OR SK226>1 OR SK232>1 OR SK236>1 OR SK238>1 OR SK239>1)) OR (SK228>1 (SK226>1 OR SK233>1 OR SK236>1 OR SK239>1 OR SK242>1)) OR (SK233>1 (SK226>1 OR SK228>1 OR SK236>1 OR SK239>1 OR SK242>1)) OR (SK242>1 (SK226>1 OR SK228>1 OR SK233>1 OR SK236>1 OR SK239>1))) NMAG !INF !RW !SOCK=1 !(SOCK=2 (ETH OR !DRUID))]: %DOT-D6%%NAME%{%NAME%} // Physical Clubs
@@ -4197,13 +4197,13 @@ ItemDisplay[CLUB !((clb OR spc) CLVL>74) (SK243>2 (SK224>1 OR SK224>1 OR SK228>1
 ItemDisplay[CLUB !(clb OR spc) ((SK226>2 (SK231>2 OR SK235>2 OR SK241>2 OR SK247>2 OR SK249>2 OR SK250>2)) OR (SK235>2 (SK226>2 OR SK247>2 OR SK249>2 OR SK250>2)) OR (SK247>2 (SK226>2 OR SK235>2 OR SK249>2 OR SK250>2))) NMAG !INF !RW !SOCK=1 !SOCK=2]: %DOT-D6%%NAME%{%NAME%} // Pre-Buff Plague Clubs
 
 //Hammers
-ItemDisplay[(7m7 OR 7gm) ETH NMAG !INF !RW !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-8))]: %DOT-D6%%TIER-4%%NAME%{%NAME%} // Ethereal Two Handed Elite Hammers
-ItemDisplay[(7m7 OR 7gm) NMAG !INF !RW !SOCK=1 ((ED>3 ARPER>9) OR ED>7) (FILTLVL<5 OR FILTLVL=9 OR (ED>9 FILTLVL~5-8))]: %DOT-D6%%TIER-4%%NAME%{%NAME%} // Superior Two Handed Elite Hammers
-ItemDisplay[7wh NMAG !INF !RW !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR ((((ED>3 ARPER>9) OR ED>7) OR ETH) FILTLVL~5-8))]: %NAME%{%NAME%} // Legendary Mallet
+ItemDisplay[(7m7 OR 7gm) ETH NMAG !INF !RW !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-6) OR (ED>17 FILTLVL~7-8))]: %DOT-D6%%TIER-4%%NAME%{%NAME%} // Ethereal Two Handed Elite Hammers
+ItemDisplay[(7m7 OR 7gm) NMAG !INF !RW !SOCK=1 ((ED>3 ARPER>9) OR ED>7) (FILTLVL<5 OR FILTLVL=9 OR (ED>9 FILTLVL~5-6) OR (ED=20 FILTLVL~7-8))]: %DOT-D6%%TIER-4%%NAME%{%NAME%} // Superior Two Handed Elite Hammers
+ItemDisplay[7wh NMAG !INF !RW !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR ((((ED>3 ARPER>9) OR ED>7) OR ETH) FILTLVL~5-6) OR (ED=20 FILTLVL~7-8))]: %NAME%{%NAME%} // Legendary Mallet
 
 //Maces
-ItemDisplay[7fl NMAG !INF !RW !SOCK=1 (ETH OR ED>7) (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-8))]: %DOT-D6%%TIER-4%%NAME%{%NAME%} // Ethereal or Superior Scourge
-ItemDisplay[(7ma OR 7mt) NMAG !INF !RW !SOCK=1 (ETH OR ED>7) (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-8))]: %NAME%{%NAME%} // Ethereal or Superior Reinforced Mace or Devil Star
+ItemDisplay[7fl NMAG !INF !RW !SOCK=1 (ETH OR ED>7) (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-6) OR (ED>17 FILTLVL~7-8))]: %DOT-D6%%TIER-4%%NAME%{%NAME%} // Ethereal or Superior Scourge
+ItemDisplay[(7ma OR 7mt) NMAG !INF !RW !SOCK=1 (ETH OR ED>7) (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-6) OR (ED>17 FILTLVL~7-8))]: %NAME%{%NAME%} // Ethereal or Superior Reinforced Mace or Devil Star
 ItemDisplay[9fl NMAG !INF !RW !SOCK>4 CLVL<60 DIFF<2]: %NAME%{%NAME%} // Knout (Leveling)
 ItemDisplay[fla NMAG !INF !RW SOCK=0 ILVL>25 CLVL<40 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // 0 Socket Flail (Leveling)
 ItemDisplay[fla NMAG !INF !RW (SOCK=4 OR SOCK=5) CLVL<50 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // 4 or 5 Socket Flail (Leveling)
@@ -4231,10 +4231,10 @@ ItemDisplay[(wsp OR 9ws OR 7ws) SK117>1 NMAG !INF !RW (SOCK=0 OR SOCK=5) (FILTLV
 ItemDisplay[7ws (SK102>1 OR SK106>1 OR SK107>2 OR SK111>1 OR SK114>1 OR SK118>1 OR SK122>1 OR SK123>1) NMAG !INF !RW !SOCK=1 !(SOCK=3 !ETH)]: %NAME%{%NAME%} // +2 Melee Caduceus
 
 //Swords
-ItemDisplay[ELT SWORD !7cr ETH NMAG !INF !RW !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-8))]: %DOT-D6%%TIER-4%%NAME%{%NAME%} // Ethereal Elite Swords
+ItemDisplay[ELT SWORD !7cr ETH NMAG !INF !RW !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-6) OR (ED>17 FILTLVL~7-8))]: %DOT-D6%%TIER-4%%NAME%{%NAME%} // Ethereal Elite Swords
 ItemDisplay[ELT SWORD !ETH NMAG !INF !RW !SOCK=1 ((ED>7 ARPER>9) OR ED>11)]: %DOT-D6%%TIER-4%%NAME%{%NAME%} // Superior Elite Swords
-ItemDisplay[7cr NMAG !INF !RW (SOCK=4 OR SOCK=5) (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-8))]: %DOT-D6%%NAME%{%NAME%} // 4 or 5 Socket Phase Blade
-ItemDisplay[7cr NMAG !INF !RW (SOCK=0 OR SOCK>1) (FILTLVL<5 OR FILTLVL=9 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL~5-8))]: %NAME%{%NAME%} // 0 or >2 Socket Phase Blade
+ItemDisplay[7cr NMAG !INF !RW (SOCK=4 OR SOCK=5) (FILTLVL<5 OR FILTLVL=9 OR (((ED>7 ARPER>9) OR ED>11) FILTLVL~5-6) OR (ED>17 FILTLVL~7-8))]: %DOT-D6%%NAME%{%NAME%} // 4 or 5 Socket Phase Blade
+ItemDisplay[7cr NMAG !INF !RW (SOCK=0 OR SOCK>1) (FILTLVL<5 OR FILTLVL=9 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL~5-6) OR (ED>14 FILTLVL~7-8))]: %NAME%{%NAME%} // 0 or >2 Socket Phase Blade
 ItemDisplay[7gd NMAG !INF !RW (SOCK=0 OR SOCK=6) (FILTLVL<5 OR FILTLVL=9 OR (CLVL<80 FILTLVL~5-8))]: %NAME%{%NAME%} // Unbending Will Colossus Blade
 ItemDisplay[crs NMAG !INF !RW SOCK=5 (FILTLVL<5 OR FILTLVL=9 OR (CLVL<75 FILTLVL~5-8))]: %NAME%{%NAME%} // Call to Arms Crystal Sword
 ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !RW SOCK=4 CLVL<60 DIFF<2]: %DOT-D6%%NAME%{%NAME%} // Spirit Swords (Leveling)
@@ -4278,7 +4278,7 @@ ItemDisplay[STAFF NMAG !INF !RW SOCK=3 (!NORM CLVL>39) (CLVL<75 OR (FILTLVL>2 !F
 
 //Polearms/Spears/Amazon Spears
 ItemDisplay[ZON SPEAR TABSK2>2 NMAG !INF !RW !SOCK=1 (!NORM CLVL>59) AMAZON CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Amazon Spears (Leveling)
-ItemDisplay[((SPEAR !THROWING !ZON) OR POLEARM) ELT ETH ((ED>7 ARPER>9) OR ED>11) NMAG !INF !RW !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (!SOCK=2 FILTLVL~5-8))]: %DOT-D6%%NAME%{%NAME%}  // Ethereal Superior Elite Spears and Polearms
+ItemDisplay[((SPEAR !THROWING !ZON) OR POLEARM) ELT ETH ((ED>7 ARPER>9) OR ED>11) NMAG !INF !RW !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (!SOCK=2 FILTLVL~5-6) OR (!SOCK=2 ED>14 FILTLVL~7-8))]: %DOT-D6%%NAME%{%NAME%}  // Ethereal Superior Elite Spears and Polearms
 ItemDisplay[((SPEAR !THROWING !ZON) OR POLEARM) ELT ETH NMAG !INF !RW !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (!SOCK=2 (FILTLVL~5-6)) OR (ED>7 FILTLVL~7-8))]: %DOT-D6%%TIER-4%%NAME%{%NAME%}  // Ethereal Elite Spears and Polearms
 ItemDisplay[7p7 NMAG !INF !RW !SOCK=1 ((ED>3 ARPER>9) OR ED>7)]: %DOT-D6%%TIER-4%%NAME%{%NAME%} // Superior War Pike
 ItemDisplay[(amd OR ame) TABSK2>2 NMAG !INF !RW !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR ((((ED>3 ARPER>9) OR ED>7) OR ETH) ((FILTLVL~5-6) OR (ED>14 FILTLVL~7-8))))]: %DOT-D6%%NAME%{%NAME%} // Amazon Spears
@@ -4295,10 +4295,10 @@ ItemDisplay[SIN !(ktr OR wrb OR axf OR ces) (SK278>1 SK265>1) NMAG !INF !RW (SOC
 ItemDisplay[SIN ELT (((SK254>0 OR SK255>0 OR SK260>0) (SK275>0 SK278>0)) OR ((SK254>1 OR SK255>1 OR SK260>1) (SK252>0 OR SK275>0 OR SK278>0))) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=2)]: %NAME%{%NAME%} // Wind Claws with Utility
 
 //Superior Failsafe Part 2
-ItemDisplay[WEAPON !THROWING !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !DAGGER !(TABSK2<3 (amd OR ame)) ELT NMAG !INF !RW !SOCK=1 ED>9 (ED>11 FILTLVL~7-8)]: %NAME%{%NAME%} // All Useful Weapons With 10%+ Enhanced Damage
+ItemDisplay[WEAPON !THROWING !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !DAGGER !(TABSK2<3 (amd OR ame)) ELT NMAG !INF !RW !SOCK=1 ED>9 (ED=20 FILTLVL~7-8)]: %NAME%{%NAME%} // All Useful Weapons With 10%+ Enhanced Damage
 
 //Superior + Ethereal Failsafe Part 2
-ItemDisplay[WEAPON !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !DAGGER !(TABSK2<3 (amd OR ame OR amf)) ELT NMAG !INF !RW !SOCK=1 !(SOCK=2 2H ED<14) ETH ED>3]: %NAME%{%NAME%} // All Useful Ethereal Weapons With Any Enhanced Damage
+ItemDisplay[WEAPON !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !DAGGER !(TABSK2<3 (amd OR ame OR amf)) ELT NMAG !INF !RW !SOCK=1 !(SOCK=2 2H ED<14) ETH ED>3 (ED>14 FILTLVL~7-8)]: %NAME%{%NAME%} // All Useful Ethereal Weapons With Any Enhanced Damage
 
 //----------------------------------------- (+3) Class Specific Failsafes -----------------------------------------
 
@@ -4591,7 +4591,7 @@ ItemDisplay[(CHEST OR HELM OR SHIELD OR STAFF OR BOW OR XBOW) RARE !ID (FILTLVL<
 ItemDisplay[((CHEST MAXSOCKETS=4 ALVL>74) OR (HELM MAXSOCKETS=3 ALVL>64)) RARE !ID (FILTLVL~5-8)]: %NAME%{%NAME%}
 ItemDisplay[RARE ETH (WEAPON OR ARMOR) !SOR !WAND !ID]: %NAME%{%NAME%}
 ItemDisplay[(CIRC OR GLOVES OR BOOTS OR BELT OR rin OR amu) RARE !ID]: %NAME%{%NAME%}
-//ItemDisplay[RARE !ETH (THROWING OR AXE OR (pik OR 9p9 OR 7p7 OR spt OR 9st OR 7st) OR (POLEARM !(scy OR 9s8 OR 7s8)) OR (SWORD !(sbr OR 9sb OR 7sm))) !ID]: %NAME%{%NAME%} // LLD or SSF inclusivity
+//ItemDisplay[RARE !ETH (THROWING OR AXE OR (pik OR 9p9 OR 7p7 OR spt OR 9st OR 7st) OR (POLEARM !(scy OR 9s8 OR 7s8)) OR (SWORD !(sbr OR 9sb OR 7sm OR flc OR 9fc OR 7fc))) !ID]: %NAME%{%NAME%} // LLD or SSF inclusivity
 //ItemDisplay[RARE ARMOR !ID]: %NAME%{%NAME%} // LLD or SSF inclusivity
 
 //Circlets
