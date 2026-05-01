@@ -120,7 +120,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 <\~:\~> NAME <\~:\~> (Yellow/Gold) = High Tier of Notable Unique Item<br>
 \~:\~ NAME \~:\~ (Yellow/Gold) = Mid Tier of Notable Unique Item<br>
 \~: NAME :\~ (Yellow/Gold) = Low Tier of Notable Unique Item<br>
-\~: NAME :\~ (Gold/Yellow) = PD2 Exclusive Unique Item<br>
+: NAME : (Gold/Yellow) = PD2 Exclusive Unique Item<br>
 \~:\~ NAME \~:\~ (Purple/Green) = High Tier of Notable Set Item<br>
 \~: NAME :\~ (Purple/Green) = Low Tier of Notable Set Item<br>
 \~: NAME :\~ (Purple/Yellow) = LLD Corruptible Unique Item<br>
@@ -183,11 +183,12 @@ Flawless gems no longer notify. (Perfect gems still do.)
 
 Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden. (Elite tier will still show.)
 
-Non-magic (white) items are almost all hidden, unless superior elite bases for runewords (mostly requiring 5%+ ED) or if they have +3 to a valuable skill.
+Non-magic (white) items are almost all hidden, unless superior elite bases for runewords (mostly requiring 8%+ ED) or if they have +3 to a valuable skill.
 
 Normal, exceptional, and elite magic items are hidden unless ethereal items for crafting and/or specifically useful for the class you are playing.
 
 Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, a class item, a dagger, a staff, a tipped mace, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level (75+) chest/shield.
+(If using the 'Specialized SSF' filter version then all rare armor pieces and select rare non-ethereal weapons will also still show.)
 
 Only high-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
@@ -212,12 +213,12 @@ Flawless gems no longer show. Perfect gems no longer notify.
 
 Four socket, ethereal polearm/spear weapons of elite tier will only show with 8%+ Enhanced Damage.
 
-Non-magic (white) items are almost all hidden, unless highly sought after bases for runewords (mostly requiring 8%+ ED) or if they have +3 to a valueable two+ skill combination.
+Non-magic (white) items are almost all hidden, unless highly sought after bases for runewords (mostly requiring 15%+ ED) or if they have +3 to a valueable two+ skill combination.
 (If using the 'Specialized LLD' filter version then all LLD crafting bases will still always show on the ground.)
 
-Normal, exceptional, and elite magic items are hidden unless specifically useful for the class you are playing.
+Normal, exceptional, and elite magic items are hidden unless specifically useful for the class you are playing or particular ethereal weapons and armor.
 
-Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, a class item, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level (75+ 4 socket capable chest, or 85+) chest/shield.
+Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, a class item, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level (75+ 4 socket capable chest, or 85+) chest/shield. (If using the 'Specialized LLD' filter version then all rare armor pieces and select rare non-ethereal weapons will also still show.)
 
 Only high-value unique and set items will notify on drop and most normal tier/low level unique and set items are hidden.
 (If using the 'Specialized LLD' or 'Specialized SSF' filter version then all unique and set items will still always show on the ground.)
@@ -757,3 +758,11 @@ Refactored and condensed large portions of the filter code to improve optimizati
 Completely refactored the filter level structure. Consolidated the "Potionless" filter version into ALL filter versions. Added a new "Super Strict" filter level for those whom are exceptionally stingy about their drops. [1.12.1]
 
 Improved jewel reroll information and added circlet reroll information on the 'Show Recipes' filter level. [1.12.1]
+
+Massive code base refinement regarding the usage of filter levels. [1.12.2]
+
+Made it so 'PD2 Exclusive' unique highlighting is more distinct from 'low tier uniques'. [1.12.2]
+
+Added some specific non-ethereal (all ethereal rares always show) rare weapons and all rare armor to always show on 'Strict' for the SSF filter version and also on Super Strict for the LLD filter version. [1.12.2]
+
+Made the Super Strict filter level live up to its name when it comes to runeword bases without staff mods (requiring a minimum of 15% ED to show them at all). [1.12.2]
