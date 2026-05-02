@@ -183,7 +183,7 @@ Flawless gems no longer notify. (Perfect gems still do.)
 
 Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden. (Elite tier will still show.)
 
-Non-magic (white) items are almost all hidden, unless superior elite bases for runewords (mostly requiring 8%+ ED) or if they have +3 to a valuable skill.
+Non-magic (white) items are almost all hidden, unless superior elite bases for runewords (mostly requiring 8%+ ED) or if they have +3 to a valueable two+ skill combination.
 
 Normal, exceptional, and elite magic items are hidden unless ethereal items for crafting and/or specifically useful for the class you are playing.
 
