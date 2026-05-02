@@ -4295,8 +4295,8 @@ ItemDisplay[WEAPON !THROWING !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !DAGG
 //Superior + Ethereal Failsafe Part 2
 ItemDisplay[WEAPON !WAND !SOR !STAFF !(7sp OR 7cl) !SCEPTER !SIN !DAGGER !(TABSK2<3 (amd OR ame OR amf)) ELT NMAG !INF !RW !SOCK=1 !(SOCK=2 2H ED<10) ETH ED>3 ((FILTLVL<5 OR FILTLVL=9) OR (ED>9 FILTLVL~5-6) OR (ED>14 FILTLVL~7-8))]: %NAME%{%NAME%} // All Useful Ethereal Weapons With Any Enhanced Damage
 
-//LLD Normal/Nightmare Farming Specific
-ItemDisplay[(crn OR xrn OR bhm OR xh9 OR bsh OR xsh OR aar OR xar) SOCK=0 ETH NMAG CLVL>69 (DIFF<2 OR FILTLVL<3 OR FILTLVL=9)]: %NAME%%PURPLE%·%WHITE%{%WHITE%Once %YELLOW%Rare%WHITE%, this item is a valuable base for %ORANGE%Crafting%WHITE%.%NL%%RED%Corrupt %WHITE%or %DARK_GREEN%Imbue %WHITE%this item to make it %YELLOW%Rare%WHITE%.%CL%%NAME%} // For Corrupting
+//LLD Normal/Nightmare/Relaxed Farming Specific
+ItemDisplay[!STAT360>0 (crn OR xrn OR bhm OR xh9 OR bsh OR xsh OR aar OR xar) SOCK=0 ETH NMAG CLVL>69 (DIFF<2 OR FILTLVL<3 OR FILTLVL=9)]: %NAME%%PURPLE%·{%WHITE%Once %YELLOW%Rare%WHITE%, this item is a valuable base for %ORANGE%Crafting%WHITE%.%NL%%RED%Corrupt %WHITE%or %DARK_GREEN%Imbue %WHITE%this item to make it %YELLOW%Rare%WHITE%.%CL%%NAME%} // For Corrupting
 
 //----------------------------------------- (+3) Class Specific Failsafes -----------------------------------------
 
