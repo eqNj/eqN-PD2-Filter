@@ -391,12 +391,12 @@ ItemDisplay[key CLVL>9 SHOP]: {%WHITE%Item%DARK_GREEN%· %WHITE%= %TAN%High Defe
 ItemDisplay[key (CLVL<10 OR FILTLVL=0)]: %GRAY%key%WHITE%{%TAN%The key is in the craft.}
 ItemDisplay[key CLVL>9 FILTLVL>0]: {%TAN%The key is in the craft.}
 
-//NMAG Arrows & Bolts
-ItemDisplay[(cqv OR cqv2 OR cqv3) NMAG SOCK=0 (CLVL<4 OR SHOP)]: %NAME%{%TAN%you only hit what you aim at.%NL%In the long run,}
+//Arrows and Bolts (NMAG)
+ItemDisplay[(cqv OR cqv2 OR cqv3) NMAG SOCK=0 (CLVL<4 OR SHOP OR FILTLVL=0)]: %NAME%{%TAN%you only hit what you aim at.%NL%In the long run,}
 ItemDisplay[(cqv OR cqv2 OR cqv3) NMAG SOCK=0 CLVL>3]: {%TAN%you only hit what you aim at.%NL%In the long run,}
-ItemDisplay[(aqv OR aqv2 OR aqv3) NMAG SOCK=0 (CLVL<4 OR SHOP)]: %NAME%{%TAN%you must aim a little above it.%NL%If you would hit the mark,}
+ItemDisplay[(aqv OR aqv2 OR aqv3) NMAG SOCK=0 (CLVL<4 OR SHOP OR FILTLVL=0)]: %NAME%{%TAN%you must aim a little above it.%NL%If you would hit the mark,}
 ItemDisplay[(aqv OR aqv2 OR aqv3) NMAG SOCK=0 CLVL>3]: {%TAN%you must aim a little above it.%NL%If you would hit the mark,}
-ItemDisplay[(cqv OR cqv2 OR cqv3) NMAG SOCK=1 CLVL<4 (CLVL<4 OR SHOP OR FILTLVL=0)]: %GRAY%%NAME% %TAN%<%WHITE%%SOCKETS%%TAN%>%GRAY%{%TAN%you only hit what you aim at.%NL%In the long run,}
+ItemDisplay[(cqv OR cqv2 OR cqv3) NMAG SOCK=1 (CLVL<4 OR SHOP OR FILTLVL=0)]: %GRAY%%NAME% %TAN%<%WHITE%%SOCKETS%%TAN%>%GRAY%{%TAN%you only hit what you aim at.%NL%In the long run,}
 ItemDisplay[(cqv OR cqv2 OR cqv3) NMAG SOCK=1 CLVL>3]: {%TAN%you only hit what you aim at.%NL%In the long run,}
 ItemDisplay[(aqv OR aqv2 OR aqv3) NMAG SOCK=1 (CLVL<4 OR SHOP OR FILTLVL=0)]: %GRAY%%NAME% %TAN%<%WHITE%%SOCKETS%%TAN%>%GRAY%{%TAN%you must aim a little above it.%NL%If you would hit the mark,}
 ItemDisplay[(aqv OR aqv2 OR aqv3) NMAG SOCK=1 CLVL>3]: {%TAN%you must aim a little above it.%NL%If you would hit the mark,}
@@ -4122,13 +4122,6 @@ ItemDisplay[xsh NMAG !INF !RW !SOCK=1 ((CLVL<75 ((!ETH DEF>119) OR (ETH DEF>148)
 ItemDisplay[(uit OR uow OR uts) ETH NMAG !INF !RW (SOCK=0 OR SOCK=4) (FILTLVL<5 OR FILTLVL=9 OR (ED>7 FILTLVL~5-6) OR (ED>14 FILTLVL~7-8))]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(uit OR uow OR uts OR urg OR ush) NMAG !INF !RW !SOCK=1 ED=20]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(uit OR xsh OR ush OR uow OR uts OR urg) NMAG !INF !RW !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (ED>9 FILTLVL~5-6) OR (ED>17 FILTLVL~7-8))]: %NAME%{%NAME%}
-
-//Arrows & Bolts - Part 2
-ItemDisplay[(aqv OR cqv) NMAG !INF !RW SOCK=2 CLVL<10]: %NAME%{%NAME%} // (Leveling)
-ItemDisplay[(aqv2 OR cqv2) NMAG !INF !RW SOCK=2 CLVL<20]: %NAME%{%NAME%} // (Leveling)
-ItemDisplay[(aqv OR cqv) NMAG !INF !RW SOCK=2 AMAZON CLVL<15]: %NAME%{%NAME%} // (Leveling)
-ItemDisplay[(aqv2 OR cqv2) NMAG !INF !RW SOCK=2 AMAZON CLVL<40]: %NAME%{%NAME%} // (Leveling)
-ItemDisplay[(aqv3 OR cqv3) NMAG !INF !RW SOCK=2 CLVL<60]: %NAME%{%NAME%}
 
 // --- // --- NMAG WEAPONS (Runeword Bases) --- \\ --- \\
 
