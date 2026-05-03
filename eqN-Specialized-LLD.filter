@@ -3775,7 +3775,7 @@ ItemDisplay[NMAG !RW (SOR OR WAND OR (SCEPTER !(wsp OR 9ws OR 7ws)) OR SIN OR NE
 //Highlight Magic Jewels
 ItemDisplay[jew MAG !ID]: %DOT-97%%BLUE%~%TAN%:%BLUE%~  %NAME%  ~%TAN%:%BLUE%~
 
-//Highlight Various Rares
+//Rare Items (Various)
 ItemDisplay[(CHEST OR SHIELD) RARE !NEC !ID ALVL>84]: %WHITE%~%YELLOW% %NAME% %WHITE%~%YELLOW%
 ItemDisplay[jew RARE !ID (ALVL=38 OR ILVL=38)]: %DOT-A8%%WHITE%~%YELLOW%:%WHITE%~ %PURPLE%: %YELLOW%%NAME% %PURPLE%: %WHITE%~%YELLOW%:%WHITE%~%YELLOW%
 ItemDisplay[amu ALVL>89 RARE !ID]: %DOT-A8%%WHITE%~ %YELLOW%:: %WHITE%~  %YELLOW%%NAME%  %WHITE%: %WHITE%~ %YELLOW%:: %WHITE%~%YELLOW%
@@ -3784,10 +3784,9 @@ ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) AMAZON RARE !ID CLVL<75
 ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) AMAZON RARE !ID (FILTLVL<3 OR FILTLVL=9)]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
 ItemDisplay[(aqv OR aqv2 OR aqv3) AMAZON RARE !ID FILTLVL~3-4]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
 ItemDisplay[(cqv OR cqv2 OR cqv3) AMAZON RARE !ID FILTLVL~3-4]: %WHITE%~%YELLOW%: %NAME% :%WHITE%~%YELLOW%
-ItemDisplay[(aqv OR aqv2 OR aqv3) AMAZON RARE !ID FILTLVL~5-8]: %WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
-ItemDisplay[(cqv OR cqv2 OR cqv3) AMAZON RARE !ID FILTLVL~5-8]: %YELLOW%%NAME%
-ItemDisplay[(cqv OR cqv2 OR cqv3) !AMAZON RARE !ID !FILTLVL~7-8]: %YELLOW%%NAME%
-ItemDisplay[(aqv OR aqv2 OR aqv3) !AMAZON RARE !ID]: %YELLOW%%NAME%
+ItemDisplay[(aqv OR aqv2 OR aqv3) AMAZON RARE !ID]: %WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
+ItemDisplay[(cqv OR cqv2 OR cqv3) RARE !ID]: %YELLOW%%NAME%
+ItemDisplay[(aqv OR aqv2 OR aqv3) RARE !ID]: %YELLOW%%NAME%
 
 //Diablo Clone Uniques
 ItemDisplay[UNI !ID utb]: %SOUNDID-4639%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Mirrored Boots

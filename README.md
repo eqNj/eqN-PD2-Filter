@@ -192,7 +192,7 @@ Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon,
 
 Only high-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
-Magic arrows are hidden for all classes. Rare bolts are hidden for all classes except Amazons. Rare arrows will still show.
+Magic arrows are hidden for all classes. Rare arrows and bolts will still show.
 
 Non-magic (for imbuing) and magic circlets of all kinds are hidden.
 
@@ -223,7 +223,7 @@ Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon,
 Only high-value unique and set items will notify on drop and most normal tier/low level unique and set items are hidden.
 (If using the 'Specialized LLD' or 'Specialized SSF' filter version then all unique and set items will still always show on the ground.)
 
-Magic arrows are hidden for all classes. Rare bolts are hidden for all classes except Amazons. Rare arrows will still show.
+Magic arrows are hidden for all classes. Rare arrows and bolts will still show.
 
 Non-magic (for imbuing) and magic circlets of all kinds are hidden.
 
