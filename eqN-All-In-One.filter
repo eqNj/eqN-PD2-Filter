@@ -4119,10 +4119,9 @@ ItemDisplay[NEC (((SK75>2 OR SK85>2 OR SK94>2) (SK79>1 OR SK90>1)) OR ((SK69>1 O
 
 //Shields
 ItemDisplay[xsh NMAG !INF !RW !SOCK=1 ((CLVL<75 ((!ETH DEF>119) OR (ETH DEF>148))) OR ED=20)]: %DOT-D6%%NAME%{%NAME%} // (Leveling)
-ItemDisplay[(uit OR uow OR uts OR urg) ETH NMAG !INF !RW (SOCK=0 OR SOCK=4) (FILTLVL<5 OR FILTLVL=9 OR ((ED>7 (FILTLVL~5-6) OR (ED>14 FILTLVL~7-8))))]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(uit OR uow OR uts) ETH NMAG !INF !RW (SOCK=0 OR SOCK=4) (FILTLVL<5 OR FILTLVL=9 OR ((ED>7 (FILTLVL~5-6) OR (ED>14 FILTLVL~7-8))))]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(uit OR uow OR uts OR urg OR ush) NMAG !INF !RW !SOCK=1 ED=20]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(uit OR (xsh DEF>119) OR ush OR uow OR uts OR urg) NMAG !INF !RW !SOCK=1 (uit OR uow OR uts OR urg) (FILTLVL<5 OR FILTLVL=9 OR ((uit OR uow OR uts OR urg) ((ED>7 (FILTLVL~5-6) OR (ED>14 FILTLVL~7-8)))))]: %NAME%{%NAME%}
-ItemDisplay[(tow OR (xsh DEF>119) OR ush) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=3) ED=20]: %NAME%{%NAME%}
+ItemDisplay[(uit OR xsh OR ush OR uow OR uts OR urg) NMAG !INF !RW !SOCK=1 (FILTLVL<5 OR FILTLVL=9 OR (ED>9 FILTLVL~5-6) OR (ED>17 FILTLVL~7-8))]: %NAME%{%NAME%}
 
 //Arrows & Bolts - Part 2
 ItemDisplay[(aqv OR cqv) NMAG !INF !RW SOCK=2 CLVL<10]: %NAME%{%NAME%} // (Leveling)
