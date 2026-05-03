@@ -766,3 +766,7 @@ Made it so 'PD2 Exclusive' unique highlighting is more distinct from 'low tier u
 Added some specific non-ethereal (all ethereal rares always show) rare weapons and all rare armor to always show on 'Strict' for the SSF filter version and also on Super Strict for the LLD filter version. [1.12.2]
 
 Made the Super Strict filter level live up to its name when it comes to runeword bases without staff mods (requiring a minimum of 15% ED to show them at all). [1.12.2]
+
+Further improved the highlighting of uniques based on rarity and trade value. [1.12.2]
+
+Ensured filter level 0 continues to include item name formatting. [1.12.2]
