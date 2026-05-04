@@ -4581,7 +4581,7 @@ ItemDisplay[(CHEST OR HELM OR SHIELD OR STAFF OR BOW OR XBOW) RARE !ID (FILTLVL<
 ItemDisplay[(((CHEST OR SHIELD) MAXSOCKETS=4 ALVL>74) OR (HELM MAXSOCKETS=3 ALVL>64)) RARE !ID (FILTLVL~5-8)]: %NAME%{%NAME%}
 ItemDisplay[RARE ETH (WEAPON OR ARMOR) !SOR !WAND !ID]: %NAME%{%NAME%}
 ItemDisplay[(CIRC OR GLOVES OR BOOTS OR BELT OR rin OR amu) RARE !ID]: %NAME%{%NAME%}
-ItemDisplay[RARE !ETH (THROWING OR AXE OR (pik OR 9p9 OR 7p7 OR spt OR 9st OR 7st) OR (POLEARM !(scy OR 9s8 OR 7s8)) OR (SWORD !(sbr OR 9sb OR 7sm OR flc OR 9fc OR 7fc))) !ID]: %NAME%{%NAME%} // LLD or SSF inclusivity
+ItemDisplay[RARE !ETH (MACE OR AXE OR THROWING OR (pik OR 9p9 OR 7p7 OR spt OR 9st OR 7st) OR (POLEARM !(scy OR 9s8 OR 7s8)) OR (SWORD !(sbr OR 9sb OR 7sm OR flc OR 9fc OR 7fc))) !ID]: %NAME%{%NAME%} // LLD or SSF inclusivity
 ItemDisplay[RARE ARMOR !ID]: %NAME%{%NAME%} // LLD or SSF inclusivity
 
 //Circlets
