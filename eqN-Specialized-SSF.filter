@@ -457,8 +457,10 @@ ItemDisplay[cm3p !(MAPID=157 OR MAPID=159)]: %GRAY%Dueling Charm
 ItemDisplay[(cm1 OR cm2 OR cm3) MAG !ID ILVL>89]: %DOT-A0%%TAN%( %GRAY%~ %DARK_GREEN%: %BLUE%%NAME% %DARK_GREEN%: %GRAY%~ %TAN%)%BLUE%
 ItemDisplay[cm1 MAG !ID ALVL<39 ALVL>36]: %DOT-A0%%TAN%( %GRAY%~ %PURPLE%: %BLUE%%NAME% %PURPLE%: %GRAY%~ %TAN%)%BLUE%
 ItemDisplay[cm2 MAG !ID ALVL<41 ALVL>37]: %DOT-A0%%TAN%( %PURPLE%: %BLUE%%NAME% %PURPLE%: %TAN%)%BLUE%
-ItemDisplay[(cm1 OR cm3) MAG !ID]: %DOT-A0%%TAN%( %GRAY%~ %BLUE%%NAME% %GRAY%~ %TAN%)%BLUE%
-ItemDisplay[cm2 MAG !ID]: %DOT-A0%%TAN%(  %BLUE%%NAME%  %TAN%)%BLUE%
+ItemDisplay[(cm1 OR cm3) MAG !ID !(MAPID=177 OR MAPID=178 OR MAPID=179)]: %DOT-A0%%TAN%( %GRAY%~ %BLUE%%NAME% %GRAY%~ %TAN%)%BLUE%
+ItemDisplay[cm2 MAG !ID !(MAPID=177 OR MAPID=178 OR MAPID=179)]: %DOT-A0%%TAN%(  %BLUE%%NAME%  %TAN%)%BLUE%
+ItemDisplay[(cm1 OR cm3) MAG !ID (MAPID=177 OR MAPID=178 OR MAPID=179)]: %TAN%( %GRAY%~ %BLUE%%NAME% %GRAY%~ %TAN%)%BLUE%
+ItemDisplay[cm2 MAG !ID (MAPID=177 OR MAPID=178 OR MAPID=179)]: %TAN%(  %BLUE%%NAME%  %TAN%)%BLUE%
 ItemDisplay[(cm1 OR cm2) UNI !ID]: %BORDER-62%%RED%(%GOLD%~%RED%:%GOLD%~     %GOLD%%NAME%     %GOLD%~%RED%:%GOLD%~%RED%)%GOLD%
 ItemDisplay[cm3 UNI !ID]: %SOUNDID-3912%%BORDER-62%%RED%(%GOLD%~%RED%:%GOLD%~     %GOLD%%NAME%     %GOLD%~%RED%:%GOLD%~%RED%)%GOLD%
 
@@ -610,7 +612,7 @@ ItemDisplay[GEMTYPE=7 GEM=5 FILTLVL=9]: %DOT-66%%NAME% %ORANGE%(%GRAY%@%ORANGE%)
 //Hiding Low Gems
 ItemDisplay[GEM<4 (DIFF>1 OR (DIFF=1 MAPID>102))]: %NAME%%WHITE%{%NAME%}%CONTINUE%
 ItemDisplay[GEM<4 (DIFF>1 OR (DIFF=1 MAPID>102) OR (((DIFF=0 MAPID>102) OR DIFF=1) FILTLVL>2 !FILTLVL=9)) !TOWN !FILTLVL=0]:
-//ItemDisplay[GEM<5 (DIFF>1 OR (DIFF<2 MAPID>102)) !TOWN FILTLVL~7-8]:
+//ItemDisplay[GEM<5 (DIFF>1 OR (DIFF<2 MAPID>102)) !TOWN !MAPID=199 !MAPID=168 FILTLVL~7-8]:
 ItemDisplay[GEM<3 (DIFF>0 OR (DIFF=0 MAPID>102))]: %NAME%%WHITE%{%NAME%}%CONTINUE%
 ItemDisplay[GEM<3 (DIFF>0 OR (DIFF=0 MAPID>102)) !TOWN !FILTLVL=0]:
 
@@ -638,15 +640,12 @@ ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk OR aqv OR aqv2 OR aqv3 OR cqv OR cqv
 //Jewel Fragments
 ItemDisplay[jewf]: %PURPLE%~ %BLUE%%NAME% %PURPLE%~%BLUE%{%WHITE%Functions identical to %BLUE%Jewels %WHITE%for %ORANGE%Recipes%NL%%NL%%TAN%Shatter to soot, component of creation.}
 
-//Standard of Heroes
-ItemDisplay[std]: %PX-62%%YELLOW%|%GRAY%:%TAN%>     %GOLD%%NAME%     %YELLOW%<%GRAY%:%TAN%|%GOLD%{%TAN%Invigorating a Heroic Age%NL%Banners of Eternal Conflict}
-
-//Project Diablo 2 Items
+//Misc. Project Diablo 2 Items
+ItemDisplay[iwss]: %MAP-4B%%GOLD%|  %PURPLE%%NAME%  %GOLD%|%PURPLE%{%TAN%What does it matter, the source of the catalyst?%NL%A series of vibrations.}
 ItemDisplay[wss]: %MAP-4B%%NAME%{%RED%Warning%WHITE%: This can brick your item%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
-ItemDisplay[scrb !TOWN]: %SOUNDID-586%%BORDER-62%%TAN%%LBRACE%%BLUE%O%TAN%%RBRACE%     %GOLD%%NAME%     %TAN%%LBRACE%%BLUE%O%TAN%%RBRACE%%GOLD%{%TAN%Shuffle the Deserts of Aranoch%NL%The Lineage of Great Mages}
-ItemDisplay[scrb TOWN]: %BORDER-62%%TAN%%LBRACE%%BLUE%O%TAN%%RBRACE%     %GOLD%%NAME%     %TAN%%LBRACE%%BLUE%O%TAN%%RBRACE%%GOLD%{%TAN%Shuffle the Deserts of Aranoch%NL%The Lineage of Great Mages}
 ItemDisplay[lmal]: %GRAY%:  %GOLD%%NAME%  %GRAY%:%GOLD%{%RED%Corruption %WHITE%and/or %GOLD%Puzzlepieces %WHITE%could result higher.%NL%}
-ItemDisplay[lpp]: %BORDER-0B%%YELLOW%|%GRAY%:    %GOLD%%NAME%    %GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
+ItemDisplay[lpp !TOWN]: %BORDER-0B%%YELLOW%|%GRAY%:    %GOLD%%NAME%    %GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
+ItemDisplay[lpp TOWN]: %YELLOW%|%GRAY%:    %GOLD%%NAME%    %GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
 ItemDisplay[lbox !TOWN]: %SOUNDID-2594%%BORDER-0C%%YELLOW%|%GRAY%:%YELLOW%|      %GOLD%%NAME%      %YELLOW%|%GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
 ItemDisplay[lbox TOWN]: %BORDER-0C%%YELLOW%|%GRAY%:%YELLOW%|      %GOLD%%NAME%      %YELLOW%|%GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
 ItemDisplay[imrn !TOWN]: %SOUNDID-10%%BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:          %PURPLE%%NAME%          %GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is very rare.%NL%%NL%%WHITE%Cannot be used on %RED%Corrupted %WHITE%items.}
@@ -655,11 +654,9 @@ ItemDisplay[llmr !TOWN]: %SOUNDID-418%%BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%
 ItemDisplay[imrn TOWN]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:          %PURPLE%%NAME%          %GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is very rare.%NL%%NL%%WHITE%Cannot be used on %RED%Corrupted %WHITE%items.}
 ItemDisplay[lsvl TOWN]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%-          %PURPLE%%NAME%          %BLUE%-%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%GOLD%Indestructible %WHITE%items cannot be made ethereal.}
 ItemDisplay[llmr TOWN]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%-          %PURPLE%%NAME%          %BLUE%-%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Once an item is %PURPLE%Mirrored %WHITE%it cannot be %GOLD%Cubed%WHITE%.%NL%Not usable on jewels of any kind.%NL%Usable on %BLUE%Magic %WHITE%/ %YELLOW%Rare %WHITE%/ %ORANGE%Crafted %WHITE%items.}
-ItemDisplay[iwss]: %MAP-4B%%GOLD%|  %PURPLE%%NAME%  %GOLD%|%PURPLE%{%TAN%What does it matter, the source of the catalyst?%NL%A series of vibrations.}
 ItemDisplay[(ivea OR ivez OR iveb OR ived OR iven OR ivep OR ives)]: %MAP-0A%%GOLD%|  %RED%%NAME%  %GOLD%|%RED%{%NAME%}
-ItemDisplay[ear (MAPID=157 OR MAPID=159) FILTLVL=9]: %NAME%{%NAME%}
-ItemDisplay[ear (MAPID=157 OR MAPID=159)]: {%NAME%}
-ItemDisplay[ear]: %NAME%{%NAME%}
+ItemDisplay[ear FILTLVL=9]: %NAME%{%NAME%}
+ItemDisplay[ear]: {%NAME%}
 
 //Crafting Orbs
 ItemDisplay[crfb]: %ORANGE%Blood Infusion%CONTINUE%
@@ -690,6 +687,14 @@ ItemDisplay[tes]: %PX-82%%NAME%{%BLUE%Duriel, Lord of Pain%NL%Andariel, Maiden o
 ItemDisplay[ceh]: %PX-82%%NAME%{%TAN%Mephisto, Lord of Hatred%NL%%GRAY%Manifested By:}
 ItemDisplay[bet]: %PX-82%%NAME%{%RED%Diablo, Lord of Terror%NL%%GRAY%Manifested By:}
 ItemDisplay[fed]: %PX-82%%NAME%{%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Manifested By:}
+
+//Standard of Heroes
+ItemDisplay[std !MAPID=168 !TOWN]: %PX-62%%YELLOW%|%GRAY%:%TAN%>     %GOLD%%NAME%     %YELLOW%<%GRAY%:%TAN%|%GOLD%{%TAN%Invigorating a Heroic Age%NL%Banners of Eternal Conflict}
+ItemDisplay[std (MAPID=168 OR TOWN)]: %YELLOW%|%GRAY%:%TAN%>     %GOLD%%NAME%     %YELLOW%<%GRAY%:%TAN%|%GOLD%{%TAN%Invigorating a Heroic Age%NL%Banners of Eternal Conflict}
+
+//Horadrim Scarab
+ItemDisplay[scrb !TOWN !MAPID=168]: %SOUNDID-586%%BORDER-62%%TAN%%LBRACE%%BLUE%O%TAN%%RBRACE%     %GOLD%%NAME%     %TAN%%LBRACE%%BLUE%O%TAN%%RBRACE%%GOLD%{%TAN%Shuffle the Deserts of Aranoch%NL%The Lineage of Great Mages}
+ItemDisplay[scrb (MAPID=168 OR TOWN)]: %TAN%%LBRACE%%BLUE%O%TAN%%RBRACE%     %GOLD%%NAME%     %TAN%%LBRACE%%BLUE%O%TAN%%RBRACE%%GOLD%{%TAN%Shuffle the Deserts of Aranoch%NL%The Lineage of Great Mages}
 
 //Uber Keys
 ItemDisplay[pk1]: %DOT-05%%RED%|   %ORANGE%%NAME%   %RED%|%ORANGE%{%WHITE%To open a %RED%Mini-Uber Portal%NL%%ORANGE%Key of Hatred %WHITE%& %ORANGE%Key of Destruction%NL%%GOLD%Cube %WHITE%this item with the following:%NL%%NL%%RED%Blood Raven %WHITE%& %RED%The Countess%NL%%GRAY%Manifested By:}
@@ -5039,7 +5044,7 @@ ItemDisplay[(8mx OR 6mx) UNI STAT424>19]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GR
 ItemDisplay[usk UNI IAS>29 CHSK278>0]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|%CL%%NAME%}
 ItemDisplay[amf UNI TABSK2>3]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|%CL%%NAME%}
 ItemDisplay[nee UNI CLSK2>2]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|%CL%%NAME%}
-ItemDisplay[ulc UNI ALLSK>0 FCR>20]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|%CL%%NAME%}
+ItemDisplay[ulc UNI ALLSK>0 ((FCR>10 !STAT360=42) OR FCR>20)]: %BORDER-9B%[Legacy]%NL%%NAME%{%DARK_GREEN%|%RED%::%DARK_GREEN%|   %TAN%Legacy Item   %DARK_GREEN%|%RED%::%DARK_GREEN%|%CL%%NAME%}
 
 //----------------------------------------- Desecrated Amulets -----------------------------------------
 
@@ -5395,13 +5400,13 @@ ItemDisplay[(MAG OR (RARE SOCK>0) OR (RARE (GLOVES OR BELT OR BOOTS))) (ARMOR OR
 //----------------------------------------- Always Show These -----------------------------------------
 
 //Hides all normal tier Unique or Set items (Super Strict)
-//ItemDisplay[UNI (ARMOR OR WEAPON) !ID CLVL>74 NORM FILTLVL~7-8]: {%NAME%}
-//ItemDisplay[SET (ARMOR OR WEAPON) !ID CLVL>74 NORM FILTLVL~7-8]: {%NAME%}
+//ItemDisplay[UNI (ARMOR OR WEAPON) !ID CLVL>74 NORM !(MAPID=200 OR MAPID=195 OR MAPID=181 OR MAPID=182 OR TOWN) FILTLVL~7-8]: {%NAME%}
+//ItemDisplay[SET (ARMOR OR WEAPON) !ID CLVL>74 NORM !(MAPID=200 OR MAPID=195 OR MAPID=181 OR MAPID=182 OR TOWN) FILTLVL~7-8]: {%NAME%}
 
 //Always Show These
 ItemDisplay[(SET OR UNI OR CRAFT OR RW OR (NMAG GEMMED))]: %NAME%{%NAME%}
 ItemDisplay[(MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%{%NAME%}
-ItemDisplay[RARE !ID (MAPID=181 OR MAPID=182 OR MAPID=109)]: %NAME%{%NAME%}
+ItemDisplay[RARE !ID (MAPID=200 OR MAPID=195 OR MAPID=181 OR MAPID=182 OR TOWN)]: %NAME%{%NAME%}
 ItemDisplay[(EQUIPPED OR SHOP)]: %NAME%{%NAME%}
 ItemDisplay[ETH !NMAG !FILTLVL~7-8]: %NAME%{%NAME%}
 
