@@ -3900,10 +3900,10 @@ ItemDisplay[(rin OR uhm OR paf OR lbt OR lbl OR lgl OR ulg OR uh9 OR 6cs) SET !I
 ItemDisplay[((dr8 OR uul OR (DRUID (xtb OR 9mt))) OR (xar OR (PALADIN (7ws OR paf OR urn))) OR (7m7 OR (BARBARIAN (xhg OR zhb OR xhb OR uar))) OR (ci3 OR uld OR amc OR (AMAZON (xtg OR zvb))) OR (ucl OR (ASSASSIN (xh9 OR xmb OR 7qr))) OR (xsk OR uth OR (SORCERESS (oba OR zmb))) OR (xul OR xmg OR (NECROMANCER (ne9 OR utc)))) SET !ID]: %DOT-84%%PURPLE%~%DARK_GREEN%:   %GREEN%%NAME%   %DARK_GREEN%:%PURPLE%~%GREEN%
 
 //Low Level Dueling
-ItemDisplay[!FILTLVL~7-9 (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR am5 OR bld OR xap OR bwn OR cap OR aar OR stu OR scl OR spl OR xuc OR kit OR vgl OR mbt OR gth OR rxb) !ETH UNI !ID]: %YELLOW%~%PURPLE%: %GOLD%%NAME% %PURPLE%:%YELLOW%~{%NAME%}%CONTINUE%
+ItemDisplay[!FILTLVL~7-9 (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR sbb OR am5 OR bld OR xap OR bwn OR cap OR aar OR stu OR scl OR spl OR xuc OR kit OR vgl OR mbt OR gth OR rxb) !ETH UNI !ID]: %YELLOW%~%PURPLE%: %GOLD%%NAME% %PURPLE%:%YELLOW%~{%NAME%}%CONTINUE%
 ItemDisplay[!FILTLVL~7-9 (lgl OR vbt OR vgl OR bwn OR xap) SET !ETH !ID]: %GREEN%~%PURPLE%: %GREEN%%NAME%  %PURPLE%:%GREEN%~{%NAME%}%CONTINUE%
 //Show Recipes LLD
-ItemDisplay[FILTLVL=9 (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR am5 OR bld OR xap OR bwn OR cap OR aar OR stu OR scl OR spl OR xuc OR kit OR vgl OR mbt OR vbt OR (flb ILVL>40) OR gth OR hbt OR rxb) !ETH UNI !ID]: %DOT-60%%NAME% %GRAY%|%PURPLE%LLD%GRAY%|{%NAME%}
+ItemDisplay[FILTLVL=9 (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR sbb OR am5 OR bld OR xap OR bwn OR cap OR aar OR stu OR scl OR spl OR xuc OR kit OR vgl OR mbt OR vbt OR (flb ILVL>40) OR gth OR hbt OR rxb) !ETH UNI !ID]: %DOT-60%%NAME% %GRAY%|%PURPLE%LLD%GRAY%|{%NAME%}
 ItemDisplay[FILTLVL=9 (lea OR hla OR ssd) UNI !ETH !ID]: %DOT-60%%NAME% %GRAY%|%PURPLE%vLLD%GRAY%|{%NAME%}
 ItemDisplay[FILTLVL=9 (lgl OR vbt OR vgl OR bwn OR xap) SET !ETH !ID]: %DOT-84%%NAME% %GRAY%|%PURPLE%LLD%GRAY%|{%NAME%}
 ItemDisplay[FILTLVL=9 (cap OR dgr OR mbl OR mbt OR lsd OR lbl OR hbt OR hgl OR tow) SET !ETH !ID]: %NAME% %GRAY%|%PURPLE%vLLD%GRAY%|{%NAME%}
@@ -4981,9 +4981,8 @@ ItemDisplay[(ARMOR OR WEAPON OR rin OR amu) !CIRC (MAG OR RARE) STAT486=0 STAT20
 ItemDisplay[CIRC RARE STAT360=0 STAT486=0 STAT206=0 !SHOP !EQUIPPED !MERC FILTLVL=9]: %NAME%{%GRAY%ALVL %REROLLALVL% if rerolled with current CLVL%CL%%NAME%}%CONTINUE%
 
 //Low Level Dueling Unique Items (Corruption Note)
-ItemDisplay[!EQUIPPED UNI ID !FILTLVL=9 ((xap !ETH) OR (bwn SK70=2 SK80=2) OR (cap !ETH) OR (ghm ILVL>40) OR (gth EDAM>74) OR (aar) OR (fld STAT36>14) OR (stu IAS>29 !ETH) OR (scl OS221>2) OR (spl STAT362>1) OR (xuc STAT330>7 !ETH) OR (kit !ETH) OR (vgl !ETH) OR (mbt LIFE>19 STAT156>14 !ETH) OR (lea !ETH) OR (hla REPLIFE>9 !ETH) OR (chn STAT330=10 !ETH) OR (ssd !ETH)) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible}
-ItemDisplay[!EQUIPPED UNI ID FILTLVL=9 ((xap !ETH) OR (bwn SK70=2 SK80=2) OR (cap !ETH) OR (ghm ILVL>40) OR (gth EDAM>74) OR (aar) OR (fld STAT36>14) OR (stu IAS>29 !ETH) OR (scl OS221>2) OR (spl STAT362>1) OR (xuc STAT330>7 !ETH) OR (kit !ETH) OR (vgl !ETH) OR (mbt LIFE>19 STAT156>14 !ETH) OR (lea !ETH) OR (hla REPLIFE>9 !ETH) OR (chn STAT330=10 !ETH) OR (ssd !ETH)) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%CL%%NAME%}
-ItemDisplay[!EQUIPPED UNI ID ((flb ED>149 ILVL>40) OR (cst ALLSK=3) OR (wax ED>119 ILVL>40) OR (gma ED>239 ILVL>40) OR (mau ED>259 ILVL>40 STAT136>24) OR (gsd ILVL>40) OR (bld) OR (rxb CLSK0>1 ED>119)) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%CL%%NAME%}%CONTINUE%
+ItemDisplay[!EQUIPPED UNI ID ((xap !ETH) OR (bwn SK70=2 SK80=2) OR (cap !ETH) OR (ghm ILVL>40) OR (gth EDAM>74) OR (aar) OR (fld STAT36>14) OR (stu IAS>29 !ETH) OR (scl OS221>2) OR (spl STAT362>1) OR (xuc STAT330>7 !ETH) OR (kit !ETH) OR (vgl !ETH) OR (mbt LIFE>19 STAT156>14 !ETH) OR (lea !ETH) OR (hla REPLIFE>9 !ETH) OR (chn STAT330=10 !ETH) OR (ssd !ETH)) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%CL%%NAME%}%CONTINUE%
+ItemDisplay[!EQUIPPED UNI ID ((flb ED>149 ILVL>40) OR (cst ALLSK=3) OR (wax ED>119 ILVL>40) OR (gma ED>239 ILVL>40) OR (mau ED>259 ILVL>40 STAT136>24) OR (gsd ILVL>40) OR (bld) OR (rxb CLSK0>1 ED>119) OR (sbb STAT156>29 ED>149)) STAT360=0]: %NAME%{%TAN%Low Level Dueling Corruptible%CL%%NAME%}%CONTINUE%
 
 //Low Level Dueling Set Items (Corruption Note)
 ItemDisplay[!EQUIPPED SET ID !ETH !FILTLVL=9 (cap OR tbl OR mbl OR mbt OR lbl OR lgl OR ghm OR hbt OR hgl OR tow OR wsd) STAT360=0 LVLREQ<10 FILTLVL=9]: %NAME%{%TAN%Level 9 Dueling Corruptible}
