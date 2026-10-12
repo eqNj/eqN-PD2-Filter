@@ -2,7 +2,7 @@
 
 ![Den](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Header.jpg)
 
-These filters are up-to-date for Season 13 of Project Diablo 2!
+These filters are up-to-date for Season 14 of Project Diablo 2!
 
 You can find these loot filters either here (on GitHub) or through the Project Diablo 2 game launcher.
 
@@ -120,7 +120,8 @@ Descriptions have been added to almost every quest item and/or utility item in t
 <\~:\~> NAME <\~:\~> (Orange/Gold) = Fifth Anniversary Skin Unique Item<br>
 <\~:\~> NAME <\~:\~> (Yellow/Gold) = High Tier of Notable Unique Item<br>
 \~:\~ NAME \~:\~ (Yellow/Gold) = Mid Tier of Notable Unique Item<br>
-\~: NAME :\~ (Yellow/Gold) = Low Tier of Notable Unique Item<br>
+:\~ NAME \~: (Yellow/Gold) = Low Tier of Notable Unique Item<br>
+:NAME: (Orange) = Recolorable Unique Item Accent<br>
 ·NAME· (Gold) = PD2 Exclusive Unique Item Accent<br>
 \~:\~ NAME \~:\~ (Purple/Green) = High Tier of Notable Set Item<br>
 \~: NAME :\~ (Purple/Green) = Low Tier of Notable Set Item<br>
@@ -771,3 +772,29 @@ Made the Super Strict filter level live up to its name when it comes to runeword
 Further improved the highlighting of uniques based on rarity and trade value. [1.12.2]
 
 Ensured filter level 0 continues to include item name formatting. [1.12.2]
+
+## 1.13.0 - (Season 14) (Beta)
+
+Added a "Specialized Grail" filter version that adds an additional accent to items needed for holy grail completion and ensures such items always show even on the highest possible filter strictness level(s).  [Not Yet]
+
+Redesigned the shop highlighting color schema, made it so several of such quality of life features simultaneously present visually, and improved the accuracy of various shop hunting targets.
+
+Added base block chance to shield descriptions on the Show Recipes filter level.
+
+Added a new drop highlight accent for uniques that can possibly drop recolored.
+
+Added description highlighting for new Skill Damage jewels.
+
+Added new runewords to applicable runeword base descriptions.
+
+Improved helm and chest runeword base highlighting in accordance with changed maximum socket potential for certain bases.
+
+Improved throwing weapon runeword base highlighting, especially Amazon bases, in lieu of changes.
+
+Updated information of crafting results on infused orbs.
+
+Added new unique item drop highlighting.
+
+Adjusted rare item drop highlighting to account for the new rare-only affixes and the change to affix level calculations.  [Not Yet]
+
+Added information for new maps [T18 & T2A & T29] and adjusted existing map resistance information as needed. [Not Yet]
