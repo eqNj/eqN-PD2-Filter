@@ -888,6 +888,16 @@ ItemDisplay[RARE ((STAT51>59 STAT49>29) OR (STAT51>39 STAT49>39)) jew]: %NAME%%Y
 
 //----------------------------------------- Base Renaming and Formatting -----------------------------------------
 
+//5th Anniversary Unique Accent
+ItemDisplay[(6ws OR uap OR xhn OR dr6 OR uit) UNI !ID]: %GOLD%:%NAME%:%CONTINUE%
+
+//Alternate Art Unique Accent
+ItemDisplay[(8ls OR uui OR 7wc OR 7gm OR 7kr OR 8hx OR 7bt OR mgl OR pa9 OR 7gd OR xlg OR uh9 OR ush OR uow OR xlt OR xui OR zlb OR xtb) UNI !ID]: %GOLD%:%NAME%:%CONTINUE%
+
+//Undiscovered Grail Accent
+ItemDisplay[UNI !ID !ALLDISCOVERED]: %RED%·%GOLD%%NAME%%RED%·%GOLD%%CONTINUE%
+ItemDisplay[SET !ID !ALLDISCOVERED]: %RED%·%GREEN%%NAME%%RED%·%GREEN%%CONTINUE%
+
 //Label Ethereal Items
 ItemDisplay[ETH UNI]: %GRAY%[%WHITE%e%GRAY%] %GOLD%%NAME%%CONTINUE%
 ItemDisplay[ETH SET]: %GRAY%[%WHITE%e%GRAY%] %GREEN%%NAME%%CONTINUE%
@@ -1021,11 +1031,14 @@ ItemDisplay[SUP NMAG !RW (SOR OR WAND OR (SCEPTER !(wsp OR 9ws OR 7ws)) OR SIN O
 ItemDisplay[WEAPON !BOW !XBOW !WAND !SOR]: %NAME%{%WHITE%Speed: %WPNSPD% %GRAY%|| %WHITE%Range: +%RANGE%}%CONTINUE%
 ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%WHITE%Base Speed: %WPNSPD%}%CONTINUE%
 
-//Show Boot Kick Damage (Assassin, Show Recipes)
-//ItemDisplay[BOOTS ASSASSIN FILTLVL=6]: %NAME%{%WHITE%Kick Damage: %BASEMINKICK% - %BASEMAXKICK%}%CONTINUE%
+//Show Set Boot Kick Damage (Assassin)
+ItemDisplay[BOOTS ASSASSIN SET]: %NAME%{%WHITE%Kick Damage: %BASEMINKICK% - %BASEMAXKICK%}%CONTINUE%
 
 //Show Base Block Chance (Show Recipes)
-ItemDisplay[SHIELD FILTLVL=6]: %NAME%{%WHITE%Base Block: %BASEBLOCK%%}%CONTINUE%
+ItemDisplay[SHIELD FILTLVL=9]: %NAME%{%WHITE%Base Block: %BASEBLOCK%%}%CONTINUE%
+
+//Show Player Dodge Chance on Warriv's Warder
+ItemDisplay[CHARSTAT338>0 UNI uuc]: %NAME%{%WHITE%Current Dodge: %CHARSTAT338%%}%CONTINUE%
 
 //----------------------------------------- Show Exact +SKILLS Values On NMAG Items --------------------------------------------
 
@@ -2776,6 +2789,10 @@ ItemDisplay[ama (UNI OR SET OR RARE OR CRAFT OR (MAG FILTLVL=9)) SOCK=0 STAT360>
 ItemDisplay[amf (UNI OR SET OR RARE OR CRAFT OR (MAG FILTLVL=9)) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 2%CL%%NAME%}%CONTINUE%//
 ItemDisplay[7cr2 (UNI OR SET OR RARE OR CRAFT OR (MAG FILTLVL=9)) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 4%CL%%NAME%}%CONTINUE%//
 
+//Unique and Set Items in the Stash Description Closing
+ItemDisplay[UNI ID STASH]: %NAME%{%NAME%}
+ItemDisplay[SET ID STASH]: %NAME%{%NAME%}
+
 //----------------------------------------- Notes about Runewords and Socketing -----------------------------------------
 
 //Chest, Head, Shield, Quiver
@@ -2971,48 +2988,25 @@ ItemDisplay[UNI !ID uth]: %SOUNDID-4639%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLO
 ItemDisplay[UNI !ID 7bs]: %SOUNDID-4639%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Conquest Sword
 ItemDisplay[UNI !ID 7qr]: %SOUNDID-4639%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Scissors Suwayyah
 ItemDisplay[UNI !ID (MAPID=137 OR ILVL>95) uh9]: %SOUNDID-4639%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Bone Visage
-ItemDisplay[UNI utb]: %SOUNDID-4639%%NAME%{%NAME%}
-ItemDisplay[UNI uth]: %SOUNDID-4639%%NAME%{%NAME%}
-ItemDisplay[UNI 7bs]: %SOUNDID-4639%%NAME%{%NAME%}
-ItemDisplay[UNI 7qr]: %SOUNDID-4639%%NAME%{%NAME%}
-ItemDisplay[UNI uh9 STAT425>0]: %SOUNDID-4639%%NAME%{%NAME%}
+ItemDisplay[UNI ID utb]: %SOUNDID-4639%%NAME%{%NAME%}
+ItemDisplay[UNI ID uth]: %SOUNDID-4639%%NAME%{%NAME%}
+ItemDisplay[UNI ID 7bs]: %SOUNDID-4639%%NAME%{%NAME%}
+ItemDisplay[UNI ID 7qr]: %SOUNDID-4639%%NAME%{%NAME%}
+ItemDisplay[UNI ID uh9 STAT425>0]: %SOUNDID-4639%%NAME%{%NAME%}
 
 //The Void Uniques
 ItemDisplay[!ID ram]: %SOUNDID-2608%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Amulet
 ItemDisplay[!ID rar]: %SOUNDID-2608%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Boneweave
 ItemDisplay[!ID rbe]: %SOUNDID-2608%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     %GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Troll Belt
-ItemDisplay[ram]: %SOUNDID-2608%%NAME%{%NAME%}
-ItemDisplay[rar]: %SOUNDID-2608%%NAME%{%NAME%}
-ItemDisplay[rbe]: %SOUNDID-2608%%NAME%{%NAME%}
+ItemDisplay[ID ram]: %SOUNDID-2608%%NAME%{%NAME%}
+ItemDisplay[ID rar]: %SOUNDID-2608%%NAME%{%NAME%}
+ItemDisplay[ID rbe]: %SOUNDID-2608%%NAME%{%NAME%}
 
 ItemDisplay[rtp]: %SOUNDID-3650%%BORDER-60%%GOLD%|%YELLOW%:     %GOLD%%NAME%     %YELLOW%:%GOLD%|{%NAME%} // Infinite Tome of Town Portal
 ItemDisplay[rid]: %SOUNDID-3648%%BORDER-60%%GOLD%|%YELLOW%:     %GOLD%%NAME%     %YELLOW%:%GOLD%|{%NAME%} // Infinite Tome of Identify
 
 //Rainbow Facets
 ItemDisplay[jew UNI !ID]: %SOUNDID-226%%BORDER-60%%RED%:%ORANGE%:%YELLOW%:%GREEN%:%BLUE%:%PURPLE%:     %GOLD%%NAME%     %PURPLE%:%BLUE%:%GREEN%:%YELLOW%:%ORANGE%:%RED%:%GOLD%
-
-//5th Anniversary Unique Accent
-ItemDisplay[(6ws OR uap OR xhn OR dr6 OR uit) UNI !ID]: %ORANGE%:%GOLD%%NAME%%ORANGE%:%CONTINUE%
-
-//Alt-Art Recolor Unique Accent
-ItemDisplay[(8ls OR uui OR 7wc OR 7gm OR 7kr OR 8hx OR 7bt OR mgl OR pa9 OR 7gd OR xlg OR uh9 OR ush OR uow OR xlt OR xui OR zlb OR xtb) UNI !ID]: %ORANGE%:%GOLD%%NAME%%ORANGE%:%CONTINUE%
-
-//PD2 Exclusive Accent (S3)
-ItemDisplay[(ne6 OR ob6 OR dr2 OR ba6 OR 9ar OR am5) UNI !ID]: %GOLD%·%NAME%%GOLD%·%CONTINUE%
-//PD2 Exclusive Accent (S5)
-ItemDisplay[(ame OR ned OR ulb OR utg OR 7tw OR 7qs OR 6bs OR baf OR utp OR drf) UNI !ID]: %GOLD%·%NAME%%GOLD%·%CONTINUE%
-//PD2 Exclusive Accent (S8)
-ItemDisplay[(7st OR 7cm) UNI !ID]: %GOLD%·%NAME%%GOLD%·%CONTINUE%
-//PD2 Exclusive Accent (S10)
-ItemDisplay[(7di OR drc OR urg OR ung OR ulg OR pae OR amc) UNI !ID]: %GOLD%·%NAME%%GOLD%·%CONTINUE%
-//PD2 Exclusive Accent (S11)
-ItemDisplay[(ob7 OR 7xf OR paf OR dr6 OR ba7 OR 9b8 OR uhc OR neg) UNI !ID]: %GOLD%·%NAME%%GOLD%·%CONTINUE%
-//PD2 Exclusive Accent (S12)
-ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3 OR 6hb) UNI !ID]: %GOLD%·%NAME%%GOLD%·%CONTINUE%
-//PD2 Exclusive Accent (S13)
-ItemDisplay[(7yw OR pab OR 7vo OR uhl OR obe OR obd) UNI !ID]: %GOLD%·%NAME%%GOLD%·%CONTINUE%
-//PD2 Exclusive Accent (S14)
-ItemDisplay[(uuc OR urs) UNI !ID]: %GOLD%·%NAME%%GOLD%·%CONTINUE%
 
 //Audible Uniques
 ItemDisplay[rin UNI !ID]: %SOUNDID-241%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
@@ -3049,23 +3043,23 @@ ItemDisplay[((ELT DAGGER) OR (ELT SPEAR) OR (ELT POLEARM) OR THROWING OR ZON OR 
 
 //Lower-Tier Uniques
 //Quivers
-ItemDisplay[(aqv3 OR cqv3) UNI !ID]: %DOT-60%%GOLD%:%YELLOW%~    %GOLD%%NAME%    %YELLOW%~%GOLD%:
+ItemDisplay[(aqv3 OR cqv3) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 //Belts
-ItemDisplay[(zvb OR tbl) UNI !ID]: %DOT-60%%GOLD%:%YELLOW%~    %GOLD%%NAME%    %YELLOW%~%GOLD%:
+ItemDisplay[(zvb OR tbl) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 //Armors 
-ItemDisplay[(xpl OR ltp OR utu OR uth OR xng OR xld OR utp) UNI !ID]: %DOT-60%%GOLD%:%YELLOW%~    %GOLD%%NAME%    %YELLOW%~%GOLD%:
+ItemDisplay[(xpl OR ltp OR utu OR uth OR xng OR xld OR utp) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 //Gloves
-ItemDisplay[(tgl OR xmg OR ulg) UNI !ID]: %DOT-60%%GOLD%:%YELLOW%~    %GOLD%%NAME%    %YELLOW%~%GOLD%:
+ItemDisplay[(tgl OR xmg OR ulg) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 //Helmets
-ItemDisplay[(bac OR xsk OR xlm OR bad OR xtg OR drf OR drc) UNI !ID]: %DOT-60%%GOLD%:%YELLOW%~    %GOLD%%NAME%    %YELLOW%~%GOLD%:
+ItemDisplay[(bac OR xsk OR xlm OR bad OR xtg OR drf OR drc) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 //Boots
-ItemDisplay[(tbt OR uvb OR lbt OR umb OR xmb) UNI !ID]: %DOT-60%%GOLD%:%YELLOW%~    %GOLD%%NAME%    %YELLOW%~%GOLD%:
+ItemDisplay[(tbt OR uvb OR lbt OR umb OR xmb) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 //Shields
-ItemDisplay[((ELT DIN) OR ush OR upk OR pae OR uml OR xsh OR ned OR neg) UNI !ID]: %DOT-60%%GOLD%:%YELLOW%~    %GOLD%%NAME%    %YELLOW%~%GOLD%:
+ItemDisplay[((ELT DIN) OR ush OR upk OR pae OR uml OR xsh OR ned OR neg) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 //Weapons
-ItemDisplay[((ELT 2H MACE) OR (ELT SPEAR) OR (ELT POLEARM) OR (ELT ZON) OR (ELT 2H SWORD) OR (ELT THROWING) OR 7xf OR 7tw OR 7cs OR 8hx OR 9tw OR 7qs OR 7p7 OR oba OR obd OR dgr OR 9fc OR 9gs OR 8ws OR 6l7 OR 7ha OR 9gm OR 7fl OR 7ga OR 9wn OR 7br OR 6hx OR 7bt OR 6sw) UNI !ID]: %DOT-60%%GOLD%:%YELLOW%~    %GOLD%%NAME%    %YELLOW%~%GOLD%:
+ItemDisplay[((ELT 2H MACE) OR (ELT SPEAR) OR (ELT POLEARM) OR (ELT ZON) OR (ELT 2H SWORD) OR (ELT THROWING) OR 7xf OR 7tw OR 7cs OR 8hx OR 9tw OR 7qs OR 7p7 OR oba OR obd OR dgr OR 9fc OR 9gs OR 8ws OR 6l7 OR 7ha OR 9gm OR 7fl OR 7ga OR 9wn OR 7br OR 6hx OR 7bt OR 6sw) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 //Only Eth
-ItemDisplay[(9b7 OR 92h OR 9gd OR 9st) UNI ETH !ID]: %DOT-60%%GOLD%:%YELLOW%~    %GOLD%%NAME%    %YELLOW%~%GOLD%:
+ItemDisplay[(9b7 OR 92h OR 9gd OR 9st) UNI ETH !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 
 //Cow King Set Items
 ItemDisplay[(xap OR stu OR vbt) (MAPID=39 OR MAPID=154) SET !ID]: %SOUNDID-1346%%DOT-84%%PURPLE%~%DARK_GREEN%:   %GREEN%%NAME%   %DARK_GREEN%:%PURPLE%~%GREEN%
@@ -3100,6 +3094,10 @@ ItemDisplay[SET !ID CLVL<80 (FILTLVL<3 OR FILTLVL=9)]: %PX-84%%NAME%%GREEN%
 //Forces All Unique and Set Alerts (Medium+)
 ItemDisplay[UNI !ID CLVL<75 FILTLVL>2 !FILTLVL=9]: %PX-60%%NAME%%GOLD%
 ItemDisplay[SET !ID CLVL<75 FILTLVL>2 !FILTLVL=9]: %PX-84%%NAME%%GREEN%
+
+//Forces All Undiscovered Unique and Set Items to show for Grail
+ItemDisplay[UNI !ID !ALLDISCOVERED]: %NAME%%GOLD%
+ItemDisplay[SET !ID !ALLDISCOVERED]: %NAME%%GREEN%
 
 // --- // --- Magic Items --- \\ --- \\
 
