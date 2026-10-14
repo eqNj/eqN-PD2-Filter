@@ -2789,10 +2789,6 @@ ItemDisplay[ama (UNI OR SET OR RARE OR CRAFT OR (MAG FILTLVL=9)) SOCK=0 STAT360>
 ItemDisplay[amf (UNI OR SET OR RARE OR CRAFT OR (MAG FILTLVL=9)) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 2%CL%%NAME%}%CONTINUE%//
 ItemDisplay[7cr2 (UNI OR SET OR RARE OR CRAFT OR (MAG FILTLVL=9)) SOCK=0 STAT360>0]: %NAME%{%WHITE%Max Sockets: 4%CL%%NAME%}%CONTINUE%//
 
-//Unique and Set Items in the Stash Description Closing
-ItemDisplay[UNI ID STASH]: %NAME%{%NAME%}
-ItemDisplay[SET ID STASH]: %NAME%{%NAME%}
-
 //----------------------------------------- Notes about Runewords and Socketing -----------------------------------------
 
 //Chest, Head, Shield, Quiver
