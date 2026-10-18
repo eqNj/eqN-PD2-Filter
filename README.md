@@ -641,7 +641,7 @@ Added a (Level) to the end of filter levels 4-6 to make their strictness more cl
 
 Fixed too many Rares showing on Strict filter levels using the 'Potionless' filter version. [1.9.1]
 
-Updated Legacy Item Tags for Non-Ladder. [1.9.1]
+Updated Legacy Item tags for Non-Ladder. [1.9.1]
 
 Added a 'high price' warning for shopping crafting bases to prevent accidentally spending all of your gold. [1.9.1]
 
@@ -773,9 +773,9 @@ Further improved the highlighting of uniques based on rarity and trade value. [1
 
 Ensured filter level 0 continues to include item name formatting. [1.12.2]
 
-## 1.13.0 - (Season 14) (Beta)
+## 1.13.0 - (Season 14)
 
-Added a new accent to Unique and Set rarity items that indicates that indicates when those items are still needed for Holy Grail discovery progress.
+Added a new accent to Unique and Set rarity items that indicates when those items are still needed for Holy Grail discovery progress.
 
 Redesigned the shop highlighting color schema, made it so several of such quality of life features simultaneously present visually, and improved the accuracy of various shop hunting targets.
 
@@ -785,11 +785,17 @@ Added "base block chance" to shield descriptions on the Show Recipes filter leve
 
 Added "current dodge" value to the description for the new Warriv's Warder unique.
 
-Added a new drop highlight accent for uniques that can possibly drop recolored.
+Added a new drop accent tier for Set items to allow for more granularity in highlights.
 
-Added description highlighting for new Skill Damage jewels.
+Added a new drop accent for uniques that can possibly be alternate art.
+
+Added description and name accents for identified alternate art uniques.
+
+Added description tags for new Skill Damage jewels.
 
 Added new runewords to applicable runeword base descriptions.
+
+Improved Legacy Item tag Aesthetics.
 
 Improved helm and chest runeword base highlighting in accordance with changed maximum socket potential for certain bases.
 
