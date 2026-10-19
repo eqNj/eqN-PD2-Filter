@@ -4461,7 +4461,7 @@ ItemDisplay[amu MAG STAT206>0]: %BORDER-9B%%GOLD%Desecrated%NL%%BLUE%%NAME%
 
 //----------------------------------------- Alternate Art Uniques -----------------------------------------
 
-ItemDisplay[UNI STAT207>0]: %ORANGE%Heirloom%CL%%GOLD%%NAME%{%NAME%}
+ItemDisplay[UNI STAT270>0]: %ORANGE%Heirloom%CL%%GOLD%%NAME%{%NAME%}
 
 //----------------------------------------- Rare & Crafted Item Description Highlighting -----------------------------------------
 
