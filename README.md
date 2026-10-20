@@ -807,6 +807,4 @@ Added new unique item drop highlighting.
 
 Adjusted shown rare item drops to account for the new rare-only affixes and any affix level calculation changes.
 
-Added information for new maps [T18 & T2A & T29] and adjusted existing map resistance information as needed. [Not Yet]
-
-Added the Legacy tag to more items. (Rockfleece, etc.) [Not Yet]
+Added resistance information for new maps and adjusted existing map resistance information as needed. 
