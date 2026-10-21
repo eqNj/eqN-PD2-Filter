@@ -117,11 +117,12 @@ Descriptions have been added to almost every quest item and/or utility item in t
 <\~:\~> NAME <\~:\~> (Yellow/Gold) = High Tier of Notable Unique Item<br>
 \~:\~ NAME \~:\~ (Yellow/Gold) = Mid Tier of Notable Unique Item<br>
 \~: NAME :\~ (Yellow/Gold) = Low Tier of Notable Unique Item<br>
-:NAME: (Gold) = Recolorable Unique Item Accent<br>
-·NAME· (Red) = Undiscovered Unique or Set Item Grail Accent<br>
-\~:\~ NAME \~:\~ (Purple/Green) = High Tier of Notable Set Item<br>
-\~: NAME :\~ (Purple/Green) = Low Tier of Notable Set Item<br>
 \~: NAME :\~ (Purple/Yellow) = LLD Corruptible Unique Item<br>
+:NAME: (Gold) = Alt-Art Unique Item Accent<br>
+<\~:\~> NAME <\~:\~> (Purple/Green) = High Tier of Notable Set Item<br>
+\~:\~ NAME \~:\~ (Purple/Green) = Mid Tier of Notable Set Item<br>
+\~: NAME :\~ (Purple/Green) = Low Tier of Notable Set Item<br>
+·NAME· (Red) = Undiscovered Unique or Set Item Grail Accent<br>
 
 ## Levels 
 
@@ -129,9 +130,9 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ##### Medium - Ideal for well geared characters and those who wish to only see more generally useful items. This filter level is also good for those who perfer magic class items that show mostly only be for their current character's class. This filter level still shows you all of the niche runeword bases and the best general crafting bases from the Relaxed level. Crafting bases shown become further class specialized at character level 80. High gold value items stop being indicated at level 75. This filter level finds a happy 'medium' between the Relaxed and Strict filter levels. 
 
-##### Strict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons when they are likely to have a reasonable value in trading. Even at this level, all unique and set items will still show. Crafting bases shown are only those which are highly sought after. High gold value items stop being indicated at level 75. This filter level is useful for those who regularly run high density maps and are mostly only looking for items that are moderately easy to trade. 
+##### Strict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons when they are likely to have a reasonable value in trading. Even at this level, all unique and set items will still always show. Crafting bases shown are only those which are highly sought after. High gold value items stop being indicated at level 75. This filter level is useful for those who regularly run high density maps and are mostly only looking for items that are moderately easy to trade. 
 
-##### Super Strict - Ideal for those who perfer not picking up nor identifying many items. This is the only filter level that ever hides any unique or set items (normal tier) and flawless gems. Rest assured, however, that unique and set items are still never hidden at this filter level in the LLD or SSF filter versions. Designed to only show items universally considered worth picking up and/or identifying. Crafting bases shown are only those which drop rare. High gold value items stop being indicated at level 75. This filter level is useful for speed running maps and/or group dungeons and limits shown drops to only those with the highest potential trade value. 
+##### Super Strict - Ideal for those who perfer not picking up nor identifying many items. This is the only filter level that ever hides any unique or set items (normal tier) and flawless gems. Rest assured, however, that unique and set items are still never hidden at this filter level if needed for Grail discovery of if using the LLD or SSF filter versions. This filter level is designed to only show items universally considered worth picking up and/or identifying. Typical crafting bases shown are now only those which drop as rare. High gold value items stop being indicated at level 75. This filter level is useful for speed running maps and/or group dungeons and limits shown drops to only those with the absolute highest potential trade value. 
 
 ##### Show Recipes - This filter level shows all crafting and upgrading recipes on any applicable items. The crafting recipes can be found on magic items and on perfect gems. The upgrade recipes include information about the requirements for upgraded items. This level will also show all runes necessary for runewords on any socketed non-magic (white) items. This level is not recommended for use while item finding as it can be a bit visually noisy, though no more so than most other filters by default. If item finding with this filter level it will never hide anything important. This filter level uses Relaxed as a baseline but it also includes several LLD specific highlights and details. This filter level will show ideal character levels for LLD crafting on most LLD-applicable crafting bases when using the 'eqN - Specialized LLD' filter specifically.
 
