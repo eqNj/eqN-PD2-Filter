@@ -48,15 +48,11 @@ All non-magic (white) body armors and helmets will show their base defense range
 
 All weapons, when relevant, will show their Base Speed (-60 to 20) and Added Range (0 to +4) to make calculating IAS and comparing item bases quicker and easier.
 
-All unsocketed, but socketable, items of any kind will show their potential maximum sockets (in their description), accounting for rarity, item level, and corruption. 
-
-If an item is non-magic (white) and unsocketed it will show its maximum potential sockets possible through the Larzuk quest or Cube socket recipe. 
+All unsocketed, but socketable, items of any kind will show their potential maximum sockets (in their description), accounting for item level and corruption status. 
 
 If an item is non-magic (white) and socketed it will show its possible runewords by name on all filter levels and will include the runes in the approrpriate order on the 'Show Recipes' filter level. 
 
 ![Runewords](https://raw.githubusercontent.com/eqNj/eqN-PD2-Filter/Filter-Sub/Runes.jpg)
-
-If an item is magic, rare, crafted, set, or unique it will show its maximum potential sockets through corruption specifically. 
 
 If an item is magic, rare, crafted, set, or unique and corrupted it will then only show its maximum potential sockets through use of a Larzuk's Puzzlepiece / Puzzlebox specifically.
 
@@ -161,17 +157,17 @@ Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are 
 
 Non-magic (white) elite items are sometimes hidden, unless specifically useful for runewords or if they have +3 to a valuable skill.
 
-Normal, exceptional, and elite magic items are hidden unless ethereal items for crafting and/or specifically useful for the class you are playing or for LLD.
+All magic items are hidden unless ethereal items for crafting and/or specifically useful for the class you are playing or for LLD.
 
 Most exceptional and elite magic non-class items for crafting, except for elite chest armors, are hidden once you reach character level 80.
 
-Normal, exceptional, and elite rare chests & shields/helmets/weapons are hidden unless ethereal or affix level 75/81/76+.
+All rare chests & shields/helmets/weapons are hidden unless ethereal or affix level 75/81/76+ respectively.
 
 Only high/mid-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
 Magic arrows are hidden for all classes. Rare arrows and bolts will still show.
 
-Greater Mana Potions (not Super, unless 'Potionless') are hidden.
+Greater Mana Potions (not Super) are hidden.
 
 Magic rings and amulets are hidden, unless item level 86+ rings or item level 90+ amulets.
 
@@ -185,11 +181,11 @@ Flawless gems no longer notify. (Perfect gems still do.)
 
 Four socket, ethereal polearm/spear weapons of normal and exceptional tiers are hidden. (Elite tier will still show.)
 
-Non-magic (white) items are almost all hidden, unless superior elite bases for runewords (mostly requiring 8%+ ED) or if they have +3 to a valueable two+ skill combination.
+Non-magic (white) items are almost all hidden, unless superior elite bases for runewords (mostly requiring 8%+ ED) or if they have +3 to a valuable two+ skill combination.
 
-Normal, exceptional, and elite magic items are hidden unless ethereal items for crafting and/or specifically useful for the class you are playing.
+All magic items are hidden unless ethereal items for crafting and/or specifically useful for the class you are playing.
 
-Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, a class item, a dagger, a staff, a tipped mace, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level (75+) chest/shield.
+All rare items are hidden, unless an ethereal weapon, a class item, a dagger, a staff, a tipped mace, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level (75+) chest/shield.
 (If using the 'Specialized SSF' filter version then all rare armor pieces and select rare non-ethereal weapons will also still show.)
 
 Only high-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
@@ -198,7 +194,7 @@ Magic arrows are hidden for all classes. Rare arrows and bolts will still show.
 
 Non-magic (for imbuing) and magic circlets of all kinds are hidden.
 
-Regular Rejuvenation Potions (not Full) and Greater Mana Potions (not Super, unless 'Potionless') are hidden.
+Regular Rejuvenation Potions (not Full) and Greater Mana Potions (not Super) are hidden.
 
 Magic rings and amulets are hidden.
 
@@ -215,12 +211,13 @@ Flawless gems no longer show. Perfect gems no longer notify.
 
 Four socket, ethereal polearm/spear weapons of elite tier will only show with 8%+ Enhanced Damage.
 
-Non-magic (white) items are almost all hidden, unless highly sought after bases for runewords (mostly requiring 15%+ ED) or if they have +3 to a valueable two+ skill combination.
+Non-magic (white) items are almost all hidden, unless highly sought after bases for runewords (mostly requiring 15%+ ED) or if they have +3 to a valuable two+ skill combination.
+
+All magic items are hidden unless specifically useful for the class you are playing or particular ethereal weapons and armor.
 (If using the 'Specialized LLD' filter version then all LLD crafting bases will still always show on the ground.)
 
-Normal, exceptional, and elite magic items are hidden unless specifically useful for the class you are playing or particular ethereal weapons and armor.
-
-Normal, exceptional, and elite rare items are hidden, unless an ethereal weapon, a class item, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level (75+ 4 socket capable chest, or 85+) chest/shield. (If using the 'Specialized LLD' filter version then all rare armor pieces and select rare non-ethereal weapons will also still show.)
+All rare items are hidden, unless one of the following: ethereal weapon, a class item, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level (75+ 4 socket capable chest, or 85+) chest/shield. 
+(If using the 'Specialized LLD' filter version then all rare armor pieces and select rare non-ethereal weapons will also still show.)
 
 Only high-value unique and set items will notify on drop and most normal tier/low level unique and set items are hidden.
 (If using the 'Specialized LLD' or 'Specialized SSF' filter version then all unique and set items will still always show on the ground.)
@@ -229,7 +226,7 @@ Magic arrows are hidden for all classes. Rare arrows and bolts will still show.
 
 Non-magic (for imbuing) and magic circlets of all kinds are hidden.
 
-Regular Rejuvenation Potions (not Full) and Greater Mana Potions (not Super, unless 'Potionless') are hidden.
+Regular Rejuvenation Potions (not Full) and Greater Mana Potions (not Super) are hidden.
 
 Magic rings and amulets are hidden.
 
@@ -287,9 +284,7 @@ I find this the easiest way to maintain item plus skill legibility at a glance, 
 
 All elite items will continue to show past level 80 as normal.
 
-Details from 'The Arreat Summit' about Base Defense ranges and maximum potential sockets (dynamic with item level) have been added to all item descriptions where possible/applicable. The max sockets shown on Unique, Crafted, Set, and Rare items will be the maximum amount possible through a corruption. As soon as an item has any sockets it will stop showing the max sockets that were possible.
-
-(Big thanks to TheIrateSeagoer for his work on the Arreat Summit details!)
+Details from the PD2 wiki about Base Defense ranges and maximum potential sockets (dynamic with item level) have been added to all item descriptions where possible/applicable. As soon as an item has any sockets it will stop showing the max sockets that were possible.
 
 Worth note: when crafting, base item level 51+ and character level 51+ ensures a minimum of three additional affixes on the resulting item.
 
@@ -775,6 +770,8 @@ Ensured filter level 0 continues to include item name formatting. [1.12.2]
 
 ## 1.13.0 - (Season 14)
 
+Removed the "Potionless" filter levels from all filter versions now that players can set binds to toggle hiding potions.
+
 Added a new accent to Unique and Set rarity items that indicates when those items are still needed for Holy Grail discovery progress.
 
 Redesigned the shop highlighting color schema, made it so several of such quality of life features simultaneously present visually, and improved the accuracy of various shop hunting targets.
@@ -796,6 +793,8 @@ Added description tags for new Skill Damage jewels.
 Added new runewords to applicable runeword base descriptions.
 
 Improved Legacy Item tag Aesthetics.
+
+Simplified "Max Sockets" information on uncorrupted items of all rarities to simply show what the base item type's socket maximum is regardless of rarity. Items of corresponding rarities will continue to only show maximum sockets possible via Puzzlepiece / Puzzlebox once they are corrupted.
 
 Improved helm and chest runeword base highlighting in accordance with changed maximum socket potential for certain bases.
 
