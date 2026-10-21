@@ -133,8 +133,6 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ##### Super Strict - Ideal for those who perfer not picking up nor identifying many items. This is the only filter level that ever hides any unique or set items (normal tier) and flawless gems. Rest assured, however, that unique and set items are still never hidden at this filter level in the LLD or SSF filter versions. Designed to only show items universally considered worth picking up and/or identifying. Crafting bases shown are only those which drop rare. High gold value items stop being indicated at level 75. This filter level is useful for speed running maps and/or group dungeons and limits shown drops to only those with the highest potential trade value. 
 
-##### Potionless - '(Potionless)' filter levels are essentially a copy of their respective filter level, however they hide all potions except for Full Rejuvenation Potions.
-
 ##### Show Recipes - This filter level shows all crafting and upgrading recipes on any applicable items. The crafting recipes can be found on magic items and on perfect gems. The upgrade recipes include information about the requirements for upgraded items. This level will also show all runes necessary for runewords on any socketed non-magic (white) items. This level is not recommended for use while item finding as it can be a bit visually noisy, though no more so than most other filters by default. If item finding with this filter level it will never hide anything important. This filter level uses Relaxed as a baseline but it also includes several LLD specific highlights and details. This filter level will show ideal character levels for LLD crafting on most LLD-applicable crafting bases when using the 'eqN - Specialized LLD' filter specifically.
 
 ###### The differences between these filter levels, relative to the Relaxed filter level as a baseline, are further described below. All of these filter levels share a similar leveling experience prior to character level 75.
@@ -163,7 +161,9 @@ Most exceptional and elite magic non-class items for crafting, except for elite 
 
 All rare chests & shields/helmets/weapons are hidden unless ethereal or affix level 75/81/76+ respectively.
 
-Only high/mid-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
+All unique and set items still needed for Grail discovery will always notify and show on the ground.
+
+After discovery, only high/mid-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
 Magic arrows are hidden for all classes. Rare arrows and bolts will still show.
 
@@ -185,10 +185,12 @@ Non-magic (white) items are almost all hidden, unless superior elite bases for r
 
 All magic items are hidden unless ethereal items for crafting and/or specifically useful for the class you are playing.
 
-All rare items are hidden, unless an ethereal weapon, a class item, a dagger, a staff, a tipped mace, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level (75+) chest/shield.
+All rare items are hidden, unless one of the following: ethereal weapon, a class item, a dagger, a staff, a tipped mace, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level (75+) helm/chest/shield.
 (If using the 'Specialized SSF' filter version then all rare armor pieces and select rare non-ethereal weapons will also still show.)
 
-Only high-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
+All unique and set items still needed for Grail discovery will always notify and show on the ground.
+
+After discovery, only high-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
 Magic arrows are hidden for all classes. Rare arrows and bolts will still show.
 
@@ -216,10 +218,12 @@ Non-magic (white) items are almost all hidden, unless highly sought after bases 
 All magic items are hidden unless specifically useful for the class you are playing or particular ethereal weapons and armor.
 (If using the 'Specialized LLD' filter version then all LLD crafting bases will still always show on the ground.)
 
-All rare items are hidden, unless one of the following: ethereal weapon, a class item, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level (75+ 4 socket capable chest, or 85+) chest/shield. 
+All rare items are hidden, unless one of the following: ethereal weapon, a class item, gloves, boots, belts, rings, amulets, circlets, arrows, high affix level (75+ 4 socket capable or 85+) helm/chest/shield. 
 (If using the 'Specialized LLD' filter version then all rare armor pieces and select rare non-ethereal weapons will also still show.)
 
-Only high-value unique and set items will notify on drop and most normal tier/low level unique and set items are hidden.
+All unique and set items still needed for Grail discovery will always notify and show on the ground.
+
+After discovery, only high-value unique and set items will notify on drop and only exceptional or elite tier unique and set items will show on the ground.
 (If using the 'Specialized LLD' or 'Specialized SSF' filter version then all unique and set items will still always show on the ground.)
 
 Magic arrows are hidden for all classes. Rare arrows and bolts will still show.
@@ -770,7 +774,7 @@ Ensured filter level 0 continues to include item name formatting. [1.12.2]
 
 ## 1.13.0 - (Season 14)
 
-Removed the "Potionless" filter levels from all filter versions now that players can set binds to toggle hiding potions.
+Removed the "Potionless" filter levels from all filter versions now that players can set a bind to toggle hide potions.
 
 Added a new accent to Unique and Set rarity items that indicates when those items are still needed for Holy Grail discovery progress.
 
