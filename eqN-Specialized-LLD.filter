@@ -3022,7 +3022,7 @@ ItemDisplay[(tbt OR uvb OR lbt OR umb OR xmb OR ulb) UNI !ID]: %DOT-60%%YELLOW%~
 //Shields
 ItemDisplay[((ELT DIN) OR ush OR upk OR pae OR paf OR uml OR xsh OR ned OR neg OR urg) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 //Weapons
-ItemDisplay[((ELT 2H MACE) OR (ELT SPEAR) OR (ELT POLEARM) OR (ELT ZON) OR (ELT 2H SWORD) OR (ELT THROWING) uuc OR 7vo OR amc OR 7di OR 7xf OR 7cs OR 8hx OR 9tw OR 7p7 OR oba OR obd OR dgr OR 9fc OR 9gs OR 8ws OR 6l7 OR 7ha OR 9gm OR 7fl OR 7ga OR 9wn OR 7br OR 6hx OR 7bt OR 6sw) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
+ItemDisplay[((ELT 2H MACE) OR (ELT SPEAR) OR (ELT POLEARM) OR (ELT ZON) OR (ELT 2H SWORD) OR (ELT THROWING) OR uuc OR 7vo OR amc OR 7di OR 7xf OR 7cs OR 8hx OR 9tw OR 7p7 OR oba OR obd OR dgr OR 9fc OR 9gs OR 8ws OR 6l7 OR 7ha OR 9gm OR 7fl OR 7ga OR 9wn OR 7br OR 6hx OR 7bt OR 6sw) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 //Only Eth
 ItemDisplay[(9b7 OR 92h OR 9gd OR 9st) UNI ETH !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 //PD2 Class Items
@@ -3047,7 +3047,7 @@ ItemDisplay[(cap OR dgr OR mbl OR mbt OR lsd OR lbl OR hbt OR hgl OR tow) SET !E
 
 //Specific Unique and Set Alerts (Only Relevant when "All Unique and Set Alerts" are disabled)
 //Armors
-ItemDisplay[(ELT OR ob7 OR ba7 OR lea OR hla OR ghm OR brs OR (pa3 PALADIN) OR (ba6 BARBARIAN) OR dr2 OR xkp OR xul OR xlm OR drb OR 9sp OR mbt OR xcl OR chn OR uul OR xng OR xui OR spl OR pac OR xsk OR xml OR xlb OR xap OR xld OR xrs OR gth OR aar OR (BELT EXC OR tbl OR vbl) OR skp OR xhl OR xrn OR vbt OR xmb OR uvb OR lgl OR vgl OR mgl OR hgl OR xlg OR xvg OR xtg OR xhg OR uml OR xts OR xrg OR xuc OR kit OR (gts CLVL<80)) UNI !ID]: %PX-60%%NAME%
+ItemDisplay[(ELT OR ob7 OR ba7 OR lea OR hla OR ghm OR brs OR (pa3 PALADIN) OR (ba6 BARBARIAN) OR dr2 OR xkp OR xul OR xlm OR drb OR 9sp OR mbt OR xcl OR chn OR uul OR xng OR xui OR spl OR pac OR xsk OR xml OR xlb OR xap OR xld OR xrs OR gth OR aar OR (BELT (EXC OR tbl OR vbl)) OR skp OR xhl OR xrn OR vbt OR xmb OR uvb OR lgl OR vgl OR mgl OR hgl OR xlg OR xvg OR xtg OR xhg OR uml OR xts OR xrg OR xuc OR kit OR (gts CLVL<80)) UNI !ID]: %PX-60%%NAME%
 //Weapons
 ItemDisplay[(ELT OR (EXC QUIVER) OR 9b8 OR amd OR 9m9 OR lbb OR 7fb OR am5 OR 9ar OR scy OR 9s8 OR 8cb OR am5 OR 8sw OR 8cs OR xcl OR 9wc OR 9b7 OR bac OR 6rx OR 7m7 OR 9cl OR mau OR 7ls OR 9ls OR 7sr OR 9ba OR 7wa OR 7gi OR 7pa OR 8ls OR 72a OR 7o7 OR 9yw OR 9fc OR 7bw OR 9kr OR amb OR 7sc OR 7mp OR 6sw OR 8hx OR dgr OR 7dg OR 7bl OR 9ma OR 9wh OR 9gm OR 7s8 OR 7wc OR 9ws OR 7gs OR 9sb OR ywn OR 7wb OR 7sp) UNI !ID]: %PX-60%%NAME%
 //Sets
