@@ -122,7 +122,7 @@ Descriptions have been added to almost every quest item and/or utility item in t
 <\~:\~> NAME <\~:\~> (Purple/Green) = High Tier of Notable Set Item<br>
 \~:\~ NAME \~:\~ (Purple/Green) = Mid Tier of Notable Set Item<br>
 \~: NAME :\~ (Purple/Green) = Low Tier of Notable Set Item<br>
-·NAME· (Red) = Undiscovered Unique or Set Item Grail Accent<br>
+·NAME· (Gold or Green) = Undiscovered Unique or Set Item Grail Accent<br>
 
 ## Levels 
 

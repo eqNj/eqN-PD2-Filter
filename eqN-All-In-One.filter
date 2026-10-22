@@ -783,8 +783,8 @@ ItemDisplay[skz TOWN]: %NAME%{%WHITE%Gloves: %ORANGE%Io %GRAY%|| %WHITE%Belt: %O
 ItemDisplay[gpw TOWN]: %NAME%{%WHITE%Gloves: %ORANGE%Shael %GRAY%|| %WHITE%Belt: %ORANGE%Io %GRAY%|| %WHITE%Boots: %ORANGE%Ko%NL%%WHITE%Weapon: %ORANGE%Sol %GRAY%|| %WHITE%Armor: %ORANGE%El %GRAY%|| %WHITE%Off-hand: %ORANGE%Ort%NL%%WHITE%Ring: %ORANGE%Hel %GRAY%|| %WHITE%Helm: %ORANGE%Eld %GRAY%|| %WHITE%Amulet: %ORANGE%Tal%NL%%LIGHT_GRAY%Brilliant %ORANGE%Crafting%WHITE%: @ + %BLUE%Jewel %WHITE%+%CL%%NAME%}%CONTINUE%
 
 //IDed Jewel Notes
-ItemDisplay[jew MAG ID]: %NAME%{%GOLD%Cube %WHITE%+ %GRAY%Key %WHITE%to create a %BLUE%Jewel Fragment}%CONTINUE%
-ItemDisplay[jew RARE ID]: %NAME%{%GOLD%Cube %WHITE%+ %GRAY%Key %WHITE%to create a %BLUE%Jewel Fragment}%CONTINUE%
+ItemDisplay[jew MAG ID]: %NAME%{%GOLD%Transmute %WHITE%to create a %BLUE%Jewel Fragment}%CONTINUE%
+ItemDisplay[jew RARE ID]: %NAME%{%GOLD%Transmute %WHITE%to create a %BLUE%Jewel Fragment}%CONTINUE%
 
 //Reroll Jewels
 ItemDisplay[FILTLVL=5 jew ID RARE STAT486=0 STAT206=0 !STAT477=21 !STAT477=4]: %NAME%{%GRAY%ALVL %REROLLALVL% if rerolled with current CLVL}%CONTINUE%
@@ -878,8 +878,8 @@ ItemDisplay[(6ws OR uap OR xhn OR dr6 OR uit) UNI !ID]: %GOLD%:%NAME%:%CONTINUE%
 ItemDisplay[(8ls OR uui OR 7wc OR 7gm OR 7kr OR 8hx OR 7bt OR mgl OR pa9 OR 7gd OR xlg OR uh9 OR ush OR uow OR xlt OR xui OR zlb OR xtb) UNI !ID]: %GOLD%:%NAME%:%CONTINUE%
 
 //Undiscovered Grail Accent
-ItemDisplay[UNI !ID !ALLDISCOVERED]: %RED%·%GOLD%%NAME%%RED%·%GOLD%%CONTINUE%
-ItemDisplay[SET !ID !ALLDISCOVERED]: %RED%·%GREEN%%NAME%%RED%·%GREEN%%CONTINUE%
+ItemDisplay[UNI !ID !ALLDISCOVERED]: %GOLD%·%NAME%·%CONTINUE%
+ItemDisplay[SET !ID !ALLDISCOVERED]: %GREEN%·%NAME%·%CONTINUE%
 
 //Label Ethereal Items
 ItemDisplay[ETH UNI]: %GRAY%[%WHITE%e%GRAY%] %GOLD%%NAME%%CONTINUE%
@@ -3753,7 +3753,7 @@ ItemDisplay[((CHEST OR SHIELD OR HELM) ALVL>84) RARE !ID]: %NAME%{%NAME%}
 ItemDisplay[(CHEST OR SHIELD OR HELM) ALVL>74 RARE !ID !FILTLVL=4]: %NAME%{%NAME%}
 ItemDisplay[(QUIVER OR CIRC OR GLOVES OR BOOTS OR BELT OR rin OR amu) RARE !ID]: %NAME%{%NAME%}
 ItemDisplay[(CHEST OR SHIELD OR HELM OR BOW OR XBOW) RARE !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 FILTLVL~3-4))]: %NAME%{%NAME%}
-ItemDisplay[RARE !ETH (MACE OR AXE OR THROWING OR (pik OR 9p9 OR 7p7 OR spt OR 9st OR 7st) OR (POLEARM !(scy OR 9s8 OR 7s8)) OR (SWORD !(sbr OR 9sb OR 7sm OR flc OR 9fc OR 7fc))) !ID !FILTLVL=4]: %NAME%{%NAME%}
+ItemDisplay[RARE !ETH (MACE OR AXE OR THROWING OR (pik OR 9p9 OR 7p7 OR spt OR 9st OR 7st) OR (POLEARM !(scy OR 9s8 OR 7s8)) OR (SWORD !(sbr OR 9sb OR 7sm OR flc OR 9fc OR 7fc))) !ID ALVL>74 !FILTLVL=4]: %NAME%{%NAME%}
 
 //Circlets
 ItemDisplay[CIRC MAG !ID (FILTLVL<3 OR FILTLVL=5)]: %YELLOW%·%BLUE%%NAME%%YELLOW%·%BLUE%{%NAME%}
