@@ -893,9 +893,9 @@ ItemDisplay[(ARMOR OR WEAPON) !ETH NMAG SOCK=0]: %WHITE%%NAME%%CONTINUE%
 ItemDisplay[(ARMOR OR WEAPON) NMAG SOCK>0]: %GRAY%%NAME%%CONTINUE%
 
 //High Price Items
-ItemDisplay[NMAG !RW (SOR OR WAND OR (SCEPTER !(wsp OR 9ws OR 7ws)) OR SIN OR NEC OR BAR OR DRU OR CLUB OR DAGGER) PRICE>9999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP CLVL<20 !CLVL=1]: %LIGHT_GRAY%(%SAGE%¢%LIGHT_GRAY%) %NAME%%CONTINUE% // (Leveling)
-ItemDisplay[NMAG !RW (SOR OR WAND OR (SCEPTER !(wsp OR 9ws OR 7ws)) OR SIN OR NEC OR BAR OR DRU OR CLUB OR DAGGER) PRICE>19999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP CLVL<40 !CLVL<21]: %LIGHT_GRAY%(%SAGE%¢%LIGHT_GRAY%) %NAME%%CONTINUE% // (Leveling)
-ItemDisplay[NMAG !RW (SOR OR WAND OR (SCEPTER !(wsp OR 9ws OR 7ws)) OR SIN OR NEC OR BAR OR DRU OR CLUB OR DAGGER) PRICE>29999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP (CLVL<75 OR (FILTLVL<2 OR FILTLVL=5)) !CLVL<41]: %LIGHT_GRAY%(%SAGE%¢%LIGHT_GRAY%) %NAME%%CONTINUE% // (Leveling)
+ItemDisplay[NMAG !RW HEIGHT<4 WIDTH=1 PRICE>9999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP CLVL<20 !CLVL=1]: %LIGHT_GRAY%(%SAGE%¢%LIGHT_GRAY%) %NAME%%CONTINUE% // (Leveling)
+ItemDisplay[NMAG !RW HEIGHT<4 WIDTH=1 PRICE>19999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP CLVL<40 !CLVL<21]: %LIGHT_GRAY%(%SAGE%¢%LIGHT_GRAY%) %NAME%%CONTINUE% // (Leveling)
+ItemDisplay[NMAG !RW HEIGHT<4 WIDTH=1 PRICE>29999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP (CLVL<75 OR (FILTLVL<2 OR FILTLVL=5)) !CLVL<41]: %LIGHT_GRAY%(%SAGE%¢%LIGHT_GRAY%) %NAME%%CONTINUE% // (Leveling)
 
 //Superior and Inferior Runewords
 ItemDisplay[((ARMOR (!DIN)) OR WEAPON) SUP NMAG RW SOCK=0 !ETH]: %ORANGE%+%WHITE%%NAME%%CONTINUE%
@@ -1005,9 +1005,9 @@ ItemDisplay[CLUB !(SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>
 ItemDisplay[DAGGER !(tkf OR 9tk OR 7tk OR bkf OR 9bk OR 7bk) !(SK73>0 OR SK254>0 OR SK255>0 OR SK259>0 OR SK265>0 OR SK269>0 OR SK270>0 OR SK274>0 OR SK275>0 OR SK280>0) EDAM>0 NMAG !RW ILVL>20]: %GRAY%[%RED%%EDAM%%%GRAY%] %NAME%%CONTINUE%
 
 //High Price Superior Items
-ItemDisplay[SUP NMAG !RW (SOR OR WAND OR (SCEPTER !(wsp OR 9ws OR 7ws)) OR SIN OR NEC OR BAR OR DRU OR CLUB OR DAGGER) PRICE>9999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP CLVL<20 !CLVL=1]: %LIGHT_GRAY%(%SAGE%¢%LIGHT_GRAY%) %NAME%%CONTINUE% // (Leveling)
-ItemDisplay[SUP NMAG !RW (SOR OR WAND OR (SCEPTER !(wsp OR 9ws OR 7ws)) OR SIN OR NEC OR BAR OR DRU OR CLUB OR DAGGER) PRICE>19999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP CLVL<40 !CLVL<21]: %LIGHT_GRAY%(%SAGE%¢%LIGHT_GRAY%) %NAME%%CONTINUE% // (Leveling)
-ItemDisplay[SUP NMAG !RW (SOR OR WAND OR (SCEPTER !(wsp OR 9ws OR 7ws)) OR SIN OR NEC OR BAR OR DRU OR CLUB OR DAGGER) PRICE>29999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP (CLVL<75 OR (FILTLVL<2 OR FILTLVL=5)) !CLVL<41]: %LIGHT_GRAY%(%SAGE%¢%LIGHT_GRAY%) %NAME%%CONTINUE% // (Leveling)
+ItemDisplay[SUP NMAG !RW HEIGHT<4 WIDTH=1 PRICE>9999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP CLVL<20 !CLVL=1]: %LIGHT_GRAY%(%SAGE%¢%LIGHT_GRAY%) %NAME%%CONTINUE% // (Leveling)
+ItemDisplay[SUP NMAG !RW HEIGHT<4 WIDTH=1 PRICE>19999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP CLVL<40 !CLVL<21]: %LIGHT_GRAY%(%SAGE%¢%LIGHT_GRAY%) %NAME%%CONTINUE% // (Leveling)
+ItemDisplay[SUP NMAG !RW HEIGHT<4 WIDTH=1 PRICE>29999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP (CLVL<75 OR (FILTLVL<2 OR FILTLVL=5)) !CLVL<41]: %LIGHT_GRAY%(%SAGE%¢%LIGHT_GRAY%) %NAME%%CONTINUE% // (Leveling)
 
 //Show Weapon Speed & Range
 ItemDisplay[WEAPON !BOW !XBOW !WAND !SOR]: %NAME%{%WHITE%Speed: %WPNSPD% %GRAY%|| %WHITE%Range: +%RANGE%}%CONTINUE%
@@ -2936,29 +2936,15 @@ ItemDisplay[ci3 NMAG !INF !ETH SOCK=0 FILTLVL~3-4]: %NAME%{%DARK_GREEN%Charsi %W
 
 //----------------------------------------- Item Prices (Non-Magic) -----------------------------------------
 
-ItemDisplay[NMAG !RW (SOR OR WAND OR (SCEPTER !(wsp OR 9ws OR 7ws)) OR SIN OR NEC OR BAR OR DRU OR CLUB OR DAGGER) PRICE>9999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP !FILTLVL=5 CLVL<20 !CLVL=1]: %NAME%{%LIGHT_GRAY%Value: %PRICE%%CL%%NAME%}%CONTINUE% // (Leveling)
-ItemDisplay[NMAG !RW (SOR OR WAND OR (SCEPTER !(wsp OR 9ws OR 7ws)) OR SIN OR NEC OR BAR OR DRU OR CLUB OR DAGGER) PRICE>19999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP !FILTLVL=5 CLVL<40 !CLVL<21]: %NAME%{%LIGHT_GRAY%Value: %PRICE%%CL%%NAME%}%CONTINUE% // (Leveling)
-ItemDisplay[NMAG !RW (SOR OR WAND OR (SCEPTER !(wsp OR 9ws OR 7ws)) OR SIN OR NEC OR BAR OR DRU OR CLUB OR DAGGER) PRICE>29999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP !FILTLVL=5 (CLVL<75 OR (FILTLVL<2 OR FILTLVL=5)) !CLVL<41]: %NAME%{%LIGHT_GRAY%Value: %PRICE%%CL%%NAME%}%CONTINUE% // (Leveling)
+ItemDisplay[NMAG !RW HEIGHT<4 WIDTH=1 PRICE>9999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP !FILTLVL=5 CLVL<20 !CLVL=1]: %NAME%{%LIGHT_GRAY%Value: %PRICE%%CL%%NAME%}%CONTINUE% // (Leveling)
+ItemDisplay[NMAG !RW HEIGHT<4 WIDTH=1 PRICE>19999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP !FILTLVL=5 CLVL<40 !CLVL<21]: %NAME%{%LIGHT_GRAY%Value: %PRICE%%CL%%NAME%}%CONTINUE% // (Leveling)
+ItemDisplay[NMAG !RW HEIGHT<4 WIDTH=1 PRICE>29999 !EQUIPPED !MERC !STASH !GUILDVAULT !TROPHYCASE !SHOP !FILTLVL=5 (CLVL<75 OR (FILTLVL<2 OR FILTLVL=5)) !CLVL<41]: %NAME%{%LIGHT_GRAY%Value: %PRICE%%CL%%NAME%}%CONTINUE% // (Leveling)
 
 //----------------------------------------- Failsafes & Alerts -----------------------------------------
 
-// --- // --- Unique, Set, Rare, and Magic Alerts --- \\ --- \\
+// --- // --- Unique and Set Alerts --- \\ --- \\
 
-//Highlight Magic Jewels
-ItemDisplay[jew MAG !ID]: %DOT-97%%BLUE%~%TAN%:%BLUE%~  %NAME%  ~%TAN%:%BLUE%~
-
-//Rare Items (Various)
-ItemDisplay[(CHEST OR SHIELD) RARE !NEC !ID ALVL>84]: %WHITE%~%YELLOW% %NAME% %WHITE%~%YELLOW%
-ItemDisplay[jew RARE !ID (ALVL=38 OR ILVL=38)]: %DOT-A8%%WHITE%~%YELLOW%:%WHITE%~ %PURPLE%: %YELLOW%%NAME% %PURPLE%: %WHITE%~%YELLOW%:%WHITE%~%YELLOW%
-ItemDisplay[amu ALVL>89 RARE !ID]: %DOT-A8%%WHITE%~ %YELLOW%:: %WHITE%~  %YELLOW%%NAME%  %WHITE%: %WHITE%~ %YELLOW%:: %WHITE%~%YELLOW%
-ItemDisplay[(jew OR rin OR amu OR CIRC) RARE !ID]: %DOT-A8%%WHITE%~%YELLOW%:%WHITE%~  %YELLOW%%NAME%  %WHITE%~%YELLOW%:%WHITE%~%YELLOW%
-ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) AMAZON RARE !ID CLVL<75]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
-ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) AMAZON RARE !ID (FILTLVL<2 OR FILTLVL=5)]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
-ItemDisplay[(aqv OR aqv2 OR aqv3) AMAZON RARE !ID FILTLVL=2]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
-ItemDisplay[(cqv OR cqv2 OR cqv3) AMAZON RARE !ID FILTLVL=2]: %WHITE%~%YELLOW%: %NAME% :%WHITE%~%YELLOW%
-ItemDisplay[(aqv OR aqv2 OR aqv3) AMAZON RARE !ID]: %WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
-ItemDisplay[(cqv OR cqv2 OR cqv3) RARE !ID]: %YELLOW%%NAME%
-ItemDisplay[(aqv OR aqv2 OR aqv3) RARE !ID]: %YELLOW%%NAME%
+//Unique Items
 
 //Diablo Clone Uniques
 ItemDisplay[UNI !ID utb]: %SOUNDID-4639%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%> // Mirrored Boots
@@ -2999,25 +2985,25 @@ ItemDisplay[ETH uvb UNI !ID]: %SOUNDID-208%%BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YE
 //High-Tier Uniques
 ItemDisplay[(ulc OR urn OR ci3 OR xtb OR 6lw OR 7gw OR obf OR uhm) UNI !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 //Only Eth
-ItemDisplay[(xpl OR 7wa OR 7ha OR 9la OR 7lw OR 7qs OR amd OR am9 OR am5 OR ame OR ama OR amf OR 7bt OR 9gm OR 7gm OR 7s8 OR 7xf OR 7wb OR 7tw OR 7wh OR 7kr) UNI ETH !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
+ItemDisplay[(7vo OR 7cm OR 7st OR xpl OR 7wa OR 7ha OR 9la OR 7lw OR 7qs OR amd OR am9 OR am5 OR ame OR ama OR amf OR 7bt OR 9gm OR 7gm OR 7s8 OR 7xf OR 7wb OR 7tw OR 7wh OR 7kr) UNI ETH !ID]: %BORDER-60%%GOLD%<%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>     %NAME%     <%YELLOW%~%GOLD%:%YELLOW%~%GOLD%>
 
 //Mid-Tier Uniques
 //Belts
 ItemDisplay[(ztb OR zlb OR zhb OR umc OR uvc OR uhc) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Armors
-ItemDisplay[(xlt OR uui OR xea OR xth OR xtp OR upl OR uld OR uul OR ung) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
+ItemDisplay[(urs OR xlt OR uui OR xea OR xth OR xtp OR upl OR uld OR uul OR ung) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Gloves
 ItemDisplay[(uvg OR uhg OR umg OR utg) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Helmets
-ItemDisplay[(skp OR ulm OR xh9 OR usk OR ci2 OR baa OR dra OR drb OR dre OR uh9 OR xhm OR drd OR bae OR baf) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
+ItemDisplay[(skp OR ulm OR xh9 OR usk OR ci2 OR baa OR dra OR drf OR drb OR dre OR uh9 OR xhm OR drd OR bae OR baf) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Boots
 ItemDisplay[(xhb OR uhb OR xvb) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Shields
 ItemDisplay[(nee OR nea OR nef OR pa9 OR uts OR uow OR xow OR pab OR pac) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Weapons
-ItemDisplay[(7wa OR 7pa OR 7b8 OR 9la OR 7sc OR 9ws OR 7lw OR 8mx OR 7bl OR 8s8 OR amb OR 9gw OR 7bw OR 7ws OR 7kr OR 7cr OR 7gm OR ama OR obc OR obe OR 7lw OR amf OR 7wh OR 8rx OR 9bw OR 7yw OR 6cs OR 6bs) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
+ItemDisplay[(7fb OR 7qs OR 7wa OR 7tw OR 7pa OR 7b8 OR 9la OR 7sc OR 9ws OR 7lw OR 8mx OR 7bl OR 8s8 OR amb OR 9gw OR 7bw OR 7ws OR 7kr OR 7cr OR 7gm OR ama OR obc OR obe OR 7lw OR amf OR 7wh OR 8rx OR 9bw OR 7yw OR 6cs OR 6bs) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 //Only Eth
-ItemDisplay[((ELT DAGGER) OR (ELT SPEAR) OR (ELT POLEARM) OR THROWING OR ZON OR 7ga OR 7bk OR 9s8 OR 9sr OR xcl OR 9cr OR 9m9 OR 7pa OR 7gi OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7bk OR utu OR 7vo) UNI ETH !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
+ItemDisplay[((ELT DAGGER) OR (ELT SPEAR) OR (ELT POLEARM) OR THROWING OR ZON OR uhl OR 7ga OR 7bk OR 9s8 OR 9sr OR xcl OR 9cr OR 9m9 OR 7pa OR 7gi OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7bk OR utu OR 7vo) UNI ETH !ID]: %DOT-60%%YELLOW%~%GOLD%:%YELLOW%~     %GOLD%%NAME%     %YELLOW%~%GOLD%:%YELLOW%~
 
 //Lower-Tier Uniques
 //Quivers
@@ -3029,15 +3015,17 @@ ItemDisplay[(xpl OR ltp OR utu OR uth OR xng OR xld OR utp) UNI !ID]: %DOT-60%%Y
 //Gloves
 ItemDisplay[(tgl OR xmg OR ulg) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 //Helmets
-ItemDisplay[(bac OR xsk OR xlm OR bad OR xtg OR drf OR drc) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
+ItemDisplay[(uhl OR dr6 OR bac OR xsk OR xlm OR bad OR xtg OR drc) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 //Boots
-ItemDisplay[(tbt OR uvb OR lbt OR umb OR xmb) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
+ItemDisplay[(tbt OR uvb OR lbt OR umb OR xmb OR ulb) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 //Shields
-ItemDisplay[((ELT DIN) OR ush OR upk OR pae OR uml OR xsh OR ned OR neg) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
+ItemDisplay[((ELT DIN) OR ush OR upk OR pae OR paf OR uml OR xsh OR ned OR neg OR urg) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 //Weapons
-ItemDisplay[((ELT 2H MACE) OR (ELT SPEAR) OR (ELT POLEARM) OR (ELT ZON) OR (ELT 2H SWORD) OR (ELT THROWING) OR 7xf OR 7tw OR 7cs OR 8hx OR 9tw OR 7qs OR 7p7 OR oba OR obd OR dgr OR 9fc OR 9gs OR 8ws OR 6l7 OR 7ha OR 9gm OR 7fl OR 7ga OR 9wn OR 7br OR 6hx OR 7bt OR 6sw) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
+ItemDisplay[((ELT 2H MACE) OR (ELT SPEAR) OR (ELT POLEARM) OR (ELT ZON) OR (ELT 2H SWORD) OR (ELT THROWING) uuc OR 7vo OR amc OR 7di OR 7xf OR 7cs OR 8hx OR 9tw OR 7p7 OR oba OR obd OR dgr OR 9fc OR 9gs OR 8ws OR 6l7 OR 7ha OR 9gm OR 7fl OR 7ga OR 9wn OR 7br OR 6hx OR 7bt OR 6sw) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 //Only Eth
 ItemDisplay[(9b7 OR 92h OR 9gd OR 9st) UNI ETH !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
+//PD2 Class Items
+ItemDisplay[((ne6 NECROMANCER) OR ((ba6 OR ba7) BARBARIAN) OR (dr2 DRUID) OR (pa3 PALADIN) OR (am5 AMAZON) OR (9ar ASSASSIN) OR ((ob6 OR ob7) SORCERESS)) UNI !ID]: %DOT-60%%YELLOW%~%GOLD%:   %NAME%   %GOLD%:%YELLOW%~
 
 //Cow King Set Items
 ItemDisplay[(xap OR stu OR vbt) (MAPID=39 OR MAPID=154) SET !ID]: %SOUNDID-1346%%MAP-84%%PURPLE%~%DARK_GREEN%:%PURPLE%~    %GREEN%%NAME%    %PURPLE%~%DARK_GREEN%:%PURPLE%~%GREEN%
@@ -3061,14 +3049,14 @@ ItemDisplay[(rin OR xhm OR xvg OR ult OR xrs OR uts OR 7ma OR 7gd OR 7fb OR uui 
 
 //Specific Unique and Set Alerts (Only Relevant when "All Unique and Set Alerts" are disabled)
 //Armors
-ItemDisplay[(ELT OR lea OR hla OR ghm OR brs OR pa3 OR ba6 OR dr2 OR xkp OR xul OR xlm OR drb OR 9sp OR mbt OR xcl OR chn OR uul OR xng OR xui OR spl OR pac OR xsk OR xml OR xlb OR xap OR xld OR xrs OR gth OR aar OR BELT OR skp OR xhl OR xrn OR vbt OR xmb OR uvb OR lgl OR vgl OR mgl OR hgl OR xlg OR xvg OR xtg OR xhg OR uml OR xts OR xrg OR xuc OR kit OR gts) UNI !ID]: %PX-60%%NAME%
+ItemDisplay[(ELT OR ob7 OR ba7 OR lea OR hla OR ghm OR brs OR (pa3 PALADIN) OR (ba6 BARBARIAN) OR dr2 OR xkp OR xul OR xlm OR drb OR 9sp OR mbt OR xcl OR chn OR uul OR xng OR xui OR spl OR pac OR xsk OR xml OR xlb OR xap OR xld OR xrs OR gth OR aar OR (BELT EXC OR tbl OR vbl) OR skp OR xhl OR xrn OR vbt OR xmb OR uvb OR lgl OR vgl OR mgl OR hgl OR xlg OR xvg OR xtg OR xhg OR uml OR xts OR xrg OR xuc OR kit OR (gts CLVL<80)) UNI !ID]: %PX-60%%NAME%
 //Weapons
 ItemDisplay[(ELT OR (EXC QUIVER) OR 9b8 OR amd OR 9m9 OR lbb OR 7fb OR am5 OR 9ar OR scy OR 9s8 OR 8cb OR am5 OR 8sw OR 8cs OR xcl OR 9wc OR 9b7 OR bac OR 6rx OR 7m7 OR 9cl OR mau OR 7ls OR 9ls OR 7sr OR 9ba OR 7wa OR 7gi OR 7pa OR 8ls OR 72a OR 7o7 OR 9yw OR 9fc OR 7bw OR 9kr OR amb OR 7sc OR 7mp OR 6sw OR 8hx OR dgr OR 7dg OR 7bl OR 9ma OR 9wh OR 9gm OR 7s8 OR 7wc OR 9ws OR 7gs OR 9sb OR ywn OR 7wb OR 7sp) UNI !ID]: %PX-60%%NAME%
 //Sets
 ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0 OR ba5 OR lbt) !(9vo OR xcl OR xrn)) SET !ID]: %PX-84%%NAME%
 
 //Specific Unique and Set Item Failsafe (Super Strict)
-ItemDisplay[UNI (CHEST OR GLOVES OR BOOTS OR dr2 OR cap OR skp OR tbl OR vbl OR kit OR bwn OR dgr OR am5 OR lbb OR cst OR wst)]: %NAME%
+ItemDisplay[UNI (CHEST OR GLOVES OR BOOTS OR ba6 OR dr2 OR cap OR skp OR tbl OR vbl OR kit OR gts OR bwn OR dgr OR am5 OR lbb OR mau OR cst OR wst)]: %NAME%
 ItemDisplay[SET (xap OR stu OR vbt OR tow OR lbt OR lgl OR ci0 OR ba5)]: %NAME%
 
 //Forces All Unique and Set Alerts (Relaxed)
@@ -3084,6 +3072,9 @@ ItemDisplay[UNI !ID !ALLDISCOVERED]: %NAME%%GOLD%
 ItemDisplay[SET !ID !ALLDISCOVERED]: %NAME%%GREEN%
 
 // --- // --- Magic Items --- \\ --- \\
+
+//Highlight Magic Jewels
+ItemDisplay[jew MAG !ID]: %DOT-97%%BLUE%~%TAN%:%BLUE%~  %NAME%  ~%TAN%:%BLUE%~
 
 //Arrows & Bolts
 ItemDisplay[(aqv OR aqv2 OR aqv3) MAG !ID CLVL>69 DIFF<2 (FILTLVL<2 OR FILTLVL=5)]: %BLUE%%NAME%
@@ -3155,6 +3146,19 @@ ItemDisplay[CHEST ELT MAG !ID CRAFTALVL>64 ((FILTLVL<3 OR FILTLVL=5) OR (CLVL<75
 ItemDisplay[(am5 OR ama OR amf) MAG !ID !FILTLVL=4]: %NAME%
 
 // --- // --- Rare Items --- \\ --- \\
+
+//Various Rare Items (Rares)
+ItemDisplay[(CHEST OR SHIELD) RARE !NEC !ID ALVL>84]: %WHITE%~%YELLOW% %NAME% %WHITE%~%YELLOW%
+ItemDisplay[jew RARE !ID (ALVL=38 OR ILVL=38)]: %DOT-A8%%WHITE%~%YELLOW%:%WHITE%~ %PURPLE%: %YELLOW%%NAME% %PURPLE%: %WHITE%~%YELLOW%:%WHITE%~%YELLOW%
+ItemDisplay[amu ALVL>89 RARE !ID]: %DOT-A8%%WHITE%~ %YELLOW%:: %WHITE%~  %YELLOW%%NAME%  %WHITE%: %WHITE%~ %YELLOW%:: %WHITE%~%YELLOW%
+ItemDisplay[(jew OR rin OR amu OR CIRC) RARE !ID]: %DOT-A8%%WHITE%~%YELLOW%:%WHITE%~  %YELLOW%%NAME%  %WHITE%~%YELLOW%:%WHITE%~%YELLOW%
+ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) AMAZON RARE !ID CLVL<75]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
+ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) AMAZON RARE !ID (FILTLVL<2 OR FILTLVL=5)]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
+ItemDisplay[(aqv OR aqv2 OR aqv3) AMAZON RARE !ID FILTLVL=2]: %DOT-A8%%WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
+ItemDisplay[(cqv OR cqv2 OR cqv3) AMAZON RARE !ID FILTLVL=2]: %WHITE%~%YELLOW%: %NAME% :%WHITE%~%YELLOW%
+ItemDisplay[(aqv OR aqv2 OR aqv3) AMAZON RARE !ID]: %WHITE%~%YELLOW%:  %NAME%  :%WHITE%~%YELLOW%
+ItemDisplay[(cqv OR cqv2 OR cqv3) RARE !ID]: %YELLOW%%NAME%
+ItemDisplay[(aqv OR aqv2 OR aqv3) RARE !ID]: %YELLOW%%NAME%
 
 //Rare Craftables\\
 

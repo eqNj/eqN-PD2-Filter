@@ -227,7 +227,7 @@ All unique and set items still needed for Grail discovery will always show on th
 After discovery, only high-value unique and set items will notify on drop. The majority of non-ethereal normal tier unique and set items are hidden.
 (If using the 'Specialized LLD' or 'Specialized SSF' filter version then all unique and set items will still always show on the ground.)
 
-These normal tier unique items will still always show: All chests, boots, and gloves, Quetzalcoatl, Biggin's Bonnet, Tarnhelm, Goldwrap, Snakecord, Steelclash, Gravenspine, Gull, True Silver, Wizendraw, Spire of Lazarus, and The Iron Jang Bong.
+These normal tier unique items will still always show: All chests, boots, and gloves, Cyclopean Roar, Quetzalcoatl, Biggin's Bonnet, Tarnhelm, Goldwrap, Snakecord, Sankekur's Fall, Steelclash, The Ward, Gravenspine, Gull, True Silver, Wizendraw, Bonesnap, Spire of Lazarus, and The Iron Jang Bong.
 
 These normal tier set items will still always show: Cow King's Set, Sigon's Guard, Tancred's Hobnails, Death's Hand, Naj's Circlet, and Immortal King's Will.
 
