@@ -160,7 +160,7 @@ All magic items are hidden unless ethereal items for crafting and/or specificall
 
 Most exceptional and elite magic non-class items for crafting, except for elite chest armors, are hidden once you reach character level 80.
 
-All rare chests & shields/helmets/weapons are hidden unless ethereal or affix level 75/81/76+ respectively.
+All rare items always show.
 
 All unique and set items still needed for Grail discovery will always notify and show on the ground.
 
@@ -186,12 +186,12 @@ Non-magic (white) items are almost all hidden, unless superior elite bases for r
 
 All magic items are hidden unless ethereal items for crafting and/or specifically useful for the class you are playing.
 
-All rare items are hidden, unless one of the following: ethereal weapon, a class item, a dagger, a staff, a tipped mace, gloves, boots, belts, rings, amulets, circlets, arrows, or high affix level (75+) helm/chest/shield.
-(If using the 'Specialized SSF' filter version then all rare armor pieces and select rare non-ethereal weapons will also still show.)
+Most rare items always show on the ground. The following rare items are hidden: Non-etheral helms, chests, or shields below affix level 85. Non-ethereal weapons below affix level 75.
+(If using the 'Specialized SSF' filter version then all rare armor pieces and select rare non-ethereal weapons will still show on the ground.)
 
-All unique and set items still needed for Grail discovery will always notify and show on the ground.
+All unique and set items still needed for Grail discovery will always show on the ground.
 
-After discovery, only high-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
+After discovery, only high-value unique and set items will notify on drop and all unique and set items will still always show on the ground.
 
 Magic arrows are hidden for all classes. Rare arrows and bolts will still show.
 
@@ -219,13 +219,17 @@ Non-magic (white) items are almost all hidden, unless highly sought after bases 
 All magic items are hidden unless specifically useful for the class you are playing or particular ethereal weapons and armor.
 (If using the 'Specialized LLD' filter version then all LLD crafting bases will still always show on the ground.)
 
-All rare items are hidden, unless one of the following: ethereal weapon, a class item, gloves, boots, belts, rings, amulets, circlets, arrows, high affix level (75+ 4 socket capable or 85+) helm/chest/shield. 
+Most rare items always show on the ground. The following rare items are hidden: Non-etheral helms, chests, or shields below affix level 75. Non-ethereal weapons below affix level 75.
 (If using the 'Specialized LLD' filter version then all rare armor pieces and select rare non-ethereal weapons will also still show.)
 
-All unique and set items still needed for Grail discovery will always notify and show on the ground.
+All unique and set items still needed for Grail discovery will always show on the ground.
 
-After discovery, only high-value unique and set items will notify on drop and only exceptional or elite tier unique and set items will show on the ground.
+After discovery, only high-value unique and set items will notify on drop. The majority of non-ethereal normal tier unique and set items are hidden.
 (If using the 'Specialized LLD' or 'Specialized SSF' filter version then all unique and set items will still always show on the ground.)
+
+These normal tier unique items will still always show: All chests, boots, and gloves, Quetzalcoatl, Biggin's Bonnet, Tarnhelm, Goldwrap, Snakecord, Steelclash, Gravenspine, Gull, True Silver, Wizendraw, Spire of Lazarus, and The Iron Jang Bong.
+
+These normal tier set items will still always show: Cow King's Set, Sigon's Guard, Tancred's Hobnails, Death's Hand, Naj's Circlet, and Immortal King's Will.
 
 Magic arrows are hidden for all classes. Rare arrows and bolts will still show.
 
