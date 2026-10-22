@@ -3748,7 +3748,6 @@ ItemDisplay[(ltp OR msk OR bhm OR bsh) !ETH NMAG !INF !RW !SOCK=1 (DIFF<1 OR CLV
 
 //Rare Item Failsafe
 //ItemDisplay[RARE ARMOR !ID]: %NAME%{%NAME%} // LLD or SSF inclusivity
-ItemDisplay[RARE WEAPON ALVL>74 !ID]: %NAME%{%NAME%}
 ItemDisplay[RARE ETH (WEAPON OR ARMOR) !ID]: %NAME%{%NAME%}
 ItemDisplay[((CHEST OR SHIELD OR HELM) ALVL>84) RARE !ID]: %NAME%{%NAME%}
 ItemDisplay[(CHEST OR SHIELD OR HELM) ALVL>74 RARE !ID !FILTLVL=4]: %NAME%{%NAME%}
@@ -4978,7 +4977,7 @@ ItemDisplay[mp4 CLVL>74 FILTLVL>1 !FILTLVL=5]: {%NAME%}
 
 //Strict FINAL
 ItemDisplay[rvs CLVL>74 FILTLVL>2 !FILTLVL=5]: {%NAME%}
-ItemDisplay[WEAPON !ALVL>74 RARE !ETH !ID !leg CLVL>74 FILTLVL>2 !FILTLVL=5]: {%NAME%}
+ItemDisplay[WEAPON !(BOW OR XBOW) RARE !ETH !ID !leg CLVL>74 FILTLVL>2 !FILTLVL=5]: {%NAME%}
 ItemDisplay[((CHEST OR SHIELD OR HELM) ALVL<75) RARE !ETH !ID CLVL>74 FILTLVL>2 !FILTLVL=5]: {%NAME%}
 
 //Super Strict FINAL
