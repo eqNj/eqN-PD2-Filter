@@ -229,7 +229,7 @@ After discovery, only high-value unique and set items will notify on drop. The m
 
 These normal tier unique items will still always show: All chests, boots, and gloves, Cyclopean Roar, Quetzalcoatl, Biggin's Bonnet, Tarnhelm, Goldwrap, Snakecord, Sankekur's Fall, Steelclash, The Ward, Gravenspine, Gull, True Silver, Wizendraw, Bonesnap, Spire of Lazarus, and The Iron Jang Bong.
 
-These normal tier set items will still always show: Cow King's Set, Sigon's Guard, Tancred's Hobnails, Death's Hand, Naj's Circlet, and Immortal King's Will.
+These normal tier set items will still always show: Cow King's Set, Sigon's Guard, Milabrega's Orb, Tancred's Hobnails, Death's Hand, Naj's Circlet, and Immortal King's Will.
 
 Magic arrows are hidden for all classes. Rare arrows and bolts will still show.
 
