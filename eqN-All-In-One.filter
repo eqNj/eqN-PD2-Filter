@@ -564,16 +564,16 @@ ItemDisplay[GEM<3 (DIFF>0 OR (DIFF=0 MAPID>102))]: %NAME%%WHITE%{%NAME%}%CONTINU
 ItemDisplay[GEM<3 (DIFF>0 OR (DIFF=0 MAPID>102)) !TOWN !FILTLVL=0]:
 
 //Runes
-ItemDisplay[RUNE<15 CLVL>1 !(QTY<2 FILTLVL=4)]: %PX-68%%ORANGE%%RUNENAME% Rune %GRAY%[%WHITE%%RUNENUM%%GRAY%]%CONTINUE%
+ItemDisplay[RUNE<15 CLVL>1 !(QTY<2 FILTLVL=4)]: %DOT-68%%ORANGE%%RUNENAME% Rune %GRAY%[%WHITE%%RUNENUM%%GRAY%]%CONTINUE%
 ItemDisplay[RUNE<15 CLVL>1 QTY<2 FILTLVL=4]: %ORANGE%%RUNENAME% Rune %GRAY%[%WHITE%%RUNENUM%%GRAY%]%CONTINUE%
 ItemDisplay[RUNE<15 CLVL=1]: %ORANGE%%RUNENAME% Rune %GRAY%[%WHITE%%RUNENUM%%GRAY%]%CONTINUE%
-ItemDisplay[RUNE>14 RUNE<20 QTY<2]: %PX-68%%TAN%]  %ORANGE%%RUNENAME% Rune %GRAY%[%TAN%%RUNENUM%%GRAY%]  %TAN%[%CONTINUE%
+ItemDisplay[RUNE>14 RUNE<20 QTY<2]: %DOT-68%%TAN%]  %ORANGE%%RUNENAME% Rune %GRAY%[%TAN%%RUNENUM%%GRAY%]  %TAN%[%CONTINUE%
 ItemDisplay[RUNE>19 RUNE<26 QTY<2]: %DOT-62%%RED%]     %ORANGE%%RUNENAME% Rune %GRAY%[%RED%%RUNENUM%%GRAY%]     %RED%[%CONTINUE%
 ItemDisplay[RUNE>25 RUNE<30 QTY<2 !TOWN]: %SOUNDID-242%%BORDER-68%%ORANGE%]%DARK_GREEN%:%ORANGE%[          %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %ORANGE%]%DARK_GREEN%:%ORANGE%[%CONTINUE%
 ItemDisplay[RUNE>25 RUNE<30 QTY<2 TOWN]: %BORDER-68%%ORANGE%]%DARK_GREEN%:%ORANGE%[          %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %ORANGE%]%DARK_GREEN%:%ORANGE%[%CONTINUE%
 ItemDisplay[RUNE>29 QTY<2 !TOWN]: %SOUNDID-2555%%BORDER-68%%ORANGE%]%DARK_GREEN%:%ORANGE%[          %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %ORANGE%]%DARK_GREEN%:%ORANGE%[%CONTINUE%
 ItemDisplay[RUNE>29 QTY<2 TOWN]: %BORDER-68%%ORANGE%]%DARK_GREEN%:%ORANGE%[          %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %ORANGE%]%DARK_GREEN%:%ORANGE%[%CONTINUE%
-ItemDisplay[RUNE>14 RUNE<20 QTY>1]: %PX-68%%TAN%]  %ORANGE%%RUNENAME% Rune %GRAY%[%TAN%%RUNENUM%%GRAY%] %TAN%x %WHITE%%QTY%  %TAN%[%CONTINUE%
+ItemDisplay[RUNE>14 RUNE<20 QTY>1]: %DOT-68%%TAN%]  %ORANGE%%RUNENAME% Rune %GRAY%[%TAN%%RUNENUM%%GRAY%] %TAN%x %WHITE%%QTY%  %TAN%[%CONTINUE%
 ItemDisplay[RUNE>19 RUNE<26 QTY>1]: %DOT-68%%RED%]     %ORANGE%%RUNENAME% Rune %GRAY%[%RED%%RUNENUM%%GRAY%] %TAN%x %WHITE%%QTY%     %RED%[%CONTINUE%
 ItemDisplay[RUNE>25 QTY>1]: %BORDER-68%%ORANGE%]%DARK_GREEN%:%ORANGE%[          %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%] %TAN%x %WHITE%%QTY%          %ORANGE%]%DARK_GREEN%:%ORANGE%[%CONTINUE%
 
@@ -589,7 +589,7 @@ ItemDisplay[jewf]: %PURPLE%~ %BLUE%%NAME% %PURPLE%~%BLUE%{%WHITE%Functions ident
 
 //Misc. Project Diablo 2 Items
 ItemDisplay[iwss]: %MAP-4B%%GOLD%|  %PURPLE%%NAME%  %GOLD%|%PURPLE%{%TAN%the source of the catalyst?%NL%What does it matter,%NL%A series of vibrations.}
-ItemDisplay[wss]: %MAP-4B%%NAME%{%RED%Warning%WHITE%: This can brick your item%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
+ItemDisplay[wss]: %MAP-E1%%NAME%{%RED%Warning%WHITE%: This can brick your item%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
 ItemDisplay[lmal]: %GRAY%:  %GOLD%%NAME%  %GRAY%:%GOLD%{%RED%Corruption %WHITE%and/or %GOLD%Puzzlepieces %WHITE%could result higher.%NL%}
 ItemDisplay[lpp !TOWN]: %BORDER-0B%%YELLOW%|%GRAY%:    %GOLD%%NAME%    %GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
 ItemDisplay[lpp TOWN]: %YELLOW%|%GRAY%:    %GOLD%%NAME%    %GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
@@ -630,13 +630,13 @@ ItemDisplay[urma]: %ORANGE%~  %GOLD%%NAME%  %ORANGE%~{%NAME%}
 ItemDisplay[irma]: %ORANGE%~  %GOLD%%NAME%  %ORANGE%~{%NAME%}
 
 //Essences
-ItemDisplay[tes]: %PX-82%%NAME%{%BLUE%Duriel, Lord of Pain%NL%Andariel, Maiden of Anguish%NL%%GRAY%Manifested By:}
-ItemDisplay[ceh]: %PX-82%%NAME%{%TAN%Mephisto, Lord of Hatred%NL%%GRAY%Manifested By:}
-ItemDisplay[bet]: %PX-82%%NAME%{%RED%Diablo, Lord of Terror%NL%%GRAY%Manifested By:}
-ItemDisplay[fed]: %PX-82%%NAME%{%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Manifested By:}
+ItemDisplay[tes]: %DOT-82%%NAME%{%BLUE%Duriel, Lord of Pain%NL%Andariel, Maiden of Anguish%NL%%GRAY%Manifested By:}
+ItemDisplay[ceh]: %DOT-82%%NAME%{%TAN%Mephisto, Lord of Hatred%NL%%GRAY%Manifested By:}
+ItemDisplay[bet]: %DOT-82%%NAME%{%RED%Diablo, Lord of Terror%NL%%GRAY%Manifested By:}
+ItemDisplay[fed]: %DOT-82%%NAME%{%DARK_GREEN%Baal, Lord of Destruction%NL%%GRAY%Manifested By:}
 
 //Standard of Heroes
-ItemDisplay[std !MAPID=168 !TOWN]: %PX-62%%YELLOW%|%GRAY%:%TAN%>     %GOLD%%NAME%     %YELLOW%<%GRAY%:%TAN%|%GOLD%{%TAN%Invigorating a Heroic Age%NL%Banners of Eternal Conflict}
+ItemDisplay[std !MAPID=168 !TOWN]: %DOT-62%%YELLOW%|%GRAY%:%TAN%>     %GOLD%%NAME%     %YELLOW%<%GRAY%:%TAN%|%GOLD%{%TAN%Invigorating a Heroic Age%NL%Banners of Eternal Conflict}
 ItemDisplay[std (MAPID=168 OR TOWN)]: %YELLOW%|%GRAY%:%TAN%>     %GOLD%%NAME%     %YELLOW%<%GRAY%:%TAN%|%GOLD%{%TAN%Invigorating a Heroic Age%NL%Banners of Eternal Conflict}
 
 //Horadrim Scarab
@@ -3050,23 +3050,23 @@ ItemDisplay[FILTLVL=5 (cap OR dgr OR mbl OR mbt OR lsd OR lbl OR hbt OR hgl OR t
 
 //Specific Unique and Set Alerts (Only Relevant when "All Unique and Set Alerts" are disabled)
 //Armors
-ItemDisplay[(ELT OR ob7 OR ba7 OR lea OR hla OR ghm OR brs OR (pa3 PALADIN) OR (ba6 BARBARIAN) OR dr2 OR xkp OR xul OR xlm OR drb OR 9sp OR mbt OR xcl OR chn OR uul OR xng OR xui OR spl OR pac OR xsk OR xml OR xlb OR xap OR xld OR xrs OR gth OR aar OR (BELT (EXC OR tbl OR vbl)) OR skp OR xhl OR xrn OR vbt OR xmb OR uvb OR lgl OR vgl OR mgl OR hgl OR xlg OR xvg OR xtg OR xhg OR uml OR xts OR xrg OR xuc OR kit OR (gts CLVL<80)) UNI !ID]: %PX-60%%NAME%
+ItemDisplay[(ELT OR ob7 OR ba7 OR lea OR hla OR ghm OR brs OR (pa3 PALADIN) OR (ba6 BARBARIAN) OR dr2 OR xkp OR xul OR xlm OR drb OR 9sp OR mbt OR xcl OR chn OR uul OR xng OR xui OR spl OR pac OR xsk OR xml OR xlb OR xap OR xld OR xrs OR gth OR aar OR (BELT (EXC OR tbl OR vbl)) OR skp OR xhl OR xrn OR vbt OR xmb OR uvb OR lgl OR vgl OR mgl OR hgl OR xlg OR xvg OR xtg OR xhg OR uml OR xts OR xrg OR xuc OR kit OR (gts CLVL<80)) UNI !ID]: %DOT-60%%NAME%
 //Weapons
-ItemDisplay[(ELT OR (EXC QUIVER) OR 9b8 OR amd OR 9m9 OR lbb OR 7fb OR am5 OR 9ar OR scy OR 9s8 OR 8cb OR am5 OR 8sw OR 8cs OR xcl OR 9wc OR 9b7 OR bac OR 6rx OR 7m7 OR 9cl OR mau OR 7ls OR 9ls OR 7sr OR 9ba OR 7wa OR 7gi OR 7pa OR 8ls OR 72a OR 7o7 OR 9yw OR 9fc OR 7bw OR 9kr OR amb OR 7sc OR 7mp OR 6sw OR 8hx OR dgr OR 7dg OR 7bl OR 9ma OR 9wh OR 9gm OR 7s8 OR 7wc OR 9ws OR 7gs OR 9sb OR ywn OR 7wb OR 7sp) UNI !ID]: %PX-60%%NAME%
+ItemDisplay[(ELT OR (EXC QUIVER) OR 9b8 OR amd OR 9m9 OR lbb OR 7fb OR am5 OR 9ar OR scy OR 9s8 OR 8cb OR am5 OR 8sw OR 8cs OR xcl OR 9wc OR 9b7 OR bac OR 6rx OR 7m7 OR 9cl OR mau OR 7ls OR 9ls OR 7sr OR 9ba OR 7wa OR 7gi OR 7pa OR 8ls OR 72a OR 7o7 OR 9yw OR 9fc OR 7bw OR 9kr OR amb OR 7sc OR 7mp OR 6sw OR 8hx OR dgr OR 7dg OR 7bl OR 9ma OR 9wh OR 9gm OR 7s8 OR 7wc OR 9ws OR 7gs OR 9sb OR ywn OR 7wb OR 7sp) UNI !ID]: %DOT-60%%NAME%
 //Sets
-ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0 OR ba5 OR lbt) !(9vo OR xcl OR xrn)) SET !ID]: %PX-84%%NAME%
+ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0 OR ba5 OR lbt) !(9vo OR xcl OR xrn)) SET !ID]: %DOT-84%%NAME%
 
 //Specific Unique and Set Item Failsafe (Super Strict)
 ItemDisplay[UNI !ID (CHEST OR GLOVES OR BOOTS OR ba6 OR dr2 OR cap OR skp OR tbl OR vbl OR kit OR gts OR bwn OR dgr OR am5 OR lbb OR mau OR cst OR wst)]: %NAME%
 ItemDisplay[SET !ID (xap OR stu OR vbt OR tow OR lbt OR lgl OR ci0 OR ba5)]: %NAME%
 
 //Forces All Unique and Set Alerts (Relaxed)
-ItemDisplay[UNI !ID (FILTLVL<2 OR FILTLVL=5)]: %PX-60%%NAME%%GOLD%
-ItemDisplay[SET !ID CLVL<80 (FILTLVL<2 OR FILTLVL=5)]: %PX-84%%NAME%%GREEN%
+ItemDisplay[UNI !ID (FILTLVL<2 OR FILTLVL=5)]: %DOT-60%%NAME%%GOLD%
+ItemDisplay[SET !ID CLVL<80 (FILTLVL<2 OR FILTLVL=5)]: %DOT-84%%NAME%%GREEN%
 
 //Forces All Unique and Set Alerts (Medium+)
-ItemDisplay[UNI !ID CLVL<75 FILTLVL>1 !FILTLVL=5]: %PX-60%%NAME%%GOLD%
-ItemDisplay[SET !ID CLVL<75 FILTLVL>1 !FILTLVL=5]: %PX-84%%NAME%%GREEN%
+ItemDisplay[UNI !ID CLVL<75 FILTLVL>1 !FILTLVL=5]: %DOT-60%%NAME%%GOLD%
+ItemDisplay[SET !ID CLVL<75 FILTLVL>1 !FILTLVL=5]: %DOT-84%%NAME%%GREEN%
 
 //Forces All Undiscovered Unique and Set Items to show for Grail
 ItemDisplay[UNI !ID !ALLDISCOVERED]: %NAME%%GOLD%
@@ -3093,7 +3093,7 @@ ItemDisplay[(aqv OR aqv2 OR aqv3) MAG !ID CLVL<12 FILTLVL~3-4]: %BLUE%%NAME%
 
 //Show Recipes LLD
 ItemDisplay[(dr3 OR dr8 OR ba3 OR ba8 OR pa2 OR pa7 OR crn OR xrn OR bsh OR xsh OR bhm OR xh9 OR wax OR 9wa OR mpi OR 9mp OR fla OR 7fl OR whm OR 9wh OR lsd OR 9ls OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR pik OR 9p9 OR wsc OR 9wc OR glv OR 9gl OR tsp OR 9ts OR ssd OR 9ss OR jav OR 9ja OR gsd OR 9gd OR 9bl OR bld OR aar OR xar OR ltp OR xtp OR wrb OR ces OR axf OR 9wb OR 9cs OR 9xf OR wsp OR 9ws OR am4 OR am9) MAG ETH !ID FILTLVL=5 CLVL>59]: %DOT-4B%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
-ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9xf OR 9ws OR am5 OR ama) MAG !ID FILTLVL=5 CLVL>59]: %PX-4B%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
+ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR 9wb OR 9cs OR 9xf OR 9ws OR am5 OR ama) MAG !ID FILTLVL=5 CLVL>59]: %DOT-4B%%PURPLE%·%BLUE%%NAME%%PURPLE%·%GRAY%{%NAME%}
 
 //Notified
 ItemDisplay[(SHIELD OR CHEST) !NEC MAG ETH !ID (CRAFTALVL>84 OR ((DIFF<2 OR (CLVL<90 FILTLVL<3)) CRAFTALVL>74))]: %DOT-97%%TEAL%·%BLUE%%NAME%%TEAL%·
