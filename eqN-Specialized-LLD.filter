@@ -602,6 +602,7 @@ ItemDisplay[imrn TOWN]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:          %PURPLE%%N
 ItemDisplay[lsvl TOWN]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%-          %PURPLE%%NAME%          %BLUE%-%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%GOLD%Indestructible %WHITE%items cannot be made ethereal.}
 ItemDisplay[llmr TOWN]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%-          %PURPLE%%NAME%          %BLUE%-%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Once an item is %PURPLE%Mirrored %WHITE%it cannot be %GOLD%Cubed%WHITE%.%NL%Not usable on jewels of any kind.%NL%Usable on %BLUE%Magic %WHITE%/ %YELLOW%Rare %WHITE%/ %ORANGE%Crafted %WHITE%items.}
 ItemDisplay[(ivea OR ivez OR iveb OR ived OR iven OR ivep OR ives)]: %MAP-0A%%GOLD%|  %RED%%NAME%  %GOLD%|%RED%{%NAME%}
+ItemDisplay[ear TOWN FILTLVL=5]: %NAME%{%NAME%}
 ItemDisplay[ear]: {%NAME%}
 
 //Crafting Orbs
