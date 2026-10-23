@@ -602,7 +602,6 @@ ItemDisplay[imrn TOWN]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:          %PURPLE%%N
 ItemDisplay[lsvl TOWN]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%-          %PURPLE%%NAME%          %BLUE%-%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%GOLD%Indestructible %WHITE%items cannot be made ethereal.}
 ItemDisplay[llmr TOWN]: %BORDER-9B%%YELLOW%~%PURPLE%|%GOLD%:%BLUE%-          %PURPLE%%NAME%          %BLUE%-%GOLD%:%PURPLE%|%YELLOW%~{%TAN%This item is unbelievably rare.%NL%%NL%%WHITE%Once an item is %PURPLE%Mirrored %WHITE%it cannot be %GOLD%Cubed%WHITE%.%NL%Not usable on jewels of any kind.%NL%Usable on %BLUE%Magic %WHITE%/ %YELLOW%Rare %WHITE%/ %ORANGE%Crafted %WHITE%items.}
 ItemDisplay[(ivea OR ivez OR iveb OR ived OR iven OR ivep OR ives)]: %MAP-0A%%GOLD%|  %RED%%NAME%  %GOLD%|%RED%{%NAME%}
-ItemDisplay[ear FILTLVL=5]: %NAME%{%NAME%}
 ItemDisplay[ear]: {%NAME%}
 
 //Crafting Orbs
@@ -3751,11 +3750,11 @@ ItemDisplay[(ltp OR msk OR bhm OR bsh) !ETH NMAG !INF !RW !SOCK=1 (DIFF<1 OR CLV
 //Rare Item Failsafe
 ItemDisplay[RARE ARMOR !ID]: %NAME%{%NAME%} // LLD or SSF inclusivity
 ItemDisplay[RARE ETH (WEAPON OR ARMOR) !ID]: %NAME%{%NAME%}
-ItemDisplay[((CHEST OR SHIELD OR HELM) ALVL>84) RARE !ID]: %NAME%{%NAME%}
-ItemDisplay[(CHEST OR SHIELD OR HELM) ALVL>74 RARE !ID !FILTLVL=4]: %NAME%{%NAME%}
+ItemDisplay[(CHEST OR SHIELD OR HELM) ALVL>74 RARE !ID]: %NAME%{%NAME%}
+ItemDisplay[RARE !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 FILTLVL~3-4))]: %NAME%{%NAME%}
 ItemDisplay[(QUIVER OR CIRC OR GLOVES OR BOOTS OR BELT OR rin OR amu) RARE !ID]: %NAME%{%NAME%}
-ItemDisplay[(CHEST OR SHIELD OR HELM OR BOW OR XBOW) RARE !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 FILTLVL~3-4))]: %NAME%{%NAME%}
-ItemDisplay[RARE !ETH (MACE OR AXE OR THROWING OR (pik OR 9p9 OR 7p7 OR spt OR 9st OR 7st) OR (POLEARM !(scy OR 9s8 OR 7s8)) OR (SWORD !(sbr OR 9sb OR 7sm OR flc OR 9fc OR 7fc))) !ID ALVL>74]: %NAME%{%NAME%}
+ItemDisplay[RARE !ETH ((BOW !(hbw OR 8hb or 6hb OR cbw OR 8cb OR 6cb)) OR (XBOW !(lxb OR 8lx OR 6lx))) !ID ALVL>74]: %NAME%{%NAME%}
+ItemDisplay[RARE !ETH (MACE OR AXE OR THROWING OR (SPEAR !(spr OR 9sr OR 7sr OR brn OR 9br OR 7br)) OR (POLEARM !(scy OR 9s8 OR 7s8)) OR (SWORD !(sbr OR 9sb OR 7sm OR flc OR 9fc OR 7fc))) !ID ALVL>74]: %NAME%{%NAME%}
 
 //Circlets
 ItemDisplay[CIRC MAG !ID (FILTLVL<3 OR FILTLVL=5)]: %YELLOW%·%BLUE%%NAME%%YELLOW%·%BLUE%{%NAME%}
@@ -4989,7 +4988,7 @@ ItemDisplay[mp4 CLVL>74 FILTLVL>1 !FILTLVL=5]: {%NAME%}
 
 //Strict FINAL
 ItemDisplay[rvs CLVL>74 FILTLVL>2 !FILTLVL=5]: {%NAME%}
-ItemDisplay[WEAPON !(BOW OR XBOW) RARE !ETH !ID !leg CLVL>74 FILTLVL>2 !FILTLVL=5]: {%NAME%}
+ItemDisplay[WEAPON RARE !ETH !ID !leg CLVL>74 FILTLVL>2 !FILTLVL=5]: {%NAME%}
 ItemDisplay[((CHEST OR SHIELD OR HELM) ALVL<75) RARE !ETH !ID CLVL>74 FILTLVL>2 !FILTLVL=5]: {%NAME%}
 
 //Super Strict FINAL
@@ -4997,7 +4996,7 @@ ItemDisplay[NORM NMAG (WEAPON OR ARMOR OR QUIVER) CLVL>59 FILTLVL=4]: {%NAME%}
 ItemDisplay[EXC NMAG (WEAPON OR ARMOR OR QUIVER) CLVL>59 FILTLVL=4]: {%NAME%}
 ItemDisplay[ELT NMAG (WEAPON OR ARMOR OR QUIVER) CLVL>74 FILTLVL=4]: {%NAME%}
 ItemDisplay[MAG (WEAPON OR ARMOR OR QUIVER) CLVL>79 FILTLVL=4]: {%NAME%}
-ItemDisplay[RARE !ETH ALVL<85 (WEAPON OR ARMOR OR QUIVER) CLVL>79 FILTLVL=4]: {%NAME%}
+ItemDisplay[RARE !ETH ALVL<75 (WEAPON OR ARMOR OR QUIVER) CLVL>79 FILTLVL=4]: {%NAME%}
 //ItemDisplay[(UNI OR SET) !ETH NORM (WEAPON OR ARMOR OR QUIVER) CLVL>74 FILTLVL=4]: {%NAME%}
 
 //Shoutout to the following community members for their contributions to loot filters: Wolfie, Mark, Kassahi, BetweenWalls, Cy, and Kanzeon!
