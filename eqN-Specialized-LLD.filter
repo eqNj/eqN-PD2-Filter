@@ -3754,7 +3754,7 @@ ItemDisplay[RARE ETH (WEAPON OR ARMOR) !ID]: %NAME%{%NAME%}
 ItemDisplay[(CHEST OR SHIELD OR HELM) ALVL>74 RARE !ID]: %NAME%{%NAME%}
 ItemDisplay[RARE !ID (FILTLVL<3 OR FILTLVL=5 OR (CLVL<75 FILTLVL~3-4))]: %NAME%{%NAME%}
 ItemDisplay[(QUIVER OR CIRC OR GLOVES OR BOOTS OR BELT OR rin OR amu) RARE !ID]: %NAME%{%NAME%}
-ItemDisplay[RARE !ETH ((BOW !(hbw OR 8hb or 6hb OR cbw OR 8cb OR 6cb)) OR (XBOW !(lxb OR 8lx OR 6lx))) !ID ALVL>74]: %NAME%{%NAME%}
+ItemDisplay[RARE !ETH ((BOW !(hbw OR 8hb OR 6hb OR cbw OR 8cb OR 6cb)) OR (XBOW !(lxb OR 8lx OR 6lx))) !ID ALVL>74]: %NAME%{%NAME%}
 ItemDisplay[RARE !ETH (MACE OR AXE OR THROWING OR (SPEAR !(spr OR 9sr OR 7sr OR brn OR 9br OR 7br)) OR (POLEARM !(scy OR 9s8 OR 7s8)) OR (SWORD !(sbr OR 9sb OR 7sm OR flc OR 9fc OR 7fc))) !ID ALVL>74]: %NAME%{%NAME%}
 
 //Circlets
