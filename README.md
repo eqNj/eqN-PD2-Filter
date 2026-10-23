@@ -162,7 +162,7 @@ Most exceptional and elite magic non-class items for crafting, except for elite 
 
 All rare items always show.
 
-All unique and set items still needed for Grail discovery will always notify and show on the ground.
+All unique and set items still needed for Grail discovery will always show on the ground and notify.
 
 After discovery, only high/mid-value unique and set items will notify on drop, but all unique and set items will still always show on the ground.
 
@@ -189,7 +189,7 @@ All magic items are hidden unless ethereal items for crafting and/or specificall
 Most rare items always show on the ground. The following rare items are hidden: Non-etheral helms, chests, or shields below affix level 75. Non-ethereal weapons without staffmods (with various exceptions).
 (If using the 'Specialized SSF' or 'Specializeed LLD' filter version then all rare armor pieces and select rare non-ethereal weapons will still always show on the ground.)
 
-All unique and set items still needed for Grail discovery will always show on the ground.
+All unique and set items still needed for Grail discovery will always show on the ground and notify.
 
 After discovery, only high-value unique and set items will notify on drop and all unique and set items will still always show on the ground.
 
