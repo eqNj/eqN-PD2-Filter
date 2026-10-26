@@ -128,13 +128,13 @@ Descriptions have been added to almost every quest item and/or utility item in t
 
 ##### Relaxed - Ideal for early ladder where almost anything can be an upgrade and low tier items can be valuable. Also good for "Solo Self Found" / singleplayer, hardcore, and early ladder crafting. This filter level will show you if anything usable, even into the late game, would drop for any class. Period. High gold value items will be indicated at all levels. The Relaxed filter level is for those used to life without one. Those of us who like quality of life improvements but don't want potentially useful items hidden from them. This is the base filter level upon which the following two levels are designed.
 
-##### Medium - Ideal for well geared characters and those who wish to only see more generally useful items. This filter level is also good for those who perfer magic class items that show mostly only be for their current character's class. This filter level still shows you all of the niche runeword bases and the best general crafting bases from the Relaxed level. Crafting bases shown become further class specialized at character level 80. High gold value items stop being indicated at level 75. This filter level finds a happy 'medium' between the Relaxed and Strict filter levels. 
+##### Medium - Ideal for well geared characters and those who wish to only see more generally useful items. This filter level is also good for those who perfer magic class items that show mostly only be for their current character's class (or LLD). This filter level still shows you most of the niche runeword bases and the best general crafting bases from the Relaxed level (when Superior non-ethereal or ethereal). Crafting bases shown become further class specialized at character level 80. High gold value items stop being indicated at level 75. This filter level finds a happy 'Medium' between the Relaxed and Strict filter levels. 
 
-##### Strict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons when they are likely to have a reasonable value in trading. Even at this level, all unique and set items will still always show. Crafting bases shown are only those which are highly sought after. High gold value items stop being indicated at level 75. This filter level is useful for those who regularly run high density maps and are mostly only looking for items that are moderately easy to trade. 
+##### Strict - Ideal for those who partake in high speed mapping, either solo or especially in groups. Tailored to only show non-set/unique armors or weapons when they are capable of having a reasonable value in trading. Even at this level, all unique and set items will still always show. Crafting bases shown are only those which are highly sought after. High gold value items stop being indicated at level 75. This filter level is useful for those who regularly run high density maps and are mostly only looking for items that are moderately easy to trade. 
 
-##### Super Strict - Ideal for those who perfer not picking up nor identifying many items. This is the only filter level that ever hides any unique or set items (normal tier) and flawless gems. Rest assured, however, that unique and set items are still never hidden at this filter level if needed for Grail discovery of if using the LLD or SSF filter versions. This filter level is designed to only show items universally considered worth picking up and/or identifying. Typical crafting bases shown are now only those which drop as rare. High gold value items stop being indicated at level 75. This filter level is useful for speed running maps and/or group dungeons and limits shown drops to only those with the absolute highest potential trade value. 
+##### Super Strict - Ideal for those who perfer not picking up nor identifying many items. This is the only filter level that ever hides any unique or set items (normal tier) and flawless gems (on the All-In-One version). Rest assured, however, that unique and set items are still never hidden at this filter level if needed for Grail discovery of if using the LLD or SSF filter versions. This filter level is designed to only show items universally considered worth picking up and/or identifying. Typical crafting bases shown are now only those which drop as rare. High gold value items stop being indicated at level 75. This filter level is useful for speed running maps and/or group dungeons and limits shown drops to only those with the absolute highest potential trade value. 
 
-##### Show Recipes - This filter level shows all crafting and upgrading recipes on any applicable items. The crafting recipes can be found on magic items and on perfect gems. The upgrade recipes include information about the requirements for upgraded items. This level will also show all runes necessary for runewords on any socketed non-magic (white) items. This level is not recommended for use while item finding as it can be a bit visually noisy, though no more so than most other filters by default. If item finding with this filter level it will never hide anything important. This filter level uses Relaxed as a baseline but it also includes several LLD specific highlights and details. This filter level will show ideal character levels for LLD crafting on most LLD-applicable crafting bases when using the 'eqN - Specialized LLD' filter specifically.
+##### Show Recipes - If item finding with this filter level it will never hide anything important. This filter level uses Relaxed as a baseline but it also includes several LLD specific highlights and details. This filter level shows all crafting and upgrading recipes on any applicable items. The crafting recipes can be found on magic items and on perfect gems. The upgrade recipes include information about the requirements for upgraded items. This level will also show all runes necessary for runewords on any non-magic (white) items with sockets. This filter level will show ideal character levels for LLD crafting on most LLD-applicable crafting bases when using the 'eqN - Specialized LLD' filter specifically.
 
 ###### The differences between these filter levels, relative to the Relaxed filter level as a baseline, are further described below. All of these filter levels share a similar leveling experience prior to character level 75.
 
@@ -186,8 +186,8 @@ Non-magic (white) items are almost all hidden, unless superior elite bases for r
 
 All magic items are hidden unless ethereal items for crafting and/or specifically useful for the class you are playing.
 
-Most rare items always show on the ground. The following rare items are hidden: Non-etheral helms, chests, or shields below affix level 75. Non-ethereal weapons without staffmods (with various exceptions).
-(If using the 'Specialized SSF' or 'Specializeed LLD' filter version then all rare armor pieces and select rare non-ethereal weapons will still always show on the ground.)
+Most rare items always show on the ground. The following rare items are hidden: Non-etheral helms, chests, or shields below ILVL 85+ (unless in Hell Travincal). Non-ethereal weapons without staffmods (with various exceptions).
+(If using the 'Specialized SSF' or 'Specializeed LLD' filter version then all rare armor pieces and select rare ILVL 85+ non-ethereal weapons will still always show on the ground.)
 
 All unique and set items still needed for Grail discovery will always show on the ground and notify.
 
@@ -219,8 +219,8 @@ Non-magic (white) items are almost all hidden, unless highly sought after bases 
 All magic items are hidden unless specifically useful for the class you are playing or particular ethereal weapons and armor.
 (If using the 'Specialized LLD' filter version then all LLD crafting bases will still always show on the ground.)
 
-Most rare items always show on the ground. The following rare items are hidden: Non-etheral helms, chests, or shields below affix level 75. Non-ethereal weapons without staffmods.
-(If using the 'Specialized SSF' or 'Specializeed LLD' filter version then all rare armor pieces and select rare non-ethereal weapons will still always show on the ground.)
+Most rare items always show on the ground. The following rare items are hidden: Non-etheral helms, chests, or shields below ILVL 85+ (unless in Hell Travincal). Non-ethereal weapons without staffmods.
+(If using the 'Specialized SSF' or 'Specializeed LLD' filter version then all rare armor pieces and select rare ILVL 85+ non-ethereal weapons will still always show on the ground.)
 
 All unique and set items still needed for Grail discovery will always show on the ground.
 
@@ -665,7 +665,7 @@ Reduced the number of notifications on the Strict filter level for runeword base
 
 Updated Gheed event with new uniques on applicable items. [1.9.1]
 
-Added extra highlights to Rare ALVL 85+ Chests/Shields and ALVL 90+ Amulets. [1.9.1]
+Added extra highlights to Rare ALVL 75+ Chests/Shields/Helms when capable of their respective maximum sockets and ALVL 90+ Amulets. [1.9.1]
 
 ## 1.10.0 - (Season 11)
 
