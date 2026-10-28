@@ -3317,6 +3317,7 @@ ItemDisplay[am5 ETH NMAG !INF !RW TABSK2>2 !SOCK=1 AMAZON CLVL<75]: %NAME%{%NAME
 ItemDisplay[ama ETH NMAG !INF !RW TABSK2>1 !SOCK=1 AMAZON CLVL<75]: %NAME%{%NAME%} // Etheral Ceremonial Javelins (Leveling)
 ItemDisplay[amf ETH NMAG !INF !RW TABSK2>0 !SOCK=1 AMAZON (CLVL<75 OR TABSK2>2)]: %DOT-D6%%NAME%{%NAME%} // Etheral Matriarchal Javelins (Amazon)
 ItemDisplay[amf ETH NMAG !INF !RW TABSK2>2 !SOCK=1 (FILTLVL<3 OR FILTLVL=5 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL=3) OR (ED>14 FILTLVL=4))]: %DOT-D6%%NAME%{%NAME%} // Etheral Matriarchal Javelins
+ItemDisplay[amf !ETH NMAG !INF !RW TABSK2>2 !SOCK=1 (FILTLVL<2 OR FILTLVL=5 OR (((ED>3 ARPER>9) OR ED>9 OR AMAZON) FILTLVL=2) OR (ED>14 FILTLVL~3-4))]: %NAME%{%NAME%} // Non-Etheral Matriarchal Javelins
 ItemDisplay[ELT THROWING !(ZON TABSK2<3) ETH NMAG !INF !RW !SOCK=1 (FILTLVL<3 OR FILTLVL=5 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL=3) OR (ED>14 FILTLVL=4))]: %NAME%{%NAME%} // Ethereal Elite Throwing Weapons
 ItemDisplay[EXC THROWING !(ZON TABSK2<3) ETH NMAG !INF !RW BARBARIAN !SOCK<2 CLVL<85]: %NAME%{%NAME%} // Exceptional Throwing Weapons for Barbarians (Leveling)
 ItemDisplay[NORM THROWING !(ZON TABSK2<3) ETH NMAG !INF !RW BARBARIAN !SOCK<2 CLVL<65]: %NAME%{%NAME%} // Normal Throwing Weapons for Barbarians (Leveling)
