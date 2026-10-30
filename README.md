@@ -186,8 +186,7 @@ Non-magic (white) items are almost all hidden, unless superior elite bases for r
 
 All magic items are hidden unless ethereal items for crafting and/or specifically useful for the class you are playing.
 
-Most rare items always show on the ground. The following rare items are hidden: Non-etheral helms, chests, or shields below ILVL 85+ (unless in Hell Travincal). Non-ethereal weapons without staffmods (with various exceptions).
-(If using the 'Specialized SSF' or 'Specializeed LLD' filter version then all rare armor pieces and select rare ILVL 85+ non-ethereal weapons will still always show on the ground.)
+Most rare items always show on the ground. The following rare items are hidden: Non-ethereal weapons below ILVL 85 or ALVL 75 without staffmods (with various exceptions).
 
 All unique and set items still needed for Grail discovery will always show on the ground and notify.
 
@@ -219,8 +218,8 @@ Non-magic (white) items are almost all hidden, unless highly sought after bases 
 All magic items are hidden unless specifically useful for the class you are playing or particular ethereal weapons and armor.
 (If using the 'Specialized LLD' filter version then all LLD crafting bases will still always show on the ground.)
 
-Most rare items always show on the ground. The following rare items are hidden: Non-etheral helms, chests, or shields below ILVL 85+ (unless in Hell Travincal). Non-ethereal weapons without staffmods.
-(If using the 'Specialized SSF' or 'Specializeed LLD' filter version then all rare armor pieces and select rare ILVL 85+ non-ethereal weapons will still always show on the ground.)
+Most rare items always show on the ground. The following rare items are hidden: Non-ethereal weapons below ILVL 85 or ALVL 75 without staffmods.
+(If using the 'Specialized SSF' or 'Specializeed LLD' filter version then the majority of rare non-ethereal weapons will still always show on the ground.)
 
 All unique and set items still needed for Grail discovery will always show on the ground.
 

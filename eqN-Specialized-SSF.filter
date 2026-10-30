@@ -485,10 +485,10 @@ ItemDisplay[cm3 UNI !ID]: %SOUNDID-3912%%BORDER-62%%RED%(%GOLD%~%RED%:%GOLD%~   
 //ItemDisplay[cm3 !UNI ((MANA>30 OR RES>9 OR MAXDMG>7 OR AR>79) (LIFE>17 OR DEX>5 OR STR>5 OR FRW>0 OR FHR>0)) LVLREQ<31]: %PURPLE%« %BLUE%%NAME% %PURPLE%»%BLUE%{%NAME%}
 
 //Note on High ILVL Charms
-ItemDisplay[cm1 MAG ID ILVL>89 (FILTLVL<2 OR FILTLVL=5)]: %NAME%{%TAN%Ideal Reroll Charm}
-ItemDisplay[cm2 MAG ID ILVL>89 (FILTLVL<2 OR FILTLVL=5)]: %NAME%{%TAN%Ideal Reroll Charm}
-ItemDisplay[cm3 MAG ID ILVL=90 (FILTLVL<2 OR FILTLVL=5)]: %NAME%{%TAN%Good Reroll Charm}
-ItemDisplay[cm3 MAG ID ILVL>90 (FILTLVL<2 OR FILTLVL=5)]: %NAME%{%TAN%Ideal Reroll Charm}
+ItemDisplay[cm1 MAG ID ILVL>89]: %NAME%{%TAN%Ideal Reroll Charm}
+ItemDisplay[cm2 MAG ID ILVL>89]: %NAME%{%TAN%Ideal Reroll Charm}
+ItemDisplay[cm3 MAG ID ILVL=90]: %NAME%{%TAN%Good Reroll Charm}
+ItemDisplay[cm3 MAG ID ILVL>90]: %NAME%{%TAN%Ideal Reroll Charm}
 
 //----------------------------------------- Socketables --------------------------------------------
 
@@ -588,7 +588,7 @@ ItemDisplay[jewf]: %PURPLE%~ %BLUE%%NAME% %PURPLE%~%BLUE%{%WHITE%Functions ident
 
 //Misc. Project Diablo 2 Items
 ItemDisplay[iwss]: %MAP-4B%%GOLD%|  %PURPLE%%NAME%  %GOLD%|%PURPLE%{%TAN%the source of the catalyst?%NL%What does it matter,%NL%A series of vibrations.}
-ItemDisplay[wss]: %MAP-E1%%NAME%{%RED%Warning%WHITE%: This can brick your item%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
+ItemDisplay[wss]: %MAP-E1%%NAME%{%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
 ItemDisplay[lmal]: %GRAY%:  %GOLD%%NAME%  %GRAY%:%GOLD%{%RED%Corruption %WHITE%and/or %GOLD%Puzzlepieces %WHITE%could result higher.%NL%}
 ItemDisplay[lpp !TOWN]: %BORDER-0B%%YELLOW%|%GRAY%:    %GOLD%%NAME%    %GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
 ItemDisplay[lpp TOWN]: %YELLOW%|%GRAY%:    %GOLD%%NAME%    %GRAY%:%YELLOW%|%GOLD%{%RED%Corruption %WHITE%could result higher%NL%2-Handed: 2 to 4 Sockets%NL%Armor/1-Handed: 1 to 2 Sockets%NL%%NL%%WHITE%Adds a variable amount of %TAN%sockets %WHITE%to an item.}
@@ -677,7 +677,7 @@ ItemDisplay[rtmo !TOWN]: %SOUNDID-232%%BORDER-90%%WHITE%:%BLUE%|%PURPLE%:      %
 ItemDisplay[rtmv !TOWN]: %SOUNDID-2610%%BORDER-90%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Trang-Oul's Jawbone %WHITE%& %ORANGE%Hellfire Ashes%NL%%GOLD%Cube %WHITE%this item with the following:%NL%}
 ItemDisplay[rtmo TOWN]: %BORDER-90%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Splinter of the Void %WHITE%& %ORANGE%Hellfire Ashes%NL%%GOLD%Cube %WHITE%this item with the following:%NL%}
 ItemDisplay[rtmv TOWN]: %BORDER-90%%WHITE%:%BLUE%|%PURPLE%:     %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Trang-Oul's Jawbone %WHITE%& %ORANGE%Hellfire Ashes%NL%%GOLD%Cube %WHITE%this item with the following:%NL%}
-ItemDisplay[cwss]: %BORDER-9B%%WHITE%:%BLUE%|%PURPLE%:      %RED%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%RED%{%RED%Warning%WHITE%: This can brick your %GOLD%Anni%NL%%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
+ItemDisplay[cwss]: %BORDER-9B%%WHITE%:%BLUE%|%PURPLE%:      %RED%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%RED%{%WHITE%Use this to %RED%Corrupt %WHITE%an %GOLD%Annihilus%NL%%NL%%TAN%Opened the Eye of Anu%NL%From the Heart of the World}
 ItemDisplay[cm2f]: %BLUE%|%PURPLE%:   %ORANGE%%NAME%   %PURPLE%:%BLUE%|%ORANGE%{%WHITE%to create a %RED%Voidstone%NL%%ORANGE%Splinter of the Void %WHITE%& %ORANGE%Trang-Oul's Jawbone%NL%%GOLD%Cube %WHITE%this item with the following:%NL%}
 ItemDisplay[rtma STAT185=0]: %BORDER-97%%WHITE%:%BLUE%|%PURPLE%:      %ORANGE%%NAME%      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%BLUE%TIer: 0%NL%%DARK_GREEN%Easy Difficulty%NL%%NL%%WHITE%Alas, %ORANGE%Rathma %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A trinity of entry to whomst congregate:}
 ItemDisplay[rtma STAT185=1]: %BORDER-97%%WHITE%:%BLUE%|%PURPLE%:      %RED%+%ORANGE%%NAME%%RED%+      %PURPLE%:%BLUE%|%WHITE%:%ORANGE%{%TAN%Moderate Difficulty%NL%%NL%%WHITE%Alas, %ORANGE%Rathma %WHITE%shall determine %GRAY%your fate...%NL%%WHITE%A singularity of entry to whomst congregate:}
@@ -3325,7 +3325,7 @@ ItemDisplay[NORM THROWING !(ZON TABSK2<3) ETH NMAG !INF !RW BARBARIAN !SOCK<2 CL
 //Bows/Crossbows
 ItemDisplay[BOW NMAG !INF !RW TABSK0>2 !SOCK=1 !(SOCK=2 CLVL>29) AMAZON CLVL<75]: %DOT-D6%%NAME%{%NAME%} // Amazon Bows (Leveling)
 ItemDisplay[BOW NMAG !INF !RW TABSK0>2 !SOCK=1 !(SOCK=2 CLVL>59) AMAZON]: %NAME%{%NAME%} // Amazon Bows
-ItemDisplay[BOW NMAG !INF !RW TABSK0>2 !SOCK=1 !(SOCK=2 CLVL>29) (FILTLVL<2 OR FILTLVL=5)]: %NAME%{%NAME%} // Amazon Bows
+ItemDisplay[BOW NMAG !INF !RW TABSK0>2 !SOCK=1 !(SOCK=2 CLVL>29) (FILTLVL<2 OR (ARPER>9 FILTLVL=2) OR (ARPER>19 FILTLVL=3) OR FILTLVL=5)]: %NAME%{%NAME%} // Amazon Bows
 ItemDisplay[(6l7 OR 6lw OR 6hx) NMAG !INF !RW (SOCK=0 OR SOCK=6) (((ED>7 ARPER>9) OR (ED>11 (FILTLVL<3 OR FILTLVL=5))) OR (ED>14 FILTLVL~3-4))]: %DOT-D6%%NAME%{%NAME%} // Superior Asylum Bows & Crossbow
 ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=0 OR SOCK=4 OR SOCK=5) (FILTLVL<3 OR FILTLVL=5 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL=3) OR (ED>14 FILTLVL=4))]: %DOT-D6%%NAME%{%NAME%} // 0 / 4 / 5 Socket Elite Amazon Bows
 ItemDisplay[(amc OR amb) NMAG !INF !RW TABSK0>2 (SOCK=2 OR SOCK=3 OR SOCK=6) (FILTLVL<3 OR FILTLVL=5 OR (((ED>3 ARPER>9) OR ED>7) FILTLVL=3) OR (ED>14 FILTLVL=4))]: %NAME%{%NAME%} // 2 / 3 / 6 Socket Elite Amazon Bows
@@ -4999,7 +4999,6 @@ ItemDisplay[mp4 CLVL>74 FILTLVL>1 !FILTLVL=5]: {%NAME%}
 //Strict FINAL
 ItemDisplay[rvs CLVL>74 FILTLVL>2 !FILTLVL=5]: {%NAME%}
 ItemDisplay[WEAPON RARE !ETH !ID !leg CLVL>84 !MAPID=83 FILTLVL>2 !FILTLVL=5]: {%NAME%}
-ItemDisplay[(CHEST OR SHIELD OR HELM) (ILVL<85 OR ALVL<75) !MAPID=83 RARE !ETH !ID CLVL>84 FILTLVL>2 !FILTLVL=5]: {%NAME%}
 
 //Super Strict FINAL
 ItemDisplay[NORM NMAG (WEAPON OR ARMOR OR QUIVER) CLVL>59 FILTLVL=4]: {%NAME%}
